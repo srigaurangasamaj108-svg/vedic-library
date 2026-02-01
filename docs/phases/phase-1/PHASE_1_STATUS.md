@@ -2,77 +2,66 @@
 ## Vedic Library Project
 
 **Phase:** 1 — Bhagavad-gītā Pilot (Reading Interface)  
-**Current Status:** NOT_STARTED  
-**Version Target:** v1.0-pilot  
+**Version:** v1.0-pilot  
+**Status:** COMPLETE & LOCKED
 
 ---
 
-## Status Summary
+## Summary
 
-Phase 1 has **not yet begun**.
+Phase 1 has been successfully completed.
 
-No frontend framework has been initialized.
-No UI code has been written.
-No visual rendering exists at this time.
-
-This is intentional and correct.
+A calm, faithful, read-only Bhagavad-gītā reader now exists,
+fully governed by the architectural and ethical foundations
+established in Phase 0.
 
 ---
 
-## Preconditions
+## What Phase 1 Delivered
 
-Phase 1 is authorized to begin because:
-
-- Phase 0 is formally completed and locked
-- Canonical data is finalized and validated
-- Editorial Units are stable
-- Derivative layers are complete and validated
-- Verse Index is present and validated
-- Pipeline registry is locked
-- Schema contracts are defined
-- Validators are passing
-
-All architectural prerequisites are satisfied.
+- Canonical Sanskrit (Devanāgarī)
+- IAST transliteration
+- Word-for-word synonyms
+- English translation
+- English purport (Śrīla Prabhupāda)
+- Editorial-unit–governed grouping
+- Verse-by-verse linear navigation
+- Calm, distraction-free UI
+- Strict respect for data authority and silence-on-absence
 
 ---
 
-## What Has *Not* Happened Yet
+## What Phase 1 Explicitly Excludes
 
-The following have **not** been done:
+- Search
+- User accounts
+- Donations
+- Analytics
+- AI features
+- Multiple ācāryas
+- Learning paths or progress tracking
+- Personalization or recommendations
 
-- Next.js installation
-- Frontend project initialization
-- UI component creation
-- Routing implementation
-- Styling or typography decisions
-
-This ensures Phase 1 begins **cleanly**, without technical debt or confusion.
-
----
-
-## Authorization Boundary
-
-Phase 1 may proceed only with work that:
-
-- Respects Phase-0 architecture
-- Follows the Phase-1 tasklist exactly
-- Avoids all explicitly excluded features
-- Maintains read-only discipline
-
-Any work outside this scope belongs to a later phase.
+These belong to later phases only.
 
 ---
 
-## Next Action
+## Lock Declaration
 
-When ready, Phase 1 may begin with:
+Phase 1 is now **feature-frozen**.
 
-> Initializing the frontend project inside `/frontend`
-> according to `PHASE_1_TASKLIST.md`.
-
-Until that point, Phase 1 remains **NOT_STARTED** by design.
+Any change to behavior, scope, or ethics
+requires a new phase or a formal amendment
+to the project constitution.
 
 ---
 
-**Declared in calm readiness.**
+## Closing Statement
+
+Phase 1 proved that a digital interface
+can serve śāstra without distorting it.
+
+This phase is complete.
+
+🕉️
 
