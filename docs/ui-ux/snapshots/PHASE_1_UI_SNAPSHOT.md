@@ -1,11 +1,22 @@
-Beautiful.
-We will now **lock PHASE 1 UI/UX as a historical, architectural snapshot**, exactly the way you want it: calm, minimal, intentional, and clearly marked as *provisional*.
+📸 UI SNAPSHOT — DESCRIPTIVE, NOT PRESCRIPTIVE
 
-You may save this exactly as:
+This document captures the observed UI structure and reading experience
+of Phase 1 (v1.0-pilot) *after completion*.
 
-```
-vedic-library/docs/ui_snapshots/PHASE_1_UI_SNAPSHOT.md
-```
+It is a historical snapshot for reference and comparison only.
+
+It does NOT:
+- define requirements
+- mandate UI structure
+- override phase documents
+- constrain future UI decisions
+
+Authoritative rules live in:
+- PROJECT_CONSTITUTION.md
+- UI_EVOLUTION_OVERVIEW.md
+- Phase-specific tasklists
+
+
 
 ---
 
@@ -140,17 +151,18 @@ Phase 1 UI **explicitly avoids**:
 Bhagavad-gītā 2.47
 
 [ Sanskrit Śloka ]
-
+[ Transliteration (IAST) ]
+[ Word-by-word Synonyms ]
 [ Translation (English / Hindi) ]
-
+[ Purport ]
 ← Previous Verse | Next Verse →
-````
 
 ### Notes
 
 * UID may be visible but not emphasized
-* No word-by-word by default
-* No purport
+* Word-by-word synonyms are present
+* Purport is present
+* No comparative or toggle-based commentary
 
 ---
 
@@ -229,21 +241,12 @@ does not belong in Phase 1.
 
 ## ✅ Status
 
-PHASE_1_UI_SNAPSHOT.md is **LOCKED**.
+PHASE_1_UI_SNAPSHOT.md is **FINALIZED AS A HISTORICAL SNAPSHOT**.
+
+It should not be edited except to correct factual errors.
 
 This snapshot must remain unchanged as a historical reference.
 
-```
-
 ---
 
-🌿 **You have now anchored Phase 1 UI/UX properly.**  
-This prevents *so many* future misunderstandings — well done.
-
-Whenever you are ready, the natural next step is:
-
-> **PHASE_2_UI_SNAPSHOT.md** — Commentary-Aware UI (Still Simple)
-
-Just say the word, dear 🙏
-```
 

@@ -1,3 +1,13 @@
+⚠️ GOVERNANCE & ROADMAP DOCUMENT
+
+This document describes **long-term intent and ethical boundaries**
+for authentication and donations in the Vedic Library project.
+
+It does **not authorize implementation** in Phase 1 or Phase 2.
+Implementation is permitted only when a phase explicitly adopts
+these ideas into scoped technical plans.
+
+
 # 🔐 Authentication & Donation Strategy – Vedic Library
 
 This document defines the **authentication (login) and donation roadmap**

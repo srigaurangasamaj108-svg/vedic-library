@@ -1,7 +1,9 @@
-# 🌐 Language Toggle Guide – English ↔ Hindi (Phase 1)
+# 🌐 Language Axis & UI State Contract
 
-This document explains **exactly how to implement language switching**
-for the **Bhagavad-gītā pilot** in the Vedic Library project.
+This document defines how **language is represented, constrained,
+and rendered** in the Vedic Library UI.
+
+It is **not phase-bound** and applies across all present and future phases.
 
 This guide is **Phase 1–safe**:
 - No backend
@@ -42,7 +44,15 @@ By the end of this guide:
 
 4. **Default language = English**
 
+
+
 ---
+
+⚠️ Code examples in this document are **illustrative only**.
+
+Actual implementations must respect current architectural boundaries
+(e.g., server components, loader abstraction, read-only discipline).
+
 
 ## 2. Define Supported Languages
 
@@ -217,6 +227,10 @@ Refresh page (language resets to English)
 ✔ This is expected behavior in Phase 1.
 
 11. Phase 1 Limitations (By Design)
+
+The following limitations describe **current capabilities**, not changes
+to the underlying language architecture.
+
 Language not persisted
 
 No cookies

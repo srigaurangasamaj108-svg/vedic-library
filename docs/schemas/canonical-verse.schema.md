@@ -1,161 +1,332 @@
-# Canonical Verse Schema
-## vedic-library.canonical.verse @ 1.0.0
+docs/schemas/canonical-verse.schema.md
 
-This document defines the **structural schema** for a canonical verse
-in the Vedic Library.
+This version is written to be:
 
-It specifies **what fields exist** and **how they are shaped**.
-Rules for how canonical content is *constructed* are defined separately
-in `CANONICAL_TEXT_POLICY.md`.
+binding (no ambiguity)
 
----
+educational (for a serious learner, not just implementers)
 
-## Schema Identity
+strictly aligned with:
 
-- **Schema name:** `vedic-library.canonical.verse`
-- **Schema version:** `1.0.0`
-- **Granularity:** One file = one verse
+CANONICAL_TEXT_POLICY.md
 
----
+CANONICAL_UNIT_DEFINITION.md
 
-## Top-Level Structure
+SCHEMA_OPTIONALITY_RULES.md
 
-```json
-{
-  "uid": "string",
-  "work": { ... },
-  "location": { ... },
-  "text": { ... },
-  "transliteration": { ... },
-  "source": { ... },
-  "schema": { ... }
+UID_SYSTEM.md
+
+DATA_SCHEMA.md
+
+stable for decades, with clearly defined evolution rules
+
+I am intentionally verbose and precise. This schema is foundational.
+
+📜 Canonical Verse Schema
+vedic-library.canonical.verse
+0. Purpose of This Schema
+
+This document defines the exact structural contract for a canonical verse in the Vedic Library system.
+
+A canonical verse represents:
+
+A primary, metrically discrete śāstric unit
+that carries authority by position, not by interpretation.
+
+This schema answers:
+
+What fields a canonical verse file MUST contain
+
+What fields it MUST NOT contain
+
+How identity, text, and provenance are represented
+
+How this unit scales across the entire Vedic corpus
+
+1. What a Canonical Verse Is (And Is Not)
+1.1 Definition
+
+A canonical verse is:
+
+a śloka, gāthā, kārikā, or metrical unit
+
+identified by structural position
+
+independent of language, commentary, or audience
+
+1.2 A Canonical Verse Is NOT
+
+a translation
+
+a commentary
+
+a pedagogical unit
+
+a UI renderable block
+
+a knowledge abstraction
+
+Those belong to editorial or semantic layers.
+
+2. Schema Identity
+"schema": {
+  "name": "vedic-library.canonical.verse",
+  "version": "1.0.0"
 }
-All top-level fields are required.
 
-Field Definitions
-1. uid (string, required)
-A globally unique, stable identifier for the verse.
+Rules
 
-Format (Bhagavad-gītā example):
+Every canonical verse file MUST declare this schema block
 
-php-template
-Copy code
-bg.<chapter>.<verse>
-Example:
+Schema version binds the file permanently
 
-json
-Copy code
-"uid": "bg.13.12"
-2. work (object, required)
-Identifies the canonical position of the verse in the Vedic corpus.
+Any structural change requires a new schema version
 
-json
-Copy code
+3. Canonical Identity (UID)
+3.1 UID Field
+"uid": "bg.2.13"
+
+Rules
+
+UID is mandatory
+
+UID is globally unique
+
+UID encodes location only
+
+UID NEVER encodes:
+
+language
+
+author
+
+sampradāya
+
+commentary
+
+edition
+
+UID rules are governed by:
+👉 UID_SYSTEM.md
+👉 UID_REFINEMENT_RULES.md
+
+4. Work Declaration (Canonical Placement)
+4.1 Purpose
+
+The work object declares where this verse lives in the corpus, not how it is interpreted.
+
 "work": {
   "corpus": "itihasa",
   "text": "mahabharata",
   "section": "bhisma-parva",
   "subwork": "bhagavad-gita"
 }
-All fields are required.
 
-3. location (object, required)
-Numeric verse location within the work.
+4.2 Field Semantics
+Field	Meaning
+corpus	Highest canonical shelf (śruti, smṛti, itihāsa…)
+text	Named śāstra
+section	Major structural division (if applicable)
+subwork	Named internal work (if applicable)
+Rules
 
-json
-Copy code
+All four fields exist structurally
+
+Some may be null if not applicable
+
+Values come from controlled vocabularies
+
+No aliases, abbreviations, or UI labels allowed
+
+This prevents:
+
+corpus drift
+
+naming confusion
+
+future reclassification errors
+
+5. Location Object (Structural Position)
 "location": {
-  "chapter": 13,
-  "verse": 12
+  "chapter": 2,
+  "verse": 13
 }
-Values MUST be integers
 
-Chapter/verse identity MUST NOT be inferred from text content
+Rules
 
-4. text (object, required)
-Canonical Sanskrit text in Devanāgarī script.
+All values MUST be integers
 
-json
-Copy code
+Location is structural metadata
+
+Verse identity MUST NOT be inferred from text content
+
+Word-based labels (adhyāya, pāda, sarga…) are not stored here
+
+Why?
+
+Because words change. Numbers endure.
+
+6. Canonical Text Block (Primary Authority)
+6.1 Text Object
 "text": {
   "script": "devanagari",
-  "content": "…"
+  "content": "धर्मक्षेत्रे कुरुक्षेत्रे … ॥ १३ ॥"
 }
-script is fixed to "devanagari"
 
-content contains the verse text
+Rules (Non-Negotiable)
 
-Verse markers MAY be present as defined by canonical policy
+script MUST be "devanagari"
 
-5. transliteration (object, required)
-Canonical-aligned IAST transliteration.
+content MUST contain:
 
-json
-Copy code
+normalized Sanskrit text
+
+exactly ONE verse
+
+exactly ONE verse marker
+
+Arabic numerals MUST NOT appear
+
+Line breaks are permitted
+
+Punctuation is normalized by policy
+
+Why Devanāgarī?
+
+Because canonical authority is preserved by scriptual primacy.
+Other scripts are derivatives, not equals.
+
+This is governed by:
+👉 CANONICAL_TEXT_POLICY.md
+
+7. Transliteration Block (Canonical-Aligned)
 "transliteration": {
   "scheme": "iast",
-  "content": "…"
+  "content": "dharma-kṣetre kuru-kṣetre … || 13 ||"
 }
-Generated mechanically from Devanāgarī
 
-No interpretive changes permitted
+Rules
 
-Verse markers MAY be present as defined by canonical policy
+Transliteration is mandatory
 
-6. source (object, required)
-Provenance and pipeline metadata.
+Must be mechanically generated
 
-json
-Copy code
+Must correspond 1-to-1 with Devanāgarī
+
+Must contain exactly ONE verse marker
+
+Must never introduce interpretation
+
+IAST is canonical-aligned, not canon itself.
+
+8. Source & Provenance (Auditability)
 "source": {
   "pipeline": "bhagavad-gita",
   "stage": "2.5",
-  "script": "s25_realign_iast_bg.py",
+  "script": "s25_normalize_bg.py",
   "script_version": "2.2.0",
   "derived_from": [
-    "vedabase/raw-json/bg-13-12.json"
+    "vedabase/raw/bg-2-13.json"
   ]
 }
-Documents how this canonical verse was produced
 
-Required for auditability and reproducibility
+Purpose
 
-7. schema (object, required)
-Schema declaration.
+This block ensures:
 
-json
-Copy code
-"schema": {
-  "name": "vedic-library.canonical.verse",
-  "version": "1.0.0"
-}
-This binds the file to this schema definition.
+reproducibility
 
-Stability Guarantee
-Once a canonical verse file conforms to this schema and is declared
-locked, it MUST NOT be modified.
+scholarly trust
 
-Any future improvements require:
+future re-derivation
 
-A new canonical pipeline version, or
+Rules
 
-A new schema version
+Required for every canonical verse
 
-Canonical stability is mandatory.
+Must reflect actual pipeline history
 
-yaml
-Copy code
+Must never include human interpretation
 
----
+9. What This Schema Explicitly Forbids
 
-## Final clarification (important)
+A canonical verse file MUST NOT contain:
 
-- ❌ The file was **not missing due to an error**
-- ✅ It simply hadn’t been *materialized yet*
-- ✅ Now is the **perfect moment** to create it, because:
-  - Stage-2.5 is locked
-  - Canonical policy is finalized
-  - No churn remains
+❌ translations
+❌ synonyms
+❌ commentary
+❌ gloss
+❌ principles
+❌ skills
+❌ entities
+❌ guidance
+❌ UI hints
+❌ language toggles
 
----
+Violations invalidate canonical status.
 
+10. Relationship to Other Canonical Schemas
+
+This schema applies ONLY to:
+
+metrical verse units
+
+Other canonical units use different schemas:
+
+Unit	Schema
+Sūtra	canonical-sutra.schema.md
+Mantra	canonical-mantra.schema.md
+Ritual injunction	canonical-ritual-unit.schema.md
+Lexeme	canonical-lexeme.schema.md
+
+Never force a verse into the wrong schema.
+
+11. Optionality Rules (Strict)
+
+This schema follows:
+
+👉 SCHEMA_OPTIONALITY_RULES.md
+
+Summary:
+
+uid, work, location, text, transliteration, source, schema → MANDATORY
+
+No optional canonical fields exist in v1.0.0
+
+Canonical minimalism is intentional.
+
+12. Stability & Locking
+
+Once a verse file:
+
+conforms to this schema
+
+passes validation
+
+is declared locked
+
+Then:
+
+It MUST NEVER be modified.
+
+Improvements require:
+
+new pipeline
+
+new schema version
+
+new canonical layer
+
+13. Status
+
+Category: LOCKED ARCHITECTURAL CONTRACT
+
+Scope: All śāstra with verse units
+
+Change policy: Versioned only
+
+14. Closing Principle
+
+A canonical verse is not information.
+It is positionally preserved truth.
+Everything else may grow around it — never inside it.

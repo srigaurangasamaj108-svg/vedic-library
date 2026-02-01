@@ -1,3 +1,13 @@
+ℹ️ PROJECT OVERVIEW DOCUMENT
+
+This document provides a high-level, reader-oriented overview of the
+Vedic Library project.
+
+It is intentionally non-technical and applies across all phases.
+Technical details, architectural contracts, and phase constraints
+are defined in their respective documents.
+
+
 # 📚 About the Vedic Library Project
 
 **Vedic Library** is a long-term digital initiative dedicated to the faithful preservation, presentation, and study of Vedic literature.

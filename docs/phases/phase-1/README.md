@@ -109,3 +109,12 @@ For formal declarations, see:
 🕉️ *Phase 1 is not about building features.*  
 *It is about protecting the act of reading.*
 
+## Related Architecture:
+
+See `docs/architecture/DATA_LOADING_ABSTRACTION_STRATEGY.md`
+for the system-wide data abstraction contract.
+
+
+Early frontend bootstrap notes are preserved in the archive
+for historical context.
+

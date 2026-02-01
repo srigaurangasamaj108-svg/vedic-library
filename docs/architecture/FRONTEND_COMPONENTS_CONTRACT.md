@@ -1,4 +1,9 @@
-# 🧩 Frontend Components Guide – Phase 1 (Full Component Code)
+# 🧩 Frontend Components Contract
+
+This document defines the **component responsibility contract**
+for the Vedic Library frontend.
+
+It is **not phase-bound** and applies across all present and future phases.
 
 This document provides the **exact React component implementations**
 used in **Phase 1** of the Vedic Library frontend.
@@ -198,6 +203,14 @@ export default function LanguageToggle({ language, onChange }: Props) {
     </div>
   );
 }
+
+⚠️ The following example is **illustrative only**.
+
+Actual implementations must obtain data exclusively through the
+approved loader abstraction (`loadVerse`) and must not inline data
+or bypass architectural boundaries.
+
+
 9. Example Usage in page.tsx
 tsx
 Copy code

@@ -1,3 +1,17 @@
+⚠️ HISTORICAL DOCUMENT — DO NOT FOLLOW LITERALLY
+
+This document records an early Phase-1 bootstrap approach to setting up
+the frontend.
+
+It does NOT reflect the final Phase-1 implementation and is preserved
+solely for historical and educational context.
+
+Refer instead to:
+- PHASE_1_TASKLIST.md
+- PHASE_1_SUCCESS_DEFINITION.md
+- Architecture documents under docs/architecture/
+
+
 # 🚀 Frontend Implementation Guide – Phase 1 (Next.js Setup)
 
 This document guides you through the **first actual coding step** of the Vedic Library project:

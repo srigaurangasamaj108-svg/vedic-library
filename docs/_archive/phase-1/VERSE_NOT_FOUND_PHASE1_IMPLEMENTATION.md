@@ -1,4 +1,13 @@
-Perfect. This will be tiny, calm, and Phase-1-safe.
+⚠️ HISTORICAL PHASE-1 IMPLEMENTATION
+
+This document records the exact “Verse Not Found” handling logic
+used in Phase-1 of the Vedic Library (Bhagavad-gītā pilot).
+
+It is preserved for reference and historical accuracy.
+It is not an architectural contract and may evolve in later phases.
+
+
+This will be tiny, calm, and Phase-1-safe.
 No backend, no redirects, no drama.
 
 ✅ Goal

@@ -1,4 +1,15 @@
-Perfect. Below is small, clean, Phase-1-safe Verse Navigation code.
+⚠️ HISTORICAL PHASE-1 IMPLEMENTATION
+
+This document records the **exact verse navigation logic used in Phase-1**
+of the Vedic Library (Bhagavad-gītā pilot).
+
+It is preserved for reference and historical accuracy.
+
+It is **not an architectural contract** and must not be assumed
+to apply unchanged to later phases.
+
+
+Below is small, clean, Phase-1-safe Verse Navigation code.
 No backend, no magic, no extra abstractions.
 
 You can copy–paste this directly.
