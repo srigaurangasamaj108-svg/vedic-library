@@ -1,0 +1,95 @@
+{
+  "uid": "bg.11.47.prabhupada.synonyms",
+  "editorial_unit_ref": {
+    "uid": "bg.11.47.prabhupada",
+    "schema": "vedic-library.editorial.unit",
+    "version": "1.0.0"
+  },
+  "synonyms": {
+    "language": "en",
+    "author": "A. C. Bhaktivedanta Swami Prabhupāda",
+    "items": {
+      "language": "en",
+      "items": [
+        {
+          "sanskrit": "śrī bhagavān uvāca",
+          "meaning": "the Supreme Personality of Godhead said"
+        },
+        {
+          "sanskrit": "mayā",
+          "meaning": "by Me"
+        },
+        {
+          "sanskrit": "prasannena",
+          "meaning": "happily"
+        },
+        {
+          "sanskrit": "tava",
+          "meaning": "unto you"
+        },
+        {
+          "sanskrit": "arjuna",
+          "meaning": "O Arjuna"
+        },
+        {
+          "sanskrit": "idam",
+          "meaning": "this"
+        },
+        {
+          "sanskrit": "rūpam",
+          "meaning": "form"
+        },
+        {
+          "sanskrit": "param",
+          "meaning": "transcendental"
+        },
+        {
+          "sanskrit": "darśitam",
+          "meaning": "shown"
+        },
+        {
+          "sanskrit": "ātma yogāt",
+          "meaning": "by My internal potency"
+        },
+        {
+          "sanskrit": "tejaḥ mayam",
+          "meaning": "full of effulgence"
+        },
+        {
+          "sanskrit": "viśvam",
+          "meaning": "the entire universe"
+        },
+        {
+          "sanskrit": "anantam",
+          "meaning": "unlimited"
+        },
+        {
+          "sanskrit": "ādyam",
+          "meaning": "original"
+        },
+        {
+          "sanskrit": "yat",
+          "meaning": "that which"
+        },
+        {
+          "sanskrit": "me",
+          "meaning": "My"
+        },
+        {
+          "sanskrit": "tvat anyena",
+          "meaning": "besides you"
+        }
+      ]
+    }
+  },
+  "source": {
+    "derived_from": "vedabase.io",
+    "normalized_file": "vedabase-bg-11-47.normalized.json",
+    "pipeline_stage": "migration.m3",
+    "script": "m3_migrate_synonyms.py"
+  },
+  "schema": {
+    "name": "vedic-library.derivative.synonyms",
+    "version": "2.0.0"
+  }
+}

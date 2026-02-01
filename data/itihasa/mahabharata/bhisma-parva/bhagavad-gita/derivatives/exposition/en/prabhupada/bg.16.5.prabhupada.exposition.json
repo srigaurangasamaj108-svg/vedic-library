@@ -1,0 +1,17 @@
+{
+  "schema": "vedic-library.exposition",
+  "schema_version": "1.0.0",
+  "uid": "bg.16.5.prabhupada.exposition",
+  "editorial_unit_ref": "bg.16.5.prabhupada",
+  "exposition": {
+    "type": "purport",
+    "language": "en",
+    "author": "A. C. Bhaktivedanta Swami Prabhupāda",
+    "content": "Lord Kṛṣṇa encouraged Arjuna by telling him that he was not born with demoniac qualities. His involvement in the fight was not demoniac, because he was considering the pros and cons. He was considering whether respectable persons such as Bhīṣma and Droṇa should be killed or not, so he was not acting under the influence of anger, false prestige or harshness. Therefore he was not of the quality of the demons. For a\n\nkṣatriya,\n\na military man, shooting arrows at the enemy is considered transcendental, and refraining from such a duty is demoniac. Therefore there was no cause for Arjuna to lament. Anyone who performs the regulative principles of the different orders of life is transcendentally situated."
+  },
+  "source": {
+    "edition": "Bhagavad-gītā As It Is",
+    "editor": "BBT",
+    "lineage": "Gaudiya Vaishnava"
+  }
+}

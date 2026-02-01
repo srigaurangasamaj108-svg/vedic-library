@@ -1,0 +1,79 @@
+{
+  "uid": "bg.8.9.prabhupada.synonyms",
+  "editorial_unit_ref": {
+    "uid": "bg.8.9.prabhupada",
+    "schema": "vedic-library.editorial.unit",
+    "version": "1.0.0"
+  },
+  "synonyms": {
+    "language": "en",
+    "author": "A. C. Bhaktivedanta Swami Prabhupāda",
+    "items": {
+      "language": "en",
+      "items": [
+        {
+          "sanskrit": "kavim",
+          "meaning": "the one who knows everything"
+        },
+        {
+          "sanskrit": "purāṇam",
+          "meaning": "the oldest"
+        },
+        {
+          "sanskrit": "anuśāsitāram",
+          "meaning": "the controller"
+        },
+        {
+          "sanskrit": "aṇoḥ",
+          "meaning": "than the atom"
+        },
+        {
+          "sanskrit": "aṇīyāṁsam",
+          "meaning": "smaller"
+        },
+        {
+          "sanskrit": "anusmaret",
+          "meaning": "always thinks of"
+        },
+        {
+          "sanskrit": "yaḥ",
+          "meaning": "one who"
+        },
+        {
+          "sanskrit": "sarvasya",
+          "meaning": "of everything"
+        },
+        {
+          "sanskrit": "dhātāram",
+          "meaning": "the maintainer"
+        },
+        {
+          "sanskrit": "acintya",
+          "meaning": "inconceivable"
+        },
+        {
+          "sanskrit": "rūpam",
+          "meaning": "whose form"
+        },
+        {
+          "sanskrit": "āditya varṇam",
+          "meaning": "luminous like the sun"
+        },
+        {
+          "sanskrit": "tamasaḥ",
+          "meaning": "to darkness"
+        }
+      ]
+    }
+  },
+  "source": {
+    "derived_from": "vedabase.io",
+    "normalized_file": "vedabase-bg-08-09.normalized.json",
+    "pipeline_stage": "migration.m3",
+    "script": "m3_migrate_synonyms.py"
+  },
+  "schema": {
+    "name": "vedic-library.derivative.synonyms",
+    "version": "2.0.0"
+  }
+}

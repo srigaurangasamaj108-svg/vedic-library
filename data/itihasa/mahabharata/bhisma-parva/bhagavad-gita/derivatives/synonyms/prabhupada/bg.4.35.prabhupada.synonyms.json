@@ -1,0 +1,83 @@
+{
+  "uid": "bg.4.35.prabhupada.synonyms",
+  "editorial_unit_ref": {
+    "uid": "bg.4.35.prabhupada",
+    "schema": "vedic-library.editorial.unit",
+    "version": "1.0.0"
+  },
+  "synonyms": {
+    "language": "en",
+    "author": "A. C. Bhaktivedanta Swami Prabhupāda",
+    "items": {
+      "language": "en",
+      "items": [
+        {
+          "sanskrit": "yat",
+          "meaning": "which"
+        },
+        {
+          "sanskrit": "jñātvā",
+          "meaning": "knowing"
+        },
+        {
+          "sanskrit": "na",
+          "meaning": "never"
+        },
+        {
+          "sanskrit": "punaḥ",
+          "meaning": "again"
+        },
+        {
+          "sanskrit": "moham",
+          "meaning": "to illusion"
+        },
+        {
+          "sanskrit": "evam",
+          "meaning": "like this"
+        },
+        {
+          "sanskrit": "yāsyasi",
+          "meaning": "you shall go"
+        },
+        {
+          "sanskrit": "pāṇḍava",
+          "meaning": "O son of Pāṇḍu"
+        },
+        {
+          "sanskrit": "yena",
+          "meaning": "by which"
+        },
+        {
+          "sanskrit": "bhūtāni",
+          "meaning": "living entities"
+        },
+        {
+          "sanskrit": "aśeṣāṇi",
+          "meaning": "all"
+        },
+        {
+          "sanskrit": "drakṣyasi",
+          "meaning": "you will see"
+        },
+        {
+          "sanskrit": "ātmani",
+          "meaning": "in the Supreme Soul"
+        },
+        {
+          "sanskrit": "atha u",
+          "meaning": "or in other words"
+        }
+      ]
+    }
+  },
+  "source": {
+    "derived_from": "vedabase.io",
+    "normalized_file": "vedabase-bg-04-35.normalized.json",
+    "pipeline_stage": "migration.m3",
+    "script": "m3_migrate_synonyms.py"
+  },
+  "schema": {
+    "name": "vedic-library.derivative.synonyms",
+    "version": "2.0.0"
+  }
+}

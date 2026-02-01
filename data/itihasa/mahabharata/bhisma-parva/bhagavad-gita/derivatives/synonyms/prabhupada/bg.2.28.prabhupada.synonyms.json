@@ -1,0 +1,67 @@
+{
+  "uid": "bg.2.28.prabhupada.synonyms",
+  "editorial_unit_ref": {
+    "uid": "bg.2.28.prabhupada",
+    "schema": "vedic-library.editorial.unit",
+    "version": "1.0.0"
+  },
+  "synonyms": {
+    "language": "en",
+    "author": "A. C. Bhaktivedanta Swami Prabhupāda",
+    "items": {
+      "language": "en",
+      "items": [
+        {
+          "sanskrit": "avyakta ādīni",
+          "meaning": "in the beginning unmanifested"
+        },
+        {
+          "sanskrit": "bhūtāni",
+          "meaning": "all that are created"
+        },
+        {
+          "sanskrit": "vyakta",
+          "meaning": "manifested"
+        },
+        {
+          "sanskrit": "madhyāni",
+          "meaning": "in the middle"
+        },
+        {
+          "sanskrit": "bhārata",
+          "meaning": "O descendant of Bharata"
+        },
+        {
+          "sanskrit": "avyakta",
+          "meaning": "nonmanifested"
+        },
+        {
+          "sanskrit": "nidhanāni",
+          "meaning": "when vanquished"
+        },
+        {
+          "sanskrit": "eva",
+          "meaning": "it is all like that"
+        },
+        {
+          "sanskrit": "tatra",
+          "meaning": "therefore"
+        },
+        {
+          "sanskrit": "kā",
+          "meaning": "what"
+        }
+      ]
+    }
+  },
+  "source": {
+    "derived_from": "vedabase.io",
+    "normalized_file": "vedabase-bg-02-28.normalized.json",
+    "pipeline_stage": "migration.m3",
+    "script": "m3_migrate_synonyms.py"
+  },
+  "schema": {
+    "name": "vedic-library.derivative.synonyms",
+    "version": "2.0.0"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "uid": "bg.3.32.prabhupada.translation.en",
+  "editorial_unit_ref": {
+    "uid": "bg.3.32.prabhupada",
+    "schema": "vedic-library.editorial.unit",
+    "version": "1.0.0"
+  },
+  "translation": {
+    "language": "en",
+    "translator": "A. C. Bhaktivedanta Swami Prabhupāda",
+    "content": "But those who, out of envy, disregard these teachings and do not follow them regularly are to be considered bereft of all knowledge, befooled, and ruined in their endeavors for perfection."
+  },
+  "source": {
+    "derived_from": "vedabase.io",
+    "normalized_file": "vedabase-bg-03-32.normalized.json",
+    "pipeline_stage": "migration.m2",
+    "script": "m2_migrate_translations.py"
+  },
+  "schema": {
+    "name": "vedic-library.derivative.translation",
+    "version": "2.0.0"
+  }
+}

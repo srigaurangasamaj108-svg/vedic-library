@@ -1,0 +1,34 @@
+{
+  "uid": "bg.15.20",
+  "work": {
+    "corpus": "itihasa",
+    "text": "mahabharata",
+    "section": "bhisma-parva",
+    "subwork": "bhagavad-gita"
+  },
+  "location": {
+    "chapter": 15,
+    "verse": 20
+  },
+  "text": {
+    "script": "devanagari",
+    "content": "इति गुह्यतमं शास्त्रमिदमुक्तं मयानघ ।\nएतद्‍बुद्ध्वा बुद्धिमान्स्यात्कृतकृत्यश्च भारत\n॥ २० ॥"
+  },
+  "transliteration": {
+    "scheme": "iast",
+    "content": "iti guhyatamaṃ śāstramidamuktaṃ mayānagha |\netad‍buddhvā buddhimānsyātkṛtakṛtyaśca bhārata\n|| 20 ||"
+  },
+  "source": {
+    "pipeline": "bhagavad-gita",
+    "stage": "2.5",
+    "script": "s25_realign_iast_bg.py",
+    "script_version": "2.2.0",
+    "derived_from": [
+      "vedabase/raw-json/bg-15-20.json"
+    ]
+  },
+  "schema": {
+    "name": "vedic-library.canonical.verse",
+    "version": "1.0.0"
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "uid": "bg.9.22",
+  "work": {
+    "corpus": "itihasa",
+    "text": "mahabharata",
+    "section": "bhisma-parva",
+    "subwork": "bhagavad-gita"
+  },
+  "location": {
+    "chapter": 9,
+    "verse": 22
+  },
+  "text": {
+    "script": "devanagari",
+    "content": "अनन्याश्चिन्तयन्तो मां ये जना: पर्युपासते ।\nतेषां नित्याभियुक्तानां योगक्षेमं वहाम्यहम्\n॥ २२ ॥"
+  },
+  "transliteration": {
+    "scheme": "iast",
+    "content": "ananyāścintayanto māṃ ye janā: paryupāsate |\nteṣāṃ nityābhiyuktānāṃ yogakṣemaṃ vahāmyaham\n|| 22 ||"
+  },
+  "source": {
+    "pipeline": "bhagavad-gita",
+    "stage": "2.5",
+    "script": "s25_realign_iast_bg.py",
+    "script_version": "2.2.0",
+    "derived_from": [
+      "vedabase/raw-json/bg-09-22.json"
+    ]
+  },
+  "schema": {
+    "name": "vedic-library.canonical.verse",
+    "version": "1.0.0"
+  }
+}

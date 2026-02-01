@@ -1,0 +1,79 @@
+{
+  "uid": "bg.17.15.prabhupada.synonyms",
+  "editorial_unit_ref": {
+    "uid": "bg.17.15.prabhupada",
+    "schema": "vedic-library.editorial.unit",
+    "version": "1.0.0"
+  },
+  "synonyms": {
+    "language": "en",
+    "author": "A. C. Bhaktivedanta Swami Prabhupāda",
+    "items": {
+      "language": "en",
+      "items": [
+        {
+          "sanskrit": "anudvega karam",
+          "meaning": "not agitating"
+        },
+        {
+          "sanskrit": "vākyam",
+          "meaning": "words"
+        },
+        {
+          "sanskrit": "satyam",
+          "meaning": "truthful"
+        },
+        {
+          "sanskrit": "priya",
+          "meaning": "dear"
+        },
+        {
+          "sanskrit": "hitam",
+          "meaning": "beneficial"
+        },
+        {
+          "sanskrit": "ca",
+          "meaning": "also"
+        },
+        {
+          "sanskrit": "yat",
+          "meaning": "which"
+        },
+        {
+          "sanskrit": "svādhyāya",
+          "meaning": "of Vedic study"
+        },
+        {
+          "sanskrit": "abhyasanam",
+          "meaning": "practice"
+        },
+        {
+          "sanskrit": "ca",
+          "meaning": "also"
+        },
+        {
+          "sanskrit": "eva",
+          "meaning": "certainly"
+        },
+        {
+          "sanskrit": "vāk mayam",
+          "meaning": "of the voice"
+        },
+        {
+          "sanskrit": "tapaḥ",
+          "meaning": "austerity"
+        }
+      ]
+    }
+  },
+  "source": {
+    "derived_from": "vedabase.io",
+    "normalized_file": "vedabase-bg-17-15.normalized.json",
+    "pipeline_stage": "migration.m3",
+    "script": "m3_migrate_synonyms.py"
+  },
+  "schema": {
+    "name": "vedic-library.derivative.synonyms",
+    "version": "2.0.0"
+  }
+}

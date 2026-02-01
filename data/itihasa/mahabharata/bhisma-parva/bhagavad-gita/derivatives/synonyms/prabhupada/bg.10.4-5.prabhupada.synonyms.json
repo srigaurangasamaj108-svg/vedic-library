@@ -1,0 +1,139 @@
+{
+  "uid": "bg.10.4-5.prabhupada.synonyms",
+  "editorial_unit_ref": {
+    "uid": "bg.10.4-5.prabhupada",
+    "schema": "vedic-library.editorial.unit",
+    "version": "1.0.0"
+  },
+  "synonyms": {
+    "language": "en",
+    "author": "A. C. Bhaktivedanta Swami Prabhupāda",
+    "items": {
+      "language": "en",
+      "items": [
+        {
+          "sanskrit": "buddhiḥ",
+          "meaning": "intelligence"
+        },
+        {
+          "sanskrit": "jñānam",
+          "meaning": "knowledge"
+        },
+        {
+          "sanskrit": "asammohaḥ",
+          "meaning": "freedom from doubt"
+        },
+        {
+          "sanskrit": "kṣamā",
+          "meaning": "forgiveness"
+        },
+        {
+          "sanskrit": "satyam",
+          "meaning": "truthfulness"
+        },
+        {
+          "sanskrit": "damaḥ",
+          "meaning": "control of the senses"
+        },
+        {
+          "sanskrit": "śamaḥ",
+          "meaning": "control of the mind"
+        },
+        {
+          "sanskrit": "sukham",
+          "meaning": "happiness"
+        },
+        {
+          "sanskrit": "duḥkham",
+          "meaning": "distress"
+        },
+        {
+          "sanskrit": "bhavaḥ",
+          "meaning": "birth"
+        },
+        {
+          "sanskrit": "abhāvaḥ",
+          "meaning": "death"
+        },
+        {
+          "sanskrit": "bhayam",
+          "meaning": "fear"
+        },
+        {
+          "sanskrit": "ca",
+          "meaning": "also"
+        },
+        {
+          "sanskrit": "abhayam",
+          "meaning": "fearlessness"
+        },
+        {
+          "sanskrit": "eva",
+          "meaning": "also"
+        },
+        {
+          "sanskrit": "ca",
+          "meaning": "and"
+        },
+        {
+          "sanskrit": "ahiṁsā",
+          "meaning": "nonviolence"
+        },
+        {
+          "sanskrit": "samatā",
+          "meaning": "equilibrium"
+        },
+        {
+          "sanskrit": "tuṣṭiḥ",
+          "meaning": "satisfaction"
+        },
+        {
+          "sanskrit": "tapaḥ",
+          "meaning": "penance"
+        },
+        {
+          "sanskrit": "dānam",
+          "meaning": "charity"
+        },
+        {
+          "sanskrit": "yaśaḥ",
+          "meaning": "fame"
+        },
+        {
+          "sanskrit": "ayaśaḥ",
+          "meaning": "infamy"
+        },
+        {
+          "sanskrit": "bhavanti",
+          "meaning": "come about"
+        },
+        {
+          "sanskrit": "bhāvāḥ",
+          "meaning": "natures"
+        },
+        {
+          "sanskrit": "bhūtānām",
+          "meaning": "of living entities"
+        },
+        {
+          "sanskrit": "mattaḥ",
+          "meaning": "from Me"
+        },
+        {
+          "sanskrit": "eva",
+          "meaning": "certainly"
+        }
+      ]
+    }
+  },
+  "source": {
+    "derived_from": "vedabase.io",
+    "normalized_file": "vedabase-bg-10-04-05.normalized.json",
+    "pipeline_stage": "migration.m3",
+    "script": "m3_migrate_synonyms.py"
+  },
+  "schema": {
+    "name": "vedic-library.derivative.synonyms",
+    "version": "2.0.0"
+  }
+}

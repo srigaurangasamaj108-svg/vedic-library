@@ -1,0 +1,34 @@
+{
+  "uid": "bg.2.7",
+  "work": {
+    "corpus": "itihasa",
+    "text": "mahabharata",
+    "section": "bhisma-parva",
+    "subwork": "bhagavad-gita"
+  },
+  "location": {
+    "chapter": 2,
+    "verse": 7
+  },
+  "text": {
+    "script": "devanagari",
+    "content": "कार्पण्यदोषोपहतस्वभावः\nपृच्छामि त्वां धर्मसम्मूढचेताः ।\nयच्छ्रेयः स्यान्निश्‍चितं ब्रूहि तन्मे\nशिष्यस्तेऽहं शाधि मां त्वां प्रपन्नम्\n॥ ७ ॥"
+  },
+  "transliteration": {
+    "scheme": "iast",
+    "content": "kārpaṇyadoṣopahatasvabhāvaḥ\npṛcchāmi tvāṃ dharmasammūḍhacetāḥ |\nyacchreyaḥ syānniś‍citaṃ brūhi tanme\nśiṣyaste'haṃ śādhi māṃ tvāṃ prapannam\n|| 7 ||"
+  },
+  "source": {
+    "pipeline": "bhagavad-gita",
+    "stage": "2.5",
+    "script": "s25_realign_iast_bg.py",
+    "script_version": "2.2.0",
+    "derived_from": [
+      "vedabase/raw-json/bg-02-07.json"
+    ]
+  },
+  "schema": {
+    "name": "vedic-library.canonical.verse",
+    "version": "1.0.0"
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "uid": "bg.13.25.prabhupada.synonyms",
+  "editorial_unit_ref": {
+    "uid": "bg.13.25.prabhupada",
+    "schema": "vedic-library.editorial.unit",
+    "version": "1.0.0"
+  },
+  "synonyms": {
+    "language": "en",
+    "author": "A. C. Bhaktivedanta Swami Prabhupāda",
+    "items": {
+      "language": "en",
+      "items": [
+        {
+          "sanskrit": "dhyānena",
+          "meaning": "by meditation"
+        },
+        {
+          "sanskrit": "ātmani",
+          "meaning": "within the self"
+        },
+        {
+          "sanskrit": "paśyanti",
+          "meaning": "see"
+        },
+        {
+          "sanskrit": "kecit",
+          "meaning": "some"
+        },
+        {
+          "sanskrit": "ātmānam",
+          "meaning": "the Supersoul"
+        },
+        {
+          "sanskrit": "ātmanā",
+          "meaning": "by the mind"
+        },
+        {
+          "sanskrit": "anye",
+          "meaning": "others"
+        },
+        {
+          "sanskrit": "sāṅkhyena",
+          "meaning": "of philosophical discussion"
+        },
+        {
+          "sanskrit": "yogena",
+          "meaning": "by the yoga system"
+        },
+        {
+          "sanskrit": "karma yogena",
+          "meaning": "by activities without fruitive desire"
+        },
+        {
+          "sanskrit": "ca",
+          "meaning": "also"
+        }
+      ]
+    }
+  },
+  "source": {
+    "derived_from": "vedabase.io",
+    "normalized_file": "vedabase-bg-13-25.normalized.json",
+    "pipeline_stage": "migration.m3",
+    "script": "m3_migrate_synonyms.py"
+  },
+  "schema": {
+    "name": "vedic-library.derivative.synonyms",
+    "version": "2.0.0"
+  }
+}

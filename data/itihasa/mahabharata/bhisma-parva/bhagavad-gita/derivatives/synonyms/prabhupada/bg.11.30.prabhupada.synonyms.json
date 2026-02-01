@@ -1,0 +1,87 @@
+{
+  "uid": "bg.11.30.prabhupada.synonyms",
+  "editorial_unit_ref": {
+    "uid": "bg.11.30.prabhupada",
+    "schema": "vedic-library.editorial.unit",
+    "version": "1.0.0"
+  },
+  "synonyms": {
+    "language": "en",
+    "author": "A. C. Bhaktivedanta Swami Prabhupāda",
+    "items": {
+      "language": "en",
+      "items": [
+        {
+          "sanskrit": "lelihyase",
+          "meaning": "You are licking"
+        },
+        {
+          "sanskrit": "grasamānaḥ",
+          "meaning": "devouring"
+        },
+        {
+          "sanskrit": "samantāt",
+          "meaning": "from all directions"
+        },
+        {
+          "sanskrit": "lokān",
+          "meaning": "people"
+        },
+        {
+          "sanskrit": "samagrān",
+          "meaning": "all"
+        },
+        {
+          "sanskrit": "vadanaiḥ",
+          "meaning": "by the mouths"
+        },
+        {
+          "sanskrit": "jvaladbhiḥ",
+          "meaning": "blazing"
+        },
+        {
+          "sanskrit": "tejobhiḥ",
+          "meaning": "by effulgence"
+        },
+        {
+          "sanskrit": "āpūrya",
+          "meaning": "covering"
+        },
+        {
+          "sanskrit": "jagat",
+          "meaning": "the universe"
+        },
+        {
+          "sanskrit": "samagram",
+          "meaning": "all"
+        },
+        {
+          "sanskrit": "bhāsaḥ",
+          "meaning": "rays"
+        },
+        {
+          "sanskrit": "tava",
+          "meaning": "Your"
+        },
+        {
+          "sanskrit": "ugrāḥ",
+          "meaning": "terrible"
+        },
+        {
+          "sanskrit": "pratapanti",
+          "meaning": "are scorching"
+        }
+      ]
+    }
+  },
+  "source": {
+    "derived_from": "vedabase.io",
+    "normalized_file": "vedabase-bg-11-30.normalized.json",
+    "pipeline_stage": "migration.m3",
+    "script": "m3_migrate_synonyms.py"
+  },
+  "schema": {
+    "name": "vedic-library.derivative.synonyms",
+    "version": "2.0.0"
+  }
+}

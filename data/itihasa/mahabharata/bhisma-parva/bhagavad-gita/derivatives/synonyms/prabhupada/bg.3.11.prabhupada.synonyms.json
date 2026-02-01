@@ -1,0 +1,71 @@
+{
+  "uid": "bg.3.11.prabhupada.synonyms",
+  "editorial_unit_ref": {
+    "uid": "bg.3.11.prabhupada",
+    "schema": "vedic-library.editorial.unit",
+    "version": "1.0.0"
+  },
+  "synonyms": {
+    "language": "en",
+    "author": "A. C. Bhaktivedanta Swami Prabhupāda",
+    "items": {
+      "language": "en",
+      "items": [
+        {
+          "sanskrit": "devān",
+          "meaning": "demigods"
+        },
+        {
+          "sanskrit": "bhāvayatā",
+          "meaning": "having pleased"
+        },
+        {
+          "sanskrit": "anena",
+          "meaning": "by this sacrifice"
+        },
+        {
+          "sanskrit": "te",
+          "meaning": "those"
+        },
+        {
+          "sanskrit": "devāḥ",
+          "meaning": "demigods"
+        },
+        {
+          "sanskrit": "bhāvayantu",
+          "meaning": "will please"
+        },
+        {
+          "sanskrit": "vaḥ",
+          "meaning": "you"
+        },
+        {
+          "sanskrit": "parasparam",
+          "meaning": "mutually"
+        },
+        {
+          "sanskrit": "bhāvayantaḥ",
+          "meaning": "pleasing one another"
+        },
+        {
+          "sanskrit": "śreyaḥ",
+          "meaning": "benediction"
+        },
+        {
+          "sanskrit": "param",
+          "meaning": "the supreme"
+        }
+      ]
+    }
+  },
+  "source": {
+    "derived_from": "vedabase.io",
+    "normalized_file": "vedabase-bg-03-11.normalized.json",
+    "pipeline_stage": "migration.m3",
+    "script": "m3_migrate_synonyms.py"
+  },
+  "schema": {
+    "name": "vedic-library.derivative.synonyms",
+    "version": "2.0.0"
+  }
+}

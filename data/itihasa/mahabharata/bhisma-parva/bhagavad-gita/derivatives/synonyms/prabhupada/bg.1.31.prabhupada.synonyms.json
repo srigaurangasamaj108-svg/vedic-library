@@ -1,0 +1,87 @@
+{
+  "uid": "bg.1.31.prabhupada.synonyms",
+  "editorial_unit_ref": {
+    "uid": "bg.1.31.prabhupada",
+    "schema": "vedic-library.editorial.unit",
+    "version": "1.0.0"
+  },
+  "synonyms": {
+    "language": "en",
+    "author": "A. C. Bhaktivedanta Swami Prabhupāda",
+    "items": {
+      "language": "en",
+      "items": [
+        {
+          "sanskrit": "na",
+          "meaning": "nor"
+        },
+        {
+          "sanskrit": "ca",
+          "meaning": "also"
+        },
+        {
+          "sanskrit": "śreyaḥ",
+          "meaning": "good"
+        },
+        {
+          "sanskrit": "anupaśyāmi",
+          "meaning": "do I foresee"
+        },
+        {
+          "sanskrit": "hatvā",
+          "meaning": "by killing"
+        },
+        {
+          "sanskrit": "sva janam",
+          "meaning": "own kinsmen"
+        },
+        {
+          "sanskrit": "āhave",
+          "meaning": "in the fight"
+        },
+        {
+          "sanskrit": "na",
+          "meaning": "nor"
+        },
+        {
+          "sanskrit": "kāṅkṣe",
+          "meaning": "do I desire"
+        },
+        {
+          "sanskrit": "vijayam",
+          "meaning": "victory"
+        },
+        {
+          "sanskrit": "kṛṣṇa",
+          "meaning": "O Kṛṣṇa"
+        },
+        {
+          "sanskrit": "na",
+          "meaning": "nor"
+        },
+        {
+          "sanskrit": "ca",
+          "meaning": "also"
+        },
+        {
+          "sanskrit": "rājyam",
+          "meaning": "kingdom"
+        },
+        {
+          "sanskrit": "sukhāni",
+          "meaning": "happiness thereof"
+        }
+      ]
+    }
+  },
+  "source": {
+    "derived_from": "vedabase.io",
+    "normalized_file": "vedabase-bg-01-31.normalized.json",
+    "pipeline_stage": "migration.m3",
+    "script": "m3_migrate_synonyms.py"
+  },
+  "schema": {
+    "name": "vedic-library.derivative.synonyms",
+    "version": "2.0.0"
+  }
+}

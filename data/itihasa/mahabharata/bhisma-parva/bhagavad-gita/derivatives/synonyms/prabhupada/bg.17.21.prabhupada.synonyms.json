@@ -1,0 +1,79 @@
+{
+  "uid": "bg.17.21.prabhupada.synonyms",
+  "editorial_unit_ref": {
+    "uid": "bg.17.21.prabhupada",
+    "schema": "vedic-library.editorial.unit",
+    "version": "1.0.0"
+  },
+  "synonyms": {
+    "language": "en",
+    "author": "A. C. Bhaktivedanta Swami Prabhupāda",
+    "items": {
+      "language": "en",
+      "items": [
+        {
+          "sanskrit": "yat",
+          "meaning": "that which"
+        },
+        {
+          "sanskrit": "tu",
+          "meaning": "but"
+        },
+        {
+          "sanskrit": "prati upakāra artham",
+          "meaning": "for the sake of getting some return"
+        },
+        {
+          "sanskrit": "phalam",
+          "meaning": "a result"
+        },
+        {
+          "sanskrit": "uddiśya",
+          "meaning": "desiring"
+        },
+        {
+          "sanskrit": "vā",
+          "meaning": "or"
+        },
+        {
+          "sanskrit": "punaḥ",
+          "meaning": "again"
+        },
+        {
+          "sanskrit": "dīyate",
+          "meaning": "is given"
+        },
+        {
+          "sanskrit": "ca",
+          "meaning": "also"
+        },
+        {
+          "sanskrit": "parikliṣṭam",
+          "meaning": "grudgingly"
+        },
+        {
+          "sanskrit": "tat",
+          "meaning": "that"
+        },
+        {
+          "sanskrit": "dānam",
+          "meaning": "charity"
+        },
+        {
+          "sanskrit": "rājasam",
+          "meaning": "in the mode of passion"
+        }
+      ]
+    }
+  },
+  "source": {
+    "derived_from": "vedabase.io",
+    "normalized_file": "vedabase-bg-17-21.normalized.json",
+    "pipeline_stage": "migration.m3",
+    "script": "m3_migrate_synonyms.py"
+  },
+  "schema": {
+    "name": "vedic-library.derivative.synonyms",
+    "version": "2.0.0"
+  }
+}

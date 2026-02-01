@@ -1,0 +1,75 @@
+{
+  "uid": "bg.16.18.prabhupada.synonyms",
+  "editorial_unit_ref": {
+    "uid": "bg.16.18.prabhupada",
+    "schema": "vedic-library.editorial.unit",
+    "version": "1.0.0"
+  },
+  "synonyms": {
+    "language": "en",
+    "author": "A. C. Bhaktivedanta Swami Prabhupāda",
+    "items": {
+      "language": "en",
+      "items": [
+        {
+          "sanskrit": "ahaṅkāram",
+          "meaning": "false ego"
+        },
+        {
+          "sanskrit": "balam",
+          "meaning": "strength"
+        },
+        {
+          "sanskrit": "darpam",
+          "meaning": "pride"
+        },
+        {
+          "sanskrit": "kāmam",
+          "meaning": "lust"
+        },
+        {
+          "sanskrit": "krodham",
+          "meaning": "anger"
+        },
+        {
+          "sanskrit": "ca",
+          "meaning": "also"
+        },
+        {
+          "sanskrit": "saṁśritāḥ",
+          "meaning": "having taken shelter of"
+        },
+        {
+          "sanskrit": "mām",
+          "meaning": "Me"
+        },
+        {
+          "sanskrit": "ātma",
+          "meaning": "in their own"
+        },
+        {
+          "sanskrit": "para",
+          "meaning": "and in other"
+        },
+        {
+          "sanskrit": "deheṣu",
+          "meaning": "bodies"
+        },
+        {
+          "sanskrit": "pradviṣantaḥ",
+          "meaning": "blaspheming"
+        }
+      ]
+    }
+  },
+  "source": {
+    "derived_from": "vedabase.io",
+    "normalized_file": "vedabase-bg-16-18.normalized.json",
+    "pipeline_stage": "migration.m3",
+    "script": "m3_migrate_synonyms.py"
+  },
+  "schema": {
+    "name": "vedic-library.derivative.synonyms",
+    "version": "2.0.0"
+  }
+}

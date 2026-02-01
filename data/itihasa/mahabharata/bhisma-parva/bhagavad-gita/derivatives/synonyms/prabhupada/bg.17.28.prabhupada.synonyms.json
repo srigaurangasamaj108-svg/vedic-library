@@ -1,0 +1,95 @@
+{
+  "uid": "bg.17.28.prabhupada.synonyms",
+  "editorial_unit_ref": {
+    "uid": "bg.17.28.prabhupada",
+    "schema": "vedic-library.editorial.unit",
+    "version": "1.0.0"
+  },
+  "synonyms": {
+    "language": "en",
+    "author": "A. C. Bhaktivedanta Swami Prabhupāda",
+    "items": {
+      "language": "en",
+      "items": [
+        {
+          "sanskrit": "aśraddhayā",
+          "meaning": "without faith"
+        },
+        {
+          "sanskrit": "hutam",
+          "meaning": "offered in sacrifice"
+        },
+        {
+          "sanskrit": "dattam",
+          "meaning": "given"
+        },
+        {
+          "sanskrit": "tapaḥ",
+          "meaning": "penance"
+        },
+        {
+          "sanskrit": "taptam",
+          "meaning": "executed"
+        },
+        {
+          "sanskrit": "kṛtam",
+          "meaning": "performed"
+        },
+        {
+          "sanskrit": "ca",
+          "meaning": "also"
+        },
+        {
+          "sanskrit": "yat",
+          "meaning": "that which"
+        },
+        {
+          "sanskrit": "asat",
+          "meaning": "false"
+        },
+        {
+          "sanskrit": "iti",
+          "meaning": "thus"
+        },
+        {
+          "sanskrit": "ucyate",
+          "meaning": "is said to be"
+        },
+        {
+          "sanskrit": "pārtha",
+          "meaning": "O son of Pṛthā"
+        },
+        {
+          "sanskrit": "na",
+          "meaning": "never"
+        },
+        {
+          "sanskrit": "ca",
+          "meaning": "also"
+        },
+        {
+          "sanskrit": "tat",
+          "meaning": "that"
+        },
+        {
+          "sanskrit": "pretya",
+          "meaning": "after death"
+        },
+        {
+          "sanskrit": "na u",
+          "meaning": "nor"
+        }
+      ]
+    }
+  },
+  "source": {
+    "derived_from": "vedabase.io",
+    "normalized_file": "vedabase-bg-17-28.normalized.json",
+    "pipeline_stage": "migration.m3",
+    "script": "m3_migrate_synonyms.py"
+  },
+  "schema": {
+    "name": "vedic-library.derivative.synonyms",
+    "version": "2.0.0"
+  }
+}

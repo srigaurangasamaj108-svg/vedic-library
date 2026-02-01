@@ -1,0 +1,107 @@
+{
+  "uid": "bg.1.36.prabhupada.synonyms",
+  "editorial_unit_ref": {
+    "uid": "bg.1.36.prabhupada",
+    "schema": "vedic-library.editorial.unit",
+    "version": "1.0.0"
+  },
+  "synonyms": {
+    "language": "en",
+    "author": "A. C. Bhaktivedanta Swami Prabhupāda",
+    "items": {
+      "language": "en",
+      "items": [
+        {
+          "sanskrit": "pāpam",
+          "meaning": "vices"
+        },
+        {
+          "sanskrit": "eva",
+          "meaning": "certainly"
+        },
+        {
+          "sanskrit": "āśrayet",
+          "meaning": "must come upon"
+        },
+        {
+          "sanskrit": "asmān",
+          "meaning": "us"
+        },
+        {
+          "sanskrit": "hatvā",
+          "meaning": "by killing"
+        },
+        {
+          "sanskrit": "etān",
+          "meaning": "all these"
+        },
+        {
+          "sanskrit": "ātatāyinaḥ",
+          "meaning": "aggressors"
+        },
+        {
+          "sanskrit": "tasmāt",
+          "meaning": "therefore"
+        },
+        {
+          "sanskrit": "na",
+          "meaning": "never"
+        },
+        {
+          "sanskrit": "arhāḥ",
+          "meaning": "deserving"
+        },
+        {
+          "sanskrit": "vayam",
+          "meaning": "we"
+        },
+        {
+          "sanskrit": "hantum",
+          "meaning": "to kill"
+        },
+        {
+          "sanskrit": "dhārtarāṣṭrān",
+          "meaning": "the sons of Dhṛtarāṣṭra"
+        },
+        {
+          "sanskrit": "sa bāndhavān",
+          "meaning": "along with friends"
+        },
+        {
+          "sanskrit": "sva janam",
+          "meaning": "kinsmen"
+        },
+        {
+          "sanskrit": "hi",
+          "meaning": "certainly"
+        },
+        {
+          "sanskrit": "katham",
+          "meaning": "how"
+        },
+        {
+          "sanskrit": "hatvā",
+          "meaning": "by killing"
+        },
+        {
+          "sanskrit": "sukhinaḥ",
+          "meaning": "happy"
+        },
+        {
+          "sanskrit": "syāma",
+          "meaning": "will we become"
+        }
+      ]
+    }
+  },
+  "source": {
+    "derived_from": "vedabase.io",
+    "normalized_file": "vedabase-bg-01-36.normalized.json",
+    "pipeline_stage": "migration.m3",
+    "script": "m3_migrate_synonyms.py"
+  },
+  "schema": {
+    "name": "vedic-library.derivative.synonyms",
+    "version": "2.0.0"
+  }
+}

@@ -1,0 +1,91 @@
+{
+  "uid": "bg.18.30.prabhupada.synonyms",
+  "editorial_unit_ref": {
+    "uid": "bg.18.30.prabhupada",
+    "schema": "vedic-library.editorial.unit",
+    "version": "1.0.0"
+  },
+  "synonyms": {
+    "language": "en",
+    "author": "A. C. Bhaktivedanta Swami Prabhupāda",
+    "items": {
+      "language": "en",
+      "items": [
+        {
+          "sanskrit": "pravṛttim",
+          "meaning": "doing"
+        },
+        {
+          "sanskrit": "ca",
+          "meaning": "also"
+        },
+        {
+          "sanskrit": "nivṛttim",
+          "meaning": "not doing"
+        },
+        {
+          "sanskrit": "ca",
+          "meaning": "and"
+        },
+        {
+          "sanskrit": "kārya",
+          "meaning": "what ought to be done"
+        },
+        {
+          "sanskrit": "akārye",
+          "meaning": "and what ought not to be done"
+        },
+        {
+          "sanskrit": "bhaya",
+          "meaning": "fear"
+        },
+        {
+          "sanskrit": "abhaye",
+          "meaning": "and fearlessness"
+        },
+        {
+          "sanskrit": "bandham",
+          "meaning": "bondage"
+        },
+        {
+          "sanskrit": "mokṣam",
+          "meaning": "liberation"
+        },
+        {
+          "sanskrit": "ca",
+          "meaning": "and"
+        },
+        {
+          "sanskrit": "yā",
+          "meaning": "that which"
+        },
+        {
+          "sanskrit": "vetti",
+          "meaning": "knows"
+        },
+        {
+          "sanskrit": "buddhiḥ",
+          "meaning": "understanding"
+        },
+        {
+          "sanskrit": "sā",
+          "meaning": "that"
+        },
+        {
+          "sanskrit": "pārtha",
+          "meaning": "O son of Pṛthā"
+        }
+      ]
+    }
+  },
+  "source": {
+    "derived_from": "vedabase.io",
+    "normalized_file": "vedabase-bg-18-30.normalized.json",
+    "pipeline_stage": "migration.m3",
+    "script": "m3_migrate_synonyms.py"
+  },
+  "schema": {
+    "name": "vedic-library.derivative.synonyms",
+    "version": "2.0.0"
+  }
+}

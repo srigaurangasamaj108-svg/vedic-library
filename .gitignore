@@ -1,0 +1,35 @@
+# -----------------------------
+# Python / Virtual Environments
+# -----------------------------
+venv/
+__pycache__/
+*.pyc
+*.pyo
+
+# -----------------------------
+# OS / Editor junk
+# -----------------------------
+.DS_Store
+Icon?
+Icon*
+*.swp
+*.swo
+
+# -----------------------------
+# Raw & reproducible data
+# -----------------------------
+data/_raw/
+
+# -----------------------------
+# Temporary / generated legacy outputs
+# -----------------------------
+data/_intermediate/
+data/derivatives/_legacy/
+
+# -----------------------------
+# Node / frontend build artifacts
+# -----------------------------
+node_modules/
+.next/
+dist/
+

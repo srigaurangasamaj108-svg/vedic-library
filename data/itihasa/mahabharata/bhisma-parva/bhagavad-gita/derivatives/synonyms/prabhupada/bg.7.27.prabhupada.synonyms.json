@@ -1,0 +1,71 @@
+{
+  "uid": "bg.7.27.prabhupada.synonyms",
+  "editorial_unit_ref": {
+    "uid": "bg.7.27.prabhupada",
+    "schema": "vedic-library.editorial.unit",
+    "version": "1.0.0"
+  },
+  "synonyms": {
+    "language": "en",
+    "author": "A. C. Bhaktivedanta Swami Prabhupāda",
+    "items": {
+      "language": "en",
+      "items": [
+        {
+          "sanskrit": "icchā",
+          "meaning": "desire"
+        },
+        {
+          "sanskrit": "dveṣa",
+          "meaning": "and hate"
+        },
+        {
+          "sanskrit": "samutthena",
+          "meaning": "arisen from"
+        },
+        {
+          "sanskrit": "dvandva",
+          "meaning": "of duality"
+        },
+        {
+          "sanskrit": "mohena",
+          "meaning": "by the illusion"
+        },
+        {
+          "sanskrit": "bhārata",
+          "meaning": "O scion of Bharata"
+        },
+        {
+          "sanskrit": "sarva",
+          "meaning": "all"
+        },
+        {
+          "sanskrit": "bhūtāni",
+          "meaning": "living entities"
+        },
+        {
+          "sanskrit": "sammoham",
+          "meaning": "into delusion"
+        },
+        {
+          "sanskrit": "sarge",
+          "meaning": "while taking birth"
+        },
+        {
+          "sanskrit": "yānti",
+          "meaning": "go"
+        }
+      ]
+    }
+  },
+  "source": {
+    "derived_from": "vedabase.io",
+    "normalized_file": "vedabase-bg-07-27.normalized.json",
+    "pipeline_stage": "migration.m3",
+    "script": "m3_migrate_synonyms.py"
+  },
+  "schema": {
+    "name": "vedic-library.derivative.synonyms",
+    "version": "2.0.0"
+  }
+}

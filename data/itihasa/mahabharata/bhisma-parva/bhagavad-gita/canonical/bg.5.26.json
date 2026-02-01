@@ -1,0 +1,34 @@
+{
+  "uid": "bg.5.26",
+  "work": {
+    "corpus": "itihasa",
+    "text": "mahabharata",
+    "section": "bhisma-parva",
+    "subwork": "bhagavad-gita"
+  },
+  "location": {
+    "chapter": 5,
+    "verse": 26
+  },
+  "text": {
+    "script": "devanagari",
+    "content": "कामक्रोधविमुक्तानां यतीनां यतचेतसाम् ।\nअभितो ब्रह्मनिर्वाणं वर्तते विदितात्मनाम्\n॥ २६ ॥"
+  },
+  "transliteration": {
+    "scheme": "iast",
+    "content": "kāmakrodhavimuktānāṃ yatīnāṃ yatacetasām |\nabhito brahmanirvāṇaṃ vartate viditātmanām\n|| 26 ||"
+  },
+  "source": {
+    "pipeline": "bhagavad-gita",
+    "stage": "2.5",
+    "script": "s25_realign_iast_bg.py",
+    "script_version": "2.2.0",
+    "derived_from": [
+      "vedabase/raw-json/bg-05-26.json"
+    ]
+  },
+  "schema": {
+    "name": "vedic-library.canonical.verse",
+    "version": "1.0.0"
+  }
+}

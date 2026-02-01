@@ -1,0 +1,75 @@
+{
+  "uid": "bg.12.8.prabhupada.synonyms",
+  "editorial_unit_ref": {
+    "uid": "bg.12.8.prabhupada",
+    "schema": "vedic-library.editorial.unit",
+    "version": "1.0.0"
+  },
+  "synonyms": {
+    "language": "en",
+    "author": "A. C. Bhaktivedanta Swami Prabhupāda",
+    "items": {
+      "language": "en",
+      "items": [
+        {
+          "sanskrit": "mayi",
+          "meaning": "upon Me"
+        },
+        {
+          "sanskrit": "eva",
+          "meaning": "certainly"
+        },
+        {
+          "sanskrit": "manaḥ",
+          "meaning": "mind"
+        },
+        {
+          "sanskrit": "ādhatsva",
+          "meaning": "fix"
+        },
+        {
+          "sanskrit": "mayi",
+          "meaning": "upon Me"
+        },
+        {
+          "sanskrit": "buddhim",
+          "meaning": "intelligence"
+        },
+        {
+          "sanskrit": "niveśaya",
+          "meaning": "apply"
+        },
+        {
+          "sanskrit": "nivasiṣyasi",
+          "meaning": "you will live"
+        },
+        {
+          "sanskrit": "mayi",
+          "meaning": "in Me"
+        },
+        {
+          "sanskrit": "eva",
+          "meaning": "certainly"
+        },
+        {
+          "sanskrit": "ataḥ ūrdhvam",
+          "meaning": "thereafter"
+        },
+        {
+          "sanskrit": "na",
+          "meaning": "never"
+        }
+      ]
+    }
+  },
+  "source": {
+    "derived_from": "vedabase.io",
+    "normalized_file": "vedabase-bg-12-08.normalized.json",
+    "pipeline_stage": "migration.m3",
+    "script": "m3_migrate_synonyms.py"
+  },
+  "schema": {
+    "name": "vedic-library.derivative.synonyms",
+    "version": "2.0.0"
+  }
+}

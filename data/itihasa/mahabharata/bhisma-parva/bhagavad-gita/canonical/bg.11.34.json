@@ -1,0 +1,34 @@
+{
+  "uid": "bg.11.34",
+  "work": {
+    "corpus": "itihasa",
+    "text": "mahabharata",
+    "section": "bhisma-parva",
+    "subwork": "bhagavad-gita"
+  },
+  "location": {
+    "chapter": 11,
+    "verse": 34
+  },
+  "text": {
+    "script": "devanagari",
+    "content": "द्रोणं च भीष्मं च जयद्रथं च\nकर्णं तथान्यानपि योधवीरान् ।\nमया हतांस्त्वं जहि मा व्यथिष्ठा\nयुध्यस्व जेतासि रणे सपत्‍नान्\n॥ ३४ ॥"
+  },
+  "transliteration": {
+    "scheme": "iast",
+    "content": "droṇaṃ ca bhīṣmaṃ ca jayadrathaṃ ca\nkarṇaṃ tathānyānapi yodhavīrān |\nmayā hatāṃstvaṃ jahi mā vyathiṣṭhā\nyudhyasva jetāsi raṇe sapat‍nān\n|| 34 ||"
+  },
+  "source": {
+    "pipeline": "bhagavad-gita",
+    "stage": "2.5",
+    "script": "s25_realign_iast_bg.py",
+    "script_version": "2.2.0",
+    "derived_from": [
+      "vedabase/raw-json/bg-11-34.json"
+    ]
+  },
+  "schema": {
+    "name": "vedic-library.canonical.verse",
+    "version": "1.0.0"
+  }
+}

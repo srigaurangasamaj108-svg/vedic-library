@@ -1,0 +1,34 @@
+{
+  "uid": "bg.17.1",
+  "work": {
+    "corpus": "itihasa",
+    "text": "mahabharata",
+    "section": "bhisma-parva",
+    "subwork": "bhagavad-gita"
+  },
+  "location": {
+    "chapter": 17,
+    "verse": 1
+  },
+  "text": {
+    "script": "devanagari",
+    "content": "अर्जुन उवाच\nये शास्त्रविधिमुत्सृज्य यजन्ते श्रद्धयान्विता: ।\nतेषां निष्ठा तु का कृष्ण सत्त्वमाहो रजस्तम:\n॥ १ ॥"
+  },
+  "transliteration": {
+    "scheme": "iast",
+    "content": "arjuna uvāca\nye śāstravidhimutsṛjya yajante śraddhayānvitā: |\nteṣāṃ niṣṭhā tu kā kṛṣṇa sattvamāho rajastama:\n|| 1 ||"
+  },
+  "source": {
+    "pipeline": "bhagavad-gita",
+    "stage": "2.5",
+    "script": "s25_realign_iast_bg.py",
+    "script_version": "2.2.0",
+    "derived_from": [
+      "vedabase/raw-json/bg-17-01.json"
+    ]
+  },
+  "schema": {
+    "name": "vedic-library.canonical.verse",
+    "version": "1.0.0"
+  }
+}

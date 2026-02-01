@@ -1,0 +1,63 @@
+{
+  "uid": "bg.16.8.prabhupada.synonyms",
+  "editorial_unit_ref": {
+    "uid": "bg.16.8.prabhupada",
+    "schema": "vedic-library.editorial.unit",
+    "version": "1.0.0"
+  },
+  "synonyms": {
+    "language": "en",
+    "author": "A. C. Bhaktivedanta Swami Prabhupāda",
+    "items": {
+      "language": "en",
+      "items": [
+        {
+          "sanskrit": "asatyam",
+          "meaning": "unreal"
+        },
+        {
+          "sanskrit": "apratiṣṭham",
+          "meaning": "without foundation"
+        },
+        {
+          "sanskrit": "te",
+          "meaning": "they"
+        },
+        {
+          "sanskrit": "jagat",
+          "meaning": "the cosmic manifestation"
+        },
+        {
+          "sanskrit": "āhuḥ",
+          "meaning": "say"
+        },
+        {
+          "sanskrit": "anīśvaram",
+          "meaning": "with no controller"
+        },
+        {
+          "sanskrit": "aparaspara",
+          "meaning": "without cause"
+        },
+        {
+          "sanskrit": "sambhūtam",
+          "meaning": "arisen"
+        },
+        {
+          "sanskrit": "kim anyat",
+          "meaning": "there is no other cause"
+        }
+      ]
+    }
+  },
+  "source": {
+    "derived_from": "vedabase.io",
+    "normalized_file": "vedabase-bg-16-08.normalized.json",
+    "pipeline_stage": "migration.m3",
+    "script": "m3_migrate_synonyms.py"
+  },
+  "schema": {
+    "name": "vedic-library.derivative.synonyms",
+    "version": "2.0.0"
+  }
+}

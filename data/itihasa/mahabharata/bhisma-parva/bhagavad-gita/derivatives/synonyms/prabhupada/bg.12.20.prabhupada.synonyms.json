@@ -1,0 +1,83 @@
+{
+  "uid": "bg.12.20.prabhupada.synonyms",
+  "editorial_unit_ref": {
+    "uid": "bg.12.20.prabhupada",
+    "schema": "vedic-library.editorial.unit",
+    "version": "1.0.0"
+  },
+  "synonyms": {
+    "language": "en",
+    "author": "A. C. Bhaktivedanta Swami Prabhupāda",
+    "items": {
+      "language": "en",
+      "items": [
+        {
+          "sanskrit": "ye",
+          "meaning": "those who"
+        },
+        {
+          "sanskrit": "tu",
+          "meaning": "but"
+        },
+        {
+          "sanskrit": "dharma",
+          "meaning": "of religion"
+        },
+        {
+          "sanskrit": "amṛtam",
+          "meaning": "nectar"
+        },
+        {
+          "sanskrit": "idam",
+          "meaning": "this"
+        },
+        {
+          "sanskrit": "yathā",
+          "meaning": "as"
+        },
+        {
+          "sanskrit": "uktam",
+          "meaning": "said"
+        },
+        {
+          "sanskrit": "paryupāsate",
+          "meaning": "completely engage"
+        },
+        {
+          "sanskrit": "śraddadhānāḥ",
+          "meaning": "with faith"
+        },
+        {
+          "sanskrit": "mat paramāḥ",
+          "meaning": "taking Me, the Supreme Lord, as everything"
+        },
+        {
+          "sanskrit": "bhaktāḥ",
+          "meaning": "devotees"
+        },
+        {
+          "sanskrit": "te",
+          "meaning": "they"
+        },
+        {
+          "sanskrit": "atīva",
+          "meaning": "very, very"
+        },
+        {
+          "sanskrit": "me",
+          "meaning": "to Me"
+        }
+      ]
+    }
+  },
+  "source": {
+    "derived_from": "vedabase.io",
+    "normalized_file": "vedabase-bg-12-20.normalized.json",
+    "pipeline_stage": "migration.m3",
+    "script": "m3_migrate_synonyms.py"
+  },
+  "schema": {
+    "name": "vedic-library.derivative.synonyms",
+    "version": "2.0.0"
+  }
+}

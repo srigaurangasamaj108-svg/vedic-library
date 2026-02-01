@@ -1,0 +1,34 @@
+{
+  "uid": "bg.3.9",
+  "work": {
+    "corpus": "itihasa",
+    "text": "mahabharata",
+    "section": "bhisma-parva",
+    "subwork": "bhagavad-gita"
+  },
+  "location": {
+    "chapter": 3,
+    "verse": 9
+  },
+  "text": {
+    "script": "devanagari",
+    "content": "यज्ञार्थात्कर्मणोऽन्यत्र लोकोऽयं कर्मबन्धनः ।\nतदर्थं कर्म कौन्तेय मुक्तसङ्गः समाचर\n॥ ९ ॥"
+  },
+  "transliteration": {
+    "scheme": "iast",
+    "content": "yajñārthātkarmaṇo'nyatra loko'yaṃ karmabandhanaḥ |\ntadarthaṃ karma kaunteya muktasaṅgaḥ samācara\n|| 9 ||"
+  },
+  "source": {
+    "pipeline": "bhagavad-gita",
+    "stage": "2.5",
+    "script": "s25_realign_iast_bg.py",
+    "script_version": "2.2.0",
+    "derived_from": [
+      "vedabase/raw-json/bg-03-09.json"
+    ]
+  },
+  "schema": {
+    "name": "vedic-library.canonical.verse",
+    "version": "1.0.0"
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "uid": "bg.9.2",
+  "work": {
+    "corpus": "itihasa",
+    "text": "mahabharata",
+    "section": "bhisma-parva",
+    "subwork": "bhagavad-gita"
+  },
+  "location": {
+    "chapter": 9,
+    "verse": 2
+  },
+  "text": {
+    "script": "devanagari",
+    "content": "राजविद्या राजगुह्यं पवित्रमिदमुत्तमम् ।\nप्रत्यक्षावगमं धर्म्यं सुसुखं कर्तुमव्ययम्\n॥ २ ॥"
+  },
+  "transliteration": {
+    "scheme": "iast",
+    "content": "rājavidyā rājaguhyaṃ pavitramidamuttamam |\npratyakṣāvagamaṃ dharmyaṃ susukhaṃ kartumavyayam\n|| 2 ||"
+  },
+  "source": {
+    "pipeline": "bhagavad-gita",
+    "stage": "2.5",
+    "script": "s25_realign_iast_bg.py",
+    "script_version": "2.2.0",
+    "derived_from": [
+      "vedabase/raw-json/bg-09-02.json"
+    ]
+  },
+  "schema": {
+    "name": "vedic-library.canonical.verse",
+    "version": "1.0.0"
+  }
+}

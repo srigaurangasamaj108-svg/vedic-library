@@ -1,0 +1,34 @@
+{
+  "uid": "bg.14.3",
+  "work": {
+    "corpus": "itihasa",
+    "text": "mahabharata",
+    "section": "bhisma-parva",
+    "subwork": "bhagavad-gita"
+  },
+  "location": {
+    "chapter": 14,
+    "verse": 3
+  },
+  "text": {
+    "script": "devanagari",
+    "content": "मम योनिर्महद्‍ब्रह्म तस्मिन्गर्भं दधाम्यहम् ।\nसम्भव: सर्वभूतानां ततो भवति भारत\n॥ ३ ॥"
+  },
+  "transliteration": {
+    "scheme": "iast",
+    "content": "mama yonirmahad‍brahma tasmingarbhaṃ dadhāmyaham |\nsambhava: sarvabhūtānāṃ tato bhavati bhārata\n|| 3 ||"
+  },
+  "source": {
+    "pipeline": "bhagavad-gita",
+    "stage": "2.5",
+    "script": "s25_realign_iast_bg.py",
+    "script_version": "2.2.0",
+    "derived_from": [
+      "vedabase/raw-json/bg-14-03.json"
+    ]
+  },
+  "schema": {
+    "name": "vedic-library.canonical.verse",
+    "version": "1.0.0"
+  }
+}

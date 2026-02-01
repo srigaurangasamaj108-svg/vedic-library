@@ -1,0 +1,79 @@
+{
+  "uid": "bg.1.29.prabhupada.synonyms",
+  "editorial_unit_ref": {
+    "uid": "bg.1.29.prabhupada",
+    "schema": "vedic-library.editorial.unit",
+    "version": "1.0.0"
+  },
+  "synonyms": {
+    "language": "en",
+    "author": "A. C. Bhaktivedanta Swami Prabhupāda",
+    "items": {
+      "language": "en",
+      "items": [
+        {
+          "sanskrit": "vepathuḥ",
+          "meaning": "trembling of the body"
+        },
+        {
+          "sanskrit": "ca",
+          "meaning": "also"
+        },
+        {
+          "sanskrit": "śarīre",
+          "meaning": "on the body"
+        },
+        {
+          "sanskrit": "me",
+          "meaning": "my"
+        },
+        {
+          "sanskrit": "roma harṣaḥ",
+          "meaning": "standing of hair on end"
+        },
+        {
+          "sanskrit": "ca",
+          "meaning": "also"
+        },
+        {
+          "sanskrit": "jāyate",
+          "meaning": "is taking place"
+        },
+        {
+          "sanskrit": "gāṇḍīvam",
+          "meaning": "the bow of Arjuna"
+        },
+        {
+          "sanskrit": "sraṁsate",
+          "meaning": "is slipping"
+        },
+        {
+          "sanskrit": "hastāt",
+          "meaning": "from the hand"
+        },
+        {
+          "sanskrit": "tvak",
+          "meaning": "skin"
+        },
+        {
+          "sanskrit": "ca",
+          "meaning": "also"
+        },
+        {
+          "sanskrit": "eva",
+          "meaning": "certainly"
+        }
+      ]
+    }
+  },
+  "source": {
+    "derived_from": "vedabase.io",
+    "normalized_file": "vedabase-bg-01-29.normalized.json",
+    "pipeline_stage": "migration.m3",
+    "script": "m3_migrate_synonyms.py"
+  },
+  "schema": {
+    "name": "vedic-library.derivative.synonyms",
+    "version": "2.0.0"
+  }
+}

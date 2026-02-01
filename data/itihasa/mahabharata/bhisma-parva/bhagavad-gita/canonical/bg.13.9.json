@@ -1,0 +1,34 @@
+{
+  "uid": "bg.13.9",
+  "work": {
+    "corpus": "itihasa",
+    "text": "mahabharata",
+    "section": "bhisma-parva",
+    "subwork": "bhagavad-gita"
+  },
+  "location": {
+    "chapter": 13,
+    "verse": 9
+  },
+  "text": {
+    "script": "devanagari",
+    "content": "इन्द्रियार्थेषु वैराग्यमनहङ्कार एव च ।\nजन्ममृत्युजराव्याधिदु:खदोषानुदर्शनम्\n॥ ९ ॥"
+  },
+  "transliteration": {
+    "scheme": "iast",
+    "content": "indriyārtheṣu vairāgyamanahaṅkāra eva ca |\njanmamṛtyujarāvyādhidu:khadoṣānudarśanam\n|| 9 ||"
+  },
+  "source": {
+    "pipeline": "bhagavad-gita",
+    "stage": "2.5",
+    "script": "s25_realign_iast_bg.py",
+    "script_version": "2.2.0",
+    "derived_from": [
+      "vedabase/raw-json/bg-13-08-12.json"
+    ]
+  },
+  "schema": {
+    "name": "vedic-library.canonical.verse",
+    "version": "1.0.0"
+  }
+}

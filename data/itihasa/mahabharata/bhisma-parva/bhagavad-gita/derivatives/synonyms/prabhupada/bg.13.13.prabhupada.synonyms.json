@@ -1,0 +1,91 @@
+{
+  "uid": "bg.13.13.prabhupada.synonyms",
+  "editorial_unit_ref": {
+    "uid": "bg.13.13.prabhupada",
+    "schema": "vedic-library.editorial.unit",
+    "version": "1.0.0"
+  },
+  "synonyms": {
+    "language": "en",
+    "author": "A. C. Bhaktivedanta Swami Prabhupāda",
+    "items": {
+      "language": "en",
+      "items": [
+        {
+          "sanskrit": "jñeyam",
+          "meaning": "the knowable"
+        },
+        {
+          "sanskrit": "yat",
+          "meaning": "which"
+        },
+        {
+          "sanskrit": "tat",
+          "meaning": "that"
+        },
+        {
+          "sanskrit": "pravakṣyāmi",
+          "meaning": "I shall now explain"
+        },
+        {
+          "sanskrit": "yat",
+          "meaning": "which"
+        },
+        {
+          "sanskrit": "jñātvā",
+          "meaning": "knowing"
+        },
+        {
+          "sanskrit": "amṛtam",
+          "meaning": "nectar"
+        },
+        {
+          "sanskrit": "aśnute",
+          "meaning": "one tastes"
+        },
+        {
+          "sanskrit": "anādi",
+          "meaning": "beginningless"
+        },
+        {
+          "sanskrit": "mat param",
+          "meaning": "subordinate to Me"
+        },
+        {
+          "sanskrit": "brahma",
+          "meaning": "spirit"
+        },
+        {
+          "sanskrit": "na",
+          "meaning": "neither"
+        },
+        {
+          "sanskrit": "sat",
+          "meaning": "cause"
+        },
+        {
+          "sanskrit": "tat",
+          "meaning": "that"
+        },
+        {
+          "sanskrit": "na",
+          "meaning": "nor"
+        },
+        {
+          "sanskrit": "asat",
+          "meaning": "effect"
+        }
+      ]
+    }
+  },
+  "source": {
+    "derived_from": "vedabase.io",
+    "normalized_file": "vedabase-bg-13-13.normalized.json",
+    "pipeline_stage": "migration.m3",
+    "script": "m3_migrate_synonyms.py"
+  },
+  "schema": {
+    "name": "vedic-library.derivative.synonyms",
+    "version": "2.0.0"
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "uid": "bg.10.24.prabhupada.synonyms",
+  "editorial_unit_ref": {
+    "uid": "bg.10.24.prabhupada",
+    "schema": "vedic-library.editorial.unit",
+    "version": "1.0.0"
+  },
+  "synonyms": {
+    "language": "en",
+    "author": "A. C. Bhaktivedanta Swami Prabhupāda",
+    "items": {
+      "language": "en",
+      "items": [
+        {
+          "sanskrit": "purodhasām",
+          "meaning": "of all priests"
+        },
+        {
+          "sanskrit": "ca",
+          "meaning": "also"
+        },
+        {
+          "sanskrit": "mukhyam",
+          "meaning": "the chief"
+        },
+        {
+          "sanskrit": "mām",
+          "meaning": "Me"
+        },
+        {
+          "sanskrit": "viddhi",
+          "meaning": "understand"
+        },
+        {
+          "sanskrit": "pārtha",
+          "meaning": "O son of Pṛthā"
+        },
+        {
+          "sanskrit": "bṛhaspatim",
+          "meaning": "Bṛhaspati"
+        },
+        {
+          "sanskrit": "senānīnām",
+          "meaning": "of all commanders"
+        },
+        {
+          "sanskrit": "aham",
+          "meaning": "I am"
+        },
+        {
+          "sanskrit": "skandaḥ",
+          "meaning": "Kārttikeya"
+        },
+        {
+          "sanskrit": "sarasām",
+          "meaning": "of all reservoirs of water"
+        },
+        {
+          "sanskrit": "asmi",
+          "meaning": "I am"
+        }
+      ]
+    }
+  },
+  "source": {
+    "derived_from": "vedabase.io",
+    "normalized_file": "vedabase-bg-10-24.normalized.json",
+    "pipeline_stage": "migration.m3",
+    "script": "m3_migrate_synonyms.py"
+  },
+  "schema": {
+    "name": "vedic-library.derivative.synonyms",
+    "version": "2.0.0"
+  }
+}

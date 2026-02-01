@@ -1,0 +1,63 @@
+{
+  "uid": "bg.6.10.prabhupada.synonyms",
+  "editorial_unit_ref": {
+    "uid": "bg.6.10.prabhupada",
+    "schema": "vedic-library.editorial.unit",
+    "version": "1.0.0"
+  },
+  "synonyms": {
+    "language": "en",
+    "author": "A. C. Bhaktivedanta Swami Prabhupāda",
+    "items": {
+      "language": "en",
+      "items": [
+        {
+          "sanskrit": "yogī",
+          "meaning": "a transcendentalist"
+        },
+        {
+          "sanskrit": "yuñjīta",
+          "meaning": "must concentrate in Kṛṣṇa consciousness"
+        },
+        {
+          "sanskrit": "satatam",
+          "meaning": "constantly"
+        },
+        {
+          "sanskrit": "ātmānam",
+          "meaning": "himself (by body, mind and self)"
+        },
+        {
+          "sanskrit": "rahasi",
+          "meaning": "in a secluded place"
+        },
+        {
+          "sanskrit": "sthitaḥ",
+          "meaning": "being situated"
+        },
+        {
+          "sanskrit": "ekākī",
+          "meaning": "alone"
+        },
+        {
+          "sanskrit": "yata citta ātmā",
+          "meaning": "always careful in mind"
+        },
+        {
+          "sanskrit": "nirāśīḥ",
+          "meaning": "without being attracted by anything else"
+        }
+      ]
+    }
+  },
+  "source": {
+    "derived_from": "vedabase.io",
+    "normalized_file": "vedabase-bg-06-10.normalized.json",
+    "pipeline_stage": "migration.m3",
+    "script": "m3_migrate_synonyms.py"
+  },
+  "schema": {
+    "name": "vedic-library.derivative.synonyms",
+    "version": "2.0.0"
+  }
+}

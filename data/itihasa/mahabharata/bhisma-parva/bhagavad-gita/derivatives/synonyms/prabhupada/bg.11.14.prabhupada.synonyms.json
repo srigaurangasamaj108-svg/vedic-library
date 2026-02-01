@@ -1,0 +1,63 @@
+{
+  "uid": "bg.11.14.prabhupada.synonyms",
+  "editorial_unit_ref": {
+    "uid": "bg.11.14.prabhupada",
+    "schema": "vedic-library.editorial.unit",
+    "version": "1.0.0"
+  },
+  "synonyms": {
+    "language": "en",
+    "author": "A. C. Bhaktivedanta Swami Prabhupāda",
+    "items": {
+      "language": "en",
+      "items": [
+        {
+          "sanskrit": "tataḥ",
+          "meaning": "thereafter"
+        },
+        {
+          "sanskrit": "saḥ",
+          "meaning": "he"
+        },
+        {
+          "sanskrit": "vismaya āviṣṭaḥ",
+          "meaning": "being overwhelmed with wonder"
+        },
+        {
+          "sanskrit": "hṛṣṭa romā",
+          "meaning": "with his bodily hairs standing on end due to his great ecstasy"
+        },
+        {
+          "sanskrit": "dhanam jayaḥ",
+          "meaning": "Arjuna"
+        },
+        {
+          "sanskrit": "praṇamya",
+          "meaning": "offering obeisances"
+        },
+        {
+          "sanskrit": "śirasā",
+          "meaning": "with the head"
+        },
+        {
+          "sanskrit": "devam",
+          "meaning": "to the Supreme Personality of Godhead"
+        },
+        {
+          "sanskrit": "kṛta añjaliḥ",
+          "meaning": "with folded hands"
+        }
+      ]
+    }
+  },
+  "source": {
+    "derived_from": "vedabase.io",
+    "normalized_file": "vedabase-bg-11-14.normalized.json",
+    "pipeline_stage": "migration.m3",
+    "script": "m3_migrate_synonyms.py"
+  },
+  "schema": {
+    "name": "vedic-library.derivative.synonyms",
+    "version": "2.0.0"
+  }
+}

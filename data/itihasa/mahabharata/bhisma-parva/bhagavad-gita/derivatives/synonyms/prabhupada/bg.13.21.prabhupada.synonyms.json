@@ -1,0 +1,71 @@
+{
+  "uid": "bg.13.21.prabhupada.synonyms",
+  "editorial_unit_ref": {
+    "uid": "bg.13.21.prabhupada",
+    "schema": "vedic-library.editorial.unit",
+    "version": "1.0.0"
+  },
+  "synonyms": {
+    "language": "en",
+    "author": "A. C. Bhaktivedanta Swami Prabhupāda",
+    "items": {
+      "language": "en",
+      "items": [
+        {
+          "sanskrit": "kārya",
+          "meaning": "of effect"
+        },
+        {
+          "sanskrit": "kāraṇa",
+          "meaning": "and cause"
+        },
+        {
+          "sanskrit": "kartṛtve",
+          "meaning": "in the matter of creation"
+        },
+        {
+          "sanskrit": "hetuḥ",
+          "meaning": "the instrument"
+        },
+        {
+          "sanskrit": "prakṛtiḥ",
+          "meaning": "material nature"
+        },
+        {
+          "sanskrit": "ucyate",
+          "meaning": "is said to be"
+        },
+        {
+          "sanskrit": "puruṣaḥ",
+          "meaning": "the living entity"
+        },
+        {
+          "sanskrit": "sukha",
+          "meaning": "of happiness"
+        },
+        {
+          "sanskrit": "duḥkhānām",
+          "meaning": "and distress"
+        },
+        {
+          "sanskrit": "bhoktṛtve",
+          "meaning": "in enjoyment"
+        },
+        {
+          "sanskrit": "hetuḥ",
+          "meaning": "the instrument"
+        }
+      ]
+    }
+  },
+  "source": {
+    "derived_from": "vedabase.io",
+    "normalized_file": "vedabase-bg-13-21.normalized.json",
+    "pipeline_stage": "migration.m3",
+    "script": "m3_migrate_synonyms.py"
+  },
+  "schema": {
+    "name": "vedic-library.derivative.synonyms",
+    "version": "2.0.0"
+  }
+}

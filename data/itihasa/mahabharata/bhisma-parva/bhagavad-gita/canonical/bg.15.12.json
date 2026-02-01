@@ -1,0 +1,34 @@
+{
+  "uid": "bg.15.12",
+  "work": {
+    "corpus": "itihasa",
+    "text": "mahabharata",
+    "section": "bhisma-parva",
+    "subwork": "bhagavad-gita"
+  },
+  "location": {
+    "chapter": 15,
+    "verse": 12
+  },
+  "text": {
+    "script": "devanagari",
+    "content": "यदादित्यगतं तेजो जगद्भ‍ासयतेऽखिलम् ।\nयच्च‍न्द्रमसि यच्च‍ाग्न‍ौ तत्तेजो विद्धि मामकम्\n॥ १२ ॥"
+  },
+  "transliteration": {
+    "scheme": "iast",
+    "content": "yadādityagataṃ tejo jagadbha‍āsayate'khilam |\nyacca‍ndramasi yacca‍āgna‍au tattejo viddhi māmakam\n|| 12 ||"
+  },
+  "source": {
+    "pipeline": "bhagavad-gita",
+    "stage": "2.5",
+    "script": "s25_realign_iast_bg.py",
+    "script_version": "2.2.0",
+    "derived_from": [
+      "vedabase/raw-json/bg-15-12.json"
+    ]
+  },
+  "schema": {
+    "name": "vedic-library.canonical.verse",
+    "version": "1.0.0"
+  }
+}

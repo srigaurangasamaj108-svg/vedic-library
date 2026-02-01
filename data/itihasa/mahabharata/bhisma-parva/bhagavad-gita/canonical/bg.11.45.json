@@ -1,0 +1,34 @@
+{
+  "uid": "bg.11.45",
+  "work": {
+    "corpus": "itihasa",
+    "text": "mahabharata",
+    "section": "bhisma-parva",
+    "subwork": "bhagavad-gita"
+  },
+  "location": {
+    "chapter": 11,
+    "verse": 45
+  },
+  "text": {
+    "script": "devanagari",
+    "content": "अदृष्टपूर्वं हृषितोऽस्मि दृष्ट्वा\nभयेन च प्रव्यथितं मनो मे ।\nतदेव मे दर्शय देव रूपं\nप्रसीद देवेश जगन्निवास\n॥ ४५ ॥"
+  },
+  "transliteration": {
+    "scheme": "iast",
+    "content": "adṛṣṭapūrvaṃ hṛṣito'smi dṛṣṭvā\nbhayena ca pravyathitaṃ mano me |\ntadeva me darśaya deva rūpaṃ\nprasīda deveśa jagannivāsa\n|| 45 ||"
+  },
+  "source": {
+    "pipeline": "bhagavad-gita",
+    "stage": "2.5",
+    "script": "s25_realign_iast_bg.py",
+    "script_version": "2.2.0",
+    "derived_from": [
+      "vedabase/raw-json/bg-11-45.json"
+    ]
+  },
+  "schema": {
+    "name": "vedic-library.canonical.verse",
+    "version": "1.0.0"
+  }
+}

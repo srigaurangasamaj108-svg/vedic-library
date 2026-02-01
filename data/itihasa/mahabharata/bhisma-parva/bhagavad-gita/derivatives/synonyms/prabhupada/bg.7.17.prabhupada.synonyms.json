@@ -1,0 +1,83 @@
+{
+  "uid": "bg.7.17.prabhupada.synonyms",
+  "editorial_unit_ref": {
+    "uid": "bg.7.17.prabhupada",
+    "schema": "vedic-library.editorial.unit",
+    "version": "1.0.0"
+  },
+  "synonyms": {
+    "language": "en",
+    "author": "A. C. Bhaktivedanta Swami Prabhupāda",
+    "items": {
+      "language": "en",
+      "items": [
+        {
+          "sanskrit": "teṣām",
+          "meaning": "out of them"
+        },
+        {
+          "sanskrit": "jñānī",
+          "meaning": "one in full knowledge"
+        },
+        {
+          "sanskrit": "nitya yuktaḥ",
+          "meaning": "always engaged"
+        },
+        {
+          "sanskrit": "eka",
+          "meaning": "only"
+        },
+        {
+          "sanskrit": "bhaktiḥ",
+          "meaning": "in devotional service"
+        },
+        {
+          "sanskrit": "viśiṣyate",
+          "meaning": "is special"
+        },
+        {
+          "sanskrit": "priyaḥ",
+          "meaning": "very dear"
+        },
+        {
+          "sanskrit": "hi",
+          "meaning": "certainly"
+        },
+        {
+          "sanskrit": "jñāninaḥ",
+          "meaning": "to the person in knowledge"
+        },
+        {
+          "sanskrit": "atyartham",
+          "meaning": "highly"
+        },
+        {
+          "sanskrit": "aham",
+          "meaning": "I am"
+        },
+        {
+          "sanskrit": "saḥ",
+          "meaning": "he"
+        },
+        {
+          "sanskrit": "ca",
+          "meaning": "also"
+        },
+        {
+          "sanskrit": "mama",
+          "meaning": "to Me"
+        }
+      ]
+    }
+  },
+  "source": {
+    "derived_from": "vedabase.io",
+    "normalized_file": "vedabase-bg-07-17.normalized.json",
+    "pipeline_stage": "migration.m3",
+    "script": "m3_migrate_synonyms.py"
+  },
+  "schema": {
+    "name": "vedic-library.derivative.synonyms",
+    "version": "2.0.0"
+  }
+}

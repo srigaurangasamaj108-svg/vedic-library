@@ -1,0 +1,91 @@
+{
+  "uid": "bg.18.17.prabhupada.synonyms",
+  "editorial_unit_ref": {
+    "uid": "bg.18.17.prabhupada",
+    "schema": "vedic-library.editorial.unit",
+    "version": "1.0.0"
+  },
+  "synonyms": {
+    "language": "en",
+    "author": "A. C. Bhaktivedanta Swami Prabhupāda",
+    "items": {
+      "language": "en",
+      "items": [
+        {
+          "sanskrit": "yasya",
+          "meaning": "one whose"
+        },
+        {
+          "sanskrit": "na",
+          "meaning": "never"
+        },
+        {
+          "sanskrit": "ahaṅkṛtaḥ",
+          "meaning": "of false ego"
+        },
+        {
+          "sanskrit": "bhāvaḥ",
+          "meaning": "nature"
+        },
+        {
+          "sanskrit": "buddhiḥ",
+          "meaning": "intelligence"
+        },
+        {
+          "sanskrit": "yasya",
+          "meaning": "one whose"
+        },
+        {
+          "sanskrit": "na",
+          "meaning": "never"
+        },
+        {
+          "sanskrit": "lipyate",
+          "meaning": "is attached"
+        },
+        {
+          "sanskrit": "hatvā",
+          "meaning": "killing"
+        },
+        {
+          "sanskrit": "api",
+          "meaning": "even"
+        },
+        {
+          "sanskrit": "saḥ",
+          "meaning": "he"
+        },
+        {
+          "sanskrit": "imān",
+          "meaning": "this"
+        },
+        {
+          "sanskrit": "lokān",
+          "meaning": "world"
+        },
+        {
+          "sanskrit": "na",
+          "meaning": "never"
+        },
+        {
+          "sanskrit": "hanti",
+          "meaning": "kills"
+        },
+        {
+          "sanskrit": "na",
+          "meaning": "never"
+        }
+      ]
+    }
+  },
+  "source": {
+    "derived_from": "vedabase.io",
+    "normalized_file": "vedabase-bg-18-17.normalized.json",
+    "pipeline_stage": "migration.m3",
+    "script": "m3_migrate_synonyms.py"
+  },
+  "schema": {
+    "name": "vedic-library.derivative.synonyms",
+    "version": "2.0.0"
+  }
+}

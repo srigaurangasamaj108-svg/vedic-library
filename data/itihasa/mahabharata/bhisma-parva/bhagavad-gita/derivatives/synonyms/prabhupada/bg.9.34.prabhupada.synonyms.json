@@ -1,0 +1,83 @@
+{
+  "uid": "bg.9.34.prabhupada.synonyms",
+  "editorial_unit_ref": {
+    "uid": "bg.9.34.prabhupada",
+    "schema": "vedic-library.editorial.unit",
+    "version": "1.0.0"
+  },
+  "synonyms": {
+    "language": "en",
+    "author": "A. C. Bhaktivedanta Swami Prabhupāda",
+    "items": {
+      "language": "en",
+      "items": [
+        {
+          "sanskrit": "mat manāḥ",
+          "meaning": "always thinking of Me"
+        },
+        {
+          "sanskrit": "bhava",
+          "meaning": "become"
+        },
+        {
+          "sanskrit": "mat",
+          "meaning": "My"
+        },
+        {
+          "sanskrit": "bhaktaḥ",
+          "meaning": "devotee"
+        },
+        {
+          "sanskrit": "mat",
+          "meaning": "My"
+        },
+        {
+          "sanskrit": "yājī",
+          "meaning": "worshiper"
+        },
+        {
+          "sanskrit": "mām",
+          "meaning": "unto Me"
+        },
+        {
+          "sanskrit": "namas kuru",
+          "meaning": "offer obeisances"
+        },
+        {
+          "sanskrit": "mām",
+          "meaning": "unto Me"
+        },
+        {
+          "sanskrit": "eva",
+          "meaning": "completely"
+        },
+        {
+          "sanskrit": "eṣyasi",
+          "meaning": "you will come"
+        },
+        {
+          "sanskrit": "yuktvā",
+          "meaning": "being absorbed"
+        },
+        {
+          "sanskrit": "evam",
+          "meaning": "thus"
+        },
+        {
+          "sanskrit": "ātmānam",
+          "meaning": "your soul"
+        }
+      ]
+    }
+  },
+  "source": {
+    "derived_from": "vedabase.io",
+    "normalized_file": "vedabase-bg-09-34.normalized.json",
+    "pipeline_stage": "migration.m3",
+    "script": "m3_migrate_synonyms.py"
+  },
+  "schema": {
+    "name": "vedic-library.derivative.synonyms",
+    "version": "2.0.0"
+  }
+}

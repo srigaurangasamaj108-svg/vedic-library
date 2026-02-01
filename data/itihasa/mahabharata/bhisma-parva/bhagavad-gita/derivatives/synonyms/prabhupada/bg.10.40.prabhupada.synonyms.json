@@ -1,0 +1,79 @@
+{
+  "uid": "bg.10.40.prabhupada.synonyms",
+  "editorial_unit_ref": {
+    "uid": "bg.10.40.prabhupada",
+    "schema": "vedic-library.editorial.unit",
+    "version": "1.0.0"
+  },
+  "synonyms": {
+    "language": "en",
+    "author": "A. C. Bhaktivedanta Swami Prabhupāda",
+    "items": {
+      "language": "en",
+      "items": [
+        {
+          "sanskrit": "na",
+          "meaning": "nor"
+        },
+        {
+          "sanskrit": "antaḥ",
+          "meaning": "a limit"
+        },
+        {
+          "sanskrit": "asti",
+          "meaning": "there is"
+        },
+        {
+          "sanskrit": "mama",
+          "meaning": "My"
+        },
+        {
+          "sanskrit": "divyānām",
+          "meaning": "of the divine"
+        },
+        {
+          "sanskrit": "vibhūtīnām",
+          "meaning": "opulences"
+        },
+        {
+          "sanskrit": "param tapa",
+          "meaning": "O conqueror of the enemies"
+        },
+        {
+          "sanskrit": "eṣaḥ",
+          "meaning": "all this"
+        },
+        {
+          "sanskrit": "tu",
+          "meaning": "but"
+        },
+        {
+          "sanskrit": "uddeśataḥ",
+          "meaning": "as examples"
+        },
+        {
+          "sanskrit": "proktaḥ",
+          "meaning": "spoken"
+        },
+        {
+          "sanskrit": "vibhūteḥ",
+          "meaning": "of opulences"
+        },
+        {
+          "sanskrit": "vistaraḥ",
+          "meaning": "the expanse"
+        }
+      ]
+    }
+  },
+  "source": {
+    "derived_from": "vedabase.io",
+    "normalized_file": "vedabase-bg-10-40.normalized.json",
+    "pipeline_stage": "migration.m3",
+    "script": "m3_migrate_synonyms.py"
+  },
+  "schema": {
+    "name": "vedic-library.derivative.synonyms",
+    "version": "2.0.0"
+  }
+}

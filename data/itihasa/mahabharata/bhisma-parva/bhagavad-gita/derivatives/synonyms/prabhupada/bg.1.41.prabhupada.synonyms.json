@@ -1,0 +1,79 @@
+{
+  "uid": "bg.1.41.prabhupada.synonyms",
+  "editorial_unit_ref": {
+    "uid": "bg.1.41.prabhupada",
+    "schema": "vedic-library.editorial.unit",
+    "version": "1.0.0"
+  },
+  "synonyms": {
+    "language": "en",
+    "author": "A. C. Bhaktivedanta Swami Prabhupāda",
+    "items": {
+      "language": "en",
+      "items": [
+        {
+          "sanskrit": "saṅkaraḥ",
+          "meaning": "such unwanted children"
+        },
+        {
+          "sanskrit": "narakāya",
+          "meaning": "make for hellish life"
+        },
+        {
+          "sanskrit": "eva",
+          "meaning": "certainly"
+        },
+        {
+          "sanskrit": "kula ghnānām",
+          "meaning": "for those who are killers of the family"
+        },
+        {
+          "sanskrit": "kulasya",
+          "meaning": "for the family"
+        },
+        {
+          "sanskrit": "ca",
+          "meaning": "also"
+        },
+        {
+          "sanskrit": "patanti",
+          "meaning": "fall down"
+        },
+        {
+          "sanskrit": "pitaraḥ",
+          "meaning": "forefathers"
+        },
+        {
+          "sanskrit": "hi",
+          "meaning": "certainly"
+        },
+        {
+          "sanskrit": "eṣām",
+          "meaning": "of them"
+        },
+        {
+          "sanskrit": "lupta",
+          "meaning": "stopped"
+        },
+        {
+          "sanskrit": "piṇḍa",
+          "meaning": "of offerings of food"
+        },
+        {
+          "sanskrit": "udaka",
+          "meaning": "and water"
+        }
+      ]
+    }
+  },
+  "source": {
+    "derived_from": "vedabase.io",
+    "normalized_file": "vedabase-bg-01-41.normalized.json",
+    "pipeline_stage": "migration.m3",
+    "script": "m3_migrate_synonyms.py"
+  },
+  "schema": {
+    "name": "vedic-library.derivative.synonyms",
+    "version": "2.0.0"
+  }
+}

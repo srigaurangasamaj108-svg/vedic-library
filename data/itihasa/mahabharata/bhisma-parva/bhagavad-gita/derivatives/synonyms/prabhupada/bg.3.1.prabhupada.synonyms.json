@@ -1,0 +1,83 @@
+{
+  "uid": "bg.3.1.prabhupada.synonyms",
+  "editorial_unit_ref": {
+    "uid": "bg.3.1.prabhupada",
+    "schema": "vedic-library.editorial.unit",
+    "version": "1.0.0"
+  },
+  "synonyms": {
+    "language": "en",
+    "author": "A. C. Bhaktivedanta Swami Prabhupāda",
+    "items": {
+      "language": "en",
+      "items": [
+        {
+          "sanskrit": "arjunaḥ uvāca",
+          "meaning": "Arjuna said"
+        },
+        {
+          "sanskrit": "jyāyasī",
+          "meaning": "better"
+        },
+        {
+          "sanskrit": "cet",
+          "meaning": "if"
+        },
+        {
+          "sanskrit": "karmaṇaḥ",
+          "meaning": "than fruitive action"
+        },
+        {
+          "sanskrit": "te",
+          "meaning": "by You"
+        },
+        {
+          "sanskrit": "matā",
+          "meaning": "is considered"
+        },
+        {
+          "sanskrit": "buddhiḥ",
+          "meaning": "intelligence"
+        },
+        {
+          "sanskrit": "janārdana",
+          "meaning": "O Kṛṣṇa"
+        },
+        {
+          "sanskrit": "tat",
+          "meaning": "therefore"
+        },
+        {
+          "sanskrit": "kim",
+          "meaning": "why"
+        },
+        {
+          "sanskrit": "karmaṇi",
+          "meaning": "in action"
+        },
+        {
+          "sanskrit": "ghore",
+          "meaning": "ghastly"
+        },
+        {
+          "sanskrit": "mām",
+          "meaning": "me"
+        },
+        {
+          "sanskrit": "niyojayasi",
+          "meaning": "You are engaging"
+        }
+      ]
+    }
+  },
+  "source": {
+    "derived_from": "vedabase.io",
+    "normalized_file": "vedabase-bg-03-01.normalized.json",
+    "pipeline_stage": "migration.m3",
+    "script": "m3_migrate_synonyms.py"
+  },
+  "schema": {
+    "name": "vedic-library.derivative.synonyms",
+    "version": "2.0.0"
+  }
+}

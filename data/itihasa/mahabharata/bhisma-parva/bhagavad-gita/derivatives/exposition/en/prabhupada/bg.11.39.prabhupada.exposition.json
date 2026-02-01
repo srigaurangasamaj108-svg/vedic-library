@@ -1,0 +1,17 @@
+{
+  "schema": "vedic-library.exposition",
+  "schema_version": "1.0.0",
+  "uid": "bg.11.39.prabhupada.exposition",
+  "editorial_unit_ref": "bg.11.39.prabhupada",
+  "exposition": {
+    "type": "purport",
+    "language": "en",
+    "author": "A. C. Bhaktivedanta Swami Prabhupāda",
+    "content": "The Lord is addressed here as air because the air is the most important representation of all the demigods, being all-pervasive. Arjuna also addresses Kṛṣṇa as the great-grandfather because He is the father of Brahmā, the first living creature in the universe."
+  },
+  "source": {
+    "edition": "Bhagavad-gītā As It Is",
+    "editor": "BBT",
+    "lineage": "Gaudiya Vaishnava"
+  }
+}

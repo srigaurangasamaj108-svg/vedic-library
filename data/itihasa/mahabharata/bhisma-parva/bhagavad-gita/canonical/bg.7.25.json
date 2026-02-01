@@ -1,0 +1,34 @@
+{
+  "uid": "bg.7.25",
+  "work": {
+    "corpus": "itihasa",
+    "text": "mahabharata",
+    "section": "bhisma-parva",
+    "subwork": "bhagavad-gita"
+  },
+  "location": {
+    "chapter": 7,
+    "verse": 25
+  },
+  "text": {
+    "script": "devanagari",
+    "content": "नाहं प्रकाश: सर्वस्य योगमायासमावृत: ।\nमूढोऽयं नाभिजानाति लोको मामजमव्ययम्\n॥ २५ ॥"
+  },
+  "transliteration": {
+    "scheme": "iast",
+    "content": "nāhaṃ prakāśa: sarvasya yogamāyāsamāvṛta: |\nmūḍho'yaṃ nābhijānāti loko māmajamavyayam\n|| 25 ||"
+  },
+  "source": {
+    "pipeline": "bhagavad-gita",
+    "stage": "2.5",
+    "script": "s25_realign_iast_bg.py",
+    "script_version": "2.2.0",
+    "derived_from": [
+      "vedabase/raw-json/bg-07-25.json"
+    ]
+  },
+  "schema": {
+    "name": "vedic-library.canonical.verse",
+    "version": "1.0.0"
+  }
+}

@@ -1,0 +1,127 @@
+{
+  "uid": "bg.1.37-38.prabhupada.synonyms",
+  "editorial_unit_ref": {
+    "uid": "bg.1.37-38.prabhupada",
+    "schema": "vedic-library.editorial.unit",
+    "version": "1.0.0"
+  },
+  "synonyms": {
+    "language": "en",
+    "author": "A. C. Bhaktivedanta Swami Prabhupāda",
+    "items": {
+      "language": "en",
+      "items": [
+        {
+          "sanskrit": "yadi",
+          "meaning": "if"
+        },
+        {
+          "sanskrit": "api",
+          "meaning": "even"
+        },
+        {
+          "sanskrit": "ete",
+          "meaning": "they"
+        },
+        {
+          "sanskrit": "na",
+          "meaning": "do not"
+        },
+        {
+          "sanskrit": "paśyanti",
+          "meaning": "see"
+        },
+        {
+          "sanskrit": "lobha",
+          "meaning": "by greed"
+        },
+        {
+          "sanskrit": "upahata",
+          "meaning": "overpowered"
+        },
+        {
+          "sanskrit": "cetasaḥ",
+          "meaning": "their hearts"
+        },
+        {
+          "sanskrit": "kula kṣaya",
+          "meaning": "in killing the family"
+        },
+        {
+          "sanskrit": "kṛtam",
+          "meaning": "done"
+        },
+        {
+          "sanskrit": "doṣam",
+          "meaning": "fault"
+        },
+        {
+          "sanskrit": "mitra drohe",
+          "meaning": "in quarreling with friends"
+        },
+        {
+          "sanskrit": "ca",
+          "meaning": "also"
+        },
+        {
+          "sanskrit": "pātakam",
+          "meaning": "sinful reactions"
+        },
+        {
+          "sanskrit": "katham",
+          "meaning": "why"
+        },
+        {
+          "sanskrit": "na",
+          "meaning": "should not"
+        },
+        {
+          "sanskrit": "jñeyam",
+          "meaning": "be known"
+        },
+        {
+          "sanskrit": "asmābhiḥ",
+          "meaning": "by us"
+        },
+        {
+          "sanskrit": "pāpāt",
+          "meaning": "from sins"
+        },
+        {
+          "sanskrit": "asmāt",
+          "meaning": "these"
+        },
+        {
+          "sanskrit": "nivartitum",
+          "meaning": "to cease"
+        },
+        {
+          "sanskrit": "kula kṣaya",
+          "meaning": "in the destruction of a dynasty"
+        },
+        {
+          "sanskrit": "kṛtam",
+          "meaning": "done"
+        },
+        {
+          "sanskrit": "doṣam",
+          "meaning": "crime"
+        },
+        {
+          "sanskrit": "prapaśyadbhiḥ",
+          "meaning": "by those who can see"
+        }
+      ]
+    }
+  },
+  "source": {
+    "derived_from": "vedabase.io",
+    "normalized_file": "vedabase-bg-01-37-38.normalized.json",
+    "pipeline_stage": "migration.m3",
+    "script": "m3_migrate_synonyms.py"
+  },
+  "schema": {
+    "name": "vedic-library.derivative.synonyms",
+    "version": "2.0.0"
+  }
+}

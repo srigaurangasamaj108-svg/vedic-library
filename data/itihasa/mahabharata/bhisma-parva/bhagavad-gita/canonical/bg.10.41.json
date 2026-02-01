@@ -1,0 +1,34 @@
+{
+  "uid": "bg.10.41",
+  "work": {
+    "corpus": "itihasa",
+    "text": "mahabharata",
+    "section": "bhisma-parva",
+    "subwork": "bhagavad-gita"
+  },
+  "location": {
+    "chapter": 10,
+    "verse": 41
+  },
+  "text": {
+    "script": "devanagari",
+    "content": "यद्यद्विभूतिमत्सत्त्वं श्रीमदूर्जितमेव वा ।\nतत्तदेवावगच्छ त्वं मम तेजोऽशसम्भवम्\n॥ ४१ ॥"
+  },
+  "transliteration": {
+    "scheme": "iast",
+    "content": "yadyadvibhūtimatsattvaṃ śrīmadūrjitameva vā |\ntattadevāvagaccha tvaṃ mama tejo'śasambhavam\n|| 41 ||"
+  },
+  "source": {
+    "pipeline": "bhagavad-gita",
+    "stage": "2.5",
+    "script": "s25_realign_iast_bg.py",
+    "script_version": "2.2.0",
+    "derived_from": [
+      "vedabase/raw-json/bg-10-41.json"
+    ]
+  },
+  "schema": {
+    "name": "vedic-library.canonical.verse",
+    "version": "1.0.0"
+  }
+}

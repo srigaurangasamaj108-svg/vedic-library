@@ -1,0 +1,17 @@
+{
+  "schema": "vedic-library.exposition",
+  "schema_version": "1.0.0",
+  "uid": "bg.17.24.prabhupada.exposition",
+  "editorial_unit_ref": "bg.17.24.prabhupada",
+  "exposition": {
+    "type": "purport",
+    "language": "en",
+    "author": "A. C. Bhaktivedanta Swami Prabhupāda",
+    "content": "Oṁ tad viṣṇoḥ paramaṁ padam\n\n(\n\nṚg Veda\n\n1.22.20). The lotus feet of Viṣṇu are the supreme devotional platform. The performance of everything on behalf of the Supreme Personality of Godhead assures the perfection of all activity."
+  },
+  "source": {
+    "edition": "Bhagavad-gītā As It Is",
+    "editor": "BBT",
+    "lineage": "Gaudiya Vaishnava"
+  }
+}

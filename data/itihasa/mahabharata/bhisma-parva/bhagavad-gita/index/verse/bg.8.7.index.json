@@ -1,0 +1,44 @@
+{
+  "schema": "vedic-library.verse.index",
+  "schema_version": "1.0.0",
+  "verse_uid": "bg.8.7",
+  "work": {
+    "corpus": "itihasa",
+    "text": "mahabharata",
+    "section": "bhisma-parva",
+    "subwork": "bhagavad-gita"
+  },
+  "location": {
+    "chapter": 8,
+    "verse": 7
+  },
+  "canonical_ref": "bg.8.7",
+  "editorial_unit": {
+    "uid": "bg.8.7.prabhupada",
+    "covers": {
+      "chapter": 8,
+      "from_verse": 7,
+      "to_verse": 7
+    }
+  },
+  "derivatives": {
+    "synonyms": {
+      "available": true,
+      "refs": [
+        "bg.8.7.prabhupada.synonyms.en"
+      ]
+    },
+    "translations": {
+      "available": true,
+      "refs": [
+        "bg.8.7.prabhupada.translation.en"
+      ]
+    },
+    "exposition": {
+      "available": true,
+      "refs": [
+        "bg.8.7.prabhupada.exposition"
+      ]
+    }
+  }
+}

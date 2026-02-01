@@ -1,0 +1,34 @@
+{
+  "uid": "bg.18.61",
+  "work": {
+    "corpus": "itihasa",
+    "text": "mahabharata",
+    "section": "bhisma-parva",
+    "subwork": "bhagavad-gita"
+  },
+  "location": {
+    "chapter": 18,
+    "verse": 61
+  },
+  "text": {
+    "script": "devanagari",
+    "content": "ईश्वर: सर्वभूतानां हृद्देशेऽर्जुन तिष्ठति ।\nभ्रामयन्सर्वभूतानि यन्‍त्रारूढानि मायया\n॥ ६१ ॥"
+  },
+  "transliteration": {
+    "scheme": "iast",
+    "content": "īśvara: sarvabhūtānāṃ hṛddeśe'rjuna tiṣṭhati |\nbhrāmayansarvabhūtāni yan‍trārūḍhāni māyayā\n|| 61 ||"
+  },
+  "source": {
+    "pipeline": "bhagavad-gita",
+    "stage": "2.5",
+    "script": "s25_realign_iast_bg.py",
+    "script_version": "2.2.0",
+    "derived_from": [
+      "vedabase/raw-json/bg-18-61.json"
+    ]
+  },
+  "schema": {
+    "name": "vedic-library.canonical.verse",
+    "version": "1.0.0"
+  }
+}

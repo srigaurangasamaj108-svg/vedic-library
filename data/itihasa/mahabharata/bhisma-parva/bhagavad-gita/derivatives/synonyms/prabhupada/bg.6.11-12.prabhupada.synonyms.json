@@ -1,0 +1,135 @@
+{
+  "uid": "bg.6.11-12.prabhupada.synonyms",
+  "editorial_unit_ref": {
+    "uid": "bg.6.11-12.prabhupada",
+    "schema": "vedic-library.editorial.unit",
+    "version": "1.0.0"
+  },
+  "synonyms": {
+    "language": "en",
+    "author": "A. C. Bhaktivedanta Swami Prabhupāda",
+    "items": {
+      "language": "en",
+      "items": [
+        {
+          "sanskrit": "śucau",
+          "meaning": "in a sanctified"
+        },
+        {
+          "sanskrit": "deśe",
+          "meaning": "land"
+        },
+        {
+          "sanskrit": "pratiṣṭhāpya",
+          "meaning": "placing"
+        },
+        {
+          "sanskrit": "sthiram",
+          "meaning": "firm"
+        },
+        {
+          "sanskrit": "āsanam",
+          "meaning": "seat"
+        },
+        {
+          "sanskrit": "ātmanaḥ",
+          "meaning": "his own"
+        },
+        {
+          "sanskrit": "na",
+          "meaning": "not"
+        },
+        {
+          "sanskrit": "ati",
+          "meaning": "too"
+        },
+        {
+          "sanskrit": "ucchritam",
+          "meaning": "high"
+        },
+        {
+          "sanskrit": "na",
+          "meaning": "nor"
+        },
+        {
+          "sanskrit": "ati",
+          "meaning": "too"
+        },
+        {
+          "sanskrit": "nīcam",
+          "meaning": "low"
+        },
+        {
+          "sanskrit": "caila ajina",
+          "meaning": "of soft cloth and deerskin"
+        },
+        {
+          "sanskrit": "kuśa",
+          "meaning": "and kuśa grass"
+        },
+        {
+          "sanskrit": "uttaram",
+          "meaning": "covering"
+        },
+        {
+          "sanskrit": "tatra",
+          "meaning": "thereupon"
+        },
+        {
+          "sanskrit": "eka agram",
+          "meaning": "with one attention"
+        },
+        {
+          "sanskrit": "manaḥ",
+          "meaning": "mind"
+        },
+        {
+          "sanskrit": "kṛtvā",
+          "meaning": "making"
+        },
+        {
+          "sanskrit": "yata citta",
+          "meaning": "controlling the mind"
+        },
+        {
+          "sanskrit": "indriya",
+          "meaning": "senses"
+        },
+        {
+          "sanskrit": "kriyaḥ",
+          "meaning": "and activities"
+        },
+        {
+          "sanskrit": "upaviśya",
+          "meaning": "sitting"
+        },
+        {
+          "sanskrit": "āsane",
+          "meaning": "on the seat"
+        },
+        {
+          "sanskrit": "yuñjyāt",
+          "meaning": "should execute"
+        },
+        {
+          "sanskrit": "yogam",
+          "meaning": "yoga practice"
+        },
+        {
+          "sanskrit": "ātma",
+          "meaning": "the heart"
+        }
+      ]
+    }
+  },
+  "source": {
+    "derived_from": "vedabase.io",
+    "normalized_file": "vedabase-bg-06-11-12.normalized.json",
+    "pipeline_stage": "migration.m3",
+    "script": "m3_migrate_synonyms.py"
+  },
+  "schema": {
+    "name": "vedic-library.derivative.synonyms",
+    "version": "2.0.0"
+  }
+}

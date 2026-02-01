@@ -1,0 +1,79 @@
+{
+  "uid": "bg.10.1.prabhupada.synonyms",
+  "editorial_unit_ref": {
+    "uid": "bg.10.1.prabhupada",
+    "schema": "vedic-library.editorial.unit",
+    "version": "1.0.0"
+  },
+  "synonyms": {
+    "language": "en",
+    "author": "A. C. Bhaktivedanta Swami Prabhupāda",
+    "items": {
+      "language": "en",
+      "items": [
+        {
+          "sanskrit": "śrī bhagavān uvāca",
+          "meaning": "the Supreme Personality of Godhead said"
+        },
+        {
+          "sanskrit": "bhūyaḥ",
+          "meaning": "again"
+        },
+        {
+          "sanskrit": "eva",
+          "meaning": "certainly"
+        },
+        {
+          "sanskrit": "mahā bāho",
+          "meaning": "O mighty-armed"
+        },
+        {
+          "sanskrit": "śṛṇu",
+          "meaning": "just hear"
+        },
+        {
+          "sanskrit": "me",
+          "meaning": "My"
+        },
+        {
+          "sanskrit": "paramam",
+          "meaning": "supreme"
+        },
+        {
+          "sanskrit": "vacaḥ",
+          "meaning": "instruction"
+        },
+        {
+          "sanskrit": "yat",
+          "meaning": "that which"
+        },
+        {
+          "sanskrit": "te",
+          "meaning": "to you"
+        },
+        {
+          "sanskrit": "aham",
+          "meaning": "I"
+        },
+        {
+          "sanskrit": "prīyamāṇāya",
+          "meaning": "thinking you dear to Me"
+        },
+        {
+          "sanskrit": "vakṣyāmi",
+          "meaning": "say"
+        }
+      ]
+    }
+  },
+  "source": {
+    "derived_from": "vedabase.io",
+    "normalized_file": "vedabase-bg-10-01.normalized.json",
+    "pipeline_stage": "migration.m3",
+    "script": "m3_migrate_synonyms.py"
+  },
+  "schema": {
+    "name": "vedic-library.derivative.synonyms",
+    "version": "2.0.0"
+  }
+}

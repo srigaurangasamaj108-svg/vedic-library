@@ -1,0 +1,34 @@
+{
+  "uid": "bg.4.34",
+  "work": {
+    "corpus": "itihasa",
+    "text": "mahabharata",
+    "section": "bhisma-parva",
+    "subwork": "bhagavad-gita"
+  },
+  "location": {
+    "chapter": 4,
+    "verse": 34
+  },
+  "text": {
+    "script": "devanagari",
+    "content": "तद्विद्धि प्रणिपातेन परिप्रश्न‍ेन सेवया ।\nउपदेक्ष्यन्ति ते ज्ञानं ज्ञानिनस्तत्त्वदर्शिनः\n॥ ३४ ॥"
+  },
+  "transliteration": {
+    "scheme": "iast",
+    "content": "tadviddhi praṇipātena paripraśna‍ena sevayā |\nupadekṣyanti te jñānaṃ jñāninastattvadarśinaḥ\n|| 34 ||"
+  },
+  "source": {
+    "pipeline": "bhagavad-gita",
+    "stage": "2.5",
+    "script": "s25_realign_iast_bg.py",
+    "script_version": "2.2.0",
+    "derived_from": [
+      "vedabase/raw-json/bg-04-34.json"
+    ]
+  },
+  "schema": {
+    "name": "vedic-library.canonical.verse",
+    "version": "1.0.0"
+  }
+}

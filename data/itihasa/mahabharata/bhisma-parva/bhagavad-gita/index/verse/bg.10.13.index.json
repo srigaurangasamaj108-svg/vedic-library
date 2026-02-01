@@ -1,0 +1,44 @@
+{
+  "schema": "vedic-library.verse.index",
+  "schema_version": "1.0.0",
+  "verse_uid": "bg.10.13",
+  "work": {
+    "corpus": "itihasa",
+    "text": "mahabharata",
+    "section": "bhisma-parva",
+    "subwork": "bhagavad-gita"
+  },
+  "location": {
+    "chapter": 10,
+    "verse": 13
+  },
+  "canonical_ref": "bg.10.13",
+  "editorial_unit": {
+    "uid": "bg.10.12-13.prabhupada",
+    "covers": {
+      "chapter": 10,
+      "from_verse": 12,
+      "to_verse": 13
+    }
+  },
+  "derivatives": {
+    "synonyms": {
+      "available": true,
+      "refs": [
+        "bg.10.12-13.prabhupada.synonyms.en"
+      ]
+    },
+    "translations": {
+      "available": true,
+      "refs": [
+        "bg.10.12-13.prabhupada.translation.en"
+      ]
+    },
+    "exposition": {
+      "available": true,
+      "refs": [
+        "bg.10.12-13.prabhupada.exposition"
+      ]
+    }
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "uid": "bg.6.35.prabhupada.synonyms",
+  "editorial_unit_ref": {
+    "uid": "bg.6.35.prabhupada",
+    "schema": "vedic-library.editorial.unit",
+    "version": "1.0.0"
+  },
+  "synonyms": {
+    "language": "en",
+    "author": "A. C. Bhaktivedanta Swami Prabhupāda",
+    "items": {
+      "language": "en",
+      "items": [
+        {
+          "sanskrit": "śrī bhagavān uvāca",
+          "meaning": "the Personality of Godhead said"
+        },
+        {
+          "sanskrit": "asaṁśayam",
+          "meaning": "undoubtedly"
+        },
+        {
+          "sanskrit": "mahā bāho",
+          "meaning": "O mighty-armed one"
+        },
+        {
+          "sanskrit": "manaḥ",
+          "meaning": "the mind"
+        },
+        {
+          "sanskrit": "durnigraham",
+          "meaning": "difficult to curb"
+        },
+        {
+          "sanskrit": "calam",
+          "meaning": "flickering"
+        },
+        {
+          "sanskrit": "abhyāsena",
+          "meaning": "by practice"
+        },
+        {
+          "sanskrit": "tu",
+          "meaning": "but"
+        },
+        {
+          "sanskrit": "kaunteya",
+          "meaning": "O son of Kuntī"
+        },
+        {
+          "sanskrit": "vairāgyeṇa",
+          "meaning": "by detachment"
+        },
+        {
+          "sanskrit": "ca",
+          "meaning": "also"
+        }
+      ]
+    }
+  },
+  "source": {
+    "derived_from": "vedabase.io",
+    "normalized_file": "vedabase-bg-06-35.normalized.json",
+    "pipeline_stage": "migration.m3",
+    "script": "m3_migrate_synonyms.py"
+  },
+  "schema": {
+    "name": "vedic-library.derivative.synonyms",
+    "version": "2.0.0"
+  }
+}

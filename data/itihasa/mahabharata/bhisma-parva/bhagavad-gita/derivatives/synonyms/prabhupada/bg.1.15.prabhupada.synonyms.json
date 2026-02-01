@@ -1,0 +1,59 @@
+{
+  "uid": "bg.1.15.prabhupada.synonyms",
+  "editorial_unit_ref": {
+    "uid": "bg.1.15.prabhupada",
+    "schema": "vedic-library.editorial.unit",
+    "version": "1.0.0"
+  },
+  "synonyms": {
+    "language": "en",
+    "author": "A. C. Bhaktivedanta Swami Prabhupāda",
+    "items": {
+      "language": "en",
+      "items": [
+        {
+          "sanskrit": "pāñcajanyam",
+          "meaning": "the conchshell named Pāñcajanya"
+        },
+        {
+          "sanskrit": "hṛṣīka īśaḥ",
+          "meaning": "Hṛṣīkeśa (Kṛṣṇa, the Lord who directs the senses of the devotees)"
+        },
+        {
+          "sanskrit": "devadattam",
+          "meaning": "the conchshell named Devadatta"
+        },
+        {
+          "sanskrit": "dhanam jayaḥ",
+          "meaning": "Dhanañjaya (Arjuna, the winner of wealth)"
+        },
+        {
+          "sanskrit": "pauṇḍram",
+          "meaning": "the conch named Pauṇḍra"
+        },
+        {
+          "sanskrit": "dadhmau",
+          "meaning": "blew"
+        },
+        {
+          "sanskrit": "mahā śaṅkham",
+          "meaning": "the terrific conchshell"
+        },
+        {
+          "sanskrit": "bhīma karmā",
+          "meaning": "one who performs herculean tasks"
+        }
+      ]
+    }
+  },
+  "source": {
+    "derived_from": "vedabase.io",
+    "normalized_file": "vedabase-bg-01-15.normalized.json",
+    "pipeline_stage": "migration.m3",
+    "script": "m3_migrate_synonyms.py"
+  },
+  "schema": {
+    "name": "vedic-library.derivative.synonyms",
+    "version": "2.0.0"
+  }
+}

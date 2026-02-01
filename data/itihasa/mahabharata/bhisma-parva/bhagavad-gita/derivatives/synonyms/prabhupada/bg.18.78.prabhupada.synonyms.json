@@ -1,0 +1,75 @@
+{
+  "uid": "bg.18.78.prabhupada.synonyms",
+  "editorial_unit_ref": {
+    "uid": "bg.18.78.prabhupada",
+    "schema": "vedic-library.editorial.unit",
+    "version": "1.0.0"
+  },
+  "synonyms": {
+    "language": "en",
+    "author": "A. C. Bhaktivedanta Swami Prabhupāda",
+    "items": {
+      "language": "en",
+      "items": [
+        {
+          "sanskrit": "yatra",
+          "meaning": "where"
+        },
+        {
+          "sanskrit": "yoga īśvaraḥ",
+          "meaning": "the master of mysticism"
+        },
+        {
+          "sanskrit": "kṛṣṇaḥ",
+          "meaning": "Lord Kṛṣṇa"
+        },
+        {
+          "sanskrit": "yatra",
+          "meaning": "where"
+        },
+        {
+          "sanskrit": "pārthaḥ",
+          "meaning": "the son of Pṛthā"
+        },
+        {
+          "sanskrit": "dhanuḥ dharaḥ",
+          "meaning": "the carrier of the bow and arrow"
+        },
+        {
+          "sanskrit": "tatra",
+          "meaning": "there"
+        },
+        {
+          "sanskrit": "śrīḥ",
+          "meaning": "opulence"
+        },
+        {
+          "sanskrit": "vijayaḥ",
+          "meaning": "victory"
+        },
+        {
+          "sanskrit": "bhūtiḥ",
+          "meaning": "exceptional power"
+        },
+        {
+          "sanskrit": "dhruvā",
+          "meaning": "certain"
+        },
+        {
+          "sanskrit": "nītiḥ",
+          "meaning": "morality"
+        }
+      ]
+    }
+  },
+  "source": {
+    "derived_from": "vedabase.io",
+    "normalized_file": "vedabase-bg-18-78.normalized.json",
+    "pipeline_stage": "migration.m3",
+    "script": "m3_migrate_synonyms.py"
+  },
+  "schema": {
+    "name": "vedic-library.derivative.synonyms",
+    "version": "2.0.0"
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "uid": "bg.6.38",
+  "work": {
+    "corpus": "itihasa",
+    "text": "mahabharata",
+    "section": "bhisma-parva",
+    "subwork": "bhagavad-gita"
+  },
+  "location": {
+    "chapter": 6,
+    "verse": 38
+  },
+  "text": {
+    "script": "devanagari",
+    "content": "कच्च‍िन्नोभयविभ्रष्टश्छिन्नाभ्रमिव नश्यति ।\nअप्रतिष्ठो महाबाहो विमूढो ब्रह्मण: पथि\n॥ ३८ ॥"
+  },
+  "transliteration": {
+    "scheme": "iast",
+    "content": "kacca‍innobhayavibhraṣṭaśchinnābhramiva naśyati |\napratiṣṭho mahābāho vimūḍho brahmaṇa: pathi\n|| 38 ||"
+  },
+  "source": {
+    "pipeline": "bhagavad-gita",
+    "stage": "2.5",
+    "script": "s25_realign_iast_bg.py",
+    "script_version": "2.2.0",
+    "derived_from": [
+      "vedabase/raw-json/bg-06-38.json"
+    ]
+  },
+  "schema": {
+    "name": "vedic-library.canonical.verse",
+    "version": "1.0.0"
+  }
+}

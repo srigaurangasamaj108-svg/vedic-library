@@ -1,0 +1,34 @@
+{
+  "uid": "bg.12.5",
+  "work": {
+    "corpus": "itihasa",
+    "text": "mahabharata",
+    "section": "bhisma-parva",
+    "subwork": "bhagavad-gita"
+  },
+  "location": {
+    "chapter": 12,
+    "verse": 5
+  },
+  "text": {
+    "script": "devanagari",
+    "content": "क्ल‍ेशोऽधिकतरस्तेषामव्यक्तासक्तचेतसाम् ।\nअव्यक्ता हि गतिर्दु:खं देहवद्भ‍िरवाप्यते\n॥ ५ ॥"
+  },
+  "transliteration": {
+    "scheme": "iast",
+    "content": "kla‍eśo'dhikatarasteṣāmavyaktāsaktacetasām |\navyaktā hi gatirdu:khaṃ dehavadbha‍iravāpyate\n|| 5 ||"
+  },
+  "source": {
+    "pipeline": "bhagavad-gita",
+    "stage": "2.5",
+    "script": "s25_realign_iast_bg.py",
+    "script_version": "2.2.0",
+    "derived_from": [
+      "vedabase/raw-json/bg-12-05.json"
+    ]
+  },
+  "schema": {
+    "name": "vedic-library.canonical.verse",
+    "version": "1.0.0"
+  }
+}

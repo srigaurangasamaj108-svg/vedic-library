@@ -1,0 +1,34 @@
+{
+  "uid": "bg.8.11",
+  "work": {
+    "corpus": "itihasa",
+    "text": "mahabharata",
+    "section": "bhisma-parva",
+    "subwork": "bhagavad-gita"
+  },
+  "location": {
+    "chapter": 8,
+    "verse": 11
+  },
+  "text": {
+    "script": "devanagari",
+    "content": "यदक्षरं वेदविदो वदन्ति\nविशन्ति यद्यतयो वीतरागा: ।\nयदिच्छन्तो ब्रह्मचर्यं चरन्ति\nतत्ते पदं सङ्ग्रहेण प्रवक्ष्ये\n॥ ११ ॥"
+  },
+  "transliteration": {
+    "scheme": "iast",
+    "content": "yadakṣaraṃ vedavido vadanti\nviśanti yadyatayo vītarāgā: |\nyadicchanto brahmacaryaṃ caranti\ntatte padaṃ saṅgraheṇa pravakṣye\n|| 11 ||"
+  },
+  "source": {
+    "pipeline": "bhagavad-gita",
+    "stage": "2.5",
+    "script": "s25_realign_iast_bg.py",
+    "script_version": "2.2.0",
+    "derived_from": [
+      "vedabase/raw-json/bg-08-11.json"
+    ]
+  },
+  "schema": {
+    "name": "vedic-library.canonical.verse",
+    "version": "1.0.0"
+  }
+}

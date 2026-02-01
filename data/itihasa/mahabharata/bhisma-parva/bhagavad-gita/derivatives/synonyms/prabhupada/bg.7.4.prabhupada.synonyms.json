@@ -1,0 +1,87 @@
+{
+  "uid": "bg.7.4.prabhupada.synonyms",
+  "editorial_unit_ref": {
+    "uid": "bg.7.4.prabhupada",
+    "schema": "vedic-library.editorial.unit",
+    "version": "1.0.0"
+  },
+  "synonyms": {
+    "language": "en",
+    "author": "A. C. Bhaktivedanta Swami Prabhupāda",
+    "items": {
+      "language": "en",
+      "items": [
+        {
+          "sanskrit": "bhūmiḥ",
+          "meaning": "earth"
+        },
+        {
+          "sanskrit": "āpaḥ",
+          "meaning": "water"
+        },
+        {
+          "sanskrit": "analaḥ",
+          "meaning": "fire"
+        },
+        {
+          "sanskrit": "vāyuḥ",
+          "meaning": "air"
+        },
+        {
+          "sanskrit": "kham",
+          "meaning": "ether"
+        },
+        {
+          "sanskrit": "manaḥ",
+          "meaning": "mind"
+        },
+        {
+          "sanskrit": "buddhiḥ",
+          "meaning": "intelligence"
+        },
+        {
+          "sanskrit": "eva",
+          "meaning": "certainly"
+        },
+        {
+          "sanskrit": "ca",
+          "meaning": "and"
+        },
+        {
+          "sanskrit": "ahaṅkāraḥ",
+          "meaning": "false ego"
+        },
+        {
+          "sanskrit": "iti",
+          "meaning": "thus"
+        },
+        {
+          "sanskrit": "iyam",
+          "meaning": "all these"
+        },
+        {
+          "sanskrit": "me",
+          "meaning": "My"
+        },
+        {
+          "sanskrit": "bhinnā",
+          "meaning": "separated"
+        },
+        {
+          "sanskrit": "prakṛtiḥ",
+          "meaning": "energies"
+        }
+      ]
+    }
+  },
+  "source": {
+    "derived_from": "vedabase.io",
+    "normalized_file": "vedabase-bg-07-04.normalized.json",
+    "pipeline_stage": "migration.m3",
+    "script": "m3_migrate_synonyms.py"
+  },
+  "schema": {
+    "name": "vedic-library.derivative.synonyms",
+    "version": "2.0.0"
+  }
+}

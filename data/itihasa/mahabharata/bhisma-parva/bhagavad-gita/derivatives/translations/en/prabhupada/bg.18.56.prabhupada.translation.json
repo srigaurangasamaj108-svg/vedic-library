@@ -1,0 +1,23 @@
+{
+  "uid": "bg.18.56.prabhupada.translation.en",
+  "editorial_unit_ref": {
+    "uid": "bg.18.56.prabhupada",
+    "schema": "vedic-library.editorial.unit",
+    "version": "1.0.0"
+  },
+  "translation": {
+    "language": "en",
+    "translator": "A. C. Bhaktivedanta Swami Prabhupāda",
+    "content": "Though engaged in all kinds of activities, My pure devotee, under My protection, reaches the eternal and imperishable abode by My grace."
+  },
+  "source": {
+    "derived_from": "vedabase.io",
+    "normalized_file": "vedabase-bg-18-56.normalized.json",
+    "pipeline_stage": "migration.m2",
+    "script": "m2_migrate_translations.py"
+  },
+  "schema": {
+    "name": "vedic-library.derivative.translation",
+    "version": "2.0.0"
+  }
+}

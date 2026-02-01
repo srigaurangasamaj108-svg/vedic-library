@@ -1,0 +1,75 @@
+{
+  "uid": "bg.10.17.prabhupada.synonyms",
+  "editorial_unit_ref": {
+    "uid": "bg.10.17.prabhupada",
+    "schema": "vedic-library.editorial.unit",
+    "version": "1.0.0"
+  },
+  "synonyms": {
+    "language": "en",
+    "author": "A. C. Bhaktivedanta Swami Prabhupāda",
+    "items": {
+      "language": "en",
+      "items": [
+        {
+          "sanskrit": "katham",
+          "meaning": "how"
+        },
+        {
+          "sanskrit": "vidyām aham",
+          "meaning": "shall I know"
+        },
+        {
+          "sanskrit": "yogin",
+          "meaning": "O supreme mystic"
+        },
+        {
+          "sanskrit": "tvām",
+          "meaning": "You"
+        },
+        {
+          "sanskrit": "sadā",
+          "meaning": "always"
+        },
+        {
+          "sanskrit": "paricintayan",
+          "meaning": "thinking of"
+        },
+        {
+          "sanskrit": "keṣu",
+          "meaning": "in which"
+        },
+        {
+          "sanskrit": "keṣu",
+          "meaning": "in which"
+        },
+        {
+          "sanskrit": "ca",
+          "meaning": "also"
+        },
+        {
+          "sanskrit": "bhāveṣu",
+          "meaning": "natures"
+        },
+        {
+          "sanskrit": "cintyaḥ asi",
+          "meaning": "You are to be remembered"
+        },
+        {
+          "sanskrit": "bhagavan",
+          "meaning": "O Supreme"
+        }
+      ]
+    }
+  },
+  "source": {
+    "derived_from": "vedabase.io",
+    "normalized_file": "vedabase-bg-10-17.normalized.json",
+    "pipeline_stage": "migration.m3",
+    "script": "m3_migrate_synonyms.py"
+  },
+  "schema": {
+    "name": "vedic-library.derivative.synonyms",
+    "version": "2.0.0"
+  }
+}

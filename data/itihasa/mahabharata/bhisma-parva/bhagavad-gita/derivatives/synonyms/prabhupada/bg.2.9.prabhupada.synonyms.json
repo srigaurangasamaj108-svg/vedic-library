@@ -1,0 +1,75 @@
+{
+  "uid": "bg.2.9.prabhupada.synonyms",
+  "editorial_unit_ref": {
+    "uid": "bg.2.9.prabhupada",
+    "schema": "vedic-library.editorial.unit",
+    "version": "1.0.0"
+  },
+  "synonyms": {
+    "language": "en",
+    "author": "A. C. Bhaktivedanta Swami Prabhupāda",
+    "items": {
+      "language": "en",
+      "items": [
+        {
+          "sanskrit": "sañjayaḥ uvāca",
+          "meaning": "Sañjaya said"
+        },
+        {
+          "sanskrit": "evam",
+          "meaning": "thus"
+        },
+        {
+          "sanskrit": "uktvā",
+          "meaning": "speaking"
+        },
+        {
+          "sanskrit": "hṛṣīkeśam",
+          "meaning": "unto Kṛṣṇa, the master of the senses"
+        },
+        {
+          "sanskrit": "guḍākeśaḥ",
+          "meaning": "Arjuna, the master of curbing ignorance"
+        },
+        {
+          "sanskrit": "param tapaḥ",
+          "meaning": "the chastiser of the enemies"
+        },
+        {
+          "sanskrit": "na yotsye",
+          "meaning": "I shall not fight"
+        },
+        {
+          "sanskrit": "iti",
+          "meaning": "thus"
+        },
+        {
+          "sanskrit": "govindam",
+          "meaning": "unto Kṛṣṇa, the giver of pleasure to the senses"
+        },
+        {
+          "sanskrit": "uktvā",
+          "meaning": "saying"
+        },
+        {
+          "sanskrit": "tūṣṇīm",
+          "meaning": "silent"
+        },
+        {
+          "sanskrit": "babhūva",
+          "meaning": "became"
+        }
+      ]
+    }
+  },
+  "source": {
+    "derived_from": "vedabase.io",
+    "normalized_file": "vedabase-bg-02-09.normalized.json",
+    "pipeline_stage": "migration.m3",
+    "script": "m3_migrate_synonyms.py"
+  },
+  "schema": {
+    "name": "vedic-library.derivative.synonyms",
+    "version": "2.0.0"
+  }
+}

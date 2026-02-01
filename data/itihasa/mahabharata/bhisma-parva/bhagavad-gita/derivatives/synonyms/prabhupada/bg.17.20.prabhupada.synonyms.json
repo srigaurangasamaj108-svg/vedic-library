@@ -1,0 +1,83 @@
+{
+  "uid": "bg.17.20.prabhupada.synonyms",
+  "editorial_unit_ref": {
+    "uid": "bg.17.20.prabhupada",
+    "schema": "vedic-library.editorial.unit",
+    "version": "1.0.0"
+  },
+  "synonyms": {
+    "language": "en",
+    "author": "A. C. Bhaktivedanta Swami Prabhupāda",
+    "items": {
+      "language": "en",
+      "items": [
+        {
+          "sanskrit": "dātavyam",
+          "meaning": "worth giving"
+        },
+        {
+          "sanskrit": "iti",
+          "meaning": "thus"
+        },
+        {
+          "sanskrit": "yat",
+          "meaning": "that which"
+        },
+        {
+          "sanskrit": "dānam",
+          "meaning": "charity"
+        },
+        {
+          "sanskrit": "dīyate",
+          "meaning": "is given"
+        },
+        {
+          "sanskrit": "anupakāriṇe",
+          "meaning": "irrespective of return"
+        },
+        {
+          "sanskrit": "deśe",
+          "meaning": "in a proper place"
+        },
+        {
+          "sanskrit": "kāle",
+          "meaning": "at a proper time"
+        },
+        {
+          "sanskrit": "ca",
+          "meaning": "also"
+        },
+        {
+          "sanskrit": "pātre",
+          "meaning": "to a suitable person"
+        },
+        {
+          "sanskrit": "ca",
+          "meaning": "and"
+        },
+        {
+          "sanskrit": "tat",
+          "meaning": "that"
+        },
+        {
+          "sanskrit": "dānam",
+          "meaning": "charity"
+        },
+        {
+          "sanskrit": "sāttvikam",
+          "meaning": "in the mode of goodness"
+        }
+      ]
+    }
+  },
+  "source": {
+    "derived_from": "vedabase.io",
+    "normalized_file": "vedabase-bg-17-20.normalized.json",
+    "pipeline_stage": "migration.m3",
+    "script": "m3_migrate_synonyms.py"
+  },
+  "schema": {
+    "name": "vedic-library.derivative.synonyms",
+    "version": "2.0.0"
+  }
+}

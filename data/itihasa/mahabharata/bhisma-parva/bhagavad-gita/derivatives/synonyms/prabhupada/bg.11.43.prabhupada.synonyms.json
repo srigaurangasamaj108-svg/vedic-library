@@ -1,0 +1,103 @@
+{
+  "uid": "bg.11.43.prabhupada.synonyms",
+  "editorial_unit_ref": {
+    "uid": "bg.11.43.prabhupada",
+    "schema": "vedic-library.editorial.unit",
+    "version": "1.0.0"
+  },
+  "synonyms": {
+    "language": "en",
+    "author": "A. C. Bhaktivedanta Swami Prabhupāda",
+    "items": {
+      "language": "en",
+      "items": [
+        {
+          "sanskrit": "pitā",
+          "meaning": "the father"
+        },
+        {
+          "sanskrit": "asi",
+          "meaning": "You are"
+        },
+        {
+          "sanskrit": "lokasya",
+          "meaning": "of all the world"
+        },
+        {
+          "sanskrit": "cara",
+          "meaning": "moving"
+        },
+        {
+          "sanskrit": "acarasya",
+          "meaning": "and nonmoving"
+        },
+        {
+          "sanskrit": "tvam",
+          "meaning": "You are"
+        },
+        {
+          "sanskrit": "asya",
+          "meaning": "of this"
+        },
+        {
+          "sanskrit": "pūjyaḥ",
+          "meaning": "worshipable"
+        },
+        {
+          "sanskrit": "ca",
+          "meaning": "also"
+        },
+        {
+          "sanskrit": "guruḥ",
+          "meaning": "master"
+        },
+        {
+          "sanskrit": "garīyān",
+          "meaning": "glorious"
+        },
+        {
+          "sanskrit": "na",
+          "meaning": "never"
+        },
+        {
+          "sanskrit": "tvat samaḥ",
+          "meaning": "equal to You"
+        },
+        {
+          "sanskrit": "asti",
+          "meaning": "there is"
+        },
+        {
+          "sanskrit": "abhyadhikaḥ",
+          "meaning": "greater"
+        },
+        {
+          "sanskrit": "kutaḥ",
+          "meaning": "how is it possible"
+        },
+        {
+          "sanskrit": "anyaḥ",
+          "meaning": "other"
+        },
+        {
+          "sanskrit": "loka traye",
+          "meaning": "in the three planetary systems"
+        },
+        {
+          "sanskrit": "api",
+          "meaning": "also"
+        }
+      ]
+    }
+  },
+  "source": {
+    "derived_from": "vedabase.io",
+    "normalized_file": "vedabase-bg-11-43.normalized.json",
+    "pipeline_stage": "migration.m3",
+    "script": "m3_migrate_synonyms.py"
+  },
+  "schema": {
+    "name": "vedic-library.derivative.synonyms",
+    "version": "2.0.0"
+  }
+}

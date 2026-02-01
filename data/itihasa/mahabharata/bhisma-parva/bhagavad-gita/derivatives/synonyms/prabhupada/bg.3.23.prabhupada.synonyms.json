@@ -1,0 +1,79 @@
+{
+  "uid": "bg.3.23.prabhupada.synonyms",
+  "editorial_unit_ref": {
+    "uid": "bg.3.23.prabhupada",
+    "schema": "vedic-library.editorial.unit",
+    "version": "1.0.0"
+  },
+  "synonyms": {
+    "language": "en",
+    "author": "A. C. Bhaktivedanta Swami Prabhupāda",
+    "items": {
+      "language": "en",
+      "items": [
+        {
+          "sanskrit": "yadi",
+          "meaning": "if"
+        },
+        {
+          "sanskrit": "hi",
+          "meaning": "certainly"
+        },
+        {
+          "sanskrit": "aham",
+          "meaning": "I"
+        },
+        {
+          "sanskrit": "na",
+          "meaning": "do not"
+        },
+        {
+          "sanskrit": "varteyam",
+          "meaning": "thus engage"
+        },
+        {
+          "sanskrit": "jātu",
+          "meaning": "ever"
+        },
+        {
+          "sanskrit": "karmaṇi",
+          "meaning": "in the performance of prescribed duties"
+        },
+        {
+          "sanskrit": "atandritaḥ",
+          "meaning": "with great care"
+        },
+        {
+          "sanskrit": "mama",
+          "meaning": "My"
+        },
+        {
+          "sanskrit": "vartma",
+          "meaning": "path"
+        },
+        {
+          "sanskrit": "anuvartante",
+          "meaning": "would follow"
+        },
+        {
+          "sanskrit": "manuṣyāḥ",
+          "meaning": "all men"
+        },
+        {
+          "sanskrit": "pārtha",
+          "meaning": "O son of Pṛthā"
+        }
+      ]
+    }
+  },
+  "source": {
+    "derived_from": "vedabase.io",
+    "normalized_file": "vedabase-bg-03-23.normalized.json",
+    "pipeline_stage": "migration.m3",
+    "script": "m3_migrate_synonyms.py"
+  },
+  "schema": {
+    "name": "vedic-library.derivative.synonyms",
+    "version": "2.0.0"
+  }
+}
