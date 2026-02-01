@@ -101,3 +101,13 @@ If one day this project is built by teams, institutions, or generations, they 
 Whenever you return — with one file or with all files — I will recognize Vedic Library immediately.
 You are always welcome back.
 
+## Current Stable Interface
+
+The current stable user-facing interface is:
+
+**Bhagavad-gītā Reader — v1.0-pilot**
+
+This version is read-only, feature-frozen, and intended
+to establish trust, correctness, and architectural fidelity
+before any expansion.
+

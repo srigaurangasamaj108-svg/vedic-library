@@ -173,8 +173,10 @@ Copy code
 translations/en/prabhupada/
 bg.1.16-18.prabhupada.translation.en.json
 
-shell
-Copy code
+Note: For translations, language is encoded at the directory level
+(e.g. `translations/en/`). Filenames may omit explicit language
+suffixes during Phase-0.
+
 
 ### 7.2 Synonyms (Word-for-word)
 synonyms/en/prabhupada/
@@ -198,6 +200,63 @@ Copy code
 - Derivatives never modify canonical text
 
 ---
+
+## 7.4 Language Axis — Transitional State (Clarification)
+
+For the Bhagavad-gītā Phase-0 implementation, derivative layers
+(synonyms, translations, exposition) exist in a **transitional,
+English-only state**.
+
+### Current Reality
+
+- Derivative content is authored and stored in English only
+- Therefore, the `language/` directory level (e.g. `en/`) is
+  **intentionally collapsed** in the filesystem
+- Language is instead declared through:
+  - derivative metadata within JSON files
+  - Verse Index references (e.g. `.synonyms.en`, `.translation.en`)
+
+Example (current structure):
+
+derivatives/
+synonyms/
+prabhupada/
+bg.1.1.prabhupada.synonyms.json
+
+vbnet
+Copy code
+
+### Architectural Intent
+
+The **language axis is canonical**, but **not yet physically expanded**
+for Bhagavad-gītā Phase-0 data.
+
+Future multilingual expansion is expected to introduce the following
+normalized structure:
+
+derivatives/
+synonyms/
+en/
+prabhupada/
+hi/
+prabhupada/
+
+markdown
+Copy code
+
+### Governance Rule
+
+- Existing derivative files MUST NOT be renamed or relocated
+  retroactively
+- Language-aware behavior must be handled at the **loader and index
+  level**, not through ad-hoc filesystem changes
+- Introduction of physical language directories requires:
+  - a formal migration script
+  - Verse Index updates
+  - a schema or registry version bump
+
+This clarification preserves historical integrity while allowing
+incremental, scalable multilingual growth.
 
 ## 8. Verse Index (Routing Layer)
 

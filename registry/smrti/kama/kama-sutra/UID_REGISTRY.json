@@ -1,0 +1,54 @@
+{
+  "schema": {
+    "name": "vedic-library.uid.registry.smrti.kama.kama-sutra",
+    "version": "1.0.0",
+    "status": "locked"
+  },
+
+  "corpus": "smrti",
+  "domain": "kama-sastra",
+  "text": "kama-sutra",
+
+  "identity": {
+    "traditional_attribution": "vatsyayana",
+    "adhikarana_count": 7,
+    "status": "canonical"
+  },
+
+  "structure": {
+    "adhikarana": {
+      "description": "Major divisions (books)",
+      "scope": "global"
+    },
+    "adhyaya": {
+      "description": "Chapters within each adhikarana",
+      "scope": "local"
+    },
+    "prakarana": {
+      "description": "Topical units",
+      "scope": "global",
+      "numbering": "progressive",
+      "note": "Prakaranas are numbered continuously across all 7 adhikaranas"
+    },
+    "sutra": {
+      "description": "Aphoristic textual units",
+      "scope": "local"
+    }
+  },
+
+  "uid_patterns": {
+    "minimal": "kamasutra.<adhikarana>.<adhyaya>.<sutra>",
+    "extended": "kamasutra.<adhikarana>.<adhyaya>.p<prakarana>.<sutra>"
+  },
+
+  "rules": [
+    "uids encode textual location only",
+    "uids do not encode meaning, topic, or interpretation",
+    "prakarana numbering is global and progressive",
+    "prakarana does not reset per adhyaya",
+    "p-prefix is mandatory when prakarana is included",
+    "absence of prakarana does not invalidate the uid",
+    "canonical uids are immutable once locked"
+  ]
+}
+
