@@ -1,0 +1,74 @@
+{
+  "temp_id": "vedabase-bg-01-27",
+  "chapter": 1,
+  "verse": 27,
+  "verse_id": "bg-01-27",
+  "verse_group": null,
+  "composite": false,
+  "sanskrit": {
+    "devanagari": "तान्समीक्ष्य स कौन्तेयः सर्वान्बन्धूनवस्थितान्  ।\nकृपया परयाविष्टो विषीदन्निदमब्रवीत् ॥ २७ ॥",
+    "iast": "tān samīkṣya sa kaunteyaḥ\nsarvān bandhūn avasthitān\nkṛpayā parayāviṣṭo\nviṣīdann idam abravīt"
+  },
+  "synonyms_raw": "tān\n—\nall of them\n;\nsamīkṣya\n—\nafter seeing\n;\nsaḥ\n—\nhe\n;\nkaunteyaḥ\n—\nthe son of Kuntī\n;\nsarvān\n—\nall kinds of\n;\nbandhūn\n—\nrelatives\n;\navasthitān\n—\nsituated\n;\nkṛpayā\n—\nby compassion\n;\nparayā\n—\nof a high grade\n;\nāviṣṭaḥ\n—\noverwhelmed\n;\nviṣīdan\n—\nwhile lamenting\n;\nidam\n—\nthus\n;\nabravīt\n—\nspoke\n.",
+  "translation": "When the son of Kuntī, Arjuna, saw all these different grades of friends and relatives, he became overwhelmed with compassion and spoke thus.",
+  "purport": [],
+  "source": {
+    "author": "A. C. Bhaktivedanta Swami Prabhupāda",
+    "edition": "Bhagavad-gītā As It Is",
+    "language": "en",
+    "provider": "vedabase.io"
+  },
+  "synonyms": {
+    "language": "en",
+    "items": [
+      {
+        "sanskrit": "tān",
+        "meaning": "all of them"
+      },
+      {
+        "sanskrit": "samīkṣya",
+        "meaning": "after seeing"
+      },
+      {
+        "sanskrit": "saḥ",
+        "meaning": "he"
+      },
+      {
+        "sanskrit": "kaunteyaḥ",
+        "meaning": "the son of Kuntī"
+      },
+      {
+        "sanskrit": "sarvān",
+        "meaning": "all kinds of"
+      },
+      {
+        "sanskrit": "bandhūn",
+        "meaning": "relatives"
+      },
+      {
+        "sanskrit": "avasthitān",
+        "meaning": "situated"
+      },
+      {
+        "sanskrit": "kṛpayā",
+        "meaning": "by compassion"
+      },
+      {
+        "sanskrit": "parayā",
+        "meaning": "of a high grade"
+      },
+      {
+        "sanskrit": "āviṣṭaḥ",
+        "meaning": "overwhelmed"
+      },
+      {
+        "sanskrit": "viṣīdan",
+        "meaning": "while lamenting"
+      },
+      {
+        "sanskrit": "idam",
+        "meaning": "thus"
+      }
+    ]
+  }
+}

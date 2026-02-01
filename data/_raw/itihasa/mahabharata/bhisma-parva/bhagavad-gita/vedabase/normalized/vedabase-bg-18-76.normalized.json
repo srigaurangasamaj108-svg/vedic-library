@@ -1,0 +1,76 @@
+{
+  "temp_id": "vedabase-bg-18-76",
+  "chapter": 18,
+  "verse": 76,
+  "verse_id": "bg-18-76",
+  "verse_group": null,
+  "composite": false,
+  "sanskrit": {
+    "devanagari": "राजन्संस्मृत्य संस्मृत्य संवादमिममद्भुतम् ।\nकेशवार्जुनयो: पुण्यं हृष्यामि च मुहुर्मुहु: ॥ ७६ ॥",
+    "iast": "rājan saṁsmṛtya saṁsmṛtya\nsaṁvādam imam adbhutam\nkeśavārjunayoḥ puṇyaṁ\nhṛṣyāmi ca muhur muhuḥ"
+  },
+  "synonyms_raw": "rājan\n—\nO King\n;\nsaṁsmṛtya\n—\nremembering\n;\nsaṁsmṛtya\n—\nremembering\n;\nsaṁvādam\n—\nmessage\n;\nimam\n—\nthis\n;\nadbhutam\n—\nwonderful\n;\nkeśava\n—\nof Lord Kṛṣṇa\n;\narjunayoḥ\n—\nand Arjuna\n;\npuṇyam\n—\npious\n;\nhṛṣyāmi\n—\nI am taking pleasure\n;\nca\n—\nalso\n;\nmuhuḥ\nmuhuḥ\n—\nrepeatedly\n.",
+  "translation": "O King, as I repeatedly recall this wondrous and holy dialogue between Kṛṣṇa and Arjuna, I take pleasure, being thrilled at every moment.",
+  "purport": [
+    "The understanding of",
+    "Bhagavad-gītā",
+    "is so transcendental that anyone who becomes conversant with the topics of Arjuna and Kṛṣṇa becomes righteous and he cannot forget such talks. This is the transcendental position of spiritual life. In other words, one who hears the",
+    "Gītā",
+    "from the right source, directly from Kṛṣṇa, attains full Kṛṣṇa consciousness. The result of Kṛṣṇa consciousness is that one becomes increasingly enlightened, and he enjoys life with a thrill, not only for some time, but at every moment."
+  ],
+  "source": {
+    "author": "A. C. Bhaktivedanta Swami Prabhupāda",
+    "edition": "Bhagavad-gītā As It Is",
+    "language": "en",
+    "provider": "vedabase.io"
+  },
+  "synonyms": {
+    "language": "en",
+    "items": [
+      {
+        "sanskrit": "rājan",
+        "meaning": "O King"
+      },
+      {
+        "sanskrit": "saṁsmṛtya",
+        "meaning": "remembering"
+      },
+      {
+        "sanskrit": "saṁsmṛtya",
+        "meaning": "remembering"
+      },
+      {
+        "sanskrit": "saṁvādam",
+        "meaning": "message"
+      },
+      {
+        "sanskrit": "imam",
+        "meaning": "this"
+      },
+      {
+        "sanskrit": "adbhutam",
+        "meaning": "wonderful"
+      },
+      {
+        "sanskrit": "keśava",
+        "meaning": "of Lord Kṛṣṇa"
+      },
+      {
+        "sanskrit": "arjunayoḥ",
+        "meaning": "and Arjuna"
+      },
+      {
+        "sanskrit": "puṇyam",
+        "meaning": "pious"
+      },
+      {
+        "sanskrit": "hṛṣyāmi",
+        "meaning": "I am taking pleasure"
+      },
+      {
+        "sanskrit": "ca",
+        "meaning": "also"
+      }
+    ]
+  }
+}

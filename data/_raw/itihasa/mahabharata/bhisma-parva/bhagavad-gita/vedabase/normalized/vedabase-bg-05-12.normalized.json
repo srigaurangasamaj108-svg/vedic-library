@@ -1,0 +1,70 @@
+{
+  "temp_id": "vedabase-bg-05-12",
+  "chapter": 5,
+  "verse": 12,
+  "verse_id": "bg-05-12",
+  "verse_group": null,
+  "composite": false,
+  "sanskrit": {
+    "devanagari": "युक्त: कर्मफलं त्यक्त्वा शान्तिमाप्‍नोति नैष्ठिकीम् ।\nअयुक्त: कामकारेण फले सक्तो निबध्यते ॥ १२ ॥",
+    "iast": "yuktaḥ karma-phalaṁ tyaktvā\nśāntim āpnoti naiṣṭhikīm\nayuktaḥ kāma-kāreṇa\nphale sakto nibadhyate"
+  },
+  "synonyms_raw": "yuktaḥ\n—\none who is engaged in devotional service\n;\nkarma\n-\nphalam\n—\nthe results of all activities\n;\ntyaktvā\n—\ngiving up\n;\nśāntim\n—\nperfect peace\n;\nāpnoti\n—\nachieves\n;\nnaiṣṭhikīm\n—\nunflinching\n;\nayuktaḥ\n—\none who is not in Kṛṣṇa consciousness\n;\nkāma\n-\nkāreṇa\n—\nfor enjoying the result of work\n;\nphale\n—\nin the result\n;\nsaktaḥ\n—\nattached\n;\nnibadhyate\n—\nbecomes entangled\n.",
+  "translation": "The steadily devoted soul attains unadulterated peace because he offers the result of all activities to Me; whereas a person who is not in union with the Divine, who is greedy for the fruits of his labor, becomes entangled.",
+  "purport": [
+    "The difference between a person in Kṛṣṇa consciousness and a person in bodily consciousness is that the former is attached to Kṛṣṇa whereas the latter is attached to the results of his activities. The person who is attached to Kṛṣṇa and works for Him only is certainly a liberated person, and he has no anxiety over the results of his work. In the",
+    "Bhāgavatam,",
+    "the cause of anxiety over the result of an activity is explained as being one’s functioning in the conception of duality, that is, without knowledge of the Absolute Truth. Kṛṣṇa is the Supreme Absolute Truth, the Personality of Godhead. In Kṛṣṇa consciousness, there is no duality. All that exists is a product of Kṛṣṇa’s energy, and Kṛṣṇa is all good. Therefore, activities in Kṛṣṇa consciousness are on the absolute plane; they are transcendental and have no material effect. One is therefore filled with peace in Kṛṣṇa consciousness. But one who is entangled in profit calculation for sense gratification cannot have that peace. This is the secret of Kṛṣṇa consciousness – realization that there is no existence besides Kṛṣṇa is the platform of peace and fearlessness."
+  ],
+  "source": {
+    "author": "A. C. Bhaktivedanta Swami Prabhupāda",
+    "edition": "Bhagavad-gītā As It Is",
+    "language": "en",
+    "provider": "vedabase.io"
+  },
+  "synonyms": {
+    "language": "en",
+    "items": [
+      {
+        "sanskrit": "yuktaḥ",
+        "meaning": "one who is engaged in devotional service"
+      },
+      {
+        "sanskrit": "karma phalam",
+        "meaning": "the results of all activities"
+      },
+      {
+        "sanskrit": "tyaktvā",
+        "meaning": "giving up"
+      },
+      {
+        "sanskrit": "śāntim",
+        "meaning": "perfect peace"
+      },
+      {
+        "sanskrit": "āpnoti",
+        "meaning": "achieves"
+      },
+      {
+        "sanskrit": "naiṣṭhikīm",
+        "meaning": "unflinching"
+      },
+      {
+        "sanskrit": "ayuktaḥ",
+        "meaning": "one who is not in Kṛṣṇa consciousness"
+      },
+      {
+        "sanskrit": "kāma kāreṇa",
+        "meaning": "for enjoying the result of work"
+      },
+      {
+        "sanskrit": "phale",
+        "meaning": "in the result"
+      },
+      {
+        "sanskrit": "saktaḥ",
+        "meaning": "attached"
+      }
+    ]
+  }
+}

@@ -1,0 +1,82 @@
+{
+  "temp_id": "vedabase-bg-08-26",
+  "chapter": 8,
+  "verse": 26,
+  "verse_id": "bg-08-26",
+  "verse_group": null,
+  "composite": false,
+  "sanskrit": {
+    "devanagari": "श‍ुक्ल‍कृष्णे गती ह्येते जगत: शाश्वते मते ।\nएकया यात्यनावृत्तिमन्ययावर्तते पुन: ॥ २६ ॥",
+    "iast": "śukla-kṛṣṇe gatī hy ete\njagataḥ śāśvate mate\nekayā yāty anāvṛttim\nanyayāvartate punaḥ"
+  },
+  "synonyms_raw": "śukla\n—\nlight\n;\nkṛṣṇe\n—\nand darkness\n;\ngatī\n—\nways of passing\n;\nhi\n—\ncertainly\n;\nete\n—\nthese two\n;\njagataḥ\n—\nof the material world\n;\nśāśvate\n—\nof the\nVedas\n;\nmate\n—\nin the opinion\n;\nekayā\n—\nby one\n;\nyāti\n—\ngoes\n;\nanāvṛttim\n—\nto no return\n;\nanyayā\n—\nby the other\n;\nāvartate\n—\ncomes back\n;\npunaḥ\n—\nagain\n.",
+  "translation": "According to Vedic opinion, there are two ways of passing from this world – one in light and one in darkness. When one passes in light, he does not come back; but when one passes in darkness, he returns.",
+  "purport": [
+    "The same description of departure and return is quoted by Ācārya Baladeva Vidyābhūṣaṇa from the",
+    "Chāndogya Upaniṣad",
+    "(5.10.3–5). Those who are fruitive laborers and philosophical speculators from time immemorial are constantly going and coming. Actually they do not attain ultimate salvation, for they do not surrender to Kṛṣṇa."
+  ],
+  "source": {
+    "author": "A. C. Bhaktivedanta Swami Prabhupāda",
+    "edition": "Bhagavad-gītā As It Is",
+    "language": "en",
+    "provider": "vedabase.io"
+  },
+  "synonyms": {
+    "language": "en",
+    "items": [
+      {
+        "sanskrit": "śukla",
+        "meaning": "light"
+      },
+      {
+        "sanskrit": "kṛṣṇe",
+        "meaning": "and darkness"
+      },
+      {
+        "sanskrit": "gatī",
+        "meaning": "ways of passing"
+      },
+      {
+        "sanskrit": "hi",
+        "meaning": "certainly"
+      },
+      {
+        "sanskrit": "ete",
+        "meaning": "these two"
+      },
+      {
+        "sanskrit": "jagataḥ",
+        "meaning": "of the material world"
+      },
+      {
+        "sanskrit": "śāśvate",
+        "meaning": "of the Vedas"
+      },
+      {
+        "sanskrit": "mate",
+        "meaning": "in the opinion"
+      },
+      {
+        "sanskrit": "ekayā",
+        "meaning": "by one"
+      },
+      {
+        "sanskrit": "yāti",
+        "meaning": "goes"
+      },
+      {
+        "sanskrit": "anāvṛttim",
+        "meaning": "to no return"
+      },
+      {
+        "sanskrit": "anyayā",
+        "meaning": "by the other"
+      },
+      {
+        "sanskrit": "āvartate",
+        "meaning": "comes back"
+      }
+    ]
+  }
+}

@@ -1,0 +1,92 @@
+{
+  "temp_id": "vedabase-bg-18-40",
+  "chapter": 18,
+  "verse": 40,
+  "verse_id": "bg-18-40",
+  "verse_group": null,
+  "composite": false,
+  "sanskrit": {
+    "devanagari": "न तदस्ति पृथिव्यां वा दिवि देवेषु वा पुन: ।\nसत्त्वं प्रकृतिजैर्मुक्तं यदेभि: स्यात्‍त्रिभिर्गुणै: ॥ ४० ॥",
+    "iast": "na tad asti pṛthivyāṁ vā\ndivi deveṣu vā punaḥ\nsattvaṁ prakṛti-jair muktaṁ\nyad ebhiḥ syāt tribhir guṇaiḥ"
+  },
+  "synonyms_raw": "na\n—\nnot\n;\ntat\n—\nthat\n;\nasti\n—\nthere is\n;\npṛthivyām\n—\non the earth\n;\nvā\n—\nor\n;\ndivi\n—\nin the higher planetary system\n;\ndeveṣu\n—\namongst the demigods\n;\nvā\n—\nor\n;\npunaḥ\n—\nagain\n;\nsattvam\n—\nexistence\n;\nprakṛti\n-\njaiḥ\n—\nborn of material nature\n;\nmuktam\n—\nliberated\n;\nyat\n—\nthat\n;\nebhiḥ\n—\nfrom the influence of these\n;\nsyāt\n—\nis\n;\ntribhiḥ\n—\nthree\n;\nguṇaiḥ\n—\nmodes of material nature\n.",
+  "translation": "There is no being existing, either here or among the demigods in the higher planetary systems, which is freed from these three modes born of material nature.",
+  "purport": [
+    "The Lord here summarizes the total influence of the three modes of material nature all over the universe."
+  ],
+  "source": {
+    "author": "A. C. Bhaktivedanta Swami Prabhupāda",
+    "edition": "Bhagavad-gītā As It Is",
+    "language": "en",
+    "provider": "vedabase.io"
+  },
+  "synonyms": {
+    "language": "en",
+    "items": [
+      {
+        "sanskrit": "na",
+        "meaning": "not"
+      },
+      {
+        "sanskrit": "tat",
+        "meaning": "that"
+      },
+      {
+        "sanskrit": "asti",
+        "meaning": "there is"
+      },
+      {
+        "sanskrit": "pṛthivyām",
+        "meaning": "on the earth"
+      },
+      {
+        "sanskrit": "vā",
+        "meaning": "or"
+      },
+      {
+        "sanskrit": "divi",
+        "meaning": "in the higher planetary system"
+      },
+      {
+        "sanskrit": "deveṣu",
+        "meaning": "amongst the demigods"
+      },
+      {
+        "sanskrit": "vā",
+        "meaning": "or"
+      },
+      {
+        "sanskrit": "punaḥ",
+        "meaning": "again"
+      },
+      {
+        "sanskrit": "sattvam",
+        "meaning": "existence"
+      },
+      {
+        "sanskrit": "prakṛti jaiḥ",
+        "meaning": "born of material nature"
+      },
+      {
+        "sanskrit": "muktam",
+        "meaning": "liberated"
+      },
+      {
+        "sanskrit": "yat",
+        "meaning": "that"
+      },
+      {
+        "sanskrit": "ebhiḥ",
+        "meaning": "from the influence of these"
+      },
+      {
+        "sanskrit": "syāt",
+        "meaning": "is"
+      },
+      {
+        "sanskrit": "tribhiḥ",
+        "meaning": "three"
+      }
+    ]
+  }
+}

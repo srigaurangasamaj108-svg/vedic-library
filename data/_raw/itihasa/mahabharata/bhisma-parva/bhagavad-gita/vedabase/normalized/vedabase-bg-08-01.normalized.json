@@ -1,0 +1,99 @@
+{
+  "temp_id": "vedabase-bg-08-01",
+  "chapter": 8,
+  "verse": 1,
+  "verse_id": "bg-08-01",
+  "verse_group": null,
+  "composite": false,
+  "sanskrit": {
+    "devanagari": "अर्जुन उवाच\nकिं तद्‌ब्रह्म किमध्यात्मं किं कर्म पुरुषोत्तम ।\nअधिभूतं च किं प्रोक्तमधिदैवं किमुच्यते ॥ १ ॥",
+    "iast": "arjuna uvāca\nkiṁ tad brahma kim adhyātmaṁ\nkiṁ karma puruṣottama\nadhibhūtaṁ ca kiṁ proktam\nadhidaivaṁ kim ucyate"
+  },
+  "synonyms_raw": "arjunaḥ\nuvāca\n—\nArjuna said\n;\nkim\n—\nwhat\n;\ntat\n—\nthat\n;\nbrahma\n—\nBrahman\n;\nkim\n—\nwhat\n;\nadhyātmam\n—\nthe self\n;\nkim\n—\nwhat\n;\nkarma\n—\nfruitive activities\n;\npuruṣa\n-\nuttama\n—\nO Supreme Person\n;\nadhibhūtam\n—\nthe material manifestation\n;\nca\n—\nand\n;\nkim\n—\nwhat\n;\nproktam\n—\nis called\n;\nadhidaivam\n—\nthe demigods\n;\nkim\n—\nwhat\n;\nucyate\n—\nis called\n.",
+  "translation": "Arjuna inquired: O my Lord, O Supreme Person, what is Brahman? What is the self? What are fruitive activities? What is this material manifestation? And what are the demigods? Please explain this to me.",
+  "purport": [
+    "In this chapter Lord Kṛṣṇa answers different questions from Arjuna, beginning with “What is Brahman?” The Lord also explains",
+    "karma",
+    "(fruitive activities), devotional service and",
+    "yoga",
+    "principles, and devotional service in its pure form. The",
+    "Śrīmad-Bhāgavatam",
+    "explains that the Supreme Absolute Truth is known as Brahman, Paramātmā and Bhagavān. In addition, the living entity, the individual soul, is also called Brahman. Arjuna also inquires about",
+    "ātmā,",
+    "which refers to body, soul and mind. According to the Vedic dictionary,",
+    "ātmā",
+    "refers to the mind, soul, body and senses also.",
+    "Arjuna has addressed the Supreme Lord as Puruṣottama, Supreme Person, which means that he was putting these questions not simply to a friend but to the Supreme Person, knowing Him to be the supreme authority able to give definitive answers."
+  ],
+  "source": {
+    "author": "A. C. Bhaktivedanta Swami Prabhupāda",
+    "edition": "Bhagavad-gītā As It Is",
+    "language": "en",
+    "provider": "vedabase.io"
+  },
+  "synonyms": {
+    "language": "en",
+    "items": [
+      {
+        "sanskrit": "arjunaḥ uvāca",
+        "meaning": "Arjuna said"
+      },
+      {
+        "sanskrit": "kim",
+        "meaning": "what"
+      },
+      {
+        "sanskrit": "tat",
+        "meaning": "that"
+      },
+      {
+        "sanskrit": "brahma",
+        "meaning": "Brahman"
+      },
+      {
+        "sanskrit": "kim",
+        "meaning": "what"
+      },
+      {
+        "sanskrit": "adhyātmam",
+        "meaning": "the self"
+      },
+      {
+        "sanskrit": "kim",
+        "meaning": "what"
+      },
+      {
+        "sanskrit": "karma",
+        "meaning": "fruitive activities"
+      },
+      {
+        "sanskrit": "puruṣa uttama",
+        "meaning": "O Supreme Person"
+      },
+      {
+        "sanskrit": "adhibhūtam",
+        "meaning": "the material manifestation"
+      },
+      {
+        "sanskrit": "ca",
+        "meaning": "and"
+      },
+      {
+        "sanskrit": "kim",
+        "meaning": "what"
+      },
+      {
+        "sanskrit": "proktam",
+        "meaning": "is called"
+      },
+      {
+        "sanskrit": "adhidaivam",
+        "meaning": "the demigods"
+      },
+      {
+        "sanskrit": "kim",
+        "meaning": "what"
+      }
+    ]
+  }
+}

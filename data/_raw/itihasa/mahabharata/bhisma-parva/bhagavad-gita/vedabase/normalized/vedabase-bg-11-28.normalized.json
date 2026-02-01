@@ -1,0 +1,82 @@
+{
+  "temp_id": "vedabase-bg-11-28",
+  "chapter": 11,
+  "verse": 28,
+  "verse_id": "bg-11-28",
+  "verse_group": null,
+  "composite": false,
+  "sanskrit": {
+    "devanagari": "यथा नदीनां बहवोऽम्बुवेगा:\nसमुद्रमेवाभिमुखा द्रवन्ति ।\nतथा तवामी नरलोकवीरा\nविशन्ति वक्‍त्राण्यभिविज्‍वलन्ति ॥ २८ ॥",
+    "iast": "yathā nadīnāṁ bahavo ’mbu-vegāḥ\nsamudram evābhimukhā dravanti\ntathā tavāmī nara-loka-vīrā\nviśanti vaktrāṇy abhivijvalanti"
+  },
+  "synonyms_raw": "yathā\n—\nas\n;\nnadīnām\n—\nof the rivers\n;\nbahavaḥ\n—\nthe many\n;\nambu\n-\nvegāḥ\n—\nwaves of the waters\n;\nsamudram\n—\nthe ocean\n;\neva\n—\ncertainly\n;\nabhimukhāḥ\n—\ntowards\n;\ndravanti\n—\nglide\n;\ntathā\n—\nsimilarly\n;\ntava\n—\nYour\n;\namī\n—\nall these\n;\nnara\n-\nloka\n-\nvīrāḥ\n—\nkings of human society\n;\nviśanti\n—\nare entering\n;\nvaktrāṇi\n—\nthe mouths\n;\nabhivijvalanti\n—\nand are blazing\n.",
+  "translation": "As the many waves of the rivers flow into the ocean, so do all these great warriors enter blazing into Your mouths.",
+  "purport": [],
+  "source": {
+    "author": "A. C. Bhaktivedanta Swami Prabhupāda",
+    "edition": "Bhagavad-gītā As It Is",
+    "language": "en",
+    "provider": "vedabase.io"
+  },
+  "synonyms": {
+    "language": "en",
+    "items": [
+      {
+        "sanskrit": "yathā",
+        "meaning": "as"
+      },
+      {
+        "sanskrit": "nadīnām",
+        "meaning": "of the rivers"
+      },
+      {
+        "sanskrit": "bahavaḥ",
+        "meaning": "the many"
+      },
+      {
+        "sanskrit": "ambu vegāḥ",
+        "meaning": "waves of the waters"
+      },
+      {
+        "sanskrit": "samudram",
+        "meaning": "the ocean"
+      },
+      {
+        "sanskrit": "eva",
+        "meaning": "certainly"
+      },
+      {
+        "sanskrit": "abhimukhāḥ",
+        "meaning": "towards"
+      },
+      {
+        "sanskrit": "dravanti",
+        "meaning": "glide"
+      },
+      {
+        "sanskrit": "tathā",
+        "meaning": "similarly"
+      },
+      {
+        "sanskrit": "tava",
+        "meaning": "Your"
+      },
+      {
+        "sanskrit": "amī",
+        "meaning": "all these"
+      },
+      {
+        "sanskrit": "nara loka vīrāḥ",
+        "meaning": "kings of human society"
+      },
+      {
+        "sanskrit": "viśanti",
+        "meaning": "are entering"
+      },
+      {
+        "sanskrit": "vaktrāṇi",
+        "meaning": "the mouths"
+      }
+    ]
+  }
+}

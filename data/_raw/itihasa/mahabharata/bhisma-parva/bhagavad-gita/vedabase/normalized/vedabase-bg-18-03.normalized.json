@@ -1,0 +1,88 @@
+{
+  "temp_id": "vedabase-bg-18-03",
+  "chapter": 18,
+  "verse": 3,
+  "verse_id": "bg-18-03",
+  "verse_group": null,
+  "composite": false,
+  "sanskrit": {
+    "devanagari": "त्याज्यं दोषवदित्येके कर्म प्राहुर्मनीषिण: ।\nयज्ञदानतप:कर्म न त्याज्यमिति चापरे ॥ ३ ॥",
+    "iast": "tyājyaṁ doṣa-vad ity eke\nkarma prāhur manīṣiṇaḥ\nyajña-dāna-tapaḥ-karma\nna tyājyam iti cāpare"
+  },
+  "synonyms_raw": "tyājyam\n—\nmust be given up\n;\ndoṣa\n-\nvat\n—\nas an evil\n;\niti\n—\nthus\n;\neke\n—\none group\n;\nkarma\n—\nwork\n;\nprāhuḥ\n—\nthey say\n;\nmanīṣiṇaḥ\n—\ngreat thinkers\n;\nyajña\n—\nof sacrifice\n;\ndāna\n—\ncharity\n;\ntapaḥ\n—\nand penance\n;\nkarma\n—\nworks\n;\nna\n—\nnever\n;\ntyājyam\n—\nare to be given up\n;\niti\n—\nthus\n;\nca\n—\nand\n;\napare\n—\nothers\n.",
+  "translation": "Some learned men declare that all kinds of fruitive activities should be given up as faulty, yet other sages maintain that acts of sacrifice, charity and penance should never be abandoned.",
+  "purport": [
+    "There are many activities in the Vedic literature which are subjects of contention. For instance, it is said that an animal can be killed in a sacrifice, yet some maintain that animal killing is completely abominable. Although animal killing in a sacrifice is recommended in the Vedic literature, the animal is not considered to be killed. The sacrifice is to give a new life to the animal. Sometimes the animal is given a new animal life after being killed in the sacrifice, and sometimes the animal is promoted immediately to the human form of life. But there are different opinions among the sages. Some say that animal killing should always be avoided, and others say that for a specific sacrifice it is good. All these different opinions on sacrificial activity are now being clarified by the Lord Himself."
+  ],
+  "source": {
+    "author": "A. C. Bhaktivedanta Swami Prabhupāda",
+    "edition": "Bhagavad-gītā As It Is",
+    "language": "en",
+    "provider": "vedabase.io"
+  },
+  "synonyms": {
+    "language": "en",
+    "items": [
+      {
+        "sanskrit": "tyājyam",
+        "meaning": "must be given up"
+      },
+      {
+        "sanskrit": "doṣa vat",
+        "meaning": "as an evil"
+      },
+      {
+        "sanskrit": "iti",
+        "meaning": "thus"
+      },
+      {
+        "sanskrit": "eke",
+        "meaning": "one group"
+      },
+      {
+        "sanskrit": "karma",
+        "meaning": "work"
+      },
+      {
+        "sanskrit": "prāhuḥ",
+        "meaning": "they say"
+      },
+      {
+        "sanskrit": "manīṣiṇaḥ",
+        "meaning": "great thinkers"
+      },
+      {
+        "sanskrit": "yajña",
+        "meaning": "of sacrifice"
+      },
+      {
+        "sanskrit": "dāna",
+        "meaning": "charity"
+      },
+      {
+        "sanskrit": "tapaḥ",
+        "meaning": "and penance"
+      },
+      {
+        "sanskrit": "karma",
+        "meaning": "works"
+      },
+      {
+        "sanskrit": "na",
+        "meaning": "never"
+      },
+      {
+        "sanskrit": "tyājyam",
+        "meaning": "are to be given up"
+      },
+      {
+        "sanskrit": "iti",
+        "meaning": "thus"
+      },
+      {
+        "sanskrit": "ca",
+        "meaning": "and"
+      }
+    ]
+  }
+}

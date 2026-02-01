@@ -1,0 +1,76 @@
+{
+  "temp_id": "vedabase-bg-06-19",
+  "chapter": 6,
+  "verse": 19,
+  "verse_id": "bg-06-19",
+  "verse_group": null,
+  "composite": false,
+  "sanskrit": {
+    "devanagari": "यथा दीपो निवातस्थो नेङ्गते सोपमा स्मृता ।\nयोगिनो यतचित्तस्य युञ्जतो योगमात्मन: ॥ १९ ॥",
+    "iast": "yathā dīpo nivāta-stho\nneṅgate sopamā smṛtā\nyogino yata-cittasya\nyuñjato yogam ātmanaḥ"
+  },
+  "synonyms_raw": "yathā\n—\nas\n;\ndīpaḥ\n—\na lamp\n;\nnivāta\n-\nsthaḥ\n—\nin a place without wind\n;\nna\n—\ndoes not\n;\niṅgate\n—\nwaver\n;\nsā\n—\nthis\n;\nupamā\n—\ncomparison\n;\nsmṛtā\n—\nis considered\n;\nyoginaḥ\n—\nof the\nyogī\n;\nyata\n-\ncittasya\n—\nwhose mind is controlled\n;\nyuñjataḥ\n—\nconstantly engaged\n;\nyogam\n—\nin meditation\n;\nātmanaḥ\n—\non transcendence\n.",
+  "translation": "As a lamp in a windless place does not waver, so the transcendentalist, whose mind is controlled, remains always steady in his meditation on the transcendent Self.",
+  "purport": [
+    "A truly Kṛṣṇa conscious person, always absorbed in transcendence, in constant undisturbed meditation on his worshipable Lord, is as steady as a lamp in a windless place."
+  ],
+  "source": {
+    "author": "A. C. Bhaktivedanta Swami Prabhupāda",
+    "edition": "Bhagavad-gītā As It Is",
+    "language": "en",
+    "provider": "vedabase.io"
+  },
+  "synonyms": {
+    "language": "en",
+    "items": [
+      {
+        "sanskrit": "yathā",
+        "meaning": "as"
+      },
+      {
+        "sanskrit": "dīpaḥ",
+        "meaning": "a lamp"
+      },
+      {
+        "sanskrit": "nivāta sthaḥ",
+        "meaning": "in a place without wind"
+      },
+      {
+        "sanskrit": "na",
+        "meaning": "does not"
+      },
+      {
+        "sanskrit": "iṅgate",
+        "meaning": "waver"
+      },
+      {
+        "sanskrit": "sā",
+        "meaning": "this"
+      },
+      {
+        "sanskrit": "upamā",
+        "meaning": "comparison"
+      },
+      {
+        "sanskrit": "smṛtā",
+        "meaning": "is considered"
+      },
+      {
+        "sanskrit": "yoginaḥ",
+        "meaning": "of the yogī"
+      },
+      {
+        "sanskrit": "yata cittasya",
+        "meaning": "whose mind is controlled"
+      },
+      {
+        "sanskrit": "yuñjataḥ",
+        "meaning": "constantly engaged"
+      },
+      {
+        "sanskrit": "yogam",
+        "meaning": "in meditation"
+      }
+    ]
+  }
+}

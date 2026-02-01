@@ -1,0 +1,84 @@
+{
+  "temp_id": "vedabase-bg-17-12",
+  "chapter": 17,
+  "verse": 12,
+  "verse_id": "bg-17-12",
+  "verse_group": null,
+  "composite": false,
+  "sanskrit": {
+    "devanagari": "अभिसन्धाय तु फलं दम्भार्थमपि चैव यत् ।\nइज्यते भरतश्रेष्ठ तं यज्ञं विद्धि राजसम् ॥ १२ ॥",
+    "iast": "abhisandhāya tu phalaṁ\ndambhārtham api caiva yat\nijyate bharata-śreṣṭha\ntaṁ yajñaṁ viddhi rājasam"
+  },
+  "synonyms_raw": "abhisandhāya\n—\ndesiring\n;\ntu\n—\nbut\n;\nphalam\n—\nthe result\n;\ndambha\n—\npride\n;\nartham\n—\nfor the sake of\n;\napi\n—\nalso\n;\nca\n—\nand\n;\neva\n—\ncertainly\n;\nyat\n—\nthat which\n;\nijyate\n—\nis performed\n;\nbharata\n-\nśreṣṭha\n—\nO chief of the Bhāratas\n;\ntam\n—\nthat\n;\nyajñam\n—\nsacrifice\n;\nviddhi\n—\nknow\n;\nrājasam\n—\nin the mode of passion\n.",
+  "translation": "But the sacrifice performed for some material benefit, or for the sake of pride, O chief of the Bhāratas, you should know to be in the mode of passion.",
+  "purport": [
+    "Sometimes sacrifices and rituals are performed for elevation to the heavenly kingdom or for some material benefits in this world. Such sacrifices or ritualistic performances are considered to be in the mode of passion."
+  ],
+  "source": {
+    "author": "A. C. Bhaktivedanta Swami Prabhupāda",
+    "edition": "Bhagavad-gītā As It Is",
+    "language": "en",
+    "provider": "vedabase.io"
+  },
+  "synonyms": {
+    "language": "en",
+    "items": [
+      {
+        "sanskrit": "abhisandhāya",
+        "meaning": "desiring"
+      },
+      {
+        "sanskrit": "tu",
+        "meaning": "but"
+      },
+      {
+        "sanskrit": "phalam",
+        "meaning": "the result"
+      },
+      {
+        "sanskrit": "dambha",
+        "meaning": "pride"
+      },
+      {
+        "sanskrit": "artham",
+        "meaning": "for the sake of"
+      },
+      {
+        "sanskrit": "api",
+        "meaning": "also"
+      },
+      {
+        "sanskrit": "ca",
+        "meaning": "and"
+      },
+      {
+        "sanskrit": "eva",
+        "meaning": "certainly"
+      },
+      {
+        "sanskrit": "yat",
+        "meaning": "that which"
+      },
+      {
+        "sanskrit": "ijyate",
+        "meaning": "is performed"
+      },
+      {
+        "sanskrit": "bharata śreṣṭha",
+        "meaning": "O chief of the Bhāratas"
+      },
+      {
+        "sanskrit": "tam",
+        "meaning": "that"
+      },
+      {
+        "sanskrit": "yajñam",
+        "meaning": "sacrifice"
+      },
+      {
+        "sanskrit": "viddhi",
+        "meaning": "know"
+      }
+    ]
+  }
+}

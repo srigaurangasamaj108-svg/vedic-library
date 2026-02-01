@@ -1,0 +1,80 @@
+{
+  "temp_id": "vedabase-bg-08-20",
+  "chapter": 8,
+  "verse": 20,
+  "verse_id": "bg-08-20",
+  "verse_group": null,
+  "composite": false,
+  "sanskrit": {
+    "devanagari": "परस्तस्मात्तु भावोऽन्योऽव्यक्तोऽव्यक्तात्सनातन: ।\nय: स सर्वेषु भूतेषु नश्यत्सु न विनश्यति ॥ २० ॥",
+    "iast": "paras tasmāt tu bhāvo ’nyo\n’vyakto ’vyaktāt sanātanaḥ\nyaḥ sa sarveṣu bhūteṣu\nnaśyatsu na vinaśyati"
+  },
+  "synonyms_raw": "paraḥ\n—\ntranscendental\n;\ntasmāt\n—\nto that\n;\ntu\n—\nbut\n;\nbhāvaḥ\n—\nnature\n;\nanyaḥ\n—\nanother\n;\navyaktaḥ\n—\nunmanifest\n;\navyaktāt\n—\nto the unmanifest\n;\nsanātanaḥ\n—\neternal\n;\nyaḥ\nsaḥ\n—\nthat which\n;\nsarveṣu\n—\nall\n;\nbhūteṣu\n—\nmanifestation\n;\nnaśyatsu\n—\nbeing annihilated\n;\nna\n—\nnever\n;\nvinaśyati\n—\nis annihilated\n.",
+  "translation": "Yet there is another unmanifest nature, which is eternal and is transcendental to this manifested and unmanifested matter. It is supreme and is never annihilated. When all in this world is annihilated, that part remains as it is.",
+  "purport": [
+    "Kṛṣṇa’s superior, spiritual energy is transcendental and eternal. It is beyond all the changes of material nature, which is manifest and annihilated during the days and nights of Brahmā. Kṛṣṇa’s superior energy is completely opposite in quality to material nature. Superior and inferior nature are explained in the Seventh Chapter."
+  ],
+  "source": {
+    "author": "A. C. Bhaktivedanta Swami Prabhupāda",
+    "edition": "Bhagavad-gītā As It Is",
+    "language": "en",
+    "provider": "vedabase.io"
+  },
+  "synonyms": {
+    "language": "en",
+    "items": [
+      {
+        "sanskrit": "paraḥ",
+        "meaning": "transcendental"
+      },
+      {
+        "sanskrit": "tasmāt",
+        "meaning": "to that"
+      },
+      {
+        "sanskrit": "tu",
+        "meaning": "but"
+      },
+      {
+        "sanskrit": "bhāvaḥ",
+        "meaning": "nature"
+      },
+      {
+        "sanskrit": "anyaḥ",
+        "meaning": "another"
+      },
+      {
+        "sanskrit": "avyaktaḥ",
+        "meaning": "unmanifest"
+      },
+      {
+        "sanskrit": "avyaktāt",
+        "meaning": "to the unmanifest"
+      },
+      {
+        "sanskrit": "sanātanaḥ",
+        "meaning": "eternal"
+      },
+      {
+        "sanskrit": "yaḥ saḥ",
+        "meaning": "that which"
+      },
+      {
+        "sanskrit": "sarveṣu",
+        "meaning": "all"
+      },
+      {
+        "sanskrit": "bhūteṣu",
+        "meaning": "manifestation"
+      },
+      {
+        "sanskrit": "naśyatsu",
+        "meaning": "being annihilated"
+      },
+      {
+        "sanskrit": "na",
+        "meaning": "never"
+      }
+    ]
+  }
+}

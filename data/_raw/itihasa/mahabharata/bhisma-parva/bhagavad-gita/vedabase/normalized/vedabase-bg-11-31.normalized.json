@@ -1,0 +1,94 @@
+{
+  "temp_id": "vedabase-bg-11-31",
+  "chapter": 11,
+  "verse": 31,
+  "verse_id": "bg-11-31",
+  "verse_group": null,
+  "composite": false,
+  "sanskrit": {
+    "devanagari": "आख्याहि मे को भवानुग्ररूपो\nनमोऽस्तु ते देववर प्रसीद ।\nविज्ञातुमिच्छामि भवन्तमाद्यं\nन हि प्रजानामि तव प्रवृत्तिम् ॥ ३१ ॥",
+    "iast": "ākhyāhi me ko bhavān ugra-rūpo\nnamo ’stu te deva-vara prasīda\nvijñātum icchāmi bhavantam ādyaṁ\nna hi prajānāmi tava pravṛttim"
+  },
+  "synonyms_raw": "ākhyāhi\n—\nplease explain\n;\nme\n—\nunto me\n;\nkaḥ\n—\nwho\n;\nbhavān\n—\nYou\n;\nugra\n-\nrūpaḥ\n—\nfierce form\n;\nnamaḥ\nastu\n—\nobeisances\n;\nte\n—\nunto You\n;\ndeva\n-\nvara\n—\nO great one amongst the demigods\n;\nprasīda\n—\nbe gracious\n;\nvijñātum\n—\nto know\n;\nicchāmi\n—\nI wish\n;\nbhavantam\n—\nYou\n;\nādyam\n—\nthe original\n;\nna\n—\nnot\n;\nhi\n—\ncertainly\n;\nprajānāmi\n—\ndo I know\n;\ntava\n—\nYour\n;\npravṛttim\n—\nmission\n.",
+  "translation": "O Lord of lords, so fierce of form, please tell me who You are. I offer my obeisances unto You; please be gracious to me. You are the primal Lord. I want to know about You, for I do not know what Your mission is.",
+  "purport": [],
+  "source": {
+    "author": "A. C. Bhaktivedanta Swami Prabhupāda",
+    "edition": "Bhagavad-gītā As It Is",
+    "language": "en",
+    "provider": "vedabase.io"
+  },
+  "synonyms": {
+    "language": "en",
+    "items": [
+      {
+        "sanskrit": "ākhyāhi",
+        "meaning": "please explain"
+      },
+      {
+        "sanskrit": "me",
+        "meaning": "unto me"
+      },
+      {
+        "sanskrit": "kaḥ",
+        "meaning": "who"
+      },
+      {
+        "sanskrit": "bhavān",
+        "meaning": "You"
+      },
+      {
+        "sanskrit": "ugra rūpaḥ",
+        "meaning": "fierce form"
+      },
+      {
+        "sanskrit": "namaḥ astu",
+        "meaning": "obeisances"
+      },
+      {
+        "sanskrit": "te",
+        "meaning": "unto You"
+      },
+      {
+        "sanskrit": "deva vara",
+        "meaning": "O great one amongst the demigods"
+      },
+      {
+        "sanskrit": "prasīda",
+        "meaning": "be gracious"
+      },
+      {
+        "sanskrit": "vijñātum",
+        "meaning": "to know"
+      },
+      {
+        "sanskrit": "icchāmi",
+        "meaning": "I wish"
+      },
+      {
+        "sanskrit": "bhavantam",
+        "meaning": "You"
+      },
+      {
+        "sanskrit": "ādyam",
+        "meaning": "the original"
+      },
+      {
+        "sanskrit": "na",
+        "meaning": "not"
+      },
+      {
+        "sanskrit": "hi",
+        "meaning": "certainly"
+      },
+      {
+        "sanskrit": "prajānāmi",
+        "meaning": "do I know"
+      },
+      {
+        "sanskrit": "tava",
+        "meaning": "Your"
+      }
+    ]
+  }
+}

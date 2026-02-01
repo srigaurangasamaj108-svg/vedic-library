@@ -1,0 +1,100 @@
+{
+  "temp_id": "vedabase-bg-11-39",
+  "chapter": 11,
+  "verse": 39,
+  "verse_id": "bg-11-39",
+  "verse_group": null,
+  "composite": false,
+  "sanskrit": {
+    "devanagari": "वायुर्यमोऽग्न‍िर्वरुण: शशाङ्क:\nप्रजापतिस्त्वं प्रपितामहश्च ।\nनमो नमस्तेऽस्तु सहस्रकृत्व:\nपुनश्च भूयोऽपि नमो नमस्ते ॥ ३९ ॥",
+    "iast": "vāyur yamo ’gnir varuṇaḥ śaśāṅkaḥ\nprajāpatis tvaṁ prapitāmahaś ca\nnamo namas te ’stu sahasra-kṛtvaḥ\npunaś ca bhūyo ’pi namo namas te"
+  },
+  "synonyms_raw": "vāyuḥ\n—\nair\n;\nyamaḥ\n—\nthe controller\n;\nagniḥ\n—\nfire\n;\nvaruṇaḥ\n—\nwater\n;\nśaśa\n-\naṅkaḥ\n—\nthe moon\n;\nprajāpatiḥ\n—\nBrahmā\n;\ntvam\n—\nYou\n;\nprapitāmahaḥ\n—\nthe great-grandfather\n;\nca\n—\nalso\n;\nnamaḥ\n—\nmy respects\n;\nnamaḥ\n—\nagain my respects\n;\nte\n—\nunto You\n;\nastu\n—\nlet there be\n;\nsahasra\n-\nkṛtvaḥ\n—\na thousand times\n;\npunaḥ\nca\n—\nand again\n;\nbhūyaḥ\n—\nagain\n;\napi\n—\nalso\n;\nnamaḥ\n—\noffering my respects\n;\nnamaḥ\nte\n—\noffering my respects unto You\n.",
+  "translation": "You are air, and You are the supreme controller! You are fire, You are water, and You are the moon! You are Brahmā, the first living creature, and You are the great-grandfather. I therefore offer my respectful obeisances unto You a thousand times, and again and yet again!",
+  "purport": [
+    "The Lord is addressed here as air because the air is the most important representation of all the demigods, being all-pervasive. Arjuna also addresses Kṛṣṇa as the great-grandfather because He is the father of Brahmā, the first living creature in the universe."
+  ],
+  "source": {
+    "author": "A. C. Bhaktivedanta Swami Prabhupāda",
+    "edition": "Bhagavad-gītā As It Is",
+    "language": "en",
+    "provider": "vedabase.io"
+  },
+  "synonyms": {
+    "language": "en",
+    "items": [
+      {
+        "sanskrit": "vāyuḥ",
+        "meaning": "air"
+      },
+      {
+        "sanskrit": "yamaḥ",
+        "meaning": "the controller"
+      },
+      {
+        "sanskrit": "agniḥ",
+        "meaning": "fire"
+      },
+      {
+        "sanskrit": "varuṇaḥ",
+        "meaning": "water"
+      },
+      {
+        "sanskrit": "śaśa aṅkaḥ",
+        "meaning": "the moon"
+      },
+      {
+        "sanskrit": "prajāpatiḥ",
+        "meaning": "Brahmā"
+      },
+      {
+        "sanskrit": "tvam",
+        "meaning": "You"
+      },
+      {
+        "sanskrit": "prapitāmahaḥ",
+        "meaning": "the great-grandfather"
+      },
+      {
+        "sanskrit": "ca",
+        "meaning": "also"
+      },
+      {
+        "sanskrit": "namaḥ",
+        "meaning": "my respects"
+      },
+      {
+        "sanskrit": "namaḥ",
+        "meaning": "again my respects"
+      },
+      {
+        "sanskrit": "te",
+        "meaning": "unto You"
+      },
+      {
+        "sanskrit": "astu",
+        "meaning": "let there be"
+      },
+      {
+        "sanskrit": "sahasra kṛtvaḥ",
+        "meaning": "a thousand times"
+      },
+      {
+        "sanskrit": "punaḥ ca",
+        "meaning": "and again"
+      },
+      {
+        "sanskrit": "bhūyaḥ",
+        "meaning": "again"
+      },
+      {
+        "sanskrit": "api",
+        "meaning": "also"
+      },
+      {
+        "sanskrit": "namaḥ",
+        "meaning": "offering my respects"
+      }
+    ]
+  }
+}

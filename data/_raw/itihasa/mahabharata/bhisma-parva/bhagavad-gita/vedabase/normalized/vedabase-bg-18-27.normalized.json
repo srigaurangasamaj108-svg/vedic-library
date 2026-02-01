@@ -1,0 +1,64 @@
+{
+  "temp_id": "vedabase-bg-18-27",
+  "chapter": 18,
+  "verse": 27,
+  "verse_id": "bg-18-27",
+  "verse_group": null,
+  "composite": false,
+  "sanskrit": {
+    "devanagari": "रागी कर्मफलप्रेप्सुर्लुब्धो हिंसात्मकोऽश‍ुचि: ।\nहर्षशोकान्वित: कर्ता राजस: परिकीर्तित: ॥ २७ ॥",
+    "iast": "rāgī karma-phala-prepsur\nlubdho hiṁsātmako ’śuciḥ\nharṣa-śokānvitaḥ kartā\nrājasaḥ parikīrtitaḥ"
+  },
+  "synonyms_raw": "rāgī\n—\nvery much attached\n;\nkarma\n-\nphala\n—\nthe fruit of the work\n;\nprepsuḥ\n—\ndesiring\n;\nlubdhaḥ\n—\ngreedy\n;\nhiṁsā\n-\nātmakaḥ\n—\nalways envious\n;\naśuciḥ\n—\nunclean\n;\nharṣa\n-\nśoka\n-\nanvitaḥ\n—\nsubject to joy and sorrow\n;\nkartā\n—\nsuch a worker\n;\nrājasaḥ\n—\nin the mode of passion\n;\nparikīrtitaḥ\n—\nis declared\n.",
+  "translation": "The worker who is attached to work and the fruits of work, desiring to enjoy those fruits, and who is greedy, always envious, impure, and moved by joy and sorrow, is said to be in the mode of passion.",
+  "purport": [
+    "A person is too much attached to a certain kind of work or to the result because he has too much attachment for materialism or hearth and home, wife and children. Such a person has no desire for higher elevation in life. He is simply concerned with making this world as materially comfortable as possible. He is generally very greedy, and he thinks that anything attained by him is permanent and never to be lost. Such a person is envious of others and prepared to do anything wrong for sense gratification. Therefore such a person is unclean, and he does not care whether his earning is pure or impure. He is very happy if his work is successful and very much distressed when his work is not successful. Such is the worker in the mode of passion."
+  ],
+  "source": {
+    "author": "A. C. Bhaktivedanta Swami Prabhupāda",
+    "edition": "Bhagavad-gītā As It Is",
+    "language": "en",
+    "provider": "vedabase.io"
+  },
+  "synonyms": {
+    "language": "en",
+    "items": [
+      {
+        "sanskrit": "rāgī",
+        "meaning": "very much attached"
+      },
+      {
+        "sanskrit": "karma phala",
+        "meaning": "the fruit of the work"
+      },
+      {
+        "sanskrit": "prepsuḥ",
+        "meaning": "desiring"
+      },
+      {
+        "sanskrit": "lubdhaḥ",
+        "meaning": "greedy"
+      },
+      {
+        "sanskrit": "hiṁsā ātmakaḥ",
+        "meaning": "always envious"
+      },
+      {
+        "sanskrit": "aśuciḥ",
+        "meaning": "unclean"
+      },
+      {
+        "sanskrit": "harṣa śoka anvitaḥ",
+        "meaning": "subject to joy and sorrow"
+      },
+      {
+        "sanskrit": "kartā",
+        "meaning": "such a worker"
+      },
+      {
+        "sanskrit": "rājasaḥ",
+        "meaning": "in the mode of passion"
+      }
+    ]
+  }
+}

@@ -1,0 +1,86 @@
+{
+  "temp_id": "vedabase-bg-06-39",
+  "chapter": 6,
+  "verse": 39,
+  "verse_id": "bg-06-39",
+  "verse_group": null,
+  "composite": false,
+  "sanskrit": {
+    "devanagari": "एतन्मे संशयं कृष्ण छेत्तुमर्हस्यशेषत: ।\nत्वदन्य: संशयस्यास्य छेत्ता न ह्युपपद्यते ॥ ३९ ॥",
+    "iast": "etan me saṁśayaṁ kṛṣṇa\nchettum arhasy aśeṣataḥ\ntvad-anyaḥ saṁśayasyāsya\nchettā na hy upapadyate"
+  },
+  "synonyms_raw": "etat\n—\nthis is\n;\nme\n—\nmy\n;\nsaṁśayam\n—\ndoubt\n;\nkṛṣṇa\n—\nO Kṛṣṇa\n;\nchettum\n—\nto dispel\n;\narhasi\n—\nYou are requested\n;\naśeṣataḥ\n—\ncompletely\n;\ntvat\n—\nthan You\n;\nanyaḥ\n—\nother\n;\nsaṁśayasya\n—\nof the doubt\n;\nasya\n—\nthis\n;\nchettā\n—\nremover\n;\nna\n—\nnever\n;\nhi\n—\ncertainly\n;\nupapadyate\n—\nis to be found\n.",
+  "translation": "This is my doubt, O Kṛṣṇa, and I ask You to dispel it completely. But for You, no one is to be found who can destroy this doubt.",
+  "purport": [
+    "Kṛṣṇa is the perfect knower of past, present and future. In the beginning of the",
+    "Bhagavad-gītā,",
+    "the Lord said that all living entities existed individually in the past, they exist now in the present, and they continue to retain individual identity in the future, even after liberation from the material entanglement. So He has already cleared up the question of the future of the individual living entity. Now, Arjuna wants to know of the future of the unsuccessful transcendentalist. No one is equal to or above Kṛṣṇa, and certainly the so-called great sages and philosophers who are at the mercy of material nature cannot equal Him. Therefore the verdict of Kṛṣṇa is the final and complete answer to all doubts, because He knows past, present and future perfectly – but no one knows Him. Kṛṣṇa and Kṛṣṇa conscious devotees alone can know what is what."
+  ],
+  "source": {
+    "author": "A. C. Bhaktivedanta Swami Prabhupāda",
+    "edition": "Bhagavad-gītā As It Is",
+    "language": "en",
+    "provider": "vedabase.io"
+  },
+  "synonyms": {
+    "language": "en",
+    "items": [
+      {
+        "sanskrit": "etat",
+        "meaning": "this is"
+      },
+      {
+        "sanskrit": "me",
+        "meaning": "my"
+      },
+      {
+        "sanskrit": "saṁśayam",
+        "meaning": "doubt"
+      },
+      {
+        "sanskrit": "kṛṣṇa",
+        "meaning": "O Kṛṣṇa"
+      },
+      {
+        "sanskrit": "chettum",
+        "meaning": "to dispel"
+      },
+      {
+        "sanskrit": "arhasi",
+        "meaning": "You are requested"
+      },
+      {
+        "sanskrit": "aśeṣataḥ",
+        "meaning": "completely"
+      },
+      {
+        "sanskrit": "tvat",
+        "meaning": "than You"
+      },
+      {
+        "sanskrit": "anyaḥ",
+        "meaning": "other"
+      },
+      {
+        "sanskrit": "saṁśayasya",
+        "meaning": "of the doubt"
+      },
+      {
+        "sanskrit": "asya",
+        "meaning": "this"
+      },
+      {
+        "sanskrit": "chettā",
+        "meaning": "remover"
+      },
+      {
+        "sanskrit": "na",
+        "meaning": "never"
+      },
+      {
+        "sanskrit": "hi",
+        "meaning": "certainly"
+      }
+    ]
+  }
+}

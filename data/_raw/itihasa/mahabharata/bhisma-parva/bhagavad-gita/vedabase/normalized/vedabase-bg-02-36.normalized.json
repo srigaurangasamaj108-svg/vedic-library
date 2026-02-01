@@ -1,0 +1,80 @@
+{
+  "temp_id": "vedabase-bg-02-36",
+  "chapter": 2,
+  "verse": 36,
+  "verse_id": "bg-02-36",
+  "verse_group": null,
+  "composite": false,
+  "sanskrit": {
+    "devanagari": "अवाच्यवादांश्च बहून्वदिष्यन्ति तवाहिताः ।\nनिन्दन्तस्तव सामर्थ्य ततो दुःखतरं नु किम् ॥ ३६ ॥",
+    "iast": "avācya-vādāṁś ca bahūn\nvadiṣyanti tavāhitāḥ\nnindantas tava sāmarthyaṁ\ntato duḥkha-taraṁ nu kim"
+  },
+  "synonyms_raw": "avācya\n—\nunkind\n;\nvādān\n—\nfabricated words\n;\nca\n—\nalso\n;\nbahūn\n—\nmany\n;\nvadiṣyanti\n—\nwill say\n;\ntava\n—\nyour\n;\nahitāḥ\n—\nenemies\n;\nnindantaḥ\n—\nwhile vilifying\n;\ntava\n—\nyour\n;\nsāmarthyam\n—\nability\n;\ntataḥ\n—\nthan that\n;\nduḥkha\n-\ntaram\n—\nmore painful\n;\nnu\n—\nof course\n;\nkim\n—\nwhat is there\n.",
+  "translation": "Your enemies will describe you in many unkind words and scorn your ability. What could be more painful for you?",
+  "purport": [
+    "Lord Kṛṣṇa was astonished in the beginning at Arjuna’s uncalled-for plea for compassion, and He described his compassion as befitting the non-Āryans. Now in so many words, He has proved His statements against Arjuna’s so-called compassion."
+  ],
+  "source": {
+    "author": "A. C. Bhaktivedanta Swami Prabhupāda",
+    "edition": "Bhagavad-gītā As It Is",
+    "language": "en",
+    "provider": "vedabase.io"
+  },
+  "synonyms": {
+    "language": "en",
+    "items": [
+      {
+        "sanskrit": "avācya",
+        "meaning": "unkind"
+      },
+      {
+        "sanskrit": "vādān",
+        "meaning": "fabricated words"
+      },
+      {
+        "sanskrit": "ca",
+        "meaning": "also"
+      },
+      {
+        "sanskrit": "bahūn",
+        "meaning": "many"
+      },
+      {
+        "sanskrit": "vadiṣyanti",
+        "meaning": "will say"
+      },
+      {
+        "sanskrit": "tava",
+        "meaning": "your"
+      },
+      {
+        "sanskrit": "ahitāḥ",
+        "meaning": "enemies"
+      },
+      {
+        "sanskrit": "nindantaḥ",
+        "meaning": "while vilifying"
+      },
+      {
+        "sanskrit": "tava",
+        "meaning": "your"
+      },
+      {
+        "sanskrit": "sāmarthyam",
+        "meaning": "ability"
+      },
+      {
+        "sanskrit": "tataḥ",
+        "meaning": "than that"
+      },
+      {
+        "sanskrit": "duḥkha taram",
+        "meaning": "more painful"
+      },
+      {
+        "sanskrit": "nu",
+        "meaning": "of course"
+      }
+    ]
+  }
+}

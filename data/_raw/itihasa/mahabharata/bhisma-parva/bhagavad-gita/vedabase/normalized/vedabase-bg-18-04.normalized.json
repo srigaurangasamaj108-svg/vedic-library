@@ -1,0 +1,70 @@
+{
+  "temp_id": "vedabase-bg-18-04",
+  "chapter": 18,
+  "verse": 4,
+  "verse_id": "bg-18-04",
+  "verse_group": null,
+  "composite": false,
+  "sanskrit": {
+    "devanagari": "निश्चयं श‍ृणु मे तत्र त्यागे भरतसत्तम ।\nत्यागो हि पुरुषव्याघ्र त्रिविध: सम्प्रकीर्तित: ॥ ४ ॥",
+    "iast": "niścayaṁ śṛṇu me tatra\ntyāge bharata-sattama\ntyāgo hi puruṣa-vyāghra\ntri-vidhaḥ samprakīrtitaḥ"
+  },
+  "synonyms_raw": "niścayam\n—\ncertainty\n;\nśṛṇu\n—\nhear\n;\nme\n—\nfrom Me\n;\ntatra\n—\ntherein\n;\ntyāge\n—\nin the matter of renunciation\n;\nbharata\n-\nsat\n-\ntama\n—\nO best of the Bhāratas\n;\ntyāgaḥ\n—\nrenunciation\n;\nhi\n—\ncertainly\n;\npuruṣa\n-\nvyāghra\n—\nO tiger among human beings\n;\ntri\n-\nvidhaḥ\n—\nof three kinds\n;\nsamprakīrtitaḥ\n—\nis declared\n.",
+  "translation": "O best of the Bhāratas, now hear My judgment about renunciation. O tiger among men, renunciation is declared in the scriptures to be of three kinds.",
+  "purport": [
+    "Although there are differences of opinion about renunciation, here the Supreme Personality of Godhead, Śrī Kṛṣṇa, gives His judgment, which should be taken as final. After all, the",
+    "Vedas",
+    "are different laws given by the Lord. Here the Lord is personally present, and His word should be taken as final. The Lord says that the process of renunciation should be considered in terms of the modes of material nature in which it is performed."
+  ],
+  "source": {
+    "author": "A. C. Bhaktivedanta Swami Prabhupāda",
+    "edition": "Bhagavad-gītā As It Is",
+    "language": "en",
+    "provider": "vedabase.io"
+  },
+  "synonyms": {
+    "language": "en",
+    "items": [
+      {
+        "sanskrit": "niścayam",
+        "meaning": "certainty"
+      },
+      {
+        "sanskrit": "śṛṇu",
+        "meaning": "hear"
+      },
+      {
+        "sanskrit": "me",
+        "meaning": "from Me"
+      },
+      {
+        "sanskrit": "tatra",
+        "meaning": "therein"
+      },
+      {
+        "sanskrit": "tyāge",
+        "meaning": "in the matter of renunciation"
+      },
+      {
+        "sanskrit": "bharata sat tama",
+        "meaning": "O best of the Bhāratas"
+      },
+      {
+        "sanskrit": "tyāgaḥ",
+        "meaning": "renunciation"
+      },
+      {
+        "sanskrit": "hi",
+        "meaning": "certainly"
+      },
+      {
+        "sanskrit": "puruṣa vyāghra",
+        "meaning": "O tiger among human beings"
+      },
+      {
+        "sanskrit": "tri vidhaḥ",
+        "meaning": "of three kinds"
+      }
+    ]
+  }
+}

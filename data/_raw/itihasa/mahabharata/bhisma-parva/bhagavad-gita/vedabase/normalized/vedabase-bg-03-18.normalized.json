@@ -1,0 +1,88 @@
+{
+  "temp_id": "vedabase-bg-03-18",
+  "chapter": 3,
+  "verse": 18,
+  "verse_id": "bg-03-18",
+  "verse_group": null,
+  "composite": false,
+  "sanskrit": {
+    "devanagari": "नैव तस्य कृतेनार्थो नाकृतेनेह कश्चन ।\nन चास्य सर्वभूतेषु कश्चिदर्थव्यपाश्रयः ॥ १८ ॥",
+    "iast": "naiva tasya kṛtenārtho\nnākṛteneha kaścana\nna cāsya sarva-bhūteṣu\nkaścid artha-vyapāśrayaḥ"
+  },
+  "synonyms_raw": "na\n—\nnever\n;\neva\n—\ncertainly\n;\ntasya\n—\nhis\n;\nkṛtena\n—\nby discharge of duty\n;\narthaḥ\n—\npurpose\n;\nna\n—\nnor\n;\nakṛtena\n—\nwithout discharge of duty\n;\niha\n—\nin this world\n;\nkaścana\n—\nwhatever\n;\nna\n—\nnever\n;\nca\n—\nand\n;\nasya\n—\nof him\n;\nsarva\n-\nbhūteṣu\n—\namong all living beings\n;\nkaścit\n—\nany\n;\nartha\n—\npurpose\n;\nvyapāśrayaḥ\n—\ntaking shelter of\n.",
+  "translation": "A self-realized man has no purpose to fulfill in the discharge of his prescribed duties, nor has he any reason not to perform such work. Nor has he any need to depend on any other living being.",
+  "purport": [
+    "A self-realized man is no longer obliged to perform any prescribed duty, save and except activities in Kṛṣṇa consciousness. Kṛṣṇa consciousness is not inactivity either, as will be explained in the following verses. A Kṛṣṇa conscious man does not take shelter of any person – man or demigod. Whatever he does in Kṛṣṇa consciousness is sufficient in the discharge of his obligation."
+  ],
+  "source": {
+    "author": "A. C. Bhaktivedanta Swami Prabhupāda",
+    "edition": "Bhagavad-gītā As It Is",
+    "language": "en",
+    "provider": "vedabase.io"
+  },
+  "synonyms": {
+    "language": "en",
+    "items": [
+      {
+        "sanskrit": "na",
+        "meaning": "never"
+      },
+      {
+        "sanskrit": "eva",
+        "meaning": "certainly"
+      },
+      {
+        "sanskrit": "tasya",
+        "meaning": "his"
+      },
+      {
+        "sanskrit": "kṛtena",
+        "meaning": "by discharge of duty"
+      },
+      {
+        "sanskrit": "arthaḥ",
+        "meaning": "purpose"
+      },
+      {
+        "sanskrit": "na",
+        "meaning": "nor"
+      },
+      {
+        "sanskrit": "akṛtena",
+        "meaning": "without discharge of duty"
+      },
+      {
+        "sanskrit": "iha",
+        "meaning": "in this world"
+      },
+      {
+        "sanskrit": "kaścana",
+        "meaning": "whatever"
+      },
+      {
+        "sanskrit": "na",
+        "meaning": "never"
+      },
+      {
+        "sanskrit": "ca",
+        "meaning": "and"
+      },
+      {
+        "sanskrit": "asya",
+        "meaning": "of him"
+      },
+      {
+        "sanskrit": "sarva bhūteṣu",
+        "meaning": "among all living beings"
+      },
+      {
+        "sanskrit": "kaścit",
+        "meaning": "any"
+      },
+      {
+        "sanskrit": "artha",
+        "meaning": "purpose"
+      }
+    ]
+  }
+}

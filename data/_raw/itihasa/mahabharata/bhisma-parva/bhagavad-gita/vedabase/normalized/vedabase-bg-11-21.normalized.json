@@ -1,0 +1,96 @@
+{
+  "temp_id": "vedabase-bg-11-21",
+  "chapter": 11,
+  "verse": 21,
+  "verse_id": "bg-11-21",
+  "verse_group": null,
+  "composite": false,
+  "sanskrit": {
+    "devanagari": "अमी हि त्वां सुरसङ्घा विशन्ति\nकेचिद्भ‍ीता: प्राञ्जलयो गृणन्ति ।\nस्वस्तीत्युक्त्वा महर्षिसिद्धसङ्घा:\nस्तुवन्ति त्वां स्तुतिभि: पुष्कलाभि: ॥ २१ ॥",
+    "iast": "amī hi tvāṁ sura-saṅghā viśanti\nkecid bhītāḥ prāñjalayo gṛṇanti\nsvastīty uktvā maharṣi-siddha-saṅghāḥ\nstuvanti tvāṁ stutibhiḥ puṣkalābhiḥ"
+  },
+  "synonyms_raw": "amī\n—\nall those\n;\nhi\n—\ncertainly\n;\ntvām\n—\nYou\n;\nsura\n-\nsaṅghāḥ\n—\ngroups of demigods\n;\nviśanti\n—\nare entering\n;\nkecit\n—\nsome of them\n;\nbhītāḥ\n—\nout of fear\n;\nprāñjalayaḥ\n—\nwith folded hands\n;\ngṛṇanti\n—\nare offering prayers\n;\nsvasti\n—\nall peace\n;\niti\n—\nthus\n;\nuktvā\n—\nspeaking\n;\nmahā\n-\nṛṣi\n—\ngreat sages\n;\nsiddha\n-\nsaṅghāḥ\n—\nperfect beings\n;\nstuvanti\n—\nare singing hymns\n;\ntvām\n—\nunto You\n;\nstutibhiḥ\n—\nwith prayers\n;\npuṣkalābhiḥ\n—\nVedic hymns\n.",
+  "translation": "All the hosts of demigods are surrendering before You and entering into You. Some of them, very much afraid, are offering prayers with folded hands. Hosts of great sages and perfected beings, crying “All peace!” are praying to You by singing the Vedic hymns.",
+  "purport": [
+    "The demigods in all the planetary systems feared the terrific manifestation of the universal form and its glaring effulgence and so prayed for protection."
+  ],
+  "source": {
+    "author": "A. C. Bhaktivedanta Swami Prabhupāda",
+    "edition": "Bhagavad-gītā As It Is",
+    "language": "en",
+    "provider": "vedabase.io"
+  },
+  "synonyms": {
+    "language": "en",
+    "items": [
+      {
+        "sanskrit": "amī",
+        "meaning": "all those"
+      },
+      {
+        "sanskrit": "hi",
+        "meaning": "certainly"
+      },
+      {
+        "sanskrit": "tvām",
+        "meaning": "You"
+      },
+      {
+        "sanskrit": "sura saṅghāḥ",
+        "meaning": "groups of demigods"
+      },
+      {
+        "sanskrit": "viśanti",
+        "meaning": "are entering"
+      },
+      {
+        "sanskrit": "kecit",
+        "meaning": "some of them"
+      },
+      {
+        "sanskrit": "bhītāḥ",
+        "meaning": "out of fear"
+      },
+      {
+        "sanskrit": "prāñjalayaḥ",
+        "meaning": "with folded hands"
+      },
+      {
+        "sanskrit": "gṛṇanti",
+        "meaning": "are offering prayers"
+      },
+      {
+        "sanskrit": "svasti",
+        "meaning": "all peace"
+      },
+      {
+        "sanskrit": "iti",
+        "meaning": "thus"
+      },
+      {
+        "sanskrit": "uktvā",
+        "meaning": "speaking"
+      },
+      {
+        "sanskrit": "mahā ṛṣi",
+        "meaning": "great sages"
+      },
+      {
+        "sanskrit": "siddha saṅghāḥ",
+        "meaning": "perfect beings"
+      },
+      {
+        "sanskrit": "stuvanti",
+        "meaning": "are singing hymns"
+      },
+      {
+        "sanskrit": "tvām",
+        "meaning": "unto You"
+      },
+      {
+        "sanskrit": "stutibhiḥ",
+        "meaning": "with prayers"
+      }
+    ]
+  }
+}

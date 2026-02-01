@@ -1,0 +1,72 @@
+{
+  "temp_id": "vedabase-bg-14-05",
+  "chapter": 14,
+  "verse": 5,
+  "verse_id": "bg-14-05",
+  "verse_group": null,
+  "composite": false,
+  "sanskrit": {
+    "devanagari": "सत्त्वं रजस्तम इति गुणा: प्रकृतिसम्भवा: ।\nनिबध्‍नन्ति महाबाहो देहे देहिनमव्ययम् ॥ ५ ॥",
+    "iast": "sattvaṁ rajas tama iti\nguṇāḥ prakṛti-sambhavāḥ\nnibadhnanti mahā-bāho\ndehe dehinam avyayam"
+  },
+  "synonyms_raw": "sattvam\n—\nthe mode of goodness\n;\nrajaḥ\n—\nthe mode of passion\n;\ntamaḥ\n—\nthe mode of ignorance\n;\niti\n—\nthus\n;\nguṇāḥ\n—\nthe qualities\n;\nprakṛti\n—\nmaterial nature\n;\nsambhavāḥ\n—\nproduced of\n;\nnibadhnanti\n—\ndo condition\n;\nmahā\n-\nbāho\n—\nO mighty-armed one\n;\ndehe\n—\nin this body\n;\ndehinam\n—\nthe living entity\n;\navyayam\n—\neternal\n.",
+  "translation": "Material nature consists of three modes – goodness, passion and ignorance. When the eternal living entity comes in contact with nature, O mighty-armed Arjuna, he becomes conditioned by these modes.",
+  "purport": [
+    "The living entity, because he is transcendental, has nothing to do with this material nature. Still, because he has become conditioned by the material world, he is acting under the spell of the three modes of material nature. Because living entities have different kinds of bodies, in terms of the different aspects of nature, they are induced to act according to that nature. This is the cause of the varieties of happiness and distress."
+  ],
+  "source": {
+    "author": "A. C. Bhaktivedanta Swami Prabhupāda",
+    "edition": "Bhagavad-gītā As It Is",
+    "language": "en",
+    "provider": "vedabase.io"
+  },
+  "synonyms": {
+    "language": "en",
+    "items": [
+      {
+        "sanskrit": "sattvam",
+        "meaning": "the mode of goodness"
+      },
+      {
+        "sanskrit": "rajaḥ",
+        "meaning": "the mode of passion"
+      },
+      {
+        "sanskrit": "tamaḥ",
+        "meaning": "the mode of ignorance"
+      },
+      {
+        "sanskrit": "iti",
+        "meaning": "thus"
+      },
+      {
+        "sanskrit": "guṇāḥ",
+        "meaning": "the qualities"
+      },
+      {
+        "sanskrit": "prakṛti",
+        "meaning": "material nature"
+      },
+      {
+        "sanskrit": "sambhavāḥ",
+        "meaning": "produced of"
+      },
+      {
+        "sanskrit": "nibadhnanti",
+        "meaning": "do condition"
+      },
+      {
+        "sanskrit": "mahā bāho",
+        "meaning": "O mighty-armed one"
+      },
+      {
+        "sanskrit": "dehe",
+        "meaning": "in this body"
+      },
+      {
+        "sanskrit": "dehinam",
+        "meaning": "the living entity"
+      }
+    ]
+  }
+}

@@ -1,0 +1,87 @@
+{
+  "temp_id": "vedabase-bg-01-30",
+  "chapter": 1,
+  "verse": 30,
+  "verse_id": "bg-01-30",
+  "verse_group": null,
+  "composite": false,
+  "sanskrit": {
+    "devanagari": "न च शक्न‍ोम्यवस्थातुं भ्रमतीव च मे मनः ।\nनिमित्तानि च पश्यामि विपरीतानि केशव ॥ ३० ॥",
+    "iast": "na ca śaknomy avasthātuṁ\nbhramatīva ca me manaḥ\nnimittāni ca paśyāmi\nviparītāni keśava"
+  },
+  "synonyms_raw": "na\n—\nnor\n;\nca\n—\nalso\n;\nśaknomi\n—\nam I able\n;\navasthātum\n—\nto stay\n;\nbhramati\n—\nforgetting\n;\niva\n—\nas\n;\nca\n—\nand\n;\nme\n—\nmy\n;\nmanaḥ\n—\nmind\n;\nnimittāni\n—\ncauses\n;\nca\n—\nalso\n;\npaśyāmi\n—\nI see\n;\nviparītāni\n—\njust the opposite\n;\nkeśava\n—\nO killer of the demon Keśī (Kṛṣṇa)\n.",
+  "translation": "I am now unable to stand here any longer. I am forgetting myself, and my mind is reeling. I see only causes of misfortune, O Kṛṣṇa, killer of the Keśī demon.",
+  "purport": [
+    "Due to his impatience, Arjuna was unable to stay on the battlefield, and he was forgetting himself on account of this weakness of his mind. Excessive attachment for material things puts a man in such a bewildering condition of existence.",
+    "Bhayaṁ dvitīyābhiniveśataḥ syāt",
+    "(",
+    "Bhāg.",
+    "11.2.37",
+    "): such fearfulness and loss of mental equilibrium take place in persons who are too affected by material conditions. Arjuna envisioned only painful reverses in the battlefield – he would not be happy even by gaining victory over the foe. The words",
+    "nimittāni viparītāni",
+    "are significant. When a man sees only frustration in his expectations, he thinks, “Why am I here?” Everyone is interested in himself and his own welfare. No one is interested in the Supreme Self. Arjuna is showing ignorance of his real self-interest by Kṛṣṇa’s will. One’s real self-interest lies in Viṣṇu, or Kṛṣṇa. The conditioned soul forgets this, and therefore suffers material pains. Arjuna thought that his victory in the battle would only be a cause of lamentation for him."
+  ],
+  "source": {
+    "author": "A. C. Bhaktivedanta Swami Prabhupāda",
+    "edition": "Bhagavad-gītā As It Is",
+    "language": "en",
+    "provider": "vedabase.io"
+  },
+  "synonyms": {
+    "language": "en",
+    "items": [
+      {
+        "sanskrit": "na",
+        "meaning": "nor"
+      },
+      {
+        "sanskrit": "ca",
+        "meaning": "also"
+      },
+      {
+        "sanskrit": "śaknomi",
+        "meaning": "am I able"
+      },
+      {
+        "sanskrit": "avasthātum",
+        "meaning": "to stay"
+      },
+      {
+        "sanskrit": "bhramati",
+        "meaning": "forgetting"
+      },
+      {
+        "sanskrit": "iva",
+        "meaning": "as"
+      },
+      {
+        "sanskrit": "ca",
+        "meaning": "and"
+      },
+      {
+        "sanskrit": "me",
+        "meaning": "my"
+      },
+      {
+        "sanskrit": "manaḥ",
+        "meaning": "mind"
+      },
+      {
+        "sanskrit": "nimittāni",
+        "meaning": "causes"
+      },
+      {
+        "sanskrit": "ca",
+        "meaning": "also"
+      },
+      {
+        "sanskrit": "paśyāmi",
+        "meaning": "I see"
+      },
+      {
+        "sanskrit": "viparītāni",
+        "meaning": "just the opposite"
+      }
+    ]
+  }
+}

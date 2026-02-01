@@ -1,0 +1,80 @@
+{
+  "temp_id": "vedabase-bg-10-28",
+  "chapter": 10,
+  "verse": 28,
+  "verse_id": "bg-10-28",
+  "verse_group": null,
+  "composite": false,
+  "sanskrit": {
+    "devanagari": "आयुधानामहं वज्रं धेनूनामस्मि कामधुक् ।\nप्रजनश्चास्मि कन्दर्प: सर्पाणामस्मि वासुकि: ॥ २८ ॥",
+    "iast": "āyudhānām ahaṁ vajraṁ\ndhenūnām asmi kāma-dhuk\nprajanaś cāsmi kandarpaḥ\nsarpāṇām asmi vāsukiḥ"
+  },
+  "synonyms_raw": "āyudhānām\n—\nof all weapons\n;\naham\n—\nI am\n;\nvajram\n—\nthe thunderbolt\n;\ndhenūnām\n—\nof cows\n;\nasmi\n—\nI am\n;\nkāma\n-\ndhuk\n—\nthe\nsurabhi\ncow\n;\nprajanaḥ\n—\nthe cause for begetting children\n;\nca\n—\nand\n;\nasmi\n—\nI am\n;\nkandarpaḥ\n—\nCupid\n;\nsarpāṇām\n—\nof serpents\n;\nasmi\n—\nI am\n;\nvāsukiḥ\n—\nVāsuki\n.",
+  "translation": "Of weapons I am the thunderbolt; among cows I am the surabhi. Of causes for procreation I am Kandarpa, the god of love, and of serpents I am Vāsuki.",
+  "purport": [
+    "The thunderbolt, indeed a mighty weapon, represents Kṛṣṇa’s power. In Kṛṣṇaloka in the spiritual sky there are cows which can be milked at any time, and they give as much milk as one likes. Of course such cows do not exist in this material world, but there is mention of them in Kṛṣṇaloka. The Lord keeps many such cows, which are called",
+    "surabhi.",
+    "It is stated that the Lord is engaged in herding the",
+    "surabhi",
+    "cows. Kandarpa is the sex desire for presenting good sons; therefore Kandarpa is the representative of Kṛṣṇa. Sometimes sex is engaged in only for sense gratification; such sex does not represent Kṛṣṇa. But sex for the generation of good children is called Kandarpa and represents Kṛṣṇa."
+  ],
+  "source": {
+    "author": "A. C. Bhaktivedanta Swami Prabhupāda",
+    "edition": "Bhagavad-gītā As It Is",
+    "language": "en",
+    "provider": "vedabase.io"
+  },
+  "synonyms": {
+    "language": "en",
+    "items": [
+      {
+        "sanskrit": "āyudhānām",
+        "meaning": "of all weapons"
+      },
+      {
+        "sanskrit": "aham",
+        "meaning": "I am"
+      },
+      {
+        "sanskrit": "vajram",
+        "meaning": "the thunderbolt"
+      },
+      {
+        "sanskrit": "dhenūnām",
+        "meaning": "of cows"
+      },
+      {
+        "sanskrit": "asmi",
+        "meaning": "I am"
+      },
+      {
+        "sanskrit": "kāma dhuk",
+        "meaning": "the surabhi cow"
+      },
+      {
+        "sanskrit": "prajanaḥ",
+        "meaning": "the cause for begetting children"
+      },
+      {
+        "sanskrit": "ca",
+        "meaning": "and"
+      },
+      {
+        "sanskrit": "asmi",
+        "meaning": "I am"
+      },
+      {
+        "sanskrit": "kandarpaḥ",
+        "meaning": "Cupid"
+      },
+      {
+        "sanskrit": "sarpāṇām",
+        "meaning": "of serpents"
+      },
+      {
+        "sanskrit": "asmi",
+        "meaning": "I am"
+      }
+    ]
+  }
+}

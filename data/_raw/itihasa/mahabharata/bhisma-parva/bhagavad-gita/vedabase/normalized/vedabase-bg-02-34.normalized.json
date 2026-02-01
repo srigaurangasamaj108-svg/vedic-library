@@ -1,0 +1,73 @@
+{
+  "temp_id": "vedabase-bg-02-34",
+  "chapter": 2,
+  "verse": 34,
+  "verse_id": "bg-02-34",
+  "verse_group": null,
+  "composite": false,
+  "sanskrit": {
+    "devanagari": "अकीर्तिं चापि भूतानि कथयिष्यन्ति तेऽव्ययाम् ।\nसम्भावितस्य चाकीर्तिर्मरणादतिरिच्यते ॥ ३४ ॥",
+    "iast": "akīrtiṁ cāpi bhūtāni\nkathayiṣyanti te ’vyayām\nsambhāvitasya cākīrtir\nmaraṇād atiricyate"
+  },
+  "synonyms_raw": "akīrtim\n—\ninfamy\n;\nca\n—\nalso\n;\napi\n—\nover and above\n;\nbhūtāni\n—\nall people\n;\nkathayiṣyanti\n—\nwill speak\n;\nte\n—\nof you\n;\navyayām\n—\nforever\n;\nsambhāvitasya\n—\nfor a respectable man\n;\nca\n—\nalso\n;\nakīrtiḥ\n—\nill fame\n;\nmaraṇāt\n—\nthan death\n;\natiricyate\n—\nbecomes more\n.",
+  "translation": "People will always speak of your infamy, and for a respectable person, dishonor is worse than death.",
+  "purport": [
+    "Both as friend and philosopher to Arjuna, Lord Kṛṣṇa now gives His final judgment regarding Arjuna’s refusal to fight. The Lord says, “Arjuna, if you leave the battlefield before the battle even begins, people will call you a coward. And if you think that people may call you bad names but that you will save your life by fleeing the battlefield, then My advice is that you’d do better to die in the battle. For a respectable man like you, ill fame is worse than death. So, you should not flee for fear of your life; better to die in the battle. That will save you from the ill fame of misusing My friendship and from losing your prestige in society.”",
+    "So, the final judgment of the Lord was for Arjuna to die in the battle and not withdraw."
+  ],
+  "source": {
+    "author": "A. C. Bhaktivedanta Swami Prabhupāda",
+    "edition": "Bhagavad-gītā As It Is",
+    "language": "en",
+    "provider": "vedabase.io"
+  },
+  "synonyms": {
+    "language": "en",
+    "items": [
+      {
+        "sanskrit": "akīrtim",
+        "meaning": "infamy"
+      },
+      {
+        "sanskrit": "ca",
+        "meaning": "also"
+      },
+      {
+        "sanskrit": "api",
+        "meaning": "over and above"
+      },
+      {
+        "sanskrit": "bhūtāni",
+        "meaning": "all people"
+      },
+      {
+        "sanskrit": "kathayiṣyanti",
+        "meaning": "will speak"
+      },
+      {
+        "sanskrit": "te",
+        "meaning": "of you"
+      },
+      {
+        "sanskrit": "avyayām",
+        "meaning": "forever"
+      },
+      {
+        "sanskrit": "sambhāvitasya",
+        "meaning": "for a respectable man"
+      },
+      {
+        "sanskrit": "ca",
+        "meaning": "also"
+      },
+      {
+        "sanskrit": "akīrtiḥ",
+        "meaning": "ill fame"
+      },
+      {
+        "sanskrit": "maraṇāt",
+        "meaning": "than death"
+      }
+    ]
+  }
+}

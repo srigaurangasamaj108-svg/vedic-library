@@ -1,0 +1,92 @@
+{
+  "temp_id": "vedabase-bg-09-21",
+  "chapter": 9,
+  "verse": 21,
+  "verse_id": "bg-09-21",
+  "verse_group": null,
+  "composite": false,
+  "sanskrit": {
+    "devanagari": "ते तं भुक्त्वा स्वर्गलोकं विशालं\nक्षीणे पुण्ये मर्त्यलोकं विशन्ति ।\nएवं त्रयीधर्ममनुप्रपन्ना\nगतागतं कामकामा लभन्ते ॥ २१ ॥",
+    "iast": "te taṁ bhuktvā svarga-lokaṁ viśālaṁ\nkṣīṇe puṇye martya-lokaṁ viśanti\nevaṁ trayī-dharmam anuprapannā\ngatāgataṁ kāma-kāmā labhante"
+  },
+  "synonyms_raw": "te\n—\nthey\n;\ntam\n—\nthat\n;\nbhuktvā\n—\nhaving enjoyed\n;\nsvarga\n-\nlokam\n—\nheaven\n;\nviśālam\n—\nvast\n;\nkṣīṇe\n—\nbeing exhausted\n;\npuṇye\n—\nthe results of their pious activities\n;\nmartya\n-\nlokam\n—\nto the mortal earth\n;\nviśanti\n—\nfall down\n;\nevam\n—\nthus\n;\ntrayī\n—\nof the three\nVedas\n;\ndharmam\n—\ndoctrines\n;\nanuprapannāḥ\n—\nfollowing\n;\ngata\n-\nāgatam\n—\ndeath and birth\n;\nkāma\n-\nkāmāḥ\n—\ndesiring sense enjoyments\n;\nlabhante\n—\nattain\n.",
+  "translation": "When they have thus enjoyed vast heavenly sense pleasure and the results of their pious activities are exhausted, they return to this mortal planet again. Thus those who seek sense enjoyment by adhering to the principles of the three Vedas achieve only repeated birth and death.",
+  "purport": [
+    "One who is promoted to the higher planetary systems enjoys a longer duration of life and better facilities for sense enjoyment, yet one is not allowed to stay there forever. One is again sent back to this earth upon finishing the resultant fruits of pious activities. He who has not attained perfection of knowledge, as indicated in the",
+    "Vedānta-sūtra",
+    "(",
+    "janmādy asya yataḥ",
+    "), or, in other words, he who fails to understand Kṛṣṇa, the cause of all causes, becomes baffled about achieving the ultimate goal of life and is thus subjected to the routine of being promoted to the higher planets and then again coming down, as if situated on a ferris wheel which sometimes goes up and sometimes comes down. The purport is that instead of being elevated to the spiritual world, from which there is no longer any possibility of coming down, one simply revolves in the cycle of birth and death on higher and lower planetary systems. One should better take to the spiritual world to enjoy an eternal life full of bliss and knowledge and never return to this miserable material existence."
+  ],
+  "source": {
+    "author": "A. C. Bhaktivedanta Swami Prabhupāda",
+    "edition": "Bhagavad-gītā As It Is",
+    "language": "en",
+    "provider": "vedabase.io"
+  },
+  "synonyms": {
+    "language": "en",
+    "items": [
+      {
+        "sanskrit": "te",
+        "meaning": "they"
+      },
+      {
+        "sanskrit": "tam",
+        "meaning": "that"
+      },
+      {
+        "sanskrit": "bhuktvā",
+        "meaning": "having enjoyed"
+      },
+      {
+        "sanskrit": "svarga lokam",
+        "meaning": "heaven"
+      },
+      {
+        "sanskrit": "viśālam",
+        "meaning": "vast"
+      },
+      {
+        "sanskrit": "kṣīṇe",
+        "meaning": "being exhausted"
+      },
+      {
+        "sanskrit": "puṇye",
+        "meaning": "the results of their pious activities"
+      },
+      {
+        "sanskrit": "martya lokam",
+        "meaning": "to the mortal earth"
+      },
+      {
+        "sanskrit": "viśanti",
+        "meaning": "fall down"
+      },
+      {
+        "sanskrit": "evam",
+        "meaning": "thus"
+      },
+      {
+        "sanskrit": "trayī",
+        "meaning": "of the three Vedas"
+      },
+      {
+        "sanskrit": "dharmam",
+        "meaning": "doctrines"
+      },
+      {
+        "sanskrit": "anuprapannāḥ",
+        "meaning": "following"
+      },
+      {
+        "sanskrit": "gata āgatam",
+        "meaning": "death and birth"
+      },
+      {
+        "sanskrit": "kāma kāmāḥ",
+        "meaning": "desiring sense enjoyments"
+      }
+    ]
+  }
+}

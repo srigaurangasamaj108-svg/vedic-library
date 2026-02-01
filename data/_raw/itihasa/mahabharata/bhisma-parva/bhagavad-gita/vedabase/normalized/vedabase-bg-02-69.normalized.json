@@ -1,0 +1,80 @@
+{
+  "temp_id": "vedabase-bg-02-69",
+  "chapter": 2,
+  "verse": 69,
+  "verse_id": "bg-02-69",
+  "verse_group": null,
+  "composite": false,
+  "sanskrit": {
+    "devanagari": "या निशा सर्वभूतानां तस्यां जागर्ति संयमी ।\nयस्यां जाग्रति भूतानि सा निशा पश्यतो मुनेः ॥ ६९ ॥",
+    "iast": "yā niśā sarva-bhūtānāṁ\ntasyāṁ jāgarti saṁyamī\nyasyāṁ jāgrati bhūtāni\nsā niśā paśyato muneḥ"
+  },
+  "synonyms_raw": "yā\n—\nwhat\n;\nniśā\n—\nis night\n;\nsarva\n—\nall\n;\nbhūtānām\n—\nof living entities\n;\ntasyām\n—\nin that\n;\njāgarti\n—\nis wakeful\n;\nsaṁyamī\n—\nthe self-controlled\n;\nyasyām\n—\nin which\n;\njāgrati\n—\nare awake\n;\nbhūtāni\n—\nall beings\n;\nsā\n—\nthat is\n;\nniśā\n—\nnight\n;\npaśyataḥ\n—\nfor the introspective\n;\nmuneḥ\n—\nsage\n.",
+  "translation": "What is night for all beings is the time of awakening for the self-controlled; and the time of awakening for all beings is night for the introspective sage.",
+  "purport": [
+    "There are two classes of intelligent men. One is intelligent in material activities for sense gratification, and the other is introspective and awake to the cultivation of self-realization. Activities of the introspective sage, or thoughtful man, are night for persons materially absorbed. Materialistic persons remain asleep in such a night due to their ignorance of self-realization. The introspective sage remains alert in the “night” of the materialistic men. The sage feels transcendental pleasure in the gradual advancement of spiritual culture, whereas the man in materialistic activities, being asleep to self-realization, dreams of varieties of sense pleasure, feeling sometimes happy and sometimes distressed in his sleeping condition. The introspective man is always indifferent to materialistic happiness and distress. He goes on with his self-realization activities undisturbed by material reactions."
+  ],
+  "source": {
+    "author": "A. C. Bhaktivedanta Swami Prabhupāda",
+    "edition": "Bhagavad-gītā As It Is",
+    "language": "en",
+    "provider": "vedabase.io"
+  },
+  "synonyms": {
+    "language": "en",
+    "items": [
+      {
+        "sanskrit": "yā",
+        "meaning": "what"
+      },
+      {
+        "sanskrit": "niśā",
+        "meaning": "is night"
+      },
+      {
+        "sanskrit": "sarva",
+        "meaning": "all"
+      },
+      {
+        "sanskrit": "bhūtānām",
+        "meaning": "of living entities"
+      },
+      {
+        "sanskrit": "tasyām",
+        "meaning": "in that"
+      },
+      {
+        "sanskrit": "jāgarti",
+        "meaning": "is wakeful"
+      },
+      {
+        "sanskrit": "saṁyamī",
+        "meaning": "the self-controlled"
+      },
+      {
+        "sanskrit": "yasyām",
+        "meaning": "in which"
+      },
+      {
+        "sanskrit": "jāgrati",
+        "meaning": "are awake"
+      },
+      {
+        "sanskrit": "bhūtāni",
+        "meaning": "all beings"
+      },
+      {
+        "sanskrit": "sā",
+        "meaning": "that is"
+      },
+      {
+        "sanskrit": "niśā",
+        "meaning": "night"
+      },
+      {
+        "sanskrit": "paśyataḥ",
+        "meaning": "for the introspective"
+      }
+    ]
+  }
+}

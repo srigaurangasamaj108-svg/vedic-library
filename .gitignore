@@ -1,10 +1,17 @@
 # -----------------------------
-# Python / Virtual Environments
+# Python / Virtual environments
 # -----------------------------
 venv/
 __pycache__/
 *.pyc
 *.pyo
+
+# -----------------------------
+# Node / frontend build output
+# -----------------------------
+node_modules/
+.next/
+dist/
 
 # -----------------------------
 # OS / Editor junk
@@ -14,22 +21,4 @@ Icon?
 Icon*
 *.swp
 *.swo
-
-# -----------------------------
-# Raw & reproducible data
-# -----------------------------
-data/_raw/
-
-# -----------------------------
-# Temporary / generated legacy outputs
-# -----------------------------
-data/_intermediate/
-data/derivatives/_legacy/
-
-# -----------------------------
-# Node / frontend build artifacts
-# -----------------------------
-node_modules/
-.next/
-dist/
 
