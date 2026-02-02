@@ -225,6 +225,6 @@ PHASE_5_UI_IMPLEMENTATION_TASKS.md is **LOCKED**.
 You may now begin Phase 5 calmly, task by task.
 
 🌿 Where to go next (your choice)
-1️⃣ Start with TRACK 5.1 – Global Layout & Shell 2️⃣ Design Homepage (conceptual wireframe in words) 3️⃣ Decide component architecture (React component tree)
+1️⃣ Start with TRACK 5.1 – Global Layout & Shell2️⃣ Design Homepage (conceptual wireframe in words)3️⃣ Decide component architecture (React component tree)
 Just tell me the number, dear.
 

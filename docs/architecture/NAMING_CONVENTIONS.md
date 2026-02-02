@@ -1,90 +1,99 @@
-This document may look “simple”, but in reality it is one of the most protective architectural shields you can put around a long-lived knowledge system.
-I’ve written it with zero shortcuts, because naming mistakes are the #1 cause of entropy in large archives.
-
-🏷️ Naming Conventions
+🏷️ NAMING CONVENTIONS
 Vedic Library Project
-0. Purpose of This Document
 
-This document defines binding naming conventions for the Vedic Library.
+Version: 1.0.1  
+Status: LOCKED ARCHITECTURAL CONTRACT
 
-It answers:
+---
 
-How are files named?
+## 0. Purpose of This Document
 
-How are folders named?
+This document defines **binding naming conventions** for the Vedic Library.
 
-How are schemas named?
+It governs naming across:
 
-How are JSON fields named?
+- data/
+- docs/
+- registry/
+- schemas/
+- pipelines/
+- frontend data loaders
 
-How are languages indicated?
+The goal is not aesthetics, but:
 
-What is explicitly forbidden?
+**predictability, permanence, and zero ambiguity.**
 
-The goal is not beauty, but:
+---
 
-Predictability, permanence, and zero ambiguity.
+## 1. Core Principle (Non-Negotiable)
 
-This document applies to:
+> **Names encode role and location — never opinion, workflow, or time.**
 
-data/
+Therefore, names MUST NOT encode:
 
-docs/
+- “final”, “draft”, “latest”
+- version numbers (v2, new)
+- personal initials
+- UI assumptions
+- environment or deployment context
 
-registry/
+Those belong in **git history**, not filenames.
 
-schemas
+---
 
-pipelines
+## 2. Global Rules (Apply Everywhere)
 
-frontend data loaders
+### 2.1 Character Set
 
-1. Core Principle (Non-Negotiable)
+✔ lowercase only  
+✔ ASCII only  
+✔ digits 0–9  
+✔ hyphen `-`  
+✔ dot `.` (for UID-like structures)
 
-Names encode role and location — never opinion, workflow, or time.
+❌ no spaces  
+❌ no diacritics (ā, ī, ṛ, etc.) in filenames  
 
-Therefore, names must never encode:
+---
 
-“final”
+### 2.2 Word Separation
 
-“new”
+| Context        | Separator |
+|---------------|-----------|
+| folders       | `-`       |
+| filenames     | `-`       |
+| UIDs          | `.`       |
+| schema names  | `.`       |
 
-“updated”
+---
 
-“draft”
+### 2.3 Reserved Underscore Exception (IMPORTANT)
 
-“v2”
+The underscore `_` is **forbidden in canonical identity and content paths**.
 
-personal initials
+However, it is **explicitly permitted** for **system-reserved internal directories**, such as:
 
-UI assumptions
+- `_raw/`
+- `_archive/`
+- `_canonical/`
+- `_extended/`
+- `_indexes/`
 
-Those belong in git history, not filenames.
+Rules:
 
-2. Global Rules (Apply Everywhere)
-2.1 Character Set
+- Underscore directories MUST be infrastructure-only
+- They MUST NOT encode canonical identity
+- They MUST NOT appear in UIDs
 
-✔ lowercase only
-✔ ASCII only
-✔ digits 0–9
-✔ hyphen -
-✔ dot . (for UID-like structures)
+This exception is **intentional and locked**.
 
-❌ no spaces
-❌ no underscores (_) in data paths
-❌ no diacritics (ā, ī, ṛ, etc.) in filenames
+---
 
-2.2 Word Separation
-Context	Separator
-folders	-
-filenames	-
-UIDs	.
-schema names	.
-3. Directory Naming Rules
-3.1 Corpus Directories
+## 3. Directory Naming Rules
 
-Corpus directories are fixed vocabulary.
+### 3.1 Corpus Directories (Fixed Vocabulary)
 
+```text
 data/
 ├── sruti/
 ├── smrti/
@@ -95,115 +104,115 @@ data/
 ├── upaveda/
 ├── darsana/
 ├── sampradaya/
+Rules:
 
+No aliases
 
-❌ No aliases
-❌ No abbreviations
-❌ No pluralization drift
+No abbreviations
+
+No pluralization drift
+
+Vocabulary is registry-governed
 
 3.2 Internal Structural Directories
-
-Structure follows textual reality, not UI needs.
+Structure reflects textual reality, not UI needs.
 
 Examples:
 
 itihasa/mahabharata/bhisma-parva/
-purana/bhagavata/skandha-01/adhyaya-01/
-vedanga/vyakarana/astadhyayi/01/
 
+purana/bhagavata/skandha-01/adhyaya-01/
+
+vedanga/vyakarana/astadhyayi/01/
 
 Rules:
 
-use traditional names
+Use traditional names
 
-hyphenate multi-word Sanskrit terms
+Hyphenate multi-word Sanskrit terms
 
-numeric ordering must be zero-padded in directories (01, 02, …)
+Numeric ordering MUST be zero-padded (01, 02, …)
 
 4. Canonical Data File Naming
-4.1 Canonical Verse Files
-
-Canonical data files are named by UID-equivalent location, not by language.
+4.1 Canonical Files (All Unit Types)
+Canonical filenames are derived from structural location, not language or author.
 
 Example (Bhagavad-gītā):
 
+text
+Copy code
 bg-2-13.json
+Rules:
 
-
-✔ chapter-verse
+✔ chapter–verse only
 ✔ hyphen-separated
 ✔ no language suffix
-✔ no author
+✔ no author marker
 
 ❌ bg-2-13-en.json
 ❌ bg-2-13-final.json
 
-Language is not part of canonical data.
+Language and interpretation are never canonical.
 
-4.2 Canonical Mantra / Sūtra Files
+4.2 UID ↔ Filename Correspondence (Normative)
+Canonical filenames MUST be a lossless, reversible transform of canonical UID location.
 
-Examples:
+UID encodes identity
 
-rv-samhita-1-1-1.json
-panini-as-1-1-1.json
-yoga-sutra-1-2.json
+Filename encodes storage location
 
-
-Rule:
-
-File name mirrors structural path, not display form.
+Neither may encode meaning
 
 5. Extended / Editorial Data Naming
+Extended data MUST live in explicit, non-canonical directories.
 
-Extended data always lives in explicit subfolders, never mixed.
+5.1 Language Axis (Canonical Target)
+Preferred structure:
 
-5.1 Language as Directory, Not Filename
-
-Correct:
-
+text
+Copy code
 translations/en/bg-2-13.json
 translations/hi/bg-2-13.json
+Rules:
 
-
-Incorrect:
-
-bg-2-13.en.json
-bg-2-13_hi.json
-
-
-Why?
-
-Because:
-
-language is context
+Language is context, not identity
 
 UID remains stable
 
-filenames stay predictable
+Filenames remain predictable
 
-5.2 Commentary Naming
-commentaries/prabhupada/en/bg-2-13.json
-commentaries/shankara/sa/bg-2-13.json
-
+5.2 Transitional Language Collapse (Phase-Aware)
+During Phase-1 and early Phase-2, language directories MAY be physically collapsed
+(as documented in PIPELINE_REGISTRY.md).
 
 Rules:
 
-author as directory
+Collapse is temporary and explicit
 
-language as directory
+Migration requires scripts + registry update + version bump
 
-file = referenced UID
+Existing files MUST NOT be renamed ad-hoc
+
+5.3 Commentary / Exposition Naming
+text
+Copy code
+commentary/prabhupada/en/bg-2-13.json
+commentary/shankara/sa/bg-2-13.json
+Rules:
+
+Author as directory
+
+Language as directory
+
+Filename = referenced canonical unit
 
 6. Schema Naming Rules
-
-Schemas are formal contracts.
-
 6.1 Schema Filenames
+text
+Copy code
 canonical-verse.schema.md
 canonical-sutra.schema.md
 editorial-unit.schema.md
-
-
 Rules:
 
 singular
@@ -212,66 +221,59 @@ kebab-case
 
 role-first naming
 
-6.2 Schema Identity Inside File
+6.2 Schema Identity Inside Files
+json
+Copy code
 {
   "schema": {
     "name": "vedic-library.canonical.verse",
     "version": "1.0.0"
   }
 }
+Rules:
 
+dot-namespaced
 
-✔ dot-namespaced
-✔ versioned
-✔ immutable once locked
+versioned
+
+immutable once locked
 
 7. Document Naming (docs/)
-7.1 Architectural Documents
+7.1 Architectural & Constitutional Documents
+text
+Copy code
 CANONICAL_TEXT_POLICY.md
 UID_SYSTEM.md
 NAMING_CONVENTIONS.md
-
-
 Rules:
 
 UPPERCASE
 
-underscore separation
+underscore-separated
 
 conceptual nouns only
 
-7.2 Guides & Process Docs
-DATA_LOADING_STRATEGY.md
-CANONICAL_INTAKE_AND_NORMALIZATION.md
-
-
-No dates. No phase numbers inside filenames.
-
 8. JSON Field Naming Rules
-8.1 Style
-
 ✔ snake_case
 ✔ lowercase
-✔ no abbreviations unless canonical
+✔ no ambiguous abbreviations
 
 Example:
 
+json
+Copy code
 {
   "review_status": "unreviewed",
   "confidence": "high"
 }
-
-8.2 Forbidden Field Names
+Forbidden:
 
 ❌ lang → use language
 ❌ txt → use text
 ❌ id → use uid
 
-Consistency beats brevity.
-
 9. Language Codes
-
-Language codes follow ISO-639-1 / community standard.
+Language codes follow ISO-639-1 / community standards.
 
 Examples:
 
@@ -284,12 +286,11 @@ Tamil	ta
 
 Rules:
 
-language never encoded in UID
+Language NEVER encoded in UID
 
-language never embedded in canonical filenames
+Language NEVER embedded in canonical filenames
 
-10. What Is Explicitly Forbidden (Critical)
-
+10. Explicitly Forbidden (Critical)
 ❌ _final, _latest, _new
 ❌ .bak, .old
 ❌ mixed casing
@@ -300,57 +301,20 @@ language never embedded in canonical filenames
 These destroy archival clarity.
 
 11. Validation & Enforcement
+Automated checks MUST ensure:
 
-Automated checks must ensure:
-
-filenames match registry
+filename ↔ UID correspondence
 
 language appears only in directories
 
 canonical files have no language marker
 
-UID ↔ filename correspondence holds
+registry vocabulary is respected
 
 Violations are hard failures, not warnings.
 
-12. Why This Matters (Long-Term View)
-
-Without strict naming:
-
-duplicate verses appear
-
-translators overwrite canon
-
-editors argue over filenames
-
-automation becomes impossible
-
-With strict naming:
-
-tools can be dumb and reliable
-
-humans can focus on meaning
-
-the archive survives people, teams, and decades
-
-13. Status
-
-Category: LOCKED ARCHITECTURAL CONTRACT
-
-Applies to all phases
-
-Amendments require:
-
-formal proposal
-
-cross-doc review
-
-version bump
-
-14. Closing Principle
-
+12. Closing Principle
 A name is not a label.
 It is a promise to the future.
 
 This document exists to keep that promise.
-

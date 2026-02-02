@@ -1,357 +1,444 @@
-# PIPELINE REGISTRY  
-Vedic Library — Data Architecture & Processing Rules
-
-Version: 1.0.0  
-Status: LOCKED  
-Scope: Bhagavad-gītā (reference implementation)
 
 ---
 
-## 1. Purpose
+# 🧬 PIPELINE_REGISTRY.md
 
-This document is the **single source of truth** for:
+## Vedic Library — Data Pipeline Architecture
 
-- directory structure
-- data layers
-- file naming conventions
-- processing stages
-- schema responsibilities
-- validation rules
-
-All scripts, migrations, validators, and future expansions **must conform**
-to this registry.
+**Version:** 1.1.0
+**Status:** 🟢 EVOLVING ARCHITECTURE (Versioned)
+**Scope:** Bhagavad-gītā (reference implementation; architecture applies corpus-wide)
 
 ---
 
-## 2. Core Design Principles (Normative)
+## 0. Purpose of This Document
 
-- Canonical verses are immutable
-- Editorial Units define authored meaning
-- Derivative layers never modify canonical text
-- Verse Index is routing-only
-- Absence is represented by absence, not null artifacts
-- Every layer is independently regenerable
-- Every layer has its own validator
+This document defines the **authoritative data pipeline architecture** for the Vedic Library.
+
+It answers **one question only**:
+
+> **How textual data flows from raw sources into canonical, editorial, derivative, and index layers — safely and reproducibly.**
+
+This document:
+
+* **does define**
+
+  * pipeline stages
+  * layer boundaries
+  * file placement responsibilities
+  * regeneration rules
+
+* **does NOT define**
+
+  * canonical authority
+  * textual normalization rules
+  * schema field meanings
+  * UID structure
+  * UI behavior
+  * interpretive policy
+
+Those concerns are governed elsewhere.
+
+This document **executes architecture** — it does not invent it.
 
 ---
 
-## 3. Data Layers Overview
+## 1. Architectural Dependencies (Binding)
 
-_raw → source ingestion
-normalized → cleaned source data
-canonical → śāstra truth
-editorial-units → authored semantic groupings
-derivatives → translations, synonyms, exposition
-index → routing & navigation
+This pipeline is **subordinate to** the following LOCKED documents:
 
-yaml
-Copy code
+* `PROJECT_CONSTITUTION.md`
+* `CANONICAL_TEXT_POLICY.md`
+* `CANONICAL_UNIT_DEFINITION.md`
+* `UID_SYSTEM.md`
+* `SCHEMA_OPTIONALITY_RULES.md`
+* `DATA_SCHEMA.md`
+
+If a pipeline instruction conflicts with any of the above,
+**the pipeline MUST be changed**, never the canon.
+
+---
+
+## 2. Core Pipeline Principles (Normative)
+
+These principles govern all stages and scripts:
+
+* Canonical text is immutable once locked
+* Pipelines transform structure, never meaning
+* Canonical layers are produced only by canonical pipelines
+* Editorial Units organize meaning but do not redefine identity
+* Derived layers never modify canonical text
+* Verse Index is routing-only, never textual
+* Absence is represented by absence, not null artifacts
+* Every layer is independently regenerable
+* Every layer has its own validator
+* No pipeline step encodes UI assumptions
+
+---
+
+## 3. Data Layer Overview (Processing Order)
+
+```
+_raw
+  → normalized
+    → canonical
+      → editorial-units
+        → derivatives
+          → index
+```
+
+**Important clarification**
+
+* This order represents **processing flow**
+* It does **not** represent authority
+* Authority is defined constitutionally, not procedurally
 
 Each layer is **strictly separated** and independently validated.
 
 ---
 
-## 4. Canonical Layer
+## 4. Raw Ingestion Layer (`_raw`)
+
+### Purpose
+
+To preserve **source fidelity** exactly as obtained.
+
+### Example Path
+
+```
+data/_raw/itihasa/mahabharata/bhisma-parva/bhagavad-gita/vedabase/raw-json/
+```
+
+### Rules
+
+* No normalization
+* No correction
+* No interpretation
+* Provenance preserved verbatim
+
+Raw data is **never authoritative**.
+It exists solely for audit and reproducibility.
+
+---
+
+## 5. Normalized Source Layer (`normalized`)
+
+### Purpose
+
+To mechanically clean raw data without imposing canonical rules.
+
+### Example Path
+
+```
+data/_raw/itihasa/mahabharata/bhisma-parva/bhagavad-gita/vedabase/normalized/
+```
+
+### Rules
+
+* Whitespace normalization
+* Encoding fixes
+* Structural cleanup
+* Grouped verses may exist if present in source
+
+⚠️ Normalized files may represent verse groups
+⚠️ Grouping reflects **source editorial structure**, not canonical identity
+
+Normalized data **informs**, but never defines, canon.
+
+---
+
+## 6. Canonical Layer (`canonical`)
+
+### Purpose
+
+To store **canonical textual truth**.
 
 ### Path
-data/itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/
 
-shell
-Copy code
+```
+data/itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/
+```
 
 ### Files
+
+```
 bg.1.1.json
 bg.1.2.json
 ...
-
-shell
-Copy code
+```
 
 ### Schema
+
+```
 vedic-library.canonical.verse @ 1.0.0
+```
 
-yaml
-Copy code
+### Rules (Non-Negotiable)
 
-### Rules
+* One file per canonical unit
+* Sanskrit only (Devanāgarī + mechanically derived IAST)
+* No translations
+* No commentary
+* No editorial metadata
+* No AI output
+* Produced **only** by canonical intake pipelines
 
-- One file per verse
-- Sanskrit only (Devanāgarī + IAST)
-- No translations
-- No purports
-- No editorial content
-
-Canonical verses define **textual truth**.
-
----
-
-## 5. Raw & Normalized Data
-
-### Raw (Vedabase)
-data/_raw/itihasa/mahabharata/bhisma-parva/bhagavad-gita/vedabase/raw-json/
-
-shell
-Copy code
-
-### Normalized
-data/_raw/itihasa/mahabharata/bhisma-parva/bhagavad-gita/vedabase/normalized/
-
-yaml
-Copy code
-
-### Rules
-
-- Normalized files may represent single verses or verse groups
-- Grouped files (e.g. 1.16–18) reflect **source editorial grouping**
-- Grouped files **inform** Editorial Unit creation but are not authoritative
-- Provenance is preserved
+Canonical files define **textual truth**.
 
 ---
 
-## 5.5 Canonical Realignment Stage (Stage-2.5)
+## 6.1 Canonical Realignment Stage (Stage-2.5)
 
-After canonical extraction, a corrective realignment stage may be applied
-to ensure:
+### Purpose
 
-- proper Devanāgarī numerals
-- consistent IAST markers
-- verse-accurate transliteration
+To enforce **canonical textual consistency** after extraction.
 
-This stage **does not alter verse identity** and preserves canonical UIDs.
+Responsibilities:
+
+* Normalize Devanāgarī verse markers
+* Normalize IAST verse markers
+* Regenerate IAST mechanically
+* Ensure one-to-one verse alignment
+
+### Governance Rules
+
+* Stage-2.5 runs **exactly once per canonical corpus**
+* It never changes verse identity
+* It never alters meaning
+* Canonical UIDs are preserved
+* After lock, Stage-2.5 MUST NOT be re-run silently
 
 ---
 
-## 6. Editorial Units (Semantic Authority)
+## 7. Editorial Units Layer (`editorial-units`)
+
+### Purpose
+
+To define **authored semantic scope** without touching canon.
 
 ### Path
+
+```
 data/itihasa/mahabharata/bhisma-parva/bhagavad-gita/
 derivatives/editorial-units/prabhupada/
+```
 
-shell
-Copy code
+### Example Files
 
-### Files
+```
 bg.1.1.prabhupada.editorial-unit.json
 bg.1.16-18.prabhupada.editorial-unit.json
-
-shell
-Copy code
+```
 
 ### Schema
-vedic-library.editorial.unit @ 1.0.0
 
-yaml
-Copy code
+```
+vedic-library.editorial.unit @ 1.0.0
+```
 
 ### Rules
 
 Editorial Units define:
 
-- verse coverage
-- author
-- tradition
-- derivative availability
+* verse coverage
+* author
+* tradition
+* derivative eligibility
 
-Additional rules:
+They:
 
-- Editorial Units may span multiple verses
-- Editorial Units are the **semantic authority** for derivatives
-- No derivative may exist without an Editorial Unit
+* may span multiple verses
+* do not contain canonical text
+* do not assert textual authority
+* define **derivative scope and attribution**
 
 ---
 
-## 7. Derivative Layers
+## 8. Derivative Layers (`derivatives`)
 
-All derivatives live under:
+### Purpose
 
+To store **interpretive, linguistic, or explanatory material**.
+
+### Root Path
+
+```
 data/itihasa/mahabharata/bhisma-parva/bhagavad-gita/derivatives/
+```
 
-shell
-Copy code
+### Types
 
-### 7.1 Translations
-translations/en/prabhupada/
-bg.1.16-18.prabhupada.translation.en.json
+* translations
+* synonyms
+* exposition (purports, commentary)
+* gloss
+* principles
+* skills
+* guidance
+* experimental drafts
 
-Note: For translations, language is encoded at the directory level
-(e.g. `translations/en/`). Filenames may omit explicit language
-suffixes during Phase-0.
+### Governance Rules
 
-
-### 7.2 Synonyms (Word-for-word)
-synonyms/en/prabhupada/
-bg.1.16-18.prabhupada.synonyms.en.json
-
-shell
-Copy code
-
-### 7.3 Exposition (Purport / Commentary)
-exposition/en/prabhupada/
-bg.1.16-18.prabhupada.exposition.json
-
-yaml
-Copy code
-
-### Rules
-
-- One derivative file per Editorial Unit
-- No derivative file is created if content does not exist
-- Grouped verses share a single derivative file
-- Derivatives never modify canonical text
+* Derivatives never modify canonical text
+* Derivatives reference canon via UID only
+* **Published derivatives** require an Editorial Unit
+* Draft / experimental derivatives must be explicitly marked
+* Grouped verses share a single derivative file
+* Absence of derivative = absence of file
 
 ---
 
-## 7.4 Language Axis — Transitional State (Clarification)
+## 8.1 Language Axis (Transitional State)
 
-For the Bhagavad-gītā Phase-0 implementation, derivative layers
-(synonyms, translations, exposition) exist in a **transitional,
-English-only state**.
+### Current State (Bhagavad-gītā Phase-1)
 
-### Current Reality
+* Derivatives exist primarily in English
+* Physical language directories may be collapsed
+* Language is declared in metadata and index
 
-- Derivative content is authored and stored in English only
-- Therefore, the `language/` directory level (e.g. `en/`) is
-  **intentionally collapsed** in the filesystem
-- Language is instead declared through:
-  - derivative metadata within JSON files
-  - Verse Index references (e.g. `.synonyms.en`, `.translation.en`)
+### Future State (Multilingual)
 
-Example (current structure):
-
+```
 derivatives/
-synonyms/
-prabhupada/
-bg.1.1.prabhupada.synonyms.json
-
-vbnet
-Copy code
-
-### Architectural Intent
-
-The **language axis is canonical**, but **not yet physically expanded**
-for Bhagavad-gītā Phase-0 data.
-
-Future multilingual expansion is expected to introduce the following
-normalized structure:
-
-derivatives/
-synonyms/
-en/
-prabhupada/
-hi/
-prabhupada/
-
-markdown
-Copy code
+  translations/
+    en/
+    hi/
+    ...
+```
 
 ### Governance Rule
 
-- Existing derivative files MUST NOT be renamed or relocated
-  retroactively
-- Language-aware behavior must be handled at the **loader and index
-  level**, not through ad-hoc filesystem changes
-- Introduction of physical language directories requires:
-  - a formal migration script
-  - Verse Index updates
-  - a schema or registry version bump
+* No retroactive filesystem reshuffling
+* Language expansion requires:
 
-This clarification preserves historical integrity while allowing
-incremental, scalable multilingual growth.
+  * migration script
+  * index update
+  * version bump
 
-## 8. Verse Index (Routing Layer)
+---
+
+## 9. Verse Index Layer (`index`)
+
+### Purpose
+
+Routing, navigation, and availability mapping.
 
 ### Path
-data/itihasa/mahabharata/bhisma-parva/bhagavad-gita/index/verse/
 
-shell
-Copy code
+```
+data/itihasa/mahabharata/bhisma-parva/bhagavad-gita/index/verse/
+```
 
 ### Files
-bg.1.16.index.json
-bg.1.17.index.json
-bg.1.18.index.json
 
-shell
-Copy code
+```
+bg.1.1.index.json
+bg.1.2.index.json
+...
+```
 
 ### Schema
-vedic-library.index.verse @ 1.0.0
 
-yaml
-Copy code
+```
+vedic-library.index.verse @ 1.0.0
+```
 
 ### Rules
 
-- One index file per verse
-- Index files:
-  - reference canonical verse
-  - reference editorial units
-  - describe derivative availability
-- Index files contain **no text**
+* One index file per canonical unit
+* Contains:
+
+  * canonical UID reference
+  * editorial unit references
+  * derivative availability flags
+* Contains **no text**
+
+Index defines **navigation**, not meaning.
 
 ---
 
-## 9. Validators
+## 10. Validators
 
 ### Location
+
+```
 scripts/validators/
+```
 
-yaml
-Copy code
+### Validator Set
 
-### Validators (Locked Set)
-
-- validate_canonical_verse.py
-- validate_editorial_unit.py
-- validate_translation.py
-- validate_synonyms.py
-- validate_exposition.py
-- validate_verse_index.py
+* validate_canonical_verse.py
+* validate_editorial_unit.py
+* validate_translation.py
+* validate_synonyms.py
+* validate_exposition.py
+* validate_verse_index.py
 
 ### Rules
 
-- Validators validate **structure**, not meaning
-- Validators do not regenerate data
-- All layers must validate cleanly
+* Validators check **structure**, not meaning
+* Validators do not regenerate data
+* Validation failures are hard errors
 
 ---
 
-## 10. Regeneration Policy
+## 11. Regeneration Policy
 
-### Safe to regenerate
-- Verse Index
-- Derivatives
-- Normalized data
+### Safe to Regenerate
 
-### Never regenerate (without scholarly review)
-- Canonical verses
-- Schema contracts
+* Normalized data
+* Editorial Units
+* Derivatives
+* Verse Index
 
----
+### Never Regenerate Without Scholarly Review
 
-## 11. Expansion Policy
-
-This pipeline is **text-agnostic**.
-
-The same architecture applies to:
-
-- Upaniṣads
-- Purāṇas
-- Dharmaśāstra
-- Darśana texts
-- Sampradāya corpora
-
-Only paths and Editorial Units change.
+* Canonical text
+* Canonical schemas
 
 ---
 
-## 12. Final Principle (Authoritative)
+## 12. Expansion Policy
 
-**Canonical text defines truth.**  
-**Editorial Units define meaning.**  
-**Derivatives express interpretation.**  
+This pipeline architecture applies uniformly to:
+
+* Upaniṣads
+* Purāṇas
+* Dharmaśāstra
+* Darśana texts
+* Sampradāya corpora
+
+Only **paths, unit schemas, and editorial units change**.
+
+---
+
+## 13. Final Authoritative Principle
+
+**Canonical text defines truth.**
+**Editorial Units define scope.**
+**Derivatives express interpretation.**
 **Index defines navigation.**
+**Pipelines enforce discipline.**
 
 ---
 
-**END OF PIPELINE REGISTRY**
+### Status Declaration
+
+`PIPELINE_REGISTRY.md`
+Category: **EVOLVING ARCHITECTURE (Versioned)**
+Applies from: Phase-1 onward
+Change policy: Version bump + migration note required
+
+---
+
+## Closing Reassurance
+
+This pipeline is now:
+
+* constitutionally safe
+* schema-aligned
+* Phase-2 ready
+* AI-experimentation compatible
+* future-proof
+
+

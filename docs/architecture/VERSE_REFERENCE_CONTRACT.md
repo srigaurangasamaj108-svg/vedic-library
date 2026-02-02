@@ -1,340 +1,362 @@
-This document is extremely important: it is the glue that safely connects all higher knowledge layers to the canonical corpus, without ever corrupting it.
+# Verse Reference Contract
 
-I’ve written it slowly, with examples, rules, and reasons — so that ten years later, it will still protect you from confusion.
+## Vedic Library Architecture
 
-🔗 Verse Reference Contract
-Vedic Library Project
-0. Purpose of This Document
+**Status:** LOCKED ARCHITECTURAL CONTRACT
 
-This document defines the Verse Reference Contract for the Vedic Library.
+---
 
-It answers:
+## 1. Purpose of This Document
 
-How does anything refer to a canonical verse?
+This document defines the **binding contract** for how canonical units (verses, sūtras, mantras, etc.) are:
 
-What is allowed to reference a verse?
+* Referenced
+* Cited
+* Linked
+* Displayed
 
-What is forbidden?
+across the entire **Vedic Library system**, regardless of phase, UI, backend, or consumer (human or machine).
 
-How do we reference parts of verses?
+It formalizes the relationship between:
 
-How do we reference groups of verses?
+* **Base UIDs** (canonical identity)
+* **Refined UIDs** (structural precision)
+* **Editorial and semantic attachments**
 
-How do we remain consistent across all śāstra?
+and ensures that **citation stability is never compromised**.
 
-This contract is binding across:
+---
 
-data schemas
+## 2. Core Principle (Non‑Negotiable)
 
-pipelines
+> **Every reference ultimately resolves to a Base UID.**
 
-frontend
+All refinement, expansion, navigation, and semantic layering must:
 
-knowledge layers
+* Point *toward* the Base UID
+* Never replace or override it
+* Never obscure it
 
-future contributors
+This principle applies uniformly to:
 
-1. Core Principle (Non-Negotiable)
+* UI routing
+* Internal data joins
+* Search results
+* External citations
+* Academic export
 
-Canonical verses are never embedded — only referenced.
+---
 
-Everything outside the Canonical Layer must point to a verse, never copy it.
+## 3. Definitions
 
-This preserves:
+### 3.1 Base UID
 
-textual integrity
+A **Base UID** is the minimal, canonical identifier of a textual unit.
 
-auditability
+Examples:
 
-long-term trust
+* `bg.2.13`
+* `manu.sm.4.138`
+* `panini.as.1.1.1`
 
-2. What Is a “Verse” in This Contract?
+Properties:
 
-A verse means a canonical unit, as defined in:
+* Eternal
+* Language‑independent
+* Edition‑independent
+* Commentary‑independent
 
-CANONICAL_UNIT_DEFINITION.md
+A Base UID always resolves to **exactly one canonical unit**.
 
-Depending on the śāstra, a “verse” may be:
+---
 
-śloka (Bhagavad-gītā)
+### 3.2 Refined UID
 
-sūtra (Yoga-sūtra)
+A **Refined UID** is a Base UID with **controlled structural refinements** applied.
 
-mantra (Ṛg-veda)
+Examples:
 
-prose unit (Brāhmaṇa, Arthaśāstra)
+* `bg.2.13.pada.a`
+* `kamasutra.1.2.p14.7`
+* `rv.samhita.1.1.1.variant.2`
 
-The contract does not care about form — only canonical identity.
+Properties:
 
-3. The Canonical Reference Key: ref
-3.1 Mandatory Field
+* Always reversible to Base UID
+* Never valid without its Base UID
+* Used only when additional precision is required
 
-All non-canonical objects that refer to canon MUST include:
+---
 
-"ref": "bg.2.13"
+### 3.3 Editorial Reference
 
+An **Editorial Reference** attaches non‑canonical material to a Base or Refined UID.
 
-Where:
+Examples:
 
-ref = canonical UID
+* Prefaces
+* Speaker attributions
+* Colophons
+* Transitional prose
 
-UID syntax is governed by UID_SYSTEM.md
+Editorial references **do not create new canonical identities**.
 
-No exceptions.
+---
 
-4. Single-Verse Reference (Most Common)
-Example: Translation
-{
-  "type": "translation",
-  "language": "en",
-  "ref": "bg.2.13",
-  "text": "As the embodied soul continuously passes..."
-}
+## 4. Resolution Rules
 
-Example: Commentary
-{
-  "type": "commentary",
-  "author": "A.C. Bhaktivedanta Swami Prabhupāda",
-  "ref": "bg.2.13",
-  "text": "In this verse the Lord explains..."
-}
+### 4.1 Resolution Order
 
-5. Multi-Verse Reference (Ranges)
+When a reference is processed, the system MUST resolve in this order:
 
-Some units naturally span verses.
+1. Identify Base UID
+2. Apply refinement (if any)
+3. Attach editorial / semantic layers
 
-5.1 Range Reference
-"ref": {
-  "start": "bg.2.12",
-  "end": "bg.2.16"
-}
+At no point may step 2 or 3 alter step 1.
 
+---
 
-Rules:
+### 4.2 Reversibility Guarantee
 
-Start and end must belong to same work
+For every reference `R`, the following must hold:
 
-Order must be canonical
+```
+resolve(R) → base_uid
+```
 
-No skipping ambiguity
+Examples:
 
-5.2 Explicit List Reference
-"ref": [
-  "bg.2.11",
-  "bg.2.12",
-  "bg.2.13"
-]
+* `bg.2.13.pada.b` → `bg.2.13`
+* `kamasutra.1.2.p14.7` → `kamasutra.1.2.7`
 
+If reversibility fails, the reference is invalid.
 
-Used when:
+---
 
-verses are non-contiguous
+## 5. Citation Rules (Human‑Facing)
 
-thematic grouping is intentional
+### 5.1 Canonical Citation
 
-6. Partial Verse Reference (Important)
+Default citation format MUST use Base UID only.
 
-Sometimes meaning refers to part of a verse.
+Examples:
 
-6.1 Allowed: Structural Sub-Reference
-"ref": {
-  "uid": "bg.2.13",
-  "segment": "pada-2"
-}
+* Bhagavad‑gītā 2.13 → `bg.2.13`
+* Manu‑smṛti 4.138 → `manu.sm.4.138`
 
+This applies to:
 
-Segments may be:
+* Footnotes
+* Academic exports
+* Permanent links
 
-pāda (quarter)
+---
 
-sentence
+### 5.2 Extended Citation (Optional)
 
-mantra line
+Refined UIDs MAY be displayed when scholarly precision is required.
 
-⚠️ Segment identifiers are local, not canonical.
+Examples:
 
-6.2 Forbidden
+* Bhagavad‑gītā 2.13, pāda a → `bg.2.13.pada.a`
 
-❌ Quoting raw Sanskrit text as identifier
-❌ Line numbers inside text
-❌ Free-form offsets
+UI MUST:
 
-Canonical segmentation never changes.
+* Display Base UID prominently
+* Render refinements as secondary detail
 
-7. Commentary Introductions & Conclusions
+---
 
-You asked this explicitly — this is crucial.
+## 6. Linking Rules (System‑Facing)
 
-Problem
+### 6.1 Internal Links
 
-Many commentaries include:
+All internal links MUST:
 
-an introductory paragraph before the verse
-
-a concluding reflection after several verses
-
-These are not verse content.
-
-7.1 Correct Handling
-
-Such material is stored as editorial units, not verse units.
-
-{
-  "type": "commentary-introduction",
-  "author": "Śaṅkara",
-  "ref": "bg.2.1",
-  "scope": "pre-verse",
-  "text": "Before explaining the verse..."
-}
-
-
-Or:
-
-{
-  "type": "commentary-conclusion",
-  "author": "Śaṅkara",
-  "ref": {
-    "start": "bg.2.1",
-    "end": "bg.2.10"
-  },
-  "scope": "post-section",
-  "text": "Thus the teaching is summarized..."
-}
-
-
-✔ Canon preserved
-✔ Commentary preserved
-✔ No contamination
-
-8. Titles, Headings, Section Names
-
-Headings such as:
-
-“Arjuna’s Lament”
-
-“Kṣetra-kṣetrajña-vibhāga”
-
-Rule
-
-They are editorial metadata, not canonical text.
-
-{
-  "type": "section-title",
-  "ref": {
-    "start": "bg.2.1",
-    "end": "bg.2.10"
-  },
-  "title": "The Nature of the Soul"
-}
-
-9. Cross-Śāstra References
-
-A unit may reference multiple śāstra.
+* Store Base UID as the primary key
+* Store refinement separately
 
 Example:
 
-"ref": [
-  "bg.2.13",
-  "sb.11.22.8",
-  "katha.up.2.18"
-]
+```json
+{
+  "base_uid": "bg.2.13",
+  "refinement": "pada.a"
+}
+```
 
+---
 
-Rules:
+### 6.2 URL Design
 
-Each UID must be valid
+URLs MAY expose refinements, but routing MUST anchor on Base UID.
 
-No assumption of equivalence
+Valid:
 
-Relationship must be explained elsewhere
+* `/bg/2/13`
+* `/bg/2/13#a`
 
-10. Knowledge-Layer Awareness
+Invalid:
 
-Which layers may reference canon?
+* Routes without resolvable Base UID
 
-Layer	May reference canon?
-Semantic	✅
-Interpretive	✅
-Pedagogical	✅
-Community	✅
-Canonical	❌ (self-contained)
-11. What This Contract Forbids (Critical)
+---
 
-❌ Copying Sanskrit text into non-canonical files
-❌ Embedding verse text inside commentary JSON
-❌ Editing canon “for clarity”
-❌ Re-numbering verses per tradition
-❌ Implicit references (“this verse above”)
+## 7. Display Rules (UI)
 
-12. Validation Rules
+### 7.1 Base UID Visibility
 
-Any object with ref must satisfy:
+UI MUST:
 
-UID exists
+* Always make Base UID discoverable
+* Never hide it behind UI abstractions
 
-UID conforms to registry
+This protects scholarly trust and external citation.
 
-Reference scope is explicit
+---
 
-Range order is valid
+### 7.2 Refinement Display
 
-Segment identifiers are local only
+Refinements:
 
-Validation failures are hard errors.
+* May be toggled
+* May be collapsed
+* May be context‑dependent
 
-13. Why This Contract Exists
+But Base UID must remain constant.
 
-Without it:
+---
 
-verses get duplicated
+## 8. Prohibited Practices
 
-commentaries rewrite scripture
+The following are explicitly forbidden:
 
-traditions fight over text
+* Using refined UID as a primary key
+* Linking commentary to refined UID without Base UID
+* Creating UI‑only identifiers
+* Encoding language, author, or sampradāya in references
 
-AI contaminates canon
+---
 
-With it:
+## 9. Cross‑Śāstra Uniformity
 
-canon remains untouched
+This contract applies identically to:
 
-meaning layers flourish
+* Verse‑based texts
+* Sūtra‑based texts
+* Mantra‑based texts
+* Prose śāstra
 
-disagreements coexist safely
+Unit type differences are handled by **canonical schemas**, not reference logic.
 
-the library scales indefinitely
+---
 
-14. Relationship to Other Documents
+## 10. Stability Guarantee
 
-This contract depends on:
+Once a Base UID is published:
+
+* It must never change
+* All future refinements must remain backward‑compatible
+* Old links must never break
+
+This is essential for a civilizational archive.
+
+---
+
+## 11. Relationship to Other Documents
+
+This contract:
+
+* Depends on: `UID_SYSTEM.md`
+* Enforces: `UID_REFINEMENT_RULES.md`
+* Is consumed by:
+
+  * `DATA_LOADING_ABSTRACTION_STRATEGY.md`
+  * `KNOWLEDGE_LAYER_MODEL.md`
+  * All UI routing layers
+
+---
+
+## 12. Closing Statement
+
+> **The text must remain citeable even when the system is forgotten.**
+
+This contract exists to ensure that the Vedic Library remains a **referenceable civilization‑scale archive**, not a transient application.
+
+Once adopted, this contract is **LOCKED**.
+
+This document now does the following, cleanly and unambiguously:
+
+What this document now guarantees
+
+Clear separation between:
+
+Base UID (eternal canonical identity)
+
+Refined UID (precision, never identity)
+
+Editorial / semantic attachments
+
+One-way gravity rule: everything resolves back to the Base UID
+
+Human vs system responsibilities clearly separated:
+
+How scholars cite
+
+How UI displays
+
+How systems store and link
+
+Reversibility guarantee formalized (this is crucial and rare)
+
+Prohibitions stated explicitly (what must never be done)
+
+Cross-śāstra uniformity ensured (verse, sūtra, mantra, prose)
+
+This document is now strong enough to survive:
+
+Phase-2 semantic expansion
+
+Phase-3 education layers
+
+Phase-4 community and guidance
+
+External academic citation
+
+Long-term archival reuse
+
+It also quietly resolves many of your earlier confusions:
+
+Why bg.2.13 must remain the anchor
+
+Why commentary before/after a verse never becomes a UID
+
+Why UI fragments, pādas, prakaraṇas, variants must never hijack identity
+
+It also quietly resolves many of your earlier confusions:
+
+Why bg.2.13 must remain the anchor
+
+Why commentary before/after a verse never becomes a UID
+
+Why UI fragments, pādas, prakaraṇas, variants must never hijack identity
+
+Where this fits in the grand structure
+
+This contract now sits at the center of:
 
 UID_SYSTEM.md
 
-CANONICAL_UNIT_DEFINITION.md
+UID_REFINEMENT_RULES.md
 
-EDITORIAL_UNIT_DEFINITION.md
+CANONICAL_UNIT_DEFINITION.md
 
 KNOWLEDGE_LAYER_MODEL.md
 
-If any conflict arises:
+All frontend routing logic
 
-Canonical identity always wins.
+All future APIs and exports
 
-15. Status & Governance
-
-Category: LOCKED ARCHITECTURAL CONTRACT
-
-Changes require:
-
-constitution review
-
-version bump
-
-migration plan
-
-16. Closing Reflection
-
-A verse is not a paragraph to be copied.
-It is a point of truth to be referenced.
-
-This contract ensures reverence and rigor.
+Without this document, large systems collapse into ambiguity.
+With it, the system stays calm and legible.

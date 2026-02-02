@@ -1,76 +1,113 @@
-This document is written as an architectural backbone, not a tutorial.
-It explains why data loading is designed the way it is, what is guaranteed, what is deferred, and how the system scales from Phase 1 to Phase N without rewrites.
-
-I have written it assuming:
-
-you are a learner
-
-the corpus is vast
-
-mistakes here would multiply everywhere
-So nothing is left implicit.
-
-🧱 Data Loading Abstraction Strategy
+🧱 DATA LOADING ABSTRACTION STRATEGY
 Vedic Library Project
-0. Purpose of This Document
 
-This document defines how data is loaded, from where, and under what guarantees, across the entire Vedic Library system.
+Version: 1.0.1  
+Status: EVOLVING ARCHITECTURE (Versioned)
+
+---
+
+## 0. Purpose of This Document
+
+This document defines the **contractual abstraction** for how data is
+requested, resolved, and assembled across the Vedic Library.
 
 It answers:
 
-How does the frontend request data?
+- How does the system request textual data?
+- How is canonical identity resolved?
+- How are non-canonical layers attached safely?
+- What loaders must guarantee — and must never assume?
+- How loading evolves across phases without rewrites?
 
-How is canonical data located?
+This is **not** an implementation guide.
+This is a **binding architectural contract**.
 
-How are extended layers attached?
+---
 
-What must loaders never assume?
+## 1. Core Design Principle (Non-Negotiable)
 
-How does loading evolve across phases?
-
-This is not an implementation guide.
-This is a contractual abstraction strategy.
-
-1. Core Design Principle (Non-Negotiable)
-
-The loader knows what it wants, not where it lives.
+> **The loader knows what it wants, not where it lives.**
 
 Therefore:
 
-UI components never know file paths
+- UI components MUST NOT know file paths
+- UI components MUST NOT know directory layouts
+- UI components MUST NOT know storage mediums
+- UI components MUST NOT branch on phase or backend
 
-UI components never know directory layout
+UI requests **conceptual units**, never files.
 
-UI components never know storage medium
+---
 
-They ask for conceptual units, not files.
+## 2. Loader Roles (Explicit Separation)
 
-2. What Is a “Data Loader” in This System?
+The data-loading system consists of **three distinct roles**.
 
-A data loader is a function or service that:
+### 2.1 Canonical Loader (Layer A)
 
-accepts a canonical reference
+Responsible for:
+- Resolving a canonical UID
+- Fetching canonical data
+- Validating schema
+- Returning immutable content
 
-resolves canonical identity
+It MUST:
+- Accept only `{ uid }`
+- Return exactly one canonical unit or `null`
 
-fetches canonical data
+It MUST NOT:
+- Attach translations
+- Attach commentary
+- Infer meaning
+- Mutate content
+- Perform orchestration
 
-optionally attaches extended layers
+---
 
-returns a normalized object
+### 2.2 Layer Loaders (Layer B+)
 
-It is the only layer allowed to touch storage details.
+Responsible for:
+- Fetching optional, non-canonical layers
+- Respecting UID anchoring
+- Returning zero, one, or many results
 
-3. Canonical Loading (Layer A)
-3.1 Canonical Load Input
+Each layer has its **own loader**:
+- translation loader
+- commentary loader
+- synonym loader
+- knowledge-layer loader
 
-Canonical data is always requested by:
+Layer loaders:
+- MAY return `null`
+- MUST NOT fail if data is absent
+- MUST NOT modify canonical content
 
-{
-  uid: "bg.2.13"
-}
+---
 
+### 2.3 Assembly Orchestrator (Non-Authoritative)
 
+Responsible for:
+- Coordinating multiple loaders
+- Assembling a composite response
+- Preserving canonical-first rendering
+
+The orchestrator:
+- MAY exist as a helper function (e.g. `loadVerse`)
+- MUST NOT encode interpretation
+- MUST NOT make assumptions about completeness
+
+The UI never sees internal orchestration.
+
+---
+
+## 3. Canonical Loading Contract
+
+### 3.1 Canonical Load Input
+
+Canonical data is requested **only** by:
+
+```json
+{ "uid": "bg.2.13" }
 Never by:
 
 filenames
@@ -83,96 +120,57 @@ author
 
 phase
 
-3.2 Canonical Load Guarantee
-
+3.2 Canonical Load Guarantees
 When requesting canonical data:
 
-✔ exactly one result
-✔ immutable content
-✔ language-independent
-✔ schema-validated
+✔ Exactly one result OR null
+✔ Immutable content
+✔ Language-independent
+✔ Schema-validated
 
-If the canonical unit does not exist:
+If the canonical UID does not exist:
 
-loader returns null
+Loader MUST return null
 
-UI renders Verse Not Found
+UI MUST render a calm “Not Found”
 
-no fallback guessing
+No guessing, no fallback
 
-3.3 Canonical Loader Responsibility
-
-The canonical loader MUST:
-
-map UID → storage location
-
-validate against schema
-
-return canonical unit only
-
-It MUST NOT:
-
-attach translations
-
-attach commentary
-
-interpret text
-
-mutate content
-
-4. Extended Layer Loading (Layer B+)
-
-Extended data layers are optional, attachable, and plural.
-
-Examples:
-
-translation
-
-synonyms
-
-commentary
-
-gloss
-
-principles
-
-skills
-
-guidance
-
-Each layer has its own loader.
+4. Extended Layer Loading Contract
+Extended layers are optional, plural, and non-authoritative.
 
 4.1 Extended Load Input
-
-Extended layers are requested as:
-
+json
+Copy code
 {
-  ref: "bg.2.13",
-  layer: "translation",
-  language: "en"
+  "ref": "bg.2.13",
+  "layer": "translation",
+  "language": "en"
 }
-
-
 or
 
+json
+Copy code
 {
-  ref: "bg.2.13",
-  layer: "commentary",
-  author: "prabhupada",
-  language: "en"
+  "ref": "bg.2.13",
+  "layer": "commentary",
+  "author": "prabhupada",
+  "language": "en"
 }
+Rules:
 
+ref MUST be a canonical UID
 
-The ref always points to canonical UID.
+Layer selection is explicit
 
-4.2 Extended Load Guarantee
+No implicit defaults
 
-✔ canonical UID remains untouched
-✔ absence does not break rendering
-✔ multiple layers may coexist
-✔ fallback rules are explicit
+4.2 Extended Load Guarantees
+✔ Canonical identity remains untouched
+✔ Absence does not break rendering
+✔ Multiple layers may coexist
 
-Extended loaders may return:
+Layer loaders MAY return:
 
 null
 
@@ -180,180 +178,116 @@ partial data
 
 multiple entries
 
-This is expected, not an error.
+This is expected behavior.
 
-5. Composition Model (Critical)
-5.1 Canonical-First Assembly
-
-The UI never loads “everything”.
-
-Instead:
+5. Composition Model (Canonical-First)
+The UI MUST follow this order:
 
 Load canonical unit
 
-Render immediately
+Render canonical text immediately
 
 Attach extended layers progressively
 
-This ensures:
+This guarantees:
 
-reading always works
+Reading always works
 
-scholarship does not block access
+Scholarship never blocks access
 
-incomplete data is safe
+Incomplete data is safe
 
-5.2 Loader Orchestration
-
-A composite loader may orchestrate:
-
-loadVerse({
-  uid,
-  language,
-  commentary,
-  options
-})
-
-
-Internally, it delegates to:
-
-canonical loader
-
-translation loader
-
-commentary loader
-
-The UI never sees this complexity.
-
-6. Phase-Wise Loading Evolution
-Phase 1 (Current)
-
+6. Phase-Wise Evolution (Guaranteed Stability)
+Phase 1
 Static JSON
 
 File-based loaders
 
-No caching layer
+No caching
 
-No backend API
+No backend
 
-No persistence
+UID → filesystem resolution
 
-Loader maps:
-
-UID → filesystem JSON
-
-Phase 2–3
-
-Indexed lookup tables
-
+Phase 2
 Registry-based resolution
 
-Optional in-memory cache
+Canonical expansion across śāstra
 
 Still read-only
 
-Phase 4+
+Caching discouraged (not required)
 
-Backend API
+Phase 3+
+Backend APIs
 
-Versioned canonical pipelines
+Persistence
 
-User-specific extended layers
+User-specific layers
 
 Distributed storage
 
-The loader interface does not change.
+The loader interface NEVER changes.
+Only internal resolution evolves.
 
-Only the implementation does.
+7. Prohibited Loader Behaviors (Strict)
+Loaders MUST NEVER:
 
-7. What Loaders Must NEVER Do
+❌ Assume directory names
+❌ Assume file extensions
+❌ Assume language defaults
+❌ Infer missing data
+❌ Mutate canonical text
+❌ Mix layers
 
-❌ assume directory names
-❌ assume file extensions
-❌ assume language defaults
-❌ infer missing data
-❌ mutate canonical text
-❌ mix layers
+Loaders are resolvers, not editors.
 
-Loaders are pure resolvers, not editors.
-
-8. Error Handling Philosophy
-Situation	Response
-Canonical missing	Calm “Not Found”
-Translation missing	Hide or fallback
+8. Error Handling Rules (Normative)
+Situation	Required Behavior
+Canonical missing	Return null, render calmly
+Translation missing	Omit silently
 Commentary missing	Omit silently
-Schema invalid	Hard failure
+Schema invalid	Hard failure (developer error)
 UID invalid	Validation error
 
 Silence is preferred over noise.
 
-9. Caching Rules (Deferred)
-
+9. Caching Policy (Deferred)
 Caching is:
 
-allowed
+Allowed
 
-optional
+Optional
 
-never relied upon
+Never relied upon
 
-Cache keys must be:
+Cache keys MUST be explicit:
 
+ruby
+Copy code
 <uid>:<layer>:<language>:<author>
+Caches MUST NOT mutate data.
 
-
-No cache may modify data.
-
-10. Why This Abstraction Matters
-
-Without abstraction:
-
-UI breaks when files move
-
-phases require rewrites
-
-storage dictates architecture
-
-With abstraction:
-
-texts outlive frameworks
-
-loaders evolve quietly
-
-the system remains calm
-
-11. Relationship to Other Documents
-
-This strategy depends on:
+10. Relationship to Other Documents
+Depends on:
 
 UID_SYSTEM.md
-
-NAMING_CONVENTIONS.md
 
 DATA_SCHEMA.md
 
 CANONICAL_UNIT_DEFINITION.md
 
-And supports:
+NAMING_CONVENTIONS.md
+
+Supports:
 
 KNOWLEDGE_LAYER_MODEL.md
 
 SEMANTIC_DERIVATION_POLICY.md
 
-12. Status
+Frontend routing & loaders
 
-Category: EVOLVING ARCHITECTURE (Versioned)
-
-Current Version: 1.0.0
-
-Changes allowed only if:
-
-canonical contract unchanged
-
-loader interface preserved
-
-13. Closing Principle
-
+11. Final Principle
 Data loading is an act of humility.
 We ask the text to come forth —
 we do not force it.

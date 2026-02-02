@@ -1,30 +1,32 @@
 # Editorial Unit Schema
 ## vedic-library.editorial.unit @ 1.0.0
 
-This document defines the **Editorial Unit** concept used in the
-Vedic Library to model authored explanatory material that spans
-one or more canonical verses.
+This document defines the **Editorial Unit** schema used by the
+Vedic Library to represent **authorial scope and intent** over
+canonical textual units.
 
-An Editorial Unit preserves **authorial intent** without altering
-canonical verse identity.
+An Editorial Unit NEVER alters canonical identity or text.
+It only declares **who explains what**, not **what is said**.
 
 ---
 
 ## 1. Definition
 
-An **Editorial Unit** is the smallest unit of authored exposition
-as intended by a specific author or tradition.
+An **Editorial Unit** is the smallest unit of authored intent,
+as defined by a specific author or tradition, covering
+one or more canonical units.
 
-It may include:
-- word-by-word (synonyms)
-- translation
-- purport / commentary
+It represents:
+- authorial grouping
+- verse coverage
+- editorial intent
 
-An Editorial Unit:
-- MAY span one or more verses
-- MUST reference canonical verses
-- MUST be attributed to an author
-- MUST NOT alter canonical text
+It does NOT represent:
+- canonical text
+- translation content
+- commentary content
+- file locations
+- UI structure
 
 ---
 
@@ -32,7 +34,7 @@ An Editorial Unit:
 
 - **Schema name:** `vedic-library.editorial.unit`
 - **Schema version:** `1.0.0`
-- **Granularity:** one authored explanatory unit
+- **Granularity:** one authorial scope declaration
 
 ---
 
@@ -42,10 +44,8 @@ An Editorial Unit:
 {
   "uid": "string",
   "author": { ... },
-  "work": { ... },
-  "scope": { ... },
   "covers": { ... },
-  "content": { ... },
+  "declares": { ... },
   "source": { ... },
   "schema": { ... }
 }
@@ -53,20 +53,23 @@ All top-level fields are required.
 
 4. Field Definitions
 4.1 uid (string, required)
-Globally unique identifier for the Editorial Unit.
+Opaque, globally unique identifier for the Editorial Unit.
 
-Format (recommended):
+Rules:
 
-php-template
-Copy code
-<work>.<chapter>.<start>-<end>.<author-id>
+MUST be unique
+
+MUST be versionable
+
+MUST NOT encode canonical identity
+
 Example:
 
 json
 Copy code
-"uid": "bg.1.16-18.prabhupada"
+"uid": "eu.bg.1.16-18.prabhupada.v1"
 4.2 author (object, required)
-Identifies the authorial authority.
+Identifies the human or traditional authority.
 
 json
 Copy code
@@ -75,56 +78,43 @@ Copy code
   "name": "A. C. Bhaktivedanta Swami Prabhupāda",
   "tradition": "Gaudiya Vaishnava"
 }
-4.3 work (object, required)
-Canonical placement.
-
-json
-Copy code
-"work": {
-  "corpus": "itihasa",
-  "text": "mahabharata",
-  "section": "bhisma-parva",
-  "subwork": "bhagavad-gita"
-}
-4.4 scope (object, required)
-Defines what kinds of content this Editorial Unit contains.
-
-json
-Copy code
-"scope": {
-  "has_synonyms": true,
-  "has_translation": true,
-  "has_exposition": true
-}
-Note: “exposition” is the neutral umbrella term
-(explained in section 6).
-
-4.5 covers (object, required)
-Defines the verse range covered by this unit.
+4.3 covers (object, required)
+Defines the canonical scope covered by this Editorial Unit.
 
 json
 Copy code
 "covers": {
-  "chapter": 1,
-  "from_verse": 16,
-  "to_verse": 18
+  "start": "bg.1.16",
+  "end": "bg.1.18"
 }
-from_verse and to_verse MAY be equal (single-verse unit)
+Rules:
 
-4.6 content (object, required)
-Contains references (or embedded data) for the unit’s materials.
+MUST reference canonical UIDs
+
+MUST resolve via UID_SYSTEM.md
+
+MAY represent a single unit (start = end)
+
+4.4 declares (object, required)
+Declares which derivative categories MAY exist for this unit.
 
 json
 Copy code
-"content": {
-  "synonyms_ref": "bg.1.16-18.synonyms.prabhupada",
-  "translation_ref": "bg.1.16-18.translation.en.prabhupada",
-  "exposition_ref": "bg.1.16-18.exposition.prabhupada"
+"declares": {
+  "synonyms": true,
+  "translation": true,
+  "exposition": true
 }
-Each reference points to a separate derivative content file.
+Rules:
 
-4.7 source (object, required)
-Provenance metadata.
+Declaration does NOT imply presence
+
+Actual content lives elsewhere
+
+Absence is allowed
+
+4.5 source (object, required)
+Provenance and editorial origin.
 
 json
 Copy code
@@ -132,76 +122,62 @@ Copy code
   "edition": "Bhagavad-gītā As It Is",
   "publisher": "BBT",
   "year": 1972,
-  "derived_from": "vedabase.io",
-  "pipeline_stage": "3.x"
+  "derived_from": "vedabase.io"
 }
-4.8 schema (object, required)
+4.6 schema (object, required)
 json
 Copy code
 "schema": {
   "name": "vedic-library.editorial.unit",
   "version": "1.0.0"
 }
-5. Rules (Normative)
-Canonical verses MUST remain verse-atomic.
+5. Normative Rules
+Canonical units remain verse-atomic
 
-Editorial Units MAY span verse ranges.
+Editorial Units MAY span ranges
 
-Translation, synonyms, and exposition belong to Editorial Units.
+Editorial Units NEVER embed content
 
-Verse-level derivative files MUST reference Editorial Units, not own content.
+Derivative files MUST reference Editorial Units
 
-Multiple Editorial Units MAY overlap (different authors).
+Multiple Editorial Units MAY overlap
 
-6. Terminology Clarification (IMPORTANT)
-6.1 Why we do NOT use only “commentary”
-In Sanskrit tradition:
+Editorial Units are immutable once published
 
-Bhāṣya
+6. Terminology (Locked)
+Schema-level term: Exposition
 
-Ṭīkā
+Subtypes (metadata only):
 
-Vivaraṇa
+purport
 
-Vṛtti
+bhāṣya
 
-Anuvāda
+ṭīkā
 
-are all different kinds of commentary.
+vṛtti
 
-In ISKCON usage:
+vivaraṇa
 
-“Purport” is a specific editorial genre, not a generic commentary.
+UI and documentation may use human-friendly labels.
+Schema remains neutral.
 
-6.2 Final terminology decision (locked)
-Term	Meaning
-Exposition	Neutral umbrella term (schema-level)
-Purport	A specific type of exposition (Prabhupāda)
-Commentary	Generic human term (UI / docs)
-Bhāṣya / Ṭīkā	Sanskrit-specific exposition types
+7. Phase Governance
+Phase-2: Schema may exist, content remains unused
 
-📌 Schema uses exposition
-📌 Metadata specifies subtype if needed
+Phase-3: Derivative layers attach to Editorial Units
 
-Example:
+Phase-4+: Knowledge layers may reference Editorial Units
 
-json
-Copy code
-"exposition_type": "purport"
-or
+This schema is structural, not expressive.
 
-json
-Copy code
-"exposition_type": "bhāṣya"
-This avoids terminological confusion forever.
-
-7. Stability
-Editorial Units are versioned, attributable, and immutable once published.
-
+8. Stability
 Changes require:
 
-new unit UID, or
+new schema version, OR
 
-new schema version
+new Editorial Unit UID
 
-End of Schema
+Silent mutation is forbidden.
+
+END OF SCHEMA

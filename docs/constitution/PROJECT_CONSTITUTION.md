@@ -1,3 +1,7 @@
+Version: 2.1.0
+Status: CONSTITUTIONAL — LOCKED
+Supersedes: Version 2.0
+
 PROJECT_CONSTITUTION.md, rewritten to incorporate all canonical identity principles, UID discipline, unit definitions, schema boundaries, and long-term governance — without losing the original spiritual ethos of the Vedic Library.
 
 This document is written to be:
@@ -203,6 +207,7 @@ UI layers (presentation only)
 
 No layer may contaminate another.
 
+
 7.2 Direction of Dependency
 
 Dependency flows downward only:
@@ -211,6 +216,186 @@ Canonical → Editorial → Knowledge → UI → Community
 
 
 Never the reverse.
+
+=================AI involvement Addendum in the Vedic Library Project=============================
+
+ARTICLE VIII — AI-ASSISTED CONTENT (CONSTITUTIONAL POLICY)
+VIII.1 Principle of Subordination
+
+Artificial Intelligence (AI) is permitted in the Vedic Library Project only as an assisting instrument.
+
+AI:
+
+Is never authoritative
+
+Is never canonical
+
+Is never self-validating
+
+All AI-assisted output is constitutionally subordinate to:
+
+Canonical Text
+
+Human scholarly review
+
+Explicit policy boundaries
+
+VIII.2 Absolute Prohibitions
+
+Under no circumstances may AI be used to:
+
+Generate or modify canonical text
+
+Alter canonical structure, numbering, or boundaries
+
+Create or infer missing canonical content
+
+Decide canonical identity or UID assignment
+
+Replace human judgment in matters of textual authority
+
+Any violation of this rule constitutes a constitutional breach.
+
+VIII.3 Permitted AI Uses (Strictly Non-Canonical)
+
+AI assistance is permitted only in the following layers:
+
+Layer	Permitted AI Role
+Translation	Draft generation only
+Synonyms	Draft suggestions only
+Glossaries	Candidate term extraction
+Language expansion	Mechanical assistance
+Testing & scaffolding	Temporary / non-final
+Exploratory study layers	Clearly labeled
+
+All such outputs MUST:
+
+Reference an existing canonical UID
+
+Declare AI provenance
+
+Carry an explicit review status
+
+VIII.4 Mandatory Provenance & Disclosure
+
+Every AI-assisted artifact MUST include metadata declaring:
+
+{
+  "source": "AI-assisted",
+  "model": "gemini-2.x | gemini-2.5 | other",
+  "review_status": "unreviewed | reviewed | verified",
+  "human_reviewer": null
+}
+
+
+Undeclared AI output is treated as invalid data.
+
+VIII.5 Review Status Is Not Optional
+
+All AI-assisted content MUST carry one of the following states:
+
+unreviewed — machine output only
+
+reviewed — human checked, not authoritative
+
+verified — human-approved for public use
+
+AI output MUST NOT be presented as final unless marked verified.
+
+VIII.6 Phase-Scoped Permissions
+
+AI use is phase-aware and time-bounded:
+
+Phase	AI Usage
+Phase 1	❌ Not permitted
+Phase 2	✅ Translation drafts, testing only
+Phase 3	✅ Assisted expansion with review
+Phase 4+	✅ Curated, human-verified use
+
+Earlier phases MUST NOT silently inherit later permissions.
+
+VIII.7 No Canonical Contamination Rule
+
+AI-assisted content MUST NEVER:
+
+Be merged into canonical files
+
+Be stored alongside canonical units
+
+Be used to regenerate canonical layers
+
+Be required for canonical validation
+
+Canonical layers MUST remain AI-independent forever.
+
+VIII.8 Ethical Boundary
+
+AI may assist access, but must never simulate:
+
+Authority
+
+Revelation
+
+Traditional voice
+
+Scriptural intent
+
+The Vedic Library Project rejects:
+
+AI hallucination as knowledge
+
+AI confidence as correctness
+
+AI fluency as truth
+
+VIII.9 Enforcement & Auditability
+
+All AI-assisted pipelines MUST be:
+
+Scripted
+
+Logged
+
+Reproducible
+
+Auditable
+
+Silent or manual AI injection is forbidden.
+
+VIII.10 Constitutional Supremacy Clause
+
+In case of conflict between:
+
+Speed vs accuracy
+
+Automation vs fidelity
+
+Convenience vs truth
+
+Canonical integrity always prevails.
+
+🕉️ Closing Constitutional Affirmation
+
+AI may help humans read faster.
+It must never decide what is worth reading.
+
+This Constitution binds all contributors, scripts, tools, and future phases of the Vedic Library Project.
+
+✅ WHAT THIS ACHIEVES
+
+Gemini usage is explicitly allowed
+
+Canonical text is untouchable
+
+Future contributors cannot “accidentally” misuse AI
+
+Phase-2 experimentation is safe
+
+Phase-3 expansion is legitimate
+
+Phase-10 archaeology still understands what you did
+
+=========================AI addendum Finishes=============================
 
 8. Knowledge Expansion Philosophy
 
@@ -559,3 +744,6 @@ You are founding a civilizational system.
 
 This must feel slow, serious, and weighty.
 Anything lighter would be irresponsible for the scale you’re aiming at.
+=============================
+
+

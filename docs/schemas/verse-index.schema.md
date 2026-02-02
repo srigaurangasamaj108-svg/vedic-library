@@ -1,206 +1,163 @@
-Verse Index Schema
-vedic-library.index.verse @ 1.0.0
-1. Purpose (Normative)
+# Verse Index Schema
+## vedic-library.index.verse @ 1.0.0
 
-The Verse Index is a routing and resolution layer that maps a single canonical verse to one or more Editorial Units that cover it.
+---
 
-It serves as the navigation hub of the Vedic Library.
+## 1. Purpose (Normative)
 
-The Verse Index does not store textual content.
-It only stores references and availability metadata.
+The Verse Index is a **routing and resolution layer** that maps a
+single canonical unit to one or more **Editorial Units** that
+reference or cover it.
 
-2. Conceptual Foundations (Normative)
+It exists to support:
+- navigation
+- resolution
+- discovery
 
-Canonical verses are verse-atomic
+The Verse Index NEVER stores textual content and NEVER defines meaning.
 
-Editorial Units may span one or more verses
+---
 
-A single verse may participate in:
+## 2. Conceptual Foundations (Normative)
 
-multiple Editorial Units
-
-multiple authors
-
-multiple traditions
-
-multiple editions
+- Canonical units are atomic and immutable
+- Editorial Units may span one or more canonical units
+- A canonical unit may belong to multiple Editorial Units
+- Editorial Units define meaning; Verse Index only links them
 
 Therefore:
 
-Verse Index files map verses → editorial units.
-They never embed content.
+> The Verse Index is a **pure reference map**.
 
-3. Schema Identity
+---
 
-Schema name: vedic-library.index.verse
+## 3. Schema Identity
 
-Schema version: 1.0.0
+- **Schema name:** `vedic-library.index.verse`
+- **Schema version:** `1.0.0`
+- **Granularity:** one file per canonical unit
+- **Authority:** non-authoritative (derived)
 
-Granularity: one file per canonical verse
+Verse Index files are safe to delete and regenerate.
 
-Stability: deterministic, derivable, safe to regenerate
+---
 
-4. Top-Level Structure
+## 4. Top-Level Structure
+
+```json
 {
-  "uid": "string",
-  "canonical_verse_ref": { ... },
-  "editorial_units": [ ... ],
+  "canonical_uid": "string",
+  "editorial_unit_refs": [ "string" ],
   "schema": { ... }
 }
-
-
 All top-level fields are required.
 
 5. Field Definitions
-5.1 uid (string, required)
-
-Globally unique identifier for the verse index entry.
-
-Recommended format:
-
-<canonical-verse-uid>.index
-
+5.1 canonical_uid (string, required)
+The canonical UID of the unit this index file represents.
 
 Example:
 
-"uid": "bg.1.16.index"
+json
+Copy code
+"canonical_uid": "bg.1.16"
+Rules:
 
-5.2 canonical_verse_ref (object, required)
+MUST be a valid canonical UID
 
-Reference to the canonical verse definition.
+MUST resolve via UID_SYSTEM.md
 
-{
-  "uid": "bg.1.16",
-  "schema": "vedic-library.canonical.verse",
-  "version": "1.0.0"
-}
+This UID is the identity of the index file
 
+5.2 editorial_unit_refs (array, required)
+A list of Editorial Unit UIDs that cover or reference this canonical unit.
 
-This reference is authoritative for verse identity.
+Example:
 
-5.3 editorial_units (array, required)
-
-List of Editorial Units that cover this verse.
-
-Each entry is a reference, not content.
-
-[
-  {
-    "uid": "bg.1.16-18.prabhupada",
-    "author": "A. C. Bhaktivedanta Swami Prabhupāda",
-    "tradition": "Gaudiya Vaishnava",
-    "covers_range": "1.16–1.18",
-    "derivatives": { ... }
-  }
+json
+Copy code
+"editorial_unit_refs": [
+  "eu.bg.1.16-18.prabhupada.v1",
+  "eu.bg.1.16-16.shankara.v1"
 ]
+Rules:
 
-Rules
+MAY be empty
 
-The array MAY contain multiple entries
+Order is not authoritative
 
-Order MAY reflect editorial or UI preference
+Each UID MUST resolve to an Editorial Unit
 
-covers_range is descriptive, not authoritative
+Coverage semantics are defined by the Editorial Unit itself
 
-Editorial Unit schema remains the authority on coverage
+5.3 schema (object, required)
+Schema declaration.
 
-5.4 editorial_units[].derivatives (object, optional but recommended)
-
-Describes availability and references to derivative layers
-for this editorial unit as they relate to this verse.
-
-This metadata is routing-only.
-
-{
-  "synonyms": {
-    "available": true,
-    "refs": ["bg.1.16-18.prabhupada.synonyms.en"]
-  },
-  "translations": {
-    "available": true,
-    "refs": ["bg.1.16-18.prabhupada.translation.en"]
-  },
-  "exposition": {
-    "available": false,
-    "refs": []
-  }
-}
-
-Rules
-
-MUST NOT embed derivative content
-
-MUST NOT contradict the Editorial Unit
-
-Absence of content is expressed as:
-
-available: false
-
-empty refs array
-
-5.5 schema (object, required)
-
-Schema identity descriptor.
-
-{
+json
+Copy code
+"schema": {
   "name": "vedic-library.index.verse",
   "version": "1.0.0"
 }
-
 6. Normative Rules (Strict)
+The Verse Index MUST NOT contain:
 
-Each Verse Index file MUST correspond to exactly one canonical verse.
+❌ canonical text
+❌ translations
+❌ synonyms
+❌ commentary
+❌ derivative availability
+❌ author names
+❌ traditions
+❌ coverage descriptions
 
-A Verse Index MUST NOT contain:
+The Verse Index MAY contain:
 
-translation text
+✔ canonical UID
+✔ Editorial Unit UID references
 
-synonym text
-
-exposition / purport text
-
-Editorial Unit references MUST be valid and resolvable.
-
-Derivative references MUST point to existing derivative identifiers.
-
-Verse Index files:
-
-MAY be regenerated automatically
-
-MUST NOT alter canonical or editorial data
-
-7. Relationship to Other Schemas
-Schema	Role
-canonical-verse.schema	Defines verse identity
-editorial-unit.schema	Defines authored groupings
-translation.schema	Translation content
-synonyms.schema	Word-for-word meanings
-exposition.schema	Purport / commentary
-verse-index.schema	Navigation & routing hub
-8. Stability & Regeneration
-
+7. Regeneration & Stability
 Verse Index files are:
 
 deterministic
 
-derivable
+reproducible
 
 non-authoritative
 
-safe to delete and regenerate
-
-They may be rebuilt whenever:
+They may be regenerated whenever:
 
 Editorial Units change
 
-Derivative availability changes
+Canonical units are added
 
-New authors or traditions are added
+New authors are introduced
 
-9. Design Principle (Final)
+Regeneration MUST NOT alter canonical or editorial data.
 
-Canonical verses define truth.
-Editorial Units define meaning.
-Verse Index defines navigation.
+8. Relationship to Other Documents
+This schema depends on:
+
+UID_SYSTEM.md
+
+CANONICAL_UNIT_DEFINITION.md
+
+EDITORIAL_UNIT_DEFINITION.md
+
+This schema supports:
+
+loaders
+
+routing
+
+UI navigation
+
+search indexing (Phase-4+)
+
+If conflict arises, canonical identity always wins.
+
+9. Final Principle
+If a Verse Index file feels informative, it is wrong.
+If it feels boring, it is correct.
 
 End of Schema
