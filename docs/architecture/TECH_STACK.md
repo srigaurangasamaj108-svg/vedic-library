@@ -1,297 +1,220 @@
-# ⚙️ Technology Stack – Vedic Library
-
-This document defines the complete technology stack for the **Vedic Library** project.
-It explains **what technologies are used, why they are used, and when they are introduced**.
-
-This file explains *decisions*, not just tools.
-
----
-
-## 1. Architectural Philosophy
-
-Vedic Library follows these core architectural principles:
-
-1. **Data-first**: Canonical textual data comes before UI or frameworks
-2. **Layered growth**: Features are introduced phase by phase
-3. **Framework independence**: Data must survive framework changes
-4. **Open standards**: Prefer open-source and non-proprietary systems
-5. **Low-cost start**: ₹0–₹500/month initially, scale only when needed
-6. **Long lifespan**: Designed for decades, not startups
-
----
-
-## 2. Frontend Stack
-
-### 2.1 Next.js (Primary Frontend Framework)
-
-**Status:** Core technology (from Phase 1)
-
-**Why Next.js**
-- Built on React (long-term stable ecosystem)
-- Supports:
-  - Static pages (library mode)
-  - Dynamic pages (users, search, guidance)
-- SEO-friendly (important for scripture discovery)
-- File-based routing (clear mapping to śāstra structure)
-- Works well with GitHub, Vercel, and self-hosting
-
-**Usage**
-- Phase 1: Static scripture pages using JSON
-- Phase 2+: Dynamic layers (commentaries, users, guidance)
-
----
-
-### 2.2 React (UI Paradigm)
-
-**Status:** Core technology (implicit via Next.js)
-
-**Why React**
-- Component-based (ideal for verse, translation, purport units)
-- Encourages reuse and clarity
-- Scales well for complex layered UI
-- Long-term ecosystem support
-
-**Core React Concepts Used**
-- Components (Verse, Translation, Purport)
-- Props (data passed to components)
-- State (UI toggles, language switch)
-- Minimal hooks only (no advanced patterns initially)
-
----
-
-### 2.3 Styling
-
-**Phase 1**
-- Plain CSS or basic module CSS
-
-**Phase 2+**
-- Tailwind CSS (optional)
-- Chosen for:
-  - Readable typography
-  - Consistent spacing
-  - Minimal visual noise
-
----
-
-## 3. Backend Stack
-
-### 3.1 Python (Core Logic Language)
-
-**Status:** Core technology (from Phase 1, light use)
-
-**Why Python**
-- Excellent for text processing
-- Ideal for JSON transformation
-- Strong AI & NLP ecosystem
-- Ideal for analysis, education, guidance layers
-
-**Usage**
-- JSON normalization
-- UID generation
-- AI translation pipelines
-- Commentary processing
-- Later: analytics & guidance logic
-
----
-
-### 3.2 FastAPI (Backend Framework)
-
-**Status:** Introduced in Phase 2+
-
-**Why FastAPI**
-- Simple, readable Python-based API
-- High performance
-- Automatic documentation
-- Clean separation of frontend & backend
-
-**Usage**
-- Serve JSON data dynamically (later)
-- Handle authenticated requests
-- Act as AI translation gateway
-- Manage private resources (PDFs, restricted data)
-
----
-
-## 4. Data Layer
-
-### 4.1 JSON (Primary Data Format)
-
-**Status:** Core technology (Phase 0–3)
-
-**Why JSON**
-- Human-readable
-- Version-controllable (Git-friendly)
-- Framework-agnostic
-- Ideal for canonical texts
-
-**Usage**
-- Canonical text storage
-- Translations
-- Commentaries
-- Cross-references
-
-**Key Rule**
-> Canonical JSON is immutable  
-> Extended JSON is additive
-
----
-
-### 4.2 PostgreSQL (Future Database)
-
-**Status:** Introduced in Phase 4+
-
-**Why PostgreSQL**
-- Strong relational integrity
-- Excellent text handling
-- JSONB support
-- Widely supported and future-proof
-
-**Usage**
-- User data
-- Bookmarks
-- Commentary metadata
-- Analytics
-- Education progress
-
----
-
-## 5. Authentication & Users
-
-### 5.1 Auth.js (NextAuth)
-
-**Status:** Phase 3 (Initial user system)
-
-**Why Auth.js**
-- Free and open-source
-- Designed for Next.js
-- Supports:
-  - Email login
-  - Google login
-  - GitHub login
-- Session handling included
-- No vendor lock-in
-
-**Roles (Planned)**
-- Reader
-- Supporter
-- Student
-- Teacher
-- Admin
-
----
-
-### 5.2 Supabase Auth (Scaling Option)
-
-**Status:** Phase 4+
-
-**Why Supabase**
-- Generous free tier (~50k users)
-- PostgreSQL included
-- Simple dashboard
-- Row-level security
-
-Used only when:
-- User count grows
-- Persistent data is required
-
----
-
-### 5.3 Firebase Auth (Advanced Phase)
-
-**Status:** Optional, Phase 5+
-
-**Why Firebase**
-- Global scale
-- Enterprise-grade auth
-- Used only if platform grows significantly
-
----
-
-## 6. AI & Language Processing
-
-### 6.1 Gemini APIs
-
-**Status:** Phase 1+
-
-**Primary Use**
-- Hindi translation:
-  - Śloka
-  - Śabdārtha
-  - Anuvāda
-  - Tātparya
-
-**Important Rules**
-- AI output is always marked
-- AI never overwrites canonical text
-- Human review remains possible
-
-**Future Use**
-- Thematic analysis
-- Concept mapping
-- Educational structuring
-
----
-
-## 7. Hosting & Deployment
-
-### 7.1 Local Development
-
-**Status:** Phase 0–1
-- Runs on local machine
-- No cost
-
----
-
-### 7.2 GitHub
-
-**Status:** Phase 1+
-- Version control
-- Data backup
-- Documentation storage
-
----
-
-### 7.3 Hosting Options (Future)
-
-- GitHub Pages (static)
-- Vercel (Next.js native)
-- Self-hosted VPS (later)
-
-Hosting choice is **decoupled** from architecture.
-
----
-
-## 8. What Is Explicitly NOT Used (Initially)
-
-- Docker
-- Kubernetes
-- Microservices
-- GraphQL
-- Paid cloud services
-- Complex CI/CD
-
-These are intentionally postponed.
-
----
-
-## 9. Summary Table
-
-| Layer | Technology |
-|-----|-----------|
-| UI | React |
-| Frontend | Next.js |
-| Backend | Python, FastAPI |
-| Data | JSON → PostgreSQL |
-| Auth | Auth.js → Supabase |
-| AI | Gemini APIs |
-| Hosting | Local → GitHub → Cloud |
-
----
-
-## 10. Guiding Principle
-
-> **Technology serves the text.  
-> The text never serves technology.**
-
-This stack may evolve, but this principle does not.
+⚙️ TECHNOLOGY STACK
+Vedic Library Project
+Status: AUTHORITATIVE Applies From: Phase-1 onward Design Goal: Canonical longevity over tooling fashion
+
+0. Foundational Principle (Unchanging)
+Technology serves the text. The text never serves technology.
+All tooling decisions are subordinate to:
+* canonical integrity
+* auditability
+* long-term survivability (decades, not startups)
+* low operational cost
+* phase-wise evolution without rewrites
+
+1. Architectural Philosophy
+The Vedic Library follows six non-negotiable principles:
+1. Data-first Canonical data exists independently of UI, backend, or AI.
+2. Phase isolation Each phase may add capabilities but must never rewrite earlier phases.
+3. Publish ≠ Ingest Data ingestion and public availability are separate concerns.
+4. Framework independence Data must outlive frontend frameworks and hosting providers.
+5. Offline-first pipelines Canonical processing must not depend on live services.
+6. Human-auditable at every stage Raw → normalized → canonical → published must always be inspectable.
+
+2. System Layers (Mental Model)
+The project operates across three parallel systems:
+Layer	Purpose	Visibility
+Canonical Data System	Truth storage	Private
+Publishing Surface	Reader experience	Public
+Processing Pipelines	Ingestion, AI, normalization	Private
+These layers must never be collapsed into one.
+
+3. Frontend Stack
+3.1 Next.js (Primary Frontend Framework)
+Status: ACTIVE from Phase-1
+Why
+* Static + dynamic rendering
+* SEO-friendly scripture pages
+* File-based routing maps naturally to śāstra structure
+* Works with GitHub Pages, Vercel, or self-hosting
+Implementation Rules
+* Frontend reads published registry only
+* Frontend never scans raw directories
+* Frontend never infers corpus completeness
+Phase Usage
+* Phase-1: Static canonical reading
+* Phase-2: Multi-śāstra canonical reading
+* Phase-3+: Editorial layers (no rewrite)
+
+3.2 React (UI Paradigm)
+Status: CORE (via Next.js)
+Usage Pattern
+* CanonicalUnit components
+* Stateless rendering by default
+* UI reacts to data availability, not assumptions
+Explicit Avoidance
+* No global state libraries
+* No complex hook systems
+* No speculative abstractions
+
+3.3 Styling
+Phase-1 / Phase-2
+* Plain CSS or CSS modules
+Phase-3+ (Optional)
+* Tailwind CSS for typography discipline
+Styling must never encode:
+* interpretation
+* pedagogy
+* hierarchy of meaning
+
+4. Publishing & Visibility Model (CRITICAL)
+4.1 Published Registry (MANDATORY)
+Introduce a visibility boundary:
+
+data/
+└── _published/
+    ├── registry.json
+    └── manifests/
+Purpose
+* Define what is safe for public consumption
+* Decouple ingestion from visibility
+* Allow massive private work without breaking UI
+registry.json example
+
+{
+  "published_texts": ["bg"],
+  "last_updated": "2026-02-01",
+  "phase": "phase-2"
+}
+Frontend Rule
+Frontend MUST render only what appears in _published/registry.json.
+No registry entry → invisible to users.
+
+4.2 Promotion Rule
+Canonical data becomes visible only when:
+1. Canonical schema validation passes
+2. UID registry updated
+3. Entry added to _published/registry.json
+No exception.
+
+5. Backend Stack (Deferred by Design)
+5.1 Python (Core Logic Language)
+Status: ACTIVE from Phase-0
+Primary Uses
+* Raw scraping
+* Text normalization
+* UID generation
+* Canonical structuring
+* AI batch pipelines
+* Validation scripts
+Execution Model
+* CLI tools
+* Batch scripts
+* No long-running services in Phase-2
+
+5.2 FastAPI (Deferred)
+Status: NOT REQUIRED in Phase-2
+Introduced When
+* Dynamic APIs are required
+* Authenticated requests exist
+* AI services need gating
+Phase Target
+* Phase-3 minimum
+* Phase-4 likely
+No FastAPI scaffolding should exist prematurely.
+
+6. Data Layer
+6.1 JSON (Primary Storage)
+Status: AUTHORITATIVE
+Why
+* Human-readable
+* Git-versioned
+* Framework-agnostic
+* Easy to validate
+Rules
+* Canonical JSON is immutable
+* Extended JSON is additive
+* AI JSON is sandboxed
+
+6.2 Data Zones (MANDATORY SEPARATION)
+
+data/
+├── _raw/          # untouched sources
+├── _staging/      # normalized, experimental
+├── _canonical/    # validated canonical truth
+├── _ai/           # AI-generated, unreviewed
+├── _published/    # visibility registry
+No file may skip a zone.
+
+7. AI & Language Processing
+7.1 Gemini APIs
+Status: ALLOWED from Phase-2 (sandboxed)
+Permitted Outputs
+* Translation drafts
+* Synonyms drafts
+* Expository drafts
+Forbidden
+* Overwriting canonical text
+* Direct publication without review
+
+7.2 AI Output Lifecycle (MANDATORY)
+
+_raw → _ai → (review) → derivatives → published
+AI files MUST include:
+
+{
+  "generated_by": "gemini-2.5",
+  "review_status": "unreviewed"
+}
+AI is assistant, not authority.
+
+8. Authentication & Users (Deferred)
+8.1 Auth.js
+Phase Target: Phase-3 Reason: Requires backend + persistence
+No auth code should exist in Phase-2.
+
+8.2 Databases
+PostgreSQL
+* Phase-4+
+* User data, bookmarks, analytics
+Phase-2 Rule
+JSON only. No DB assumptions.
+
+9. Hosting & Deployment
+9.1 GitHub (Mandatory)
+* Version control
+* Documentation
+* Canonical archive
+
+9.2 Frontend Hosting
+Allowed
+* GitHub Pages (static)
+* Vercel (Next.js native)
+* Self-hosted VPS (later)
+Hosting choice must not affect data layout.
+
+10. Explicitly NOT Used (Phase-2)
+The following are intentionally excluded:
+* Docker
+* Kubernetes
+* CI/CD pipelines
+* GraphQL
+* Paid cloud services
+* Realtime APIs
+* Background workers
+These add cost and fragility prematurely.
+
+11. Phase-Wise Capability Map
+Phase	Capabilities
+Phase-1	Single corpus reading
+Phase-2	Multi-śāstra canonical hosting
+Phase-2.5	AI sandbox, unpublished
+Phase-3	Editorial layers
+Phase-4	Search & education
+Phase-5+	Community, courses
+12. Final Operational Rule
+If a feature requires explanation to justify its existence, it does not belong in Phase-2.
+
+13. Closing Principle
+Technology will change. Texts will remain.
+This stack exists to ensure that when frameworks disappear, the Vedas do not.
 

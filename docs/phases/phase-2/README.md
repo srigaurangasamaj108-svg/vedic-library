@@ -50,3 +50,5 @@ This README exists to:
 This document is **descriptive**, not prescriptive.  
 Operational status is tracked separately in `STATUS.md`.
 
+Phase-2 may begin only after satisfying
+docs/governance/PHASE_2_ENTRY_CHECKLIST.md

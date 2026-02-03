@@ -1,27 +1,49 @@
 # Project Status — Vedic Library
 
-**Current Phase:** Phase 1 (Initiation)
+**Current Phase:** Phase 2 (Canonical Expansion)
 
 ---
 
-## Summary
+## High-Level Status
 
-Phase 0 (Foundation & Architecture) has been completed and formally closed.
+The Vedic Library project has completed and locked:
 
-All foundational elements — including canonical data, editorial modeling,
-derivative pipelines, validation, and governance documents — are stable and frozen.
+- Phase 0 — Foundation & Architecture
+- Phase 1 — Canonical Reader & UI Validation
 
-The project is now transitioning into **Phase 1**, which focuses on
-frontend exploration and user-facing reading interfaces,
-built strictly on top of the Phase-0 foundation.
+Phase 2 is now active and focuses exclusively on:
 
-No frontend or backend implementation has begun yet.
+- Canonical ingestion of additional śāstra
+- Stress-testing the universal UID system
+- Validating multiple canonical unit types
+- Strengthening architectural and schema guarantees
+
+No commentary, translation, knowledge layers, or educational UX
+are permitted in the current phase.
 
 ---
 
-## References
+## Phase Integrity
 
-- Phase-0 Overview: `docs/phases/phase-0/README.md`
-- Phase-0 Status: `docs/phases/phase-0/PHASE_0_STATUS.md`
-- Architecture Registry: `docs/architecture/PIPELINE_REGISTRY.md`
+- Phase 0 documents are immutable
+- Phase 1 documents are immutable
+- Phase 2 documents are authoritative for current work
+
+Earlier phase status reports are archived and preserved for reference.
+
+---
+
+## Authoritative References
+
+- Phase Overview: `docs/phases/PHASES_OVERVIEW.md`
+- Phase 2 Plan: `docs/phases/phase-2/PHASE_2_CANONICAL_EXPANSION_PLAN.md`
+- Phase 2 Tasklist: `docs/phases/phase-2/PHASE_2_TASKLIST.md`
+- Project Constitution: `docs/constitution/PROJECT_CONSTITUTION.md`
+
+---
+
+## Principle
+
+> The project advances by phases, not by patches.
+> What is locked remains locked.
 
