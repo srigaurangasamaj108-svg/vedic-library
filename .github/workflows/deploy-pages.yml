@@ -3,6 +3,7 @@ name: Deploy Next.js static site to GitHub Pages
 on:
   push:
     branches: ["main"]
+  workflow_dispatch:
 
 permissions:
   contents: read
@@ -16,9 +17,8 @@ concurrency:
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
-      - name: Checkout repository
+      - name: Checkout
         uses: actions/checkout@v4
 
       - name: Setup Node
@@ -34,17 +34,10 @@ jobs:
         working-directory: frontend
         run: npm run build
 
-      - name: Prepare site output
-        run: |
-          rm -rf site
-          mkdir site
-          cp -R frontend/out/* site/
-          touch site/.nojekyll
-
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: site
+          path: frontend/out
 
   deploy:
     needs: build
@@ -52,7 +45,6 @@ jobs:
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
-
     steps:
       - name: Deploy to GitHub Pages
         id: deployment
