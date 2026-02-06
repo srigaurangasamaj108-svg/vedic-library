@@ -1,0 +1,87 @@
+{
+  "uid": "bg.11.29.prabhupada.synonyms",
+  "editorial_unit_ref": {
+    "uid": "bg.11.29.prabhupada",
+    "schema": "vedic-library.editorial.unit",
+    "version": "1.0.0"
+  },
+  "synonyms": {
+    "language": "en",
+    "author": "A. C. Bhaktivedanta Swami Prabhupāda",
+    "items": {
+      "language": "en",
+      "items": [
+        {
+          "sanskrit": "yathā",
+          "meaning": "as"
+        },
+        {
+          "sanskrit": "pradīptam",
+          "meaning": "blazing"
+        },
+        {
+          "sanskrit": "jvalanam",
+          "meaning": "a fire"
+        },
+        {
+          "sanskrit": "pataṅgāḥ",
+          "meaning": "moths"
+        },
+        {
+          "sanskrit": "viśanti",
+          "meaning": "enter"
+        },
+        {
+          "sanskrit": "nāśāya",
+          "meaning": "for destruction"
+        },
+        {
+          "sanskrit": "samṛddha",
+          "meaning": "with full"
+        },
+        {
+          "sanskrit": "vegāḥ",
+          "meaning": "speed"
+        },
+        {
+          "sanskrit": "tathā eva",
+          "meaning": "similarly"
+        },
+        {
+          "sanskrit": "nāśāya",
+          "meaning": "for destruction"
+        },
+        {
+          "sanskrit": "viśanti",
+          "meaning": "are entering"
+        },
+        {
+          "sanskrit": "lokāḥ",
+          "meaning": "all people"
+        },
+        {
+          "sanskrit": "tava",
+          "meaning": "Your"
+        },
+        {
+          "sanskrit": "api",
+          "meaning": "also"
+        },
+        {
+          "sanskrit": "vaktrāṇi",
+          "meaning": "mouths"
+        }
+      ]
+    }
+  },
+  "source": {
+    "derived_from": "vedabase.io",
+    "normalized_file": "vedabase-bg-11-29.normalized.json",
+    "pipeline_stage": "migration.m3",
+    "script": "m3_migrate_synonyms.py"
+  },
+  "schema": {
+    "name": "vedic-library.derivative.synonyms",
+    "version": "2.0.0"
+  }
+}

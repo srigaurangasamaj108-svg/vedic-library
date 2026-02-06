@@ -1,0 +1,79 @@
+{
+  "uid": "bg.6.34.prabhupada.synonyms",
+  "editorial_unit_ref": {
+    "uid": "bg.6.34.prabhupada",
+    "schema": "vedic-library.editorial.unit",
+    "version": "1.0.0"
+  },
+  "synonyms": {
+    "language": "en",
+    "author": "A. C. Bhaktivedanta Swami Prabhupāda",
+    "items": {
+      "language": "en",
+      "items": [
+        {
+          "sanskrit": "cañcalam",
+          "meaning": "flickering"
+        },
+        {
+          "sanskrit": "hi",
+          "meaning": "certainly"
+        },
+        {
+          "sanskrit": "manaḥ",
+          "meaning": "mind"
+        },
+        {
+          "sanskrit": "kṛṣṇa",
+          "meaning": "O Kṛṣṇa"
+        },
+        {
+          "sanskrit": "pramāthi",
+          "meaning": "agitating"
+        },
+        {
+          "sanskrit": "bala vat",
+          "meaning": "strong"
+        },
+        {
+          "sanskrit": "dṛḍham",
+          "meaning": "obstinate"
+        },
+        {
+          "sanskrit": "tasya",
+          "meaning": "its"
+        },
+        {
+          "sanskrit": "aham",
+          "meaning": "I"
+        },
+        {
+          "sanskrit": "nigraham",
+          "meaning": "subduing"
+        },
+        {
+          "sanskrit": "manye",
+          "meaning": "think"
+        },
+        {
+          "sanskrit": "vāyoḥ",
+          "meaning": "of the wind"
+        },
+        {
+          "sanskrit": "iva",
+          "meaning": "like"
+        }
+      ]
+    }
+  },
+  "source": {
+    "derived_from": "vedabase.io",
+    "normalized_file": "vedabase-bg-06-34.normalized.json",
+    "pipeline_stage": "migration.m3",
+    "script": "m3_migrate_synonyms.py"
+  },
+  "schema": {
+    "name": "vedic-library.derivative.synonyms",
+    "version": "2.0.0"
+  }
+}

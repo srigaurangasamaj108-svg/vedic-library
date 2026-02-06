@@ -1,0 +1,84 @@
+{
+  "temp_id": "vedabase-bg-18-50",
+  "chapter": 18,
+  "verse": 50,
+  "verse_id": "bg-18-50",
+  "verse_group": null,
+  "composite": false,
+  "sanskrit": {
+    "devanagari": "सिद्धिं प्राप्‍तो यथा ब्रह्म तथाप्‍नोति निबोध मे ।\nसमासेनैव कौन्तेय निष्ठा ज्ञानस्य या परा ॥ ५० ॥",
+    "iast": "siddhiṁ prāpto yathā brahma\ntathāpnoti nibodha me\nsamāsenaiva kaunteya\nniṣṭhā jñānasya yā parā"
+  },
+  "synonyms_raw": "siddhim\n—\nperfection\n;\nprāptaḥ\n—\nachieving\n;\nyathā\n—\nas\n;\nbrahma\n—\nthe Supreme\n;\ntathā\n—\nso\n;\nāpnoti\n—\none achieves\n;\nnibodha\n—\ntry to understand\n;\nme\n—\nfrom Me\n;\nsamāsena\n—\nsummarily\n;\neva\n—\ncertainly\n;\nkaunteya\n—\nO son of Kuntī\n;\nniṣṭhā\n—\nthe stage\n;\njñānasya\n—\nof knowledge\n;\nyā\n—\nwhich\n;\nparā\n—\ntranscendental\n.",
+  "translation": "O son of Kuntī, learn from Me how one who has achieved this perfection can attain to the supreme perfectional stage, Brahman, the stage of highest knowledge, by acting in the way I shall now summarize.",
+  "purport": [
+    "The Lord describes for Arjuna how one can achieve the highest perfectional stage simply by being engaged in his occupational duty, performing that duty for the Supreme Personality of Godhead. One attains the supreme stage of Brahman simply by renouncing the result of his work for the satisfaction of the Supreme Lord. That is the process of self-realization. The actual perfection of knowledge is in attaining pure Kṛṣṇa consciousness; that is described in the following verses."
+  ],
+  "source": {
+    "author": "A. C. Bhaktivedanta Swami Prabhupāda",
+    "edition": "Bhagavad-gītā As It Is",
+    "language": "en",
+    "provider": "vedabase.io"
+  },
+  "synonyms": {
+    "language": "en",
+    "items": [
+      {
+        "sanskrit": "siddhim",
+        "meaning": "perfection"
+      },
+      {
+        "sanskrit": "prāptaḥ",
+        "meaning": "achieving"
+      },
+      {
+        "sanskrit": "yathā",
+        "meaning": "as"
+      },
+      {
+        "sanskrit": "brahma",
+        "meaning": "the Supreme"
+      },
+      {
+        "sanskrit": "tathā",
+        "meaning": "so"
+      },
+      {
+        "sanskrit": "āpnoti",
+        "meaning": "one achieves"
+      },
+      {
+        "sanskrit": "nibodha",
+        "meaning": "try to understand"
+      },
+      {
+        "sanskrit": "me",
+        "meaning": "from Me"
+      },
+      {
+        "sanskrit": "samāsena",
+        "meaning": "summarily"
+      },
+      {
+        "sanskrit": "eva",
+        "meaning": "certainly"
+      },
+      {
+        "sanskrit": "kaunteya",
+        "meaning": "O son of Kuntī"
+      },
+      {
+        "sanskrit": "niṣṭhā",
+        "meaning": "the stage"
+      },
+      {
+        "sanskrit": "jñānasya",
+        "meaning": "of knowledge"
+      },
+      {
+        "sanskrit": "yā",
+        "meaning": "which"
+      }
+    ]
+  }
+}

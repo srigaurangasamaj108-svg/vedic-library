@@ -1,0 +1,23 @@
+{
+  "uid": "bg.4.24.prabhupada.translation.en",
+  "editorial_unit_ref": {
+    "uid": "bg.4.24.prabhupada",
+    "schema": "vedic-library.editorial.unit",
+    "version": "1.0.0"
+  },
+  "translation": {
+    "language": "en",
+    "translator": "A. C. Bhaktivedanta Swami Prabhupāda",
+    "content": "A person who is fully absorbed in Kṛṣṇa consciousness is sure to attain the spiritual kingdom because of his full contribution to spiritual activities, in which the consummation is absolute and that which is offered is of the same spiritual nature."
+  },
+  "source": {
+    "derived_from": "vedabase.io",
+    "normalized_file": "vedabase-bg-04-24.normalized.json",
+    "pipeline_stage": "migration.m2",
+    "script": "m2_migrate_translations.py"
+  },
+  "schema": {
+    "name": "vedic-library.derivative.translation",
+    "version": "2.0.0"
+  }
+}

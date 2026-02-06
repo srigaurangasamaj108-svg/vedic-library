@@ -1,0 +1,83 @@
+{
+  "uid": "bg.2.11.prabhupada.synonyms",
+  "editorial_unit_ref": {
+    "uid": "bg.2.11.prabhupada",
+    "schema": "vedic-library.editorial.unit",
+    "version": "1.0.0"
+  },
+  "synonyms": {
+    "language": "en",
+    "author": "A. C. Bhaktivedanta Swami Prabhupāda",
+    "items": {
+      "language": "en",
+      "items": [
+        {
+          "sanskrit": "śrī bhagavān uvāca",
+          "meaning": "the Supreme Personality of Godhead said"
+        },
+        {
+          "sanskrit": "aśocyān",
+          "meaning": "not worthy of lamentation"
+        },
+        {
+          "sanskrit": "anvaśocaḥ",
+          "meaning": "you are lamenting"
+        },
+        {
+          "sanskrit": "tvam",
+          "meaning": "you"
+        },
+        {
+          "sanskrit": "prajñā vādān",
+          "meaning": "learned talks"
+        },
+        {
+          "sanskrit": "ca",
+          "meaning": "also"
+        },
+        {
+          "sanskrit": "bhāṣase",
+          "meaning": "speaking"
+        },
+        {
+          "sanskrit": "gata",
+          "meaning": "lost"
+        },
+        {
+          "sanskrit": "asūn",
+          "meaning": "life"
+        },
+        {
+          "sanskrit": "agata",
+          "meaning": "not passed"
+        },
+        {
+          "sanskrit": "asūn",
+          "meaning": "life"
+        },
+        {
+          "sanskrit": "ca",
+          "meaning": "also"
+        },
+        {
+          "sanskrit": "na",
+          "meaning": "never"
+        },
+        {
+          "sanskrit": "anuśocanti",
+          "meaning": "lament"
+        }
+      ]
+    }
+  },
+  "source": {
+    "derived_from": "vedabase.io",
+    "normalized_file": "vedabase-bg-02-11.normalized.json",
+    "pipeline_stage": "migration.m3",
+    "script": "m3_migrate_synonyms.py"
+  },
+  "schema": {
+    "name": "vedic-library.derivative.synonyms",
+    "version": "2.0.0"
+  }
+}

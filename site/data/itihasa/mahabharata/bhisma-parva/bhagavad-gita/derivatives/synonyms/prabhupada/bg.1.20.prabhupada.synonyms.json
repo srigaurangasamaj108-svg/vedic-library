@@ -1,0 +1,87 @@
+{
+  "uid": "bg.1.20.prabhupada.synonyms",
+  "editorial_unit_ref": {
+    "uid": "bg.1.20.prabhupada",
+    "schema": "vedic-library.editorial.unit",
+    "version": "1.0.0"
+  },
+  "synonyms": {
+    "language": "en",
+    "author": "A. C. Bhaktivedanta Swami Prabhupāda",
+    "items": {
+      "language": "en",
+      "items": [
+        {
+          "sanskrit": "atha",
+          "meaning": "thereupon"
+        },
+        {
+          "sanskrit": "vyavasthitān",
+          "meaning": "situated"
+        },
+        {
+          "sanskrit": "dṛṣṭvā",
+          "meaning": "looking upon"
+        },
+        {
+          "sanskrit": "dhārtarāṣṭrān",
+          "meaning": "the sons of Dhṛtarāṣṭra"
+        },
+        {
+          "sanskrit": "kapi dhvajaḥ",
+          "meaning": "he whose flag was marked with Hanumān"
+        },
+        {
+          "sanskrit": "pravṛtte",
+          "meaning": "while about to engage"
+        },
+        {
+          "sanskrit": "śastra sampāte",
+          "meaning": "in releasing his arrows"
+        },
+        {
+          "sanskrit": "dhanuḥ",
+          "meaning": "bow"
+        },
+        {
+          "sanskrit": "udyamya",
+          "meaning": "taking up"
+        },
+        {
+          "sanskrit": "pāṇḍavaḥ",
+          "meaning": "the son of Pāṇḍu (Arjuna)"
+        },
+        {
+          "sanskrit": "hṛṣīkeśam",
+          "meaning": "unto Lord Kṛṣṇa"
+        },
+        {
+          "sanskrit": "tadā",
+          "meaning": "at that time"
+        },
+        {
+          "sanskrit": "vākyam",
+          "meaning": "words"
+        },
+        {
+          "sanskrit": "idam",
+          "meaning": "these"
+        },
+        {
+          "sanskrit": "āha",
+          "meaning": "said"
+        }
+      ]
+    }
+  },
+  "source": {
+    "derived_from": "vedabase.io",
+    "normalized_file": "vedabase-bg-01-20.normalized.json",
+    "pipeline_stage": "migration.m3",
+    "script": "m3_migrate_synonyms.py"
+  },
+  "schema": {
+    "name": "vedic-library.derivative.synonyms",
+    "version": "2.0.0"
+  }
+}

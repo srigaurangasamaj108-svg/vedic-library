@@ -1,0 +1,34 @@
+{
+  "uid": "bg.4.24",
+  "work": {
+    "corpus": "itihasa",
+    "text": "mahabharata",
+    "section": "bhisma-parva",
+    "subwork": "bhagavad-gita"
+  },
+  "location": {
+    "chapter": 4,
+    "verse": 24
+  },
+  "text": {
+    "script": "devanagari",
+    "content": "ब्रह्मार्पणं ब्रह्म हविर्ब्रह्माग्न‍ौ ब्रह्मणा हुतम् ।\nब्रह्मैव तेन गन्तव्यं ब्रह्मकर्मसमाधिना\n॥ २४ ॥"
+  },
+  "transliteration": {
+    "scheme": "iast",
+    "content": "brahmārpaṇaṃ brahma havirbrahmāgna‍au brahmaṇā hutam |\nbrahmaiva tena gantavyaṃ brahmakarmasamādhinā\n|| 24 ||"
+  },
+  "source": {
+    "pipeline": "bhagavad-gita",
+    "stage": "2.5",
+    "script": "s25_realign_iast_bg.py",
+    "script_version": "2.2.0",
+    "derived_from": [
+      "vedabase/raw-json/bg-04-24.json"
+    ]
+  },
+  "schema": {
+    "name": "vedic-library.canonical.verse",
+    "version": "1.0.0"
+  }
+}

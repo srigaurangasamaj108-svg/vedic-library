@@ -1,0 +1,78 @@
+{
+  "temp_id": "vedabase-bg-18-42",
+  "chapter": 18,
+  "verse": 42,
+  "verse_id": "bg-18-42",
+  "verse_group": null,
+  "composite": false,
+  "sanskrit": {
+    "devanagari": "शमो दमस्तप: शौचं क्षान्तिरार्जवमेव च ।\nज्ञानं विज्ञानमास्तिक्यं ब्रह्मकर्म स्वभावजम् ॥ ४२ ॥",
+    "iast": "śamo damas tapaḥ śaucaṁ\nkṣāntir ārjavam eva ca\njñānaṁ vijñānam āstikyaṁ\nbrahma-karma svabhāva-jam"
+  },
+  "synonyms_raw": "śamaḥ\n—\npeacefulness\n;\ndamaḥ\n—\nself-control\n;\ntapaḥ\n—\nausterity\n;\nśaucam\n—\npurity\n;\nkṣāntiḥ\n—\ntolerance\n;\nārjavam\n—\nhonesty\n;\neva\n—\ncertainly\n;\nca\n—\nand\n;\njñānam\n—\nknowledge\n;\nvijñānam\n—\nwisdom\n;\nāstikyam\n—\nreligiousness\n;\nbrahma\n—\nof a\nbrāhmaṇa\n;\nkarma\n—\nduty\n;\nsvabhāva\n-\njam\n—\nborn of his own nature\n.",
+  "translation": "Peacefulness, self-control, austerity, purity, tolerance, honesty, knowledge, wisdom and religiousness – these are the natural qualities by which the brāhmaṇas work.",
+  "purport": [],
+  "source": {
+    "author": "A. C. Bhaktivedanta Swami Prabhupāda",
+    "edition": "Bhagavad-gītā As It Is",
+    "language": "en",
+    "provider": "vedabase.io"
+  },
+  "synonyms": {
+    "language": "en",
+    "items": [
+      {
+        "sanskrit": "śamaḥ",
+        "meaning": "peacefulness"
+      },
+      {
+        "sanskrit": "damaḥ",
+        "meaning": "self-control"
+      },
+      {
+        "sanskrit": "tapaḥ",
+        "meaning": "austerity"
+      },
+      {
+        "sanskrit": "śaucam",
+        "meaning": "purity"
+      },
+      {
+        "sanskrit": "kṣāntiḥ",
+        "meaning": "tolerance"
+      },
+      {
+        "sanskrit": "ārjavam",
+        "meaning": "honesty"
+      },
+      {
+        "sanskrit": "eva",
+        "meaning": "certainly"
+      },
+      {
+        "sanskrit": "ca",
+        "meaning": "and"
+      },
+      {
+        "sanskrit": "jñānam",
+        "meaning": "knowledge"
+      },
+      {
+        "sanskrit": "vijñānam",
+        "meaning": "wisdom"
+      },
+      {
+        "sanskrit": "āstikyam",
+        "meaning": "religiousness"
+      },
+      {
+        "sanskrit": "brahma",
+        "meaning": "of a brāhmaṇa"
+      },
+      {
+        "sanskrit": "karma",
+        "meaning": "duty"
+      }
+    ]
+  }
+}

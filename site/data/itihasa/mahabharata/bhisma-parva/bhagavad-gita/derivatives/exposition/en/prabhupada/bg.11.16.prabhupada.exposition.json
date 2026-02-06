@@ -1,0 +1,17 @@
+{
+  "schema": "vedic-library.exposition",
+  "schema_version": "1.0.0",
+  "uid": "bg.11.16.prabhupada.exposition",
+  "editorial_unit_ref": "bg.11.16.prabhupada",
+  "exposition": {
+    "type": "purport",
+    "language": "en",
+    "author": "A. C. Bhaktivedanta Swami Prabhupāda",
+    "content": "Kṛṣṇa is the Supreme Personality of Godhead and is unlimited; thus through Him everything could be seen."
+  },
+  "source": {
+    "edition": "Bhagavad-gītā As It Is",
+    "editor": "BBT",
+    "lineage": "Gaudiya Vaishnava"
+  }
+}

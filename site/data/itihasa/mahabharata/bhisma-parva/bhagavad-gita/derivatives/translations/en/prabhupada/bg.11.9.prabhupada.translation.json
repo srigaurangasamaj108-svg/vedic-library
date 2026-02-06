@@ -1,0 +1,23 @@
+{
+  "uid": "bg.11.9.prabhupada.translation.en",
+  "editorial_unit_ref": {
+    "uid": "bg.11.9.prabhupada",
+    "schema": "vedic-library.editorial.unit",
+    "version": "1.0.0"
+  },
+  "translation": {
+    "language": "en",
+    "translator": "A. C. Bhaktivedanta Swami Prabhupāda",
+    "content": "Sañjaya said: O King, having spoken thus, the Supreme Lord of all mystic power, the Personality of Godhead, displayed His universal form to Arjuna."
+  },
+  "source": {
+    "derived_from": "vedabase.io",
+    "normalized_file": "vedabase-bg-11-09.normalized.json",
+    "pipeline_stage": "migration.m2",
+    "script": "m2_migrate_translations.py"
+  },
+  "schema": {
+    "name": "vedic-library.derivative.translation",
+    "version": "2.0.0"
+  }
+}

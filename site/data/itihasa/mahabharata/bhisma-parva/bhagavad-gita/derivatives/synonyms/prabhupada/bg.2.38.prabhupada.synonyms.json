@@ -1,0 +1,75 @@
+{
+  "uid": "bg.2.38.prabhupada.synonyms",
+  "editorial_unit_ref": {
+    "uid": "bg.2.38.prabhupada",
+    "schema": "vedic-library.editorial.unit",
+    "version": "1.0.0"
+  },
+  "synonyms": {
+    "language": "en",
+    "author": "A. C. Bhaktivedanta Swami Prabhupāda",
+    "items": {
+      "language": "en",
+      "items": [
+        {
+          "sanskrit": "sukha",
+          "meaning": "happiness"
+        },
+        {
+          "sanskrit": "duḥkhe",
+          "meaning": "and distress"
+        },
+        {
+          "sanskrit": "same",
+          "meaning": "in equanimity"
+        },
+        {
+          "sanskrit": "kṛtvā",
+          "meaning": "doing so"
+        },
+        {
+          "sanskrit": "lābha alābhau",
+          "meaning": "both profit and loss"
+        },
+        {
+          "sanskrit": "jaya ajayau",
+          "meaning": "both victory and defeat"
+        },
+        {
+          "sanskrit": "tataḥ",
+          "meaning": "thereafter"
+        },
+        {
+          "sanskrit": "yuddhāya",
+          "meaning": "for the sake of fighting"
+        },
+        {
+          "sanskrit": "yujyasva",
+          "meaning": "engage (fight)"
+        },
+        {
+          "sanskrit": "na",
+          "meaning": "never"
+        },
+        {
+          "sanskrit": "evam",
+          "meaning": "in this way"
+        },
+        {
+          "sanskrit": "pāpam",
+          "meaning": "sinful reaction"
+        }
+      ]
+    }
+  },
+  "source": {
+    "derived_from": "vedabase.io",
+    "normalized_file": "vedabase-bg-02-38.normalized.json",
+    "pipeline_stage": "migration.m3",
+    "script": "m3_migrate_synonyms.py"
+  },
+  "schema": {
+    "name": "vedic-library.derivative.synonyms",
+    "version": "2.0.0"
+  }
+}

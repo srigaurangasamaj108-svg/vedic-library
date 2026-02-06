@@ -1,0 +1,34 @@
+{
+  "uid": "bg.3.39",
+  "work": {
+    "corpus": "itihasa",
+    "text": "mahabharata",
+    "section": "bhisma-parva",
+    "subwork": "bhagavad-gita"
+  },
+  "location": {
+    "chapter": 3,
+    "verse": 39
+  },
+  "text": {
+    "script": "devanagari",
+    "content": "आवृतं ज्ञानमेतेन ज्ञानिनो नित्यवैरिणा ।\nकामरूपेण कौन्तेय दुष्पूरेणानलेन च\n॥ ३९ ॥"
+  },
+  "transliteration": {
+    "scheme": "iast",
+    "content": "āvṛtaṃ jñānametena jñānino nityavairiṇā |\nkāmarūpeṇa kaunteya duṣpūreṇānalena ca\n|| 39 ||"
+  },
+  "source": {
+    "pipeline": "bhagavad-gita",
+    "stage": "2.5",
+    "script": "s25_realign_iast_bg.py",
+    "script_version": "2.2.0",
+    "derived_from": [
+      "vedabase/raw-json/bg-03-39.json"
+    ]
+  },
+  "schema": {
+    "name": "vedic-library.canonical.verse",
+    "version": "1.0.0"
+  }
+}

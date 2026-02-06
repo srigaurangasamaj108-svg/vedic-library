@@ -1,0 +1,26 @@
+{
+  "uid": "bg.4.26.translation.en.prabhupada",
+  "canonical_ref": {
+    "uid": "bg.4.26",
+    "schema": "vedic-library.canonical.verse",
+    "version": "1.0.0"
+  },
+  "translation": {
+    "language": "en",
+    "translator": "A.C. Bhaktivedanta Swami Prabhupāda",
+    "content": "Some [the unadulterated brahmacārīs] sacrifice the hearing process and the senses in the fire of mental control, and others [the regulated householders] sacrifice the objects of the senses in the fire of the senses."
+  },
+  "source": {
+    "edition": "Bhagavad-gītā As It Is",
+    "publisher": "BBT",
+    "year": 1972,
+    "derived_from": "vedabase-bg-04-26.normalized.json",
+    "pipeline_stage": "3.1",
+    "script": "s31_extract_translation_prabhupada.py",
+    "script_version": "1.1.0"
+  },
+  "schema": {
+    "name": "vedic-library.derivative.translation",
+    "version": "1.0.0"
+  }
+}

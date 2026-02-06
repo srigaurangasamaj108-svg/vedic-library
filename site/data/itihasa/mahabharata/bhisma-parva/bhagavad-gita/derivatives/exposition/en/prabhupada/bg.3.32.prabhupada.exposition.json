@@ -1,0 +1,17 @@
+{
+  "schema": "vedic-library.exposition",
+  "schema_version": "1.0.0",
+  "uid": "bg.3.32.prabhupada.exposition",
+  "editorial_unit_ref": "bg.3.32.prabhupada",
+  "exposition": {
+    "type": "purport",
+    "language": "en",
+    "author": "A. C. Bhaktivedanta Swami Prabhupāda",
+    "content": "The flaw of not being Kṛṣṇa conscious is clearly stated herein. As there is punishment for disobedience to the order of the supreme executive head, so there is certainly punishment for disobedience to the order of the Supreme Personality of Godhead. A disobedient person, however great he may be, is ignorant of his own self, and of the Supreme Brahman, Paramātmā and the Personality of Godhead, due to a vacant heart. Therefore there is no hope of perfection of life for him."
+  },
+  "source": {
+    "edition": "Bhagavad-gītā As It Is",
+    "editor": "BBT",
+    "lineage": "Gaudiya Vaishnava"
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "uid": "bg.2.29",
+  "work": {
+    "corpus": "itihasa",
+    "text": "mahabharata",
+    "section": "bhisma-parva",
+    "subwork": "bhagavad-gita"
+  },
+  "location": {
+    "chapter": 2,
+    "verse": 29
+  },
+  "text": {
+    "script": "devanagari",
+    "content": "आश्चर्यवत्पश्यति कश्चिदेन -\nमाश्चर्यवद्वदति तथैव चान्यः ।\nआश्चर्यवच्च‍ैनमन्यः श‍ृणोति\nश्रुत्वाप्येनं वेद न चैव कश्चित्\n॥ २९ ॥"
+  },
+  "transliteration": {
+    "scheme": "iast",
+    "content": "āścaryavatpaśyati kaścidena -\nmāścaryavadvadati tathaiva cānyaḥ |\nāścaryavacca‍ainamanyaḥ śa‍ṛṇoti\nśrutvāpyenaṃ veda na caiva kaścit\n|| 29 ||"
+  },
+  "source": {
+    "pipeline": "bhagavad-gita",
+    "stage": "2.5",
+    "script": "s25_realign_iast_bg.py",
+    "script_version": "2.2.0",
+    "derived_from": [
+      "vedabase/raw-json/bg-02-29.json"
+    ]
+  },
+  "schema": {
+    "name": "vedic-library.canonical.verse",
+    "version": "1.0.0"
+  }
+}

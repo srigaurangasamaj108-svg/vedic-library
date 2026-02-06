@@ -1,0 +1,26 @@
+{
+  "uid": "bg.8.12.translation.en.prabhupada",
+  "canonical_ref": {
+    "uid": "bg.8.12",
+    "schema": "vedic-library.canonical.verse",
+    "version": "1.0.0"
+  },
+  "translation": {
+    "language": "en",
+    "translator": "A.C. Bhaktivedanta Swami Prabhupāda",
+    "content": "The yogic situation is that of detachment from all sensual engagements. Closing all the doors of the senses and fixing the mind on the heart and the life air at the top of the head, one establishes himself in yoga."
+  },
+  "source": {
+    "edition": "Bhagavad-gītā As It Is",
+    "publisher": "BBT",
+    "year": 1972,
+    "derived_from": "vedabase-bg-08-12.normalized.json",
+    "pipeline_stage": "3.1",
+    "script": "s31_extract_translation_prabhupada.py",
+    "script_version": "1.1.0"
+  },
+  "schema": {
+    "name": "vedic-library.derivative.translation",
+    "version": "1.0.0"
+  }
+}

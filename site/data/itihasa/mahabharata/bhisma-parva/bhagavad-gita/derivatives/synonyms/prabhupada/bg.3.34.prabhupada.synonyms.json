@@ -1,0 +1,75 @@
+{
+  "uid": "bg.3.34.prabhupada.synonyms",
+  "editorial_unit_ref": {
+    "uid": "bg.3.34.prabhupada",
+    "schema": "vedic-library.editorial.unit",
+    "version": "1.0.0"
+  },
+  "synonyms": {
+    "language": "en",
+    "author": "A. C. Bhaktivedanta Swami Prabhupāda",
+    "items": {
+      "language": "en",
+      "items": [
+        {
+          "sanskrit": "indriyasya",
+          "meaning": "of the senses"
+        },
+        {
+          "sanskrit": "indriyasya arthe",
+          "meaning": "in the sense objects"
+        },
+        {
+          "sanskrit": "rāga",
+          "meaning": "attachment"
+        },
+        {
+          "sanskrit": "dveṣau",
+          "meaning": "also detachment"
+        },
+        {
+          "sanskrit": "vyavasthitau",
+          "meaning": "put under regulations"
+        },
+        {
+          "sanskrit": "tayoḥ",
+          "meaning": "of them"
+        },
+        {
+          "sanskrit": "na",
+          "meaning": "never"
+        },
+        {
+          "sanskrit": "vaśam",
+          "meaning": "control"
+        },
+        {
+          "sanskrit": "āgacchet",
+          "meaning": "one should come"
+        },
+        {
+          "sanskrit": "tau",
+          "meaning": "those"
+        },
+        {
+          "sanskrit": "hi",
+          "meaning": "certainly"
+        },
+        {
+          "sanskrit": "asya",
+          "meaning": "his"
+        }
+      ]
+    }
+  },
+  "source": {
+    "derived_from": "vedabase.io",
+    "normalized_file": "vedabase-bg-03-34.normalized.json",
+    "pipeline_stage": "migration.m3",
+    "script": "m3_migrate_synonyms.py"
+  },
+  "schema": {
+    "name": "vedic-library.derivative.synonyms",
+    "version": "2.0.0"
+  }
+}

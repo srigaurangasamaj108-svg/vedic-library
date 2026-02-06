@@ -1,0 +1,75 @@
+{
+  "uid": "bg.4.20.prabhupada.synonyms",
+  "editorial_unit_ref": {
+    "uid": "bg.4.20.prabhupada",
+    "schema": "vedic-library.editorial.unit",
+    "version": "1.0.0"
+  },
+  "synonyms": {
+    "language": "en",
+    "author": "A. C. Bhaktivedanta Swami Prabhupāda",
+    "items": {
+      "language": "en",
+      "items": [
+        {
+          "sanskrit": "tyaktvā",
+          "meaning": "having given up"
+        },
+        {
+          "sanskrit": "karma phala āsaṅgam",
+          "meaning": "attachment for fruitive results"
+        },
+        {
+          "sanskrit": "nitya",
+          "meaning": "always"
+        },
+        {
+          "sanskrit": "tṛptaḥ",
+          "meaning": "being satisfied"
+        },
+        {
+          "sanskrit": "nirāśrayaḥ",
+          "meaning": "without any shelter"
+        },
+        {
+          "sanskrit": "karmaṇi",
+          "meaning": "in activity"
+        },
+        {
+          "sanskrit": "abhipravṛttaḥ",
+          "meaning": "being fully engaged"
+        },
+        {
+          "sanskrit": "api",
+          "meaning": "in spite of"
+        },
+        {
+          "sanskrit": "na",
+          "meaning": "does not"
+        },
+        {
+          "sanskrit": "eva",
+          "meaning": "certainly"
+        },
+        {
+          "sanskrit": "kiñcit",
+          "meaning": "anything"
+        },
+        {
+          "sanskrit": "karoti",
+          "meaning": "do"
+        }
+      ]
+    }
+  },
+  "source": {
+    "derived_from": "vedabase.io",
+    "normalized_file": "vedabase-bg-04-20.normalized.json",
+    "pipeline_stage": "migration.m3",
+    "script": "m3_migrate_synonyms.py"
+  },
+  "schema": {
+    "name": "vedic-library.derivative.synonyms",
+    "version": "2.0.0"
+  }
+}

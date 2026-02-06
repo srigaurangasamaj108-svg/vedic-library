@@ -1,0 +1,26 @@
+{
+  "uid": "bg.18.50.translation.en.prabhupada",
+  "canonical_ref": {
+    "uid": "bg.18.50",
+    "schema": "vedic-library.canonical.verse",
+    "version": "1.0.0"
+  },
+  "translation": {
+    "language": "en",
+    "translator": "A.C. Bhaktivedanta Swami Prabhupāda",
+    "content": "O son of Kuntī, learn from Me how one who has achieved this perfection can attain to the supreme perfectional stage, Brahman, the stage of highest knowledge, by acting in the way I shall now summarize."
+  },
+  "source": {
+    "edition": "Bhagavad-gītā As It Is",
+    "publisher": "BBT",
+    "year": 1972,
+    "derived_from": "vedabase-bg-18-50.normalized.json",
+    "pipeline_stage": "3.1",
+    "script": "s31_extract_translation_prabhupada.py",
+    "script_version": "1.1.0"
+  },
+  "schema": {
+    "name": "vedic-library.derivative.translation",
+    "version": "1.0.0"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "uid": "bg.13.21.translation.en.prabhupada",
+  "canonical_ref": {
+    "uid": "bg.13.21",
+    "schema": "vedic-library.canonical.verse",
+    "version": "1.0.0"
+  },
+  "translation": {
+    "language": "en",
+    "translator": "A.C. Bhaktivedanta Swami Prabhupāda",
+    "content": "Nature is said to be the cause of all material causes and effects, whereas the living entity is the cause of the various sufferings and enjoyments in this world."
+  },
+  "source": {
+    "edition": "Bhagavad-gītā As It Is",
+    "publisher": "BBT",
+    "year": 1972,
+    "derived_from": "vedabase-bg-13-21.normalized.json",
+    "pipeline_stage": "3.1",
+    "script": "s31_extract_translation_prabhupada.py",
+    "script_version": "1.1.0"
+  },
+  "schema": {
+    "name": "vedic-library.derivative.translation",
+    "version": "1.0.0"
+  }
+}

@@ -1,0 +1,147 @@
+{
+  "uid": "bg.17.26-27.prabhupada.synonyms",
+  "editorial_unit_ref": {
+    "uid": "bg.17.26-27.prabhupada",
+    "schema": "vedic-library.editorial.unit",
+    "version": "1.0.0"
+  },
+  "synonyms": {
+    "language": "en",
+    "author": "A. C. Bhaktivedanta Swami Prabhupāda",
+    "items": {
+      "language": "en",
+      "items": [
+        {
+          "sanskrit": "sat bhāve",
+          "meaning": "in the sense of the nature of the Supreme"
+        },
+        {
+          "sanskrit": "sādhu bhāve",
+          "meaning": "in the sense of the nature of the devotee"
+        },
+        {
+          "sanskrit": "ca",
+          "meaning": "also"
+        },
+        {
+          "sanskrit": "sat",
+          "meaning": "the word sat"
+        },
+        {
+          "sanskrit": "iti",
+          "meaning": "thus"
+        },
+        {
+          "sanskrit": "etat",
+          "meaning": "this"
+        },
+        {
+          "sanskrit": "prayujyate",
+          "meaning": "is used"
+        },
+        {
+          "sanskrit": "praśaste",
+          "meaning": "in bona fide"
+        },
+        {
+          "sanskrit": "karmaṇi",
+          "meaning": "activities"
+        },
+        {
+          "sanskrit": "tathā",
+          "meaning": "also"
+        },
+        {
+          "sanskrit": "sat śabdaḥ",
+          "meaning": "the sound sat"
+        },
+        {
+          "sanskrit": "pārtha",
+          "meaning": "O son of Pṛthā"
+        },
+        {
+          "sanskrit": "yujyate",
+          "meaning": "is used"
+        },
+        {
+          "sanskrit": "yajñe",
+          "meaning": "in sacrifice"
+        },
+        {
+          "sanskrit": "tapasi",
+          "meaning": "in penance"
+        },
+        {
+          "sanskrit": "dāne",
+          "meaning": "in charity"
+        },
+        {
+          "sanskrit": "ca",
+          "meaning": "also"
+        },
+        {
+          "sanskrit": "sthitiḥ",
+          "meaning": "the situation"
+        },
+        {
+          "sanskrit": "sat",
+          "meaning": "the Supreme"
+        },
+        {
+          "sanskrit": "iti",
+          "meaning": "thus"
+        },
+        {
+          "sanskrit": "ca",
+          "meaning": "and"
+        },
+        {
+          "sanskrit": "ucyate",
+          "meaning": "is pronounced"
+        },
+        {
+          "sanskrit": "karma",
+          "meaning": "work"
+        },
+        {
+          "sanskrit": "ca",
+          "meaning": "also"
+        },
+        {
+          "sanskrit": "eva",
+          "meaning": "certainly"
+        },
+        {
+          "sanskrit": "tat",
+          "meaning": "for that"
+        },
+        {
+          "sanskrit": "arthīyam",
+          "meaning": "meant"
+        },
+        {
+          "sanskrit": "sat",
+          "meaning": "the Supreme"
+        },
+        {
+          "sanskrit": "iti",
+          "meaning": "thus"
+        },
+        {
+          "sanskrit": "eva",
+          "meaning": "certainly"
+        }
+      ]
+    }
+  },
+  "source": {
+    "derived_from": "vedabase.io",
+    "normalized_file": "vedabase-bg-17-26-27.normalized.json",
+    "pipeline_stage": "migration.m3",
+    "script": "m3_migrate_synonyms.py"
+  },
+  "schema": {
+    "name": "vedic-library.derivative.synonyms",
+    "version": "2.0.0"
+  }
+}

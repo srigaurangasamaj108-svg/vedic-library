@@ -1,0 +1,71 @@
+{
+  "uid": "bg.8.24.prabhupada.synonyms",
+  "editorial_unit_ref": {
+    "uid": "bg.8.24.prabhupada",
+    "schema": "vedic-library.editorial.unit",
+    "version": "1.0.0"
+  },
+  "synonyms": {
+    "language": "en",
+    "author": "A. C. Bhaktivedanta Swami Prabhupāda",
+    "items": {
+      "language": "en",
+      "items": [
+        {
+          "sanskrit": "agniḥ",
+          "meaning": "fire"
+        },
+        {
+          "sanskrit": "jyotiḥ",
+          "meaning": "light"
+        },
+        {
+          "sanskrit": "ahaḥ",
+          "meaning": "day"
+        },
+        {
+          "sanskrit": "śuklaḥ",
+          "meaning": "the white fortnight"
+        },
+        {
+          "sanskrit": "ṣaṭ māsāḥ",
+          "meaning": "the six months"
+        },
+        {
+          "sanskrit": "uttara ayanam",
+          "meaning": "when the sun passes on the northern side"
+        },
+        {
+          "sanskrit": "tatra",
+          "meaning": "there"
+        },
+        {
+          "sanskrit": "prayātāḥ",
+          "meaning": "those who pass away"
+        },
+        {
+          "sanskrit": "gacchanti",
+          "meaning": "go"
+        },
+        {
+          "sanskrit": "brahma",
+          "meaning": "to the Absolute"
+        },
+        {
+          "sanskrit": "brahma vidaḥ",
+          "meaning": "who know the Absolute"
+        }
+      ]
+    }
+  },
+  "source": {
+    "derived_from": "vedabase.io",
+    "normalized_file": "vedabase-bg-08-24.normalized.json",
+    "pipeline_stage": "migration.m3",
+    "script": "m3_migrate_synonyms.py"
+  },
+  "schema": {
+    "name": "vedic-library.derivative.synonyms",
+    "version": "2.0.0"
+  }
+}

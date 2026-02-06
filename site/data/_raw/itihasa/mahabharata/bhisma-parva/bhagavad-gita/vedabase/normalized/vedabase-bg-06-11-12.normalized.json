@@ -1,0 +1,153 @@
+{
+  "temp_id": "vedabase-bg-06-11-12",
+  "chapter": 6,
+  "verse": 11,
+  "verse_id": "bg-06-11-12",
+  "verse_group": "6.11–12",
+  "composite": true,
+  "sanskrit": {
+    "devanagari": "श‍ुचौ देशे प्रतिष्ठाप्य स्थिरमासनमात्मन: ।\nनात्युच्छ्रितं नातिनीचं चैलाजिनकुशोत्तरम् ॥ ११ ॥\nतत्रैकाग्रं मन: कृत्वा यतचित्तेन्द्रियक्रिय ।\nउपविश्यासने युञ्‍ज्याद्योगमात्मविश‍ुद्धये ॥ १२ ॥",
+    "iast": "śucau deśe pratiṣṭhāpya\nsthiram āsanam ātmanaḥ\nnāty-ucchritaṁ nāti-nīcaṁ\ncailājina-kuśottaram\ntatraikāgraṁ manaḥ kṛtvā\nyata-cittendriya-kriyaḥ\nupaviśyāsane yuñjyād\nyogam ātma-viśuddhaye"
+  },
+  "synonyms_raw": "śucau\n—\nin a sanctified\n;\ndeśe\n—\nland\n;\npratiṣṭhāpya\n—\nplacing\n;\nsthiram\n—\nfirm\n;\nāsanam\n—\nseat\n;\nātmanaḥ\n—\nhis own\n;\nna\n—\nnot\n;\nati\n—\ntoo\n;\nucchritam\n—\nhigh\n;\nna\n—\nnor\n;\nati\n—\ntoo\n;\nnīcam\n—\nlow\n;\ncaila\n-\najina\n—\nof soft cloth and deerskin\n;\nkuśa\n—\nand\nkuśa\ngrass\n;\nuttaram\n—\ncovering\n;\ntatra\n—\nthereupon\n;\neka\n-\nagram\n—\nwith one attention\n;\nmanaḥ\n—\nmind\n;\nkṛtvā\n—\nmaking\n;\nyata\n-\ncitta\n—\ncontrolling the mind\n;\nindriya\n—\nsenses\n;\nkriyaḥ\n—\nand activities\n;\nupaviśya\n—\nsitting\n;\nāsane\n—\non the seat\n;\nyuñjyāt\n—\nshould execute\n;\nyogam\n—\nyoga\npractice\n;\nātma\n—\nthe heart\n;\nviśuddhaye\n—\nfor clarifying\n.",
+  "translation": "To practice yoga, one should go to a secluded place and should lay kuśa grass on the ground and then cover it with a deerskin and a soft cloth. The seat should be neither too high nor too low and should be situated in a sacred place. The yogī should then sit on it very firmly and practice yoga to purify the heart by controlling his mind, senses and activities and fixing the mind on one point.",
+  "purport": [
+    "“Sacred place” refers to places of pilgrimage. In India the",
+    "yogīs",
+    "– the transcendentalists or the devotees – all leave home and reside in sacred places such as Prayāga, Mathurā, Vṛndāvana, Hṛṣīkeśa and Hardwar and in solitude practice",
+    "yoga",
+    "where the sacred rivers like the Yamunā and the Ganges flow. But often this is not possible, especially for Westerners. The so-called",
+    "yoga",
+    "societies in big cities may be successful in earning material benefit, but they are not at all suitable for the actual practice of",
+    "yoga.",
+    "One who is not self-controlled and whose mind is not undisturbed cannot practice meditation. Therefore, in the",
+    "Bṛhan-nāradīya Purāṇa",
+    "it is said that in Kali-yuga (the present",
+    "yuga,",
+    "or age), when people in general are short-lived, slow in spiritual realization and always disturbed by various anxieties, the best means of spiritual realization is chanting the holy name of the Lord.",
+    "harer nāma harer nāma",
+    "harer nāmaiva kevalam",
+    "kalau nāsty eva nāsty eva",
+    "nāsty eva gatir anyathā",
+    "“In this age of quarrel and hypocrisy the only means of deliverance is chanting the holy name of the Lord. There is no other way. There is no other way. There is no other way.”"
+  ],
+  "source": {
+    "author": "A. C. Bhaktivedanta Swami Prabhupāda",
+    "edition": "Bhagavad-gītā As It Is",
+    "language": "en",
+    "provider": "vedabase.io"
+  },
+  "synonyms": {
+    "language": "en",
+    "items": [
+      {
+        "sanskrit": "śucau",
+        "meaning": "in a sanctified"
+      },
+      {
+        "sanskrit": "deśe",
+        "meaning": "land"
+      },
+      {
+        "sanskrit": "pratiṣṭhāpya",
+        "meaning": "placing"
+      },
+      {
+        "sanskrit": "sthiram",
+        "meaning": "firm"
+      },
+      {
+        "sanskrit": "āsanam",
+        "meaning": "seat"
+      },
+      {
+        "sanskrit": "ātmanaḥ",
+        "meaning": "his own"
+      },
+      {
+        "sanskrit": "na",
+        "meaning": "not"
+      },
+      {
+        "sanskrit": "ati",
+        "meaning": "too"
+      },
+      {
+        "sanskrit": "ucchritam",
+        "meaning": "high"
+      },
+      {
+        "sanskrit": "na",
+        "meaning": "nor"
+      },
+      {
+        "sanskrit": "ati",
+        "meaning": "too"
+      },
+      {
+        "sanskrit": "nīcam",
+        "meaning": "low"
+      },
+      {
+        "sanskrit": "caila ajina",
+        "meaning": "of soft cloth and deerskin"
+      },
+      {
+        "sanskrit": "kuśa",
+        "meaning": "and kuśa grass"
+      },
+      {
+        "sanskrit": "uttaram",
+        "meaning": "covering"
+      },
+      {
+        "sanskrit": "tatra",
+        "meaning": "thereupon"
+      },
+      {
+        "sanskrit": "eka agram",
+        "meaning": "with one attention"
+      },
+      {
+        "sanskrit": "manaḥ",
+        "meaning": "mind"
+      },
+      {
+        "sanskrit": "kṛtvā",
+        "meaning": "making"
+      },
+      {
+        "sanskrit": "yata citta",
+        "meaning": "controlling the mind"
+      },
+      {
+        "sanskrit": "indriya",
+        "meaning": "senses"
+      },
+      {
+        "sanskrit": "kriyaḥ",
+        "meaning": "and activities"
+      },
+      {
+        "sanskrit": "upaviśya",
+        "meaning": "sitting"
+      },
+      {
+        "sanskrit": "āsane",
+        "meaning": "on the seat"
+      },
+      {
+        "sanskrit": "yuñjyāt",
+        "meaning": "should execute"
+      },
+      {
+        "sanskrit": "yogam",
+        "meaning": "yoga practice"
+      },
+      {
+        "sanskrit": "ātma",
+        "meaning": "the heart"
+      }
+    ]
+  }
+}

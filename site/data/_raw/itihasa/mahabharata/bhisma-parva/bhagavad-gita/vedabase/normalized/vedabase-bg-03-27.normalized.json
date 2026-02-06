@@ -1,0 +1,68 @@
+{
+  "temp_id": "vedabase-bg-03-27",
+  "chapter": 3,
+  "verse": 27,
+  "verse_id": "bg-03-27",
+  "verse_group": null,
+  "composite": false,
+  "sanskrit": {
+    "devanagari": "प्रकृतेः क्रियमाणानि गुणैः कर्माणि सर्वशः ।\nअहङ्कारविमूढात्मा कर्ताहमिति मन्यते ॥ २७ ॥",
+    "iast": "prakṛteḥ kriyamāṇāni\nguṇaiḥ karmāṇi sarvaśaḥ\nahaṅkāra-vimūḍhātmā\nkartāham iti manyate"
+  },
+  "synonyms_raw": "prakṛteḥ\n—\nof material nature\n;\nkriyamāṇāni\n—\nbeing done\n;\nguṇaiḥ\n—\nby the modes\n;\nkarmāṇi\n—\nactivities\n;\nsarvaśaḥ\n—\nall kinds of\n;\nahaṅkāra\n-\nvimūḍha\n—\nbewildered by false ego\n;\nātmā\n—\nthe spirit soul\n;\nkartā\n—\ndoer\n;\naham\n—\nI\n;\niti\n—\nthus\n;\nmanyate\n—\nhe thinks\n.",
+  "translation": "The spirit soul bewildered by the influence of false ego thinks himself the doer of activities that are in actuality carried out by the three modes of material nature.",
+  "purport": [
+    "Two persons, one in Kṛṣṇa consciousness and the other in material consciousness, working on the same level, may appear to be working on the same platform, but there is a wide gulf of difference in their respective positions. The person in material consciousness is convinced by false ego that he is the doer of everything. He does not know that the mechanism of the body is produced by material nature, which works under the supervision of the Supreme Lord. The materialistic person has no knowledge that ultimately he is under the control of Kṛṣṇa. The person in false ego takes all credit for doing everything independently, and that is the symptom of his nescience. He does not know that this gross and subtle body is the creation of material nature, under the order of the Supreme Personality of Godhead, and as such his bodily and mental activities should be engaged in the service of Kṛṣṇa, in Kṛṣṇa consciousness. The ignorant man forgets that the Supreme Personality of Godhead is known as Hṛṣīkeśa, or the master of the senses of the material body, for due to his long misuse of the senses in sense gratification, he is factually bewildered by the false ego, which makes him forget his eternal relationship with Kṛṣṇa."
+  ],
+  "source": {
+    "author": "A. C. Bhaktivedanta Swami Prabhupāda",
+    "edition": "Bhagavad-gītā As It Is",
+    "language": "en",
+    "provider": "vedabase.io"
+  },
+  "synonyms": {
+    "language": "en",
+    "items": [
+      {
+        "sanskrit": "prakṛteḥ",
+        "meaning": "of material nature"
+      },
+      {
+        "sanskrit": "kriyamāṇāni",
+        "meaning": "being done"
+      },
+      {
+        "sanskrit": "guṇaiḥ",
+        "meaning": "by the modes"
+      },
+      {
+        "sanskrit": "karmāṇi",
+        "meaning": "activities"
+      },
+      {
+        "sanskrit": "sarvaśaḥ",
+        "meaning": "all kinds of"
+      },
+      {
+        "sanskrit": "ahaṅkāra vimūḍha",
+        "meaning": "bewildered by false ego"
+      },
+      {
+        "sanskrit": "ātmā",
+        "meaning": "the spirit soul"
+      },
+      {
+        "sanskrit": "kartā",
+        "meaning": "doer"
+      },
+      {
+        "sanskrit": "aham",
+        "meaning": "I"
+      },
+      {
+        "sanskrit": "iti",
+        "meaning": "thus"
+      }
+    ]
+  }
+}

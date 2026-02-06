@@ -1,0 +1,163 @@
+{
+  "uid": "bg.18.51-53.prabhupada.synonyms",
+  "editorial_unit_ref": {
+    "uid": "bg.18.51-53.prabhupada",
+    "schema": "vedic-library.editorial.unit",
+    "version": "1.0.0"
+  },
+  "synonyms": {
+    "language": "en",
+    "author": "A. C. Bhaktivedanta Swami Prabhupāda",
+    "items": {
+      "language": "en",
+      "items": [
+        {
+          "sanskrit": "buddhyā",
+          "meaning": "with the intelligence"
+        },
+        {
+          "sanskrit": "viśuddhayā",
+          "meaning": "fully purified"
+        },
+        {
+          "sanskrit": "yuktaḥ",
+          "meaning": "engaged"
+        },
+        {
+          "sanskrit": "dhṛtyā",
+          "meaning": "by determination"
+        },
+        {
+          "sanskrit": "ātmānam",
+          "meaning": "the self"
+        },
+        {
+          "sanskrit": "niyamya",
+          "meaning": "regulating"
+        },
+        {
+          "sanskrit": "ca",
+          "meaning": "also"
+        },
+        {
+          "sanskrit": "śabda ādīn",
+          "meaning": "such as sound"
+        },
+        {
+          "sanskrit": "viṣayān",
+          "meaning": "the sense objects"
+        },
+        {
+          "sanskrit": "tyaktvā",
+          "meaning": "giving up"
+        },
+        {
+          "sanskrit": "rāga",
+          "meaning": "attachment"
+        },
+        {
+          "sanskrit": "dveṣau",
+          "meaning": "and hatred"
+        },
+        {
+          "sanskrit": "vyudasya",
+          "meaning": "laying aside"
+        },
+        {
+          "sanskrit": "ca",
+          "meaning": "also"
+        },
+        {
+          "sanskrit": "vivikta sevī",
+          "meaning": "living in a secluded place"
+        },
+        {
+          "sanskrit": "laghu āśī",
+          "meaning": "eating a small quantity"
+        },
+        {
+          "sanskrit": "yata",
+          "meaning": "having controlled"
+        },
+        {
+          "sanskrit": "vāk",
+          "meaning": "speech"
+        },
+        {
+          "sanskrit": "kāya",
+          "meaning": "body"
+        },
+        {
+          "sanskrit": "mānasaḥ",
+          "meaning": "and mind"
+        },
+        {
+          "sanskrit": "dhyāna yoga paraḥ",
+          "meaning": "absorbed in trance"
+        },
+        {
+          "sanskrit": "nityam",
+          "meaning": "twenty-four hours a day"
+        },
+        {
+          "sanskrit": "vairāgyam",
+          "meaning": "detachment"
+        },
+        {
+          "sanskrit": "samupāśritaḥ",
+          "meaning": "having taken shelter of"
+        },
+        {
+          "sanskrit": "ahaṅkāram",
+          "meaning": "false ego"
+        },
+        {
+          "sanskrit": "balam",
+          "meaning": "false strength"
+        },
+        {
+          "sanskrit": "darpam",
+          "meaning": "false pride"
+        },
+        {
+          "sanskrit": "kāmam",
+          "meaning": "lust"
+        },
+        {
+          "sanskrit": "krodham",
+          "meaning": "anger"
+        },
+        {
+          "sanskrit": "parigraham",
+          "meaning": "and acceptance of material things"
+        },
+        {
+          "sanskrit": "vimucya",
+          "meaning": "being delivered from"
+        },
+        {
+          "sanskrit": "nirmamaḥ",
+          "meaning": "without a sense of proprietorship"
+        },
+        {
+          "sanskrit": "śāntaḥ",
+          "meaning": "peaceful"
+        },
+        {
+          "sanskrit": "brahma bhūyāya",
+          "meaning": "for self-realization"
+        }
+      ]
+    }
+  },
+  "source": {
+    "derived_from": "vedabase.io",
+    "normalized_file": "vedabase-bg-18-51-53.normalized.json",
+    "pipeline_stage": "migration.m3",
+    "script": "m3_migrate_synonyms.py"
+  },
+  "schema": {
+    "name": "vedic-library.derivative.synonyms",
+    "version": "2.0.0"
+  }
+}

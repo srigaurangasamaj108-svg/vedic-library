@@ -1,0 +1,83 @@
+{
+  "uid": "bg.18.14.prabhupada.synonyms",
+  "editorial_unit_ref": {
+    "uid": "bg.18.14.prabhupada",
+    "schema": "vedic-library.editorial.unit",
+    "version": "1.0.0"
+  },
+  "synonyms": {
+    "language": "en",
+    "author": "A. C. Bhaktivedanta Swami Prabhupāda",
+    "items": {
+      "language": "en",
+      "items": [
+        {
+          "sanskrit": "adhiṣṭhānam",
+          "meaning": "the place"
+        },
+        {
+          "sanskrit": "tathā",
+          "meaning": "also"
+        },
+        {
+          "sanskrit": "kartā",
+          "meaning": "the worker"
+        },
+        {
+          "sanskrit": "karaṇam",
+          "meaning": "instruments"
+        },
+        {
+          "sanskrit": "ca",
+          "meaning": "and"
+        },
+        {
+          "sanskrit": "pṛthak vidham",
+          "meaning": "of different kinds"
+        },
+        {
+          "sanskrit": "vividhāḥ",
+          "meaning": "various"
+        },
+        {
+          "sanskrit": "ca",
+          "meaning": "and"
+        },
+        {
+          "sanskrit": "pṛthak",
+          "meaning": "separate"
+        },
+        {
+          "sanskrit": "ceṣṭāḥ",
+          "meaning": "the endeavors"
+        },
+        {
+          "sanskrit": "daivam",
+          "meaning": "the Supreme"
+        },
+        {
+          "sanskrit": "ca",
+          "meaning": "also"
+        },
+        {
+          "sanskrit": "eva",
+          "meaning": "certainly"
+        },
+        {
+          "sanskrit": "atra",
+          "meaning": "here"
+        }
+      ]
+    }
+  },
+  "source": {
+    "derived_from": "vedabase.io",
+    "normalized_file": "vedabase-bg-18-14.normalized.json",
+    "pipeline_stage": "migration.m3",
+    "script": "m3_migrate_synonyms.py"
+  },
+  "schema": {
+    "name": "vedic-library.derivative.synonyms",
+    "version": "2.0.0"
+  }
+}

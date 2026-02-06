@@ -1,0 +1,96 @@
+{
+  "temp_id": "vedabase-bg-11-19",
+  "chapter": 11,
+  "verse": 19,
+  "verse_id": "bg-11-19",
+  "verse_group": null,
+  "composite": false,
+  "sanskrit": {
+    "devanagari": "अनादिमध्यान्तमनन्तवीर्य-\nमनन्तबाहुं शशिसूर्यनेत्रम् ।\nपश्यामि त्वां दीप्‍तहुताशवक्‍त्रं\nस्वतेजसा विश्वमिदं तपन्तम् ॥ १९ ॥",
+    "iast": "anādi-madhyāntam ananta-vīryam\nananta-bāhuṁ śaśi-sūrya-netram\npaśyāmi tvāṁ dīpta-hutāśa-vaktraṁ\nsva-tejasā viśvam idaṁ tapantam"
+  },
+  "synonyms_raw": "anādi\n—\nwithout beginning\n;\nmadhya\n—\nmiddle\n;\nantam\n—\nor end\n;\nananta\n—\nunlimited\n;\nvīryam\n—\nglories\n;\nananta\n—\nunlimited\n;\nbāhum\n—\narms\n;\nśaśi\n—\nthe moon\n;\nsūrya\n—\nand sun\n;\nnetram\n—\neyes\n;\npaśyāmi\n—\nI see\n;\ntvām\n—\nYou\n;\ndīpta\n—\nblazing\n;\nhutāśa\n-\nvaktram\n—\nfire coming out of Your mouth\n;\nsva\n-\ntejasā\n—\nby Your radiance\n;\nviśvam\n—\nuniverse\n;\nidam\n—\nthis\n;\ntapantam\n—\nheating\n.",
+  "translation": "You are without origin, middle or end. Your glory is unlimited. You have numberless arms, and the sun and moon are Your eyes. I see You with blazing fire coming forth from Your mouth, burning this entire universe by Your own radiance.",
+  "purport": [
+    "There is no limit to the extent of the six opulences of the Supreme Personality of Godhead. Here and in many other places there is repetition, but according to the scriptures, repetition of the glories of Kṛṣṇa is not a literary weakness. It is said that at a time of bewilderment or wonder or of great ecstasy, statements are repeated over and over. That is not a flaw."
+  ],
+  "source": {
+    "author": "A. C. Bhaktivedanta Swami Prabhupāda",
+    "edition": "Bhagavad-gītā As It Is",
+    "language": "en",
+    "provider": "vedabase.io"
+  },
+  "synonyms": {
+    "language": "en",
+    "items": [
+      {
+        "sanskrit": "anādi",
+        "meaning": "without beginning"
+      },
+      {
+        "sanskrit": "madhya",
+        "meaning": "middle"
+      },
+      {
+        "sanskrit": "antam",
+        "meaning": "or end"
+      },
+      {
+        "sanskrit": "ananta",
+        "meaning": "unlimited"
+      },
+      {
+        "sanskrit": "vīryam",
+        "meaning": "glories"
+      },
+      {
+        "sanskrit": "ananta",
+        "meaning": "unlimited"
+      },
+      {
+        "sanskrit": "bāhum",
+        "meaning": "arms"
+      },
+      {
+        "sanskrit": "śaśi",
+        "meaning": "the moon"
+      },
+      {
+        "sanskrit": "sūrya",
+        "meaning": "and sun"
+      },
+      {
+        "sanskrit": "netram",
+        "meaning": "eyes"
+      },
+      {
+        "sanskrit": "paśyāmi",
+        "meaning": "I see"
+      },
+      {
+        "sanskrit": "tvām",
+        "meaning": "You"
+      },
+      {
+        "sanskrit": "dīpta",
+        "meaning": "blazing"
+      },
+      {
+        "sanskrit": "hutāśa vaktram",
+        "meaning": "fire coming out of Your mouth"
+      },
+      {
+        "sanskrit": "sva tejasā",
+        "meaning": "by Your radiance"
+      },
+      {
+        "sanskrit": "viśvam",
+        "meaning": "universe"
+      },
+      {
+        "sanskrit": "idam",
+        "meaning": "this"
+      }
+    ]
+  }
+}

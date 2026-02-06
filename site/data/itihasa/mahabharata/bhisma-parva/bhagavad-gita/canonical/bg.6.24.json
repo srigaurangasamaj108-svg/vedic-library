@@ -1,0 +1,34 @@
+{
+  "uid": "bg.6.24",
+  "work": {
+    "corpus": "itihasa",
+    "text": "mahabharata",
+    "section": "bhisma-parva",
+    "subwork": "bhagavad-gita"
+  },
+  "location": {
+    "chapter": 6,
+    "verse": 24
+  },
+  "text": {
+    "script": "devanagari",
+    "content": "स निश्चयेन योक्तव्यो योगोऽनिर्विण्णचेतसा ।\nसङ्कल्पप्रभवान्कामांस्त्यक्त्वा सर्वानशेषत: ।\nमनसैवेन्द्रियग्रामं विनियम्य समन्तत:\n॥ २४ ॥"
+  },
+  "transliteration": {
+    "scheme": "iast",
+    "content": "sa niścayena yoktavyo yogo'nirviṇṇacetasā |\nsaṅkalpaprabhavānkāmāṃstyaktvā sarvānaśeṣata: |\nmanasaivendriyagrāmaṃ viniyamya samantata:\n|| 24 ||"
+  },
+  "source": {
+    "pipeline": "bhagavad-gita",
+    "stage": "2.5",
+    "script": "s25_realign_iast_bg.py",
+    "script_version": "2.2.0",
+    "derived_from": [
+      "vedabase/raw-json/bg-06-24.json"
+    ]
+  },
+  "schema": {
+    "name": "vedic-library.canonical.verse",
+    "version": "1.0.0"
+  }
+}

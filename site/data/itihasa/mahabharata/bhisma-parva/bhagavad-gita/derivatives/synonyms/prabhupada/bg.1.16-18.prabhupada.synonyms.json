@@ -1,0 +1,147 @@
+{
+  "uid": "bg.1.16-18.prabhupada.synonyms",
+  "editorial_unit_ref": {
+    "uid": "bg.1.16-18.prabhupada",
+    "schema": "vedic-library.editorial.unit",
+    "version": "1.0.0"
+  },
+  "synonyms": {
+    "language": "en",
+    "author": "A. C. Bhaktivedanta Swami Prabhupāda",
+    "items": {
+      "language": "en",
+      "items": [
+        {
+          "sanskrit": "ananta vijayam",
+          "meaning": "the conch named Ananta-vijaya"
+        },
+        {
+          "sanskrit": "rājā",
+          "meaning": "the king"
+        },
+        {
+          "sanskrit": "kuntī putraḥ",
+          "meaning": "the son of Kuntī"
+        },
+        {
+          "sanskrit": "yudhiṣṭhiraḥ",
+          "meaning": "Yudhiṣṭhira"
+        },
+        {
+          "sanskrit": "nakulaḥ",
+          "meaning": "Nakula"
+        },
+        {
+          "sanskrit": "sahadevaḥ",
+          "meaning": "Sahadeva"
+        },
+        {
+          "sanskrit": "ca",
+          "meaning": "and"
+        },
+        {
+          "sanskrit": "sughoṣa maṇipuṣpakau",
+          "meaning": "the conches named Sughoṣa and Maṇipuṣpaka"
+        },
+        {
+          "sanskrit": "kāśyaḥ",
+          "meaning": "the King of Kāśī (Vārāṇasī)"
+        },
+        {
+          "sanskrit": "ca",
+          "meaning": "and"
+        },
+        {
+          "sanskrit": "parama iṣu āsaḥ",
+          "meaning": "the great archer"
+        },
+        {
+          "sanskrit": "śikhaṇḍī",
+          "meaning": "Śikhaṇḍī"
+        },
+        {
+          "sanskrit": "ca",
+          "meaning": "also"
+        },
+        {
+          "sanskrit": "mahā rathaḥ",
+          "meaning": "one who can fight alone against thousands"
+        },
+        {
+          "sanskrit": "dhṛṣṭadyumnaḥ",
+          "meaning": "Dhṛṣṭadyumna (the son of King Drupada)"
+        },
+        {
+          "sanskrit": "virāṭaḥ",
+          "meaning": "Virāṭa (the prince who gave shelter to the Pāṇḍavas while they were in disguise)"
+        },
+        {
+          "sanskrit": "ca",
+          "meaning": "also"
+        },
+        {
+          "sanskrit": "sātyakiḥ",
+          "meaning": "Sātyaki (the same as Yuyudhāna, the charioteer of Lord Kṛṣṇa)"
+        },
+        {
+          "sanskrit": "ca",
+          "meaning": "and"
+        },
+        {
+          "sanskrit": "aparājitaḥ",
+          "meaning": "who had never been vanquished"
+        },
+        {
+          "sanskrit": "drupadaḥ",
+          "meaning": "Drupada, the King of Pāñcāla"
+        },
+        {
+          "sanskrit": "draupadeyāḥ",
+          "meaning": "the sons of Draupadī"
+        },
+        {
+          "sanskrit": "ca",
+          "meaning": "also"
+        },
+        {
+          "sanskrit": "sarvaśaḥ",
+          "meaning": "all"
+        },
+        {
+          "sanskrit": "pṛthivī pate",
+          "meaning": "O King"
+        },
+        {
+          "sanskrit": "saubhadraḥ",
+          "meaning": "Abhimanyu, the son of Subhadrā"
+        },
+        {
+          "sanskrit": "ca",
+          "meaning": "also"
+        },
+        {
+          "sanskrit": "mahā bāhuḥ",
+          "meaning": "mighty-armed"
+        },
+        {
+          "sanskrit": "śaṅkhān",
+          "meaning": "conchshells"
+        },
+        {
+          "sanskrit": "dadhmuḥ",
+          "meaning": "blew"
+        }
+      ]
+    }
+  },
+  "source": {
+    "derived_from": "vedabase.io",
+    "normalized_file": "vedabase-bg-01-16-18.normalized.json",
+    "pipeline_stage": "migration.m3",
+    "script": "m3_migrate_synonyms.py"
+  },
+  "schema": {
+    "name": "vedic-library.derivative.synonyms",
+    "version": "2.0.0"
+  }
+}

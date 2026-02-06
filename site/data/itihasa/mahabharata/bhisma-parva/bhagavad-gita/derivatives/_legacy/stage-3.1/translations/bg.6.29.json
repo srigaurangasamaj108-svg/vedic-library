@@ -1,0 +1,26 @@
+{
+  "uid": "bg.6.29.translation.en.prabhupada",
+  "canonical_ref": {
+    "uid": "bg.6.29",
+    "schema": "vedic-library.canonical.verse",
+    "version": "1.0.0"
+  },
+  "translation": {
+    "language": "en",
+    "translator": "A.C. Bhaktivedanta Swami Prabhupāda",
+    "content": "A true yogī observes Me in all beings and also sees every being in Me. Indeed, the self-realized person sees Me, the same Supreme Lord, everywhere."
+  },
+  "source": {
+    "edition": "Bhagavad-gītā As It Is",
+    "publisher": "BBT",
+    "year": 1972,
+    "derived_from": "vedabase-bg-06-29.normalized.json",
+    "pipeline_stage": "3.1",
+    "script": "s31_extract_translation_prabhupada.py",
+    "script_version": "1.1.0"
+  },
+  "schema": {
+    "name": "vedic-library.derivative.translation",
+    "version": "1.0.0"
+  }
+}

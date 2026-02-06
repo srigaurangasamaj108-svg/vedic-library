@@ -1,0 +1,17 @@
+{
+  "schema": "vedic-library.exposition",
+  "schema_version": "1.0.0",
+  "uid": "bg.2.37.prabhupada.exposition",
+  "editorial_unit_ref": "bg.2.37.prabhupada",
+  "exposition": {
+    "type": "purport",
+    "language": "en",
+    "author": "A. C. Bhaktivedanta Swami Prabhupāda",
+    "content": "Even though there was no certainty of victory for Arjuna’s side, he still had to fight; for, even being killed there, he could be elevated into the heavenly planets."
+  },
+  "source": {
+    "edition": "Bhagavad-gītā As It Is",
+    "editor": "BBT",
+    "lineage": "Gaudiya Vaishnava"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "schema": "vedic-library.exposition",
+  "schema_version": "1.0.0",
+  "uid": "bg.7.2.prabhupada.exposition",
+  "editorial_unit_ref": "bg.7.2.prabhupada",
+  "exposition": {
+    "type": "purport",
+    "language": "en",
+    "author": "A. C. Bhaktivedanta Swami Prabhupāda",
+    "content": "Complete knowledge includes knowledge of the phenomenal world, the spirit behind it, and the source of both of them. This is transcendental knowledge. The Lord wants to explain the above-mentioned system of knowledge because Arjuna is Kṛṣṇa’s confidential devotee and friend. In the beginning of the Fourth Chapter this explanation was given by the Lord, and it is again confirmed here: complete knowledge can be achieved only by the devotee of the Lord in disciplic succession directly from the Lord. Therefore one should be intelligent enough to know the source of all knowledge, who is the cause of all causes and the only object for meditation in all types of\n\nyoga\n\npractice. When the cause of all causes becomes known, then everything knowable becomes known, and nothing remains unknown. The\n\nVedas\n\n(\n\nMuṇḍaka Upaniṣad\n\n1.1.3) say,\n\nkasminn u bhagavo vijñāte sarvam idaṁ vijñātaṁ bhavatīti."
+  },
+  "source": {
+    "edition": "Bhagavad-gītā As It Is",
+    "editor": "BBT",
+    "lineage": "Gaudiya Vaishnava"
+  }
+}

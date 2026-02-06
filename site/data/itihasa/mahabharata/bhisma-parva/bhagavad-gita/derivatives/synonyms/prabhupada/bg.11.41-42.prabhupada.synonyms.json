@@ -1,0 +1,171 @@
+{
+  "uid": "bg.11.41-42.prabhupada.synonyms",
+  "editorial_unit_ref": {
+    "uid": "bg.11.41-42.prabhupada",
+    "schema": "vedic-library.editorial.unit",
+    "version": "1.0.0"
+  },
+  "synonyms": {
+    "language": "en",
+    "author": "A. C. Bhaktivedanta Swami Prabhupāda",
+    "items": {
+      "language": "en",
+      "items": [
+        {
+          "sanskrit": "sakhā",
+          "meaning": "friend"
+        },
+        {
+          "sanskrit": "iti",
+          "meaning": "thus"
+        },
+        {
+          "sanskrit": "matvā",
+          "meaning": "thinking"
+        },
+        {
+          "sanskrit": "prasabham",
+          "meaning": "presumptuously"
+        },
+        {
+          "sanskrit": "yat",
+          "meaning": "whatever"
+        },
+        {
+          "sanskrit": "uktam",
+          "meaning": "said"
+        },
+        {
+          "sanskrit": "he kṛṣṇa",
+          "meaning": "O Kṛṣṇa"
+        },
+        {
+          "sanskrit": "he yādava",
+          "meaning": "O Yādava"
+        },
+        {
+          "sanskrit": "he sakhe",
+          "meaning": "O my dear friend"
+        },
+        {
+          "sanskrit": "iti",
+          "meaning": "thus"
+        },
+        {
+          "sanskrit": "ajānatā",
+          "meaning": "without knowing"
+        },
+        {
+          "sanskrit": "mahimānam",
+          "meaning": "glories"
+        },
+        {
+          "sanskrit": "tava",
+          "meaning": "Your"
+        },
+        {
+          "sanskrit": "idam",
+          "meaning": "this"
+        },
+        {
+          "sanskrit": "mayā",
+          "meaning": "by me"
+        },
+        {
+          "sanskrit": "pramādāt",
+          "meaning": "out of foolishness"
+        },
+        {
+          "sanskrit": "praṇayena",
+          "meaning": "out of love"
+        },
+        {
+          "sanskrit": "vā api",
+          "meaning": "either"
+        },
+        {
+          "sanskrit": "yat",
+          "meaning": "whatever"
+        },
+        {
+          "sanskrit": "ca",
+          "meaning": "also"
+        },
+        {
+          "sanskrit": "avahāsa artham",
+          "meaning": "for joking"
+        },
+        {
+          "sanskrit": "asat kṛtaḥ",
+          "meaning": "dishonored"
+        },
+        {
+          "sanskrit": "asi",
+          "meaning": "You have been"
+        },
+        {
+          "sanskrit": "vihāra",
+          "meaning": "in relaxation"
+        },
+        {
+          "sanskrit": "śayyā",
+          "meaning": "in lying down"
+        },
+        {
+          "sanskrit": "āsana",
+          "meaning": "in sitting"
+        },
+        {
+          "sanskrit": "bhojaneṣu",
+          "meaning": "or while eating together"
+        },
+        {
+          "sanskrit": "ekaḥ",
+          "meaning": "alone"
+        },
+        {
+          "sanskrit": "atha vā",
+          "meaning": "or"
+        },
+        {
+          "sanskrit": "api",
+          "meaning": "also"
+        },
+        {
+          "sanskrit": "acyuta",
+          "meaning": "O infallible one"
+        },
+        {
+          "sanskrit": "tat samakṣam",
+          "meaning": "among companions"
+        },
+        {
+          "sanskrit": "tat",
+          "meaning": "all those"
+        },
+        {
+          "sanskrit": "kṣāmaye",
+          "meaning": "ask forgiveness"
+        },
+        {
+          "sanskrit": "tvām",
+          "meaning": "from You"
+        },
+        {
+          "sanskrit": "aham",
+          "meaning": "I"
+        }
+      ]
+    }
+  },
+  "source": {
+    "derived_from": "vedabase.io",
+    "normalized_file": "vedabase-bg-11-41-42.normalized.json",
+    "pipeline_stage": "migration.m3",
+    "script": "m3_migrate_synonyms.py"
+  },
+  "schema": {
+    "name": "vedic-library.derivative.synonyms",
+    "version": "2.0.0"
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "temp_id": "vedabase-bg-18-16",
+  "chapter": 18,
+  "verse": 16,
+  "verse_id": "bg-18-16",
+  "verse_group": null,
+  "composite": false,
+  "sanskrit": {
+    "devanagari": "तत्रैवं सति कर्तारमात्मानं केवलं तु य: ।\nपश्यत्यकृतबुद्धित्वान्न स पश्यति दुर्मति: ॥ १६ ॥",
+    "iast": "tatraivaṁ sati kartāram\nātmānaṁ kevalaṁ tu yaḥ\npaśyaty akṛta-buddhitvān\nna sa paśyati durmatiḥ"
+  },
+  "synonyms_raw": "tatra\n—\nthere\n;\nevam\n—\nthus\n;\nsati\n—\nbeing\n;\nkartāram\n—\nthe worker\n;\nātmānam\n—\nhimself\n;\nkevalam\n—\nonly\n;\ntu\n—\nbut\n;\nyaḥ\n—\nanyone who\n;\npaśyati\n—\nsees\n;\nakṛta\n-\nbuddhitvāt\n—\ndue to unintelligence\n;\nna\n—\nnever\n;\nsaḥ\n—\nhe\n;\npaśyati\n—\nsees\n;\ndurmatiḥ\n—\nfoolish\n.",
+  "translation": "Therefore one who thinks himself the only doer, not considering the five factors, is certainly not very intelligent and cannot see things as they are.",
+  "purport": [
+    "A foolish person cannot understand that the Supersoul is sitting as a friend within and conducting his actions. Although the material causes are the place, the worker, the endeavor and the senses, the final cause is the Supreme, the Personality of Godhead. Therefore, one should see not only the four material causes but the supreme efficient cause as well. One who does not see the Supreme thinks himself to be the doer."
+  ],
+  "source": {
+    "author": "A. C. Bhaktivedanta Swami Prabhupāda",
+    "edition": "Bhagavad-gītā As It Is",
+    "language": "en",
+    "provider": "vedabase.io"
+  },
+  "synonyms": {
+    "language": "en",
+    "items": [
+      {
+        "sanskrit": "tatra",
+        "meaning": "there"
+      },
+      {
+        "sanskrit": "evam",
+        "meaning": "thus"
+      },
+      {
+        "sanskrit": "sati",
+        "meaning": "being"
+      },
+      {
+        "sanskrit": "kartāram",
+        "meaning": "the worker"
+      },
+      {
+        "sanskrit": "ātmānam",
+        "meaning": "himself"
+      },
+      {
+        "sanskrit": "kevalam",
+        "meaning": "only"
+      },
+      {
+        "sanskrit": "tu",
+        "meaning": "but"
+      },
+      {
+        "sanskrit": "yaḥ",
+        "meaning": "anyone who"
+      },
+      {
+        "sanskrit": "paśyati",
+        "meaning": "sees"
+      },
+      {
+        "sanskrit": "akṛta buddhitvāt",
+        "meaning": "due to unintelligence"
+      },
+      {
+        "sanskrit": "na",
+        "meaning": "never"
+      },
+      {
+        "sanskrit": "saḥ",
+        "meaning": "he"
+      },
+      {
+        "sanskrit": "paśyati",
+        "meaning": "sees"
+      }
+    ]
+  }
+}

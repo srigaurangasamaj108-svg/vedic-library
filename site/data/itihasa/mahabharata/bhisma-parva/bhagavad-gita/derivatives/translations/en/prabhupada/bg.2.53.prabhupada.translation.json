@@ -1,0 +1,23 @@
+{
+  "uid": "bg.2.53.prabhupada.translation.en",
+  "editorial_unit_ref": {
+    "uid": "bg.2.53.prabhupada",
+    "schema": "vedic-library.editorial.unit",
+    "version": "1.0.0"
+  },
+  "translation": {
+    "language": "en",
+    "translator": "A. C. Bhaktivedanta Swami Prabhupāda",
+    "content": "When your mind is no longer disturbed by the flowery language of the Vedas, and when it remains fixed in the trance of self-realization, then you will have attained the divine consciousness."
+  },
+  "source": {
+    "derived_from": "vedabase.io",
+    "normalized_file": "vedabase-bg-02-53.normalized.json",
+    "pipeline_stage": "migration.m2",
+    "script": "m2_migrate_translations.py"
+  },
+  "schema": {
+    "name": "vedic-library.derivative.translation",
+    "version": "2.0.0"
+  }
+}

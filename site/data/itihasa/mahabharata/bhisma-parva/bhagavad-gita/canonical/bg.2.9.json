@@ -1,0 +1,34 @@
+{
+  "uid": "bg.2.9",
+  "work": {
+    "corpus": "itihasa",
+    "text": "mahabharata",
+    "section": "bhisma-parva",
+    "subwork": "bhagavad-gita"
+  },
+  "location": {
+    "chapter": 2,
+    "verse": 9
+  },
+  "text": {
+    "script": "devanagari",
+    "content": "सञ्जय उवाच\nएवमुक्त्वा हृषीकेशं गुडाकेशः परन्तपः ।\nन योत्स्य इति गोविन्दामुक्त्वा तूष्णीं बभूव ह\n॥ ९ ॥"
+  },
+  "transliteration": {
+    "scheme": "iast",
+    "content": "sañjaya uvāca\nevamuktvā hṛṣīkeśaṃ guḍākeśaḥ parantapaḥ |\nna yotsya iti govindāmuktvā tūṣṇīṃ babhūva ha\n|| 9 ||"
+  },
+  "source": {
+    "pipeline": "bhagavad-gita",
+    "stage": "2.5",
+    "script": "s25_realign_iast_bg.py",
+    "script_version": "2.2.0",
+    "derived_from": [
+      "vedabase/raw-json/bg-02-09.json"
+    ]
+  },
+  "schema": {
+    "name": "vedic-library.canonical.verse",
+    "version": "1.0.0"
+  }
+}

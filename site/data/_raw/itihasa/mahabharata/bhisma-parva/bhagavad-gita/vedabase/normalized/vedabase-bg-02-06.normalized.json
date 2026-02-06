@@ -1,0 +1,114 @@
+{
+  "temp_id": "vedabase-bg-02-06",
+  "chapter": 2,
+  "verse": 6,
+  "verse_id": "bg-02-06",
+  "verse_group": null,
+  "composite": false,
+  "sanskrit": {
+    "devanagari": "न चैतद्विद्मः कतरन्नो गरीयो\nयद्वा जयेम यदि वा नो जयेयुः ।\nयानेव हत्वा न जिजीविषाम-\nस्तेऽवस्थिताः प्रमुखे धार्तराष्ट्राः ॥ ६ ॥",
+    "iast": "na caitad vidmaḥ kataran no garīyo\nyad vā jayema yadi vā no jayeyuḥ\nyān eva hatvā na jijīviṣāmas\nte ’vasthitāḥ pramukhe dhārtarāṣṭrāḥ"
+  },
+  "synonyms_raw": "na\n—\nnor\n;\nca\n—\nalso\n;\netat\n—\nthis\n;\nvidmaḥ\n—\ndo we know\n;\nkatarat\n—\nwhich\n;\nnaḥ\n—\nfor us\n;\ngarīyaḥ\n—\nbetter\n;\nyat\nvā\n—\nwhether\n;\njayema\n—\nwe may conquer\n;\nyadi\n—\nif\n;\nvā\n—\nor\n;\nnaḥ\n—\nus\n;\njayeyuḥ\n—\nthey conquer\n;\nyān\n—\nthose who\n;\neva\n—\ncertainly\n;\nhatvā\n—\nby killing\n;\nna\n—\nnever\n;\njijīviṣāmaḥ\n—\nwe would want to live\n;\nte\n—\nall of them\n;\navasthitāḥ\n—\nare situated\n;\npramukhe\n—\nin the front\n;\ndhārtarāṣṭrāḥ\n—\nthe sons of Dhṛtarāṣṭra\n.",
+  "translation": "Nor do we know which is better – conquering them or being conquered by them. If we killed the sons of Dhṛtarāṣṭra, we should not care to live. Yet they are now standing before us on the battlefield.",
+  "purport": [
+    "Arjuna did not know whether he should fight and risk unnecessary violence, although fighting is the duty of the",
+    "kṣatriyas,",
+    "or whether he should refrain and live by begging. If he did not conquer the enemy, begging would be his only means of subsistence. Nor was there certainty of victory, because either side might emerge victorious. Even if victory awaited them (and their cause was justified), still, if the sons of Dhṛtarāṣṭra died in battle, it would be very difficult to live in their absence. Under the circumstances, that would be another kind of defeat for them. All these considerations by Arjuna definitely proved that not only was he a great devotee of the Lord but he was also highly enlightened and had complete control over his mind and senses. His desire to live by begging, although he was born in the royal household, is another sign of detachment. He was truly virtuous, as these qualities, combined with his faith in the words of instruction of Śrī Kṛṣṇa (his spiritual master), indicate. It is concluded that Arjuna was quite fit for liberation. Unless the senses are controlled, there is no chance of elevation to the platform of knowledge, and without knowledge and devotion there is no chance of liberation. Arjuna was competent in all these attributes, over and above his enormous attributes in his material relationships."
+  ],
+  "source": {
+    "author": "A. C. Bhaktivedanta Swami Prabhupāda",
+    "edition": "Bhagavad-gītā As It Is",
+    "language": "en",
+    "provider": "vedabase.io"
+  },
+  "synonyms": {
+    "language": "en",
+    "items": [
+      {
+        "sanskrit": "na",
+        "meaning": "nor"
+      },
+      {
+        "sanskrit": "ca",
+        "meaning": "also"
+      },
+      {
+        "sanskrit": "etat",
+        "meaning": "this"
+      },
+      {
+        "sanskrit": "vidmaḥ",
+        "meaning": "do we know"
+      },
+      {
+        "sanskrit": "katarat",
+        "meaning": "which"
+      },
+      {
+        "sanskrit": "naḥ",
+        "meaning": "for us"
+      },
+      {
+        "sanskrit": "garīyaḥ",
+        "meaning": "better"
+      },
+      {
+        "sanskrit": "yat vā",
+        "meaning": "whether"
+      },
+      {
+        "sanskrit": "jayema",
+        "meaning": "we may conquer"
+      },
+      {
+        "sanskrit": "yadi",
+        "meaning": "if"
+      },
+      {
+        "sanskrit": "vā",
+        "meaning": "or"
+      },
+      {
+        "sanskrit": "naḥ",
+        "meaning": "us"
+      },
+      {
+        "sanskrit": "jayeyuḥ",
+        "meaning": "they conquer"
+      },
+      {
+        "sanskrit": "yān",
+        "meaning": "those who"
+      },
+      {
+        "sanskrit": "eva",
+        "meaning": "certainly"
+      },
+      {
+        "sanskrit": "hatvā",
+        "meaning": "by killing"
+      },
+      {
+        "sanskrit": "na",
+        "meaning": "never"
+      },
+      {
+        "sanskrit": "jijīviṣāmaḥ",
+        "meaning": "we would want to live"
+      },
+      {
+        "sanskrit": "te",
+        "meaning": "all of them"
+      },
+      {
+        "sanskrit": "avasthitāḥ",
+        "meaning": "are situated"
+      },
+      {
+        "sanskrit": "pramukhe",
+        "meaning": "in the front"
+      }
+    ]
+  }
+}

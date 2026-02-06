@@ -1,0 +1,34 @@
+{
+  "uid": "bg.10.25",
+  "work": {
+    "corpus": "itihasa",
+    "text": "mahabharata",
+    "section": "bhisma-parva",
+    "subwork": "bhagavad-gita"
+  },
+  "location": {
+    "chapter": 10,
+    "verse": 25
+  },
+  "text": {
+    "script": "devanagari",
+    "content": "महर्षीणां भृगुरहं गिरामस्म्येकमक्षरम् ।\nयज्ञानां जपयज्ञोऽस्मि स्थावराणां हिमालय:\n॥ २५ ॥"
+  },
+  "transliteration": {
+    "scheme": "iast",
+    "content": "maharṣīṇāṃ bhṛgurahaṃ girāmasmyekamakṣaram |\nyajñānāṃ japayajño'smi sthāvarāṇāṃ himālaya:\n|| 25 ||"
+  },
+  "source": {
+    "pipeline": "bhagavad-gita",
+    "stage": "2.5",
+    "script": "s25_realign_iast_bg.py",
+    "script_version": "2.2.0",
+    "derived_from": [
+      "vedabase/raw-json/bg-10-25.json"
+    ]
+  },
+  "schema": {
+    "name": "vedic-library.canonical.verse",
+    "version": "1.0.0"
+  }
+}

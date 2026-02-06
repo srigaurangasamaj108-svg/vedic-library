@@ -1,0 +1,75 @@
+{
+  "uid": "bg.6.47.prabhupada.synonyms",
+  "editorial_unit_ref": {
+    "uid": "bg.6.47.prabhupada",
+    "schema": "vedic-library.editorial.unit",
+    "version": "1.0.0"
+  },
+  "synonyms": {
+    "language": "en",
+    "author": "A. C. Bhaktivedanta Swami Prabhupāda",
+    "items": {
+      "language": "en",
+      "items": [
+        {
+          "sanskrit": "yoginām",
+          "meaning": "of yogīs"
+        },
+        {
+          "sanskrit": "api",
+          "meaning": "also"
+        },
+        {
+          "sanskrit": "sarveṣām",
+          "meaning": "all types of"
+        },
+        {
+          "sanskrit": "mat gatena",
+          "meaning": "abiding in Me, always thinking of Me"
+        },
+        {
+          "sanskrit": "antaḥ ātmanā",
+          "meaning": "within himself"
+        },
+        {
+          "sanskrit": "śraddhā vān",
+          "meaning": "in full faith"
+        },
+        {
+          "sanskrit": "bhajate",
+          "meaning": "renders transcendental loving service"
+        },
+        {
+          "sanskrit": "yaḥ",
+          "meaning": "one who"
+        },
+        {
+          "sanskrit": "mām",
+          "meaning": "to Me (the Supreme Lord)"
+        },
+        {
+          "sanskrit": "saḥ",
+          "meaning": "he"
+        },
+        {
+          "sanskrit": "me",
+          "meaning": "by Me"
+        },
+        {
+          "sanskrit": "yukta tamaḥ",
+          "meaning": "the greatest yogī"
+        }
+      ]
+    }
+  },
+  "source": {
+    "derived_from": "vedabase.io",
+    "normalized_file": "vedabase-bg-06-47.normalized.json",
+    "pipeline_stage": "migration.m3",
+    "script": "m3_migrate_synonyms.py"
+  },
+  "schema": {
+    "name": "vedic-library.derivative.synonyms",
+    "version": "2.0.0"
+  }
+}

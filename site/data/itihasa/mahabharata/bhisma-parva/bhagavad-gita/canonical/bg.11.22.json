@@ -1,0 +1,34 @@
+{
+  "uid": "bg.11.22",
+  "work": {
+    "corpus": "itihasa",
+    "text": "mahabharata",
+    "section": "bhisma-parva",
+    "subwork": "bhagavad-gita"
+  },
+  "location": {
+    "chapter": 11,
+    "verse": 22
+  },
+  "text": {
+    "script": "devanagari",
+    "content": "रुद्रादित्या वसवो ये च साध्या\nविश्वेऽश्विनौ मरुतश्चोष्मपाश्च ।\nगन्धर्वयक्षासुरसिद्धसङ्घा\nवीक्षन्ते त्वां विस्मिताश्चैव सर्वे\n॥ २२ ॥"
+  },
+  "transliteration": {
+    "scheme": "iast",
+    "content": "rudrādityā vasavo ye ca sādhyā\nviśve'śvinau marutaścoṣmapāśca |\ngandharvayakṣāsurasiddhasaṅghā\nvīkṣante tvāṃ vismitāścaiva sarve\n|| 22 ||"
+  },
+  "source": {
+    "pipeline": "bhagavad-gita",
+    "stage": "2.5",
+    "script": "s25_realign_iast_bg.py",
+    "script_version": "2.2.0",
+    "derived_from": [
+      "vedabase/raw-json/bg-11-22.json"
+    ]
+  },
+  "schema": {
+    "name": "vedic-library.canonical.verse",
+    "version": "1.0.0"
+  }
+}

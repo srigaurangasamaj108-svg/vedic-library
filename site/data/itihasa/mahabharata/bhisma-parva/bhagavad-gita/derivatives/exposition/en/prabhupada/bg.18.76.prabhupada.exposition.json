@@ -1,0 +1,17 @@
+{
+  "schema": "vedic-library.exposition",
+  "schema_version": "1.0.0",
+  "uid": "bg.18.76.prabhupada.exposition",
+  "editorial_unit_ref": "bg.18.76.prabhupada",
+  "exposition": {
+    "type": "purport",
+    "language": "en",
+    "author": "A. C. Bhaktivedanta Swami Prabhupāda",
+    "content": "The understanding of\n\nBhagavad-gītā\n\nis so transcendental that anyone who becomes conversant with the topics of Arjuna and Kṛṣṇa becomes righteous and he cannot forget such talks. This is the transcendental position of spiritual life. In other words, one who hears the\n\nGītā\n\nfrom the right source, directly from Kṛṣṇa, attains full Kṛṣṇa consciousness. The result of Kṛṣṇa consciousness is that one becomes increasingly enlightened, and he enjoys life with a thrill, not only for some time, but at every moment."
+  },
+  "source": {
+    "edition": "Bhagavad-gītā As It Is",
+    "editor": "BBT",
+    "lineage": "Gaudiya Vaishnava"
+  }
+}

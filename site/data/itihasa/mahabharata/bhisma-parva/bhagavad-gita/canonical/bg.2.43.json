@@ -1,0 +1,34 @@
+{
+  "uid": "bg.2.43",
+  "work": {
+    "corpus": "itihasa",
+    "text": "mahabharata",
+    "section": "bhisma-parva",
+    "subwork": "bhagavad-gita"
+  },
+  "location": {
+    "chapter": 2,
+    "verse": 43
+  },
+  "text": {
+    "script": "devanagari",
+    "content": "कामात्मानः स्वर्गपरा जन्मकर्मफलप्रदाम् ।\nक्रियाविशेषबहुलां भोगैश्वर्यगतिं प्रति\n॥ ४३ ॥"
+  },
+  "transliteration": {
+    "scheme": "iast",
+    "content": "kāmātmānaḥ svargaparā janmakarmaphalapradām |\nkriyāviśeṣabahulāṃ bhogaiśvaryagatiṃ prati\n|| 43 ||"
+  },
+  "source": {
+    "pipeline": "bhagavad-gita",
+    "stage": "2.5",
+    "script": "s25_realign_iast_bg.py",
+    "script_version": "2.2.0",
+    "derived_from": [
+      "vedabase/raw-json/bg-02-42-43.json"
+    ]
+  },
+  "schema": {
+    "name": "vedic-library.canonical.verse",
+    "version": "1.0.0"
+  }
+}

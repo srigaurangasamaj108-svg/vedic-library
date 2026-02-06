@@ -1,0 +1,26 @@
+{
+  "uid": "bg.14.23.translation.en.prabhupada",
+  "canonical_ref": {
+    "uid": "bg.14.23",
+    "schema": "vedic-library.canonical.verse",
+    "version": "1.0.0"
+  },
+  "translation": {
+    "language": "en",
+    "translator": "A.C. Bhaktivedanta Swami Prabhupāda",
+    "content": "The Supreme Personality of Godhead said: O son of Pāṇḍu, he who does not hate illumination, attachment and delusion when they are present or long for them when they disappear; who is unwavering and undisturbed through all these reactions of the material qualities, remaining neutral and transcendental, knowing that the modes alone are active; who is situated in the self and regards alike happiness and distress; who looks upon a lump of earth, a stone and a piece of gold with an equal eye; who is equal toward the desirable and the undesirable; who is steady, situated equally well in praise and blame, honor and dishonor; who treats alike both friend and enemy; and who has renounced all material activities – such a person is said to have transcended the modes of nature."
+  },
+  "source": {
+    "edition": "Bhagavad-gītā As It Is",
+    "publisher": "BBT",
+    "year": 1972,
+    "derived_from": "vedabase-bg-14-22-25.normalized.json",
+    "pipeline_stage": "3.1",
+    "script": "s31_extract_translation_prabhupada.py",
+    "script_version": "1.1.0"
+  },
+  "schema": {
+    "name": "vedic-library.derivative.translation",
+    "version": "1.0.0"
+  }
+}

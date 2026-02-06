@@ -1,0 +1,63 @@
+{
+  "uid": "bg.18.61.prabhupada.synonyms",
+  "editorial_unit_ref": {
+    "uid": "bg.18.61.prabhupada",
+    "schema": "vedic-library.editorial.unit",
+    "version": "1.0.0"
+  },
+  "synonyms": {
+    "language": "en",
+    "author": "A. C. Bhaktivedanta Swami Prabhupāda",
+    "items": {
+      "language": "en",
+      "items": [
+        {
+          "sanskrit": "īśvaraḥ",
+          "meaning": "the Supreme Lord"
+        },
+        {
+          "sanskrit": "sarva bhūtānām",
+          "meaning": "of all living entities"
+        },
+        {
+          "sanskrit": "hṛt deśe",
+          "meaning": "in the location of the heart"
+        },
+        {
+          "sanskrit": "arjuna",
+          "meaning": "O Arjuna"
+        },
+        {
+          "sanskrit": "tiṣṭhati",
+          "meaning": "resides"
+        },
+        {
+          "sanskrit": "bhrāmayan",
+          "meaning": "causing to travel"
+        },
+        {
+          "sanskrit": "sarva bhūtāni",
+          "meaning": "all living entities"
+        },
+        {
+          "sanskrit": "yantra",
+          "meaning": "on a machine"
+        },
+        {
+          "sanskrit": "ārūḍhani",
+          "meaning": "being placed"
+        }
+      ]
+    }
+  },
+  "source": {
+    "derived_from": "vedabase.io",
+    "normalized_file": "vedabase-bg-18-61.normalized.json",
+    "pipeline_stage": "migration.m3",
+    "script": "m3_migrate_synonyms.py"
+  },
+  "schema": {
+    "name": "vedic-library.derivative.synonyms",
+    "version": "2.0.0"
+  }
+}

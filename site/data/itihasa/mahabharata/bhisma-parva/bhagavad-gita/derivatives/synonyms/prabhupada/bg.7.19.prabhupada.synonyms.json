@@ -1,0 +1,71 @@
+{
+  "uid": "bg.7.19.prabhupada.synonyms",
+  "editorial_unit_ref": {
+    "uid": "bg.7.19.prabhupada",
+    "schema": "vedic-library.editorial.unit",
+    "version": "1.0.0"
+  },
+  "synonyms": {
+    "language": "en",
+    "author": "A. C. Bhaktivedanta Swami Prabhupāda",
+    "items": {
+      "language": "en",
+      "items": [
+        {
+          "sanskrit": "bahūnām",
+          "meaning": "many"
+        },
+        {
+          "sanskrit": "janmanām",
+          "meaning": "repeated births and deaths"
+        },
+        {
+          "sanskrit": "ante",
+          "meaning": "after"
+        },
+        {
+          "sanskrit": "jñāna vān",
+          "meaning": "one who is in full knowledge"
+        },
+        {
+          "sanskrit": "mām",
+          "meaning": "unto Me"
+        },
+        {
+          "sanskrit": "prapadyate",
+          "meaning": "surrenders"
+        },
+        {
+          "sanskrit": "vāsudevaḥ",
+          "meaning": "the Personality of Godhead, Kṛṣṇa"
+        },
+        {
+          "sanskrit": "sarvam",
+          "meaning": "everything"
+        },
+        {
+          "sanskrit": "iti",
+          "meaning": "thus"
+        },
+        {
+          "sanskrit": "saḥ",
+          "meaning": "that"
+        },
+        {
+          "sanskrit": "mahā ātmā",
+          "meaning": "great soul"
+        }
+      ]
+    }
+  },
+  "source": {
+    "derived_from": "vedabase.io",
+    "normalized_file": "vedabase-bg-07-19.normalized.json",
+    "pipeline_stage": "migration.m3",
+    "script": "m3_migrate_synonyms.py"
+  },
+  "schema": {
+    "name": "vedic-library.derivative.synonyms",
+    "version": "2.0.0"
+  }
+}

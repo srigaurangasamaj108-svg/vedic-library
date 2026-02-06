@@ -1,0 +1,23 @@
+{
+  "uid": "bg.9.20.prabhupada.translation.en",
+  "editorial_unit_ref": {
+    "uid": "bg.9.20.prabhupada",
+    "schema": "vedic-library.editorial.unit",
+    "version": "1.0.0"
+  },
+  "translation": {
+    "language": "en",
+    "translator": "A. C. Bhaktivedanta Swami Prabhupāda",
+    "content": "Those who study the Vedas and drink the soma juice, seeking the heavenly planets, worship Me indirectly. Purified of sinful reactions, they take birth on the pious, heavenly planet of Indra, where they enjoy godly delights."
+  },
+  "source": {
+    "derived_from": "vedabase.io",
+    "normalized_file": "vedabase-bg-09-20.normalized.json",
+    "pipeline_stage": "migration.m2",
+    "script": "m2_migrate_translations.py"
+  },
+  "schema": {
+    "name": "vedic-library.derivative.translation",
+    "version": "2.0.0"
+  }
+}

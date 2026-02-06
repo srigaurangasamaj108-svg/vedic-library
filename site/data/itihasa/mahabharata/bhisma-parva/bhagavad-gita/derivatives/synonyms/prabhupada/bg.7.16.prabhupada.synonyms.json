@@ -1,0 +1,71 @@
+{
+  "uid": "bg.7.16.prabhupada.synonyms",
+  "editorial_unit_ref": {
+    "uid": "bg.7.16.prabhupada",
+    "schema": "vedic-library.editorial.unit",
+    "version": "1.0.0"
+  },
+  "synonyms": {
+    "language": "en",
+    "author": "A. C. Bhaktivedanta Swami Prabhupāda",
+    "items": {
+      "language": "en",
+      "items": [
+        {
+          "sanskrit": "catuḥ vidhāḥ",
+          "meaning": "four kinds of"
+        },
+        {
+          "sanskrit": "bhajante",
+          "meaning": "render services"
+        },
+        {
+          "sanskrit": "mām",
+          "meaning": "unto Me"
+        },
+        {
+          "sanskrit": "janāḥ",
+          "meaning": "persons"
+        },
+        {
+          "sanskrit": "su kṛtinaḥ",
+          "meaning": "those who are pious"
+        },
+        {
+          "sanskrit": "arjuna",
+          "meaning": "O Arjuna"
+        },
+        {
+          "sanskrit": "ārtaḥ",
+          "meaning": "the distressed"
+        },
+        {
+          "sanskrit": "jijñāsuḥ",
+          "meaning": "the inquisitive"
+        },
+        {
+          "sanskrit": "artha arthī",
+          "meaning": "one who desires material gain"
+        },
+        {
+          "sanskrit": "jñānī",
+          "meaning": "one who knows things as they are"
+        },
+        {
+          "sanskrit": "ca",
+          "meaning": "also"
+        }
+      ]
+    }
+  },
+  "source": {
+    "derived_from": "vedabase.io",
+    "normalized_file": "vedabase-bg-07-16.normalized.json",
+    "pipeline_stage": "migration.m3",
+    "script": "m3_migrate_synonyms.py"
+  },
+  "schema": {
+    "name": "vedic-library.derivative.synonyms",
+    "version": "2.0.0"
+  }
+}

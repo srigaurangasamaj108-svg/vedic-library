@@ -1,0 +1,23 @@
+{
+  "uid": "bg.15.2.prabhupada.translation.en",
+  "editorial_unit_ref": {
+    "uid": "bg.15.2.prabhupada",
+    "schema": "vedic-library.editorial.unit",
+    "version": "1.0.0"
+  },
+  "translation": {
+    "language": "en",
+    "translator": "A. C. Bhaktivedanta Swami Prabhupāda",
+    "content": "The branches of this tree extend downward and upward, nourished by the three modes of material nature. The twigs are the objects of the senses. This tree also has roots going down, and these are bound to the fruitive actions of human society."
+  },
+  "source": {
+    "derived_from": "vedabase.io",
+    "normalized_file": "vedabase-bg-15-02.normalized.json",
+    "pipeline_stage": "migration.m2",
+    "script": "m2_migrate_translations.py"
+  },
+  "schema": {
+    "name": "vedic-library.derivative.translation",
+    "version": "2.0.0"
+  }
+}

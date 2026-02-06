@@ -1,0 +1,34 @@
+{
+  "uid": "bg.9.7",
+  "work": {
+    "corpus": "itihasa",
+    "text": "mahabharata",
+    "section": "bhisma-parva",
+    "subwork": "bhagavad-gita"
+  },
+  "location": {
+    "chapter": 9,
+    "verse": 7
+  },
+  "text": {
+    "script": "devanagari",
+    "content": "सर्वभूतानि कौन्तेय प्रकृतिं यान्ति मामिकाम् ।\nकल्पक्षये पुनस्तानि कल्पादौ विसृजाम्यहम्\n॥ ७ ॥"
+  },
+  "transliteration": {
+    "scheme": "iast",
+    "content": "sarvabhūtāni kaunteya prakṛtiṃ yānti māmikām |\nkalpakṣaye punastāni kalpādau visṛjāmyaham\n|| 7 ||"
+  },
+  "source": {
+    "pipeline": "bhagavad-gita",
+    "stage": "2.5",
+    "script": "s25_realign_iast_bg.py",
+    "script_version": "2.2.0",
+    "derived_from": [
+      "vedabase/raw-json/bg-09-07.json"
+    ]
+  },
+  "schema": {
+    "name": "vedic-library.canonical.verse",
+    "version": "1.0.0"
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "uid": "bg.12.12.prabhupada.synonyms",
+  "editorial_unit_ref": {
+    "uid": "bg.12.12.prabhupada",
+    "schema": "vedic-library.editorial.unit",
+    "version": "1.0.0"
+  },
+  "synonyms": {
+    "language": "en",
+    "author": "A. C. Bhaktivedanta Swami Prabhupāda",
+    "items": {
+      "language": "en",
+      "items": [
+        {
+          "sanskrit": "śreyaḥ",
+          "meaning": "better"
+        },
+        {
+          "sanskrit": "hi",
+          "meaning": "certainly"
+        },
+        {
+          "sanskrit": "jñānam",
+          "meaning": "knowledge"
+        },
+        {
+          "sanskrit": "abhyāsāt",
+          "meaning": "than practice"
+        },
+        {
+          "sanskrit": "jñānāt",
+          "meaning": "than knowledge"
+        },
+        {
+          "sanskrit": "dhyānam",
+          "meaning": "meditation"
+        },
+        {
+          "sanskrit": "viśiṣyate",
+          "meaning": "is considered better"
+        },
+        {
+          "sanskrit": "dhyānāt",
+          "meaning": "than meditation"
+        },
+        {
+          "sanskrit": "karma phala tyāgaḥ",
+          "meaning": "renunciation of the results of fruitive action"
+        },
+        {
+          "sanskrit": "tyāgāt",
+          "meaning": "by such renunciation"
+        },
+        {
+          "sanskrit": "śāntiḥ",
+          "meaning": "peace"
+        }
+      ]
+    }
+  },
+  "source": {
+    "derived_from": "vedabase.io",
+    "normalized_file": "vedabase-bg-12-12.normalized.json",
+    "pipeline_stage": "migration.m3",
+    "script": "m3_migrate_synonyms.py"
+  },
+  "schema": {
+    "name": "vedic-library.derivative.synonyms",
+    "version": "2.0.0"
+  }
+}

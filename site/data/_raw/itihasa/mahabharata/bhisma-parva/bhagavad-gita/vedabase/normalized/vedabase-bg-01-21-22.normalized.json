@@ -1,0 +1,109 @@
+{
+  "temp_id": "vedabase-bg-01-21-22",
+  "chapter": 1,
+  "verse": 21,
+  "verse_id": "bg-01-21-22",
+  "verse_group": "1.21–22",
+  "composite": true,
+  "sanskrit": {
+    "devanagari": "अर्जुन उवाच\nसेनयोरुभयोर्मध्ये रथं स्थापय मेऽच्युत ।\nयावदेतान्निरीक्षेऽहं योद्‍धुकामानवस्थितान् ॥ २१ ॥\nकैर्मया सह योद्धव्यमस्मिन्‍रणसमुद्यमे ॥ २२ ॥",
+    "iast": "arjuna uvāca\nsenayor ubhayor madhye\nrathaṁ sthāpaya me ’cyuta\nyāvad etān nirīkṣe ’haṁ\nyoddhu-kāmān avasthitān\nkair mayā saha yoddhavyam\nasmin raṇa-samudyame"
+  },
+  "synonyms_raw": "arjunaḥ\nuvāca\n—\nArjuna said\n;\nsenayoḥ\n—\nof the armies\n;\nubhayoḥ\n—\nboth\n;\nmadhye\n—\nbetween\n;\nratham\n—\nthe chariot\n;\nsthāpaya\n—\nplease keep\n;\nme\n—\nmy\n;\nacyuta\n—\nO infallible one\n;\nyāvat\n—\nas long as\n;\netān\n—\nall these\n;\nnirīkṣe\n—\nmay look upon\n;\naham\n—\nI\n;\nyoddhu\n-\nkāmān\n—\ndesiring to fight\n;\navasthitān\n—\narrayed on the battlefield\n;\nkaiḥ\n—\nwith whom\n;\nmayā\n—\nby me\n;\nsaha\n—\ntogether\n;\nyoddhavyam\n—\nhave to fight\n;\nasmin\n—\nin this\n;\nraṇa\n—\nstrife\n;\nsamudyame\n—\nin the attempt\n.",
+  "translation": "Arjuna said: O infallible one, please draw my chariot between the two armies so that I may see those present here, who desire to fight, and with whom I must contend in this great trial of arms.",
+  "purport": [
+    "Although Lord Kṛṣṇa is the Supreme Personality of Godhead, out of His causeless mercy He was engaged in the service of His friend. He never fails in His affection for His devotees, and thus He is addressed herein as infallible. As charioteer, He had to carry out the orders of Arjuna, and since He did not hesitate to do so, He is addressed as infallible. Although He had accepted the position of a charioteer for His devotee, His supreme position was not challenged. In all circumstances, He is the Supreme Personality of Godhead, Hṛṣīkeśa, the Lord of the total senses. The relationship between the Lord and His servitor is very sweet and transcendental. The servitor is always ready to render service to the Lord, and, similarly, the Lord is always seeking an opportunity to render some service to the devotee. He takes greater pleasure in His pure devotee’s assuming the advantageous position of ordering Him than He does in being the giver of orders. Since He is master, everyone is under His orders, and no one is above Him to order Him. But when He finds that a pure devotee is ordering Him, He obtains transcendental pleasure, although He is the infallible master in all circumstances.",
+    "As a pure devotee of the Lord, Arjuna had no desire to fight with his cousins and brothers, but he was forced to come onto the battlefield by the obstinacy of Duryodhana, who was never agreeable to any peaceful negotiation. Therefore, he was very anxious to see who the leading persons present on the battlefield were. Although there was no question of a peacemaking endeavor on the battlefield, he wanted to see them again, and to see how much they were bent upon demanding an unwanted war."
+  ],
+  "source": {
+    "author": "A. C. Bhaktivedanta Swami Prabhupāda",
+    "edition": "Bhagavad-gītā As It Is",
+    "language": "en",
+    "provider": "vedabase.io"
+  },
+  "synonyms": {
+    "language": "en",
+    "items": [
+      {
+        "sanskrit": "arjunaḥ uvāca",
+        "meaning": "Arjuna said"
+      },
+      {
+        "sanskrit": "senayoḥ",
+        "meaning": "of the armies"
+      },
+      {
+        "sanskrit": "ubhayoḥ",
+        "meaning": "both"
+      },
+      {
+        "sanskrit": "madhye",
+        "meaning": "between"
+      },
+      {
+        "sanskrit": "ratham",
+        "meaning": "the chariot"
+      },
+      {
+        "sanskrit": "sthāpaya",
+        "meaning": "please keep"
+      },
+      {
+        "sanskrit": "me",
+        "meaning": "my"
+      },
+      {
+        "sanskrit": "acyuta",
+        "meaning": "O infallible one"
+      },
+      {
+        "sanskrit": "yāvat",
+        "meaning": "as long as"
+      },
+      {
+        "sanskrit": "etān",
+        "meaning": "all these"
+      },
+      {
+        "sanskrit": "nirīkṣe",
+        "meaning": "may look upon"
+      },
+      {
+        "sanskrit": "aham",
+        "meaning": "I"
+      },
+      {
+        "sanskrit": "yoddhu kāmān",
+        "meaning": "desiring to fight"
+      },
+      {
+        "sanskrit": "avasthitān",
+        "meaning": "arrayed on the battlefield"
+      },
+      {
+        "sanskrit": "kaiḥ",
+        "meaning": "with whom"
+      },
+      {
+        "sanskrit": "mayā",
+        "meaning": "by me"
+      },
+      {
+        "sanskrit": "saha",
+        "meaning": "together"
+      },
+      {
+        "sanskrit": "yoddhavyam",
+        "meaning": "have to fight"
+      },
+      {
+        "sanskrit": "asmin",
+        "meaning": "in this"
+      },
+      {
+        "sanskrit": "raṇa",
+        "meaning": "strife"
+      }
+    ]
+  }
+}

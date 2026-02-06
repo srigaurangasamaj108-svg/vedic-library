@@ -1,0 +1,75 @@
+{
+  "uid": "bg.10.36.prabhupada.synonyms",
+  "editorial_unit_ref": {
+    "uid": "bg.10.36.prabhupada",
+    "schema": "vedic-library.editorial.unit",
+    "version": "1.0.0"
+  },
+  "synonyms": {
+    "language": "en",
+    "author": "A. C. Bhaktivedanta Swami Prabhupāda",
+    "items": {
+      "language": "en",
+      "items": [
+        {
+          "sanskrit": "dyūtam",
+          "meaning": "gambling"
+        },
+        {
+          "sanskrit": "chalayatām",
+          "meaning": "of all cheats"
+        },
+        {
+          "sanskrit": "asmi",
+          "meaning": "I am"
+        },
+        {
+          "sanskrit": "tejaḥ",
+          "meaning": "the splendor"
+        },
+        {
+          "sanskrit": "tejasvinām",
+          "meaning": "of everything splendid"
+        },
+        {
+          "sanskrit": "aham",
+          "meaning": "I am"
+        },
+        {
+          "sanskrit": "jayaḥ",
+          "meaning": "victory"
+        },
+        {
+          "sanskrit": "asmi",
+          "meaning": "I am"
+        },
+        {
+          "sanskrit": "vyavasāyaḥ",
+          "meaning": "enterprise or adventure"
+        },
+        {
+          "sanskrit": "asmi",
+          "meaning": "I am"
+        },
+        {
+          "sanskrit": "sattvam",
+          "meaning": "the strength"
+        },
+        {
+          "sanskrit": "sattva vatām",
+          "meaning": "of the strong"
+        }
+      ]
+    }
+  },
+  "source": {
+    "derived_from": "vedabase.io",
+    "normalized_file": "vedabase-bg-10-36.normalized.json",
+    "pipeline_stage": "migration.m3",
+    "script": "m3_migrate_synonyms.py"
+  },
+  "schema": {
+    "name": "vedic-library.derivative.synonyms",
+    "version": "2.0.0"
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "uid": "bg.18.24",
+  "work": {
+    "corpus": "itihasa",
+    "text": "mahabharata",
+    "section": "bhisma-parva",
+    "subwork": "bhagavad-gita"
+  },
+  "location": {
+    "chapter": 18,
+    "verse": 24
+  },
+  "text": {
+    "script": "devanagari",
+    "content": "यत्तु कामेप्सुना कर्म साहङ्कारेण वा पुन: ।\nक्रियते बहुलायासं तद्राजसमुदाहृतम्\n॥ २४ ॥"
+  },
+  "transliteration": {
+    "scheme": "iast",
+    "content": "yattu kāmepsunā karma sāhaṅkāreṇa vā puna: |\nkriyate bahulāyāsaṃ tadrājasamudāhṛtam\n|| 24 ||"
+  },
+  "source": {
+    "pipeline": "bhagavad-gita",
+    "stage": "2.5",
+    "script": "s25_realign_iast_bg.py",
+    "script_version": "2.2.0",
+    "derived_from": [
+      "vedabase/raw-json/bg-18-24.json"
+    ]
+  },
+  "schema": {
+    "name": "vedic-library.canonical.verse",
+    "version": "1.0.0"
+  }
+}

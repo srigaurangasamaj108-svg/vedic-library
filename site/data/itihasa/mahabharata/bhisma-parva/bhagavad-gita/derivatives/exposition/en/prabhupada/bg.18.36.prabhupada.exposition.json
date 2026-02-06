@@ -1,0 +1,17 @@
+{
+  "schema": "vedic-library.exposition",
+  "schema_version": "1.0.0",
+  "uid": "bg.18.36.prabhupada.exposition",
+  "editorial_unit_ref": "bg.18.36.prabhupada",
+  "exposition": {
+    "type": "purport",
+    "language": "en",
+    "author": "A. C. Bhaktivedanta Swami Prabhupāda",
+    "content": "A conditioned soul tries to enjoy material happiness again and again. Thus he chews the chewed. But sometimes, in the course of such enjoyment, he becomes relieved from material entanglement by association with a great soul. In other words, a conditioned soul is always engaged in some type of sense gratification, but when he understands by good association that it is only a repetition of the same thing, and he is awakened to his real Kṛṣṇa consciousness, he is sometimes relieved from such repetitive so-called happiness."
+  },
+  "source": {
+    "edition": "Bhagavad-gītā As It Is",
+    "editor": "BBT",
+    "lineage": "Gaudiya Vaishnava"
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "uid": "bg.7.3.prabhupada.synonyms",
+  "editorial_unit_ref": {
+    "uid": "bg.7.3.prabhupada",
+    "schema": "vedic-library.editorial.unit",
+    "version": "1.0.0"
+  },
+  "synonyms": {
+    "language": "en",
+    "author": "A. C. Bhaktivedanta Swami Prabhupāda",
+    "items": {
+      "language": "en",
+      "items": [
+        {
+          "sanskrit": "manuṣyāṇām",
+          "meaning": "of men"
+        },
+        {
+          "sanskrit": "sahasreṣu",
+          "meaning": "out of many thousands"
+        },
+        {
+          "sanskrit": "kaścit",
+          "meaning": "someone"
+        },
+        {
+          "sanskrit": "yatati",
+          "meaning": "endeavors"
+        },
+        {
+          "sanskrit": "siddhaye",
+          "meaning": "for perfection"
+        },
+        {
+          "sanskrit": "yatatām",
+          "meaning": "of those so endeavoring"
+        },
+        {
+          "sanskrit": "api",
+          "meaning": "indeed"
+        },
+        {
+          "sanskrit": "siddhānām",
+          "meaning": "of those who have achieved perfection"
+        },
+        {
+          "sanskrit": "kaścit",
+          "meaning": "someone"
+        },
+        {
+          "sanskrit": "mām",
+          "meaning": "Me"
+        },
+        {
+          "sanskrit": "vetti",
+          "meaning": "does know"
+        }
+      ]
+    }
+  },
+  "source": {
+    "derived_from": "vedabase.io",
+    "normalized_file": "vedabase-bg-07-03.normalized.json",
+    "pipeline_stage": "migration.m3",
+    "script": "m3_migrate_synonyms.py"
+  },
+  "schema": {
+    "name": "vedic-library.derivative.synonyms",
+    "version": "2.0.0"
+  }
+}

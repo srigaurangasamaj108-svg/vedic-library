@@ -1,0 +1,26 @@
+{
+  "uid": "bg.18.6.translation.en.prabhupada",
+  "canonical_ref": {
+    "uid": "bg.18.6",
+    "schema": "vedic-library.canonical.verse",
+    "version": "1.0.0"
+  },
+  "translation": {
+    "language": "en",
+    "translator": "A.C. Bhaktivedanta Swami Prabhupāda",
+    "content": "All these activities should be performed without attachment or any expectation of result. They should be performed as a matter of duty, O son of Pṛthā. That is My final opinion."
+  },
+  "source": {
+    "edition": "Bhagavad-gītā As It Is",
+    "publisher": "BBT",
+    "year": 1972,
+    "derived_from": "vedabase-bg-18-06.normalized.json",
+    "pipeline_stage": "3.1",
+    "script": "s31_extract_translation_prabhupada.py",
+    "script_version": "1.1.0"
+  },
+  "schema": {
+    "name": "vedic-library.derivative.translation",
+    "version": "1.0.0"
+  }
+}

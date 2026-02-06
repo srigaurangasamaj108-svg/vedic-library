@@ -1,0 +1,17 @@
+{
+  "schema": "vedic-library.exposition",
+  "schema_version": "1.0.0",
+  "uid": "bg.10.39.prabhupada.exposition",
+  "editorial_unit_ref": "bg.10.39.prabhupada",
+  "exposition": {
+    "type": "purport",
+    "language": "en",
+    "author": "A. C. Bhaktivedanta Swami Prabhupāda",
+    "content": "Everything has a cause, and that cause or seed of manifestation is Kṛṣṇa. Without Kṛṣṇa’s energy, nothing can exist; therefore He is called omnipotent. Without His potency, neither the movable nor the immovable can exist. Whatever existence is not founded on the energy of Kṛṣṇa is called\n\nmāyā,\n\n“that which is not.”"
+  },
+  "source": {
+    "edition": "Bhagavad-gītā As It Is",
+    "editor": "BBT",
+    "lineage": "Gaudiya Vaishnava"
+  }
+}

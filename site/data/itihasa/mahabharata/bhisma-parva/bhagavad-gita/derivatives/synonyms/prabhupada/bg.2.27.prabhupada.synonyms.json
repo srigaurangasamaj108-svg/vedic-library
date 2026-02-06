@@ -1,0 +1,83 @@
+{
+  "uid": "bg.2.27.prabhupada.synonyms",
+  "editorial_unit_ref": {
+    "uid": "bg.2.27.prabhupada",
+    "schema": "vedic-library.editorial.unit",
+    "version": "1.0.0"
+  },
+  "synonyms": {
+    "language": "en",
+    "author": "A. C. Bhaktivedanta Swami Prabhupāda",
+    "items": {
+      "language": "en",
+      "items": [
+        {
+          "sanskrit": "jātasya",
+          "meaning": "of one who has taken his birth"
+        },
+        {
+          "sanskrit": "hi",
+          "meaning": "certainly"
+        },
+        {
+          "sanskrit": "dhruvaḥ",
+          "meaning": "a fact"
+        },
+        {
+          "sanskrit": "mṛtyuḥ",
+          "meaning": "death"
+        },
+        {
+          "sanskrit": "dhruvam",
+          "meaning": "it is also a fact"
+        },
+        {
+          "sanskrit": "janma",
+          "meaning": "birth"
+        },
+        {
+          "sanskrit": "mṛtasya",
+          "meaning": "of the dead"
+        },
+        {
+          "sanskrit": "ca",
+          "meaning": "also"
+        },
+        {
+          "sanskrit": "tasmāt",
+          "meaning": "therefore"
+        },
+        {
+          "sanskrit": "aparihārye",
+          "meaning": "of that which is unavoidable"
+        },
+        {
+          "sanskrit": "arthe",
+          "meaning": "in the matter"
+        },
+        {
+          "sanskrit": "na",
+          "meaning": "do not"
+        },
+        {
+          "sanskrit": "tvam",
+          "meaning": "you"
+        },
+        {
+          "sanskrit": "śocitum",
+          "meaning": "to lament"
+        }
+      ]
+    }
+  },
+  "source": {
+    "derived_from": "vedabase.io",
+    "normalized_file": "vedabase-bg-02-27.normalized.json",
+    "pipeline_stage": "migration.m3",
+    "script": "m3_migrate_synonyms.py"
+  },
+  "schema": {
+    "name": "vedic-library.derivative.synonyms",
+    "version": "2.0.0"
+  }
+}

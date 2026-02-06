@@ -1,0 +1,71 @@
+{
+  "uid": "bg.1.4.prabhupada.synonyms",
+  "editorial_unit_ref": {
+    "uid": "bg.1.4.prabhupada",
+    "schema": "vedic-library.editorial.unit",
+    "version": "1.0.0"
+  },
+  "synonyms": {
+    "language": "en",
+    "author": "A. C. Bhaktivedanta Swami Prabhupāda",
+    "items": {
+      "language": "en",
+      "items": [
+        {
+          "sanskrit": "atra",
+          "meaning": "here"
+        },
+        {
+          "sanskrit": "śūrāḥ",
+          "meaning": "heroes"
+        },
+        {
+          "sanskrit": "mahā iṣu āsāḥ",
+          "meaning": "mighty bowmen"
+        },
+        {
+          "sanskrit": "bhīma arjuna",
+          "meaning": "to Bhīma and Arjuna"
+        },
+        {
+          "sanskrit": "samāḥ",
+          "meaning": "equal"
+        },
+        {
+          "sanskrit": "yudhi",
+          "meaning": "in the fight"
+        },
+        {
+          "sanskrit": "yuyudhānaḥ",
+          "meaning": "Yuyudhāna"
+        },
+        {
+          "sanskrit": "virāṭaḥ",
+          "meaning": "Virāṭa"
+        },
+        {
+          "sanskrit": "ca",
+          "meaning": "also"
+        },
+        {
+          "sanskrit": "drupadaḥ",
+          "meaning": "Drupada"
+        },
+        {
+          "sanskrit": "ca",
+          "meaning": "also"
+        }
+      ]
+    }
+  },
+  "source": {
+    "derived_from": "vedabase.io",
+    "normalized_file": "vedabase-bg-01-04.normalized.json",
+    "pipeline_stage": "migration.m3",
+    "script": "m3_migrate_synonyms.py"
+  },
+  "schema": {
+    "name": "vedic-library.derivative.synonyms",
+    "version": "2.0.0"
+  }
+}

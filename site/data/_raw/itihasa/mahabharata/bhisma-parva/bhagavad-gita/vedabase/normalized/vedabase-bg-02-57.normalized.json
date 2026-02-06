@@ -1,0 +1,85 @@
+{
+  "temp_id": "vedabase-bg-02-57",
+  "chapter": 2,
+  "verse": 57,
+  "verse_id": "bg-02-57",
+  "verse_group": null,
+  "composite": false,
+  "sanskrit": {
+    "devanagari": "यः सर्वत्रानभिस्नेहस्तत्तत्प्राप्य श‍ुभाश‍ुभम् ।\nनाभिनन्दति न द्वेष्टि तस्य प्रज्ञा प्रतिष्ठिता ॥ ५७ ॥",
+    "iast": "yaḥ sarvatrānabhisnehas\ntat tat prāpya śubhāśubham\nnābhinandati na dveṣṭi\ntasya prajñā pratiṣṭhitā"
+  },
+  "synonyms_raw": "yaḥ\n—\none who\n;\nsarvatra\n—\neverywhere\n;\nanabhisnehaḥ\n—\nwithout affection\n;\ntat\n—\nthat\n;\ntat\n—\nthat\n;\nprāpya\n—\nachieving\n;\nśubha\n—\ngood\n;\naśubham\n—\nevil\n;\nna\n—\nnever\n;\nabhinandati\n—\npraises\n;\nna\n—\nnever\n;\ndveṣṭi\n—\nenvies\n;\ntasya\n—\nhis\n;\nprajñā\n—\nperfect knowledge\n;\npratiṣṭhitā\n—\nfixed\n.",
+  "translation": "In the material world, one who is unaffected by whatever good or evil he may obtain, neither praising it nor despising it, is firmly fixed in perfect knowledge.",
+  "purport": [
+    "There is always some upheaval in the material world which may be good or evil. One who is not agitated by such material upheavals, who is unaffected by good and evil, is to be understood to be fixed in Kṛṣṇa consciousness. As long as one is in the material world there is always the possibility of good and evil because this world is full of duality. But one who is fixed in Kṛṣṇa consciousness is not affected by good and evil, because he is simply concerned with Kṛṣṇa, who is all-good absolute. Such consciousness in Kṛṣṇa situates one in a perfect transcendental position called, technically,",
+    "samādhi."
+  ],
+  "source": {
+    "author": "A. C. Bhaktivedanta Swami Prabhupāda",
+    "edition": "Bhagavad-gītā As It Is",
+    "language": "en",
+    "provider": "vedabase.io"
+  },
+  "synonyms": {
+    "language": "en",
+    "items": [
+      {
+        "sanskrit": "yaḥ",
+        "meaning": "one who"
+      },
+      {
+        "sanskrit": "sarvatra",
+        "meaning": "everywhere"
+      },
+      {
+        "sanskrit": "anabhisnehaḥ",
+        "meaning": "without affection"
+      },
+      {
+        "sanskrit": "tat",
+        "meaning": "that"
+      },
+      {
+        "sanskrit": "tat",
+        "meaning": "that"
+      },
+      {
+        "sanskrit": "prāpya",
+        "meaning": "achieving"
+      },
+      {
+        "sanskrit": "śubha",
+        "meaning": "good"
+      },
+      {
+        "sanskrit": "aśubham",
+        "meaning": "evil"
+      },
+      {
+        "sanskrit": "na",
+        "meaning": "never"
+      },
+      {
+        "sanskrit": "abhinandati",
+        "meaning": "praises"
+      },
+      {
+        "sanskrit": "na",
+        "meaning": "never"
+      },
+      {
+        "sanskrit": "dveṣṭi",
+        "meaning": "envies"
+      },
+      {
+        "sanskrit": "tasya",
+        "meaning": "his"
+      },
+      {
+        "sanskrit": "prajñā",
+        "meaning": "perfect knowledge"
+      }
+    ]
+  }
+}

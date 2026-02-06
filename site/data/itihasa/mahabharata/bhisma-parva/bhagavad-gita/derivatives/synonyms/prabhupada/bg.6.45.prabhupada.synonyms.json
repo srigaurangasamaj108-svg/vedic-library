@@ -1,0 +1,75 @@
+{
+  "uid": "bg.6.45.prabhupada.synonyms",
+  "editorial_unit_ref": {
+    "uid": "bg.6.45.prabhupada",
+    "schema": "vedic-library.editorial.unit",
+    "version": "1.0.0"
+  },
+  "synonyms": {
+    "language": "en",
+    "author": "A. C. Bhaktivedanta Swami Prabhupāda",
+    "items": {
+      "language": "en",
+      "items": [
+        {
+          "sanskrit": "prayatnāt",
+          "meaning": "by rigid practice"
+        },
+        {
+          "sanskrit": "yatamānaḥ",
+          "meaning": "endeavoring"
+        },
+        {
+          "sanskrit": "tu",
+          "meaning": "and"
+        },
+        {
+          "sanskrit": "yogī",
+          "meaning": "such a transcendentalist"
+        },
+        {
+          "sanskrit": "saṁśuddha",
+          "meaning": "washed off"
+        },
+        {
+          "sanskrit": "kilbiṣaḥ",
+          "meaning": "all of whose sins"
+        },
+        {
+          "sanskrit": "aneka",
+          "meaning": "after many, many"
+        },
+        {
+          "sanskrit": "janma",
+          "meaning": "births"
+        },
+        {
+          "sanskrit": "saṁsiddhaḥ",
+          "meaning": "having achieved perfection"
+        },
+        {
+          "sanskrit": "tataḥ",
+          "meaning": "thereafter"
+        },
+        {
+          "sanskrit": "yāti",
+          "meaning": "attains"
+        },
+        {
+          "sanskrit": "parām",
+          "meaning": "the highest"
+        }
+      ]
+    }
+  },
+  "source": {
+    "derived_from": "vedabase.io",
+    "normalized_file": "vedabase-bg-06-45.normalized.json",
+    "pipeline_stage": "migration.m3",
+    "script": "m3_migrate_synonyms.py"
+  },
+  "schema": {
+    "name": "vedic-library.derivative.synonyms",
+    "version": "2.0.0"
+  }
+}

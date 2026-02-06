@@ -1,0 +1,67 @@
+{
+  "uid": "bg.6.43.prabhupada.synonyms",
+  "editorial_unit_ref": {
+    "uid": "bg.6.43.prabhupada",
+    "schema": "vedic-library.editorial.unit",
+    "version": "1.0.0"
+  },
+  "synonyms": {
+    "language": "en",
+    "author": "A. C. Bhaktivedanta Swami Prabhupāda",
+    "items": {
+      "language": "en",
+      "items": [
+        {
+          "sanskrit": "tatra",
+          "meaning": "thereupon"
+        },
+        {
+          "sanskrit": "tam",
+          "meaning": "that"
+        },
+        {
+          "sanskrit": "buddhi saṁyogam",
+          "meaning": "revival of consciousness"
+        },
+        {
+          "sanskrit": "labhate",
+          "meaning": "gains"
+        },
+        {
+          "sanskrit": "paurva dehikam",
+          "meaning": "from the previous body"
+        },
+        {
+          "sanskrit": "yatate",
+          "meaning": "he endeavors"
+        },
+        {
+          "sanskrit": "ca",
+          "meaning": "also"
+        },
+        {
+          "sanskrit": "tataḥ",
+          "meaning": "thereafter"
+        },
+        {
+          "sanskrit": "bhūyaḥ",
+          "meaning": "again"
+        },
+        {
+          "sanskrit": "saṁsiddhau",
+          "meaning": "for perfection"
+        }
+      ]
+    }
+  },
+  "source": {
+    "derived_from": "vedabase.io",
+    "normalized_file": "vedabase-bg-06-43.normalized.json",
+    "pipeline_stage": "migration.m3",
+    "script": "m3_migrate_synonyms.py"
+  },
+  "schema": {
+    "name": "vedic-library.derivative.synonyms",
+    "version": "2.0.0"
+  }
+}

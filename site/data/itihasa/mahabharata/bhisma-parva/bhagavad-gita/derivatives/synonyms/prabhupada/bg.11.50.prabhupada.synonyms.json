@@ -1,0 +1,95 @@
+{
+  "uid": "bg.11.50.prabhupada.synonyms",
+  "editorial_unit_ref": {
+    "uid": "bg.11.50.prabhupada",
+    "schema": "vedic-library.editorial.unit",
+    "version": "1.0.0"
+  },
+  "synonyms": {
+    "language": "en",
+    "author": "A. C. Bhaktivedanta Swami Prabhupāda",
+    "items": {
+      "language": "en",
+      "items": [
+        {
+          "sanskrit": "sañjayaḥ uvāca",
+          "meaning": "Sañjaya said"
+        },
+        {
+          "sanskrit": "iti",
+          "meaning": "thus"
+        },
+        {
+          "sanskrit": "arjunam",
+          "meaning": "unto Arjuna"
+        },
+        {
+          "sanskrit": "vāsudevaḥ",
+          "meaning": "Kṛṣṇa"
+        },
+        {
+          "sanskrit": "tathā",
+          "meaning": "in that way"
+        },
+        {
+          "sanskrit": "uktvā",
+          "meaning": "speaking"
+        },
+        {
+          "sanskrit": "svakam",
+          "meaning": "His own"
+        },
+        {
+          "sanskrit": "rūpam",
+          "meaning": "form"
+        },
+        {
+          "sanskrit": "darśayām āsa",
+          "meaning": "showed"
+        },
+        {
+          "sanskrit": "bhūyaḥ",
+          "meaning": "again"
+        },
+        {
+          "sanskrit": "āśvāsayām āsa",
+          "meaning": "encouraged"
+        },
+        {
+          "sanskrit": "ca",
+          "meaning": "also"
+        },
+        {
+          "sanskrit": "bhītam",
+          "meaning": "fearful"
+        },
+        {
+          "sanskrit": "enam",
+          "meaning": "him"
+        },
+        {
+          "sanskrit": "bhūtvā",
+          "meaning": "becoming"
+        },
+        {
+          "sanskrit": "punaḥ",
+          "meaning": "again"
+        },
+        {
+          "sanskrit": "saumya vapuḥ",
+          "meaning": "the beautiful form"
+        }
+      ]
+    }
+  },
+  "source": {
+    "derived_from": "vedabase.io",
+    "normalized_file": "vedabase-bg-11-50.normalized.json",
+    "pipeline_stage": "migration.m3",
+    "script": "m3_migrate_synonyms.py"
+  },
+  "schema": {
+    "name": "vedic-library.derivative.synonyms",
+    "version": "2.0.0"
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "uid": "bg.16.23",
+  "work": {
+    "corpus": "itihasa",
+    "text": "mahabharata",
+    "section": "bhisma-parva",
+    "subwork": "bhagavad-gita"
+  },
+  "location": {
+    "chapter": 16,
+    "verse": 23
+  },
+  "text": {
+    "script": "devanagari",
+    "content": "य: शास्त्रविधिमुत्सृज्य वर्तते कामकारत: ।\nन स सिद्धिमवाप्‍नोति न सुखं न परां गतिम्\n॥ २३ ॥"
+  },
+  "transliteration": {
+    "scheme": "iast",
+    "content": "ya: śāstravidhimutsṛjya vartate kāmakārata: |\nna sa siddhimavāp‍noti na sukhaṃ na parāṃ gatim\n|| 23 ||"
+  },
+  "source": {
+    "pipeline": "bhagavad-gita",
+    "stage": "2.5",
+    "script": "s25_realign_iast_bg.py",
+    "script_version": "2.2.0",
+    "derived_from": [
+      "vedabase/raw-json/bg-16-23.json"
+    ]
+  },
+  "schema": {
+    "name": "vedic-library.canonical.verse",
+    "version": "1.0.0"
+  }
+}

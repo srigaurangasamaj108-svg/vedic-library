@@ -1,0 +1,34 @@
+{
+  "uid": "bg.18.74",
+  "work": {
+    "corpus": "itihasa",
+    "text": "mahabharata",
+    "section": "bhisma-parva",
+    "subwork": "bhagavad-gita"
+  },
+  "location": {
+    "chapter": 18,
+    "verse": 74
+  },
+  "text": {
+    "script": "devanagari",
+    "content": "इत्यहं वासुदेवस्य पार्थस्य च महात्मन: ।\nसंवादमिममश्रौषमद्भुतं रोमहर्षणम्\n॥ ७४ ॥"
+  },
+  "transliteration": {
+    "scheme": "iast",
+    "content": "ityahaṃ vāsudevasya pārthasya ca mahātmana: |\nsaṃvādamimamaśrauṣamadbhutaṃ romaharṣaṇam\n|| 74 ||"
+  },
+  "source": {
+    "pipeline": "bhagavad-gita",
+    "stage": "2.5",
+    "script": "s25_realign_iast_bg.py",
+    "script_version": "2.2.0",
+    "derived_from": [
+      "vedabase/raw-json/bg-18-74.json"
+    ]
+  },
+  "schema": {
+    "name": "vedic-library.canonical.verse",
+    "version": "1.0.0"
+  }
+}

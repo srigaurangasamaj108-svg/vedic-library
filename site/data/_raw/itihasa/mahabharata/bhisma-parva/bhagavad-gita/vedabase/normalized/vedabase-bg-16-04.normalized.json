@@ -1,0 +1,80 @@
+{
+  "temp_id": "vedabase-bg-16-04",
+  "chapter": 16,
+  "verse": 4,
+  "verse_id": "bg-16-04",
+  "verse_group": null,
+  "composite": false,
+  "sanskrit": {
+    "devanagari": "दम्भो दर्पोऽभिमानश्च क्रोध: पारुष्यमेव च ।\nअज्ञानं चाभिजातस्य पार्थ सम्पदमासुरीम् ॥ ४ ॥",
+    "iast": "dambho darpo ’bhimānaś ca\nkrodhaḥ pāruṣyam eva ca\najñānaṁ cābhijātasya\npārtha sampadam āsurīm"
+  },
+  "synonyms_raw": "dambhaḥ\n—\npride\n;\ndarpaḥ\n—\narrogance\n;\nabhimānaḥ\n—\nconceit\n;\nca\n—\nand\n;\nkrodhaḥ\n—\nanger\n;\npāruṣyam\n—\nharshness\n;\neva\n—\ncertainly\n;\nca\n—\nand\n;\najñānam\n—\nignorance\n;\nca\n—\nand\n;\nabhijātasya\n—\nof one who is born of\n;\npārtha\n—\nO son of Pṛthā\n;\nsampadam\n—\nthe qualities\n;\nāsurīm\n—\nof the demoniac nature\n.",
+  "translation": "Pride, arrogance, conceit, anger, harshness and ignorance – these qualities belong to those of demoniac nature, O son of Pṛthā.",
+  "purport": [
+    "In this verse, the royal road to hell is described. The demoniac want to make a show of religion and advancement in spiritual science, although they do not follow the principles. They are always arrogant or proud in possessing some type of education or so much wealth. They desire to be worshiped by others, and demand respectability, although they do not command respect. Over trifles they become very angry and speak harshly, not gently. They do not know what should be done and what should not be done. They do everything whimsically, according to their own desire, and they do not recognize any authority. These demoniac qualities are taken on by them from the beginning of their bodies in the wombs of their mothers, and as they grow they manifest all these inauspicious qualities."
+  ],
+  "source": {
+    "author": "A. C. Bhaktivedanta Swami Prabhupāda",
+    "edition": "Bhagavad-gītā As It Is",
+    "language": "en",
+    "provider": "vedabase.io"
+  },
+  "synonyms": {
+    "language": "en",
+    "items": [
+      {
+        "sanskrit": "dambhaḥ",
+        "meaning": "pride"
+      },
+      {
+        "sanskrit": "darpaḥ",
+        "meaning": "arrogance"
+      },
+      {
+        "sanskrit": "abhimānaḥ",
+        "meaning": "conceit"
+      },
+      {
+        "sanskrit": "ca",
+        "meaning": "and"
+      },
+      {
+        "sanskrit": "krodhaḥ",
+        "meaning": "anger"
+      },
+      {
+        "sanskrit": "pāruṣyam",
+        "meaning": "harshness"
+      },
+      {
+        "sanskrit": "eva",
+        "meaning": "certainly"
+      },
+      {
+        "sanskrit": "ca",
+        "meaning": "and"
+      },
+      {
+        "sanskrit": "ajñānam",
+        "meaning": "ignorance"
+      },
+      {
+        "sanskrit": "ca",
+        "meaning": "and"
+      },
+      {
+        "sanskrit": "abhijātasya",
+        "meaning": "of one who is born of"
+      },
+      {
+        "sanskrit": "pārtha",
+        "meaning": "O son of Pṛthā"
+      },
+      {
+        "sanskrit": "sampadam",
+        "meaning": "the qualities"
+      }
+    ]
+  }
+}

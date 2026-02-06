@@ -1,0 +1,17 @@
+{
+  "schema": "vedic-library.exposition",
+  "schema_version": "1.0.0",
+  "uid": "bg.1.46.prabhupada.exposition",
+  "editorial_unit_ref": "bg.1.46.prabhupada",
+  "exposition": {
+    "type": "purport",
+    "language": "en",
+    "author": "A. C. Bhaktivedanta Swami Prabhupāda",
+    "content": "While observing the situation of his enemy, Arjuna stood up on the chariot, but he was so afflicted with lamentation that he sat down again, setting aside his bow and arrows. Such a kind and soft-hearted person, in the devotional service of the Lord, is fit to receive self-knowledge.\n\nThus end the Bhaktivedanta Purports to the First Chapter of the\n\nŚrīmad Bhagavad-gītā\n\nin the matter of Observing the Armies on the Battlefield of Kurukṣetra."
+  },
+  "source": {
+    "edition": "Bhagavad-gītā As It Is",
+    "editor": "BBT",
+    "lineage": "Gaudiya Vaishnava"
+  }
+}

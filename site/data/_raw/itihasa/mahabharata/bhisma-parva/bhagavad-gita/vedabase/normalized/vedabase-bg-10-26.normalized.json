@@ -1,0 +1,64 @@
+{
+  "temp_id": "vedabase-bg-10-26",
+  "chapter": 10,
+  "verse": 26,
+  "verse_id": "bg-10-26",
+  "verse_group": null,
+  "composite": false,
+  "sanskrit": {
+    "devanagari": "अश्वत्थ: सर्ववृक्षाणां देवर्षीणां च नारद: ।\nगन्धर्वाणां चित्ररथ: सिद्धानां कपिलो मुनि: ॥ २६ ॥",
+    "iast": "aśvatthaḥ sarva-vṛkṣāṇāṁ\ndevarṣīṇāṁ ca nāradaḥ\ngandharvāṇāṁ citrarathaḥ\nsiddhānāṁ kapilo muniḥ"
+  },
+  "synonyms_raw": "aśvatthaḥ\n—\nthe banyan tree\n;\nsarva\n-\nvṛkṣāṇām\n—\nof all trees\n;\ndeva\n-\nṛṣīṇām\n—\nof all the sages amongst the demigods\n;\nca\n—\nand\n;\nnāradaḥ\n—\nNārada\n;\ngandharvāṇām\n—\nof the citizens of the Gandharva planet\n;\ncitrarathaḥ\n—\nCitraratha\n;\nsiddhānām\n—\nof all those who are perfected\n;\nkapilaḥ\nmuniḥ\n—\nKapila Muni\n.",
+  "translation": "Of all trees I am the banyan tree, and of the sages among the demigods I am Nārada. Of the Gandharvas I am Citraratha, and among perfected beings I am the sage Kapila.",
+  "purport": [
+    "The banyan tree (",
+    "aśvattha",
+    ") is one of the highest and most beautiful trees, and people in India often worship it as one of their daily morning rituals. Amongst the demigods they also worship Nārada, who is considered the greatest devotee in the universe. Thus he is the representation of Kṛṣṇa as a devotee. The Gandharva planet is filled with entities who sing beautifully, and among them the best singer is Citraratha. Amongst the perfect living entities, Kapila, the son of Devahūti, is a representative of Kṛṣṇa. He is considered an incarnation of Kṛṣṇa, and His philosophy is mentioned in the",
+    "Śrīmad-Bhāgavatam.",
+    "Later on another Kapila became famous, but his philosophy was atheistic. Thus there is a gulf of difference between them."
+  ],
+  "source": {
+    "author": "A. C. Bhaktivedanta Swami Prabhupāda",
+    "edition": "Bhagavad-gītā As It Is",
+    "language": "en",
+    "provider": "vedabase.io"
+  },
+  "synonyms": {
+    "language": "en",
+    "items": [
+      {
+        "sanskrit": "aśvatthaḥ",
+        "meaning": "the banyan tree"
+      },
+      {
+        "sanskrit": "sarva vṛkṣāṇām",
+        "meaning": "of all trees"
+      },
+      {
+        "sanskrit": "deva ṛṣīṇām",
+        "meaning": "of all the sages amongst the demigods"
+      },
+      {
+        "sanskrit": "ca",
+        "meaning": "and"
+      },
+      {
+        "sanskrit": "nāradaḥ",
+        "meaning": "Nārada"
+      },
+      {
+        "sanskrit": "gandharvāṇām",
+        "meaning": "of the citizens of the Gandharva planet"
+      },
+      {
+        "sanskrit": "citrarathaḥ",
+        "meaning": "Citraratha"
+      },
+      {
+        "sanskrit": "siddhānām",
+        "meaning": "of all those who are perfected"
+      }
+    ]
+  }
+}

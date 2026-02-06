@@ -1,0 +1,17 @@
+{
+  "schema": "vedic-library.exposition",
+  "schema_version": "1.0.0",
+  "uid": "bg.17.13.prabhupada.exposition",
+  "editorial_unit_ref": "bg.17.13.prabhupada",
+  "exposition": {
+    "type": "purport",
+    "language": "en",
+    "author": "A. C. Bhaktivedanta Swami Prabhupāda",
+    "content": "Faith in the mode of darkness or ignorance is actually faithlessness. Sometimes people worship some demigod just to make money and then spend the money for recreation, ignoring the scriptural injunctions. Such ceremonial shows of religiosity are not accepted as genuine. They are all in the mode of darkness; they produce a demoniac mentality and do not benefit human society."
+  },
+  "source": {
+    "edition": "Bhagavad-gītā As It Is",
+    "editor": "BBT",
+    "lineage": "Gaudiya Vaishnava"
+  }
+}

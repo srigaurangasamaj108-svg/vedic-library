@@ -1,0 +1,63 @@
+{
+  "uid": "bg.6.15.prabhupada.synonyms",
+  "editorial_unit_ref": {
+    "uid": "bg.6.15.prabhupada",
+    "schema": "vedic-library.editorial.unit",
+    "version": "1.0.0"
+  },
+  "synonyms": {
+    "language": "en",
+    "author": "A. C. Bhaktivedanta Swami Prabhupāda",
+    "items": {
+      "language": "en",
+      "items": [
+        {
+          "sanskrit": "yuñjan",
+          "meaning": "practicing"
+        },
+        {
+          "sanskrit": "evam",
+          "meaning": "as mentioned above"
+        },
+        {
+          "sanskrit": "sadā",
+          "meaning": "constantly"
+        },
+        {
+          "sanskrit": "ātmānam",
+          "meaning": "body, mind and soul"
+        },
+        {
+          "sanskrit": "yogī",
+          "meaning": "the mystic transcendentalist"
+        },
+        {
+          "sanskrit": "niyata mānasaḥ",
+          "meaning": "with a regulated mind"
+        },
+        {
+          "sanskrit": "śāntim",
+          "meaning": "peace"
+        },
+        {
+          "sanskrit": "nirvāṇa paramām",
+          "meaning": "cessation of material existence"
+        },
+        {
+          "sanskrit": "mat saṁsthām",
+          "meaning": "the spiritual sky (the kingdom of God)"
+        }
+      ]
+    }
+  },
+  "source": {
+    "derived_from": "vedabase.io",
+    "normalized_file": "vedabase-bg-06-15.normalized.json",
+    "pipeline_stage": "migration.m3",
+    "script": "m3_migrate_synonyms.py"
+  },
+  "schema": {
+    "name": "vedic-library.derivative.synonyms",
+    "version": "2.0.0"
+  }
+}

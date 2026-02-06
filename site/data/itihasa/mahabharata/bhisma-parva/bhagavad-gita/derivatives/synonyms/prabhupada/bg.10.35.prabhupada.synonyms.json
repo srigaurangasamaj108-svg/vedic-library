@@ -1,0 +1,67 @@
+{
+  "uid": "bg.10.35.prabhupada.synonyms",
+  "editorial_unit_ref": {
+    "uid": "bg.10.35.prabhupada",
+    "schema": "vedic-library.editorial.unit",
+    "version": "1.0.0"
+  },
+  "synonyms": {
+    "language": "en",
+    "author": "A. C. Bhaktivedanta Swami Prabhupāda",
+    "items": {
+      "language": "en",
+      "items": [
+        {
+          "sanskrit": "bṛhat sāma",
+          "meaning": "the Bṛhat-sāma"
+        },
+        {
+          "sanskrit": "tathā",
+          "meaning": "also"
+        },
+        {
+          "sanskrit": "sāmnām",
+          "meaning": "of the Sāma Veda songs"
+        },
+        {
+          "sanskrit": "gāyatrī",
+          "meaning": "the Gāyatrī hymns"
+        },
+        {
+          "sanskrit": "chandasām",
+          "meaning": "of all poetry"
+        },
+        {
+          "sanskrit": "aham",
+          "meaning": "I am"
+        },
+        {
+          "sanskrit": "māsānām",
+          "meaning": "of months"
+        },
+        {
+          "sanskrit": "mārga śīrṣaḥ",
+          "meaning": "the month of November-December"
+        },
+        {
+          "sanskrit": "aham",
+          "meaning": "I am"
+        },
+        {
+          "sanskrit": "ṛtūnām",
+          "meaning": "of all seasons"
+        }
+      ]
+    }
+  },
+  "source": {
+    "derived_from": "vedabase.io",
+    "normalized_file": "vedabase-bg-10-35.normalized.json",
+    "pipeline_stage": "migration.m3",
+    "script": "m3_migrate_synonyms.py"
+  },
+  "schema": {
+    "name": "vedic-library.derivative.synonyms",
+    "version": "2.0.0"
+  }
+}

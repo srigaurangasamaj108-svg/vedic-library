@@ -1,0 +1,71 @@
+{
+  "uid": "bg.4.26.prabhupada.synonyms",
+  "editorial_unit_ref": {
+    "uid": "bg.4.26.prabhupada",
+    "schema": "vedic-library.editorial.unit",
+    "version": "1.0.0"
+  },
+  "synonyms": {
+    "language": "en",
+    "author": "A. C. Bhaktivedanta Swami Prabhupāda",
+    "items": {
+      "language": "en",
+      "items": [
+        {
+          "sanskrit": "śrotra ādīni",
+          "meaning": "such as the hearing process"
+        },
+        {
+          "sanskrit": "indriyāṇi",
+          "meaning": "senses"
+        },
+        {
+          "sanskrit": "anye",
+          "meaning": "others"
+        },
+        {
+          "sanskrit": "saṁyama",
+          "meaning": "of restraint"
+        },
+        {
+          "sanskrit": "agniṣu",
+          "meaning": "in the fires"
+        },
+        {
+          "sanskrit": "juhvati",
+          "meaning": "offer"
+        },
+        {
+          "sanskrit": "śabda ādīn",
+          "meaning": "sound vibration, etc."
+        },
+        {
+          "sanskrit": "viṣayān",
+          "meaning": "objects of sense gratification"
+        },
+        {
+          "sanskrit": "anye",
+          "meaning": "others"
+        },
+        {
+          "sanskrit": "indriya",
+          "meaning": "of the sense organs"
+        },
+        {
+          "sanskrit": "agniṣu",
+          "meaning": "in the fires"
+        }
+      ]
+    }
+  },
+  "source": {
+    "derived_from": "vedabase.io",
+    "normalized_file": "vedabase-bg-04-26.normalized.json",
+    "pipeline_stage": "migration.m3",
+    "script": "m3_migrate_synonyms.py"
+  },
+  "schema": {
+    "name": "vedic-library.derivative.synonyms",
+    "version": "2.0.0"
+  }
+}

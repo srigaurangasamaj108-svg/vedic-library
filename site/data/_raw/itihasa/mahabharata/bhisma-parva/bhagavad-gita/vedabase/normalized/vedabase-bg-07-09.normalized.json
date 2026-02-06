@@ -1,0 +1,89 @@
+{
+  "temp_id": "vedabase-bg-07-09",
+  "chapter": 7,
+  "verse": 9,
+  "verse_id": "bg-07-09",
+  "verse_group": null,
+  "composite": false,
+  "sanskrit": {
+    "devanagari": "पुण्यो गन्ध: पृथिव्यां च तेजश्चास्मि विभावसौ ।\nजीवनं सर्वभूतेषु तपश्चास्मि तपस्विषु ॥ ९ ॥",
+    "iast": "puṇyo gandhaḥ pṛthivyāṁ ca\ntejaś cāsmi vibhāvasau\njīvanaṁ sarva-bhūteṣu\ntapaś cāsmi tapasviṣu"
+  },
+  "synonyms_raw": "puṇyaḥ\n—\noriginal\n;\ngandhaḥ\n—\nfragrance\n;\npṛthivyām\n—\nin the earth\n;\nca\n—\nalso\n;\ntejaḥ\n—\nheat\n;\nca\n—\nalso\n;\nasmi\n—\nI am\n;\nvibhāvasau\n—\nin the fire\n;\njīvanam\n—\nlife\n;\nsarva\n—\nin all\n;\nbhūteṣu\n—\nliving entities\n;\ntapaḥ\n—\npenance\n;\nca\n—\nalso\n;\nasmi\n—\nI am\n;\ntapasviṣu\n—\nin those who practice penance\n.",
+  "translation": "I am the original fragrance of the earth, and I am the heat in fire. I am the life of all that lives, and I am the penances of all ascetics.",
+  "purport": [
+    "Puṇya",
+    "means that which is not decomposed;",
+    "puṇya",
+    "is original. Everything in the material world has a certain flavor or fragrance, as the flavor and fragrance in a flower, or in the earth, in water, in fire, in air, etc. The uncontaminated flavor, the original flavor, which permeates everything, is Kṛṣṇa. Similarly, everything has a particular original taste, and this taste can be changed by the mixture of chemicals. So everything original has some smell, some fragrance and some taste.",
+    "Vibhāvasu",
+    "means fire. Without fire we cannot run factories, we cannot cook, etc., and that fire is Kṛṣṇa. The heat in the fire is Kṛṣṇa. According to Vedic medicine, indigestion is due to a low temperature in the belly. So even for digestion fire is needed. In Kṛṣṇa consciousness we become aware that earth, water, fire, air and every active principle, all chemicals and all material elements are due to Kṛṣṇa. The duration of man’s life is also due to Kṛṣṇa. Therefore by the grace of Kṛṣṇa, man can prolong his life or diminish it. So Kṛṣṇa consciousness is active in every sphere."
+  ],
+  "source": {
+    "author": "A. C. Bhaktivedanta Swami Prabhupāda",
+    "edition": "Bhagavad-gītā As It Is",
+    "language": "en",
+    "provider": "vedabase.io"
+  },
+  "synonyms": {
+    "language": "en",
+    "items": [
+      {
+        "sanskrit": "puṇyaḥ",
+        "meaning": "original"
+      },
+      {
+        "sanskrit": "gandhaḥ",
+        "meaning": "fragrance"
+      },
+      {
+        "sanskrit": "pṛthivyām",
+        "meaning": "in the earth"
+      },
+      {
+        "sanskrit": "ca",
+        "meaning": "also"
+      },
+      {
+        "sanskrit": "tejaḥ",
+        "meaning": "heat"
+      },
+      {
+        "sanskrit": "ca",
+        "meaning": "also"
+      },
+      {
+        "sanskrit": "asmi",
+        "meaning": "I am"
+      },
+      {
+        "sanskrit": "vibhāvasau",
+        "meaning": "in the fire"
+      },
+      {
+        "sanskrit": "jīvanam",
+        "meaning": "life"
+      },
+      {
+        "sanskrit": "sarva",
+        "meaning": "in all"
+      },
+      {
+        "sanskrit": "bhūteṣu",
+        "meaning": "living entities"
+      },
+      {
+        "sanskrit": "tapaḥ",
+        "meaning": "penance"
+      },
+      {
+        "sanskrit": "ca",
+        "meaning": "also"
+      },
+      {
+        "sanskrit": "asmi",
+        "meaning": "I am"
+      }
+    ]
+  }
+}

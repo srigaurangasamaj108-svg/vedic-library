@@ -1,0 +1,23 @@
+{
+  "uid": "bg.14.16.prabhupada.translation.en",
+  "editorial_unit_ref": {
+    "uid": "bg.14.16.prabhupada",
+    "schema": "vedic-library.editorial.unit",
+    "version": "1.0.0"
+  },
+  "translation": {
+    "language": "en",
+    "translator": "A. C. Bhaktivedanta Swami Prabhupāda",
+    "content": "The result of pious action is pure and is said to be in the mode of goodness. But action done in the mode of passion results in misery, and action performed in the mode of ignorance results in foolishness."
+  },
+  "source": {
+    "derived_from": "vedabase.io",
+    "normalized_file": "vedabase-bg-14-16.normalized.json",
+    "pipeline_stage": "migration.m2",
+    "script": "m2_migrate_translations.py"
+  },
+  "schema": {
+    "name": "vedic-library.derivative.translation",
+    "version": "2.0.0"
+  }
+}

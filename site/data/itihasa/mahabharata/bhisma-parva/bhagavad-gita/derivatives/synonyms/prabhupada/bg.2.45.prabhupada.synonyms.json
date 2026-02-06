@@ -1,0 +1,63 @@
+{
+  "uid": "bg.2.45.prabhupada.synonyms",
+  "editorial_unit_ref": {
+    "uid": "bg.2.45.prabhupada",
+    "schema": "vedic-library.editorial.unit",
+    "version": "1.0.0"
+  },
+  "synonyms": {
+    "language": "en",
+    "author": "A. C. Bhaktivedanta Swami Prabhupāda",
+    "items": {
+      "language": "en",
+      "items": [
+        {
+          "sanskrit": "trai guṇya",
+          "meaning": "pertaining to the three modes of material nature"
+        },
+        {
+          "sanskrit": "viṣayāḥ",
+          "meaning": "on the subject matter"
+        },
+        {
+          "sanskrit": "vedāḥ",
+          "meaning": "Vedic literatures"
+        },
+        {
+          "sanskrit": "nistrai guṇyaḥ",
+          "meaning": "transcendental to the three modes of material nature"
+        },
+        {
+          "sanskrit": "bhava",
+          "meaning": "be"
+        },
+        {
+          "sanskrit": "arjuna",
+          "meaning": "O Arjuna"
+        },
+        {
+          "sanskrit": "nirdvandvaḥ",
+          "meaning": "without duality"
+        },
+        {
+          "sanskrit": "nitya sattva sthaḥ",
+          "meaning": "in a pure state of spiritual existence"
+        },
+        {
+          "sanskrit": "niryoga kṣemaḥ",
+          "meaning": "free from ideas of gain and protection"
+        }
+      ]
+    }
+  },
+  "source": {
+    "derived_from": "vedabase.io",
+    "normalized_file": "vedabase-bg-02-45.normalized.json",
+    "pipeline_stage": "migration.m3",
+    "script": "m3_migrate_synonyms.py"
+  },
+  "schema": {
+    "name": "vedic-library.derivative.synonyms",
+    "version": "2.0.0"
+  }
+}

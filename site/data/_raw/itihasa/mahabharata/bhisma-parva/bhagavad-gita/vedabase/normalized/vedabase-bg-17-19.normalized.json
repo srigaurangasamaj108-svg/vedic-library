@@ -1,0 +1,76 @@
+{
+  "temp_id": "vedabase-bg-17-19",
+  "chapter": 17,
+  "verse": 19,
+  "verse_id": "bg-17-19",
+  "verse_group": null,
+  "composite": false,
+  "sanskrit": {
+    "devanagari": "मूढग्राहेणात्मनो यत्पीडया क्रियते तप: ।\nपरस्योत्सादनार्थं वा तत्तामसमुदाहृतम् ॥ १९ ॥",
+    "iast": "mūḍha-grāheṇātmano yat\npīḍayā kriyate tapaḥ\nparasyotsādanārthaṁ vā\ntat tāmasam udāhṛtam"
+  },
+  "synonyms_raw": "mūḍha\n—\nfoolish\n;\ngrāheṇa\n—\nwith endeavor\n;\nātmanaḥ\n—\nof one’s own self\n;\nyat\n—\nwhich\n;\npīḍayā\n—\nby torture\n;\nkriyate\n—\nis performed\n;\ntapaḥ\n—\npenance\n;\nparasya\n—\nto others\n;\nutsādana\n-\nartham\n—\nfor the sake of causing annihilation\n;\nvā\n—\nor\n;\ntat\n—\nthat\n;\ntāmasam\n—\nin the mode of darkness\n;\nudāhṛtam\n—\nis said to be\n.",
+  "translation": "Penance performed out of foolishness, with self-torture or to destroy or injure others, is said to be in the mode of ignorance.",
+  "purport": [
+    "There are instances of foolish penance undertaken by demons like Hiraṇyakaśipu, who performed austere penances to become immortal and kill the demigods. He prayed to Brahmā for such things, but ultimately he was killed by the Supreme Personality of Godhead. To undergo penances for something which is impossible is certainly in the mode of ignorance."
+  ],
+  "source": {
+    "author": "A. C. Bhaktivedanta Swami Prabhupāda",
+    "edition": "Bhagavad-gītā As It Is",
+    "language": "en",
+    "provider": "vedabase.io"
+  },
+  "synonyms": {
+    "language": "en",
+    "items": [
+      {
+        "sanskrit": "mūḍha",
+        "meaning": "foolish"
+      },
+      {
+        "sanskrit": "grāheṇa",
+        "meaning": "with endeavor"
+      },
+      {
+        "sanskrit": "ātmanaḥ",
+        "meaning": "of one’s own self"
+      },
+      {
+        "sanskrit": "yat",
+        "meaning": "which"
+      },
+      {
+        "sanskrit": "pīḍayā",
+        "meaning": "by torture"
+      },
+      {
+        "sanskrit": "kriyate",
+        "meaning": "is performed"
+      },
+      {
+        "sanskrit": "tapaḥ",
+        "meaning": "penance"
+      },
+      {
+        "sanskrit": "parasya",
+        "meaning": "to others"
+      },
+      {
+        "sanskrit": "utsādana artham",
+        "meaning": "for the sake of causing annihilation"
+      },
+      {
+        "sanskrit": "vā",
+        "meaning": "or"
+      },
+      {
+        "sanskrit": "tat",
+        "meaning": "that"
+      },
+      {
+        "sanskrit": "tāmasam",
+        "meaning": "in the mode of darkness"
+      }
+    ]
+  }
+}

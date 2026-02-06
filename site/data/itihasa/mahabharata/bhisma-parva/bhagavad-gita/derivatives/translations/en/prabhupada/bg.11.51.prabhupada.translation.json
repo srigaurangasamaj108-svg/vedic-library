@@ -1,0 +1,23 @@
+{
+  "uid": "bg.11.51.prabhupada.translation.en",
+  "editorial_unit_ref": {
+    "uid": "bg.11.51.prabhupada",
+    "schema": "vedic-library.editorial.unit",
+    "version": "1.0.0"
+  },
+  "translation": {
+    "language": "en",
+    "translator": "A. C. Bhaktivedanta Swami Prabhupāda",
+    "content": "When Arjuna thus saw Kṛṣṇa in His original form, he said: O Janārdana, seeing this humanlike form, so very beautiful, I am now composed in mind, and I am restored to my original nature."
+  },
+  "source": {
+    "derived_from": "vedabase.io",
+    "normalized_file": "vedabase-bg-11-51.normalized.json",
+    "pipeline_stage": "migration.m2",
+    "script": "m2_migrate_translations.py"
+  },
+  "schema": {
+    "name": "vedic-library.derivative.translation",
+    "version": "2.0.0"
+  }
+}

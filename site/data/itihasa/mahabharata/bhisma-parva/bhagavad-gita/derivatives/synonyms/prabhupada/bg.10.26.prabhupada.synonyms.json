@@ -1,0 +1,59 @@
+{
+  "uid": "bg.10.26.prabhupada.synonyms",
+  "editorial_unit_ref": {
+    "uid": "bg.10.26.prabhupada",
+    "schema": "vedic-library.editorial.unit",
+    "version": "1.0.0"
+  },
+  "synonyms": {
+    "language": "en",
+    "author": "A. C. Bhaktivedanta Swami Prabhupāda",
+    "items": {
+      "language": "en",
+      "items": [
+        {
+          "sanskrit": "aśvatthaḥ",
+          "meaning": "the banyan tree"
+        },
+        {
+          "sanskrit": "sarva vṛkṣāṇām",
+          "meaning": "of all trees"
+        },
+        {
+          "sanskrit": "deva ṛṣīṇām",
+          "meaning": "of all the sages amongst the demigods"
+        },
+        {
+          "sanskrit": "ca",
+          "meaning": "and"
+        },
+        {
+          "sanskrit": "nāradaḥ",
+          "meaning": "Nārada"
+        },
+        {
+          "sanskrit": "gandharvāṇām",
+          "meaning": "of the citizens of the Gandharva planet"
+        },
+        {
+          "sanskrit": "citrarathaḥ",
+          "meaning": "Citraratha"
+        },
+        {
+          "sanskrit": "siddhānām",
+          "meaning": "of all those who are perfected"
+        }
+      ]
+    }
+  },
+  "source": {
+    "derived_from": "vedabase.io",
+    "normalized_file": "vedabase-bg-10-26.normalized.json",
+    "pipeline_stage": "migration.m3",
+    "script": "m3_migrate_synonyms.py"
+  },
+  "schema": {
+    "name": "vedic-library.derivative.synonyms",
+    "version": "2.0.0"
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "uid": "bg.18.22.prabhupada.synonyms",
+  "editorial_unit_ref": {
+    "uid": "bg.18.22.prabhupada",
+    "schema": "vedic-library.editorial.unit",
+    "version": "1.0.0"
+  },
+  "synonyms": {
+    "language": "en",
+    "author": "A. C. Bhaktivedanta Swami Prabhupāda",
+    "items": {
+      "language": "en",
+      "items": [
+        {
+          "sanskrit": "yat",
+          "meaning": "that which"
+        },
+        {
+          "sanskrit": "tu",
+          "meaning": "but"
+        },
+        {
+          "sanskrit": "kṛtsna vat",
+          "meaning": "as all in all"
+        },
+        {
+          "sanskrit": "ekasmin",
+          "meaning": "in one"
+        },
+        {
+          "sanskrit": "kārye",
+          "meaning": "work"
+        },
+        {
+          "sanskrit": "saktam",
+          "meaning": "attached"
+        },
+        {
+          "sanskrit": "ahaitukam",
+          "meaning": "without cause"
+        },
+        {
+          "sanskrit": "atattva artha vat",
+          "meaning": "without knowledge of reality"
+        },
+        {
+          "sanskrit": "alpam",
+          "meaning": "very meager"
+        },
+        {
+          "sanskrit": "ca",
+          "meaning": "and"
+        },
+        {
+          "sanskrit": "tat",
+          "meaning": "that"
+        },
+        {
+          "sanskrit": "tāmasam",
+          "meaning": "in the mode of darkness"
+        }
+      ]
+    }
+  },
+  "source": {
+    "derived_from": "vedabase.io",
+    "normalized_file": "vedabase-bg-18-22.normalized.json",
+    "pipeline_stage": "migration.m3",
+    "script": "m3_migrate_synonyms.py"
+  },
+  "schema": {
+    "name": "vedic-library.derivative.synonyms",
+    "version": "2.0.0"
+  }
+}

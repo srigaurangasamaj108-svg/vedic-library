@@ -1,0 +1,34 @@
+{
+  "uid": "bg.6.8",
+  "work": {
+    "corpus": "itihasa",
+    "text": "mahabharata",
+    "section": "bhisma-parva",
+    "subwork": "bhagavad-gita"
+  },
+  "location": {
+    "chapter": 6,
+    "verse": 8
+  },
+  "text": {
+    "script": "devanagari",
+    "content": "ज्ञानविज्ञानतृप्‍तात्मा कूटस्थो विजितेन्द्रिय: ।\nयुक्त इत्युच्यते योगी समलोष्ट्राश्मकाञ्चन:\n॥ ८ ॥"
+  },
+  "transliteration": {
+    "scheme": "iast",
+    "content": "jñānavijñānatṛp‍tātmā kūṭastho vijitendriya: |\nyukta ityucyate yogī samaloṣṭrāśmakāñcana:\n|| 8 ||"
+  },
+  "source": {
+    "pipeline": "bhagavad-gita",
+    "stage": "2.5",
+    "script": "s25_realign_iast_bg.py",
+    "script_version": "2.2.0",
+    "derived_from": [
+      "vedabase/raw-json/bg-06-08.json"
+    ]
+  },
+  "schema": {
+    "name": "vedic-library.canonical.verse",
+    "version": "1.0.0"
+  }
+}

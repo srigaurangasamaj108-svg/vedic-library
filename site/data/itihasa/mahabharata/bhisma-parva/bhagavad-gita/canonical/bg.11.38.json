@@ -1,0 +1,34 @@
+{
+  "uid": "bg.11.38",
+  "work": {
+    "corpus": "itihasa",
+    "text": "mahabharata",
+    "section": "bhisma-parva",
+    "subwork": "bhagavad-gita"
+  },
+  "location": {
+    "chapter": 11,
+    "verse": 38
+  },
+  "text": {
+    "script": "devanagari",
+    "content": "त्वमादिदेव: पुरुष: पुराण-\nस्त्वमस्य विश्वस्य परं निधानम् ।\nवेत्तासि वेद्यं च परं च धाम\nत्वया ततं विश्वमनन्तरूप\n॥ ३८ ॥"
+  },
+  "transliteration": {
+    "scheme": "iast",
+    "content": "tvamādideva: puruṣa: purāṇa-\nstvamasya viśvasya paraṃ nidhānam |\nvettāsi vedyaṃ ca paraṃ ca dhāma\ntvayā tataṃ viśvamanantarūpa\n|| 38 ||"
+  },
+  "source": {
+    "pipeline": "bhagavad-gita",
+    "stage": "2.5",
+    "script": "s25_realign_iast_bg.py",
+    "script_version": "2.2.0",
+    "derived_from": [
+      "vedabase/raw-json/bg-11-38.json"
+    ]
+  },
+  "schema": {
+    "name": "vedic-library.canonical.verse",
+    "version": "1.0.0"
+  }
+}

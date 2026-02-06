@@ -1,0 +1,80 @@
+{
+  "temp_id": "vedabase-bg-10-38",
+  "chapter": 10,
+  "verse": 38,
+  "verse_id": "bg-10-38",
+  "verse_group": null,
+  "composite": false,
+  "sanskrit": {
+    "devanagari": "दण्डो दमयतामस्मि नीतिरस्मि जिगीषताम् ।\nमौनं चैवास्मि गुह्यानां ज्ञानं ज्ञानवतामहम् ॥ ३८ ॥",
+    "iast": "daṇḍo damayatām asmi\nnītir asmi jigīṣatām\nmaunaṁ caivāsmi guhyānāṁ\njñānaṁ jñānavatām aham"
+  },
+  "synonyms_raw": "daṇḍaḥ\n—\npunishment\n;\ndamayatām\n—\nof all means of suppression\n;\nasmi\n—\nI am\n;\nnītiḥ\n—\nmorality\n;\nasmi\n—\nI am\n;\njigīṣatām\n—\nof those who seek victory\n;\nmaunam\n—\nsilence\n;\nca\n—\nand\n;\neva\n—\nalso\n;\nasmi\n—\nI am\n;\nguhyānām\n—\nof secrets\n;\njñānam\n—\nknowledge\n;\njñāna\n-\nvatām\n—\nof the wise\n;\naham\n—\nI am\n.",
+  "translation": "Among all means of suppressing lawlessness I am punishment, and of those who seek victory I am morality. Of secret things I am silence, and of the wise I am the wisdom.",
+  "purport": [
+    "There are many suppressing agents, of which the most important are those that cut down miscreants. When miscreants are punished, the agency of chastisement represents Kṛṣṇa. Among those who are trying to be victorious in some field of activity, the most victorious element is morality. Among the confidential activities of hearing, thinking and meditating, silence is most important because by silence one can make progress very quickly. The wise man is he who can discriminate between matter and spirit, between God’s superior and inferior natures. Such knowledge is Kṛṣṇa Himself."
+  ],
+  "source": {
+    "author": "A. C. Bhaktivedanta Swami Prabhupāda",
+    "edition": "Bhagavad-gītā As It Is",
+    "language": "en",
+    "provider": "vedabase.io"
+  },
+  "synonyms": {
+    "language": "en",
+    "items": [
+      {
+        "sanskrit": "daṇḍaḥ",
+        "meaning": "punishment"
+      },
+      {
+        "sanskrit": "damayatām",
+        "meaning": "of all means of suppression"
+      },
+      {
+        "sanskrit": "asmi",
+        "meaning": "I am"
+      },
+      {
+        "sanskrit": "nītiḥ",
+        "meaning": "morality"
+      },
+      {
+        "sanskrit": "asmi",
+        "meaning": "I am"
+      },
+      {
+        "sanskrit": "jigīṣatām",
+        "meaning": "of those who seek victory"
+      },
+      {
+        "sanskrit": "maunam",
+        "meaning": "silence"
+      },
+      {
+        "sanskrit": "ca",
+        "meaning": "and"
+      },
+      {
+        "sanskrit": "eva",
+        "meaning": "also"
+      },
+      {
+        "sanskrit": "asmi",
+        "meaning": "I am"
+      },
+      {
+        "sanskrit": "guhyānām",
+        "meaning": "of secrets"
+      },
+      {
+        "sanskrit": "jñānam",
+        "meaning": "knowledge"
+      },
+      {
+        "sanskrit": "jñāna vatām",
+        "meaning": "of the wise"
+      }
+    ]
+  }
+}

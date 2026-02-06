@@ -1,0 +1,26 @@
+{
+  "uid": "bg.11.41.translation.en.prabhupada",
+  "canonical_ref": {
+    "uid": "bg.11.41",
+    "schema": "vedic-library.canonical.verse",
+    "version": "1.0.0"
+  },
+  "translation": {
+    "language": "en",
+    "translator": "A.C. Bhaktivedanta Swami Prabhupāda",
+    "content": "Thinking of You as my friend, I have rashly addressed You “O Kṛṣṇa,” “O Yādava,” “O my friend,” not knowing Your glories. Please forgive whatever I may have done in madness or in love. I have dishonored You many times, jesting as we relaxed, lay on the same bed, or sat or ate together, sometimes alone and sometimes in front of many friends. O infallible one, please excuse me for all those offenses."
+  },
+  "source": {
+    "edition": "Bhagavad-gītā As It Is",
+    "publisher": "BBT",
+    "year": 1972,
+    "derived_from": "vedabase-bg-11-41-42.normalized.json",
+    "pipeline_stage": "3.1",
+    "script": "s31_extract_translation_prabhupada.py",
+    "script_version": "1.1.0"
+  },
+  "schema": {
+    "name": "vedic-library.derivative.translation",
+    "version": "1.0.0"
+  }
+}

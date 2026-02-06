@@ -1,0 +1,79 @@
+{
+  "uid": "bg.17.9.prabhupada.synonyms",
+  "editorial_unit_ref": {
+    "uid": "bg.17.9.prabhupada",
+    "schema": "vedic-library.editorial.unit",
+    "version": "1.0.0"
+  },
+  "synonyms": {
+    "language": "en",
+    "author": "A. C. Bhaktivedanta Swami Prabhupāda",
+    "items": {
+      "language": "en",
+      "items": [
+        {
+          "sanskrit": "kaṭu",
+          "meaning": "bitter"
+        },
+        {
+          "sanskrit": "amla",
+          "meaning": "sour"
+        },
+        {
+          "sanskrit": "lavaṇa",
+          "meaning": "salty"
+        },
+        {
+          "sanskrit": "ati uṣṇa",
+          "meaning": "very hot"
+        },
+        {
+          "sanskrit": "tīkṣṇa",
+          "meaning": "pungent"
+        },
+        {
+          "sanskrit": "rūkṣa",
+          "meaning": "dry"
+        },
+        {
+          "sanskrit": "vidāhinaḥ",
+          "meaning": "burning"
+        },
+        {
+          "sanskrit": "āhārāḥ",
+          "meaning": "food"
+        },
+        {
+          "sanskrit": "rājasasya",
+          "meaning": "to one in the mode of passion"
+        },
+        {
+          "sanskrit": "iṣṭāḥ",
+          "meaning": "palatable"
+        },
+        {
+          "sanskrit": "duḥkha",
+          "meaning": "distress"
+        },
+        {
+          "sanskrit": "śoka",
+          "meaning": "misery"
+        },
+        {
+          "sanskrit": "āmaya",
+          "meaning": "disease"
+        }
+      ]
+    }
+  },
+  "source": {
+    "derived_from": "vedabase.io",
+    "normalized_file": "vedabase-bg-17-09.normalized.json",
+    "pipeline_stage": "migration.m3",
+    "script": "m3_migrate_synonyms.py"
+  },
+  "schema": {
+    "name": "vedic-library.derivative.synonyms",
+    "version": "2.0.0"
+  }
+}

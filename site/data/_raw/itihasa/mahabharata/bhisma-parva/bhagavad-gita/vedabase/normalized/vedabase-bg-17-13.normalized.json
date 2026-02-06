@@ -1,0 +1,60 @@
+{
+  "temp_id": "vedabase-bg-17-13",
+  "chapter": 17,
+  "verse": 13,
+  "verse_id": "bg-17-13",
+  "verse_group": null,
+  "composite": false,
+  "sanskrit": {
+    "devanagari": "विधिहीनमसृष्टान्नं मन्‍त्रहीनमदक्षिणम् ।\nश्रद्धाविरहितं यज्ञं तामसं परिचक्षते ॥ १३ ॥",
+    "iast": "vidhi-hīnam asṛṣṭānnaṁ\nmantra-hīnam adakṣiṇam\nśraddhā-virahitaṁ yajñaṁ\ntāmasaṁ paricakṣate"
+  },
+  "synonyms_raw": "vidhi\n-\nhīnam\n—\nwithout scriptural direction\n;\nasṛṣṭa\n-\nannam\n—\nwithout distribution of\nprasādam\n;\nmantra\n-\nhīnam\n—\nwith no chanting of the Vedic hymns\n;\nadakṣiṇam\n—\nwith no remunerations to the priests\n;\nśraddhā\n—\nfaith\n;\nvirahitam\n—\nwithout\n;\nyajñam\n—\nsacrifice\n;\ntāmasam\n—\nin the mode of ignorance\n;\nparicakṣate\n—\nis to be considered\n.",
+  "translation": "Any sacrifice performed without regard for the directions of scripture, without distribution of prasādam [spiritual food], without chanting of Vedic hymns and remunerations to the priests, and without faith is considered to be in the mode of ignorance.",
+  "purport": [
+    "Faith in the mode of darkness or ignorance is actually faithlessness. Sometimes people worship some demigod just to make money and then spend the money for recreation, ignoring the scriptural injunctions. Such ceremonial shows of religiosity are not accepted as genuine. They are all in the mode of darkness; they produce a demoniac mentality and do not benefit human society."
+  ],
+  "source": {
+    "author": "A. C. Bhaktivedanta Swami Prabhupāda",
+    "edition": "Bhagavad-gītā As It Is",
+    "language": "en",
+    "provider": "vedabase.io"
+  },
+  "synonyms": {
+    "language": "en",
+    "items": [
+      {
+        "sanskrit": "vidhi hīnam",
+        "meaning": "without scriptural direction"
+      },
+      {
+        "sanskrit": "asṛṣṭa annam",
+        "meaning": "without distribution of prasādam"
+      },
+      {
+        "sanskrit": "mantra hīnam",
+        "meaning": "with no chanting of the Vedic hymns"
+      },
+      {
+        "sanskrit": "adakṣiṇam",
+        "meaning": "with no remunerations to the priests"
+      },
+      {
+        "sanskrit": "śraddhā",
+        "meaning": "faith"
+      },
+      {
+        "sanskrit": "virahitam",
+        "meaning": "without"
+      },
+      {
+        "sanskrit": "yajñam",
+        "meaning": "sacrifice"
+      },
+      {
+        "sanskrit": "tāmasam",
+        "meaning": "in the mode of ignorance"
+      }
+    ]
+  }
+}

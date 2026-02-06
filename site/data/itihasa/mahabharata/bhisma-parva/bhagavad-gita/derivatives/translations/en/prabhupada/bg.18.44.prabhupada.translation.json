@@ -1,0 +1,23 @@
+{
+  "uid": "bg.18.44.prabhupada.translation.en",
+  "editorial_unit_ref": {
+    "uid": "bg.18.44.prabhupada",
+    "schema": "vedic-library.editorial.unit",
+    "version": "1.0.0"
+  },
+  "translation": {
+    "language": "en",
+    "translator": "A. C. Bhaktivedanta Swami Prabhupāda",
+    "content": "Farming, cow protection and business are the natural work for the vaiśyas, and for the śūdras there are labor and service to others."
+  },
+  "source": {
+    "derived_from": "vedabase.io",
+    "normalized_file": "vedabase-bg-18-44.normalized.json",
+    "pipeline_stage": "migration.m2",
+    "script": "m2_migrate_translations.py"
+  },
+  "schema": {
+    "name": "vedic-library.derivative.translation",
+    "version": "2.0.0"
+  }
+}

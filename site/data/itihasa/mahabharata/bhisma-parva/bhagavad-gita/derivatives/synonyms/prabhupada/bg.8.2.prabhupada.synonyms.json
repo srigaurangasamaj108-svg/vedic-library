@@ -1,0 +1,71 @@
+{
+  "uid": "bg.8.2.prabhupada.synonyms",
+  "editorial_unit_ref": {
+    "uid": "bg.8.2.prabhupada",
+    "schema": "vedic-library.editorial.unit",
+    "version": "1.0.0"
+  },
+  "synonyms": {
+    "language": "en",
+    "author": "A. C. Bhaktivedanta Swami Prabhupāda",
+    "items": {
+      "language": "en",
+      "items": [
+        {
+          "sanskrit": "adhiyajñaḥ",
+          "meaning": "the Lord of sacrifice"
+        },
+        {
+          "sanskrit": "katham",
+          "meaning": "how"
+        },
+        {
+          "sanskrit": "kaḥ",
+          "meaning": "who"
+        },
+        {
+          "sanskrit": "atra",
+          "meaning": "here"
+        },
+        {
+          "sanskrit": "dehe",
+          "meaning": "in the body"
+        },
+        {
+          "sanskrit": "asmin",
+          "meaning": "this"
+        },
+        {
+          "sanskrit": "madhusūdana",
+          "meaning": "O Madhusūdana"
+        },
+        {
+          "sanskrit": "prayāṇa kāle",
+          "meaning": "at the time of death"
+        },
+        {
+          "sanskrit": "ca",
+          "meaning": "and"
+        },
+        {
+          "sanskrit": "katham",
+          "meaning": "how"
+        },
+        {
+          "sanskrit": "jñeyaḥ asi",
+          "meaning": "You can be known"
+        }
+      ]
+    }
+  },
+  "source": {
+    "derived_from": "vedabase.io",
+    "normalized_file": "vedabase-bg-08-02.normalized.json",
+    "pipeline_stage": "migration.m3",
+    "script": "m3_migrate_synonyms.py"
+  },
+  "schema": {
+    "name": "vedic-library.derivative.synonyms",
+    "version": "2.0.0"
+  }
+}

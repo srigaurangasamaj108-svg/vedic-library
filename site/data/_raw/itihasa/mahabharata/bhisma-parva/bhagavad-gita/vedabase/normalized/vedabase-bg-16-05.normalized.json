@@ -1,0 +1,78 @@
+{
+  "temp_id": "vedabase-bg-16-05",
+  "chapter": 16,
+  "verse": 5,
+  "verse_id": "bg-16-05",
+  "verse_group": null,
+  "composite": false,
+  "sanskrit": {
+    "devanagari": "दैवी सम्पद्विमोक्षाय निबन्धायासुरी मता ।\nमा श‍ुच: सम्पदं दैवीमभिजातोऽसि पाण्डव ॥ ५ ॥",
+    "iast": "daivī sampad vimokṣāya\nnibandhāyāsurī matā\nmā śucaḥ sampadaṁ daivīm\nabhijāto ’si pāṇḍava"
+  },
+  "synonyms_raw": "daivī\n—\ntranscendental\n;\nsampat\n—\nassets\n;\nvimokṣāya\n—\nmeant for liberation\n;\nnibandhāya\n—\nfor bondage\n;\nāsurī\n—\ndemoniac qualities\n;\nmatā\n—\nare considered\n;\nmā\n—\ndo not\n;\nśucaḥ\n—\nworry\n;\nsampadam\n—\nassets\n;\ndaivīm\n—\ntranscendental\n;\nabhijātaḥ\n—\nborn of\n;\nasi\n—\nyou are\n;\npāṇḍava\n—\nO son of Pāṇḍu\n.",
+  "translation": "The transcendental qualities are conducive to liberation, whereas the demoniac qualities make for bondage. Do not worry, O son of Pāṇḍu, for you are born with the divine qualities.",
+  "purport": [
+    "Lord Kṛṣṇa encouraged Arjuna by telling him that he was not born with demoniac qualities. His involvement in the fight was not demoniac, because he was considering the pros and cons. He was considering whether respectable persons such as Bhīṣma and Droṇa should be killed or not, so he was not acting under the influence of anger, false prestige or harshness. Therefore he was not of the quality of the demons. For a",
+    "kṣatriya,",
+    "a military man, shooting arrows at the enemy is considered transcendental, and refraining from such a duty is demoniac. Therefore there was no cause for Arjuna to lament. Anyone who performs the regulative principles of the different orders of life is transcendentally situated."
+  ],
+  "source": {
+    "author": "A. C. Bhaktivedanta Swami Prabhupāda",
+    "edition": "Bhagavad-gītā As It Is",
+    "language": "en",
+    "provider": "vedabase.io"
+  },
+  "synonyms": {
+    "language": "en",
+    "items": [
+      {
+        "sanskrit": "daivī",
+        "meaning": "transcendental"
+      },
+      {
+        "sanskrit": "sampat",
+        "meaning": "assets"
+      },
+      {
+        "sanskrit": "vimokṣāya",
+        "meaning": "meant for liberation"
+      },
+      {
+        "sanskrit": "nibandhāya",
+        "meaning": "for bondage"
+      },
+      {
+        "sanskrit": "āsurī",
+        "meaning": "demoniac qualities"
+      },
+      {
+        "sanskrit": "matā",
+        "meaning": "are considered"
+      },
+      {
+        "sanskrit": "mā",
+        "meaning": "do not"
+      },
+      {
+        "sanskrit": "śucaḥ",
+        "meaning": "worry"
+      },
+      {
+        "sanskrit": "sampadam",
+        "meaning": "assets"
+      },
+      {
+        "sanskrit": "daivīm",
+        "meaning": "transcendental"
+      },
+      {
+        "sanskrit": "abhijātaḥ",
+        "meaning": "born of"
+      },
+      {
+        "sanskrit": "asi",
+        "meaning": "you are"
+      }
+    ]
+  }
+}

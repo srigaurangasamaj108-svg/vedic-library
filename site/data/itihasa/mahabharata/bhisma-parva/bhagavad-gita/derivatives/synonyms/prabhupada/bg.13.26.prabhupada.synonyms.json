@@ -1,0 +1,79 @@
+{
+  "uid": "bg.13.26.prabhupada.synonyms",
+  "editorial_unit_ref": {
+    "uid": "bg.13.26.prabhupada",
+    "schema": "vedic-library.editorial.unit",
+    "version": "1.0.0"
+  },
+  "synonyms": {
+    "language": "en",
+    "author": "A. C. Bhaktivedanta Swami Prabhupāda",
+    "items": {
+      "language": "en",
+      "items": [
+        {
+          "sanskrit": "anye",
+          "meaning": "others"
+        },
+        {
+          "sanskrit": "tu",
+          "meaning": "but"
+        },
+        {
+          "sanskrit": "evam",
+          "meaning": "thus"
+        },
+        {
+          "sanskrit": "ajānantaḥ",
+          "meaning": "without spiritual knowledge"
+        },
+        {
+          "sanskrit": "śrutvā",
+          "meaning": "by hearing"
+        },
+        {
+          "sanskrit": "anyebhyaḥ",
+          "meaning": "from others"
+        },
+        {
+          "sanskrit": "upāsate",
+          "meaning": "begin to worship"
+        },
+        {
+          "sanskrit": "te",
+          "meaning": "they"
+        },
+        {
+          "sanskrit": "api",
+          "meaning": "also"
+        },
+        {
+          "sanskrit": "ca",
+          "meaning": "and"
+        },
+        {
+          "sanskrit": "atitaranti",
+          "meaning": "transcend"
+        },
+        {
+          "sanskrit": "eva",
+          "meaning": "certainly"
+        },
+        {
+          "sanskrit": "mṛtyum",
+          "meaning": "the path of death"
+        }
+      ]
+    }
+  },
+  "source": {
+    "derived_from": "vedabase.io",
+    "normalized_file": "vedabase-bg-13-26.normalized.json",
+    "pipeline_stage": "migration.m3",
+    "script": "m3_migrate_synonyms.py"
+  },
+  "schema": {
+    "name": "vedic-library.derivative.synonyms",
+    "version": "2.0.0"
+  }
+}

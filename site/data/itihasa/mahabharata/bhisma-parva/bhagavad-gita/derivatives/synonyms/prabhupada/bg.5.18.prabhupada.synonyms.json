@@ -1,0 +1,75 @@
+{
+  "uid": "bg.5.18.prabhupada.synonyms",
+  "editorial_unit_ref": {
+    "uid": "bg.5.18.prabhupada",
+    "schema": "vedic-library.editorial.unit",
+    "version": "1.0.0"
+  },
+  "synonyms": {
+    "language": "en",
+    "author": "A. C. Bhaktivedanta Swami Prabhupāda",
+    "items": {
+      "language": "en",
+      "items": [
+        {
+          "sanskrit": "vidyā",
+          "meaning": "with education"
+        },
+        {
+          "sanskrit": "vinaya",
+          "meaning": "and gentleness"
+        },
+        {
+          "sanskrit": "sampanne",
+          "meaning": "fully equipped"
+        },
+        {
+          "sanskrit": "brāhmaṇe",
+          "meaning": "in the brāhmaṇa"
+        },
+        {
+          "sanskrit": "gavi",
+          "meaning": "in the cow"
+        },
+        {
+          "sanskrit": "hastini",
+          "meaning": "in the elephant"
+        },
+        {
+          "sanskrit": "śuni",
+          "meaning": "in the dog"
+        },
+        {
+          "sanskrit": "ca",
+          "meaning": "and"
+        },
+        {
+          "sanskrit": "eva",
+          "meaning": "certainly"
+        },
+        {
+          "sanskrit": "śva pāke",
+          "meaning": "in the dog-eater (the outcaste)"
+        },
+        {
+          "sanskrit": "ca",
+          "meaning": "respectively"
+        },
+        {
+          "sanskrit": "paṇḍitāḥ",
+          "meaning": "those who are wise"
+        }
+      ]
+    }
+  },
+  "source": {
+    "derived_from": "vedabase.io",
+    "normalized_file": "vedabase-bg-05-18.normalized.json",
+    "pipeline_stage": "migration.m3",
+    "script": "m3_migrate_synonyms.py"
+  },
+  "schema": {
+    "name": "vedic-library.derivative.synonyms",
+    "version": "2.0.0"
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "temp_id": "vedabase-bg-01-43",
+  "chapter": 1,
+  "verse": 43,
+  "verse_id": "bg-01-43",
+  "verse_group": null,
+  "composite": false,
+  "sanskrit": {
+    "devanagari": "उत्सन्नकुलधर्माणां मनुष्याणां जनार्दन ।\nनरके नियतं वासो भवतीत्यनुश‍ुश्रुम ॥ ४३ ॥",
+    "iast": "utsanna-kula-dharmāṇāṁ\nmanuṣyāṇāṁ janārdana\nnarake niyataṁ vāso\nbhavatīty anuśuśruma"
+  },
+  "synonyms_raw": "utsanna\n—\nspoiled\n;\nkula\n-\ndharmāṇām\n—\nof those who have the family traditions\n;\nmanuṣyāṇām\n—\nof such men\n;\njanārdana\n—\nO Kṛṣṇa\n;\nnarake\n—\nin hell\n;\nniyatam\n—\nalways\n;\nvāsaḥ\n—\nresidence\n;\nbhavati\n—\nit so becomes\n;\niti\n—\nthus\n;\nanuśuśruma\n—\nI have heard by disciplic succession\n.",
+  "translation": "O Kṛṣṇa, maintainer of the people, I have heard by disciplic succession that those whose family traditions are destroyed dwell always in hell.",
+  "purport": [
+    "Arjuna bases his argument not on his own personal experience, but on what he has heard from the authorities. That is the way of receiving real knowledge. One cannot reach the real point of factual knowledge without being helped by the right person who is already established in that knowledge. There is a system in the",
+    "varṇāśrama",
+    "institution by which before death one has to undergo the process of atonement for his sinful activities. One who is always engaged in sinful activities must utilize the process of atonement, called",
+    "prāyaścitta.",
+    "Without doing so, one surely will be transferred to hellish planets to undergo miserable lives as the result of sinful activities."
+  ],
+  "source": {
+    "author": "A. C. Bhaktivedanta Swami Prabhupāda",
+    "edition": "Bhagavad-gītā As It Is",
+    "language": "en",
+    "provider": "vedabase.io"
+  },
+  "synonyms": {
+    "language": "en",
+    "items": [
+      {
+        "sanskrit": "utsanna",
+        "meaning": "spoiled"
+      },
+      {
+        "sanskrit": "kula dharmāṇām",
+        "meaning": "of those who have the family traditions"
+      },
+      {
+        "sanskrit": "manuṣyāṇām",
+        "meaning": "of such men"
+      },
+      {
+        "sanskrit": "janārdana",
+        "meaning": "O Kṛṣṇa"
+      },
+      {
+        "sanskrit": "narake",
+        "meaning": "in hell"
+      },
+      {
+        "sanskrit": "niyatam",
+        "meaning": "always"
+      },
+      {
+        "sanskrit": "vāsaḥ",
+        "meaning": "residence"
+      },
+      {
+        "sanskrit": "bhavati",
+        "meaning": "it so becomes"
+      },
+      {
+        "sanskrit": "iti",
+        "meaning": "thus"
+      }
+    ]
+  }
+}

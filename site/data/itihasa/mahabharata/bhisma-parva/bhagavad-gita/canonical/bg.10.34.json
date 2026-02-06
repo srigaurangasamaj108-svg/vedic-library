@@ -1,0 +1,34 @@
+{
+  "uid": "bg.10.34",
+  "work": {
+    "corpus": "itihasa",
+    "text": "mahabharata",
+    "section": "bhisma-parva",
+    "subwork": "bhagavad-gita"
+  },
+  "location": {
+    "chapter": 10,
+    "verse": 34
+  },
+  "text": {
+    "script": "devanagari",
+    "content": "मृत्यु: सर्वहरश्चाहमुद्भ‍वश्च भविष्यताम् ।\nकीर्ति: श्रीर्वाक्‍च नारीणां स्मृतिर्मेधा धृति: क्षमा\n॥ ३४ ॥"
+  },
+  "transliteration": {
+    "scheme": "iast",
+    "content": "mṛtyu: sarvaharaścāhamudbha‍vaśca bhaviṣyatām |\nkīrti: śrīrvāk‍ca nārīṇāṃ smṛtirmedhā dhṛti: kṣamā\n|| 34 ||"
+  },
+  "source": {
+    "pipeline": "bhagavad-gita",
+    "stage": "2.5",
+    "script": "s25_realign_iast_bg.py",
+    "script_version": "2.2.0",
+    "derived_from": [
+      "vedabase/raw-json/bg-10-34.json"
+    ]
+  },
+  "schema": {
+    "name": "vedic-library.canonical.verse",
+    "version": "1.0.0"
+  }
+}

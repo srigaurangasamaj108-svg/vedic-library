@@ -1,0 +1,26 @@
+{
+  "uid": "bg.17.13.translation.en.prabhupada",
+  "canonical_ref": {
+    "uid": "bg.17.13",
+    "schema": "vedic-library.canonical.verse",
+    "version": "1.0.0"
+  },
+  "translation": {
+    "language": "en",
+    "translator": "A.C. Bhaktivedanta Swami Prabhupāda",
+    "content": "Any sacrifice performed without regard for the directions of scripture, without distribution of prasādam [spiritual food], without chanting of Vedic hymns and remunerations to the priests, and without faith is considered to be in the mode of ignorance."
+  },
+  "source": {
+    "edition": "Bhagavad-gītā As It Is",
+    "publisher": "BBT",
+    "year": 1972,
+    "derived_from": "vedabase-bg-17-13.normalized.json",
+    "pipeline_stage": "3.1",
+    "script": "s31_extract_translation_prabhupada.py",
+    "script_version": "1.1.0"
+  },
+  "schema": {
+    "name": "vedic-library.derivative.translation",
+    "version": "1.0.0"
+  }
+}

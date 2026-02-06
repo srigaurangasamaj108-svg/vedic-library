@@ -1,0 +1,71 @@
+{
+  "uid": "bg.2.4.prabhupada.synonyms",
+  "editorial_unit_ref": {
+    "uid": "bg.2.4.prabhupada",
+    "schema": "vedic-library.editorial.unit",
+    "version": "1.0.0"
+  },
+  "synonyms": {
+    "language": "en",
+    "author": "A. C. Bhaktivedanta Swami Prabhupāda",
+    "items": {
+      "language": "en",
+      "items": [
+        {
+          "sanskrit": "arjunaḥ uvāca",
+          "meaning": "Arjuna said"
+        },
+        {
+          "sanskrit": "katham",
+          "meaning": "how"
+        },
+        {
+          "sanskrit": "bhīṣmam",
+          "meaning": "Bhīṣma"
+        },
+        {
+          "sanskrit": "aham",
+          "meaning": "I"
+        },
+        {
+          "sanskrit": "saṅkhye",
+          "meaning": "in the fight"
+        },
+        {
+          "sanskrit": "droṇam",
+          "meaning": "Droṇa"
+        },
+        {
+          "sanskrit": "ca",
+          "meaning": "also"
+        },
+        {
+          "sanskrit": "madhu sūdana",
+          "meaning": "O killer of Madhu"
+        },
+        {
+          "sanskrit": "iṣubhiḥ",
+          "meaning": "with arrows"
+        },
+        {
+          "sanskrit": "pratiyotsyāmi",
+          "meaning": "shall counterattack"
+        },
+        {
+          "sanskrit": "pūjā arhau",
+          "meaning": "those who are worshipable"
+        }
+      ]
+    }
+  },
+  "source": {
+    "derived_from": "vedabase.io",
+    "normalized_file": "vedabase-bg-02-04.normalized.json",
+    "pipeline_stage": "migration.m3",
+    "script": "m3_migrate_synonyms.py"
+  },
+  "schema": {
+    "name": "vedic-library.derivative.synonyms",
+    "version": "2.0.0"
+  }
+}

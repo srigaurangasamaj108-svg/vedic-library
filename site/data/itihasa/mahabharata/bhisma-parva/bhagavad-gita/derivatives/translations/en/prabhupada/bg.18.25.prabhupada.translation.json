@@ -1,0 +1,23 @@
+{
+  "uid": "bg.18.25.prabhupada.translation.en",
+  "editorial_unit_ref": {
+    "uid": "bg.18.25.prabhupada",
+    "schema": "vedic-library.editorial.unit",
+    "version": "1.0.0"
+  },
+  "translation": {
+    "language": "en",
+    "translator": "A. C. Bhaktivedanta Swami Prabhupāda",
+    "content": "That action performed in illusion, in disregard of scriptural injunctions, and without concern for future bondage or for violence or distress caused to others is said to be in the mode of ignorance."
+  },
+  "source": {
+    "derived_from": "vedabase.io",
+    "normalized_file": "vedabase-bg-18-25.normalized.json",
+    "pipeline_stage": "migration.m2",
+    "script": "m2_migrate_translations.py"
+  },
+  "schema": {
+    "name": "vedic-library.derivative.translation",
+    "version": "2.0.0"
+  }
+}

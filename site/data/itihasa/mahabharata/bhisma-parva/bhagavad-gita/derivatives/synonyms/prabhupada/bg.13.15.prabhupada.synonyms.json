@@ -1,0 +1,79 @@
+{
+  "uid": "bg.13.15.prabhupada.synonyms",
+  "editorial_unit_ref": {
+    "uid": "bg.13.15.prabhupada",
+    "schema": "vedic-library.editorial.unit",
+    "version": "1.0.0"
+  },
+  "synonyms": {
+    "language": "en",
+    "author": "A. C. Bhaktivedanta Swami Prabhupāda",
+    "items": {
+      "language": "en",
+      "items": [
+        {
+          "sanskrit": "sarva",
+          "meaning": "of all"
+        },
+        {
+          "sanskrit": "indriya",
+          "meaning": "senses"
+        },
+        {
+          "sanskrit": "guṇa",
+          "meaning": "of the qualities"
+        },
+        {
+          "sanskrit": "ābhāsam",
+          "meaning": "the original source"
+        },
+        {
+          "sanskrit": "sarva",
+          "meaning": "all"
+        },
+        {
+          "sanskrit": "indriya",
+          "meaning": "senses"
+        },
+        {
+          "sanskrit": "vivarjitam",
+          "meaning": "being without"
+        },
+        {
+          "sanskrit": "asaktam",
+          "meaning": "without attachment"
+        },
+        {
+          "sanskrit": "sarva bhṛt",
+          "meaning": "the maintainer of everyone"
+        },
+        {
+          "sanskrit": "ca",
+          "meaning": "also"
+        },
+        {
+          "sanskrit": "eva",
+          "meaning": "certainly"
+        },
+        {
+          "sanskrit": "nirguṇam",
+          "meaning": "without material qualities"
+        },
+        {
+          "sanskrit": "guṇa bhoktṛ",
+          "meaning": "master of the guṇas"
+        }
+      ]
+    }
+  },
+  "source": {
+    "derived_from": "vedabase.io",
+    "normalized_file": "vedabase-bg-13-15.normalized.json",
+    "pipeline_stage": "migration.m3",
+    "script": "m3_migrate_synonyms.py"
+  },
+  "schema": {
+    "name": "vedic-library.derivative.synonyms",
+    "version": "2.0.0"
+  }
+}

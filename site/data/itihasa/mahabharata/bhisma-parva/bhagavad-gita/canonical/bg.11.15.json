@@ -1,0 +1,34 @@
+{
+  "uid": "bg.11.15",
+  "work": {
+    "corpus": "itihasa",
+    "text": "mahabharata",
+    "section": "bhisma-parva",
+    "subwork": "bhagavad-gita"
+  },
+  "location": {
+    "chapter": 11,
+    "verse": 15
+  },
+  "text": {
+    "script": "devanagari",
+    "content": "अर्जुन उवाच\nपश्यामि देवांस्तव देव देहे\nसर्वांस्तथा भूतविशेषसङ्घान् ।\nब्रह्माणमीशं कमलासनस्थ-\nमृषींश्च सर्वानुरगांश्च दिव्यान्\n॥ १५ ॥"
+  },
+  "transliteration": {
+    "scheme": "iast",
+    "content": "arjuna uvāca\npaśyāmi devāṃstava deva dehe\nsarvāṃstathā bhūtaviśeṣasaṅghān |\nbrahmāṇamīśaṃ kamalāsanastha-\nmṛṣīṃśca sarvānuragāṃśca divyān\n|| 15 ||"
+  },
+  "source": {
+    "pipeline": "bhagavad-gita",
+    "stage": "2.5",
+    "script": "s25_realign_iast_bg.py",
+    "script_version": "2.2.0",
+    "derived_from": [
+      "vedabase/raw-json/bg-11-15.json"
+    ]
+  },
+  "schema": {
+    "name": "vedic-library.canonical.verse",
+    "version": "1.0.0"
+  }
+}

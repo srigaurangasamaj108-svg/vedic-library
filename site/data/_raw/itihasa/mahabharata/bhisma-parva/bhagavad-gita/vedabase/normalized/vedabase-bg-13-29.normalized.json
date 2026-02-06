@@ -1,0 +1,80 @@
+{
+  "temp_id": "vedabase-bg-13-29",
+  "chapter": 13,
+  "verse": 29,
+  "verse_id": "bg-13-29",
+  "verse_group": null,
+  "composite": false,
+  "sanskrit": {
+    "devanagari": "समं पश्यन्हि सर्वत्र समवस्थितमीश्वरम् ।\nन हिनस्त्यात्मनात्मानं ततो याति परां गतिम् ॥ २९ ॥",
+    "iast": "samaṁ paśyan hi sarvatra\nsamavasthitam īśvaram\nna hinasty ātmanātmānaṁ\ntato yāti parāṁ gatim"
+  },
+  "synonyms_raw": "samam\n—\nequally\n;\npaśyan\n—\nseeing\n;\nhi\n—\ncertainly\n;\nsarvatra\n—\neverywhere\n;\nsamavasthitam\n—\nequally situated\n;\nīśvaram\n—\nthe Supersoul\n;\nna\n—\ndoes not\n;\nhinasti\n—\ndegrade\n;\nātmanā\n—\nby the mind\n;\nātmānam\n—\nthe soul\n;\ntataḥ\n—\nthen\n;\nyāti\n—\nreaches\n;\nparām\n—\nthe transcendental\n;\ngatim\n—\ndestination\n.",
+  "translation": "One who sees the Supersoul equally present everywhere, in every living being, does not degrade himself by his mind. Thus he approaches the transcendental destination.",
+  "purport": [
+    "The living entity, by accepting his material existence, has become situated differently than in his spiritual existence. But if one understands that the Supreme is situated in His Paramātmā manifestation everywhere, that is, if one can see the presence of the Supreme Personality of Godhead in every living thing, he does not degrade himself by a destructive mentality, and he therefore gradually advances to the spiritual world. The mind is generally addicted to sense gratifying processes; but when the mind turns to the Supersoul, one becomes advanced in spiritual understanding."
+  ],
+  "source": {
+    "author": "A. C. Bhaktivedanta Swami Prabhupāda",
+    "edition": "Bhagavad-gītā As It Is",
+    "language": "en",
+    "provider": "vedabase.io"
+  },
+  "synonyms": {
+    "language": "en",
+    "items": [
+      {
+        "sanskrit": "samam",
+        "meaning": "equally"
+      },
+      {
+        "sanskrit": "paśyan",
+        "meaning": "seeing"
+      },
+      {
+        "sanskrit": "hi",
+        "meaning": "certainly"
+      },
+      {
+        "sanskrit": "sarvatra",
+        "meaning": "everywhere"
+      },
+      {
+        "sanskrit": "samavasthitam",
+        "meaning": "equally situated"
+      },
+      {
+        "sanskrit": "īśvaram",
+        "meaning": "the Supersoul"
+      },
+      {
+        "sanskrit": "na",
+        "meaning": "does not"
+      },
+      {
+        "sanskrit": "hinasti",
+        "meaning": "degrade"
+      },
+      {
+        "sanskrit": "ātmanā",
+        "meaning": "by the mind"
+      },
+      {
+        "sanskrit": "ātmānam",
+        "meaning": "the soul"
+      },
+      {
+        "sanskrit": "tataḥ",
+        "meaning": "then"
+      },
+      {
+        "sanskrit": "yāti",
+        "meaning": "reaches"
+      },
+      {
+        "sanskrit": "parām",
+        "meaning": "the transcendental"
+      }
+    ]
+  }
+}

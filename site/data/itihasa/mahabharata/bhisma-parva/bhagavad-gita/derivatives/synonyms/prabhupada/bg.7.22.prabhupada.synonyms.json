@@ -1,0 +1,87 @@
+{
+  "uid": "bg.7.22.prabhupada.synonyms",
+  "editorial_unit_ref": {
+    "uid": "bg.7.22.prabhupada",
+    "schema": "vedic-library.editorial.unit",
+    "version": "1.0.0"
+  },
+  "synonyms": {
+    "language": "en",
+    "author": "A. C. Bhaktivedanta Swami Prabhupāda",
+    "items": {
+      "language": "en",
+      "items": [
+        {
+          "sanskrit": "saḥ",
+          "meaning": "he"
+        },
+        {
+          "sanskrit": "tayā",
+          "meaning": "with that"
+        },
+        {
+          "sanskrit": "śraddhayā",
+          "meaning": "inspiration"
+        },
+        {
+          "sanskrit": "yuktaḥ",
+          "meaning": "endowed"
+        },
+        {
+          "sanskrit": "tasya",
+          "meaning": "of that demigod"
+        },
+        {
+          "sanskrit": "ārādhanam",
+          "meaning": "for the worship"
+        },
+        {
+          "sanskrit": "īhate",
+          "meaning": "he aspires"
+        },
+        {
+          "sanskrit": "labhate",
+          "meaning": "obtains"
+        },
+        {
+          "sanskrit": "ca",
+          "meaning": "and"
+        },
+        {
+          "sanskrit": "tataḥ",
+          "meaning": "from that"
+        },
+        {
+          "sanskrit": "kāmān",
+          "meaning": "his desires"
+        },
+        {
+          "sanskrit": "mayā",
+          "meaning": "by Me"
+        },
+        {
+          "sanskrit": "eva",
+          "meaning": "alone"
+        },
+        {
+          "sanskrit": "vihitān",
+          "meaning": "arranged"
+        },
+        {
+          "sanskrit": "hi",
+          "meaning": "certainly"
+        }
+      ]
+    }
+  },
+  "source": {
+    "derived_from": "vedabase.io",
+    "normalized_file": "vedabase-bg-07-22.normalized.json",
+    "pipeline_stage": "migration.m3",
+    "script": "m3_migrate_synonyms.py"
+  },
+  "schema": {
+    "name": "vedic-library.derivative.synonyms",
+    "version": "2.0.0"
+  }
+}

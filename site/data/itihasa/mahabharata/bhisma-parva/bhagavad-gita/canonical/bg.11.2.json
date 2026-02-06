@@ -1,0 +1,34 @@
+{
+  "uid": "bg.11.2",
+  "work": {
+    "corpus": "itihasa",
+    "text": "mahabharata",
+    "section": "bhisma-parva",
+    "subwork": "bhagavad-gita"
+  },
+  "location": {
+    "chapter": 11,
+    "verse": 2
+  },
+  "text": {
+    "script": "devanagari",
+    "content": "भवाप्ययौ हि भूतानां श्रुतौ विस्तरशो मया ।\nत्वत्त: कमलपत्राक्ष माहात्म्यमपि चाव्ययम्\n॥ २ ॥"
+  },
+  "transliteration": {
+    "scheme": "iast",
+    "content": "bhavāpyayau hi bhūtānāṃ śrutau vistaraśo mayā |\ntvatta: kamalapatrākṣa māhātmyamapi cāvyayam\n|| 2 ||"
+  },
+  "source": {
+    "pipeline": "bhagavad-gita",
+    "stage": "2.5",
+    "script": "s25_realign_iast_bg.py",
+    "script_version": "2.2.0",
+    "derived_from": [
+      "vedabase/raw-json/bg-11-02.json"
+    ]
+  },
+  "schema": {
+    "name": "vedic-library.canonical.verse",
+    "version": "1.0.0"
+  }
+}

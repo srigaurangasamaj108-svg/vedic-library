@@ -1,0 +1,23 @@
+{
+  "uid": "bg.18.22.prabhupada.translation.en",
+  "editorial_unit_ref": {
+    "uid": "bg.18.22.prabhupada",
+    "schema": "vedic-library.editorial.unit",
+    "version": "1.0.0"
+  },
+  "translation": {
+    "language": "en",
+    "translator": "A. C. Bhaktivedanta Swami Prabhupāda",
+    "content": "And that knowledge by which one is attached to one kind of work as the all in all, without knowledge of the truth, and which is very meager, is said to be in the mode of darkness."
+  },
+  "source": {
+    "derived_from": "vedabase.io",
+    "normalized_file": "vedabase-bg-18-22.normalized.json",
+    "pipeline_stage": "migration.m2",
+    "script": "m2_migrate_translations.py"
+  },
+  "schema": {
+    "name": "vedic-library.derivative.translation",
+    "version": "2.0.0"
+  }
+}

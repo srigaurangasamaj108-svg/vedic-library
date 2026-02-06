@@ -1,0 +1,34 @@
+{
+  "uid": "bg.2.8",
+  "work": {
+    "corpus": "itihasa",
+    "text": "mahabharata",
+    "section": "bhisma-parva",
+    "subwork": "bhagavad-gita"
+  },
+  "location": {
+    "chapter": 2,
+    "verse": 8
+  },
+  "text": {
+    "script": "devanagari",
+    "content": "न हि प्रपश्यामि ममापनुद्याद् -\nयच्छोकमुच्छोषणमिन्द्रियाणाम् ।\nअवाप्य भूभावसपत्‍नमृद्धं\nराज्यं सुराणामपि चाधिपत्यम्\n॥ ८ ॥"
+  },
+  "transliteration": {
+    "scheme": "iast",
+    "content": "na hi prapaśyāmi mamāpanudyād -\nyacchokamucchoṣaṇamindriyāṇām |\navāpya bhūbhāvasapat‍namṛddhaṃ\nrājyaṃ surāṇāmapi cādhipatyam\n|| 8 ||"
+  },
+  "source": {
+    "pipeline": "bhagavad-gita",
+    "stage": "2.5",
+    "script": "s25_realign_iast_bg.py",
+    "script_version": "2.2.0",
+    "derived_from": [
+      "vedabase/raw-json/bg-02-08.json"
+    ]
+  },
+  "schema": {
+    "name": "vedic-library.canonical.verse",
+    "version": "1.0.0"
+  }
+}

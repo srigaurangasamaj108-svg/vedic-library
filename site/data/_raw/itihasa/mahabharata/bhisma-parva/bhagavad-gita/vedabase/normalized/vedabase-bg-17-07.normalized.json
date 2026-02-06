@@ -1,0 +1,84 @@
+{
+  "temp_id": "vedabase-bg-17-07",
+  "chapter": 17,
+  "verse": 7,
+  "verse_id": "bg-17-07",
+  "verse_group": null,
+  "composite": false,
+  "sanskrit": {
+    "devanagari": "आहारस्त्वपि सर्वस्य त्रिविधो भवति प्रिय: ।\nयज्ञस्तपस्तथा दानं तेषां भेदमिमं श‍ृणु ॥ ७ ॥",
+    "iast": "āhāras tv api sarvasya\ntri-vidho bhavati priyaḥ\nyajñas tapas tathā dānaṁ\nteṣāṁ bhedam imaṁ śṛṇu"
+  },
+  "synonyms_raw": "āhāraḥ\n—\neating\n;\ntu\n—\ncertainly\n;\napi\n—\nalso\n;\nsarvasya\n—\nof everyone\n;\ntri\n-\nvidhaḥ\n—\nof three kinds\n;\nbhavati\n—\nthere is\n;\npriyaḥ\n—\ndear\n;\nyajñaḥ\n—\nsacrifice\n;\ntapaḥ\n—\nausterity\n;\ntathā\n—\nalso\n;\ndānam\n—\ncharity\n;\nteṣām\n—\nof them\n;\nbhedam\n—\nthe differences\n;\nimam\n—\nthis\n;\nśṛṇu\n—\nhear\n.",
+  "translation": "Even the food each person prefers is of three kinds, according to the three modes of material nature. The same is true of sacrifices, austerities and charity. Now hear of the distinctions between them.",
+  "purport": [
+    "In terms of different situations in the modes of material nature, there are differences in the manner of eating and performing sacrifices, austerities and charities. They are not all conducted on the same level. Those who can understand analytically what kind of performances are in what modes of material nature are actually wise; those who consider all kinds of sacrifice or food or charity to be the same cannot discriminate, and they are foolish. There are missionary workers who advocate that one can do whatever he likes and attain perfection. But these foolish guides are not acting according to the direction of the scripture. They are manufacturing ways and misleading the people in general."
+  ],
+  "source": {
+    "author": "A. C. Bhaktivedanta Swami Prabhupāda",
+    "edition": "Bhagavad-gītā As It Is",
+    "language": "en",
+    "provider": "vedabase.io"
+  },
+  "synonyms": {
+    "language": "en",
+    "items": [
+      {
+        "sanskrit": "āhāraḥ",
+        "meaning": "eating"
+      },
+      {
+        "sanskrit": "tu",
+        "meaning": "certainly"
+      },
+      {
+        "sanskrit": "api",
+        "meaning": "also"
+      },
+      {
+        "sanskrit": "sarvasya",
+        "meaning": "of everyone"
+      },
+      {
+        "sanskrit": "tri vidhaḥ",
+        "meaning": "of three kinds"
+      },
+      {
+        "sanskrit": "bhavati",
+        "meaning": "there is"
+      },
+      {
+        "sanskrit": "priyaḥ",
+        "meaning": "dear"
+      },
+      {
+        "sanskrit": "yajñaḥ",
+        "meaning": "sacrifice"
+      },
+      {
+        "sanskrit": "tapaḥ",
+        "meaning": "austerity"
+      },
+      {
+        "sanskrit": "tathā",
+        "meaning": "also"
+      },
+      {
+        "sanskrit": "dānam",
+        "meaning": "charity"
+      },
+      {
+        "sanskrit": "teṣām",
+        "meaning": "of them"
+      },
+      {
+        "sanskrit": "bhedam",
+        "meaning": "the differences"
+      },
+      {
+        "sanskrit": "imam",
+        "meaning": "this"
+      }
+    ]
+  }
+}

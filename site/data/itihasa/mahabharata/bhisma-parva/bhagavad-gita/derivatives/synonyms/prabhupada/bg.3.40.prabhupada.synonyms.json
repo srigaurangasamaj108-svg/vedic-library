@@ -1,0 +1,71 @@
+{
+  "uid": "bg.3.40.prabhupada.synonyms",
+  "editorial_unit_ref": {
+    "uid": "bg.3.40.prabhupada",
+    "schema": "vedic-library.editorial.unit",
+    "version": "1.0.0"
+  },
+  "synonyms": {
+    "language": "en",
+    "author": "A. C. Bhaktivedanta Swami Prabhupāda",
+    "items": {
+      "language": "en",
+      "items": [
+        {
+          "sanskrit": "indriyāṇi",
+          "meaning": "the senses"
+        },
+        {
+          "sanskrit": "manaḥ",
+          "meaning": "the mind"
+        },
+        {
+          "sanskrit": "buddhiḥ",
+          "meaning": "the intelligence"
+        },
+        {
+          "sanskrit": "asya",
+          "meaning": "of this lust"
+        },
+        {
+          "sanskrit": "adhiṣṭhānam",
+          "meaning": "sitting place"
+        },
+        {
+          "sanskrit": "ucyate",
+          "meaning": "is called"
+        },
+        {
+          "sanskrit": "etaiḥ",
+          "meaning": "by all these"
+        },
+        {
+          "sanskrit": "vimohayati",
+          "meaning": "bewilders"
+        },
+        {
+          "sanskrit": "eṣaḥ",
+          "meaning": "this lust"
+        },
+        {
+          "sanskrit": "jñānam",
+          "meaning": "knowledge"
+        },
+        {
+          "sanskrit": "āvṛtya",
+          "meaning": "covering"
+        }
+      ]
+    }
+  },
+  "source": {
+    "derived_from": "vedabase.io",
+    "normalized_file": "vedabase-bg-03-40.normalized.json",
+    "pipeline_stage": "migration.m3",
+    "script": "m3_migrate_synonyms.py"
+  },
+  "schema": {
+    "name": "vedic-library.derivative.synonyms",
+    "version": "2.0.0"
+  }
+}

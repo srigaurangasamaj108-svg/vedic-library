@@ -1,0 +1,83 @@
+{
+  "uid": "bg.6.39.prabhupada.synonyms",
+  "editorial_unit_ref": {
+    "uid": "bg.6.39.prabhupada",
+    "schema": "vedic-library.editorial.unit",
+    "version": "1.0.0"
+  },
+  "synonyms": {
+    "language": "en",
+    "author": "A. C. Bhaktivedanta Swami Prabhupāda",
+    "items": {
+      "language": "en",
+      "items": [
+        {
+          "sanskrit": "etat",
+          "meaning": "this is"
+        },
+        {
+          "sanskrit": "me",
+          "meaning": "my"
+        },
+        {
+          "sanskrit": "saṁśayam",
+          "meaning": "doubt"
+        },
+        {
+          "sanskrit": "kṛṣṇa",
+          "meaning": "O Kṛṣṇa"
+        },
+        {
+          "sanskrit": "chettum",
+          "meaning": "to dispel"
+        },
+        {
+          "sanskrit": "arhasi",
+          "meaning": "You are requested"
+        },
+        {
+          "sanskrit": "aśeṣataḥ",
+          "meaning": "completely"
+        },
+        {
+          "sanskrit": "tvat",
+          "meaning": "than You"
+        },
+        {
+          "sanskrit": "anyaḥ",
+          "meaning": "other"
+        },
+        {
+          "sanskrit": "saṁśayasya",
+          "meaning": "of the doubt"
+        },
+        {
+          "sanskrit": "asya",
+          "meaning": "this"
+        },
+        {
+          "sanskrit": "chettā",
+          "meaning": "remover"
+        },
+        {
+          "sanskrit": "na",
+          "meaning": "never"
+        },
+        {
+          "sanskrit": "hi",
+          "meaning": "certainly"
+        }
+      ]
+    }
+  },
+  "source": {
+    "derived_from": "vedabase.io",
+    "normalized_file": "vedabase-bg-06-39.normalized.json",
+    "pipeline_stage": "migration.m3",
+    "script": "m3_migrate_synonyms.py"
+  },
+  "schema": {
+    "name": "vedic-library.derivative.synonyms",
+    "version": "2.0.0"
+  }
+}

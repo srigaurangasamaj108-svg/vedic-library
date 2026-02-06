@@ -1,0 +1,79 @@
+{
+  "uid": "bg.16.21.prabhupada.synonyms",
+  "editorial_unit_ref": {
+    "uid": "bg.16.21.prabhupada",
+    "schema": "vedic-library.editorial.unit",
+    "version": "1.0.0"
+  },
+  "synonyms": {
+    "language": "en",
+    "author": "A. C. Bhaktivedanta Swami Prabhupāda",
+    "items": {
+      "language": "en",
+      "items": [
+        {
+          "sanskrit": "tri vidham",
+          "meaning": "of three kinds"
+        },
+        {
+          "sanskrit": "narakasya",
+          "meaning": "of hell"
+        },
+        {
+          "sanskrit": "idam",
+          "meaning": "this"
+        },
+        {
+          "sanskrit": "dvāram",
+          "meaning": "gate"
+        },
+        {
+          "sanskrit": "nāśanam",
+          "meaning": "destructive"
+        },
+        {
+          "sanskrit": "ātmanaḥ",
+          "meaning": "of the self"
+        },
+        {
+          "sanskrit": "kāmaḥ",
+          "meaning": "lust"
+        },
+        {
+          "sanskrit": "krodhaḥ",
+          "meaning": "anger"
+        },
+        {
+          "sanskrit": "tathā",
+          "meaning": "as well as"
+        },
+        {
+          "sanskrit": "lobhaḥ",
+          "meaning": "greed"
+        },
+        {
+          "sanskrit": "tasmāt",
+          "meaning": "therefore"
+        },
+        {
+          "sanskrit": "etat",
+          "meaning": "these"
+        },
+        {
+          "sanskrit": "trayam",
+          "meaning": "three"
+        }
+      ]
+    }
+  },
+  "source": {
+    "derived_from": "vedabase.io",
+    "normalized_file": "vedabase-bg-16-21.normalized.json",
+    "pipeline_stage": "migration.m3",
+    "script": "m3_migrate_synonyms.py"
+  },
+  "schema": {
+    "name": "vedic-library.derivative.synonyms",
+    "version": "2.0.0"
+  }
+}

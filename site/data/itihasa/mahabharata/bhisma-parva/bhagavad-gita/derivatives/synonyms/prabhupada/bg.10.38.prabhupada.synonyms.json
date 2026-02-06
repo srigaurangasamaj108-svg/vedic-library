@@ -1,0 +1,79 @@
+{
+  "uid": "bg.10.38.prabhupada.synonyms",
+  "editorial_unit_ref": {
+    "uid": "bg.10.38.prabhupada",
+    "schema": "vedic-library.editorial.unit",
+    "version": "1.0.0"
+  },
+  "synonyms": {
+    "language": "en",
+    "author": "A. C. Bhaktivedanta Swami Prabhupāda",
+    "items": {
+      "language": "en",
+      "items": [
+        {
+          "sanskrit": "daṇḍaḥ",
+          "meaning": "punishment"
+        },
+        {
+          "sanskrit": "damayatām",
+          "meaning": "of all means of suppression"
+        },
+        {
+          "sanskrit": "asmi",
+          "meaning": "I am"
+        },
+        {
+          "sanskrit": "nītiḥ",
+          "meaning": "morality"
+        },
+        {
+          "sanskrit": "asmi",
+          "meaning": "I am"
+        },
+        {
+          "sanskrit": "jigīṣatām",
+          "meaning": "of those who seek victory"
+        },
+        {
+          "sanskrit": "maunam",
+          "meaning": "silence"
+        },
+        {
+          "sanskrit": "ca",
+          "meaning": "and"
+        },
+        {
+          "sanskrit": "eva",
+          "meaning": "also"
+        },
+        {
+          "sanskrit": "asmi",
+          "meaning": "I am"
+        },
+        {
+          "sanskrit": "guhyānām",
+          "meaning": "of secrets"
+        },
+        {
+          "sanskrit": "jñānam",
+          "meaning": "knowledge"
+        },
+        {
+          "sanskrit": "jñāna vatām",
+          "meaning": "of the wise"
+        }
+      ]
+    }
+  },
+  "source": {
+    "derived_from": "vedabase.io",
+    "normalized_file": "vedabase-bg-10-38.normalized.json",
+    "pipeline_stage": "migration.m3",
+    "script": "m3_migrate_synonyms.py"
+  },
+  "schema": {
+    "name": "vedic-library.derivative.synonyms",
+    "version": "2.0.0"
+  }
+}

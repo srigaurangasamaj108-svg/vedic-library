@@ -1,0 +1,63 @@
+{
+  "uid": "bg.8.8.prabhupada.synonyms",
+  "editorial_unit_ref": {
+    "uid": "bg.8.8.prabhupada",
+    "schema": "vedic-library.editorial.unit",
+    "version": "1.0.0"
+  },
+  "synonyms": {
+    "language": "en",
+    "author": "A. C. Bhaktivedanta Swami Prabhupāda",
+    "items": {
+      "language": "en",
+      "items": [
+        {
+          "sanskrit": "abhyāsa yoga",
+          "meaning": "in the practice of meditation"
+        },
+        {
+          "sanskrit": "yuktena",
+          "meaning": "being engaged"
+        },
+        {
+          "sanskrit": "cetasā",
+          "meaning": "by the mind and intelligence"
+        },
+        {
+          "sanskrit": "na anya gāminā",
+          "meaning": "without their being deviated"
+        },
+        {
+          "sanskrit": "paramam",
+          "meaning": "the Supreme"
+        },
+        {
+          "sanskrit": "puruṣam",
+          "meaning": "Personality of Godhead"
+        },
+        {
+          "sanskrit": "divyam",
+          "meaning": "transcendental"
+        },
+        {
+          "sanskrit": "yāti",
+          "meaning": "one achieves"
+        },
+        {
+          "sanskrit": "pārtha",
+          "meaning": "O son of Pṛthā"
+        }
+      ]
+    }
+  },
+  "source": {
+    "derived_from": "vedabase.io",
+    "normalized_file": "vedabase-bg-08-08.normalized.json",
+    "pipeline_stage": "migration.m3",
+    "script": "m3_migrate_synonyms.py"
+  },
+  "schema": {
+    "name": "vedic-library.derivative.synonyms",
+    "version": "2.0.0"
+  }
+}

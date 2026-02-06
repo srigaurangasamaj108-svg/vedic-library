@@ -1,0 +1,75 @@
+{
+  "uid": "bg.5.14.prabhupada.synonyms",
+  "editorial_unit_ref": {
+    "uid": "bg.5.14.prabhupada",
+    "schema": "vedic-library.editorial.unit",
+    "version": "1.0.0"
+  },
+  "synonyms": {
+    "language": "en",
+    "author": "A. C. Bhaktivedanta Swami Prabhupāda",
+    "items": {
+      "language": "en",
+      "items": [
+        {
+          "sanskrit": "na",
+          "meaning": "never"
+        },
+        {
+          "sanskrit": "kartṛtvam",
+          "meaning": "proprietorship"
+        },
+        {
+          "sanskrit": "na",
+          "meaning": "nor"
+        },
+        {
+          "sanskrit": "karmāṇi",
+          "meaning": "activities"
+        },
+        {
+          "sanskrit": "lokasya",
+          "meaning": "of the people"
+        },
+        {
+          "sanskrit": "sṛjati",
+          "meaning": "creates"
+        },
+        {
+          "sanskrit": "prabhuḥ",
+          "meaning": "the master of the city of the body"
+        },
+        {
+          "sanskrit": "na",
+          "meaning": "nor"
+        },
+        {
+          "sanskrit": "karma phala",
+          "meaning": "with the results of activities"
+        },
+        {
+          "sanskrit": "saṁyogam",
+          "meaning": "connection"
+        },
+        {
+          "sanskrit": "svabhāvaḥ",
+          "meaning": "the modes of material nature"
+        },
+        {
+          "sanskrit": "tu",
+          "meaning": "but"
+        }
+      ]
+    }
+  },
+  "source": {
+    "derived_from": "vedabase.io",
+    "normalized_file": "vedabase-bg-05-14.normalized.json",
+    "pipeline_stage": "migration.m3",
+    "script": "m3_migrate_synonyms.py"
+  },
+  "schema": {
+    "name": "vedic-library.derivative.synonyms",
+    "version": "2.0.0"
+  }
+}

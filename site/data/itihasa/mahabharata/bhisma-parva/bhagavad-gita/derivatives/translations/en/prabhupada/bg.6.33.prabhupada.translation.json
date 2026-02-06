@@ -1,0 +1,23 @@
+{
+  "uid": "bg.6.33.prabhupada.translation.en",
+  "editorial_unit_ref": {
+    "uid": "bg.6.33.prabhupada",
+    "schema": "vedic-library.editorial.unit",
+    "version": "1.0.0"
+  },
+  "translation": {
+    "language": "en",
+    "translator": "A. C. Bhaktivedanta Swami Prabhupāda",
+    "content": "Arjuna said: O Madhusūdana, the system of yoga which You have summarized appears impractical and unendurable to me, for the mind is restless and unsteady."
+  },
+  "source": {
+    "derived_from": "vedabase.io",
+    "normalized_file": "vedabase-bg-06-33.normalized.json",
+    "pipeline_stage": "migration.m2",
+    "script": "m2_migrate_translations.py"
+  },
+  "schema": {
+    "name": "vedic-library.derivative.translation",
+    "version": "2.0.0"
+  }
+}

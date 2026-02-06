@@ -1,0 +1,87 @@
+{
+  "uid": "bg.4.14.prabhupada.synonyms",
+  "editorial_unit_ref": {
+    "uid": "bg.4.14.prabhupada",
+    "schema": "vedic-library.editorial.unit",
+    "version": "1.0.0"
+  },
+  "synonyms": {
+    "language": "en",
+    "author": "A. C. Bhaktivedanta Swami Prabhupāda",
+    "items": {
+      "language": "en",
+      "items": [
+        {
+          "sanskrit": "na",
+          "meaning": "never"
+        },
+        {
+          "sanskrit": "mām",
+          "meaning": "Me"
+        },
+        {
+          "sanskrit": "karmāṇi",
+          "meaning": "all kinds of work"
+        },
+        {
+          "sanskrit": "limpanti",
+          "meaning": "do affect"
+        },
+        {
+          "sanskrit": "na",
+          "meaning": "nor"
+        },
+        {
+          "sanskrit": "me",
+          "meaning": "My"
+        },
+        {
+          "sanskrit": "karma phale",
+          "meaning": "in fruitive action"
+        },
+        {
+          "sanskrit": "spṛhā",
+          "meaning": "aspiration"
+        },
+        {
+          "sanskrit": "iti",
+          "meaning": "thus"
+        },
+        {
+          "sanskrit": "mām",
+          "meaning": "Me"
+        },
+        {
+          "sanskrit": "yaḥ",
+          "meaning": "one who"
+        },
+        {
+          "sanskrit": "abhijānāti",
+          "meaning": "does know"
+        },
+        {
+          "sanskrit": "karmabhiḥ",
+          "meaning": "by the reaction of such work"
+        },
+        {
+          "sanskrit": "na",
+          "meaning": "never"
+        },
+        {
+          "sanskrit": "saḥ",
+          "meaning": "he"
+        }
+      ]
+    }
+  },
+  "source": {
+    "derived_from": "vedabase.io",
+    "normalized_file": "vedabase-bg-04-14.normalized.json",
+    "pipeline_stage": "migration.m3",
+    "script": "m3_migrate_synonyms.py"
+  },
+  "schema": {
+    "name": "vedic-library.derivative.synonyms",
+    "version": "2.0.0"
+  }
+}

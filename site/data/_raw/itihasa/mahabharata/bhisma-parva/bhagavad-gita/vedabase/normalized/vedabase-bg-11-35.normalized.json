@@ -1,0 +1,88 @@
+{
+  "temp_id": "vedabase-bg-11-35",
+  "chapter": 11,
+  "verse": 35,
+  "verse_id": "bg-11-35",
+  "verse_group": null,
+  "composite": false,
+  "sanskrit": {
+    "devanagari": "सञ्जय उवाच\nएतच्छ्रुत्वा वचनं केशवस्य\nकृताञ्जलिर्वेपमान: किरीटी ।\nनमस्कृत्वा भूय एवाह कृष्णं\nसगद्ग‍दं भीतभीत: प्रणम्य ॥ ३५ ॥",
+    "iast": "sañjaya uvāca\netac chrutvā vacanaṁ keśavasya\nkṛtāñjalir vepamānaḥ kirīṭī\nnamaskṛtvā bhūya evāha kṛṣṇaṁ\nsa-gadgadaṁ bhīta-bhītaḥ praṇamya"
+  },
+  "synonyms_raw": "sañjayaḥ\nuvāca\n—\nSañjaya said\n;\netat\n—\nthus\n;\nśrutvā\n—\nhearing\n;\nvacanam\n—\nthe speech\n;\nkeśavasya\n—\nof Kṛṣṇa\n;\nkṛta\n-\nañjaliḥ\n—\nwith folded hands\n;\nvepamānaḥ\n—\ntrembling\n;\nkirīṭī\n—\nArjuna\n;\nnamaskṛtvā\n—\noffering obeisances\n;\nbhūyaḥ\n—\nagain\n;\neva\n—\nalso\n;\nāha\n—\nsaid\n;\nkṛṣṇam\n—\nunto Kṛṣṇa\n;\nsa\n-\ngadgadam\n—\nwith a faltering voice\n;\nbhīta\n-\nbhītaḥ\n—\nfearful\n;\npraṇamya\n—\noffering obeisances\n.",
+  "translation": "Sañjaya said to Dhṛtarāṣṭra: O King, after hearing these words from the Supreme Personality of Godhead, the trembling Arjuna offered obeisances with folded hands again and again. He fearfully spoke to Lord Kṛṣṇa in a faltering voice, as follows.",
+  "purport": [
+    "As we have already explained, because of the situation created by the universal form of the Supreme Personality of Godhead, Arjuna became bewildered in wonder; thus he began to offer his respectful obeisances to Kṛṣṇa again and again, and with faltering voice he began to pray, not as a friend, but as a devotee in wonder."
+  ],
+  "source": {
+    "author": "A. C. Bhaktivedanta Swami Prabhupāda",
+    "edition": "Bhagavad-gītā As It Is",
+    "language": "en",
+    "provider": "vedabase.io"
+  },
+  "synonyms": {
+    "language": "en",
+    "items": [
+      {
+        "sanskrit": "sañjayaḥ uvāca",
+        "meaning": "Sañjaya said"
+      },
+      {
+        "sanskrit": "etat",
+        "meaning": "thus"
+      },
+      {
+        "sanskrit": "śrutvā",
+        "meaning": "hearing"
+      },
+      {
+        "sanskrit": "vacanam",
+        "meaning": "the speech"
+      },
+      {
+        "sanskrit": "keśavasya",
+        "meaning": "of Kṛṣṇa"
+      },
+      {
+        "sanskrit": "kṛta añjaliḥ",
+        "meaning": "with folded hands"
+      },
+      {
+        "sanskrit": "vepamānaḥ",
+        "meaning": "trembling"
+      },
+      {
+        "sanskrit": "kirīṭī",
+        "meaning": "Arjuna"
+      },
+      {
+        "sanskrit": "namaskṛtvā",
+        "meaning": "offering obeisances"
+      },
+      {
+        "sanskrit": "bhūyaḥ",
+        "meaning": "again"
+      },
+      {
+        "sanskrit": "eva",
+        "meaning": "also"
+      },
+      {
+        "sanskrit": "āha",
+        "meaning": "said"
+      },
+      {
+        "sanskrit": "kṛṣṇam",
+        "meaning": "unto Kṛṣṇa"
+      },
+      {
+        "sanskrit": "sa gadgadam",
+        "meaning": "with a faltering voice"
+      },
+      {
+        "sanskrit": "bhīta bhītaḥ",
+        "meaning": "fearful"
+      }
+    ]
+  }
+}

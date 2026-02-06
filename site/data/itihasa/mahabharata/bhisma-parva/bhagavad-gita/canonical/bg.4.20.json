@@ -1,0 +1,34 @@
+{
+  "uid": "bg.4.20",
+  "work": {
+    "corpus": "itihasa",
+    "text": "mahabharata",
+    "section": "bhisma-parva",
+    "subwork": "bhagavad-gita"
+  },
+  "location": {
+    "chapter": 4,
+    "verse": 20
+  },
+  "text": {
+    "script": "devanagari",
+    "content": "त्यक्त्वा कर्मफलासङ्गं नित्यतृप्तो निराश्रयः ।\nकर्मण्यभिप्रवृत्तोऽपि नैव किञ्चित्करोति सः\n॥ २० ॥"
+  },
+  "transliteration": {
+    "scheme": "iast",
+    "content": "tyaktvā karmaphalāsaṅgaṃ nityatṛpto nirāśrayaḥ |\nkarmaṇyabhipravṛtto'pi naiva kiñcitkaroti saḥ\n|| 20 ||"
+  },
+  "source": {
+    "pipeline": "bhagavad-gita",
+    "stage": "2.5",
+    "script": "s25_realign_iast_bg.py",
+    "script_version": "2.2.0",
+    "derived_from": [
+      "vedabase/raw-json/bg-04-20.json"
+    ]
+  },
+  "schema": {
+    "name": "vedic-library.canonical.verse",
+    "version": "1.0.0"
+  }
+}

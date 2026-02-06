@@ -1,0 +1,72 @@
+{
+  "temp_id": "vedabase-bg-04-33",
+  "chapter": 4,
+  "verse": 33,
+  "verse_id": "bg-04-33",
+  "verse_group": null,
+  "composite": false,
+  "sanskrit": {
+    "devanagari": "श्रेयान्द्रव्यमयाद्यज्ञाज्ज्ञानयज्ञः परन्तप ।\nसर्वं कर्माखिलं पार्थ ज्ञाने परिसमाप्यते ॥ ३३ ॥",
+    "iast": "śreyān dravya-mayād yajñāj\njñāna-yajñaḥ paran-tapa\nsarvaṁ karmākhilaṁ pārtha\njñāne parisamāpyate"
+  },
+  "synonyms_raw": "śreyān\n—\ngreater\n;\ndravya\n-\nmayāt\n—\nof material possessions\n;\nyajñāt\n—\nthan the sacrifice\n;\njñāna\n-\nyajñaḥ\n—\nsacrifice in knowledge\n;\nparam\n-\ntapa\n—\nO chastiser of the enemy\n;\nsarvam\n—\nall\n;\nkarma\n—\nactivities\n;\nakhilam\n—\nin totality\n;\npārtha\n—\nO son of Pṛthā\n;\njñāne\n—\nin knowledge\n;\nparisamāpyate\n—\nend\n.",
+  "translation": "O chastiser of the enemy, the sacrifice performed in knowledge is better than the mere sacrifice of material possessions. After all, O son of Pṛthā, all sacrifices of work culminate in transcendental knowledge.",
+  "purport": [
+    "The purpose of all sacrifices is to arrive at the status of complete knowledge, then to gain release from material miseries and, ultimately, to engage in loving transcendental service to the Supreme Lord (Kṛṣṇa consciousness). Nonetheless, there is a mystery about all these different activities of sacrifice, and one should know this mystery. Sacrifices sometimes take different forms according to the particular faith of the performer. When one’s faith reaches the stage of transcendental knowledge, the performer of sacrifices should be considered more advanced than those who simply sacrifice material possessions without such knowledge, for without attainment of knowledge, sacrifices remain on the material platform and bestow no spiritual benefit. Real knowledge culminates in Kṛṣṇa consciousness, the highest stage of transcendental knowledge. Without the elevation of knowledge, sacrifices are simply material activities. When, however, they are elevated to the level of transcendental knowledge, all such activities enter onto the spiritual platform. Depending on differences in consciousness, sacrificial activities are sometimes called",
+    "karma-kāṇḍa",
+    "(fruitive activities) and sometimes",
+    "jñāna-kāṇḍa",
+    "(knowledge in the pursuit of truth). It is better when the end is knowledge."
+  ],
+  "source": {
+    "author": "A. C. Bhaktivedanta Swami Prabhupāda",
+    "edition": "Bhagavad-gītā As It Is",
+    "language": "en",
+    "provider": "vedabase.io"
+  },
+  "synonyms": {
+    "language": "en",
+    "items": [
+      {
+        "sanskrit": "śreyān",
+        "meaning": "greater"
+      },
+      {
+        "sanskrit": "dravya mayāt",
+        "meaning": "of material possessions"
+      },
+      {
+        "sanskrit": "yajñāt",
+        "meaning": "than the sacrifice"
+      },
+      {
+        "sanskrit": "jñāna yajñaḥ",
+        "meaning": "sacrifice in knowledge"
+      },
+      {
+        "sanskrit": "param tapa",
+        "meaning": "O chastiser of the enemy"
+      },
+      {
+        "sanskrit": "sarvam",
+        "meaning": "all"
+      },
+      {
+        "sanskrit": "karma",
+        "meaning": "activities"
+      },
+      {
+        "sanskrit": "akhilam",
+        "meaning": "in totality"
+      },
+      {
+        "sanskrit": "pārtha",
+        "meaning": "O son of Pṛthā"
+      },
+      {
+        "sanskrit": "jñāne",
+        "meaning": "in knowledge"
+      }
+    ]
+  }
+}

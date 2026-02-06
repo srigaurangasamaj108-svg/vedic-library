@@ -1,0 +1,71 @@
+{
+  "uid": "bg.18.13.prabhupada.synonyms",
+  "editorial_unit_ref": {
+    "uid": "bg.18.13.prabhupada",
+    "schema": "vedic-library.editorial.unit",
+    "version": "1.0.0"
+  },
+  "synonyms": {
+    "language": "en",
+    "author": "A. C. Bhaktivedanta Swami Prabhupāda",
+    "items": {
+      "language": "en",
+      "items": [
+        {
+          "sanskrit": "pañca",
+          "meaning": "five"
+        },
+        {
+          "sanskrit": "etāni",
+          "meaning": "these"
+        },
+        {
+          "sanskrit": "mahā bāho",
+          "meaning": "O mighty-armed one"
+        },
+        {
+          "sanskrit": "kāraṇāni",
+          "meaning": "causes"
+        },
+        {
+          "sanskrit": "nibodha",
+          "meaning": "just understand"
+        },
+        {
+          "sanskrit": "me",
+          "meaning": "from Me"
+        },
+        {
+          "sanskrit": "sāṅkhye",
+          "meaning": "in the Vedānta"
+        },
+        {
+          "sanskrit": "kṛta ante",
+          "meaning": "in the conclusion"
+        },
+        {
+          "sanskrit": "proktāni",
+          "meaning": "said"
+        },
+        {
+          "sanskrit": "siddhaye",
+          "meaning": "for the perfection"
+        },
+        {
+          "sanskrit": "sarva",
+          "meaning": "of all"
+        }
+      ]
+    }
+  },
+  "source": {
+    "derived_from": "vedabase.io",
+    "normalized_file": "vedabase-bg-18-13.normalized.json",
+    "pipeline_stage": "migration.m3",
+    "script": "m3_migrate_synonyms.py"
+  },
+  "schema": {
+    "name": "vedic-library.derivative.synonyms",
+    "version": "2.0.0"
+  }
+}

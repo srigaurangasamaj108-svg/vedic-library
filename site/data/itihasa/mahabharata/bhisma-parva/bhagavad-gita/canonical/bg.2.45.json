@@ -1,0 +1,34 @@
+{
+  "uid": "bg.2.45",
+  "work": {
+    "corpus": "itihasa",
+    "text": "mahabharata",
+    "section": "bhisma-parva",
+    "subwork": "bhagavad-gita"
+  },
+  "location": {
+    "chapter": 2,
+    "verse": 45
+  },
+  "text": {
+    "script": "devanagari",
+    "content": "त्रैगुण्यविषया वेदा निस्त्रैगुण्यो भवार्जुन ।\nनिर्द्वन्द्वो नित्यसत्त्वस्थो निर्योगक्षेम आत्मवान्\n॥ ४५ ॥"
+  },
+  "transliteration": {
+    "scheme": "iast",
+    "content": "traiguṇyaviṣayā vedā nistraiguṇyo bhavārjuna |\nnirdvandvo nityasattvastho niryogakṣema ātmavān\n|| 45 ||"
+  },
+  "source": {
+    "pipeline": "bhagavad-gita",
+    "stage": "2.5",
+    "script": "s25_realign_iast_bg.py",
+    "script_version": "2.2.0",
+    "derived_from": [
+      "vedabase/raw-json/bg-02-45.json"
+    ]
+  },
+  "schema": {
+    "name": "vedic-library.canonical.verse",
+    "version": "1.0.0"
+  }
+}

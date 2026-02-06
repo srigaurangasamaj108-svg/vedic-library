@@ -1,0 +1,71 @@
+{
+  "uid": "bg.2.32.prabhupada.synonyms",
+  "editorial_unit_ref": {
+    "uid": "bg.2.32.prabhupada",
+    "schema": "vedic-library.editorial.unit",
+    "version": "1.0.0"
+  },
+  "synonyms": {
+    "language": "en",
+    "author": "A. C. Bhaktivedanta Swami Prabhupāda",
+    "items": {
+      "language": "en",
+      "items": [
+        {
+          "sanskrit": "yadṛcchayā",
+          "meaning": "by its own accord"
+        },
+        {
+          "sanskrit": "ca",
+          "meaning": "also"
+        },
+        {
+          "sanskrit": "upapannam",
+          "meaning": "arrived at"
+        },
+        {
+          "sanskrit": "svarga",
+          "meaning": "of the heavenly planets"
+        },
+        {
+          "sanskrit": "dvāram",
+          "meaning": "door"
+        },
+        {
+          "sanskrit": "apāvṛtam",
+          "meaning": "wide open"
+        },
+        {
+          "sanskrit": "sukhinaḥ",
+          "meaning": "very happy"
+        },
+        {
+          "sanskrit": "kṣatriyāḥ",
+          "meaning": "the members of the royal order"
+        },
+        {
+          "sanskrit": "pārtha",
+          "meaning": "O son of Pṛthā"
+        },
+        {
+          "sanskrit": "labhante",
+          "meaning": "do achieve"
+        },
+        {
+          "sanskrit": "yuddham",
+          "meaning": "war"
+        }
+      ]
+    }
+  },
+  "source": {
+    "derived_from": "vedabase.io",
+    "normalized_file": "vedabase-bg-02-32.normalized.json",
+    "pipeline_stage": "migration.m3",
+    "script": "m3_migrate_synonyms.py"
+  },
+  "schema": {
+    "name": "vedic-library.derivative.synonyms",
+    "version": "2.0.0"
+  }
+}

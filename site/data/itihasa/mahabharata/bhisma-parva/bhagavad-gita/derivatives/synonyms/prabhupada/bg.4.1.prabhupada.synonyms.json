@@ -1,0 +1,75 @@
+{
+  "uid": "bg.4.1.prabhupada.synonyms",
+  "editorial_unit_ref": {
+    "uid": "bg.4.1.prabhupada",
+    "schema": "vedic-library.editorial.unit",
+    "version": "1.0.0"
+  },
+  "synonyms": {
+    "language": "en",
+    "author": "A. C. Bhaktivedanta Swami Prabhupāda",
+    "items": {
+      "language": "en",
+      "items": [
+        {
+          "sanskrit": "śrī bhagavān uvāca",
+          "meaning": "the Supreme Personality of Godhead said"
+        },
+        {
+          "sanskrit": "imam",
+          "meaning": "this"
+        },
+        {
+          "sanskrit": "vivasvate",
+          "meaning": "unto the sun-god"
+        },
+        {
+          "sanskrit": "yogam",
+          "meaning": "the science of one’s relationship to the Supreme"
+        },
+        {
+          "sanskrit": "proktavān",
+          "meaning": "instructed"
+        },
+        {
+          "sanskrit": "aham",
+          "meaning": "I"
+        },
+        {
+          "sanskrit": "avyayam",
+          "meaning": "imperishable"
+        },
+        {
+          "sanskrit": "vivasvān",
+          "meaning": "Vivasvān (the sun-god’s name)"
+        },
+        {
+          "sanskrit": "manave",
+          "meaning": "unto the father of mankind (of the name Vaivasvata)"
+        },
+        {
+          "sanskrit": "prāha",
+          "meaning": "told"
+        },
+        {
+          "sanskrit": "manuḥ",
+          "meaning": "the father of mankind"
+        },
+        {
+          "sanskrit": "ikṣvākave",
+          "meaning": "unto King Ikṣvāku"
+        }
+      ]
+    }
+  },
+  "source": {
+    "derived_from": "vedabase.io",
+    "normalized_file": "vedabase-bg-04-01.normalized.json",
+    "pipeline_stage": "migration.m3",
+    "script": "m3_migrate_synonyms.py"
+  },
+  "schema": {
+    "name": "vedic-library.derivative.synonyms",
+    "version": "2.0.0"
+  }
+}
