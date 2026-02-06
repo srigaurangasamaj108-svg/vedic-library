@@ -1,0 +1,34 @@
+{
+  "uid": "bg.18.53",
+  "work": {
+    "corpus": "itihasa",
+    "text": "mahabharata",
+    "section": "bhisma-parva",
+    "subwork": "bhagavad-gita"
+  },
+  "location": {
+    "chapter": 18,
+    "verse": 53
+  },
+  "text": {
+    "script": "devanagari",
+    "content": "अहङ्कारं बलं दर्पं कामं क्रोधं परिग्रहम् ।\nविमुच्य निर्मम: शान्तो ब्रह्मभूयाय कल्पते\n॥ ५३ ॥"
+  },
+  "transliteration": {
+    "scheme": "iast",
+    "content": "ahaṅkāraṃ balaṃ darpaṃ kāmaṃ krodhaṃ parigraham |\nvimucya nirmama: śānto brahmabhūyāya kalpate\n|| 53 ||"
+  },
+  "source": {
+    "pipeline": "bhagavad-gita",
+    "stage": "2.5",
+    "script": "s25_realign_iast_bg.py",
+    "script_version": "2.2.0",
+    "derived_from": [
+      "vedabase/raw-json/bg-18-51-53.json"
+    ]
+  },
+  "schema": {
+    "name": "vedic-library.canonical.verse",
+    "version": "1.0.0"
+  }
+}

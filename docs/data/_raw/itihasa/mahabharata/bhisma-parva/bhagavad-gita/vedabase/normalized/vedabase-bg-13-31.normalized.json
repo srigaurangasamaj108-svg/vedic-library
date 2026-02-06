@@ -1,0 +1,68 @@
+{
+  "temp_id": "vedabase-bg-13-31",
+  "chapter": 13,
+  "verse": 31,
+  "verse_id": "bg-13-31",
+  "verse_group": null,
+  "composite": false,
+  "sanskrit": {
+    "devanagari": "यदा भूतपृथग्भावमेकस्थमनुपश्यति ।\nतत एव च विस्तारं ब्रह्म सम्पद्यते तदा ॥ ३१ ॥",
+    "iast": "yadā bhūta-pṛthag-bhāvam\neka-stham anupaśyati\ntata eva ca vistāraṁ\nbrahma sampadyate tadā"
+  },
+  "synonyms_raw": "yadā\n—\nwhen\n;\nbhūta\n—\nof living entities\n;\npṛthak\n-\nbhāvam\n—\nseparated identities\n;\neka\n-\nstham\n—\nsituated in one\n;\nanupaśyati\n—\none tries to see through authority\n;\ntataḥ\neva\n—\nthereafter\n;\nca\n—\nalso\n;\nvistāram\n—\nthe expansion\n;\nbrahma\n—\nthe Absolute\n;\nsampadyate\n—\nhe attains\n;\ntadā\n—\nat that time\n.",
+  "translation": "When a sensible man ceases to see different identities due to different material bodies and he sees how beings are expanded everywhere, he attains to the Brahman conception.",
+  "purport": [
+    "When one can see that the various bodies of living entities arise due to the different desires of the individual soul and do not actually belong to the soul itself, one actually sees. In the material conception of life, we find someone a demigod, someone a human being, a dog, a cat, etc. This is material vision, not actual vision. This material differentiation is due to a material conception of life. After the destruction of the material body, the spirit soul is one. The spirit soul, due to contact with material nature, gets different types of bodies. When one can see this, he attains spiritual vision; thus being freed from differentiations like man, animal, big, low, etc., one becomes purified in his consciousness and able to develop Kṛṣṇa consciousness in his spiritual identity. How he then sees things will be explained in the next verse."
+  ],
+  "source": {
+    "author": "A. C. Bhaktivedanta Swami Prabhupāda",
+    "edition": "Bhagavad-gītā As It Is",
+    "language": "en",
+    "provider": "vedabase.io"
+  },
+  "synonyms": {
+    "language": "en",
+    "items": [
+      {
+        "sanskrit": "yadā",
+        "meaning": "when"
+      },
+      {
+        "sanskrit": "bhūta",
+        "meaning": "of living entities"
+      },
+      {
+        "sanskrit": "pṛthak bhāvam",
+        "meaning": "separated identities"
+      },
+      {
+        "sanskrit": "eka stham",
+        "meaning": "situated in one"
+      },
+      {
+        "sanskrit": "anupaśyati",
+        "meaning": "one tries to see through authority"
+      },
+      {
+        "sanskrit": "tataḥ eva",
+        "meaning": "thereafter"
+      },
+      {
+        "sanskrit": "ca",
+        "meaning": "also"
+      },
+      {
+        "sanskrit": "vistāram",
+        "meaning": "the expansion"
+      },
+      {
+        "sanskrit": "brahma",
+        "meaning": "the Absolute"
+      },
+      {
+        "sanskrit": "sampadyate",
+        "meaning": "he attains"
+      }
+    ]
+  }
+}

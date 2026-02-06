@@ -1,0 +1,94 @@
+{
+  "temp_id": "vedabase-bg-05-23",
+  "chapter": 5,
+  "verse": 23,
+  "verse_id": "bg-05-23",
+  "verse_group": null,
+  "composite": false,
+  "sanskrit": {
+    "devanagari": "शक्न‍ोतीहैव य: सोढुं प्राक्शरीरविमोक्षणात् ।\nकामक्रोधोद्भ‍वं वेगं स युक्त: स सुखी नर: ॥ २३ ॥",
+    "iast": "śaknotīhaiva yaḥ soḍhuṁ\nprāk śarīra-vimokṣaṇāt\nkāma-krodhodbhavaṁ vegaṁ\nsa yuktaḥ sa sukhī naraḥ"
+  },
+  "synonyms_raw": "śaknoti\n—\nis able\n;\niha\neva\n—\nin the present body\n;\nyaḥ\n—\none who\n;\nsoḍhum\n—\nto tolerate\n;\nprāk\n—\nbefore\n;\nśarīra\n—\nthe body\n;\nvimokṣaṇāt\n—\ngiving up\n;\nkāma\n—\ndesire\n;\nkrodha\n—\nand anger\n;\nudbhavam\n—\ngenerated from\n;\nvegam\n—\nurges\n;\nsaḥ\n—\nhe\n;\nyuktaḥ\n—\nin trance\n;\nsaḥ\n—\nhe\n;\nsukhī\n—\nhappy\n;\nnaraḥ\n—\nhuman being\n.",
+  "translation": "Before giving up this present body, if one is able to tolerate the urges of the material senses and check the force of desire and anger, he is well situated and is happy in this world.",
+  "purport": [
+    "If one wants to make steady progress on the path of self-realization, he must try to control the forces of the material senses. There are the forces of talk, forces of anger, forces of mind, forces of the stomach, forces of the genitals, and forces of the tongue. One who is able to control the forces of all these different senses, and the mind, is called",
+    "gosvāmī,",
+    "or",
+    "svāmī.",
+    "Such",
+    "gosvāmīs",
+    "live strictly controlled lives and forgo altogether the forces of the senses. Material desires, when unsatiated, generate anger, and thus the mind, eyes and chest become agitated. Therefore, one must practice to control them before one gives up this material body. One who can do this is understood to be self-realized and is thus happy in the state of self-realization. It is the duty of the transcendentalist to try strenuously to control desire and anger."
+  ],
+  "source": {
+    "author": "A. C. Bhaktivedanta Swami Prabhupāda",
+    "edition": "Bhagavad-gītā As It Is",
+    "language": "en",
+    "provider": "vedabase.io"
+  },
+  "synonyms": {
+    "language": "en",
+    "items": [
+      {
+        "sanskrit": "śaknoti",
+        "meaning": "is able"
+      },
+      {
+        "sanskrit": "iha eva",
+        "meaning": "in the present body"
+      },
+      {
+        "sanskrit": "yaḥ",
+        "meaning": "one who"
+      },
+      {
+        "sanskrit": "soḍhum",
+        "meaning": "to tolerate"
+      },
+      {
+        "sanskrit": "prāk",
+        "meaning": "before"
+      },
+      {
+        "sanskrit": "śarīra",
+        "meaning": "the body"
+      },
+      {
+        "sanskrit": "vimokṣaṇāt",
+        "meaning": "giving up"
+      },
+      {
+        "sanskrit": "kāma",
+        "meaning": "desire"
+      },
+      {
+        "sanskrit": "krodha",
+        "meaning": "and anger"
+      },
+      {
+        "sanskrit": "udbhavam",
+        "meaning": "generated from"
+      },
+      {
+        "sanskrit": "vegam",
+        "meaning": "urges"
+      },
+      {
+        "sanskrit": "saḥ",
+        "meaning": "he"
+      },
+      {
+        "sanskrit": "yuktaḥ",
+        "meaning": "in trance"
+      },
+      {
+        "sanskrit": "saḥ",
+        "meaning": "he"
+      },
+      {
+        "sanskrit": "sukhī",
+        "meaning": "happy"
+      }
+    ]
+  }
+}

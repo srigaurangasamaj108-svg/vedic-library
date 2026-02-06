@@ -1,0 +1,79 @@
+{
+  "uid": "bg.13.35.prabhupada.synonyms",
+  "editorial_unit_ref": {
+    "uid": "bg.13.35.prabhupada",
+    "schema": "vedic-library.editorial.unit",
+    "version": "1.0.0"
+  },
+  "synonyms": {
+    "language": "en",
+    "author": "A. C. Bhaktivedanta Swami Prabhupāda",
+    "items": {
+      "language": "en",
+      "items": [
+        {
+          "sanskrit": "kṣetra",
+          "meaning": "of the body"
+        },
+        {
+          "sanskrit": "kṣetra jñayoḥ",
+          "meaning": "of the proprietor of the body"
+        },
+        {
+          "sanskrit": "evam",
+          "meaning": "thus"
+        },
+        {
+          "sanskrit": "antaram",
+          "meaning": "the difference"
+        },
+        {
+          "sanskrit": "jñāna cakṣuṣā",
+          "meaning": "by the vision of knowledge"
+        },
+        {
+          "sanskrit": "bhūta",
+          "meaning": "of the living entity"
+        },
+        {
+          "sanskrit": "prakṛti",
+          "meaning": "from material nature"
+        },
+        {
+          "sanskrit": "mokṣam",
+          "meaning": "the liberation"
+        },
+        {
+          "sanskrit": "ca",
+          "meaning": "also"
+        },
+        {
+          "sanskrit": "ye",
+          "meaning": "those who"
+        },
+        {
+          "sanskrit": "viduḥ",
+          "meaning": "know"
+        },
+        {
+          "sanskrit": "yānti",
+          "meaning": "approach"
+        },
+        {
+          "sanskrit": "te",
+          "meaning": "they"
+        }
+      ]
+    }
+  },
+  "source": {
+    "derived_from": "vedabase.io",
+    "normalized_file": "vedabase-bg-13-35.normalized.json",
+    "pipeline_stage": "migration.m3",
+    "script": "m3_migrate_synonyms.py"
+  },
+  "schema": {
+    "name": "vedic-library.derivative.synonyms",
+    "version": "2.0.0"
+  }
+}

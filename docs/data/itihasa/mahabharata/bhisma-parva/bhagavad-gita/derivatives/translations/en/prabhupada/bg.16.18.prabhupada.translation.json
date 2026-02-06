@@ -1,0 +1,23 @@
+{
+  "uid": "bg.16.18.prabhupada.translation.en",
+  "editorial_unit_ref": {
+    "uid": "bg.16.18.prabhupada",
+    "schema": "vedic-library.editorial.unit",
+    "version": "1.0.0"
+  },
+  "translation": {
+    "language": "en",
+    "translator": "A. C. Bhaktivedanta Swami Prabhupāda",
+    "content": "Bewildered by false ego, strength, pride, lust and anger, the demons become envious of the Supreme Personality of Godhead, who is situated in their own bodies and in the bodies of others, and blaspheme against the real religion."
+  },
+  "source": {
+    "derived_from": "vedabase.io",
+    "normalized_file": "vedabase-bg-16-18.normalized.json",
+    "pipeline_stage": "migration.m2",
+    "script": "m2_migrate_translations.py"
+  },
+  "schema": {
+    "name": "vedic-library.derivative.translation",
+    "version": "2.0.0"
+  }
+}

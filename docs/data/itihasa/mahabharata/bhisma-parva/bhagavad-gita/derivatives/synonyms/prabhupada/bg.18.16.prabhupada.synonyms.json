@@ -1,0 +1,79 @@
+{
+  "uid": "bg.18.16.prabhupada.synonyms",
+  "editorial_unit_ref": {
+    "uid": "bg.18.16.prabhupada",
+    "schema": "vedic-library.editorial.unit",
+    "version": "1.0.0"
+  },
+  "synonyms": {
+    "language": "en",
+    "author": "A. C. Bhaktivedanta Swami Prabhupāda",
+    "items": {
+      "language": "en",
+      "items": [
+        {
+          "sanskrit": "tatra",
+          "meaning": "there"
+        },
+        {
+          "sanskrit": "evam",
+          "meaning": "thus"
+        },
+        {
+          "sanskrit": "sati",
+          "meaning": "being"
+        },
+        {
+          "sanskrit": "kartāram",
+          "meaning": "the worker"
+        },
+        {
+          "sanskrit": "ātmānam",
+          "meaning": "himself"
+        },
+        {
+          "sanskrit": "kevalam",
+          "meaning": "only"
+        },
+        {
+          "sanskrit": "tu",
+          "meaning": "but"
+        },
+        {
+          "sanskrit": "yaḥ",
+          "meaning": "anyone who"
+        },
+        {
+          "sanskrit": "paśyati",
+          "meaning": "sees"
+        },
+        {
+          "sanskrit": "akṛta buddhitvāt",
+          "meaning": "due to unintelligence"
+        },
+        {
+          "sanskrit": "na",
+          "meaning": "never"
+        },
+        {
+          "sanskrit": "saḥ",
+          "meaning": "he"
+        },
+        {
+          "sanskrit": "paśyati",
+          "meaning": "sees"
+        }
+      ]
+    }
+  },
+  "source": {
+    "derived_from": "vedabase.io",
+    "normalized_file": "vedabase-bg-18-16.normalized.json",
+    "pipeline_stage": "migration.m3",
+    "script": "m3_migrate_synonyms.py"
+  },
+  "schema": {
+    "name": "vedic-library.derivative.synonyms",
+    "version": "2.0.0"
+  }
+}

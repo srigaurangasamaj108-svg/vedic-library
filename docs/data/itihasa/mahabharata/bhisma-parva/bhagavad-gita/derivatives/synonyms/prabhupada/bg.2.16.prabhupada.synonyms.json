@@ -1,0 +1,87 @@
+{
+  "uid": "bg.2.16.prabhupada.synonyms",
+  "editorial_unit_ref": {
+    "uid": "bg.2.16.prabhupada",
+    "schema": "vedic-library.editorial.unit",
+    "version": "1.0.0"
+  },
+  "synonyms": {
+    "language": "en",
+    "author": "A. C. Bhaktivedanta Swami Prabhupāda",
+    "items": {
+      "language": "en",
+      "items": [
+        {
+          "sanskrit": "na",
+          "meaning": "never"
+        },
+        {
+          "sanskrit": "asataḥ",
+          "meaning": "of the nonexistent"
+        },
+        {
+          "sanskrit": "vidyate",
+          "meaning": "there is"
+        },
+        {
+          "sanskrit": "bhāvaḥ",
+          "meaning": "endurance"
+        },
+        {
+          "sanskrit": "na",
+          "meaning": "never"
+        },
+        {
+          "sanskrit": "abhāvaḥ",
+          "meaning": "changing quality"
+        },
+        {
+          "sanskrit": "vidyate",
+          "meaning": "there is"
+        },
+        {
+          "sanskrit": "sataḥ",
+          "meaning": "of the eternal"
+        },
+        {
+          "sanskrit": "ubhayoḥ",
+          "meaning": "of the two"
+        },
+        {
+          "sanskrit": "api",
+          "meaning": "verily"
+        },
+        {
+          "sanskrit": "dṛṣṭaḥ",
+          "meaning": "observed"
+        },
+        {
+          "sanskrit": "antaḥ",
+          "meaning": "conclusion"
+        },
+        {
+          "sanskrit": "tu",
+          "meaning": "indeed"
+        },
+        {
+          "sanskrit": "anayoḥ",
+          "meaning": "of them"
+        },
+        {
+          "sanskrit": "tattva",
+          "meaning": "of the truth"
+        }
+      ]
+    }
+  },
+  "source": {
+    "derived_from": "vedabase.io",
+    "normalized_file": "vedabase-bg-02-16.normalized.json",
+    "pipeline_stage": "migration.m3",
+    "script": "m3_migrate_synonyms.py"
+  },
+  "schema": {
+    "name": "vedic-library.derivative.synonyms",
+    "version": "2.0.0"
+  }
+}

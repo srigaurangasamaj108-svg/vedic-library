@@ -1,0 +1,44 @@
+{
+  "schema": "vedic-library.verse.index",
+  "schema_version": "1.0.0",
+  "verse_uid": "bg.18.78",
+  "work": {
+    "corpus": "itihasa",
+    "text": "mahabharata",
+    "section": "bhisma-parva",
+    "subwork": "bhagavad-gita"
+  },
+  "location": {
+    "chapter": 18,
+    "verse": 78
+  },
+  "canonical_ref": "bg.18.78",
+  "editorial_unit": {
+    "uid": "bg.18.78.prabhupada",
+    "covers": {
+      "chapter": 18,
+      "from_verse": 78,
+      "to_verse": 78
+    }
+  },
+  "derivatives": {
+    "synonyms": {
+      "available": true,
+      "refs": [
+        "bg.18.78.prabhupada.synonyms.en"
+      ]
+    },
+    "translations": {
+      "available": true,
+      "refs": [
+        "bg.18.78.prabhupada.translation.en"
+      ]
+    },
+    "exposition": {
+      "available": true,
+      "refs": [
+        "bg.18.78.prabhupada.exposition"
+      ]
+    }
+  }
+}

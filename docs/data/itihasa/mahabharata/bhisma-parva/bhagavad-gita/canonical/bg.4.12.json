@@ -1,0 +1,34 @@
+{
+  "uid": "bg.4.12",
+  "work": {
+    "corpus": "itihasa",
+    "text": "mahabharata",
+    "section": "bhisma-parva",
+    "subwork": "bhagavad-gita"
+  },
+  "location": {
+    "chapter": 4,
+    "verse": 12
+  },
+  "text": {
+    "script": "devanagari",
+    "content": "काङ्क्षन्तः कर्मणां सिद्धिं यजन्त इह देवता ।\nक्षिप्रं हि मानुषे लोके सिद्धिर्भवति कर्मजा\n॥ १२ ॥"
+  },
+  "transliteration": {
+    "scheme": "iast",
+    "content": "kāṅkṣantaḥ karmaṇāṃ siddhiṃ yajanta iha devatā |\nkṣipraṃ hi mānuṣe loke siddhirbhavati karmajā\n|| 12 ||"
+  },
+  "source": {
+    "pipeline": "bhagavad-gita",
+    "stage": "2.5",
+    "script": "s25_realign_iast_bg.py",
+    "script_version": "2.2.0",
+    "derived_from": [
+      "vedabase/raw-json/bg-04-12.json"
+    ]
+  },
+  "schema": {
+    "name": "vedic-library.canonical.verse",
+    "version": "1.0.0"
+  }
+}

@@ -1,0 +1,107 @@
+{
+  "uid": "bg.1.26.prabhupada.synonyms",
+  "editorial_unit_ref": {
+    "uid": "bg.1.26.prabhupada",
+    "schema": "vedic-library.editorial.unit",
+    "version": "1.0.0"
+  },
+  "synonyms": {
+    "language": "en",
+    "author": "A. C. Bhaktivedanta Swami Prabhupāda",
+    "items": {
+      "language": "en",
+      "items": [
+        {
+          "sanskrit": "tatra",
+          "meaning": "there"
+        },
+        {
+          "sanskrit": "apaśyat",
+          "meaning": "he could see"
+        },
+        {
+          "sanskrit": "sthitān",
+          "meaning": "standing"
+        },
+        {
+          "sanskrit": "pārthaḥ",
+          "meaning": "Arjuna"
+        },
+        {
+          "sanskrit": "pitṝn",
+          "meaning": "fathers"
+        },
+        {
+          "sanskrit": "atha",
+          "meaning": "also"
+        },
+        {
+          "sanskrit": "pitāmahān",
+          "meaning": "grandfathers"
+        },
+        {
+          "sanskrit": "ācāryān",
+          "meaning": "teachers"
+        },
+        {
+          "sanskrit": "mātulān",
+          "meaning": "maternal uncles"
+        },
+        {
+          "sanskrit": "bhrātṝn",
+          "meaning": "brothers"
+        },
+        {
+          "sanskrit": "putrān",
+          "meaning": "sons"
+        },
+        {
+          "sanskrit": "pautrān",
+          "meaning": "grandsons"
+        },
+        {
+          "sanskrit": "sakhīn",
+          "meaning": "friends"
+        },
+        {
+          "sanskrit": "tathā",
+          "meaning": "too"
+        },
+        {
+          "sanskrit": "śvaśurān",
+          "meaning": "fathers-in-law"
+        },
+        {
+          "sanskrit": "suhṛdaḥ",
+          "meaning": "well-wishers"
+        },
+        {
+          "sanskrit": "ca",
+          "meaning": "also"
+        },
+        {
+          "sanskrit": "eva",
+          "meaning": "certainly"
+        },
+        {
+          "sanskrit": "senayoḥ",
+          "meaning": "of the armies"
+        },
+        {
+          "sanskrit": "ubhayoḥ",
+          "meaning": "of both parties"
+        }
+      ]
+    }
+  },
+  "source": {
+    "derived_from": "vedabase.io",
+    "normalized_file": "vedabase-bg-01-26.normalized.json",
+    "pipeline_stage": "migration.m3",
+    "script": "m3_migrate_synonyms.py"
+  },
+  "schema": {
+    "name": "vedic-library.derivative.synonyms",
+    "version": "2.0.0"
+  }
+}

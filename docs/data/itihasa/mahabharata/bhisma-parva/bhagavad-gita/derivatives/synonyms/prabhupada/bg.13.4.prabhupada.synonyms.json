@@ -1,0 +1,107 @@
+{
+  "uid": "bg.13.4.prabhupada.synonyms",
+  "editorial_unit_ref": {
+    "uid": "bg.13.4.prabhupada",
+    "schema": "vedic-library.editorial.unit",
+    "version": "1.0.0"
+  },
+  "synonyms": {
+    "language": "en",
+    "author": "A. C. Bhaktivedanta Swami Prabhupāda",
+    "items": {
+      "language": "en",
+      "items": [
+        {
+          "sanskrit": "tat",
+          "meaning": "that"
+        },
+        {
+          "sanskrit": "kṣetram",
+          "meaning": "field of activities"
+        },
+        {
+          "sanskrit": "yat",
+          "meaning": "what"
+        },
+        {
+          "sanskrit": "ca",
+          "meaning": "also"
+        },
+        {
+          "sanskrit": "yādṛk",
+          "meaning": "as it is"
+        },
+        {
+          "sanskrit": "ca",
+          "meaning": "also"
+        },
+        {
+          "sanskrit": "yat",
+          "meaning": "having what"
+        },
+        {
+          "sanskrit": "vikāri",
+          "meaning": "changes"
+        },
+        {
+          "sanskrit": "yataḥ",
+          "meaning": "from which"
+        },
+        {
+          "sanskrit": "ca",
+          "meaning": "also"
+        },
+        {
+          "sanskrit": "yat",
+          "meaning": "what"
+        },
+        {
+          "sanskrit": "saḥ",
+          "meaning": "he"
+        },
+        {
+          "sanskrit": "ca",
+          "meaning": "also"
+        },
+        {
+          "sanskrit": "yaḥ",
+          "meaning": "who"
+        },
+        {
+          "sanskrit": "yat",
+          "meaning": "having what"
+        },
+        {
+          "sanskrit": "prabhāvaḥ",
+          "meaning": "influence"
+        },
+        {
+          "sanskrit": "ca",
+          "meaning": "also"
+        },
+        {
+          "sanskrit": "tat",
+          "meaning": "that"
+        },
+        {
+          "sanskrit": "samāsena",
+          "meaning": "in summary"
+        },
+        {
+          "sanskrit": "me",
+          "meaning": "from Me"
+        }
+      ]
+    }
+  },
+  "source": {
+    "derived_from": "vedabase.io",
+    "normalized_file": "vedabase-bg-13-04.normalized.json",
+    "pipeline_stage": "migration.m3",
+    "script": "m3_migrate_synonyms.py"
+  },
+  "schema": {
+    "name": "vedic-library.derivative.synonyms",
+    "version": "2.0.0"
+  }
+}

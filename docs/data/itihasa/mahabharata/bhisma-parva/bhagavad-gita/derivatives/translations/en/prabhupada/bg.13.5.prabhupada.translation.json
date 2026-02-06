@@ -1,0 +1,23 @@
+{
+  "uid": "bg.13.5.prabhupada.translation.en",
+  "editorial_unit_ref": {
+    "uid": "bg.13.5.prabhupada",
+    "schema": "vedic-library.editorial.unit",
+    "version": "1.0.0"
+  },
+  "translation": {
+    "language": "en",
+    "translator": "A. C. Bhaktivedanta Swami Prabhupāda",
+    "content": "That knowledge of the field of activities and of the knower of activities is described by various sages in various Vedic writings. It is especially presented in Vedānta-sūtra with all reasoning as to cause and effect."
+  },
+  "source": {
+    "derived_from": "vedabase.io",
+    "normalized_file": "vedabase-bg-13-05.normalized.json",
+    "pipeline_stage": "migration.m2",
+    "script": "m2_migrate_translations.py"
+  },
+  "schema": {
+    "name": "vedic-library.derivative.translation",
+    "version": "2.0.0"
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "uid": "bg.11.32",
+  "work": {
+    "corpus": "itihasa",
+    "text": "mahabharata",
+    "section": "bhisma-parva",
+    "subwork": "bhagavad-gita"
+  },
+  "location": {
+    "chapter": 11,
+    "verse": 32
+  },
+  "text": {
+    "script": "devanagari",
+    "content": "श्रीभगवानुवाच\nकालोऽस्मि लोकक्षयकृत्प्रवृद्धो\nलोकान्समाहर्तुमिह प्रवृत्त: ।\n‍ऋतेऽपि त्वां न भविष्यन्ति सर्वे\nयेऽवस्थिता: प्रत्यनीकेषु योधा:\n॥ ३२ ॥"
+  },
+  "transliteration": {
+    "scheme": "iast",
+    "content": "śrībhagavānuvāca\nkālo'smi lokakṣayakṛtpravṛddho\nlokānsamāhartumiha pravṛtta: |\n‍ṛte'pi tvāṃ na bhaviṣyanti sarve\nye'vasthitā: pratyanīkeṣu yodhā:\n|| 32 ||"
+  },
+  "source": {
+    "pipeline": "bhagavad-gita",
+    "stage": "2.5",
+    "script": "s25_realign_iast_bg.py",
+    "script_version": "2.2.0",
+    "derived_from": [
+      "vedabase/raw-json/bg-11-32.json"
+    ]
+  },
+  "schema": {
+    "name": "vedic-library.canonical.verse",
+    "version": "1.0.0"
+  }
+}

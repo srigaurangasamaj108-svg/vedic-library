@@ -1,0 +1,34 @@
+{
+  "uid": "bg.5.2",
+  "work": {
+    "corpus": "itihasa",
+    "text": "mahabharata",
+    "section": "bhisma-parva",
+    "subwork": "bhagavad-gita"
+  },
+  "location": {
+    "chapter": 5,
+    "verse": 2
+  },
+  "text": {
+    "script": "devanagari",
+    "content": "श्रीभगवानुवाच\nसन्न्यास: कर्मयोगश्च नि:श्रेयसकरावुभौ ।\nतयोस्तु कर्मसन्न्यासात्कर्मयोगो विशिष्यते\n॥ २ ॥"
+  },
+  "transliteration": {
+    "scheme": "iast",
+    "content": "śrībhagavānuvāca\nsannyāsa: karmayogaśca ni:śreyasakarāvubhau |\ntayostu karmasannyāsātkarmayogo viśiṣyate\n|| 2 ||"
+  },
+  "source": {
+    "pipeline": "bhagavad-gita",
+    "stage": "2.5",
+    "script": "s25_realign_iast_bg.py",
+    "script_version": "2.2.0",
+    "derived_from": [
+      "vedabase/raw-json/bg-05-02.json"
+    ]
+  },
+  "schema": {
+    "name": "vedic-library.canonical.verse",
+    "version": "1.0.0"
+  }
+}

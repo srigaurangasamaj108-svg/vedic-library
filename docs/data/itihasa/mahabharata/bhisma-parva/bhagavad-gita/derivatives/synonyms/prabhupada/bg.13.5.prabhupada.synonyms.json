@@ -1,0 +1,71 @@
+{
+  "uid": "bg.13.5.prabhupada.synonyms",
+  "editorial_unit_ref": {
+    "uid": "bg.13.5.prabhupada",
+    "schema": "vedic-library.editorial.unit",
+    "version": "1.0.0"
+  },
+  "synonyms": {
+    "language": "en",
+    "author": "A. C. Bhaktivedanta Swami Prabhupāda",
+    "items": {
+      "language": "en",
+      "items": [
+        {
+          "sanskrit": "ṛṣibhiḥ",
+          "meaning": "by the wise sages"
+        },
+        {
+          "sanskrit": "bahudhā",
+          "meaning": "in many ways"
+        },
+        {
+          "sanskrit": "gītam",
+          "meaning": "described"
+        },
+        {
+          "sanskrit": "chandobhiḥ",
+          "meaning": "by Vedic hymns"
+        },
+        {
+          "sanskrit": "vividhaiḥ",
+          "meaning": "various"
+        },
+        {
+          "sanskrit": "pṛthak",
+          "meaning": "variously"
+        },
+        {
+          "sanskrit": "brahma sūtra",
+          "meaning": "of the Vedānta"
+        },
+        {
+          "sanskrit": "padaiḥ",
+          "meaning": "by the aphorisms"
+        },
+        {
+          "sanskrit": "ca",
+          "meaning": "also"
+        },
+        {
+          "sanskrit": "eva",
+          "meaning": "certainly"
+        },
+        {
+          "sanskrit": "hetu madbhiḥ",
+          "meaning": "with cause and effect"
+        }
+      ]
+    }
+  },
+  "source": {
+    "derived_from": "vedabase.io",
+    "normalized_file": "vedabase-bg-13-05.normalized.json",
+    "pipeline_stage": "migration.m3",
+    "script": "m3_migrate_synonyms.py"
+  },
+  "schema": {
+    "name": "vedic-library.derivative.synonyms",
+    "version": "2.0.0"
+  }
+}

@@ -1,0 +1,81 @@
+{
+  "temp_id": "vedabase-bg-10-30",
+  "chapter": 10,
+  "verse": 30,
+  "verse_id": "bg-10-30",
+  "verse_group": null,
+  "composite": false,
+  "sanskrit": {
+    "devanagari": "प्रह्लादश्चास्मि दैत्यानां काल: कलयतामहम् ।\nमृगाणां च मृगेन्द्रोऽहं वैनतेयश्च पक्षिणाम् ॥ ३० ॥",
+    "iast": "prahlādaś cāsmi daityānāṁ\nkālaḥ kalayatām aham\nmṛgāṇāṁ ca mṛgendro ’haṁ\nvainateyaś ca pakṣiṇām"
+  },
+  "synonyms_raw": "prahlādaḥ\n—\nPrahlāda\n;\nca\n—\nalso\n;\nasmi\n—\nI am\n;\ndaityānām\n—\nof the demons\n;\nkālaḥ\n—\ntime\n;\nkalayatām\n—\nof subduers\n;\naham\n—\nI am\n;\nmṛgāṇām\n—\nof animals\n;\nca\n—\nand\n;\nmṛga\n-\nindraḥ\n—\nthe lion\n;\naham\n—\nI am\n;\nvainateyaḥ\n—\nGaruḍa\n;\nca\n—\nalso\n;\npakṣiṇām\n—\nof birds\n.",
+  "translation": "Among the Daitya demons I am the devoted Prahlāda, among subduers I am time, among beasts I am the lion, and among birds I am Garuḍa.",
+  "purport": [
+    "Diti and Aditi are two sisters. The sons of Aditi are called Ādityas, and the sons of Diti are called Daityas. All the Ādityas are devotees of the Lord, and all the Daityas are atheistic. Although Prahlāda was born in the family of the Daityas, he was a great devotee from his childhood. Because of his devotional service and godly nature, he is considered to be a representative of Kṛṣṇa.",
+    "There are many subduing principles, but time wears down all things in the material universe and so represents Kṛṣṇa. Of the many animals, the lion is the most powerful and ferocious, and of the million varieties of birds, Garuḍa, the bearer of Lord Viṣṇu, is the greatest."
+  ],
+  "source": {
+    "author": "A. C. Bhaktivedanta Swami Prabhupāda",
+    "edition": "Bhagavad-gītā As It Is",
+    "language": "en",
+    "provider": "vedabase.io"
+  },
+  "synonyms": {
+    "language": "en",
+    "items": [
+      {
+        "sanskrit": "prahlādaḥ",
+        "meaning": "Prahlāda"
+      },
+      {
+        "sanskrit": "ca",
+        "meaning": "also"
+      },
+      {
+        "sanskrit": "asmi",
+        "meaning": "I am"
+      },
+      {
+        "sanskrit": "daityānām",
+        "meaning": "of the demons"
+      },
+      {
+        "sanskrit": "kālaḥ",
+        "meaning": "time"
+      },
+      {
+        "sanskrit": "kalayatām",
+        "meaning": "of subduers"
+      },
+      {
+        "sanskrit": "aham",
+        "meaning": "I am"
+      },
+      {
+        "sanskrit": "mṛgāṇām",
+        "meaning": "of animals"
+      },
+      {
+        "sanskrit": "ca",
+        "meaning": "and"
+      },
+      {
+        "sanskrit": "mṛga indraḥ",
+        "meaning": "the lion"
+      },
+      {
+        "sanskrit": "aham",
+        "meaning": "I am"
+      },
+      {
+        "sanskrit": "vainateyaḥ",
+        "meaning": "Garuḍa"
+      },
+      {
+        "sanskrit": "ca",
+        "meaning": "also"
+      }
+    ]
+  }
+}

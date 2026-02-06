@@ -1,0 +1,23 @@
+{
+  "uid": "bg.1.37-38.prabhupada.translation.en",
+  "editorial_unit_ref": {
+    "uid": "bg.1.37-38.prabhupada",
+    "schema": "vedic-library.editorial.unit",
+    "version": "1.0.0"
+  },
+  "translation": {
+    "language": "en",
+    "translator": "A. C. Bhaktivedanta Swami Prabhupāda",
+    "content": "O Janārdana, although these men, their hearts overtaken by greed, see no fault in killing one’s family or quarreling with friends, why should we, who can see the crime in destroying a family, engage in these acts of sin?"
+  },
+  "source": {
+    "derived_from": "vedabase.io",
+    "normalized_file": "vedabase-bg-01-37-38.normalized.json",
+    "pipeline_stage": "migration.m2",
+    "script": "m2_migrate_translations.py"
+  },
+  "schema": {
+    "name": "vedic-library.derivative.translation",
+    "version": "2.0.0"
+  }
+}

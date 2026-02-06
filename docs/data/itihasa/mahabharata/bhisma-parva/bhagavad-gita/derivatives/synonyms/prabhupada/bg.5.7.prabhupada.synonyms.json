@@ -1,0 +1,59 @@
+{
+  "uid": "bg.5.7.prabhupada.synonyms",
+  "editorial_unit_ref": {
+    "uid": "bg.5.7.prabhupada",
+    "schema": "vedic-library.editorial.unit",
+    "version": "1.0.0"
+  },
+  "synonyms": {
+    "language": "en",
+    "author": "A. C. Bhaktivedanta Swami Prabhupāda",
+    "items": {
+      "language": "en",
+      "items": [
+        {
+          "sanskrit": "yoga yuktaḥ",
+          "meaning": "engaged in devotional service"
+        },
+        {
+          "sanskrit": "viśuddha ātmā",
+          "meaning": "a purified soul"
+        },
+        {
+          "sanskrit": "vijita ātmā",
+          "meaning": "self-controlled"
+        },
+        {
+          "sanskrit": "jita indriyaḥ",
+          "meaning": "having conquered the senses"
+        },
+        {
+          "sanskrit": "sarva bhūta",
+          "meaning": "to all living entities"
+        },
+        {
+          "sanskrit": "ātma bhūta ātmā",
+          "meaning": "compassionate"
+        },
+        {
+          "sanskrit": "kurvan api",
+          "meaning": "although engaged in work"
+        },
+        {
+          "sanskrit": "na",
+          "meaning": "never"
+        }
+      ]
+    }
+  },
+  "source": {
+    "derived_from": "vedabase.io",
+    "normalized_file": "vedabase-bg-05-07.normalized.json",
+    "pipeline_stage": "migration.m3",
+    "script": "m3_migrate_synonyms.py"
+  },
+  "schema": {
+    "name": "vedic-library.derivative.synonyms",
+    "version": "2.0.0"
+  }
+}

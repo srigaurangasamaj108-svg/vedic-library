@@ -1,0 +1,55 @@
+{
+  "uid": "bg.4.31.prabhupada.synonyms",
+  "editorial_unit_ref": {
+    "uid": "bg.4.31.prabhupada",
+    "schema": "vedic-library.editorial.unit",
+    "version": "1.0.0"
+  },
+  "synonyms": {
+    "language": "en",
+    "author": "A. C. Bhaktivedanta Swami Prabhupāda",
+    "items": {
+      "language": "en",
+      "items": [
+        {
+          "sanskrit": "na",
+          "meaning": "never"
+        },
+        {
+          "sanskrit": "ayam",
+          "meaning": "this"
+        },
+        {
+          "sanskrit": "lokaḥ",
+          "meaning": "planet"
+        },
+        {
+          "sanskrit": "asti",
+          "meaning": "there is"
+        },
+        {
+          "sanskrit": "ayajñasya",
+          "meaning": "for one who performs no sacrifice"
+        },
+        {
+          "sanskrit": "kutaḥ",
+          "meaning": "where is"
+        },
+        {
+          "sanskrit": "anyaḥ",
+          "meaning": "the other"
+        }
+      ]
+    }
+  },
+  "source": {
+    "derived_from": "vedabase.io",
+    "normalized_file": "vedabase-bg-04-31.normalized.json",
+    "pipeline_stage": "migration.m3",
+    "script": "m3_migrate_synonyms.py"
+  },
+  "schema": {
+    "name": "vedic-library.derivative.synonyms",
+    "version": "2.0.0"
+  }
+}

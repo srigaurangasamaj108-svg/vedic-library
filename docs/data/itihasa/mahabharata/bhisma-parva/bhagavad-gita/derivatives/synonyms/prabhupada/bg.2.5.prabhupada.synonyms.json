@@ -1,0 +1,107 @@
+{
+  "uid": "bg.2.5.prabhupada.synonyms",
+  "editorial_unit_ref": {
+    "uid": "bg.2.5.prabhupada",
+    "schema": "vedic-library.editorial.unit",
+    "version": "1.0.0"
+  },
+  "synonyms": {
+    "language": "en",
+    "author": "A. C. Bhaktivedanta Swami Prabhupāda",
+    "items": {
+      "language": "en",
+      "items": [
+        {
+          "sanskrit": "gurūn",
+          "meaning": "the superiors"
+        },
+        {
+          "sanskrit": "ahatvā",
+          "meaning": "not killing"
+        },
+        {
+          "sanskrit": "hi",
+          "meaning": "certainly"
+        },
+        {
+          "sanskrit": "mahā anubhāvān",
+          "meaning": "great souls"
+        },
+        {
+          "sanskrit": "śreyaḥ",
+          "meaning": "it is better"
+        },
+        {
+          "sanskrit": "bhoktum",
+          "meaning": "to enjoy life"
+        },
+        {
+          "sanskrit": "bhaikṣyam",
+          "meaning": "by begging"
+        },
+        {
+          "sanskrit": "api",
+          "meaning": "even"
+        },
+        {
+          "sanskrit": "iha",
+          "meaning": "in this life"
+        },
+        {
+          "sanskrit": "loke",
+          "meaning": "in this world"
+        },
+        {
+          "sanskrit": "hatvā",
+          "meaning": "killing"
+        },
+        {
+          "sanskrit": "artha",
+          "meaning": "gain"
+        },
+        {
+          "sanskrit": "kāmān",
+          "meaning": "desiring"
+        },
+        {
+          "sanskrit": "tu",
+          "meaning": "but"
+        },
+        {
+          "sanskrit": "gurūn",
+          "meaning": "superiors"
+        },
+        {
+          "sanskrit": "iha",
+          "meaning": "in this world"
+        },
+        {
+          "sanskrit": "eva",
+          "meaning": "certainly"
+        },
+        {
+          "sanskrit": "bhuñjīya",
+          "meaning": "one has to enjoy"
+        },
+        {
+          "sanskrit": "bhogān",
+          "meaning": "enjoyable things"
+        },
+        {
+          "sanskrit": "rudhira",
+          "meaning": "blood"
+        }
+      ]
+    }
+  },
+  "source": {
+    "derived_from": "vedabase.io",
+    "normalized_file": "vedabase-bg-02-05.normalized.json",
+    "pipeline_stage": "migration.m3",
+    "script": "m3_migrate_synonyms.py"
+  },
+  "schema": {
+    "name": "vedic-library.derivative.synonyms",
+    "version": "2.0.0"
+  }
+}

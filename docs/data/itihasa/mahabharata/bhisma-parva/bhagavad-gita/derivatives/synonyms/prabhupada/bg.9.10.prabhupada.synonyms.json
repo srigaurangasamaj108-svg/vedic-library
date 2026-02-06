@@ -1,0 +1,67 @@
+{
+  "uid": "bg.9.10.prabhupada.synonyms",
+  "editorial_unit_ref": {
+    "uid": "bg.9.10.prabhupada",
+    "schema": "vedic-library.editorial.unit",
+    "version": "1.0.0"
+  },
+  "synonyms": {
+    "language": "en",
+    "author": "A. C. Bhaktivedanta Swami Prabhupāda",
+    "items": {
+      "language": "en",
+      "items": [
+        {
+          "sanskrit": "mayā",
+          "meaning": "by Me"
+        },
+        {
+          "sanskrit": "adhyakṣeṇa",
+          "meaning": "by superintendence"
+        },
+        {
+          "sanskrit": "prakṛtiḥ",
+          "meaning": "material nature"
+        },
+        {
+          "sanskrit": "sūyate",
+          "meaning": "manifests"
+        },
+        {
+          "sanskrit": "sa",
+          "meaning": "both"
+        },
+        {
+          "sanskrit": "cara acaram",
+          "meaning": "the moving and the nonmoving"
+        },
+        {
+          "sanskrit": "hetunā",
+          "meaning": "for the reason"
+        },
+        {
+          "sanskrit": "anena",
+          "meaning": "this"
+        },
+        {
+          "sanskrit": "kaunteya",
+          "meaning": "O son of Kuntī"
+        },
+        {
+          "sanskrit": "jagat",
+          "meaning": "the cosmic manifestation"
+        }
+      ]
+    }
+  },
+  "source": {
+    "derived_from": "vedabase.io",
+    "normalized_file": "vedabase-bg-09-10.normalized.json",
+    "pipeline_stage": "migration.m3",
+    "script": "m3_migrate_synonyms.py"
+  },
+  "schema": {
+    "name": "vedic-library.derivative.synonyms",
+    "version": "2.0.0"
+  }
+}

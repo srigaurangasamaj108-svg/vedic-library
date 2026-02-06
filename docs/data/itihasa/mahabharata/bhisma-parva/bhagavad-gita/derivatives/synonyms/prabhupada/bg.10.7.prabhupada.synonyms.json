@@ -1,0 +1,83 @@
+{
+  "uid": "bg.10.7.prabhupada.synonyms",
+  "editorial_unit_ref": {
+    "uid": "bg.10.7.prabhupada",
+    "schema": "vedic-library.editorial.unit",
+    "version": "1.0.0"
+  },
+  "synonyms": {
+    "language": "en",
+    "author": "A. C. Bhaktivedanta Swami Prabhupāda",
+    "items": {
+      "language": "en",
+      "items": [
+        {
+          "sanskrit": "etām",
+          "meaning": "all this"
+        },
+        {
+          "sanskrit": "vibhūtim",
+          "meaning": "opulence"
+        },
+        {
+          "sanskrit": "yogam",
+          "meaning": "mystic power"
+        },
+        {
+          "sanskrit": "ca",
+          "meaning": "also"
+        },
+        {
+          "sanskrit": "mama",
+          "meaning": "of Mine"
+        },
+        {
+          "sanskrit": "yaḥ",
+          "meaning": "anyone who"
+        },
+        {
+          "sanskrit": "vetti",
+          "meaning": "knows"
+        },
+        {
+          "sanskrit": "tattvataḥ",
+          "meaning": "factually"
+        },
+        {
+          "sanskrit": "saḥ",
+          "meaning": "he"
+        },
+        {
+          "sanskrit": "avikalpena",
+          "meaning": "without division"
+        },
+        {
+          "sanskrit": "yogena",
+          "meaning": "in devotional service"
+        },
+        {
+          "sanskrit": "yujyate",
+          "meaning": "is engaged"
+        },
+        {
+          "sanskrit": "na",
+          "meaning": "never"
+        },
+        {
+          "sanskrit": "atra",
+          "meaning": "here"
+        }
+      ]
+    }
+  },
+  "source": {
+    "derived_from": "vedabase.io",
+    "normalized_file": "vedabase-bg-10-07.normalized.json",
+    "pipeline_stage": "migration.m3",
+    "script": "m3_migrate_synonyms.py"
+  },
+  "schema": {
+    "name": "vedic-library.derivative.synonyms",
+    "version": "2.0.0"
+  }
+}

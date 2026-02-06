@@ -1,0 +1,71 @@
+{
+  "uid": "bg.15.7.prabhupada.synonyms",
+  "editorial_unit_ref": {
+    "uid": "bg.15.7.prabhupada",
+    "schema": "vedic-library.editorial.unit",
+    "version": "1.0.0"
+  },
+  "synonyms": {
+    "language": "en",
+    "author": "A. C. Bhaktivedanta Swami Prabhupāda",
+    "items": {
+      "language": "en",
+      "items": [
+        {
+          "sanskrit": "mama",
+          "meaning": "My"
+        },
+        {
+          "sanskrit": "eva",
+          "meaning": "certainly"
+        },
+        {
+          "sanskrit": "aṁśaḥ",
+          "meaning": "fragmental particle"
+        },
+        {
+          "sanskrit": "jīva loke",
+          "meaning": "in the world of conditional life"
+        },
+        {
+          "sanskrit": "jīva bhūtaḥ",
+          "meaning": "the conditioned living entity"
+        },
+        {
+          "sanskrit": "sanātanaḥ",
+          "meaning": "eternal"
+        },
+        {
+          "sanskrit": "manaḥ",
+          "meaning": "with the mind"
+        },
+        {
+          "sanskrit": "ṣaṣṭhāni",
+          "meaning": "the six"
+        },
+        {
+          "sanskrit": "indriyāṇi",
+          "meaning": "senses"
+        },
+        {
+          "sanskrit": "prakṛti",
+          "meaning": "in material nature"
+        },
+        {
+          "sanskrit": "sthāni",
+          "meaning": "situated"
+        }
+      ]
+    }
+  },
+  "source": {
+    "derived_from": "vedabase.io",
+    "normalized_file": "vedabase-bg-15-07.normalized.json",
+    "pipeline_stage": "migration.m3",
+    "script": "m3_migrate_synonyms.py"
+  },
+  "schema": {
+    "name": "vedic-library.derivative.synonyms",
+    "version": "2.0.0"
+  }
+}

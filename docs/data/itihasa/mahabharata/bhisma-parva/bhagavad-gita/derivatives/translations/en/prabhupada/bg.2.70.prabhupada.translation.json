@@ -1,0 +1,23 @@
+{
+  "uid": "bg.2.70.prabhupada.translation.en",
+  "editorial_unit_ref": {
+    "uid": "bg.2.70.prabhupada",
+    "schema": "vedic-library.editorial.unit",
+    "version": "1.0.0"
+  },
+  "translation": {
+    "language": "en",
+    "translator": "A. C. Bhaktivedanta Swami Prabhupāda",
+    "content": "A person who is not disturbed by the incessant flow of desires – that enter like rivers into the ocean, which is ever being filled but is always still – can alone achieve peace, and not the man who strives to satisfy such desires."
+  },
+  "source": {
+    "derived_from": "vedabase.io",
+    "normalized_file": "vedabase-bg-02-70.normalized.json",
+    "pipeline_stage": "migration.m2",
+    "script": "m2_migrate_translations.py"
+  },
+  "schema": {
+    "name": "vedic-library.derivative.translation",
+    "version": "2.0.0"
+  }
+}

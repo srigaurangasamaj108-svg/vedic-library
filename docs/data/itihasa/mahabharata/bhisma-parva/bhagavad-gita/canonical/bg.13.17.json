@@ -1,0 +1,34 @@
+{
+  "uid": "bg.13.17",
+  "work": {
+    "corpus": "itihasa",
+    "text": "mahabharata",
+    "section": "bhisma-parva",
+    "subwork": "bhagavad-gita"
+  },
+  "location": {
+    "chapter": 13,
+    "verse": 17
+  },
+  "text": {
+    "script": "devanagari",
+    "content": "अविभक्तं च भूतेषु विभक्तमिव च स्थितम् ।\nभूतभर्तृ च तज्ज्ञेयं ग्रसिष्णु प्रभविष्णु च\n॥ १७ ॥"
+  },
+  "transliteration": {
+    "scheme": "iast",
+    "content": "avibhaktaṃ ca bhūteṣu vibhaktamiva ca sthitam |\nbhūtabhartṛ ca tajjñeyaṃ grasiṣṇu prabhaviṣṇu ca\n|| 17 ||"
+  },
+  "source": {
+    "pipeline": "bhagavad-gita",
+    "stage": "2.5",
+    "script": "s25_realign_iast_bg.py",
+    "script_version": "2.2.0",
+    "derived_from": [
+      "vedabase/raw-json/bg-13-17.json"
+    ]
+  },
+  "schema": {
+    "name": "vedic-library.canonical.verse",
+    "version": "1.0.0"
+  }
+}

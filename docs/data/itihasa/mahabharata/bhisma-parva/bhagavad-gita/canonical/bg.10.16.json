@@ -1,0 +1,34 @@
+{
+  "uid": "bg.10.16",
+  "work": {
+    "corpus": "itihasa",
+    "text": "mahabharata",
+    "section": "bhisma-parva",
+    "subwork": "bhagavad-gita"
+  },
+  "location": {
+    "chapter": 10,
+    "verse": 16
+  },
+  "text": {
+    "script": "devanagari",
+    "content": "वक्तुमर्हस्यशेषेण दिव्या ह्यात्मविभूतय: ।\nयाभिर्विभूतिभिर्लोकानिमांस्त्वं व्याप्य तिष्ठसि\n॥ १६ ॥"
+  },
+  "transliteration": {
+    "scheme": "iast",
+    "content": "vaktumarhasyaśeṣeṇa divyā hyātmavibhūtaya: |\nyābhirvibhūtibhirlokānimāṃstvaṃ vyāpya tiṣṭhasi\n|| 16 ||"
+  },
+  "source": {
+    "pipeline": "bhagavad-gita",
+    "stage": "2.5",
+    "script": "s25_realign_iast_bg.py",
+    "script_version": "2.2.0",
+    "derived_from": [
+      "vedabase/raw-json/bg-10-16.json"
+    ]
+  },
+  "schema": {
+    "name": "vedic-library.canonical.verse",
+    "version": "1.0.0"
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "uid": "bg.2.68",
+  "work": {
+    "corpus": "itihasa",
+    "text": "mahabharata",
+    "section": "bhisma-parva",
+    "subwork": "bhagavad-gita"
+  },
+  "location": {
+    "chapter": 2,
+    "verse": 68
+  },
+  "text": {
+    "script": "devanagari",
+    "content": "तस्माद्यस्य महाबाहो निगृहीतानि सर्वशः ।\nइन्द्रियाणीन्द्रियार्थेभ्यस्तस्य प्रज्ञा प्रतिष्ठिता\n॥ ६८ ॥"
+  },
+  "transliteration": {
+    "scheme": "iast",
+    "content": "tasmādyasya mahābāho nigṛhītāni sarvaśaḥ |\nindriyāṇīndriyārthebhyastasya prajñā pratiṣṭhitā\n|| 68 ||"
+  },
+  "source": {
+    "pipeline": "bhagavad-gita",
+    "stage": "2.5",
+    "script": "s25_realign_iast_bg.py",
+    "script_version": "2.2.0",
+    "derived_from": [
+      "vedabase/raw-json/bg-02-68.json"
+    ]
+  },
+  "schema": {
+    "name": "vedic-library.canonical.verse",
+    "version": "1.0.0"
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "uid": "bg.3.26.prabhupada.synonyms",
+  "editorial_unit_ref": {
+    "uid": "bg.3.26.prabhupada",
+    "schema": "vedic-library.editorial.unit",
+    "version": "1.0.0"
+  },
+  "synonyms": {
+    "language": "en",
+    "author": "A. C. Bhaktivedanta Swami Prabhupāda",
+    "items": {
+      "language": "en",
+      "items": [
+        {
+          "sanskrit": "na",
+          "meaning": "not"
+        },
+        {
+          "sanskrit": "buddhi bhedam",
+          "meaning": "disruption of intelligence"
+        },
+        {
+          "sanskrit": "janayet",
+          "meaning": "he should cause"
+        },
+        {
+          "sanskrit": "ajñānām",
+          "meaning": "of the foolish"
+        },
+        {
+          "sanskrit": "karma saṅginām",
+          "meaning": "who are attached to fruitive work"
+        },
+        {
+          "sanskrit": "joṣayet",
+          "meaning": "he should dovetail"
+        },
+        {
+          "sanskrit": "sarva",
+          "meaning": "all"
+        },
+        {
+          "sanskrit": "karmāṇi",
+          "meaning": "work"
+        },
+        {
+          "sanskrit": "vidvān",
+          "meaning": "a learned person"
+        },
+        {
+          "sanskrit": "yuktaḥ",
+          "meaning": "engaged"
+        }
+      ]
+    }
+  },
+  "source": {
+    "derived_from": "vedabase.io",
+    "normalized_file": "vedabase-bg-03-26.normalized.json",
+    "pipeline_stage": "migration.m3",
+    "script": "m3_migrate_synonyms.py"
+  },
+  "schema": {
+    "name": "vedic-library.derivative.synonyms",
+    "version": "2.0.0"
+  }
+}

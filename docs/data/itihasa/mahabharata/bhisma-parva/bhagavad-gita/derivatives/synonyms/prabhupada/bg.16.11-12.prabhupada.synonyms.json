@@ -1,0 +1,115 @@
+{
+  "uid": "bg.16.11-12.prabhupada.synonyms",
+  "editorial_unit_ref": {
+    "uid": "bg.16.11-12.prabhupada",
+    "schema": "vedic-library.editorial.unit",
+    "version": "1.0.0"
+  },
+  "synonyms": {
+    "language": "en",
+    "author": "A. C. Bhaktivedanta Swami Prabhupāda",
+    "items": {
+      "language": "en",
+      "items": [
+        {
+          "sanskrit": "cintām",
+          "meaning": "fears and anxieties"
+        },
+        {
+          "sanskrit": "aparimeyām",
+          "meaning": "immeasurable"
+        },
+        {
+          "sanskrit": "ca",
+          "meaning": "and"
+        },
+        {
+          "sanskrit": "pralaya antām",
+          "meaning": "unto the point of death"
+        },
+        {
+          "sanskrit": "upāśritāḥ",
+          "meaning": "having taken shelter of"
+        },
+        {
+          "sanskrit": "kāma upabhoga",
+          "meaning": "sense gratification"
+        },
+        {
+          "sanskrit": "paramāḥ",
+          "meaning": "the highest goal of life"
+        },
+        {
+          "sanskrit": "etāvat",
+          "meaning": "thus"
+        },
+        {
+          "sanskrit": "iti",
+          "meaning": "in this way"
+        },
+        {
+          "sanskrit": "niścitāḥ",
+          "meaning": "having ascertained"
+        },
+        {
+          "sanskrit": "āśā pāśa",
+          "meaning": "entanglements in a network of hope"
+        },
+        {
+          "sanskrit": "śataiḥ",
+          "meaning": "by hundreds"
+        },
+        {
+          "sanskrit": "baddhāḥ",
+          "meaning": "being bound"
+        },
+        {
+          "sanskrit": "kāma",
+          "meaning": "of lust"
+        },
+        {
+          "sanskrit": "krodha",
+          "meaning": "and anger"
+        },
+        {
+          "sanskrit": "parāyaṇāḥ",
+          "meaning": "always situated in the mentality"
+        },
+        {
+          "sanskrit": "īhante",
+          "meaning": "they desire"
+        },
+        {
+          "sanskrit": "kāma",
+          "meaning": "lust"
+        },
+        {
+          "sanskrit": "bhoga",
+          "meaning": "sense enjoyment"
+        },
+        {
+          "sanskrit": "artham",
+          "meaning": "for the purpose of"
+        },
+        {
+          "sanskrit": "anyāyena",
+          "meaning": "illegally"
+        },
+        {
+          "sanskrit": "artha",
+          "meaning": "of wealth"
+        }
+      ]
+    }
+  },
+  "source": {
+    "derived_from": "vedabase.io",
+    "normalized_file": "vedabase-bg-16-11-12.normalized.json",
+    "pipeline_stage": "migration.m3",
+    "script": "m3_migrate_synonyms.py"
+  },
+  "schema": {
+    "name": "vedic-library.derivative.synonyms",
+    "version": "2.0.0"
+  }
+}

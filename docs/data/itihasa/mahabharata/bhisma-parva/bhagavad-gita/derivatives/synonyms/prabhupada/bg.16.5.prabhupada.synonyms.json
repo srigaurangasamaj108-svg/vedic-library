@@ -1,0 +1,75 @@
+{
+  "uid": "bg.16.5.prabhupada.synonyms",
+  "editorial_unit_ref": {
+    "uid": "bg.16.5.prabhupada",
+    "schema": "vedic-library.editorial.unit",
+    "version": "1.0.0"
+  },
+  "synonyms": {
+    "language": "en",
+    "author": "A. C. Bhaktivedanta Swami Prabhupāda",
+    "items": {
+      "language": "en",
+      "items": [
+        {
+          "sanskrit": "daivī",
+          "meaning": "transcendental"
+        },
+        {
+          "sanskrit": "sampat",
+          "meaning": "assets"
+        },
+        {
+          "sanskrit": "vimokṣāya",
+          "meaning": "meant for liberation"
+        },
+        {
+          "sanskrit": "nibandhāya",
+          "meaning": "for bondage"
+        },
+        {
+          "sanskrit": "āsurī",
+          "meaning": "demoniac qualities"
+        },
+        {
+          "sanskrit": "matā",
+          "meaning": "are considered"
+        },
+        {
+          "sanskrit": "mā",
+          "meaning": "do not"
+        },
+        {
+          "sanskrit": "śucaḥ",
+          "meaning": "worry"
+        },
+        {
+          "sanskrit": "sampadam",
+          "meaning": "assets"
+        },
+        {
+          "sanskrit": "daivīm",
+          "meaning": "transcendental"
+        },
+        {
+          "sanskrit": "abhijātaḥ",
+          "meaning": "born of"
+        },
+        {
+          "sanskrit": "asi",
+          "meaning": "you are"
+        }
+      ]
+    }
+  },
+  "source": {
+    "derived_from": "vedabase.io",
+    "normalized_file": "vedabase-bg-16-05.normalized.json",
+    "pipeline_stage": "migration.m3",
+    "script": "m3_migrate_synonyms.py"
+  },
+  "schema": {
+    "name": "vedic-library.derivative.synonyms",
+    "version": "2.0.0"
+  }
+}

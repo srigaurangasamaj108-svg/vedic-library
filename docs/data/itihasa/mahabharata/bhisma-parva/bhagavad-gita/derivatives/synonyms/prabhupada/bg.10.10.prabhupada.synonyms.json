@@ -1,0 +1,67 @@
+{
+  "uid": "bg.10.10.prabhupada.synonyms",
+  "editorial_unit_ref": {
+    "uid": "bg.10.10.prabhupada",
+    "schema": "vedic-library.editorial.unit",
+    "version": "1.0.0"
+  },
+  "synonyms": {
+    "language": "en",
+    "author": "A. C. Bhaktivedanta Swami Prabhupāda",
+    "items": {
+      "language": "en",
+      "items": [
+        {
+          "sanskrit": "teṣām",
+          "meaning": "unto them"
+        },
+        {
+          "sanskrit": "satata yuktānām",
+          "meaning": "always engaged"
+        },
+        {
+          "sanskrit": "bhajatām",
+          "meaning": "in rendering devotional service"
+        },
+        {
+          "sanskrit": "prīti pūrvakam",
+          "meaning": "in loving ecstasy"
+        },
+        {
+          "sanskrit": "dadāmi",
+          "meaning": "I give"
+        },
+        {
+          "sanskrit": "buddhi yogam",
+          "meaning": "real intelligence"
+        },
+        {
+          "sanskrit": "tam",
+          "meaning": "that"
+        },
+        {
+          "sanskrit": "yena",
+          "meaning": "by which"
+        },
+        {
+          "sanskrit": "mām",
+          "meaning": "unto Me"
+        },
+        {
+          "sanskrit": "upayānti",
+          "meaning": "come"
+        }
+      ]
+    }
+  },
+  "source": {
+    "derived_from": "vedabase.io",
+    "normalized_file": "vedabase-bg-10-10.normalized.json",
+    "pipeline_stage": "migration.m3",
+    "script": "m3_migrate_synonyms.py"
+  },
+  "schema": {
+    "name": "vedic-library.derivative.synonyms",
+    "version": "2.0.0"
+  }
+}

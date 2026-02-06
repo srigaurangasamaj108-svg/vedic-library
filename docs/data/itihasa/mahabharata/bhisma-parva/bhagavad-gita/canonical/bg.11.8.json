@@ -1,0 +1,34 @@
+{
+  "uid": "bg.11.8",
+  "work": {
+    "corpus": "itihasa",
+    "text": "mahabharata",
+    "section": "bhisma-parva",
+    "subwork": "bhagavad-gita"
+  },
+  "location": {
+    "chapter": 11,
+    "verse": 8
+  },
+  "text": {
+    "script": "devanagari",
+    "content": "न तु मां शक्यसे द्रष्टुमनेनैव स्वचक्षुषा ।\nदिव्यं ददामि ते चक्षु: पश्य मे योगमैश्वरम्\n॥ ८ ॥"
+  },
+  "transliteration": {
+    "scheme": "iast",
+    "content": "na tu māṃ śakyase draṣṭumanenaiva svacakṣuṣā |\ndivyaṃ dadāmi te cakṣu: paśya me yogamaiśvaram\n|| 8 ||"
+  },
+  "source": {
+    "pipeline": "bhagavad-gita",
+    "stage": "2.5",
+    "script": "s25_realign_iast_bg.py",
+    "script_version": "2.2.0",
+    "derived_from": [
+      "vedabase/raw-json/bg-11-08.json"
+    ]
+  },
+  "schema": {
+    "name": "vedic-library.canonical.verse",
+    "version": "1.0.0"
+  }
+}

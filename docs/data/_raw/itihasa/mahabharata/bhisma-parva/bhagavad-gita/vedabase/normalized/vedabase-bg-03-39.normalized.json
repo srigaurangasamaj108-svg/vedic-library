@@ -1,0 +1,68 @@
+{
+  "temp_id": "vedabase-bg-03-39",
+  "chapter": 3,
+  "verse": 39,
+  "verse_id": "bg-03-39",
+  "verse_group": null,
+  "composite": false,
+  "sanskrit": {
+    "devanagari": "आवृतं ज्ञानमेतेन ज्ञानिनो नित्यवैरिणा ।\nकामरूपेण कौन्तेय दुष्पूरेणानलेन च ॥ ३९ ॥",
+    "iast": "āvṛtaṁ jñānam etena\njñānino nitya-vairiṇā\nkāma-rūpeṇa kaunteya\nduṣpūreṇānalena ca"
+  },
+  "synonyms_raw": "āvṛtam\n—\ncovered\n;\njñānam\n—\npure consciousness\n;\netena\n—\nby this\n;\njñāninaḥ\n—\nof the knower\n;\nnitya\n-\nvairiṇā\n—\nby the eternal enemy\n;\nkāma\n-\nrūpeṇa\n—\nin the form of lust\n;\nkaunteya\n—\nO son of Kuntī\n;\nduṣpūreṇa\n—\nnever to be satisfied\n;\nanalena\n—\nby the fire\n;\nca\n—\nalso\n.",
+  "translation": "Thus the wise living entity’s pure consciousness becomes covered by his eternal enemy in the form of lust, which is never satisfied and which burns like fire.",
+  "purport": [
+    "It is said in the",
+    "Manu-smṛti",
+    "that lust cannot be satisfied by any amount of sense enjoyment, just as fire is never extinguished by a constant supply of fuel. In the material world, the center of all activities is sex, and thus this material world is called",
+    "maithunya-āgāra,",
+    "or the shackles of sex life. In the ordinary prison house, criminals are kept within bars; similarly, the criminals who are disobedient to the laws of the Lord are shackled by sex life. Advancement of material civilization on the basis of sense gratification means increasing the duration of the material existence of a living entity. Therefore, this lust is the symbol of ignorance by which the living entity is kept within the material world. While one enjoys sense gratification, it may be that there is some feeling of happiness, but actually that so-called feeling of happiness is the ultimate enemy of the sense enjoyer."
+  ],
+  "source": {
+    "author": "A. C. Bhaktivedanta Swami Prabhupāda",
+    "edition": "Bhagavad-gītā As It Is",
+    "language": "en",
+    "provider": "vedabase.io"
+  },
+  "synonyms": {
+    "language": "en",
+    "items": [
+      {
+        "sanskrit": "āvṛtam",
+        "meaning": "covered"
+      },
+      {
+        "sanskrit": "jñānam",
+        "meaning": "pure consciousness"
+      },
+      {
+        "sanskrit": "etena",
+        "meaning": "by this"
+      },
+      {
+        "sanskrit": "jñāninaḥ",
+        "meaning": "of the knower"
+      },
+      {
+        "sanskrit": "nitya vairiṇā",
+        "meaning": "by the eternal enemy"
+      },
+      {
+        "sanskrit": "kāma rūpeṇa",
+        "meaning": "in the form of lust"
+      },
+      {
+        "sanskrit": "kaunteya",
+        "meaning": "O son of Kuntī"
+      },
+      {
+        "sanskrit": "duṣpūreṇa",
+        "meaning": "never to be satisfied"
+      },
+      {
+        "sanskrit": "analena",
+        "meaning": "by the fire"
+      }
+    ]
+  }
+}

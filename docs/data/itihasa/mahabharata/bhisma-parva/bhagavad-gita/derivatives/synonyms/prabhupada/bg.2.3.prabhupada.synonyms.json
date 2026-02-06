@@ -1,0 +1,79 @@
+{
+  "uid": "bg.2.3.prabhupada.synonyms",
+  "editorial_unit_ref": {
+    "uid": "bg.2.3.prabhupada",
+    "schema": "vedic-library.editorial.unit",
+    "version": "1.0.0"
+  },
+  "synonyms": {
+    "language": "en",
+    "author": "A. C. Bhaktivedanta Swami Prabhupāda",
+    "items": {
+      "language": "en",
+      "items": [
+        {
+          "sanskrit": "klaibyam",
+          "meaning": "impotence"
+        },
+        {
+          "sanskrit": "mā sma",
+          "meaning": "do not"
+        },
+        {
+          "sanskrit": "gamaḥ",
+          "meaning": "take to"
+        },
+        {
+          "sanskrit": "pārtha",
+          "meaning": "O son of Pṛthā"
+        },
+        {
+          "sanskrit": "na",
+          "meaning": "never"
+        },
+        {
+          "sanskrit": "etat",
+          "meaning": "this"
+        },
+        {
+          "sanskrit": "tvayi",
+          "meaning": "unto you"
+        },
+        {
+          "sanskrit": "upapadyate",
+          "meaning": "is befitting"
+        },
+        {
+          "sanskrit": "kṣudram",
+          "meaning": "petty"
+        },
+        {
+          "sanskrit": "hṛdaya",
+          "meaning": "of the heart"
+        },
+        {
+          "sanskrit": "daurbalyam",
+          "meaning": "weakness"
+        },
+        {
+          "sanskrit": "tyaktvā",
+          "meaning": "giving up"
+        },
+        {
+          "sanskrit": "uttiṣṭha",
+          "meaning": "get up"
+        }
+      ]
+    }
+  },
+  "source": {
+    "derived_from": "vedabase.io",
+    "normalized_file": "vedabase-bg-02-03.normalized.json",
+    "pipeline_stage": "migration.m3",
+    "script": "m3_migrate_synonyms.py"
+  },
+  "schema": {
+    "name": "vedic-library.derivative.synonyms",
+    "version": "2.0.0"
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "uid": "bg.1.8",
+  "work": {
+    "corpus": "itihasa",
+    "text": "mahabharata",
+    "section": "bhisma-parva",
+    "subwork": "bhagavad-gita"
+  },
+  "location": {
+    "chapter": 1,
+    "verse": 8
+  },
+  "text": {
+    "script": "devanagari",
+    "content": "भवान्भीष्मश्च कर्णश्च कृपश्च समितिंजयः ।\nअश्वत्थामा विकर्णश्च सौमदत्तिस्तथैव च\n॥ ८ ॥"
+  },
+  "transliteration": {
+    "scheme": "iast",
+    "content": "bhavānbhīṣmaśca karṇaśca kṛpaśca samitiṃjayaḥ |\naśvatthāmā vikarṇaśca saumadattistathaiva ca\n|| 8 ||"
+  },
+  "source": {
+    "pipeline": "bhagavad-gita",
+    "stage": "2.5",
+    "script": "s25_realign_iast_bg.py",
+    "script_version": "2.2.0",
+    "derived_from": [
+      "vedabase/raw-json/bg-01-08.json"
+    ]
+  },
+  "schema": {
+    "name": "vedic-library.canonical.verse",
+    "version": "1.0.0"
+  }
+}

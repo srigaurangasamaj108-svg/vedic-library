@@ -1,0 +1,34 @@
+{
+  "uid": "bg.13.34",
+  "work": {
+    "corpus": "itihasa",
+    "text": "mahabharata",
+    "section": "bhisma-parva",
+    "subwork": "bhagavad-gita"
+  },
+  "location": {
+    "chapter": 13,
+    "verse": 34
+  },
+  "text": {
+    "script": "devanagari",
+    "content": "यथा प्रकाशयत्येक: कृत्स्‍नं लोकमिमं रवि: ।\nक्षेत्रं क्षेत्री तथा कृत्स्‍नं प्रकाशयति भारत\n॥ ३४ ॥"
+  },
+  "transliteration": {
+    "scheme": "iast",
+    "content": "yathā prakāśayatyeka: kṛts‍naṃ lokamimaṃ ravi: |\nkṣetraṃ kṣetrī tathā kṛts‍naṃ prakāśayati bhārata\n|| 34 ||"
+  },
+  "source": {
+    "pipeline": "bhagavad-gita",
+    "stage": "2.5",
+    "script": "s25_realign_iast_bg.py",
+    "script_version": "2.2.0",
+    "derived_from": [
+      "vedabase/raw-json/bg-13-34.json"
+    ]
+  },
+  "schema": {
+    "name": "vedic-library.canonical.verse",
+    "version": "1.0.0"
+  }
+}

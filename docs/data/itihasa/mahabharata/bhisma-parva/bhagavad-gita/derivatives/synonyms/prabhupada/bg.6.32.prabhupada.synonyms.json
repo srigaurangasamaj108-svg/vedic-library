@@ -1,0 +1,87 @@
+{
+  "uid": "bg.6.32.prabhupada.synonyms",
+  "editorial_unit_ref": {
+    "uid": "bg.6.32.prabhupada",
+    "schema": "vedic-library.editorial.unit",
+    "version": "1.0.0"
+  },
+  "synonyms": {
+    "language": "en",
+    "author": "A. C. Bhaktivedanta Swami Prabhupāda",
+    "items": {
+      "language": "en",
+      "items": [
+        {
+          "sanskrit": "ātma",
+          "meaning": "with his self"
+        },
+        {
+          "sanskrit": "aupamyena",
+          "meaning": "by comparison"
+        },
+        {
+          "sanskrit": "sarvatra",
+          "meaning": "everywhere"
+        },
+        {
+          "sanskrit": "samam",
+          "meaning": "equally"
+        },
+        {
+          "sanskrit": "paśyati",
+          "meaning": "sees"
+        },
+        {
+          "sanskrit": "yaḥ",
+          "meaning": "he who"
+        },
+        {
+          "sanskrit": "arjuna",
+          "meaning": "O Arjuna"
+        },
+        {
+          "sanskrit": "sukham",
+          "meaning": "happiness"
+        },
+        {
+          "sanskrit": "vā",
+          "meaning": "or"
+        },
+        {
+          "sanskrit": "yadi",
+          "meaning": "if"
+        },
+        {
+          "sanskrit": "vā",
+          "meaning": "or"
+        },
+        {
+          "sanskrit": "duḥkham",
+          "meaning": "distress"
+        },
+        {
+          "sanskrit": "saḥ",
+          "meaning": "such"
+        },
+        {
+          "sanskrit": "yogī",
+          "meaning": "a transcendentalist"
+        },
+        {
+          "sanskrit": "paramaḥ",
+          "meaning": "perfect"
+        }
+      ]
+    }
+  },
+  "source": {
+    "derived_from": "vedabase.io",
+    "normalized_file": "vedabase-bg-06-32.normalized.json",
+    "pipeline_stage": "migration.m3",
+    "script": "m3_migrate_synonyms.py"
+  },
+  "schema": {
+    "name": "vedic-library.derivative.synonyms",
+    "version": "2.0.0"
+  }
+}

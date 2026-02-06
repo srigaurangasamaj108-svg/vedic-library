@@ -1,0 +1,72 @@
+{
+  "temp_id": "vedabase-bg-14-13",
+  "chapter": 14,
+  "verse": 13,
+  "verse_id": "bg-14-13",
+  "verse_group": null,
+  "composite": false,
+  "sanskrit": {
+    "devanagari": "अप्रकाशोऽप्रवृत्तिश्च प्रमादो मोह एव च ।\nतमस्येतानि जायन्ते विवृद्धे कुरुनन्दन ॥ १३ ॥",
+    "iast": "aprakāśo ’pravṛttiś ca\npramādo moha eva ca\ntamasy etāni jāyante\nvivṛddhe kuru-nandana"
+  },
+  "synonyms_raw": "aprakāśaḥ\n—\ndarkness\n;\napravṛttiḥ\n—\ninactivity\n;\nca\n—\nand\n;\npramādaḥ\n—\nmadness\n;\nmohaḥ\n—\nillusion\n;\neva\n—\ncertainly\n;\nca\n—\nalso\n;\ntamasi\n—\nthe mode of ignorance\n;\netāni\n—\nthese\n;\njāyante\n—\nare manifested\n;\nvivṛddhe\n—\nwhen developed\n;\nkuru\n-\nnandana\n—\nO son of Kuru\n.",
+  "translation": "When there is an increase in the mode of ignorance, O son of Kuru, darkness, inertia, madness and illusion are manifested.",
+  "purport": [
+    "When there is no illumination, knowledge is absent. One in the mode of ignorance does not work by a regulative principle; he wants to act whimsically, for no purpose. Even though he has the capacity to work, he makes no endeavor. This is called illusion. Although consciousness is going on, life is inactive. These are the symptoms of one in the mode of ignorance."
+  ],
+  "source": {
+    "author": "A. C. Bhaktivedanta Swami Prabhupāda",
+    "edition": "Bhagavad-gītā As It Is",
+    "language": "en",
+    "provider": "vedabase.io"
+  },
+  "synonyms": {
+    "language": "en",
+    "items": [
+      {
+        "sanskrit": "aprakāśaḥ",
+        "meaning": "darkness"
+      },
+      {
+        "sanskrit": "apravṛttiḥ",
+        "meaning": "inactivity"
+      },
+      {
+        "sanskrit": "ca",
+        "meaning": "and"
+      },
+      {
+        "sanskrit": "pramādaḥ",
+        "meaning": "madness"
+      },
+      {
+        "sanskrit": "mohaḥ",
+        "meaning": "illusion"
+      },
+      {
+        "sanskrit": "eva",
+        "meaning": "certainly"
+      },
+      {
+        "sanskrit": "ca",
+        "meaning": "also"
+      },
+      {
+        "sanskrit": "tamasi",
+        "meaning": "the mode of ignorance"
+      },
+      {
+        "sanskrit": "etāni",
+        "meaning": "these"
+      },
+      {
+        "sanskrit": "jāyante",
+        "meaning": "are manifested"
+      },
+      {
+        "sanskrit": "vivṛddhe",
+        "meaning": "when developed"
+      }
+    ]
+  }
+}

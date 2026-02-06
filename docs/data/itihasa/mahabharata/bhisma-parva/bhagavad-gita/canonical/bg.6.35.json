@@ -1,0 +1,34 @@
+{
+  "uid": "bg.6.35",
+  "work": {
+    "corpus": "itihasa",
+    "text": "mahabharata",
+    "section": "bhisma-parva",
+    "subwork": "bhagavad-gita"
+  },
+  "location": {
+    "chapter": 6,
+    "verse": 35
+  },
+  "text": {
+    "script": "devanagari",
+    "content": "श्रीभगवानुवाच\nअसंशयं महाबाहो मनो दुर्निग्रहं चलम् ।\nअभ्यासेन तु कौन्तेय वैराग्येण च गृह्यते\n॥ ३५ ॥"
+  },
+  "transliteration": {
+    "scheme": "iast",
+    "content": "śrībhagavānuvāca\nasaṃśayaṃ mahābāho mano durnigrahaṃ calam |\nabhyāsena tu kaunteya vairāgyeṇa ca gṛhyate\n|| 35 ||"
+  },
+  "source": {
+    "pipeline": "bhagavad-gita",
+    "stage": "2.5",
+    "script": "s25_realign_iast_bg.py",
+    "script_version": "2.2.0",
+    "derived_from": [
+      "vedabase/raw-json/bg-06-35.json"
+    ]
+  },
+  "schema": {
+    "name": "vedic-library.canonical.verse",
+    "version": "1.0.0"
+  }
+}

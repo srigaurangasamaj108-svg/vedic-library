@@ -1,0 +1,23 @@
+{
+  "uid": "bg.9.4.prabhupada.translation.en",
+  "editorial_unit_ref": {
+    "uid": "bg.9.4.prabhupada",
+    "schema": "vedic-library.editorial.unit",
+    "version": "1.0.0"
+  },
+  "translation": {
+    "language": "en",
+    "translator": "A. C. Bhaktivedanta Swami Prabhupāda",
+    "content": "By Me, in My unmanifested form, this entire universe is pervaded. All beings are in Me, but I am not in them."
+  },
+  "source": {
+    "derived_from": "vedabase.io",
+    "normalized_file": "vedabase-bg-09-04.normalized.json",
+    "pipeline_stage": "migration.m2",
+    "script": "m2_migrate_translations.py"
+  },
+  "schema": {
+    "name": "vedic-library.derivative.translation",
+    "version": "2.0.0"
+  }
+}

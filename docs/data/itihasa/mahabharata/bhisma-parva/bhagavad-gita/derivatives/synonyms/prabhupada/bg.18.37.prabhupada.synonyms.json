@@ -1,0 +1,79 @@
+{
+  "uid": "bg.18.37.prabhupada.synonyms",
+  "editorial_unit_ref": {
+    "uid": "bg.18.37.prabhupada",
+    "schema": "vedic-library.editorial.unit",
+    "version": "1.0.0"
+  },
+  "synonyms": {
+    "language": "en",
+    "author": "A. C. Bhaktivedanta Swami Prabhupāda",
+    "items": {
+      "language": "en",
+      "items": [
+        {
+          "sanskrit": "yat",
+          "meaning": "which"
+        },
+        {
+          "sanskrit": "tat",
+          "meaning": "that"
+        },
+        {
+          "sanskrit": "agre",
+          "meaning": "in the beginning"
+        },
+        {
+          "sanskrit": "viṣam iva",
+          "meaning": "like poison"
+        },
+        {
+          "sanskrit": "pariṇāme",
+          "meaning": "at the end"
+        },
+        {
+          "sanskrit": "amṛta",
+          "meaning": "nectar"
+        },
+        {
+          "sanskrit": "upamam",
+          "meaning": "compared to"
+        },
+        {
+          "sanskrit": "tat",
+          "meaning": "that"
+        },
+        {
+          "sanskrit": "sukham",
+          "meaning": "happiness"
+        },
+        {
+          "sanskrit": "sāttvikam",
+          "meaning": "in the mode of goodness"
+        },
+        {
+          "sanskrit": "proktam",
+          "meaning": "is said"
+        },
+        {
+          "sanskrit": "ātma",
+          "meaning": "in the self"
+        },
+        {
+          "sanskrit": "buddhi",
+          "meaning": "of intelligence"
+        }
+      ]
+    }
+  },
+  "source": {
+    "derived_from": "vedabase.io",
+    "normalized_file": "vedabase-bg-18-37.normalized.json",
+    "pipeline_stage": "migration.m3",
+    "script": "m3_migrate_synonyms.py"
+  },
+  "schema": {
+    "name": "vedic-library.derivative.synonyms",
+    "version": "2.0.0"
+  }
+}

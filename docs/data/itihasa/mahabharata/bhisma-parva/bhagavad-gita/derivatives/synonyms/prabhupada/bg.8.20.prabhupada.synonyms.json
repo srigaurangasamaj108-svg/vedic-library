@@ -1,0 +1,79 @@
+{
+  "uid": "bg.8.20.prabhupada.synonyms",
+  "editorial_unit_ref": {
+    "uid": "bg.8.20.prabhupada",
+    "schema": "vedic-library.editorial.unit",
+    "version": "1.0.0"
+  },
+  "synonyms": {
+    "language": "en",
+    "author": "A. C. Bhaktivedanta Swami Prabhupāda",
+    "items": {
+      "language": "en",
+      "items": [
+        {
+          "sanskrit": "paraḥ",
+          "meaning": "transcendental"
+        },
+        {
+          "sanskrit": "tasmāt",
+          "meaning": "to that"
+        },
+        {
+          "sanskrit": "tu",
+          "meaning": "but"
+        },
+        {
+          "sanskrit": "bhāvaḥ",
+          "meaning": "nature"
+        },
+        {
+          "sanskrit": "anyaḥ",
+          "meaning": "another"
+        },
+        {
+          "sanskrit": "avyaktaḥ",
+          "meaning": "unmanifest"
+        },
+        {
+          "sanskrit": "avyaktāt",
+          "meaning": "to the unmanifest"
+        },
+        {
+          "sanskrit": "sanātanaḥ",
+          "meaning": "eternal"
+        },
+        {
+          "sanskrit": "yaḥ saḥ",
+          "meaning": "that which"
+        },
+        {
+          "sanskrit": "sarveṣu",
+          "meaning": "all"
+        },
+        {
+          "sanskrit": "bhūteṣu",
+          "meaning": "manifestation"
+        },
+        {
+          "sanskrit": "naśyatsu",
+          "meaning": "being annihilated"
+        },
+        {
+          "sanskrit": "na",
+          "meaning": "never"
+        }
+      ]
+    }
+  },
+  "source": {
+    "derived_from": "vedabase.io",
+    "normalized_file": "vedabase-bg-08-20.normalized.json",
+    "pipeline_stage": "migration.m3",
+    "script": "m3_migrate_synonyms.py"
+  },
+  "schema": {
+    "name": "vedic-library.derivative.synonyms",
+    "version": "2.0.0"
+  }
+}

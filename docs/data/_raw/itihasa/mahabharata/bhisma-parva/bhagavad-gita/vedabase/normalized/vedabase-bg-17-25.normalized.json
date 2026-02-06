@@ -1,0 +1,76 @@
+{
+  "temp_id": "vedabase-bg-17-25",
+  "chapter": 17,
+  "verse": 25,
+  "verse_id": "bg-17-25",
+  "verse_group": null,
+  "composite": false,
+  "sanskrit": {
+    "devanagari": "तदित्यनभिसन्धाय फलं यज्ञतप:क्रिया: ।\nदानक्रियाश्च विविधा: क्रियन्ते मोक्षकाङ्‌‍क्षिभि: ॥ २५ ॥",
+    "iast": "tad ity anabhisandhāya\nphalaṁ yajña-tapaḥ-kriyāḥ\ndāna-kriyāś ca vividhāḥ\nkriyante mokṣa-kāṅkṣibhiḥ"
+  },
+  "synonyms_raw": "tat\n—\nthat\n;\niti\n—\nthus\n;\nanabhisandhāya\n—\nwithout desiring\n;\nphalam\n—\nthe fruitive result\n;\nyajña\n—\nof sacrifice\n;\ntapaḥ\n—\nand penance\n;\nkriyāḥ\n—\nactivities\n;\ndāna\n—\nof charity\n;\nkriyāḥ\n—\nactivities\n;\nca\n—\nalso\n;\nvividhāḥ\n—\nvarious\n;\nkriyante\n—\nare done\n;\nmokṣa\n-\nkāṅkṣibhiḥ\n—\nby those who actually desire liberation\n.",
+  "translation": "Without desiring fruitive results, one should perform various kinds of sacrifice, penance and charity with the word tat. The purpose of such transcendental activities is to get free from material entanglement.",
+  "purport": [
+    "To be elevated to the spiritual position, one should not act for any material gain. Acts should be performed for the ultimate gain of being transferred to the spiritual kingdom, back to home, back to Godhead."
+  ],
+  "source": {
+    "author": "A. C. Bhaktivedanta Swami Prabhupāda",
+    "edition": "Bhagavad-gītā As It Is",
+    "language": "en",
+    "provider": "vedabase.io"
+  },
+  "synonyms": {
+    "language": "en",
+    "items": [
+      {
+        "sanskrit": "tat",
+        "meaning": "that"
+      },
+      {
+        "sanskrit": "iti",
+        "meaning": "thus"
+      },
+      {
+        "sanskrit": "anabhisandhāya",
+        "meaning": "without desiring"
+      },
+      {
+        "sanskrit": "phalam",
+        "meaning": "the fruitive result"
+      },
+      {
+        "sanskrit": "yajña",
+        "meaning": "of sacrifice"
+      },
+      {
+        "sanskrit": "tapaḥ",
+        "meaning": "and penance"
+      },
+      {
+        "sanskrit": "kriyāḥ",
+        "meaning": "activities"
+      },
+      {
+        "sanskrit": "dāna",
+        "meaning": "of charity"
+      },
+      {
+        "sanskrit": "kriyāḥ",
+        "meaning": "activities"
+      },
+      {
+        "sanskrit": "ca",
+        "meaning": "also"
+      },
+      {
+        "sanskrit": "vividhāḥ",
+        "meaning": "various"
+      },
+      {
+        "sanskrit": "kriyante",
+        "meaning": "are done"
+      }
+    ]
+  }
+}

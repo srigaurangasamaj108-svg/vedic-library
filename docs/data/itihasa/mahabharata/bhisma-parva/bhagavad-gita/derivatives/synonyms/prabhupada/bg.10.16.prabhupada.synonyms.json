@@ -1,0 +1,79 @@
+{
+  "uid": "bg.10.16.prabhupada.synonyms",
+  "editorial_unit_ref": {
+    "uid": "bg.10.16.prabhupada",
+    "schema": "vedic-library.editorial.unit",
+    "version": "1.0.0"
+  },
+  "synonyms": {
+    "language": "en",
+    "author": "A. C. Bhaktivedanta Swami Prabhupāda",
+    "items": {
+      "language": "en",
+      "items": [
+        {
+          "sanskrit": "vaktum",
+          "meaning": "to say"
+        },
+        {
+          "sanskrit": "arhasi",
+          "meaning": "You deserve"
+        },
+        {
+          "sanskrit": "aśeṣeṇa",
+          "meaning": "in detail"
+        },
+        {
+          "sanskrit": "divyāḥ",
+          "meaning": "divine"
+        },
+        {
+          "sanskrit": "hi",
+          "meaning": "certainly"
+        },
+        {
+          "sanskrit": "ātma",
+          "meaning": "Your own"
+        },
+        {
+          "sanskrit": "vibhūtayaḥ",
+          "meaning": "opulences"
+        },
+        {
+          "sanskrit": "yābhiḥ",
+          "meaning": "by which"
+        },
+        {
+          "sanskrit": "vibhūtibhiḥ",
+          "meaning": "opulences"
+        },
+        {
+          "sanskrit": "lokān",
+          "meaning": "all the planets"
+        },
+        {
+          "sanskrit": "imān",
+          "meaning": "these"
+        },
+        {
+          "sanskrit": "tvam",
+          "meaning": "You"
+        },
+        {
+          "sanskrit": "vyāpya",
+          "meaning": "pervading"
+        }
+      ]
+    }
+  },
+  "source": {
+    "derived_from": "vedabase.io",
+    "normalized_file": "vedabase-bg-10-16.normalized.json",
+    "pipeline_stage": "migration.m3",
+    "script": "m3_migrate_synonyms.py"
+  },
+  "schema": {
+    "name": "vedic-library.derivative.synonyms",
+    "version": "2.0.0"
+  }
+}

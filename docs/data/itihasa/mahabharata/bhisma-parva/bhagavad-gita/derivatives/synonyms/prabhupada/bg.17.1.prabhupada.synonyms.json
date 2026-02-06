@@ -1,0 +1,87 @@
+{
+  "uid": "bg.17.1.prabhupada.synonyms",
+  "editorial_unit_ref": {
+    "uid": "bg.17.1.prabhupada",
+    "schema": "vedic-library.editorial.unit",
+    "version": "1.0.0"
+  },
+  "synonyms": {
+    "language": "en",
+    "author": "A. C. Bhaktivedanta Swami Prabhupāda",
+    "items": {
+      "language": "en",
+      "items": [
+        {
+          "sanskrit": "arjunaḥ uvāca",
+          "meaning": "Arjuna said"
+        },
+        {
+          "sanskrit": "ye",
+          "meaning": "those who"
+        },
+        {
+          "sanskrit": "śāstra vidhim",
+          "meaning": "the regulations of scripture"
+        },
+        {
+          "sanskrit": "utsṛjya",
+          "meaning": "giving up"
+        },
+        {
+          "sanskrit": "yajante",
+          "meaning": "worship"
+        },
+        {
+          "sanskrit": "śraddhayā",
+          "meaning": "full faith"
+        },
+        {
+          "sanskrit": "anvitāḥ",
+          "meaning": "possessed of"
+        },
+        {
+          "sanskrit": "teṣām",
+          "meaning": "of them"
+        },
+        {
+          "sanskrit": "niṣṭhā",
+          "meaning": "the faith"
+        },
+        {
+          "sanskrit": "tu",
+          "meaning": "but"
+        },
+        {
+          "sanskrit": "kā",
+          "meaning": "what"
+        },
+        {
+          "sanskrit": "kṛṣṇa",
+          "meaning": "O Kṛṣṇa"
+        },
+        {
+          "sanskrit": "sattvam",
+          "meaning": "in goodness"
+        },
+        {
+          "sanskrit": "āho",
+          "meaning": "or else"
+        },
+        {
+          "sanskrit": "rajaḥ",
+          "meaning": "in passion"
+        }
+      ]
+    }
+  },
+  "source": {
+    "derived_from": "vedabase.io",
+    "normalized_file": "vedabase-bg-17-01.normalized.json",
+    "pipeline_stage": "migration.m3",
+    "script": "m3_migrate_synonyms.py"
+  },
+  "schema": {
+    "name": "vedic-library.derivative.synonyms",
+    "version": "2.0.0"
+  }
+}

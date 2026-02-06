@@ -1,0 +1,108 @@
+{
+  "temp_id": "vedabase-bg-07-12",
+  "chapter": 7,
+  "verse": 12,
+  "verse_id": "bg-07-12",
+  "verse_group": null,
+  "composite": false,
+  "sanskrit": {
+    "devanagari": "ये चैव सात्त्विका भावा राजसास्तामसाश्च ये ।\nमत्त एवेति तान्विद्धि न त्वहं तेषु ते मयि ॥ १२ ॥",
+    "iast": "ye caiva sāttvikā bhāvā\nrājasās tāmasāś ca ye\nmatta eveti tān viddhi\nna tv ahaṁ teṣu te mayi"
+  },
+  "synonyms_raw": "ye\n—\nall which\n;\nca\n—\nand\n;\neva\n—\ncertainly\n;\nsāttvikāḥ\n—\nin goodness\n;\nbhāvāḥ\n—\nstates of being\n;\nrājasāḥ\n—\nin the mode of passion\n;\ntāmasāḥ\n—\nin the mode of ignorance\n;\nca\n—\nalso\n;\nye\n—\nall which\n;\nmattaḥ\n—\nfrom Me\n;\neva\n—\ncertainly\n;\niti\n—\nthus\n;\ntān\n—\nthose\n;\nviddhi\n—\ntry to know\n;\nna\n—\nnot\n;\ntu\n—\nbut\n;\naham\n—\nI\n;\nteṣu\n—\nin them\n;\nte\n—\nthey\n;\nmayi\n—\nin Me\n.",
+  "translation": "Know that all states of being – be they of goodness, passion or ignorance – are manifested by My energy. I am, in one sense, everything, but I am independent. I am not under the modes of material nature, for they, on the contrary, are within Me.",
+  "purport": [
+    "All material activities in the world are being conducted under the three modes of material nature. Although these material modes of nature are emanations from the Supreme Lord, Kṛṣṇa, He is not subject to them. For instance, under the state laws one may be punished, but the king, the lawmaker, is not subject to that law. Similarly, all the modes of material nature – goodness, passion and ignorance – are emanations from the Supreme Lord, Kṛṣṇa, but Kṛṣṇa is not subject to material nature. Therefore He is",
+    "nirguṇa,",
+    "which means that these",
+    "guṇas,",
+    "or modes, although issuing from Him, do not affect Him. That is one of the special characteristics of Bhagavān, or the Supreme Personality of Godhead."
+  ],
+  "source": {
+    "author": "A. C. Bhaktivedanta Swami Prabhupāda",
+    "edition": "Bhagavad-gītā As It Is",
+    "language": "en",
+    "provider": "vedabase.io"
+  },
+  "synonyms": {
+    "language": "en",
+    "items": [
+      {
+        "sanskrit": "ye",
+        "meaning": "all which"
+      },
+      {
+        "sanskrit": "ca",
+        "meaning": "and"
+      },
+      {
+        "sanskrit": "eva",
+        "meaning": "certainly"
+      },
+      {
+        "sanskrit": "sāttvikāḥ",
+        "meaning": "in goodness"
+      },
+      {
+        "sanskrit": "bhāvāḥ",
+        "meaning": "states of being"
+      },
+      {
+        "sanskrit": "rājasāḥ",
+        "meaning": "in the mode of passion"
+      },
+      {
+        "sanskrit": "tāmasāḥ",
+        "meaning": "in the mode of ignorance"
+      },
+      {
+        "sanskrit": "ca",
+        "meaning": "also"
+      },
+      {
+        "sanskrit": "ye",
+        "meaning": "all which"
+      },
+      {
+        "sanskrit": "mattaḥ",
+        "meaning": "from Me"
+      },
+      {
+        "sanskrit": "eva",
+        "meaning": "certainly"
+      },
+      {
+        "sanskrit": "iti",
+        "meaning": "thus"
+      },
+      {
+        "sanskrit": "tān",
+        "meaning": "those"
+      },
+      {
+        "sanskrit": "viddhi",
+        "meaning": "try to know"
+      },
+      {
+        "sanskrit": "na",
+        "meaning": "not"
+      },
+      {
+        "sanskrit": "tu",
+        "meaning": "but"
+      },
+      {
+        "sanskrit": "aham",
+        "meaning": "I"
+      },
+      {
+        "sanskrit": "teṣu",
+        "meaning": "in them"
+      },
+      {
+        "sanskrit": "te",
+        "meaning": "they"
+      }
+    ]
+  }
+}

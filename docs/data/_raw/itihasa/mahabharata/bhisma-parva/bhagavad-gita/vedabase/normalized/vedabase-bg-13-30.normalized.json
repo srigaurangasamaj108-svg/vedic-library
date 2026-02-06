@@ -1,0 +1,76 @@
+{
+  "temp_id": "vedabase-bg-13-30",
+  "chapter": 13,
+  "verse": 30,
+  "verse_id": "bg-13-30",
+  "verse_group": null,
+  "composite": false,
+  "sanskrit": {
+    "devanagari": "प्रकृत्यैव च कर्माणि क्रियमाणानि सर्वश: ।\nय: पश्यति तथात्मानमकर्तारं स पश्यति ॥ ३० ॥",
+    "iast": "prakṛtyaiva ca karmāṇi\nkriyamāṇāni sarvaśaḥ\nyaḥ paśyati tathātmānam\nakartāraṁ sa paśyati"
+  },
+  "synonyms_raw": "prakṛtyā\n—\nby material nature\n;\neva\n—\ncertainly\n;\nca\n—\nalso\n;\nkarmāṇi\n—\nactivities\n;\nkriyamāṇāni\n—\nbeing performed\n;\nsarvaśaḥ\n—\nin all respects\n;\nyaḥ\n—\nanyone who\n;\npaśyati\n—\nsees\n;\ntathā\n—\nalso\n;\nātmānam\n—\nhimself\n;\nakartāram\n—\nthe nondoer\n;\nsaḥ\n—\nhe\n;\npaśyati\n—\nsees perfectly\n.",
+  "translation": "One who can see that all activities are performed by the body, which is created of material nature, and sees that the self does nothing, actually sees.",
+  "purport": [
+    "This body is made by material nature under the direction of the Supersoul, and whatever activities are going on in respect to one’s body are not his doing. Whatever one is supposed to do, either for happiness or for distress, one is forced to do because of the bodily constitution. The self, however, is outside all these bodily activities. This body is given according to one’s past desires. To fulfill desires, one is given the body, with which he acts accordingly. Practically speaking, the body is a machine, designed by the Supreme Lord, to fulfill desires. Because of desires, one is put into difficult circumstances to suffer or to enjoy. This transcendental vision of the living entity, when developed, makes one separate from bodily activities. One who has such a vision is an actual seer."
+  ],
+  "source": {
+    "author": "A. C. Bhaktivedanta Swami Prabhupāda",
+    "edition": "Bhagavad-gītā As It Is",
+    "language": "en",
+    "provider": "vedabase.io"
+  },
+  "synonyms": {
+    "language": "en",
+    "items": [
+      {
+        "sanskrit": "prakṛtyā",
+        "meaning": "by material nature"
+      },
+      {
+        "sanskrit": "eva",
+        "meaning": "certainly"
+      },
+      {
+        "sanskrit": "ca",
+        "meaning": "also"
+      },
+      {
+        "sanskrit": "karmāṇi",
+        "meaning": "activities"
+      },
+      {
+        "sanskrit": "kriyamāṇāni",
+        "meaning": "being performed"
+      },
+      {
+        "sanskrit": "sarvaśaḥ",
+        "meaning": "in all respects"
+      },
+      {
+        "sanskrit": "yaḥ",
+        "meaning": "anyone who"
+      },
+      {
+        "sanskrit": "paśyati",
+        "meaning": "sees"
+      },
+      {
+        "sanskrit": "tathā",
+        "meaning": "also"
+      },
+      {
+        "sanskrit": "ātmānam",
+        "meaning": "himself"
+      },
+      {
+        "sanskrit": "akartāram",
+        "meaning": "the nondoer"
+      },
+      {
+        "sanskrit": "saḥ",
+        "meaning": "he"
+      }
+    ]
+  }
+}

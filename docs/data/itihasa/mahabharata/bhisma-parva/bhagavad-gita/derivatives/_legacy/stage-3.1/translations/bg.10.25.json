@@ -1,0 +1,26 @@
+{
+  "uid": "bg.10.25.translation.en.prabhupada",
+  "canonical_ref": {
+    "uid": "bg.10.25",
+    "schema": "vedic-library.canonical.verse",
+    "version": "1.0.0"
+  },
+  "translation": {
+    "language": "en",
+    "translator": "A.C. Bhaktivedanta Swami Prabhupāda",
+    "content": "Of the great sages I am Bhṛgu; of vibrations I am the transcendental oṁ. Of sacrifices I am the chanting of the holy names [japa], and of immovable things I am the Himālayas."
+  },
+  "source": {
+    "edition": "Bhagavad-gītā As It Is",
+    "publisher": "BBT",
+    "year": 1972,
+    "derived_from": "vedabase-bg-10-25.normalized.json",
+    "pipeline_stage": "3.1",
+    "script": "s31_extract_translation_prabhupada.py",
+    "script_version": "1.1.0"
+  },
+  "schema": {
+    "name": "vedic-library.derivative.translation",
+    "version": "1.0.0"
+  }
+}

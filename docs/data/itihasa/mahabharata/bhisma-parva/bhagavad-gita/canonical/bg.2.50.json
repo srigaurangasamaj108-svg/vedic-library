@@ -1,0 +1,34 @@
+{
+  "uid": "bg.2.50",
+  "work": {
+    "corpus": "itihasa",
+    "text": "mahabharata",
+    "section": "bhisma-parva",
+    "subwork": "bhagavad-gita"
+  },
+  "location": {
+    "chapter": 2,
+    "verse": 50
+  },
+  "text": {
+    "script": "devanagari",
+    "content": "बुद्धियुक्तो जहातीह उभे सुकृतदुष्कृते ।\nतस्माद्योगाय युज्यस्व योगः कर्मसु कौशलम्\n॥ ५० ॥"
+  },
+  "transliteration": {
+    "scheme": "iast",
+    "content": "buddhiyukto jahātīha ubhe sukṛtaduṣkṛte |\ntasmādyogāya yujyasva yogaḥ karmasu kauśalam\n|| 50 ||"
+  },
+  "source": {
+    "pipeline": "bhagavad-gita",
+    "stage": "2.5",
+    "script": "s25_realign_iast_bg.py",
+    "script_version": "2.2.0",
+    "derived_from": [
+      "vedabase/raw-json/bg-02-50.json"
+    ]
+  },
+  "schema": {
+    "name": "vedic-library.canonical.verse",
+    "version": "1.0.0"
+  }
+}

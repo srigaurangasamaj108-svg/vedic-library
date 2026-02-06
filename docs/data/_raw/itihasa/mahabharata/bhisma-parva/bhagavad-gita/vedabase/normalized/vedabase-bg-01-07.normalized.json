@@ -1,0 +1,78 @@
+{
+  "temp_id": "vedabase-bg-01-07",
+  "chapter": 1,
+  "verse": 7,
+  "verse_id": "bg-01-07",
+  "verse_group": null,
+  "composite": false,
+  "sanskrit": {
+    "devanagari": "अस्माकं तु विशिष्टा ये तान्निबोध द्विजोत्तम ।\nनायका मम सैन्यस्य संज्ञार्थ तान्ब्रवीमि ते ॥ ७ ॥",
+    "iast": "asmākaṁ tu viśiṣṭā ye\ntān nibodha dvijottama\nnāyakā mama sainyasya\nsaṁjñārthaṁ tān bravīmi te"
+  },
+  "synonyms_raw": "asmākam\n—\nour\n;\ntu\n—\nbut\n;\nviśiṣṭāḥ\n—\nespecially powerful\n;\nye\n—\nwho\n;\ntān\n—\nthem\n;\nnibodha\n—\njust take note of, be informed\n;\ndvija\n-\nuttama\n—\nO best of the\nbrāhmaṇas\n;\nnāyakāḥ\n—\ncaptains\n;\nmama\n—\nmy\n;\nsainyasya\n—\nof the soldiers\n;\nsaṁjñā\n-\nartham\n—\nfor information\n;\ntān\n—\nthem\n;\nbravīmi\n—\nI am speaking\n;\nte\n—\nto you\n.",
+  "translation": "But for your information, O best of the brāhmaṇas, let me tell you about the captains who are especially qualified to lead my military force.",
+  "purport": [],
+  "source": {
+    "author": "A. C. Bhaktivedanta Swami Prabhupāda",
+    "edition": "Bhagavad-gītā As It Is",
+    "language": "en",
+    "provider": "vedabase.io"
+  },
+  "synonyms": {
+    "language": "en",
+    "items": [
+      {
+        "sanskrit": "asmākam",
+        "meaning": "our"
+      },
+      {
+        "sanskrit": "tu",
+        "meaning": "but"
+      },
+      {
+        "sanskrit": "viśiṣṭāḥ",
+        "meaning": "especially powerful"
+      },
+      {
+        "sanskrit": "ye",
+        "meaning": "who"
+      },
+      {
+        "sanskrit": "tān",
+        "meaning": "them"
+      },
+      {
+        "sanskrit": "nibodha",
+        "meaning": "just take note of, be informed"
+      },
+      {
+        "sanskrit": "dvija uttama",
+        "meaning": "O best of the brāhmaṇas"
+      },
+      {
+        "sanskrit": "nāyakāḥ",
+        "meaning": "captains"
+      },
+      {
+        "sanskrit": "mama",
+        "meaning": "my"
+      },
+      {
+        "sanskrit": "sainyasya",
+        "meaning": "of the soldiers"
+      },
+      {
+        "sanskrit": "saṁjñā artham",
+        "meaning": "for information"
+      },
+      {
+        "sanskrit": "tān",
+        "meaning": "them"
+      },
+      {
+        "sanskrit": "bravīmi",
+        "meaning": "I am speaking"
+      }
+    ]
+  }
+}

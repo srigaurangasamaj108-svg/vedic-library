@@ -1,0 +1,17 @@
+{
+  "schema": "vedic-library.exposition",
+  "schema_version": "1.0.0",
+  "uid": "bg.1.4.prabhupada.exposition",
+  "editorial_unit_ref": "bg.1.4.prabhupada",
+  "exposition": {
+    "type": "purport",
+    "language": "en",
+    "author": "A. C. Bhaktivedanta Swami Prabhupāda",
+    "content": "Even though Dhṛṣṭadyumna was not a very important obstacle in the face of Droṇācārya’s very great power in the military art, there were many others who were causes of fear. They are mentioned by Duryodhana as great stumbling blocks on the path of victory because each and every one of them was as formidable as Bhīma and Arjuna. He knew the strength of Bhīma and Arjuna, and thus he compared the others with them."
+  },
+  "source": {
+    "edition": "Bhagavad-gītā As It Is",
+    "editor": "BBT",
+    "lineage": "Gaudiya Vaishnava"
+  }
+}

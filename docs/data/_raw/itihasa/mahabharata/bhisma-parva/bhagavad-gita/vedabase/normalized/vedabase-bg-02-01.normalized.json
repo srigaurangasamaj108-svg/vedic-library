@@ -1,0 +1,78 @@
+{
+  "temp_id": "vedabase-bg-02-01",
+  "chapter": 2,
+  "verse": 1,
+  "verse_id": "bg-02-01",
+  "verse_group": null,
+  "composite": false,
+  "sanskrit": {
+    "devanagari": "सञ्जय उवाच\nतं तथा कृपयाविष्टमश्रुपूर्णाकुलेक्षणम् ।\nविषीदन्तमिदं वाक्यमुवाच मधुसूदनः ॥ १ ॥",
+    "iast": "sañjaya uvāca\ntaṁ tathā kṛpayāviṣṭam\naśru-pūrṇākulekṣaṇam\nviṣīdantam idaṁ vākyam\nuvāca madhusūdanaḥ"
+  },
+  "synonyms_raw": "sañjayaḥ\nuvāca\n—\nSañjaya said\n;\ntam\n—\nunto Arjuna\n;\ntathā\n—\nthus\n;\nkṛpayā\n—\nby compassion\n;\nāviṣṭam\n—\noverwhelmed\n;\naśru\n-\npūrṇa\n-\nākula\n—\nfull of tears\n;\nīkṣaṇam\n—\neyes\n;\nviṣīdantam\n—\nlamenting\n;\nidam\n—\nthese\n;\nvākyam\n—\nwords\n;\nuvāca\n—\nsaid\n;\nmadhu\n-\nsūdanaḥ\n—\nthe killer of Madhu\n.",
+  "translation": "Sañjaya said: Seeing Arjuna full of compassion, his mind depressed, his eyes full of tears, Madhusūdana, Kṛṣṇa, spoke the following words.",
+  "purport": [
+    "Material compassion, lamentation and tears are all signs of ignorance of the real self. Compassion for the eternal soul is self-realization. The word “Madhusūdana” is significant in this verse. Lord Kṛṣṇa killed the demon Madhu, and now Arjuna wanted Kṛṣṇa to kill the demon of misunderstanding that had overtaken him in the discharge of his duty. No one knows where compassion should be applied. Compassion for the dress of a drowning man is senseless. A man fallen in the ocean of nescience cannot be saved simply by rescuing his outward dress – the gross material body. One who does not know this and laments for the outward dress is called a",
+    "śūdra,",
+    "or one who laments unnecessarily. Arjuna was a",
+    "kṣatriya,",
+    "and this conduct was not expected from him. Lord Kṛṣṇa, however, can dissipate the lamentation of the ignorant man, and for this purpose the",
+    "Bhagavad-gītā",
+    "was sung by Him. This chapter instructs us in self-realization by an analytical study of the material body and the spirit soul, as explained by the supreme authority, Lord Śrī Kṛṣṇa. This realization is possible when one works without attachment to fruitive results and is situated in the fixed conception of the real self."
+  ],
+  "source": {
+    "author": "A. C. Bhaktivedanta Swami Prabhupāda",
+    "edition": "Bhagavad-gītā As It Is",
+    "language": "en",
+    "provider": "vedabase.io"
+  },
+  "synonyms": {
+    "language": "en",
+    "items": [
+      {
+        "sanskrit": "sañjayaḥ uvāca",
+        "meaning": "Sañjaya said"
+      },
+      {
+        "sanskrit": "tam",
+        "meaning": "unto Arjuna"
+      },
+      {
+        "sanskrit": "tathā",
+        "meaning": "thus"
+      },
+      {
+        "sanskrit": "kṛpayā",
+        "meaning": "by compassion"
+      },
+      {
+        "sanskrit": "āviṣṭam",
+        "meaning": "overwhelmed"
+      },
+      {
+        "sanskrit": "aśru pūrṇa ākula",
+        "meaning": "full of tears"
+      },
+      {
+        "sanskrit": "īkṣaṇam",
+        "meaning": "eyes"
+      },
+      {
+        "sanskrit": "viṣīdantam",
+        "meaning": "lamenting"
+      },
+      {
+        "sanskrit": "idam",
+        "meaning": "these"
+      },
+      {
+        "sanskrit": "vākyam",
+        "meaning": "words"
+      },
+      {
+        "sanskrit": "uvāca",
+        "meaning": "said"
+      }
+    ]
+  }
+}

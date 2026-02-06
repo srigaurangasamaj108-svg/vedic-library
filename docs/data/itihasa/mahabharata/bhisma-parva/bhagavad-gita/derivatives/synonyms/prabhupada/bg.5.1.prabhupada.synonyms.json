@@ -1,0 +1,87 @@
+{
+  "uid": "bg.5.1.prabhupada.synonyms",
+  "editorial_unit_ref": {
+    "uid": "bg.5.1.prabhupada",
+    "schema": "vedic-library.editorial.unit",
+    "version": "1.0.0"
+  },
+  "synonyms": {
+    "language": "en",
+    "author": "A. C. Bhaktivedanta Swami Prabhupāda",
+    "items": {
+      "language": "en",
+      "items": [
+        {
+          "sanskrit": "arjunaḥ uvāca",
+          "meaning": "Arjuna said"
+        },
+        {
+          "sanskrit": "sannyāsam",
+          "meaning": "renunciation"
+        },
+        {
+          "sanskrit": "karmaṇām",
+          "meaning": "of all activities"
+        },
+        {
+          "sanskrit": "kṛṣṇa",
+          "meaning": "O Kṛṣṇa"
+        },
+        {
+          "sanskrit": "punaḥ",
+          "meaning": "again"
+        },
+        {
+          "sanskrit": "yogam",
+          "meaning": "devotional service"
+        },
+        {
+          "sanskrit": "ca",
+          "meaning": "also"
+        },
+        {
+          "sanskrit": "śaṁsasi",
+          "meaning": "You are praising"
+        },
+        {
+          "sanskrit": "yat",
+          "meaning": "which"
+        },
+        {
+          "sanskrit": "śreyaḥ",
+          "meaning": "is more beneficial"
+        },
+        {
+          "sanskrit": "etayoḥ",
+          "meaning": "of these two"
+        },
+        {
+          "sanskrit": "ekam",
+          "meaning": "one"
+        },
+        {
+          "sanskrit": "tat",
+          "meaning": "that"
+        },
+        {
+          "sanskrit": "me",
+          "meaning": "unto me"
+        },
+        {
+          "sanskrit": "brūhi",
+          "meaning": "please tell"
+        }
+      ]
+    }
+  },
+  "source": {
+    "derived_from": "vedabase.io",
+    "normalized_file": "vedabase-bg-05-01.normalized.json",
+    "pipeline_stage": "migration.m3",
+    "script": "m3_migrate_synonyms.py"
+  },
+  "schema": {
+    "name": "vedic-library.derivative.synonyms",
+    "version": "2.0.0"
+  }
+}

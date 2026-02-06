@@ -1,0 +1,26 @@
+{
+  "uid": "bg.11.52.translation.en.prabhupada",
+  "canonical_ref": {
+    "uid": "bg.11.52",
+    "schema": "vedic-library.canonical.verse",
+    "version": "1.0.0"
+  },
+  "translation": {
+    "language": "en",
+    "translator": "A.C. Bhaktivedanta Swami Prabhupāda",
+    "content": "The Supreme Personality of Godhead said: My dear Arjuna, this form of Mine you are now seeing is very difficult to behold. Even the demigods are ever seeking the opportunity to see this form, which is so dear."
+  },
+  "source": {
+    "edition": "Bhagavad-gītā As It Is",
+    "publisher": "BBT",
+    "year": 1972,
+    "derived_from": "vedabase-bg-11-52.normalized.json",
+    "pipeline_stage": "3.1",
+    "script": "s31_extract_translation_prabhupada.py",
+    "script_version": "1.1.0"
+  },
+  "schema": {
+    "name": "vedic-library.derivative.translation",
+    "version": "1.0.0"
+  }
+}

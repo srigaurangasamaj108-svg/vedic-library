@@ -1,0 +1,34 @@
+{
+  "uid": "bg.8.10",
+  "work": {
+    "corpus": "itihasa",
+    "text": "mahabharata",
+    "section": "bhisma-parva",
+    "subwork": "bhagavad-gita"
+  },
+  "location": {
+    "chapter": 8,
+    "verse": 10
+  },
+  "text": {
+    "script": "devanagari",
+    "content": "प्रयाणकाले मनसाचलेन\nभक्त्य‍ा युक्तो योगबलेन चैव ।\nभ्रुवोर्मध्ये प्राणमावेश्य सम्य-\nक्स तं परं पुरुषमुपैति दिव्यम्\n॥ १० ॥"
+  },
+  "transliteration": {
+    "scheme": "iast",
+    "content": "prayāṇakāle manasācalena\nbhaktya‍ā yukto yogabalena caiva |\nbhruvormadhye prāṇamāveśya samya-\nksa taṃ paraṃ puruṣamupaiti divyam\n|| 10 ||"
+  },
+  "source": {
+    "pipeline": "bhagavad-gita",
+    "stage": "2.5",
+    "script": "s25_realign_iast_bg.py",
+    "script_version": "2.2.0",
+    "derived_from": [
+      "vedabase/raw-json/bg-08-10.json"
+    ]
+  },
+  "schema": {
+    "name": "vedic-library.canonical.verse",
+    "version": "1.0.0"
+  }
+}

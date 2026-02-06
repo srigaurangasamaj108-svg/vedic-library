@@ -1,0 +1,23 @@
+{
+  "uid": "bg.17.17.prabhupada.translation.en",
+  "editorial_unit_ref": {
+    "uid": "bg.17.17.prabhupada",
+    "schema": "vedic-library.editorial.unit",
+    "version": "1.0.0"
+  },
+  "translation": {
+    "language": "en",
+    "translator": "A. C. Bhaktivedanta Swami Prabhupāda",
+    "content": "This threefold austerity, performed with transcendental faith by men not expecting material benefits but engaged only for the sake of the Supreme, is called austerity in goodness."
+  },
+  "source": {
+    "derived_from": "vedabase.io",
+    "normalized_file": "vedabase-bg-17-17.normalized.json",
+    "pipeline_stage": "migration.m2",
+    "script": "m2_migrate_translations.py"
+  },
+  "schema": {
+    "name": "vedic-library.derivative.translation",
+    "version": "2.0.0"
+  }
+}

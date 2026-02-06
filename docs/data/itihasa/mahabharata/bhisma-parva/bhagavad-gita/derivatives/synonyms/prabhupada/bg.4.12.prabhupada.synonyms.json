@@ -1,0 +1,75 @@
+{
+  "uid": "bg.4.12.prabhupada.synonyms",
+  "editorial_unit_ref": {
+    "uid": "bg.4.12.prabhupada",
+    "schema": "vedic-library.editorial.unit",
+    "version": "1.0.0"
+  },
+  "synonyms": {
+    "language": "en",
+    "author": "A. C. Bhaktivedanta Swami Prabhupāda",
+    "items": {
+      "language": "en",
+      "items": [
+        {
+          "sanskrit": "kāṅkṣantaḥ",
+          "meaning": "desiring"
+        },
+        {
+          "sanskrit": "karmaṇām",
+          "meaning": "of fruitive activities"
+        },
+        {
+          "sanskrit": "siddhim",
+          "meaning": "perfection"
+        },
+        {
+          "sanskrit": "yajante",
+          "meaning": "they worship by sacrifices"
+        },
+        {
+          "sanskrit": "iha",
+          "meaning": "in the material world"
+        },
+        {
+          "sanskrit": "devatāḥ",
+          "meaning": "the demigods"
+        },
+        {
+          "sanskrit": "kṣipram",
+          "meaning": "very quickly"
+        },
+        {
+          "sanskrit": "hi",
+          "meaning": "certainly"
+        },
+        {
+          "sanskrit": "mānuṣe",
+          "meaning": "in human society"
+        },
+        {
+          "sanskrit": "loke",
+          "meaning": "within this world"
+        },
+        {
+          "sanskrit": "siddhiḥ",
+          "meaning": "success"
+        },
+        {
+          "sanskrit": "bhavati",
+          "meaning": "comes"
+        }
+      ]
+    }
+  },
+  "source": {
+    "derived_from": "vedabase.io",
+    "normalized_file": "vedabase-bg-04-12.normalized.json",
+    "pipeline_stage": "migration.m3",
+    "script": "m3_migrate_synonyms.py"
+  },
+  "schema": {
+    "name": "vedic-library.derivative.synonyms",
+    "version": "2.0.0"
+  }
+}

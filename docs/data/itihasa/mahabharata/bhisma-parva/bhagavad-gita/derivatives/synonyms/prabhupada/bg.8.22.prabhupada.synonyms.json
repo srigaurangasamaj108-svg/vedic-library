@@ -1,0 +1,83 @@
+{
+  "uid": "bg.8.22.prabhupada.synonyms",
+  "editorial_unit_ref": {
+    "uid": "bg.8.22.prabhupada",
+    "schema": "vedic-library.editorial.unit",
+    "version": "1.0.0"
+  },
+  "synonyms": {
+    "language": "en",
+    "author": "A. C. Bhaktivedanta Swami Prabhupāda",
+    "items": {
+      "language": "en",
+      "items": [
+        {
+          "sanskrit": "puruṣaḥ",
+          "meaning": "the Supreme Personality"
+        },
+        {
+          "sanskrit": "saḥ",
+          "meaning": "He"
+        },
+        {
+          "sanskrit": "paraḥ",
+          "meaning": "the Supreme, than whom no one is greater"
+        },
+        {
+          "sanskrit": "pārtha",
+          "meaning": "O son of Pṛthā"
+        },
+        {
+          "sanskrit": "bhaktyā",
+          "meaning": "by devotional service"
+        },
+        {
+          "sanskrit": "labhyaḥ",
+          "meaning": "can be achieved"
+        },
+        {
+          "sanskrit": "tu",
+          "meaning": "but"
+        },
+        {
+          "sanskrit": "ananyayā",
+          "meaning": "unalloyed, undeviating"
+        },
+        {
+          "sanskrit": "yasya",
+          "meaning": "whom"
+        },
+        {
+          "sanskrit": "antaḥ sthāni",
+          "meaning": "within"
+        },
+        {
+          "sanskrit": "bhūtāni",
+          "meaning": "all of this material manifestation"
+        },
+        {
+          "sanskrit": "yena",
+          "meaning": "by whom"
+        },
+        {
+          "sanskrit": "sarvam",
+          "meaning": "all"
+        },
+        {
+          "sanskrit": "idam",
+          "meaning": "whatever we can see"
+        }
+      ]
+    }
+  },
+  "source": {
+    "derived_from": "vedabase.io",
+    "normalized_file": "vedabase-bg-08-22.normalized.json",
+    "pipeline_stage": "migration.m3",
+    "script": "m3_migrate_synonyms.py"
+  },
+  "schema": {
+    "name": "vedic-library.derivative.synonyms",
+    "version": "2.0.0"
+  }
+}

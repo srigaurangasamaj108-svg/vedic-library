@@ -1,0 +1,75 @@
+{
+  "uid": "bg.3.31.prabhupada.synonyms",
+  "editorial_unit_ref": {
+    "uid": "bg.3.31.prabhupada",
+    "schema": "vedic-library.editorial.unit",
+    "version": "1.0.0"
+  },
+  "synonyms": {
+    "language": "en",
+    "author": "A. C. Bhaktivedanta Swami Prabhupāda",
+    "items": {
+      "language": "en",
+      "items": [
+        {
+          "sanskrit": "ye",
+          "meaning": "those who"
+        },
+        {
+          "sanskrit": "me",
+          "meaning": "My"
+        },
+        {
+          "sanskrit": "matam",
+          "meaning": "injunctions"
+        },
+        {
+          "sanskrit": "idam",
+          "meaning": "these"
+        },
+        {
+          "sanskrit": "nityam",
+          "meaning": "as an eternal function"
+        },
+        {
+          "sanskrit": "anutiṣṭhanti",
+          "meaning": "execute regularly"
+        },
+        {
+          "sanskrit": "mānavāḥ",
+          "meaning": "human beings"
+        },
+        {
+          "sanskrit": "śraddhā vantaḥ",
+          "meaning": "with faith and devotion"
+        },
+        {
+          "sanskrit": "anasūyantaḥ",
+          "meaning": "without envy"
+        },
+        {
+          "sanskrit": "mucyante",
+          "meaning": "become free"
+        },
+        {
+          "sanskrit": "te",
+          "meaning": "all of them"
+        },
+        {
+          "sanskrit": "api",
+          "meaning": "even"
+        }
+      ]
+    }
+  },
+  "source": {
+    "derived_from": "vedabase.io",
+    "normalized_file": "vedabase-bg-03-31.normalized.json",
+    "pipeline_stage": "migration.m3",
+    "script": "m3_migrate_synonyms.py"
+  },
+  "schema": {
+    "name": "vedic-library.derivative.synonyms",
+    "version": "2.0.0"
+  }
+}

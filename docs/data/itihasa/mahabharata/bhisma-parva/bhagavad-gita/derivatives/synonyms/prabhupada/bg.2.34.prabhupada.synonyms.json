@@ -1,0 +1,71 @@
+{
+  "uid": "bg.2.34.prabhupada.synonyms",
+  "editorial_unit_ref": {
+    "uid": "bg.2.34.prabhupada",
+    "schema": "vedic-library.editorial.unit",
+    "version": "1.0.0"
+  },
+  "synonyms": {
+    "language": "en",
+    "author": "A. C. Bhaktivedanta Swami Prabhupāda",
+    "items": {
+      "language": "en",
+      "items": [
+        {
+          "sanskrit": "akīrtim",
+          "meaning": "infamy"
+        },
+        {
+          "sanskrit": "ca",
+          "meaning": "also"
+        },
+        {
+          "sanskrit": "api",
+          "meaning": "over and above"
+        },
+        {
+          "sanskrit": "bhūtāni",
+          "meaning": "all people"
+        },
+        {
+          "sanskrit": "kathayiṣyanti",
+          "meaning": "will speak"
+        },
+        {
+          "sanskrit": "te",
+          "meaning": "of you"
+        },
+        {
+          "sanskrit": "avyayām",
+          "meaning": "forever"
+        },
+        {
+          "sanskrit": "sambhāvitasya",
+          "meaning": "for a respectable man"
+        },
+        {
+          "sanskrit": "ca",
+          "meaning": "also"
+        },
+        {
+          "sanskrit": "akīrtiḥ",
+          "meaning": "ill fame"
+        },
+        {
+          "sanskrit": "maraṇāt",
+          "meaning": "than death"
+        }
+      ]
+    }
+  },
+  "source": {
+    "derived_from": "vedabase.io",
+    "normalized_file": "vedabase-bg-02-34.normalized.json",
+    "pipeline_stage": "migration.m3",
+    "script": "m3_migrate_synonyms.py"
+  },
+  "schema": {
+    "name": "vedic-library.derivative.synonyms",
+    "version": "2.0.0"
+  }
+}

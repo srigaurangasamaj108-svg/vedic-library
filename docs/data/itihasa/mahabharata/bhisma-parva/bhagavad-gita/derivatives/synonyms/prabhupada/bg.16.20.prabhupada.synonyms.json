@@ -1,0 +1,75 @@
+{
+  "uid": "bg.16.20.prabhupada.synonyms",
+  "editorial_unit_ref": {
+    "uid": "bg.16.20.prabhupada",
+    "schema": "vedic-library.editorial.unit",
+    "version": "1.0.0"
+  },
+  "synonyms": {
+    "language": "en",
+    "author": "A. C. Bhaktivedanta Swami Prabhupāda",
+    "items": {
+      "language": "en",
+      "items": [
+        {
+          "sanskrit": "āsurīm",
+          "meaning": "demoniac"
+        },
+        {
+          "sanskrit": "yonim",
+          "meaning": "species"
+        },
+        {
+          "sanskrit": "āpannāḥ",
+          "meaning": "gaining"
+        },
+        {
+          "sanskrit": "mūḍhāḥ",
+          "meaning": "the foolish"
+        },
+        {
+          "sanskrit": "janmani janmani",
+          "meaning": "in birth after birth"
+        },
+        {
+          "sanskrit": "mām",
+          "meaning": "Me"
+        },
+        {
+          "sanskrit": "aprāpya",
+          "meaning": "without achieving"
+        },
+        {
+          "sanskrit": "eva",
+          "meaning": "certainly"
+        },
+        {
+          "sanskrit": "kaunteya",
+          "meaning": "O son of Kuntī"
+        },
+        {
+          "sanskrit": "tataḥ",
+          "meaning": "thereafter"
+        },
+        {
+          "sanskrit": "yānti",
+          "meaning": "go"
+        },
+        {
+          "sanskrit": "adhamām",
+          "meaning": "condemned"
+        }
+      ]
+    }
+  },
+  "source": {
+    "derived_from": "vedabase.io",
+    "normalized_file": "vedabase-bg-16-20.normalized.json",
+    "pipeline_stage": "migration.m3",
+    "script": "m3_migrate_synonyms.py"
+  },
+  "schema": {
+    "name": "vedic-library.derivative.synonyms",
+    "version": "2.0.0"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "uid": "bg.14.26.prabhupada",
+  "author": {
+    "id": "prabhupada",
+    "name": "A. C. Bhaktivedanta Swami Prabhupāda",
+    "tradition": "Gaudiya Vaishnava"
+  },
+  "work": {
+    "corpus": "itihasa",
+    "text": "mahabharata",
+    "section": "bhisma-parva",
+    "subwork": "bhagavad-gita"
+  },
+  "covers": {
+    "chapter": 14,
+    "from_verse": 26,
+    "to_verse": 26
+  },
+  "scope": {
+    "has_synonyms": true,
+    "has_translation": true,
+    "has_exposition": true
+  },
+  "content": {
+    "synonyms_ref": "bg.14.26.prabhupada.synonyms.en",
+    "translation_ref": "bg.14.26.prabhupada.translation.en",
+    "exposition_ref": "bg.14.26.prabhupada.exposition"
+  },
+  "source": {
+    "derived_from": "vedabase.io",
+    "normalized_file": "vedabase-bg-14-26.normalized.json",
+    "pipeline_stage": "migration.m1"
+  },
+  "schema": {
+    "name": "vedic-library.editorial.unit",
+    "version": "1.0.0"
+  }
+}

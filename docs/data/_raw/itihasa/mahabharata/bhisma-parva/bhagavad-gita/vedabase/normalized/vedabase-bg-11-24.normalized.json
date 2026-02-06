@@ -1,0 +1,106 @@
+{
+  "temp_id": "vedabase-bg-11-24",
+  "chapter": 11,
+  "verse": 24,
+  "verse_id": "bg-11-24",
+  "verse_group": null,
+  "composite": false,
+  "sanskrit": {
+    "devanagari": "नभ:स्पृशं दीप्‍तमनेकवर्णं\nव्यात्ताननं दीप्‍तविशालनेत्रम् ।\nदृष्ट्वा हि त्वां प्रव्यथितान्तरात्मा\nधृतिं न विन्दामि शमं च विष्णो ॥ २४ ॥",
+    "iast": "nabhaḥ-spṛśaṁ dīptam aneka-varṇaṁ\nvyāttānanaṁ dīpta-viśāla-netram\ndṛṣṭvā hi tvāṁ pravyathitāntar-ātmā\ndhṛtiṁ na vindāmi śamaṁ ca viṣṇo"
+  },
+  "synonyms_raw": "nabhaḥ\n-\nspṛśam\n—\ntouching the sky\n;\ndīptam\n—\nglowing\n;\naneka\n—\nmany\n;\nvarṇam\n—\ncolors\n;\nvyātta\n—\nopen\n;\nānanam\n—\nmouths\n;\ndīpta\n—\nglowing\n;\nviśāla\n—\nvery great\n;\nnetram\n—\neyes\n;\ndṛṣṭvā\n—\nseeing\n;\nhi\n—\ncertainly\n;\ntvām\n—\nYou\n;\npravyathita\n—\nperturbed\n;\nantaḥ\n—\nwithin\n;\nātmā\n—\nsoul\n;\ndhṛtim\n—\nsteadiness\n;\nna\n—\nnot\n;\nvindāmi\n—\nI have\n;\nśamam\n—\nmental tranquillity\n;\nca\n—\nalso\n;\nviṣṇo\n—\nO Lord Viṣṇu\n.",
+  "translation": "O all-pervading Viṣṇu, seeing You with Your many radiant colors touching the sky, Your gaping mouths, and Your great glowing eyes, my mind is perturbed by fear. I can no longer maintain my steadiness or equilibrium of mind.",
+  "purport": [],
+  "source": {
+    "author": "A. C. Bhaktivedanta Swami Prabhupāda",
+    "edition": "Bhagavad-gītā As It Is",
+    "language": "en",
+    "provider": "vedabase.io"
+  },
+  "synonyms": {
+    "language": "en",
+    "items": [
+      {
+        "sanskrit": "nabhaḥ spṛśam",
+        "meaning": "touching the sky"
+      },
+      {
+        "sanskrit": "dīptam",
+        "meaning": "glowing"
+      },
+      {
+        "sanskrit": "aneka",
+        "meaning": "many"
+      },
+      {
+        "sanskrit": "varṇam",
+        "meaning": "colors"
+      },
+      {
+        "sanskrit": "vyātta",
+        "meaning": "open"
+      },
+      {
+        "sanskrit": "ānanam",
+        "meaning": "mouths"
+      },
+      {
+        "sanskrit": "dīpta",
+        "meaning": "glowing"
+      },
+      {
+        "sanskrit": "viśāla",
+        "meaning": "very great"
+      },
+      {
+        "sanskrit": "netram",
+        "meaning": "eyes"
+      },
+      {
+        "sanskrit": "dṛṣṭvā",
+        "meaning": "seeing"
+      },
+      {
+        "sanskrit": "hi",
+        "meaning": "certainly"
+      },
+      {
+        "sanskrit": "tvām",
+        "meaning": "You"
+      },
+      {
+        "sanskrit": "pravyathita",
+        "meaning": "perturbed"
+      },
+      {
+        "sanskrit": "antaḥ",
+        "meaning": "within"
+      },
+      {
+        "sanskrit": "ātmā",
+        "meaning": "soul"
+      },
+      {
+        "sanskrit": "dhṛtim",
+        "meaning": "steadiness"
+      },
+      {
+        "sanskrit": "na",
+        "meaning": "not"
+      },
+      {
+        "sanskrit": "vindāmi",
+        "meaning": "I have"
+      },
+      {
+        "sanskrit": "śamam",
+        "meaning": "mental tranquillity"
+      },
+      {
+        "sanskrit": "ca",
+        "meaning": "also"
+      }
+    ]
+  }
+}

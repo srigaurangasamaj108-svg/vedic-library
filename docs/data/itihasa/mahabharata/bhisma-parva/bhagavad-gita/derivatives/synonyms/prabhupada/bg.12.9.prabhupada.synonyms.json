@@ -1,0 +1,75 @@
+{
+  "uid": "bg.12.9.prabhupada.synonyms",
+  "editorial_unit_ref": {
+    "uid": "bg.12.9.prabhupada",
+    "schema": "vedic-library.editorial.unit",
+    "version": "1.0.0"
+  },
+  "synonyms": {
+    "language": "en",
+    "author": "A. C. Bhaktivedanta Swami Prabhupāda",
+    "items": {
+      "language": "en",
+      "items": [
+        {
+          "sanskrit": "atha",
+          "meaning": "if, therefore"
+        },
+        {
+          "sanskrit": "cittam",
+          "meaning": "mind"
+        },
+        {
+          "sanskrit": "samādhātum",
+          "meaning": "to fix"
+        },
+        {
+          "sanskrit": "na",
+          "meaning": "not"
+        },
+        {
+          "sanskrit": "śaknoṣi",
+          "meaning": "you are able"
+        },
+        {
+          "sanskrit": "mayi",
+          "meaning": "upon Me"
+        },
+        {
+          "sanskrit": "sthiram",
+          "meaning": "steadily"
+        },
+        {
+          "sanskrit": "abhyāsa yogena",
+          "meaning": "by the practice of devotional service"
+        },
+        {
+          "sanskrit": "tataḥ",
+          "meaning": "then"
+        },
+        {
+          "sanskrit": "mām",
+          "meaning": "Me"
+        },
+        {
+          "sanskrit": "icchā",
+          "meaning": "desire"
+        },
+        {
+          "sanskrit": "āptum",
+          "meaning": "to get"
+        }
+      ]
+    }
+  },
+  "source": {
+    "derived_from": "vedabase.io",
+    "normalized_file": "vedabase-bg-12-09.normalized.json",
+    "pipeline_stage": "migration.m3",
+    "script": "m3_migrate_synonyms.py"
+  },
+  "schema": {
+    "name": "vedic-library.derivative.synonyms",
+    "version": "2.0.0"
+  }
+}

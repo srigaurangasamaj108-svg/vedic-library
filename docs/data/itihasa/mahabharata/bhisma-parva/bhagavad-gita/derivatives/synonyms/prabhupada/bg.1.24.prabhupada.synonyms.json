@@ -1,0 +1,67 @@
+{
+  "uid": "bg.1.24.prabhupada.synonyms",
+  "editorial_unit_ref": {
+    "uid": "bg.1.24.prabhupada",
+    "schema": "vedic-library.editorial.unit",
+    "version": "1.0.0"
+  },
+  "synonyms": {
+    "language": "en",
+    "author": "A. C. Bhaktivedanta Swami Prabhupāda",
+    "items": {
+      "language": "en",
+      "items": [
+        {
+          "sanskrit": "sañjayaḥ uvāca",
+          "meaning": "Sañjaya said"
+        },
+        {
+          "sanskrit": "evam",
+          "meaning": "thus"
+        },
+        {
+          "sanskrit": "uktaḥ",
+          "meaning": "addressed"
+        },
+        {
+          "sanskrit": "hṛṣīkeśaḥ",
+          "meaning": "Lord Kṛṣṇa"
+        },
+        {
+          "sanskrit": "guḍākeśena",
+          "meaning": "by Arjuna"
+        },
+        {
+          "sanskrit": "bhārata",
+          "meaning": "O descendant of Bharata"
+        },
+        {
+          "sanskrit": "senayoḥ",
+          "meaning": "of the armies"
+        },
+        {
+          "sanskrit": "ubhayoḥ",
+          "meaning": "both"
+        },
+        {
+          "sanskrit": "madhye",
+          "meaning": "in the midst"
+        },
+        {
+          "sanskrit": "sthāpayitvā",
+          "meaning": "placing"
+        }
+      ]
+    }
+  },
+  "source": {
+    "derived_from": "vedabase.io",
+    "normalized_file": "vedabase-bg-01-24.normalized.json",
+    "pipeline_stage": "migration.m3",
+    "script": "m3_migrate_synonyms.py"
+  },
+  "schema": {
+    "name": "vedic-library.derivative.synonyms",
+    "version": "2.0.0"
+  }
+}

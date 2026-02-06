@@ -1,0 +1,96 @@
+{
+  "temp_id": "vedabase-bg-11-44",
+  "chapter": 11,
+  "verse": 44,
+  "verse_id": "bg-11-44",
+  "verse_group": null,
+  "composite": false,
+  "sanskrit": {
+    "devanagari": "तस्मात्प्रणम्य प्रणिधाय कायं\nप्रसादये त्वामहमीशमीड्यम् ।\nपितेव पुत्रस्य सखेव सख्यु:\nप्रिय: प्रियायार्हसि देव सोढुम् ॥ ४४ ॥",
+    "iast": "tasmāt praṇamya praṇidhāya kāyaṁ\nprasādaye tvām aham īśam īḍyam\npiteva putrasya sakheva sakhyuḥ\npriyaḥ priyāyārhasi deva soḍhum"
+  },
+  "synonyms_raw": "tasmāt\n—\ntherefore\n;\npraṇamya\n—\noffering obeisances\n;\npraṇidhāya\n—\nlaying down\n;\nkāyam\n—\nthe body\n;\nprasādaye\n—\nto beg mercy\n;\ntvām\n—\nunto You\n;\naham\n—\nI\n;\nīśam\n—\nunto the Supreme Lord\n;\nīḍyam\n—\nworshipable\n;\npitā\niva\n—\nlike a father\n;\nputrasya\n—\nwith a son\n;\nsakhā\niva\n—\nlike a friend\n;\nsakhyuḥ\n—\nwith a friend\n;\npriyaḥ\n—\na lover\n;\npriyāyāḥ\n—\nwith the dearmost\n;\narhasi\n—\nYou should\n;\ndeva\n—\nmy Lord\n;\nsoḍhum\n—\ntolerate\n.",
+  "translation": "You are the Supreme Lord, to be worshiped by every living being. Thus I fall down to offer You my respectful obeisances and ask Your mercy. As a father tolerates the impudence of his son, a friend the impertinence of a friend, or a husband the familiarity of his wife, please tolerate the wrongs I may have done You.",
+  "purport": [
+    "Kṛṣṇa’s devotees relate to Kṛṣṇa in various relationships; one might treat Kṛṣṇa as a son, or one might treat Kṛṣṇa as a husband, as a friend, or as a master. Kṛṣṇa and Arjuna are related in friendship. As the father tolerates, or the husband or a master tolerates, so Kṛṣṇa tolerates."
+  ],
+  "source": {
+    "author": "A. C. Bhaktivedanta Swami Prabhupāda",
+    "edition": "Bhagavad-gītā As It Is",
+    "language": "en",
+    "provider": "vedabase.io"
+  },
+  "synonyms": {
+    "language": "en",
+    "items": [
+      {
+        "sanskrit": "tasmāt",
+        "meaning": "therefore"
+      },
+      {
+        "sanskrit": "praṇamya",
+        "meaning": "offering obeisances"
+      },
+      {
+        "sanskrit": "praṇidhāya",
+        "meaning": "laying down"
+      },
+      {
+        "sanskrit": "kāyam",
+        "meaning": "the body"
+      },
+      {
+        "sanskrit": "prasādaye",
+        "meaning": "to beg mercy"
+      },
+      {
+        "sanskrit": "tvām",
+        "meaning": "unto You"
+      },
+      {
+        "sanskrit": "aham",
+        "meaning": "I"
+      },
+      {
+        "sanskrit": "īśam",
+        "meaning": "unto the Supreme Lord"
+      },
+      {
+        "sanskrit": "īḍyam",
+        "meaning": "worshipable"
+      },
+      {
+        "sanskrit": "pitā iva",
+        "meaning": "like a father"
+      },
+      {
+        "sanskrit": "putrasya",
+        "meaning": "with a son"
+      },
+      {
+        "sanskrit": "sakhā iva",
+        "meaning": "like a friend"
+      },
+      {
+        "sanskrit": "sakhyuḥ",
+        "meaning": "with a friend"
+      },
+      {
+        "sanskrit": "priyaḥ",
+        "meaning": "a lover"
+      },
+      {
+        "sanskrit": "priyāyāḥ",
+        "meaning": "with the dearmost"
+      },
+      {
+        "sanskrit": "arhasi",
+        "meaning": "You should"
+      },
+      {
+        "sanskrit": "deva",
+        "meaning": "my Lord"
+      }
+    ]
+  }
+}

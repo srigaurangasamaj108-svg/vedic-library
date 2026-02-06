@@ -1,0 +1,34 @@
+{
+  "uid": "bg.16.21",
+  "work": {
+    "corpus": "itihasa",
+    "text": "mahabharata",
+    "section": "bhisma-parva",
+    "subwork": "bhagavad-gita"
+  },
+  "location": {
+    "chapter": 16,
+    "verse": 21
+  },
+  "text": {
+    "script": "devanagari",
+    "content": "त्रिविधं नरकस्येदं द्वारं नाशनमात्मन: ।\nकाम: क्रोधस्तथा लोभस्तस्मादेतत्‍त्रयं त्यजेत्\n॥ २१ ॥"
+  },
+  "transliteration": {
+    "scheme": "iast",
+    "content": "trividhaṃ narakasyedaṃ dvāraṃ nāśanamātmana: |\nkāma: krodhastathā lobhastasmādetat‍trayaṃ tyajet\n|| 21 ||"
+  },
+  "source": {
+    "pipeline": "bhagavad-gita",
+    "stage": "2.5",
+    "script": "s25_realign_iast_bg.py",
+    "script_version": "2.2.0",
+    "derived_from": [
+      "vedabase/raw-json/bg-16-21.json"
+    ]
+  },
+  "schema": {
+    "name": "vedic-library.canonical.verse",
+    "version": "1.0.0"
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "uid": "bg.14.14.prabhupada.synonyms",
+  "editorial_unit_ref": {
+    "uid": "bg.14.14.prabhupada",
+    "schema": "vedic-library.editorial.unit",
+    "version": "1.0.0"
+  },
+  "synonyms": {
+    "language": "en",
+    "author": "A. C. Bhaktivedanta Swami Prabhupāda",
+    "items": {
+      "language": "en",
+      "items": [
+        {
+          "sanskrit": "yadā",
+          "meaning": "when"
+        },
+        {
+          "sanskrit": "sattve",
+          "meaning": "the mode of goodness"
+        },
+        {
+          "sanskrit": "pravṛddhe",
+          "meaning": "developed"
+        },
+        {
+          "sanskrit": "tu",
+          "meaning": "but"
+        },
+        {
+          "sanskrit": "pralayam",
+          "meaning": "dissolution"
+        },
+        {
+          "sanskrit": "yāti",
+          "meaning": "goes"
+        },
+        {
+          "sanskrit": "deha bhṛt",
+          "meaning": "the embodied"
+        },
+        {
+          "sanskrit": "tadā",
+          "meaning": "at that time"
+        },
+        {
+          "sanskrit": "uttama vidām",
+          "meaning": "of the great sages"
+        },
+        {
+          "sanskrit": "lokān",
+          "meaning": "the planets"
+        },
+        {
+          "sanskrit": "amalān",
+          "meaning": "pure"
+        }
+      ]
+    }
+  },
+  "source": {
+    "derived_from": "vedabase.io",
+    "normalized_file": "vedabase-bg-14-14.normalized.json",
+    "pipeline_stage": "migration.m3",
+    "script": "m3_migrate_synonyms.py"
+  },
+  "schema": {
+    "name": "vedic-library.derivative.synonyms",
+    "version": "2.0.0"
+  }
+}

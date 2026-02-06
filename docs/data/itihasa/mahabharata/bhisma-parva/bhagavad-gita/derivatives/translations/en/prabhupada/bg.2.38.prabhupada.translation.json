@@ -1,0 +1,23 @@
+{
+  "uid": "bg.2.38.prabhupada.translation.en",
+  "editorial_unit_ref": {
+    "uid": "bg.2.38.prabhupada",
+    "schema": "vedic-library.editorial.unit",
+    "version": "1.0.0"
+  },
+  "translation": {
+    "language": "en",
+    "translator": "A. C. Bhaktivedanta Swami Prabhupāda",
+    "content": "Do thou fight for the sake of fighting, without considering happiness or distress, loss or gain, victory or defeat – and by so doing you shall never incur sin."
+  },
+  "source": {
+    "derived_from": "vedabase.io",
+    "normalized_file": "vedabase-bg-02-38.normalized.json",
+    "pipeline_stage": "migration.m2",
+    "script": "m2_migrate_translations.py"
+  },
+  "schema": {
+    "name": "vedic-library.derivative.translation",
+    "version": "2.0.0"
+  }
+}

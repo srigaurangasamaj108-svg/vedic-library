@@ -1,0 +1,87 @@
+{
+  "uid": "bg.8.5.prabhupada.synonyms",
+  "editorial_unit_ref": {
+    "uid": "bg.8.5.prabhupada",
+    "schema": "vedic-library.editorial.unit",
+    "version": "1.0.0"
+  },
+  "synonyms": {
+    "language": "en",
+    "author": "A. C. Bhaktivedanta Swami Prabhupāda",
+    "items": {
+      "language": "en",
+      "items": [
+        {
+          "sanskrit": "anta kāle",
+          "meaning": "at the end of life"
+        },
+        {
+          "sanskrit": "ca",
+          "meaning": "also"
+        },
+        {
+          "sanskrit": "mām",
+          "meaning": "Me"
+        },
+        {
+          "sanskrit": "eva",
+          "meaning": "certainly"
+        },
+        {
+          "sanskrit": "smaran",
+          "meaning": "remembering"
+        },
+        {
+          "sanskrit": "muktvā",
+          "meaning": "quitting"
+        },
+        {
+          "sanskrit": "kalevaram",
+          "meaning": "the body"
+        },
+        {
+          "sanskrit": "yaḥ",
+          "meaning": "he who"
+        },
+        {
+          "sanskrit": "prayāti",
+          "meaning": "goes"
+        },
+        {
+          "sanskrit": "saḥ",
+          "meaning": "he"
+        },
+        {
+          "sanskrit": "mat bhāvam",
+          "meaning": "My nature"
+        },
+        {
+          "sanskrit": "yāti",
+          "meaning": "achieves"
+        },
+        {
+          "sanskrit": "na",
+          "meaning": "not"
+        },
+        {
+          "sanskrit": "asti",
+          "meaning": "there is"
+        },
+        {
+          "sanskrit": "atra",
+          "meaning": "here"
+        }
+      ]
+    }
+  },
+  "source": {
+    "derived_from": "vedabase.io",
+    "normalized_file": "vedabase-bg-08-05.normalized.json",
+    "pipeline_stage": "migration.m3",
+    "script": "m3_migrate_synonyms.py"
+  },
+  "schema": {
+    "name": "vedic-library.derivative.synonyms",
+    "version": "2.0.0"
+  }
+}

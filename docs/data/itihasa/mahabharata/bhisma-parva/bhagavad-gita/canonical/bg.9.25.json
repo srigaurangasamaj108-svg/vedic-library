@@ -1,0 +1,34 @@
+{
+  "uid": "bg.9.25",
+  "work": {
+    "corpus": "itihasa",
+    "text": "mahabharata",
+    "section": "bhisma-parva",
+    "subwork": "bhagavad-gita"
+  },
+  "location": {
+    "chapter": 9,
+    "verse": 25
+  },
+  "text": {
+    "script": "devanagari",
+    "content": "यान्ति देवव्रता देवान्पितॄन्यान्ति पितृव्रता: ।\nभूतानि यान्ति भूतेज्या यान्ति मद्याजिनोऽपि माम्\n॥ २५ ॥"
+  },
+  "transliteration": {
+    "scheme": "iast",
+    "content": "yānti devavratā devānpitṝnyānti pitṛvratā: |\nbhūtāni yānti bhūtejyā yānti madyājino'pi mām\n|| 25 ||"
+  },
+  "source": {
+    "pipeline": "bhagavad-gita",
+    "stage": "2.5",
+    "script": "s25_realign_iast_bg.py",
+    "script_version": "2.2.0",
+    "derived_from": [
+      "vedabase/raw-json/bg-09-25.json"
+    ]
+  },
+  "schema": {
+    "name": "vedic-library.canonical.verse",
+    "version": "1.0.0"
+  }
+}

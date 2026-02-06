@@ -1,0 +1,75 @@
+{
+  "uid": "bg.17.14.prabhupada.synonyms",
+  "editorial_unit_ref": {
+    "uid": "bg.17.14.prabhupada",
+    "schema": "vedic-library.editorial.unit",
+    "version": "1.0.0"
+  },
+  "synonyms": {
+    "language": "en",
+    "author": "A. C. Bhaktivedanta Swami Prabhupāda",
+    "items": {
+      "language": "en",
+      "items": [
+        {
+          "sanskrit": "deva",
+          "meaning": "of the Supreme Lord"
+        },
+        {
+          "sanskrit": "dvija",
+          "meaning": "the brāhmaṇas"
+        },
+        {
+          "sanskrit": "guru",
+          "meaning": "the spiritual master"
+        },
+        {
+          "sanskrit": "prājña",
+          "meaning": "and worshipable personalities"
+        },
+        {
+          "sanskrit": "pūjanam",
+          "meaning": "worship"
+        },
+        {
+          "sanskrit": "śaucam",
+          "meaning": "cleanliness"
+        },
+        {
+          "sanskrit": "ārjavam",
+          "meaning": "simplicity"
+        },
+        {
+          "sanskrit": "brahmacaryam",
+          "meaning": "celibacy"
+        },
+        {
+          "sanskrit": "ahiṁsā",
+          "meaning": "nonviolence"
+        },
+        {
+          "sanskrit": "ca",
+          "meaning": "also"
+        },
+        {
+          "sanskrit": "śārīram",
+          "meaning": "pertaining to the body"
+        },
+        {
+          "sanskrit": "tapaḥ",
+          "meaning": "austerity"
+        }
+      ]
+    }
+  },
+  "source": {
+    "derived_from": "vedabase.io",
+    "normalized_file": "vedabase-bg-17-14.normalized.json",
+    "pipeline_stage": "migration.m3",
+    "script": "m3_migrate_synonyms.py"
+  },
+  "schema": {
+    "name": "vedic-library.derivative.synonyms",
+    "version": "2.0.0"
+  }
+}

@@ -1,0 +1,99 @@
+{
+  "uid": "bg.8.28.prabhupada.synonyms",
+  "editorial_unit_ref": {
+    "uid": "bg.8.28.prabhupada",
+    "schema": "vedic-library.editorial.unit",
+    "version": "1.0.0"
+  },
+  "synonyms": {
+    "language": "en",
+    "author": "A. C. Bhaktivedanta Swami Prabhupāda",
+    "items": {
+      "language": "en",
+      "items": [
+        {
+          "sanskrit": "vedeṣu",
+          "meaning": "in the study of the Vedas"
+        },
+        {
+          "sanskrit": "yajñeṣu",
+          "meaning": "in the performances of yajña, sacrifice"
+        },
+        {
+          "sanskrit": "tapaḥsu",
+          "meaning": "in undergoing different types of austerities"
+        },
+        {
+          "sanskrit": "ca",
+          "meaning": "also"
+        },
+        {
+          "sanskrit": "eva",
+          "meaning": "certainly"
+        },
+        {
+          "sanskrit": "dāneṣu",
+          "meaning": "in giving charities"
+        },
+        {
+          "sanskrit": "yat",
+          "meaning": "that which"
+        },
+        {
+          "sanskrit": "puṇya phalam",
+          "meaning": "result of pious work"
+        },
+        {
+          "sanskrit": "pradiṣṭam",
+          "meaning": "indicated"
+        },
+        {
+          "sanskrit": "atyeti",
+          "meaning": "surpasses"
+        },
+        {
+          "sanskrit": "tat sarvam",
+          "meaning": "all those"
+        },
+        {
+          "sanskrit": "idam",
+          "meaning": "this"
+        },
+        {
+          "sanskrit": "viditvā",
+          "meaning": "knowing"
+        },
+        {
+          "sanskrit": "yogī",
+          "meaning": "the devotee"
+        },
+        {
+          "sanskrit": "param",
+          "meaning": "supreme"
+        },
+        {
+          "sanskrit": "sthānam",
+          "meaning": "abode"
+        },
+        {
+          "sanskrit": "upaiti",
+          "meaning": "achieves"
+        },
+        {
+          "sanskrit": "ca",
+          "meaning": "also"
+        }
+      ]
+    }
+  },
+  "source": {
+    "derived_from": "vedabase.io",
+    "normalized_file": "vedabase-bg-08-28.normalized.json",
+    "pipeline_stage": "migration.m3",
+    "script": "m3_migrate_synonyms.py"
+  },
+  "schema": {
+    "name": "vedic-library.derivative.synonyms",
+    "version": "2.0.0"
+  }
+}

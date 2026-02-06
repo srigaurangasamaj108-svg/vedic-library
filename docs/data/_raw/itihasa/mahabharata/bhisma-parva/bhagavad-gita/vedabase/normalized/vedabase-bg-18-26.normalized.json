@@ -1,0 +1,68 @@
+{
+  "temp_id": "vedabase-bg-18-26",
+  "chapter": 18,
+  "verse": 26,
+  "verse_id": "bg-18-26",
+  "verse_group": null,
+  "composite": false,
+  "sanskrit": {
+    "devanagari": "मुक्तसङ्गोऽनहंवादी धृत्युत्साहसमन्वित: ।\nसिद्ध्यसिद्ध्योर्निर्विकार: कर्ता सात्त्विक उच्यते ॥ २६ ॥",
+    "iast": "mukta-saṅgo ’nahaṁ-vādī\ndhṛty-utsāha-samanvitaḥ\nsiddhy-asiddhyor nirvikāraḥ\nkartā sāttvika ucyate"
+  },
+  "synonyms_raw": "mukta\n-\nsaṅgaḥ\n—\nliberated from all material association\n;\nanaham\n-\nvādī\n—\nwithout false ego\n;\ndhṛti\n—\nwith determination\n;\nutsāha\n—\nand great enthusiasm\n;\nsamanvitaḥ\n—\nqualified\n;\nsiddhi\n—\nin perfection\n;\nasiddhyoḥ\n—\nand failure\n;\nnirvikāraḥ\n—\nwithout change\n;\nkartā\n—\nworker\n;\nsāttvikaḥ\n—\nin the mode of goodness\n;\nucyate\n—\nis said to be\n.",
+  "translation": "One who performs his duty without association with the modes of material nature, without false ego, with great determination and enthusiasm, and without wavering in success or failure is said to be a worker in the mode of goodness.",
+  "purport": [
+    "A person in Kṛṣṇa consciousness is always transcendental to the material modes of nature. He has no expectations for the result of the work entrusted to him, because he is above false ego and pride. Still, he is always enthusiastic till the completion of such work. He does not worry about the distress undertaken; he is always enthusiastic. He does not care for success or failure; he is equal in both distress and happiness. Such a worker is situated in the mode of goodness."
+  ],
+  "source": {
+    "author": "A. C. Bhaktivedanta Swami Prabhupāda",
+    "edition": "Bhagavad-gītā As It Is",
+    "language": "en",
+    "provider": "vedabase.io"
+  },
+  "synonyms": {
+    "language": "en",
+    "items": [
+      {
+        "sanskrit": "mukta saṅgaḥ",
+        "meaning": "liberated from all material association"
+      },
+      {
+        "sanskrit": "anaham vādī",
+        "meaning": "without false ego"
+      },
+      {
+        "sanskrit": "dhṛti",
+        "meaning": "with determination"
+      },
+      {
+        "sanskrit": "utsāha",
+        "meaning": "and great enthusiasm"
+      },
+      {
+        "sanskrit": "samanvitaḥ",
+        "meaning": "qualified"
+      },
+      {
+        "sanskrit": "siddhi",
+        "meaning": "in perfection"
+      },
+      {
+        "sanskrit": "asiddhyoḥ",
+        "meaning": "and failure"
+      },
+      {
+        "sanskrit": "nirvikāraḥ",
+        "meaning": "without change"
+      },
+      {
+        "sanskrit": "kartā",
+        "meaning": "worker"
+      },
+      {
+        "sanskrit": "sāttvikaḥ",
+        "meaning": "in the mode of goodness"
+      }
+    ]
+  }
+}

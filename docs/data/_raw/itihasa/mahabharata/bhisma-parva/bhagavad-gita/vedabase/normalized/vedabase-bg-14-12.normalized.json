@@ -1,0 +1,68 @@
+{
+  "temp_id": "vedabase-bg-14-12",
+  "chapter": 14,
+  "verse": 12,
+  "verse_id": "bg-14-12",
+  "verse_group": null,
+  "composite": false,
+  "sanskrit": {
+    "devanagari": "लोभ: प्रवृत्तिरारम्भ: कर्मणामशम: स्पृहा ।\nरजस्येतानि जायन्ते विवृद्धे भरतर्षभ ॥ १२ ॥",
+    "iast": "lobhaḥ pravṛttir ārambhaḥ\nkarmaṇām aśamaḥ spṛhā\nrajasy etāni jāyante\nvivṛddhe bharatarṣabha"
+  },
+  "synonyms_raw": "lobhaḥ\n—\ngreed\n;\npravṛttiḥ\n—\nactivity\n;\nārambhaḥ\n—\nendeavor\n;\nkarmaṇām\n—\nin activities\n;\naśamaḥ\n—\nuncontrollable\n;\nspṛhā\n—\ndesire\n;\nrajasi\n—\nof the mode of passion\n;\netāni\n—\nall these\n;\njāyante\n—\ndevelop\n;\nvivṛddhe\n—\nwhen there is an excess\n;\nbharata\n-\nṛṣabha\n—\nO chief of the descendants of Bharata\n.",
+  "translation": "O chief of the Bhāratas, when there is an increase in the mode of passion the symptoms of great attachment, fruitive activity, intense endeavor, and uncontrollable desire and hankering develop.",
+  "purport": [
+    "One in the mode of passion is never satisfied with the position he has already acquired; he hankers to increase his position. If he wants to construct a residential house, he tries his best to have a palatial house, as if he would be able to reside in that house eternally. And he develops a great hankering for sense gratification. There is no end to sense gratification. He always wants to remain with his family and in his house and to continue the process of sense gratification. There is no cessation of this. All these symptoms should be understood as characteristic of the mode of passion."
+  ],
+  "source": {
+    "author": "A. C. Bhaktivedanta Swami Prabhupāda",
+    "edition": "Bhagavad-gītā As It Is",
+    "language": "en",
+    "provider": "vedabase.io"
+  },
+  "synonyms": {
+    "language": "en",
+    "items": [
+      {
+        "sanskrit": "lobhaḥ",
+        "meaning": "greed"
+      },
+      {
+        "sanskrit": "pravṛttiḥ",
+        "meaning": "activity"
+      },
+      {
+        "sanskrit": "ārambhaḥ",
+        "meaning": "endeavor"
+      },
+      {
+        "sanskrit": "karmaṇām",
+        "meaning": "in activities"
+      },
+      {
+        "sanskrit": "aśamaḥ",
+        "meaning": "uncontrollable"
+      },
+      {
+        "sanskrit": "spṛhā",
+        "meaning": "desire"
+      },
+      {
+        "sanskrit": "rajasi",
+        "meaning": "of the mode of passion"
+      },
+      {
+        "sanskrit": "etāni",
+        "meaning": "all these"
+      },
+      {
+        "sanskrit": "jāyante",
+        "meaning": "develop"
+      },
+      {
+        "sanskrit": "vivṛddhe",
+        "meaning": "when there is an excess"
+      }
+    ]
+  }
+}

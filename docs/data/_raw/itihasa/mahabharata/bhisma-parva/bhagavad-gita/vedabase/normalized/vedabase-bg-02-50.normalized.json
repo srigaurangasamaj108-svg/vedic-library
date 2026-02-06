@@ -1,0 +1,70 @@
+{
+  "temp_id": "vedabase-bg-02-50",
+  "chapter": 2,
+  "verse": 50,
+  "verse_id": "bg-02-50",
+  "verse_group": null,
+  "composite": false,
+  "sanskrit": {
+    "devanagari": "बुद्धियुक्तो जहातीह उभे सुकृतदुष्कृते ।\nतस्माद्योगाय युज्यस्व योगः कर्मसु कौशलम् ॥ ५० ॥",
+    "iast": "buddhi-yukto jahātīha\nubhe sukṛta-duṣkṛte\ntasmād yogāya yujyasva\nyogaḥ karmasu kauśalam"
+  },
+  "synonyms_raw": "buddhi\n-\nyuktaḥ\n—\none who is engaged in devotional service\n;\njahāti\n—\ncan get rid of\n;\niha\n—\nin this life\n;\nubhe\n—\nboth\n;\nsukṛta\n-\nduṣkṛte\n—\ngood and bad results\n;\ntasmāt\n—\ntherefore\n;\nyogāya\n—\nfor the sake of devotional service\n;\nyujyasva\n—\nbe so engaged\n;\nyogaḥ\n—\nKṛṣṇa consciousness\n;\nkarmasu\n—\nin all activities\n;\nkauśalam\n—\nart\n.",
+  "translation": "A man engaged in devotional service rids himself of both good and bad reactions even in this life. Therefore strive for yoga, which is the art of all work.",
+  "purport": [
+    "Since time immemorial each living entity has accumulated the various reactions of his good and bad work. As such, he is continuously ignorant of his real constitutional position. One’s ignorance can be removed by the instruction of the",
+    "Bhagavad-gītā,",
+    "which teaches one to surrender unto Lord Śrī Kṛṣṇa in all respects and become liberated from the chained victimization of action and reaction, birth after birth. Arjuna is therefore advised to act in Kṛṣṇa consciousness, the purifying process of resultant action."
+  ],
+  "source": {
+    "author": "A. C. Bhaktivedanta Swami Prabhupāda",
+    "edition": "Bhagavad-gītā As It Is",
+    "language": "en",
+    "provider": "vedabase.io"
+  },
+  "synonyms": {
+    "language": "en",
+    "items": [
+      {
+        "sanskrit": "buddhi yuktaḥ",
+        "meaning": "one who is engaged in devotional service"
+      },
+      {
+        "sanskrit": "jahāti",
+        "meaning": "can get rid of"
+      },
+      {
+        "sanskrit": "iha",
+        "meaning": "in this life"
+      },
+      {
+        "sanskrit": "ubhe",
+        "meaning": "both"
+      },
+      {
+        "sanskrit": "sukṛta duṣkṛte",
+        "meaning": "good and bad results"
+      },
+      {
+        "sanskrit": "tasmāt",
+        "meaning": "therefore"
+      },
+      {
+        "sanskrit": "yogāya",
+        "meaning": "for the sake of devotional service"
+      },
+      {
+        "sanskrit": "yujyasva",
+        "meaning": "be so engaged"
+      },
+      {
+        "sanskrit": "yogaḥ",
+        "meaning": "Kṛṣṇa consciousness"
+      },
+      {
+        "sanskrit": "karmasu",
+        "meaning": "in all activities"
+      }
+    ]
+  }
+}

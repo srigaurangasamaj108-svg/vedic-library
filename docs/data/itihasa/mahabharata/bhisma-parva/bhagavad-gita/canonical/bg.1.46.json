@@ -1,0 +1,34 @@
+{
+  "uid": "bg.1.46",
+  "work": {
+    "corpus": "itihasa",
+    "text": "mahabharata",
+    "section": "bhisma-parva",
+    "subwork": "bhagavad-gita"
+  },
+  "location": {
+    "chapter": 1,
+    "verse": 46
+  },
+  "text": {
+    "script": "devanagari",
+    "content": "सञ्जय उवाच\nएवमुक्त्वार्जुनः संख्ये रथोपस्थ उपाविशत् ।\nविसृज्य सशरं चापं शोकसंविग्न‍मानसः\n॥ ४६ ॥"
+  },
+  "transliteration": {
+    "scheme": "iast",
+    "content": "sañjaya uvāca\nevamuktvārjunaḥ saṃkhye rathopastha upāviśat |\nvisṛjya saśaraṃ cāpaṃ śokasaṃvigna‍mānasaḥ\n|| 46 ||"
+  },
+  "source": {
+    "pipeline": "bhagavad-gita",
+    "stage": "2.5",
+    "script": "s25_realign_iast_bg.py",
+    "script_version": "2.2.0",
+    "derived_from": [
+      "vedabase/raw-json/bg-01-46.json"
+    ]
+  },
+  "schema": {
+    "name": "vedic-library.canonical.verse",
+    "version": "1.0.0"
+  }
+}

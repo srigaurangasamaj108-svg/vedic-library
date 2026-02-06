@@ -1,0 +1,72 @@
+{
+  "temp_id": "vedabase-bg-18-29",
+  "chapter": 18,
+  "verse": 29,
+  "verse_id": "bg-18-29",
+  "verse_group": null,
+  "composite": false,
+  "sanskrit": {
+    "devanagari": "बुद्धेर्भेदं धृतेश्चैव गुणतस्त्रिविधं श‍ृणु ।\nप्रोच्यमानमशेषेण पृथक्त्वेन धनञ्जय ॥ २९ ॥",
+    "iast": "buddher bhedaṁ dhṛteś caiva\nguṇatas tri-vidhaṁ śṛṇu\nprocyamānam aśeṣeṇa\npṛthaktvena dhanañ-jaya"
+  },
+  "synonyms_raw": "buddheḥ\n—\nof intelligence\n;\nbhedam\n—\nthe differences\n;\ndhṛteḥ\n—\nof steadiness\n;\nca\n—\nalso\n;\neva\n—\ncertainly\n;\nguṇataḥ\n—\nby the modes of material nature\n;\ntri\n-\nvidham\n—\nof three kinds\n;\nśṛṇu\n—\njust hear\n;\nprocyamānam\n—\nas described by Me\n;\naśeṣeṇa\n—\nin detail\n;\npṛthaktvena\n—\ndifferently\n;\ndhanam\n-\njaya\n—\nO winner of wealth\n.",
+  "translation": "O winner of wealth, now please listen as I tell you in detail of the different kinds of understanding and determination, according to the three modes of material nature.",
+  "purport": [
+    "Now after explaining knowledge, the object of knowledge, and the knower, in three different divisions according to the modes of material nature, the Lord is explaining the intelligence and determination of the worker in the same way."
+  ],
+  "source": {
+    "author": "A. C. Bhaktivedanta Swami Prabhupāda",
+    "edition": "Bhagavad-gītā As It Is",
+    "language": "en",
+    "provider": "vedabase.io"
+  },
+  "synonyms": {
+    "language": "en",
+    "items": [
+      {
+        "sanskrit": "buddheḥ",
+        "meaning": "of intelligence"
+      },
+      {
+        "sanskrit": "bhedam",
+        "meaning": "the differences"
+      },
+      {
+        "sanskrit": "dhṛteḥ",
+        "meaning": "of steadiness"
+      },
+      {
+        "sanskrit": "ca",
+        "meaning": "also"
+      },
+      {
+        "sanskrit": "eva",
+        "meaning": "certainly"
+      },
+      {
+        "sanskrit": "guṇataḥ",
+        "meaning": "by the modes of material nature"
+      },
+      {
+        "sanskrit": "tri vidham",
+        "meaning": "of three kinds"
+      },
+      {
+        "sanskrit": "śṛṇu",
+        "meaning": "just hear"
+      },
+      {
+        "sanskrit": "procyamānam",
+        "meaning": "as described by Me"
+      },
+      {
+        "sanskrit": "aśeṣeṇa",
+        "meaning": "in detail"
+      },
+      {
+        "sanskrit": "pṛthaktvena",
+        "meaning": "differently"
+      }
+    ]
+  }
+}

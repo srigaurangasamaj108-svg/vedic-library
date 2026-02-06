@@ -1,0 +1,76 @@
+{
+  "temp_id": "vedabase-bg-10-22",
+  "chapter": 10,
+  "verse": 22,
+  "verse_id": "bg-10-22",
+  "verse_group": null,
+  "composite": false,
+  "sanskrit": {
+    "devanagari": "वेदानां सामवेदोऽस्मि देवानामस्मि वासव: ।\nइन्द्रियाणां मनश्चास्मि भूतानामस्मि चेतना ॥ २२ ॥",
+    "iast": "vedānāṁ sāma-vedo ’smi\ndevānām asmi vāsavaḥ\nindriyāṇāṁ manaś cāsmi\nbhūtānām asmi cetanā"
+  },
+  "synonyms_raw": "vedānām\n—\nof all the\nVedas\n;\nsāma\n-\nvedaḥ\n—\nthe\nSāma Veda\n;\nasmi\n—\nI am\n;\ndevānām\n—\nof all the demigods\n;\nasmi\n—\nI am\n;\nvāsavaḥ\n—\nthe heavenly king\n;\nindriyāṇām\n—\nof all the senses\n;\nmanaḥ\n—\nthe mind\n;\nca\n—\nalso\n;\nasmi\n—\nI am\n;\nbhūtānām\n—\nof all living entities\n;\nasmi\n—\nI am\n;\ncetanā\n—\nthe living force\n.",
+  "translation": "Of the Vedas I am the Sāma Veda; of the demigods I am Indra, the king of heaven; of the senses I am the mind; and in living beings I am the living force [consciousness].",
+  "purport": [
+    "The difference between matter and spirit is that matter has no consciousness like the living entity; therefore this consciousness is supreme and eternal. Consciousness cannot be produced by a combination of matter."
+  ],
+  "source": {
+    "author": "A. C. Bhaktivedanta Swami Prabhupāda",
+    "edition": "Bhagavad-gītā As It Is",
+    "language": "en",
+    "provider": "vedabase.io"
+  },
+  "synonyms": {
+    "language": "en",
+    "items": [
+      {
+        "sanskrit": "vedānām",
+        "meaning": "of all the Vedas"
+      },
+      {
+        "sanskrit": "sāma vedaḥ",
+        "meaning": "the Sāma Veda"
+      },
+      {
+        "sanskrit": "asmi",
+        "meaning": "I am"
+      },
+      {
+        "sanskrit": "devānām",
+        "meaning": "of all the demigods"
+      },
+      {
+        "sanskrit": "asmi",
+        "meaning": "I am"
+      },
+      {
+        "sanskrit": "vāsavaḥ",
+        "meaning": "the heavenly king"
+      },
+      {
+        "sanskrit": "indriyāṇām",
+        "meaning": "of all the senses"
+      },
+      {
+        "sanskrit": "manaḥ",
+        "meaning": "the mind"
+      },
+      {
+        "sanskrit": "ca",
+        "meaning": "also"
+      },
+      {
+        "sanskrit": "asmi",
+        "meaning": "I am"
+      },
+      {
+        "sanskrit": "bhūtānām",
+        "meaning": "of all living entities"
+      },
+      {
+        "sanskrit": "asmi",
+        "meaning": "I am"
+      }
+    ]
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "uid": "bg.17.16.prabhupada.synonyms",
+  "editorial_unit_ref": {
+    "uid": "bg.17.16.prabhupada",
+    "schema": "vedic-library.editorial.unit",
+    "version": "1.0.0"
+  },
+  "synonyms": {
+    "language": "en",
+    "author": "A. C. Bhaktivedanta Swami Prabhupāda",
+    "items": {
+      "language": "en",
+      "items": [
+        {
+          "sanskrit": "manaḥ prasādaḥ",
+          "meaning": "satisfaction of the mind"
+        },
+        {
+          "sanskrit": "saumyatvam",
+          "meaning": "being without duplicity towards others"
+        },
+        {
+          "sanskrit": "maunam",
+          "meaning": "gravity"
+        },
+        {
+          "sanskrit": "ātma",
+          "meaning": "of the self"
+        },
+        {
+          "sanskrit": "vinigrahaḥ",
+          "meaning": "control"
+        },
+        {
+          "sanskrit": "bhāva",
+          "meaning": "of one’s nature"
+        },
+        {
+          "sanskrit": "saṁśuddhiḥ",
+          "meaning": "purification"
+        },
+        {
+          "sanskrit": "iti",
+          "meaning": "thus"
+        },
+        {
+          "sanskrit": "etat",
+          "meaning": "this"
+        },
+        {
+          "sanskrit": "tapaḥ",
+          "meaning": "austerity"
+        },
+        {
+          "sanskrit": "mānasam",
+          "meaning": "of the mind"
+        }
+      ]
+    }
+  },
+  "source": {
+    "derived_from": "vedabase.io",
+    "normalized_file": "vedabase-bg-17-16.normalized.json",
+    "pipeline_stage": "migration.m3",
+    "script": "m3_migrate_synonyms.py"
+  },
+  "schema": {
+    "name": "vedic-library.derivative.synonyms",
+    "version": "2.0.0"
+  }
+}

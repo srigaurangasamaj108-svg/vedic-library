@@ -1,0 +1,99 @@
+{
+  "uid": "bg.12.15.prabhupada.synonyms",
+  "editorial_unit_ref": {
+    "uid": "bg.12.15.prabhupada",
+    "schema": "vedic-library.editorial.unit",
+    "version": "1.0.0"
+  },
+  "synonyms": {
+    "language": "en",
+    "author": "A. C. Bhaktivedanta Swami Prabhupāda",
+    "items": {
+      "language": "en",
+      "items": [
+        {
+          "sanskrit": "yasmāt",
+          "meaning": "from whom"
+        },
+        {
+          "sanskrit": "na",
+          "meaning": "never"
+        },
+        {
+          "sanskrit": "udvijate",
+          "meaning": "are agitated"
+        },
+        {
+          "sanskrit": "lokaḥ",
+          "meaning": "people"
+        },
+        {
+          "sanskrit": "lokāt",
+          "meaning": "from people"
+        },
+        {
+          "sanskrit": "na",
+          "meaning": "never"
+        },
+        {
+          "sanskrit": "udvijate",
+          "meaning": "is disturbed"
+        },
+        {
+          "sanskrit": "ca",
+          "meaning": "also"
+        },
+        {
+          "sanskrit": "yaḥ",
+          "meaning": "anyone who"
+        },
+        {
+          "sanskrit": "harṣa",
+          "meaning": "from happiness"
+        },
+        {
+          "sanskrit": "amarṣa",
+          "meaning": "distress"
+        },
+        {
+          "sanskrit": "bhaya",
+          "meaning": "fear"
+        },
+        {
+          "sanskrit": "udvegaiḥ",
+          "meaning": "and anxiety"
+        },
+        {
+          "sanskrit": "muktaḥ",
+          "meaning": "freed"
+        },
+        {
+          "sanskrit": "yaḥ",
+          "meaning": "who"
+        },
+        {
+          "sanskrit": "saḥ",
+          "meaning": "anyone"
+        },
+        {
+          "sanskrit": "ca",
+          "meaning": "also"
+        },
+        {
+          "sanskrit": "me",
+          "meaning": "to Me"
+        }
+      ]
+    }
+  },
+  "source": {
+    "derived_from": "vedabase.io",
+    "normalized_file": "vedabase-bg-12-15.normalized.json",
+    "pipeline_stage": "migration.m3",
+    "script": "m3_migrate_synonyms.py"
+  },
+  "schema": {
+    "name": "vedic-library.derivative.synonyms",
+    "version": "2.0.0"
+  }
+}

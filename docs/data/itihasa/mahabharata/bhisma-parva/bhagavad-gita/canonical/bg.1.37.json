@@ -1,0 +1,34 @@
+{
+  "uid": "bg.1.37",
+  "work": {
+    "corpus": "itihasa",
+    "text": "mahabharata",
+    "section": "bhisma-parva",
+    "subwork": "bhagavad-gita"
+  },
+  "location": {
+    "chapter": 1,
+    "verse": 37
+  },
+  "text": {
+    "script": "devanagari",
+    "content": "यद्यप्येते न पश्यन्ति लोभोपहतचेतसः ।\nकुलक्षयकृतं दोषं मित्रद्रोहे च पातकम्\n॥ ३७ ॥"
+  },
+  "transliteration": {
+    "scheme": "iast",
+    "content": "yadyapyete na paśyanti lobhopahatacetasaḥ |\nkulakṣayakṛtaṃ doṣaṃ mitradrohe ca pātakam\n|| 37 ||"
+  },
+  "source": {
+    "pipeline": "bhagavad-gita",
+    "stage": "2.5",
+    "script": "s25_realign_iast_bg.py",
+    "script_version": "2.2.0",
+    "derived_from": [
+      "vedabase/raw-json/bg-01-37-38.json"
+    ]
+  },
+  "schema": {
+    "name": "vedic-library.canonical.verse",
+    "version": "1.0.0"
+  }
+}

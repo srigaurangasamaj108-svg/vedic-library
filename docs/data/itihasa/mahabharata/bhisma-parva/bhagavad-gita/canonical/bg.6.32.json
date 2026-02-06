@@ -1,0 +1,34 @@
+{
+  "uid": "bg.6.32",
+  "work": {
+    "corpus": "itihasa",
+    "text": "mahabharata",
+    "section": "bhisma-parva",
+    "subwork": "bhagavad-gita"
+  },
+  "location": {
+    "chapter": 6,
+    "verse": 32
+  },
+  "text": {
+    "script": "devanagari",
+    "content": "आत्मौपम्येन सर्वत्र समं पश्यति योऽर्जुन ।\nसुखं वा यदि वा दु:खं स योगी परमो मत:\n॥ ३२ ॥"
+  },
+  "transliteration": {
+    "scheme": "iast",
+    "content": "ātmaupamyena sarvatra samaṃ paśyati yo'rjuna |\nsukhaṃ vā yadi vā du:khaṃ sa yogī paramo mata:\n|| 32 ||"
+  },
+  "source": {
+    "pipeline": "bhagavad-gita",
+    "stage": "2.5",
+    "script": "s25_realign_iast_bg.py",
+    "script_version": "2.2.0",
+    "derived_from": [
+      "vedabase/raw-json/bg-06-32.json"
+    ]
+  },
+  "schema": {
+    "name": "vedic-library.canonical.verse",
+    "version": "1.0.0"
+  }
+}

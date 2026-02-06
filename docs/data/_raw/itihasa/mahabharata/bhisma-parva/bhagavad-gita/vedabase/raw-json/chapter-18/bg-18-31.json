@@ -1,0 +1,20 @@
+{
+  "scripture": "Bhagavad-gītā",
+  "chapter": 18,
+  "verse": 31,
+  "verse_id": "bg-18-31",
+  "verse_group": null,
+  "sanskrit": {
+    "devanagari": "Devanagari\nयया धर्ममधर्मं च कार्यं चाकार्यमेव च ।\nअयथावत्प्रजानाति बुद्धि: सा पार्थ राजसी ॥ ३१ ॥",
+    "iast": "Verse text\nyayā dharmam adharmaṁ ca\nkāryaṁ cākāryam eva ca\nayathāvat prajānāti\nbuddhiḥ sā pārtha rājasī"
+  },
+  "synonyms": "Synonyms\nyayā\n—\nby which\n;\ndharmam\n—\nthe principles of religion\n;\nadharmam\n—\nirreligion\n;\nca\n—\nand\n;\nkāryam\n—\nwhat ought to be done\n;\nca\n—\nalso\n;\nakāryam\n—\nwhat ought not to be done\n;\neva\n—\ncertainly\n;\nca\n—\nalso\n;\nayathā\n-\nvat\n—\nimperfectly\n;\nprajānāti\n—\nknows\n;\nbuddhiḥ\n—\nintelligence\n;\nsā\n—\nthat\n;\npārtha\n—\nO son of Pṛthā\n;\nrājasī\n—\nin the mode of passion\n.",
+  "translation": "Translation\nO son of Pṛthā, that understanding which cannot distinguish between religion and irreligion, between action that should be done and action that should not be done, is in the mode of passion.",
+  "purport": [],
+  "source": {
+    "author": "A. C. Bhaktivedanta Swami Prabhupāda",
+    "edition": "Bhagavad-gītā As It Is",
+    "language": "en",
+    "provider": "vedabase.io"
+  }
+}

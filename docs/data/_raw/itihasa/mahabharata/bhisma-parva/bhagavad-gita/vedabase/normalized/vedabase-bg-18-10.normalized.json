@@ -1,0 +1,76 @@
+{
+  "temp_id": "vedabase-bg-18-10",
+  "chapter": 18,
+  "verse": 10,
+  "verse_id": "bg-18-10",
+  "verse_group": null,
+  "composite": false,
+  "sanskrit": {
+    "devanagari": "न द्वेष्ट्यकुशलं कर्म कुशले नानुषज्ज‍ते ।\nत्यागी सत्त्वसमाविष्टो मेधावी छिन्नसंशय: ॥ १० ॥",
+    "iast": "na dveṣṭy akuśalaṁ karma\nkuśale nānuṣajjate\ntyāgī sattva-samāviṣṭo\nmedhāvī chinna-saṁśayaḥ"
+  },
+  "synonyms_raw": "na\n—\nnever\n;\ndveṣṭi\n—\nhates\n;\nakuśalam\n—\ninauspicious\n;\nkarma\n—\nwork\n;\nkuśale\n—\nin the auspicious\n;\nna\n—\nnor\n;\nanuṣajjate\n—\nbecomes attached\n;\ntyāgī\n—\nthe renouncer\n;\nsattva\n—\nin goodness\n;\nsamāviṣṭaḥ\n—\nabsorbed\n;\nmedhāvī\n—\nintelligent\n;\nchinna\n—\nhaving cut off\n;\nsaṁśayaḥ\n—\nall doubts\n.",
+  "translation": "The intelligent renouncer situated in the mode of goodness, neither hateful of inauspicious work nor attached to auspicious work, has no doubts about work.",
+  "purport": [
+    "A person in Kṛṣṇa consciousness or in the mode of goodness does not hate anyone or anything which troubles his body. He does work in the proper place and at the proper time without fearing the troublesome effects of his duty. Such a person situated in transcendence should be understood to be most intelligent and beyond all doubts in his activities."
+  ],
+  "source": {
+    "author": "A. C. Bhaktivedanta Swami Prabhupāda",
+    "edition": "Bhagavad-gītā As It Is",
+    "language": "en",
+    "provider": "vedabase.io"
+  },
+  "synonyms": {
+    "language": "en",
+    "items": [
+      {
+        "sanskrit": "na",
+        "meaning": "never"
+      },
+      {
+        "sanskrit": "dveṣṭi",
+        "meaning": "hates"
+      },
+      {
+        "sanskrit": "akuśalam",
+        "meaning": "inauspicious"
+      },
+      {
+        "sanskrit": "karma",
+        "meaning": "work"
+      },
+      {
+        "sanskrit": "kuśale",
+        "meaning": "in the auspicious"
+      },
+      {
+        "sanskrit": "na",
+        "meaning": "nor"
+      },
+      {
+        "sanskrit": "anuṣajjate",
+        "meaning": "becomes attached"
+      },
+      {
+        "sanskrit": "tyāgī",
+        "meaning": "the renouncer"
+      },
+      {
+        "sanskrit": "sattva",
+        "meaning": "in goodness"
+      },
+      {
+        "sanskrit": "samāviṣṭaḥ",
+        "meaning": "absorbed"
+      },
+      {
+        "sanskrit": "medhāvī",
+        "meaning": "intelligent"
+      },
+      {
+        "sanskrit": "chinna",
+        "meaning": "having cut off"
+      }
+    ]
+  }
+}

@@ -1,0 +1,83 @@
+{
+  "uid": "bg.4.15.prabhupada.synonyms",
+  "editorial_unit_ref": {
+    "uid": "bg.4.15.prabhupada",
+    "schema": "vedic-library.editorial.unit",
+    "version": "1.0.0"
+  },
+  "synonyms": {
+    "language": "en",
+    "author": "A. C. Bhaktivedanta Swami Prabhupāda",
+    "items": {
+      "language": "en",
+      "items": [
+        {
+          "sanskrit": "evam",
+          "meaning": "thus"
+        },
+        {
+          "sanskrit": "jñātvā",
+          "meaning": "knowing well"
+        },
+        {
+          "sanskrit": "kṛtam",
+          "meaning": "was performed"
+        },
+        {
+          "sanskrit": "karma",
+          "meaning": "work"
+        },
+        {
+          "sanskrit": "pūrvaiḥ",
+          "meaning": "by past authorities"
+        },
+        {
+          "sanskrit": "api",
+          "meaning": "indeed"
+        },
+        {
+          "sanskrit": "mumukṣubhiḥ",
+          "meaning": "who attained liberation"
+        },
+        {
+          "sanskrit": "kuru",
+          "meaning": "just perform"
+        },
+        {
+          "sanskrit": "karma",
+          "meaning": "prescribed duty"
+        },
+        {
+          "sanskrit": "eva",
+          "meaning": "certainly"
+        },
+        {
+          "sanskrit": "tasmāt",
+          "meaning": "therefore"
+        },
+        {
+          "sanskrit": "tvam",
+          "meaning": "you"
+        },
+        {
+          "sanskrit": "pūrvaiḥ",
+          "meaning": "by the predecessors"
+        },
+        {
+          "sanskrit": "pūrva taram",
+          "meaning": "in ancient times"
+        }
+      ]
+    }
+  },
+  "source": {
+    "derived_from": "vedabase.io",
+    "normalized_file": "vedabase-bg-04-15.normalized.json",
+    "pipeline_stage": "migration.m3",
+    "script": "m3_migrate_synonyms.py"
+  },
+  "schema": {
+    "name": "vedic-library.derivative.synonyms",
+    "version": "2.0.0"
+  }
+}

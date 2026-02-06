@@ -1,0 +1,23 @@
+{
+  "uid": "bg.7.16.prabhupada.translation.en",
+  "editorial_unit_ref": {
+    "uid": "bg.7.16.prabhupada",
+    "schema": "vedic-library.editorial.unit",
+    "version": "1.0.0"
+  },
+  "translation": {
+    "language": "en",
+    "translator": "A. C. Bhaktivedanta Swami Prabhupāda",
+    "content": "O best among the Bhāratas, four kinds of pious men begin to render devotional service unto Me – the distressed, the desirer of wealth, the inquisitive, and he who is searching for knowledge of the Absolute."
+  },
+  "source": {
+    "derived_from": "vedabase.io",
+    "normalized_file": "vedabase-bg-07-16.normalized.json",
+    "pipeline_stage": "migration.m2",
+    "script": "m2_migrate_translations.py"
+  },
+  "schema": {
+    "name": "vedic-library.derivative.translation",
+    "version": "2.0.0"
+  }
+}

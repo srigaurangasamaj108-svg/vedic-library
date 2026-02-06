@@ -1,0 +1,71 @@
+{
+  "uid": "bg.10.11.prabhupada.synonyms",
+  "editorial_unit_ref": {
+    "uid": "bg.10.11.prabhupada",
+    "schema": "vedic-library.editorial.unit",
+    "version": "1.0.0"
+  },
+  "synonyms": {
+    "language": "en",
+    "author": "A. C. Bhaktivedanta Swami Prabhupāda",
+    "items": {
+      "language": "en",
+      "items": [
+        {
+          "sanskrit": "teṣām",
+          "meaning": "for them"
+        },
+        {
+          "sanskrit": "eva",
+          "meaning": "certainly"
+        },
+        {
+          "sanskrit": "anukampā artham",
+          "meaning": "to show special mercy"
+        },
+        {
+          "sanskrit": "aham",
+          "meaning": "I"
+        },
+        {
+          "sanskrit": "ajñāna jam",
+          "meaning": "due to ignorance"
+        },
+        {
+          "sanskrit": "tamaḥ",
+          "meaning": "darkness"
+        },
+        {
+          "sanskrit": "nāśayāmi",
+          "meaning": "dispel"
+        },
+        {
+          "sanskrit": "ātma bhāva",
+          "meaning": "within their hearts"
+        },
+        {
+          "sanskrit": "sthaḥ",
+          "meaning": "situated"
+        },
+        {
+          "sanskrit": "jñāna",
+          "meaning": "of knowledge"
+        },
+        {
+          "sanskrit": "dīpena",
+          "meaning": "with the lamp"
+        }
+      ]
+    }
+  },
+  "source": {
+    "derived_from": "vedabase.io",
+    "normalized_file": "vedabase-bg-10-11.normalized.json",
+    "pipeline_stage": "migration.m3",
+    "script": "m3_migrate_synonyms.py"
+  },
+  "schema": {
+    "name": "vedic-library.derivative.synonyms",
+    "version": "2.0.0"
+  }
+}

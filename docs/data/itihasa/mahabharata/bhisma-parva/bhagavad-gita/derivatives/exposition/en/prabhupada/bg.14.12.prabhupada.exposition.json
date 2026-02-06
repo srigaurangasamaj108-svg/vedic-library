@@ -1,0 +1,17 @@
+{
+  "schema": "vedic-library.exposition",
+  "schema_version": "1.0.0",
+  "uid": "bg.14.12.prabhupada.exposition",
+  "editorial_unit_ref": "bg.14.12.prabhupada",
+  "exposition": {
+    "type": "purport",
+    "language": "en",
+    "author": "A. C. Bhaktivedanta Swami Prabhupāda",
+    "content": "One in the mode of passion is never satisfied with the position he has already acquired; he hankers to increase his position. If he wants to construct a residential house, he tries his best to have a palatial house, as if he would be able to reside in that house eternally. And he develops a great hankering for sense gratification. There is no end to sense gratification. He always wants to remain with his family and in his house and to continue the process of sense gratification. There is no cessation of this. All these symptoms should be understood as characteristic of the mode of passion."
+  },
+  "source": {
+    "edition": "Bhagavad-gītā As It Is",
+    "editor": "BBT",
+    "lineage": "Gaudiya Vaishnava"
+  }
+}

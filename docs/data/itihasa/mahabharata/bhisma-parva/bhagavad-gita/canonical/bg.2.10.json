@@ -1,0 +1,34 @@
+{
+  "uid": "bg.2.10",
+  "work": {
+    "corpus": "itihasa",
+    "text": "mahabharata",
+    "section": "bhisma-parva",
+    "subwork": "bhagavad-gita"
+  },
+  "location": {
+    "chapter": 2,
+    "verse": 10
+  },
+  "text": {
+    "script": "devanagari",
+    "content": "तमुवाच हृषीकेशः प्रहसन्निव भारत ।\nसेनयोरूभयोर्मध्ये विषीदन्तमिदं वचः\n॥ १० ॥"
+  },
+  "transliteration": {
+    "scheme": "iast",
+    "content": "tamuvāca hṛṣīkeśaḥ prahasanniva bhārata |\nsenayorūbhayormadhye viṣīdantamidaṃ vacaḥ\n|| 10 ||"
+  },
+  "source": {
+    "pipeline": "bhagavad-gita",
+    "stage": "2.5",
+    "script": "s25_realign_iast_bg.py",
+    "script_version": "2.2.0",
+    "derived_from": [
+      "vedabase/raw-json/bg-02-10.json"
+    ]
+  },
+  "schema": {
+    "name": "vedic-library.canonical.verse",
+    "version": "1.0.0"
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "uid": "bg.13.1",
+  "work": {
+    "corpus": "itihasa",
+    "text": "mahabharata",
+    "section": "bhisma-parva",
+    "subwork": "bhagavad-gita"
+  },
+  "location": {
+    "chapter": 13,
+    "verse": 1
+  },
+  "text": {
+    "script": "devanagari",
+    "content": "अर्जुन उवाच\nप्रकृतिं पुरुषं चैव क्षेत्रं क्षेत्रज्ञमेव च ।\nएतद्वेदितुमिच्छामि ज्ञानं ज्ञेयं च केशव\n॥ १ ॥"
+  },
+  "transliteration": {
+    "scheme": "iast",
+    "content": "arjuna uvāca\nprakṛtiṃ puruṣaṃ caiva kṣetraṃ kṣetrajñameva ca |\netadveditumicchāmi jñānaṃ jñeyaṃ ca keśava\n|| 1 ||"
+  },
+  "source": {
+    "pipeline": "bhagavad-gita",
+    "stage": "2.5",
+    "script": "s25_realign_iast_bg.py",
+    "script_version": "2.2.0",
+    "derived_from": [
+      "vedabase/raw-json/bg-13-01-02.json"
+    ]
+  },
+  "schema": {
+    "name": "vedic-library.canonical.verse",
+    "version": "1.0.0"
+  }
+}

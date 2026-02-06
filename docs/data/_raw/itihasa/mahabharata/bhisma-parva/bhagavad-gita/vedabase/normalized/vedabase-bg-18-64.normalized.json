@@ -1,0 +1,84 @@
+{
+  "temp_id": "vedabase-bg-18-64",
+  "chapter": 18,
+  "verse": 64,
+  "verse_id": "bg-18-64",
+  "verse_group": null,
+  "composite": false,
+  "sanskrit": {
+    "devanagari": "सर्वगुह्यतमं भूय: श‍ृणु मे परमं वच: ।\nइष्टोऽसि मे दृढमिति ततो वक्ष्यामि ते हितम् ॥ ६४ ॥",
+    "iast": "sarva-guhyatamaṁ bhūyaḥ\nśṛṇu me paramaṁ vacaḥ\niṣṭo ’si me dṛḍham iti\ntato vakṣyāmi te hitam"
+  },
+  "synonyms_raw": "sarva\n-\nguhya\n-\ntamam\n—\nthe most confidential of all\n;\nbhūyaḥ\n—\nagain\n;\nśṛṇu\n—\njust hear\n;\nme\n—\nfrom Me\n;\nparamam\n—\nthe supreme\n;\nvacaḥ\n—\ninstruction\n;\niṣṭaḥ\nasi\n—\nyou are dear\n;\nme\n—\nto Me\n;\ndṛḍham\n—\nvery\n;\niti\n—\nthus\n;\ntataḥ\n—\ntherefore\n;\nvakṣyāmi\n—\nI am speaking\n;\nte\n—\nfor your\n;\nhitam\n—\nbenefit\n.",
+  "translation": "Because you are My very dear friend, I am speaking to you My supreme instruction, the most confidential knowledge of all. Hear this from Me, for it is for your benefit.",
+  "purport": [
+    "The Lord has given Arjuna knowledge that is confidential (knowledge of Brahman) and still more confidential (knowledge of the Supersoul within everyone’s heart), and now He is giving the most confidential part of knowledge: just surrender unto the Supreme Personality of Godhead. At the end of the Ninth Chapter He has said,",
+    "man-manāḥ:",
+    "“Just always think of Me.” The same instruction is repeated here to stress the essence of the teachings of",
+    "Bhagavad-gītā.",
+    "This essence is not understood by a common man, but by one who is actually very dear to Kṛṣṇa, a pure devotee of Kṛṣṇa. This is the most important instruction in all Vedic literature. What Kṛṣṇa is saying in this connection is the most essential part of knowledge, and it should be carried out not only by Arjuna but by all living entities."
+  ],
+  "source": {
+    "author": "A. C. Bhaktivedanta Swami Prabhupāda",
+    "edition": "Bhagavad-gītā As It Is",
+    "language": "en",
+    "provider": "vedabase.io"
+  },
+  "synonyms": {
+    "language": "en",
+    "items": [
+      {
+        "sanskrit": "sarva guhya tamam",
+        "meaning": "the most confidential of all"
+      },
+      {
+        "sanskrit": "bhūyaḥ",
+        "meaning": "again"
+      },
+      {
+        "sanskrit": "śṛṇu",
+        "meaning": "just hear"
+      },
+      {
+        "sanskrit": "me",
+        "meaning": "from Me"
+      },
+      {
+        "sanskrit": "paramam",
+        "meaning": "the supreme"
+      },
+      {
+        "sanskrit": "vacaḥ",
+        "meaning": "instruction"
+      },
+      {
+        "sanskrit": "iṣṭaḥ asi",
+        "meaning": "you are dear"
+      },
+      {
+        "sanskrit": "me",
+        "meaning": "to Me"
+      },
+      {
+        "sanskrit": "dṛḍham",
+        "meaning": "very"
+      },
+      {
+        "sanskrit": "iti",
+        "meaning": "thus"
+      },
+      {
+        "sanskrit": "tataḥ",
+        "meaning": "therefore"
+      },
+      {
+        "sanskrit": "vakṣyāmi",
+        "meaning": "I am speaking"
+      },
+      {
+        "sanskrit": "te",
+        "meaning": "for your"
+      }
+    ]
+  }
+}

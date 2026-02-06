@@ -1,0 +1,80 @@
+{
+  "temp_id": "vedabase-bg-11-12",
+  "chapter": 11,
+  "verse": 12,
+  "verse_id": "bg-11-12",
+  "verse_group": null,
+  "composite": false,
+  "sanskrit": {
+    "devanagari": "दिवि सूर्यसहस्रस्य भवेद्युगपदुत्थिता ।\nयदि भा: सदृशी सा स्याद्भ‍ासस्तस्य महात्मन: ॥ १२ ॥",
+    "iast": "divi sūrya-sahasrasya\nbhaved yugapad utthitā\nyadi bhāḥ sadṛśī sā syād\nbhāsas tasya mahātmanaḥ"
+  },
+  "synonyms_raw": "divi\n—\nin the sky\n;\nsūrya\n—\nof suns\n;\nsahasrasya\n—\nof many thousands\n;\nbhavet\n—\nthere were\n;\nyugapat\n—\nsimultaneously\n;\nutthitā\n—\npresent\n;\nyadi\n—\nif\n;\nbhāḥ\n—\nlight\n;\nsadṛśī\n—\nlike that\n;\nsā\n—\nthat\n;\nsyāt\n—\nmight be\n;\nbhāsaḥ\n—\neffulgence\n;\ntasya\n—\nof Him\n;\nmahā\n-\nātmanaḥ\n—\nthe great Lord\n.",
+  "translation": "If hundreds of thousands of suns were to rise at once into the sky, their radiance might resemble the effulgence of the Supreme Person in that universal form.",
+  "purport": [
+    "What Arjuna saw was indescribable, yet Sañjaya is trying to give a mental picture of that great revelation to Dhṛtarāṣṭra. Neither Sañjaya nor Dhṛtarāṣṭra was present, but Sañjaya, by the grace of Vyāsa, could see whatever happened. Thus he now compares the situation, as far as it can be understood, to an imaginable phenomenon (i.e., thousands of suns)."
+  ],
+  "source": {
+    "author": "A. C. Bhaktivedanta Swami Prabhupāda",
+    "edition": "Bhagavad-gītā As It Is",
+    "language": "en",
+    "provider": "vedabase.io"
+  },
+  "synonyms": {
+    "language": "en",
+    "items": [
+      {
+        "sanskrit": "divi",
+        "meaning": "in the sky"
+      },
+      {
+        "sanskrit": "sūrya",
+        "meaning": "of suns"
+      },
+      {
+        "sanskrit": "sahasrasya",
+        "meaning": "of many thousands"
+      },
+      {
+        "sanskrit": "bhavet",
+        "meaning": "there were"
+      },
+      {
+        "sanskrit": "yugapat",
+        "meaning": "simultaneously"
+      },
+      {
+        "sanskrit": "utthitā",
+        "meaning": "present"
+      },
+      {
+        "sanskrit": "yadi",
+        "meaning": "if"
+      },
+      {
+        "sanskrit": "bhāḥ",
+        "meaning": "light"
+      },
+      {
+        "sanskrit": "sadṛśī",
+        "meaning": "like that"
+      },
+      {
+        "sanskrit": "sā",
+        "meaning": "that"
+      },
+      {
+        "sanskrit": "syāt",
+        "meaning": "might be"
+      },
+      {
+        "sanskrit": "bhāsaḥ",
+        "meaning": "effulgence"
+      },
+      {
+        "sanskrit": "tasya",
+        "meaning": "of Him"
+      }
+    ]
+  }
+}

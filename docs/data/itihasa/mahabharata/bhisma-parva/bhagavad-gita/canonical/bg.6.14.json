@@ -1,0 +1,34 @@
+{
+  "uid": "bg.6.14",
+  "work": {
+    "corpus": "itihasa",
+    "text": "mahabharata",
+    "section": "bhisma-parva",
+    "subwork": "bhagavad-gita"
+  },
+  "location": {
+    "chapter": 6,
+    "verse": 14
+  },
+  "text": {
+    "script": "devanagari",
+    "content": "प्रशान्तात्मा विगतभीर्ब्रह्मचारिव्रते स्थित: ।\nमन: संयम्य मच्च‍ित्तो युक्त आसीत मत्पर:\n॥ १४ ॥"
+  },
+  "transliteration": {
+    "scheme": "iast",
+    "content": "praśāntātmā vigatabhīrbrahmacārivrate sthita: |\nmana: saṃyamya macca‍itto yukta āsīta matpara:\n|| 14 ||"
+  },
+  "source": {
+    "pipeline": "bhagavad-gita",
+    "stage": "2.5",
+    "script": "s25_realign_iast_bg.py",
+    "script_version": "2.2.0",
+    "derived_from": [
+      "vedabase/raw-json/bg-06-13-14.json"
+    ]
+  },
+  "schema": {
+    "name": "vedic-library.canonical.verse",
+    "version": "1.0.0"
+  }
+}

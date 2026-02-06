@@ -1,0 +1,17 @@
+{
+  "schema": "vedic-library.exposition",
+  "schema_version": "1.0.0",
+  "uid": "bg.11.53.prabhupada.exposition",
+  "editorial_unit_ref": "bg.11.53.prabhupada",
+  "exposition": {
+    "type": "purport",
+    "language": "en",
+    "author": "A. C. Bhaktivedanta Swami Prabhupāda",
+    "content": "Kṛṣṇa first appeared before His parents Devakī and Vasudeva in a four-handed form, and then He transformed Himself into the two-handed form. This mystery is very difficult to understand for those who are atheists or who are devoid of devotional service. For scholars who have simply studied Vedic literature by way of grammatical knowledge or mere academic qualifications, Kṛṣṇa is not possible to understand. Nor is He to be understood by persons who officially go to the temple to offer worship. They make their visit, but they cannot understand Kṛṣṇa as He is. Kṛṣṇa can be understood only through the path of devotional service, as explained by Kṛṣṇa Himself in the next verse."
+  },
+  "source": {
+    "edition": "Bhagavad-gītā As It Is",
+    "editor": "BBT",
+    "lineage": "Gaudiya Vaishnava"
+  }
+}

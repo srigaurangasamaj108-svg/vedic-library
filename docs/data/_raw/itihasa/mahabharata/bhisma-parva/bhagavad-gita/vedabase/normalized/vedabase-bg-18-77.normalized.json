@@ -1,0 +1,84 @@
+{
+  "temp_id": "vedabase-bg-18-77",
+  "chapter": 18,
+  "verse": 77,
+  "verse_id": "bg-18-77",
+  "verse_group": null,
+  "composite": false,
+  "sanskrit": {
+    "devanagari": "तच्च‍ संस्मृत्य संस्मृत्य रूपमत्यद्भुतं हरे: ।\nविस्मयो मे महान्‍राजन्हृष्यामि च पुन: पुन: ॥ ७७ ॥",
+    "iast": "tac ca saṁsmṛtya saṁsmṛtya\nrūpam aty-adbhutaṁ hareḥ\nvismayo me mahān rājan\nhṛṣyāmi ca punaḥ punaḥ"
+  },
+  "synonyms_raw": "tat\n—\nthat\n;\nca\n—\nalso\n;\nsaṁsmṛtya\n—\nremembering\n;\nsaṁsmṛtya\n—\nremembering\n;\nrūpam\n—\nform\n;\nati\n—\ngreatly\n;\nadbhutam\n—\nwonderful\n;\nhareḥ\n—\nof Lord Kṛṣṇa\n;\nvismayaḥ\n—\nwonder\n;\nme\n—\nmy\n;\nmahān\n—\ngreat\n;\nrājan\n—\nO King\n;\nhṛṣyāmi\n—\nI am enjoying\n;\nca\n—\nalso\n;\npunaḥ\npunaḥ\n—\nrepeatedly\n.",
+  "translation": "O King, as I remember the wonderful form of Lord Kṛṣṇa, I am struck with wonder more and more, and I rejoice again and again.",
+  "purport": [
+    "It appears that Sañjaya also, by the grace of Vyāsa, could see the universal form Kṛṣṇa exhibited to Arjuna. It is, of course, said that Lord Kṛṣṇa had never exhibited such a form before. It was exhibited to Arjuna only, yet some great devotees could also see the universal form of Kṛṣṇa when it was shown to Arjuna, and Vyāsa was one of them. He is one of the great devotees of the Lord, and he is considered to be a powerful incarnation of Kṛṣṇa. Vyāsa disclosed this to his disciple Sañjaya, who remembered that wonderful form of Kṛṣṇa exhibited to Arjuna and enjoyed it repeatedly."
+  ],
+  "source": {
+    "author": "A. C. Bhaktivedanta Swami Prabhupāda",
+    "edition": "Bhagavad-gītā As It Is",
+    "language": "en",
+    "provider": "vedabase.io"
+  },
+  "synonyms": {
+    "language": "en",
+    "items": [
+      {
+        "sanskrit": "tat",
+        "meaning": "that"
+      },
+      {
+        "sanskrit": "ca",
+        "meaning": "also"
+      },
+      {
+        "sanskrit": "saṁsmṛtya",
+        "meaning": "remembering"
+      },
+      {
+        "sanskrit": "saṁsmṛtya",
+        "meaning": "remembering"
+      },
+      {
+        "sanskrit": "rūpam",
+        "meaning": "form"
+      },
+      {
+        "sanskrit": "ati",
+        "meaning": "greatly"
+      },
+      {
+        "sanskrit": "adbhutam",
+        "meaning": "wonderful"
+      },
+      {
+        "sanskrit": "hareḥ",
+        "meaning": "of Lord Kṛṣṇa"
+      },
+      {
+        "sanskrit": "vismayaḥ",
+        "meaning": "wonder"
+      },
+      {
+        "sanskrit": "me",
+        "meaning": "my"
+      },
+      {
+        "sanskrit": "mahān",
+        "meaning": "great"
+      },
+      {
+        "sanskrit": "rājan",
+        "meaning": "O King"
+      },
+      {
+        "sanskrit": "hṛṣyāmi",
+        "meaning": "I am enjoying"
+      },
+      {
+        "sanskrit": "ca",
+        "meaning": "also"
+      }
+    ]
+  }
+}

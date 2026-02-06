@@ -1,0 +1,87 @@
+{
+  "uid": "bg.3.12.prabhupada.synonyms",
+  "editorial_unit_ref": {
+    "uid": "bg.3.12.prabhupada",
+    "schema": "vedic-library.editorial.unit",
+    "version": "1.0.0"
+  },
+  "synonyms": {
+    "language": "en",
+    "author": "A. C. Bhaktivedanta Swami Prabhupāda",
+    "items": {
+      "language": "en",
+      "items": [
+        {
+          "sanskrit": "iṣṭān",
+          "meaning": "desired"
+        },
+        {
+          "sanskrit": "bhogān",
+          "meaning": "necessities of life"
+        },
+        {
+          "sanskrit": "hi",
+          "meaning": "certainly"
+        },
+        {
+          "sanskrit": "vaḥ",
+          "meaning": "unto you"
+        },
+        {
+          "sanskrit": "devāḥ",
+          "meaning": "the demigods"
+        },
+        {
+          "sanskrit": "dāsyante",
+          "meaning": "will award"
+        },
+        {
+          "sanskrit": "yajña bhāvitāḥ",
+          "meaning": "being satisfied by the performance of sacrifices"
+        },
+        {
+          "sanskrit": "taiḥ",
+          "meaning": "by them"
+        },
+        {
+          "sanskrit": "dattān",
+          "meaning": "things given"
+        },
+        {
+          "sanskrit": "apradāya",
+          "meaning": "without offering"
+        },
+        {
+          "sanskrit": "ebhyaḥ",
+          "meaning": "to these demigods"
+        },
+        {
+          "sanskrit": "yaḥ",
+          "meaning": "he who"
+        },
+        {
+          "sanskrit": "bhuṅkte",
+          "meaning": "enjoys"
+        },
+        {
+          "sanskrit": "stenaḥ",
+          "meaning": "thief"
+        },
+        {
+          "sanskrit": "eva",
+          "meaning": "certainly"
+        }
+      ]
+    }
+  },
+  "source": {
+    "derived_from": "vedabase.io",
+    "normalized_file": "vedabase-bg-03-12.normalized.json",
+    "pipeline_stage": "migration.m3",
+    "script": "m3_migrate_synonyms.py"
+  },
+  "schema": {
+    "name": "vedic-library.derivative.synonyms",
+    "version": "2.0.0"
+  }
+}

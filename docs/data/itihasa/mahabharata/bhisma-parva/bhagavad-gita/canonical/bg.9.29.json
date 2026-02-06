@@ -1,0 +1,34 @@
+{
+  "uid": "bg.9.29",
+  "work": {
+    "corpus": "itihasa",
+    "text": "mahabharata",
+    "section": "bhisma-parva",
+    "subwork": "bhagavad-gita"
+  },
+  "location": {
+    "chapter": 9,
+    "verse": 29
+  },
+  "text": {
+    "script": "devanagari",
+    "content": "समोऽहं सर्वभूतेषु न मे द्वेष्योऽस्ति न प्रिय: ।\nये भजन्ति तु मां भक्त्य‍ा मयि ते तेषु चाप्यहम्\n॥ २९ ॥"
+  },
+  "transliteration": {
+    "scheme": "iast",
+    "content": "samo'haṃ sarvabhūteṣu na me dveṣyo'sti na priya: |\nye bhajanti tu māṃ bhaktya‍ā mayi te teṣu cāpyaham\n|| 29 ||"
+  },
+  "source": {
+    "pipeline": "bhagavad-gita",
+    "stage": "2.5",
+    "script": "s25_realign_iast_bg.py",
+    "script_version": "2.2.0",
+    "derived_from": [
+      "vedabase/raw-json/bg-09-29.json"
+    ]
+  },
+  "schema": {
+    "name": "vedic-library.canonical.verse",
+    "version": "1.0.0"
+  }
+}

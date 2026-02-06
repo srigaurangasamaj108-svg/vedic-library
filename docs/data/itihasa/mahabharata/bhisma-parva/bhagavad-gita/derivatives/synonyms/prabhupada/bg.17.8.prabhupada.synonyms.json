@@ -1,0 +1,79 @@
+{
+  "uid": "bg.17.8.prabhupada.synonyms",
+  "editorial_unit_ref": {
+    "uid": "bg.17.8.prabhupada",
+    "schema": "vedic-library.editorial.unit",
+    "version": "1.0.0"
+  },
+  "synonyms": {
+    "language": "en",
+    "author": "A. C. Bhaktivedanta Swami Prabhupāda",
+    "items": {
+      "language": "en",
+      "items": [
+        {
+          "sanskrit": "āyuḥ",
+          "meaning": "duration of life"
+        },
+        {
+          "sanskrit": "sattva",
+          "meaning": "existence"
+        },
+        {
+          "sanskrit": "bala",
+          "meaning": "strength"
+        },
+        {
+          "sanskrit": "ārogya",
+          "meaning": "health"
+        },
+        {
+          "sanskrit": "sukha",
+          "meaning": "happiness"
+        },
+        {
+          "sanskrit": "prīti",
+          "meaning": "and satisfaction"
+        },
+        {
+          "sanskrit": "vivardhanāḥ",
+          "meaning": "increasing"
+        },
+        {
+          "sanskrit": "rasyāḥ",
+          "meaning": "juicy"
+        },
+        {
+          "sanskrit": "snigdhāḥ",
+          "meaning": "fatty"
+        },
+        {
+          "sanskrit": "sthirāḥ",
+          "meaning": "enduring"
+        },
+        {
+          "sanskrit": "hṛdyāḥ",
+          "meaning": "pleasing to the heart"
+        },
+        {
+          "sanskrit": "āhārāḥ",
+          "meaning": "food"
+        },
+        {
+          "sanskrit": "sāttvika",
+          "meaning": "to one in goodness"
+        }
+      ]
+    }
+  },
+  "source": {
+    "derived_from": "vedabase.io",
+    "normalized_file": "vedabase-bg-17-08.normalized.json",
+    "pipeline_stage": "migration.m3",
+    "script": "m3_migrate_synonyms.py"
+  },
+  "schema": {
+    "name": "vedic-library.derivative.synonyms",
+    "version": "2.0.0"
+  }
+}

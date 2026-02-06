@@ -1,0 +1,75 @@
+{
+  "uid": "bg.3.15.prabhupada.synonyms",
+  "editorial_unit_ref": {
+    "uid": "bg.3.15.prabhupada",
+    "schema": "vedic-library.editorial.unit",
+    "version": "1.0.0"
+  },
+  "synonyms": {
+    "language": "en",
+    "author": "A. C. Bhaktivedanta Swami Prabhupāda",
+    "items": {
+      "language": "en",
+      "items": [
+        {
+          "sanskrit": "karma",
+          "meaning": "work"
+        },
+        {
+          "sanskrit": "brahma",
+          "meaning": "from the Vedas"
+        },
+        {
+          "sanskrit": "udbhavam",
+          "meaning": "produced"
+        },
+        {
+          "sanskrit": "viddhi",
+          "meaning": "you should know"
+        },
+        {
+          "sanskrit": "brahma",
+          "meaning": "the Vedas"
+        },
+        {
+          "sanskrit": "akṣara",
+          "meaning": "from the Supreme Brahman (Personality of Godhead)"
+        },
+        {
+          "sanskrit": "samudbhavam",
+          "meaning": "directly manifested"
+        },
+        {
+          "sanskrit": "tasmāt",
+          "meaning": "therefore"
+        },
+        {
+          "sanskrit": "sarva gatam",
+          "meaning": "all-pervading"
+        },
+        {
+          "sanskrit": "brahma",
+          "meaning": "transcendence"
+        },
+        {
+          "sanskrit": "nityam",
+          "meaning": "eternally"
+        },
+        {
+          "sanskrit": "yajñe",
+          "meaning": "in sacrifice"
+        }
+      ]
+    }
+  },
+  "source": {
+    "derived_from": "vedabase.io",
+    "normalized_file": "vedabase-bg-03-15.normalized.json",
+    "pipeline_stage": "migration.m3",
+    "script": "m3_migrate_synonyms.py"
+  },
+  "schema": {
+    "name": "vedic-library.derivative.synonyms",
+    "version": "2.0.0"
+  }
+}

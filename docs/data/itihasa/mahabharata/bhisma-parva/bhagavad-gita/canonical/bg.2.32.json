@@ -1,0 +1,34 @@
+{
+  "uid": "bg.2.32",
+  "work": {
+    "corpus": "itihasa",
+    "text": "mahabharata",
+    "section": "bhisma-parva",
+    "subwork": "bhagavad-gita"
+  },
+  "location": {
+    "chapter": 2,
+    "verse": 32
+  },
+  "text": {
+    "script": "devanagari",
+    "content": "यदृच्छया चोपपन्नं स्वर्गद्वारमपावृतम् ।\nसुखिनः क्षत्रियाः पार्थ लभन्ते युद्धमीदृशम्\n॥ ३२ ॥"
+  },
+  "transliteration": {
+    "scheme": "iast",
+    "content": "yadṛcchayā copapannaṃ svargadvāramapāvṛtam |\nsukhinaḥ kṣatriyāḥ pārtha labhante yuddhamīdṛśam\n|| 32 ||"
+  },
+  "source": {
+    "pipeline": "bhagavad-gita",
+    "stage": "2.5",
+    "script": "s25_realign_iast_bg.py",
+    "script_version": "2.2.0",
+    "derived_from": [
+      "vedabase/raw-json/bg-02-32.json"
+    ]
+  },
+  "schema": {
+    "name": "vedic-library.canonical.verse",
+    "version": "1.0.0"
+  }
+}

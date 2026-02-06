@@ -1,0 +1,71 @@
+{
+  "uid": "bg.1.19.prabhupada.synonyms",
+  "editorial_unit_ref": {
+    "uid": "bg.1.19.prabhupada",
+    "schema": "vedic-library.editorial.unit",
+    "version": "1.0.0"
+  },
+  "synonyms": {
+    "language": "en",
+    "author": "A. C. Bhaktivedanta Swami Prabhupāda",
+    "items": {
+      "language": "en",
+      "items": [
+        {
+          "sanskrit": "saḥ",
+          "meaning": "that"
+        },
+        {
+          "sanskrit": "ghoṣaḥ",
+          "meaning": "vibration"
+        },
+        {
+          "sanskrit": "dhārtarāṣṭrāṇām",
+          "meaning": "of the sons of Dhṛtarāṣṭra"
+        },
+        {
+          "sanskrit": "hṛdayāni",
+          "meaning": "hearts"
+        },
+        {
+          "sanskrit": "vyadārayat",
+          "meaning": "shattered"
+        },
+        {
+          "sanskrit": "nabhaḥ",
+          "meaning": "the sky"
+        },
+        {
+          "sanskrit": "ca",
+          "meaning": "also"
+        },
+        {
+          "sanskrit": "pṛthivīm",
+          "meaning": "the surface of the earth"
+        },
+        {
+          "sanskrit": "ca",
+          "meaning": "also"
+        },
+        {
+          "sanskrit": "eva",
+          "meaning": "certainly"
+        },
+        {
+          "sanskrit": "tumulaḥ",
+          "meaning": "uproarious"
+        }
+      ]
+    }
+  },
+  "source": {
+    "derived_from": "vedabase.io",
+    "normalized_file": "vedabase-bg-01-19.normalized.json",
+    "pipeline_stage": "migration.m3",
+    "script": "m3_migrate_synonyms.py"
+  },
+  "schema": {
+    "name": "vedic-library.derivative.synonyms",
+    "version": "2.0.0"
+  }
+}

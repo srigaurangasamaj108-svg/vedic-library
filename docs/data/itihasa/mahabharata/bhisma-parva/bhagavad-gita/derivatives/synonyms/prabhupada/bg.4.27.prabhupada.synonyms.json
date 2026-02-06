@@ -1,0 +1,67 @@
+{
+  "uid": "bg.4.27.prabhupada.synonyms",
+  "editorial_unit_ref": {
+    "uid": "bg.4.27.prabhupada",
+    "schema": "vedic-library.editorial.unit",
+    "version": "1.0.0"
+  },
+  "synonyms": {
+    "language": "en",
+    "author": "A. C. Bhaktivedanta Swami Prabhupāda",
+    "items": {
+      "language": "en",
+      "items": [
+        {
+          "sanskrit": "sarvāṇi",
+          "meaning": "of all"
+        },
+        {
+          "sanskrit": "indriya",
+          "meaning": "the senses"
+        },
+        {
+          "sanskrit": "karmāṇi",
+          "meaning": "functions"
+        },
+        {
+          "sanskrit": "prāṇa karmāṇi",
+          "meaning": "functions of the life breath"
+        },
+        {
+          "sanskrit": "ca",
+          "meaning": "also"
+        },
+        {
+          "sanskrit": "apare",
+          "meaning": "others"
+        },
+        {
+          "sanskrit": "ātma saṁyama",
+          "meaning": "of controlling the mind"
+        },
+        {
+          "sanskrit": "yoga",
+          "meaning": "the linking process"
+        },
+        {
+          "sanskrit": "agnau",
+          "meaning": "in the fire of"
+        },
+        {
+          "sanskrit": "juhvati",
+          "meaning": "offer"
+        }
+      ]
+    }
+  },
+  "source": {
+    "derived_from": "vedabase.io",
+    "normalized_file": "vedabase-bg-04-27.normalized.json",
+    "pipeline_stage": "migration.m3",
+    "script": "m3_migrate_synonyms.py"
+  },
+  "schema": {
+    "name": "vedic-library.derivative.synonyms",
+    "version": "2.0.0"
+  }
+}

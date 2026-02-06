@@ -1,0 +1,67 @@
+{
+  "uid": "bg.9.7.prabhupada.synonyms",
+  "editorial_unit_ref": {
+    "uid": "bg.9.7.prabhupada",
+    "schema": "vedic-library.editorial.unit",
+    "version": "1.0.0"
+  },
+  "synonyms": {
+    "language": "en",
+    "author": "A. C. Bhaktivedanta Swami Prabhupāda",
+    "items": {
+      "language": "en",
+      "items": [
+        {
+          "sanskrit": "sarva bhūtāni",
+          "meaning": "all created entities"
+        },
+        {
+          "sanskrit": "kaunteya",
+          "meaning": "O son of Kuntī"
+        },
+        {
+          "sanskrit": "prakṛtim",
+          "meaning": "nature"
+        },
+        {
+          "sanskrit": "yānti",
+          "meaning": "enter"
+        },
+        {
+          "sanskrit": "māmikām",
+          "meaning": "My"
+        },
+        {
+          "sanskrit": "kalpa kṣaye",
+          "meaning": "at the end of the millennium"
+        },
+        {
+          "sanskrit": "punaḥ",
+          "meaning": "again"
+        },
+        {
+          "sanskrit": "tāni",
+          "meaning": "all those"
+        },
+        {
+          "sanskrit": "kalpa ādau",
+          "meaning": "in the beginning of the millennium"
+        },
+        {
+          "sanskrit": "visṛjāmi",
+          "meaning": "create"
+        }
+      ]
+    }
+  },
+  "source": {
+    "derived_from": "vedabase.io",
+    "normalized_file": "vedabase-bg-09-07.normalized.json",
+    "pipeline_stage": "migration.m3",
+    "script": "m3_migrate_synonyms.py"
+  },
+  "schema": {
+    "name": "vedic-library.derivative.synonyms",
+    "version": "2.0.0"
+  }
+}

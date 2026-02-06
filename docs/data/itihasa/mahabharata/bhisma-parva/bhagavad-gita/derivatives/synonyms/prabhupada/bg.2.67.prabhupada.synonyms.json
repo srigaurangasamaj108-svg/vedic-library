@@ -1,0 +1,79 @@
+{
+  "uid": "bg.2.67.prabhupada.synonyms",
+  "editorial_unit_ref": {
+    "uid": "bg.2.67.prabhupada",
+    "schema": "vedic-library.editorial.unit",
+    "version": "1.0.0"
+  },
+  "synonyms": {
+    "language": "en",
+    "author": "A. C. Bhaktivedanta Swami Prabhupāda",
+    "items": {
+      "language": "en",
+      "items": [
+        {
+          "sanskrit": "indriyāṇām",
+          "meaning": "of the senses"
+        },
+        {
+          "sanskrit": "hi",
+          "meaning": "certainly"
+        },
+        {
+          "sanskrit": "caratām",
+          "meaning": "while roaming"
+        },
+        {
+          "sanskrit": "yat",
+          "meaning": "with which"
+        },
+        {
+          "sanskrit": "manaḥ",
+          "meaning": "the mind"
+        },
+        {
+          "sanskrit": "anuvidhīyate",
+          "meaning": "becomes constantly engaged"
+        },
+        {
+          "sanskrit": "tat",
+          "meaning": "that"
+        },
+        {
+          "sanskrit": "asya",
+          "meaning": "his"
+        },
+        {
+          "sanskrit": "harati",
+          "meaning": "takes away"
+        },
+        {
+          "sanskrit": "prajñām",
+          "meaning": "intelligence"
+        },
+        {
+          "sanskrit": "vāyuḥ",
+          "meaning": "wind"
+        },
+        {
+          "sanskrit": "nāvam",
+          "meaning": "a boat"
+        },
+        {
+          "sanskrit": "iva",
+          "meaning": "like"
+        }
+      ]
+    }
+  },
+  "source": {
+    "derived_from": "vedabase.io",
+    "normalized_file": "vedabase-bg-02-67.normalized.json",
+    "pipeline_stage": "migration.m3",
+    "script": "m3_migrate_synonyms.py"
+  },
+  "schema": {
+    "name": "vedic-library.derivative.synonyms",
+    "version": "2.0.0"
+  }
+}

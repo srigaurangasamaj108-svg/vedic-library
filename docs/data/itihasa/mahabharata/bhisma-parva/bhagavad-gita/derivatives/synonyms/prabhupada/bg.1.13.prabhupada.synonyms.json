@@ -1,0 +1,79 @@
+{
+  "uid": "bg.1.13.prabhupada.synonyms",
+  "editorial_unit_ref": {
+    "uid": "bg.1.13.prabhupada",
+    "schema": "vedic-library.editorial.unit",
+    "version": "1.0.0"
+  },
+  "synonyms": {
+    "language": "en",
+    "author": "A. C. Bhaktivedanta Swami Prabhupāda",
+    "items": {
+      "language": "en",
+      "items": [
+        {
+          "sanskrit": "tataḥ",
+          "meaning": "thereafter"
+        },
+        {
+          "sanskrit": "śaṅkhāḥ",
+          "meaning": "conchshells"
+        },
+        {
+          "sanskrit": "ca",
+          "meaning": "also"
+        },
+        {
+          "sanskrit": "bheryaḥ",
+          "meaning": "large drums"
+        },
+        {
+          "sanskrit": "ca",
+          "meaning": "and"
+        },
+        {
+          "sanskrit": "paṇava ānaka",
+          "meaning": "small drums and kettledrums"
+        },
+        {
+          "sanskrit": "go mukhāḥ",
+          "meaning": "horns"
+        },
+        {
+          "sanskrit": "sahasā",
+          "meaning": "all of a sudden"
+        },
+        {
+          "sanskrit": "eva",
+          "meaning": "certainly"
+        },
+        {
+          "sanskrit": "abhyahanyanta",
+          "meaning": "were simultaneously sounded"
+        },
+        {
+          "sanskrit": "saḥ",
+          "meaning": "that"
+        },
+        {
+          "sanskrit": "śabdaḥ",
+          "meaning": "combined sound"
+        },
+        {
+          "sanskrit": "tumulaḥ",
+          "meaning": "tumultuous"
+        }
+      ]
+    }
+  },
+  "source": {
+    "derived_from": "vedabase.io",
+    "normalized_file": "vedabase-bg-01-13.normalized.json",
+    "pipeline_stage": "migration.m3",
+    "script": "m3_migrate_synonyms.py"
+  },
+  "schema": {
+    "name": "vedic-library.derivative.synonyms",
+    "version": "2.0.0"
+  }
+}

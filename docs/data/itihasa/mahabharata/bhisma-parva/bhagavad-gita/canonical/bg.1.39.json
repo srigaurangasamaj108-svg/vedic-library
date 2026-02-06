@@ -1,0 +1,34 @@
+{
+  "uid": "bg.1.39",
+  "work": {
+    "corpus": "itihasa",
+    "text": "mahabharata",
+    "section": "bhisma-parva",
+    "subwork": "bhagavad-gita"
+  },
+  "location": {
+    "chapter": 1,
+    "verse": 39
+  },
+  "text": {
+    "script": "devanagari",
+    "content": "कुलक्षये प्रणश्यन्ति कुलधर्माः सनातनाः ।\nधर्मे नष्टे कुलं कृत्स्नमधर्मोऽभिभवत्युत\n॥ ३९ ॥"
+  },
+  "transliteration": {
+    "scheme": "iast",
+    "content": "kulakṣaye praṇaśyanti kuladharmāḥ sanātanāḥ |\ndharme naṣṭe kulaṃ kṛtsnamadharmo'bhibhavatyuta\n|| 39 ||"
+  },
+  "source": {
+    "pipeline": "bhagavad-gita",
+    "stage": "2.5",
+    "script": "s25_realign_iast_bg.py",
+    "script_version": "2.2.0",
+    "derived_from": [
+      "vedabase/raw-json/bg-01-39.json"
+    ]
+  },
+  "schema": {
+    "name": "vedic-library.canonical.verse",
+    "version": "1.0.0"
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "uid": "bg.7.5",
+  "work": {
+    "corpus": "itihasa",
+    "text": "mahabharata",
+    "section": "bhisma-parva",
+    "subwork": "bhagavad-gita"
+  },
+  "location": {
+    "chapter": 7,
+    "verse": 5
+  },
+  "text": {
+    "script": "devanagari",
+    "content": "अपरेयमितस्त्वन्यां प्रकृतिं विद्धि मे पराम् ।\nजीवभूतां महाबाहो ययेदं धार्यते जगत्\n॥ ५ ॥"
+  },
+  "transliteration": {
+    "scheme": "iast",
+    "content": "apareyamitastvanyāṃ prakṛtiṃ viddhi me parām |\njīvabhūtāṃ mahābāho yayedaṃ dhāryate jagat\n|| 5 ||"
+  },
+  "source": {
+    "pipeline": "bhagavad-gita",
+    "stage": "2.5",
+    "script": "s25_realign_iast_bg.py",
+    "script_version": "2.2.0",
+    "derived_from": [
+      "vedabase/raw-json/bg-07-05.json"
+    ]
+  },
+  "schema": {
+    "name": "vedic-library.canonical.verse",
+    "version": "1.0.0"
+  }
+}

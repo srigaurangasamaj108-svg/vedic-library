@@ -1,0 +1,34 @@
+{
+  "uid": "bg.2.66",
+  "work": {
+    "corpus": "itihasa",
+    "text": "mahabharata",
+    "section": "bhisma-parva",
+    "subwork": "bhagavad-gita"
+  },
+  "location": {
+    "chapter": 2,
+    "verse": 66
+  },
+  "text": {
+    "script": "devanagari",
+    "content": "नास्ति बुद्धिरयुक्तस्य न चायुक्तस्य भावना ।\nन चाभावयतः शान्तिरशान्तस्य कुतः सुखम्\n॥ ६६ ॥"
+  },
+  "transliteration": {
+    "scheme": "iast",
+    "content": "nāsti buddhirayuktasya na cāyuktasya bhāvanā |\nna cābhāvayataḥ śāntiraśāntasya kutaḥ sukham\n|| 66 ||"
+  },
+  "source": {
+    "pipeline": "bhagavad-gita",
+    "stage": "2.5",
+    "script": "s25_realign_iast_bg.py",
+    "script_version": "2.2.0",
+    "derived_from": [
+      "vedabase/raw-json/bg-02-66.json"
+    ]
+  },
+  "schema": {
+    "name": "vedic-library.canonical.verse",
+    "version": "1.0.0"
+  }
+}

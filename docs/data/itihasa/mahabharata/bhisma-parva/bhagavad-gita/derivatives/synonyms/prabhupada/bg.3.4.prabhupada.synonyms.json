@@ -1,0 +1,71 @@
+{
+  "uid": "bg.3.4.prabhupada.synonyms",
+  "editorial_unit_ref": {
+    "uid": "bg.3.4.prabhupada",
+    "schema": "vedic-library.editorial.unit",
+    "version": "1.0.0"
+  },
+  "synonyms": {
+    "language": "en",
+    "author": "A. C. Bhaktivedanta Swami Prabhupāda",
+    "items": {
+      "language": "en",
+      "items": [
+        {
+          "sanskrit": "na",
+          "meaning": "not"
+        },
+        {
+          "sanskrit": "karmaṇām",
+          "meaning": "of prescribed duties"
+        },
+        {
+          "sanskrit": "anārambhāt",
+          "meaning": "by nonperformance"
+        },
+        {
+          "sanskrit": "naiṣkarmyam",
+          "meaning": "freedom from reaction"
+        },
+        {
+          "sanskrit": "puruṣaḥ",
+          "meaning": "a man"
+        },
+        {
+          "sanskrit": "aśnute",
+          "meaning": "achieves"
+        },
+        {
+          "sanskrit": "na",
+          "meaning": "nor"
+        },
+        {
+          "sanskrit": "ca",
+          "meaning": "also"
+        },
+        {
+          "sanskrit": "sannyasanāt",
+          "meaning": "by renunciation"
+        },
+        {
+          "sanskrit": "eva",
+          "meaning": "simply"
+        },
+        {
+          "sanskrit": "siddhim",
+          "meaning": "success"
+        }
+      ]
+    }
+  },
+  "source": {
+    "derived_from": "vedabase.io",
+    "normalized_file": "vedabase-bg-03-04.normalized.json",
+    "pipeline_stage": "migration.m3",
+    "script": "m3_migrate_synonyms.py"
+  },
+  "schema": {
+    "name": "vedic-library.derivative.synonyms",
+    "version": "2.0.0"
+  }
+}
