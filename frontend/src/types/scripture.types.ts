@@ -1,7 +1,7 @@
 export type UID = string;
 
 /**
- * Canonical identity of a unit
+ * Canonical identity
  */
 export interface ScriptureIdentity {
   uid: UID;
@@ -30,6 +30,37 @@ export interface ScriptVariant {
 }
 
 /**
+ * Translation derivative
+ */
+export interface TranslationLayer {
+  id: string;            // e.g. prabhupada-en
+  language: string;      // en, hi
+  author?: string;
+  content: string;
+}
+
+/**
+ * Commentary derivative
+ */
+export interface CommentaryLayer {
+  id: string;            // prabhupada, sridhara
+  language: string;
+  author?: string;
+  tradition?: string;
+  content: string;
+}
+
+/**
+ * Derivative attachment model
+ */
+export interface DerivativeLayers {
+  translations?: TranslationLayer[];
+  commentaries?: CommentaryLayer[];
+  synonyms?: unknown;
+  editorial?: unknown;
+}
+
+/**
  * Canonical immutable spine
  */
 export interface CanonicalUnit {
@@ -47,4 +78,5 @@ export interface CanonicalUnit {
  */
 export interface ScripturalUnit {
   canonical: CanonicalUnit;
+  derivatives?: DerivativeLayers;
 }

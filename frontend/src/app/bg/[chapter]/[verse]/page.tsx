@@ -1,7 +1,7 @@
-import Link from "next/link";
 import { notFound } from "next/navigation";
 import { CHAPTERS } from "@/lib/constants";
 import { loadScripturalUnit } from "@/features/scripture/scripture.loader";
+import { VerseDisplay } from "@/features/scripture/components/organisms/VerseDisplay";
 
 export async function generateStaticParams() {
   const params = [];
@@ -37,59 +37,39 @@ export default async function VersePage({
   const hasPrevious = verseId > 1;
   const hasNext = verseId < chapterData.verseCount;
 
+  // Canonical scripts
   const devanagari =
     unit.canonical.scripts.find((s) => s.script === "devanagari")?.content ??
     "";
 
   const transliteration =
-    unit.canonical.scripts.find((s) => s.script === "iast")?.content ?? "";
+    unit.canonical.scripts.find((s) => s.script === "iast")?.content ??
+    "";
+
+  // Translation layer (first available)
+  const translationLayer =
+    unit.derivatives?.translations?.[0];
+
+  const translation = translationLayer
+    ? {
+        content: translationLayer.content,
+        author: translationLayer.author,
+      }
+    : undefined;
 
   return (
     <main className="min-h-screen pb-32">
       <div className="max-w-[720px] mx-auto px-6 py-20">
-
-        {/* Header */}
-        <div className="text-center mb-16">
-          <div className="text-sm text-gray-500 uppercase tracking-widest">
-            Chapter {chapterId}
-          </div>
-
-          <h1 className="text-3xl font-semibold mt-3">
-            {chapterData.englishTitle}
-          </h1>
-
-          <div className="mt-4 text-sm text-gray-500">
-            Verse {verseId}
-          </div>
-        </div>
-
-        {/* Devanagari */}
-        <div className="text-3xl text-center leading-loose whitespace-pre-line mb-12">
-          {devanagari}
-        </div>
-
-        {/* Transliteration */}
-        <div className="italic text-lg text-center text-gray-600 whitespace-pre-line mb-16">
-          {transliteration}
-        </div>
-
-        {/* Navigation */}
-        <div className="flex justify-between text-sm">
-          {hasPrevious ? (
-            <Link href={`/bg/${chapterId}/${verseId - 1}`}>
-              ← Previous
-            </Link>
-          ) : (
-            <div />
-          )}
-
-          {hasNext && (
-            <Link href={`/bg/${chapterId}/${verseId + 1}`}>
-              Next →
-            </Link>
-          )}
-        </div>
-
+        <VerseDisplay
+          chapter={chapterId}
+          verse={verseId}
+          title={chapterData.englishTitle}
+          devanagari={devanagari}
+          transliteration={transliteration}
+          translation={translation}
+          hasPrevious={hasPrevious}
+          hasNext={hasNext}
+        />
       </div>
     </main>
   );
