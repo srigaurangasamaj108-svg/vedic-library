@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { CHAPTERS } from "@/lib/constants";
-import { loadVerse } from "@/lib/loadVerse";
+import { loadScripturalUnit } from "@/features/scripture/scripture.loader";
 
 export async function generateStaticParams() {
   return CHAPTERS.map((c) => ({
@@ -15,56 +15,63 @@ export default async function ChapterPage({
   params: Promise<{ chapter: string }>;
 }) {
   const { chapter } = await params;
+
   const chapterId = Number(chapter);
 
   const chapterData = CHAPTERS.find((c) => c.id === chapterId);
   if (!chapterData) notFound();
 
-  const verses = await Promise.all(
-    Array.from({ length: chapterData.verseCount }, (_, i) =>
-      loadVerse(`bg.${chapterId}.${i + 1}`)
-    )
-  );
+  const verses = [];
+
+  for (let i = 1; i <= chapterData.verseCount; i++) {
+    const unit = await loadScripturalUnit(`bg.${chapterId}.${i}`);
+
+    const devanagari =
+      unit.canonical.scripts.find((s) => s.script === "devanagari")
+        ?.content ?? "";
+
+    verses.push({
+      verse: i,
+      text: devanagari,
+    });
+  }
 
   return (
     <main className="min-h-screen pb-32">
       <div className="max-w-[720px] mx-auto px-6 py-20">
 
-        <div className="text-center mb-20">
-          <div className="text-sm uppercase tracking-widest text-gray-500">
+        {/* Header */}
+        <div className="mb-16">
+          <div className="text-sm text-gray-500 uppercase tracking-widest">
             Chapter {chapterId}
           </div>
 
-          <h1 className="text-4xl font-bold mt-4">
+          <h1 className="text-3xl font-semibold mt-3">
             {chapterData.englishTitle}
           </h1>
 
-          <div className="italic text-gray-600 mt-3">
-            {chapterData.sanskritTitle}
-          </div>
-
-          <p className="mt-6 text-gray-700 leading-relaxed">
+          <div className="mt-4 text-gray-600">
             {chapterData.summary}
-          </p>
+          </div>
         </div>
 
-        <div className="space-y-20">
+        {/* Verse List */}
+        <div className="space-y-10">
           {verses.map((v) => (
-            <Link
-              key={v.uid}
-              href={`/bg/${v.chapter}/${v.verse}`}
-              className="block group"
-            >
-              <div className="text-sm text-gray-500 mb-4">
+            <div key={v.verse}>
+              <div className="text-sm text-gray-500 mb-2">
                 Verse {v.verse}
               </div>
 
-              <div className="text-2xl text-center leading-loose whitespace-pre-line group-hover:opacity-80 transition">
-                {v.devanagari}
-              </div>
+              <Link
+                href={`/bg/${chapterId}/${v.verse}`}
+                className="block text-xl leading-relaxed whitespace-pre-line hover:text-black transition-colors"
+              >
+                {v.text}
+              </Link>
 
-              <div className="border-b border-gray-300 mt-10"></div>
-            </Link>
+              <div className="border-b border-gray-200 mt-6" />
+            </div>
           ))}
         </div>
 

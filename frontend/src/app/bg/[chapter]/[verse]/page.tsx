@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import { loadVerse } from "@/lib/loadVerse";
 import { CHAPTERS } from "@/lib/constants";
+import { loadScripturalUnit } from "@/features/scripture/scripture.loader";
 
 export async function generateStaticParams() {
   const params = [];
@@ -31,16 +31,24 @@ export default async function VersePage({
   const chapterData = CHAPTERS.find((c) => c.id === chapterId);
   if (!chapterData) notFound();
 
-  const verseData = await loadVerse(`bg.${chapterId}.${verseId}`);
-  if (!verseData) notFound();
+  const unit = await loadScripturalUnit(`bg.${chapterId}.${verseId}`);
+  if (!unit) notFound();
 
   const hasPrevious = verseId > 1;
   const hasNext = verseId < chapterData.verseCount;
+
+  const devanagari =
+    unit.canonical.scripts.find((s) => s.script === "devanagari")?.content ??
+    "";
+
+  const transliteration =
+    unit.canonical.scripts.find((s) => s.script === "iast")?.content ?? "";
 
   return (
     <main className="min-h-screen pb-32">
       <div className="max-w-[720px] mx-auto px-6 py-20">
 
+        {/* Header */}
         <div className="text-center mb-16">
           <div className="text-sm text-gray-500 uppercase tracking-widest">
             Chapter {chapterId}
@@ -55,20 +63,25 @@ export default async function VersePage({
           </div>
         </div>
 
+        {/* Devanagari */}
         <div className="text-3xl text-center leading-loose whitespace-pre-line mb-12">
-          {verseData.devanagari}
+          {devanagari}
         </div>
 
+        {/* Transliteration */}
         <div className="italic text-lg text-center text-gray-600 whitespace-pre-line mb-16">
-          {verseData.transliteration}
+          {transliteration}
         </div>
 
+        {/* Navigation */}
         <div className="flex justify-between text-sm">
           {hasPrevious ? (
             <Link href={`/bg/${chapterId}/${verseId - 1}`}>
               ← Previous
             </Link>
-          ) : <div />}
+          ) : (
+            <div />
+          )}
 
           {hasNext && (
             <Link href={`/bg/${chapterId}/${verseId + 1}`}>
