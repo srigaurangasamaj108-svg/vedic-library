@@ -1,13 +1,8 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { CHAPTERS } from "@/lib/constants";
-import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { loadVerse } from "@/lib/loadVerse";
 
-/**
- * REQUIRED for static export
- * Generates /bg/1 ... /bg/18
- */
 export async function generateStaticParams() {
   return CHAPTERS.map((c) => ({
     chapter: c.id.toString(),
@@ -16,13 +11,11 @@ export async function generateStaticParams() {
 
 export default async function ChapterPage({
   params,
-  searchParams,
 }: {
-  params: { chapter: string };
-  searchParams?: { view?: string };
+  params: Promise<{ chapter: string }>;
 }) {
-  const chapterId = Number(params.chapter);
-  const isAdvanced = searchParams?.view === "advanced";
+  const { chapter } = await params;
+  const chapterId = Number(chapter);
 
   const chapterData = CHAPTERS.find((c) => c.id === chapterId);
   if (!chapterData) notFound();
@@ -34,32 +27,47 @@ export default async function ChapterPage({
   );
 
   return (
-    <main className="pb-32 min-h-screen font-serif">
-      <div className="max-w-[720px] mx-auto px-6 py-12">
-        <Breadcrumbs />
+    <main className="min-h-screen pb-32">
+      <div className="max-w-[720px] mx-auto px-6 py-20">
 
-        <div className="mb-16 text-center">
-          <h1 className="text-3xl md:text-5xl font-bold mb-4">
+        <div className="text-center mb-20">
+          <div className="text-sm uppercase tracking-widest text-gray-500">
+            Chapter {chapterId}
+          </div>
+
+          <h1 className="text-4xl font-bold mt-4">
             {chapterData.englishTitle}
           </h1>
-          <h2 className="text-xl italic">
+
+          <div className="italic text-gray-600 mt-3">
             {chapterData.sanskritTitle}
-          </h2>
+          </div>
+
+          <p className="mt-6 text-gray-700 leading-relaxed">
+            {chapterData.summary}
+          </p>
         </div>
 
-        {!isAdvanced && (
-          <div className="space-y-6">
-            {verses.map((v, i) => (
-              <Link
-                key={v.uid}
-                href={`/bg/${chapterId}/${i + 1}`}
-                className="block border-b py-4"
-              >
-                {v.translation?.text ?? "Translation not available"}
-              </Link>
-            ))}
-          </div>
-        )}
+        <div className="space-y-20">
+          {verses.map((v) => (
+            <Link
+              key={v.uid}
+              href={`/bg/${v.chapter}/${v.verse}`}
+              className="block group"
+            >
+              <div className="text-sm text-gray-500 mb-4">
+                Verse {v.verse}
+              </div>
+
+              <div className="text-2xl text-center leading-loose whitespace-pre-line group-hover:opacity-80 transition">
+                {v.devanagari}
+              </div>
+
+              <div className="border-b border-gray-300 mt-10"></div>
+            </Link>
+          ))}
+        </div>
+
       </div>
     </main>
   );

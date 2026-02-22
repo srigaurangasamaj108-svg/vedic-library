@@ -1,26 +1,29 @@
-/**
- * Browser-safe verse loader
- * Used ONLY by the frontend (GitHub Pages compatible)
- */
+import fs from "fs/promises";
+import path from "path";
 
 export async function loadVerse(uid: string) {
-  // Example UID: bg.2.47
+  // Example UID: bg.2.1
   const [text, chapter, verse] = uid.split(".");
 
   if (text !== "bg") {
-    throw new Error(`Unsupported UID in frontend: ${uid}`);
+    throw new Error(`Unsupported UID: ${uid}`);
   }
 
-  // Must match basePath in next.config.ts
-  const basePath = "/vedic-library";
+  // Absolute path to canonical JSON files
+  const filePath = path.join(
+    process.cwd(),
+    "../data/itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical",
+    `bg.${chapter}.${verse}.json`
+  );
 
-  const url = `${basePath}/data/itihasa/mahabharata/bg/${chapter}/${verse}.json`;
+  const file = await fs.readFile(filePath, "utf-8");
+  const canonical = JSON.parse(file);
 
-  const res = await fetch(url);
-
-  if (!res.ok) {
-    throw new Error(`Failed to fetch verse ${uid}`);
-  }
-
-  return res.json();
+  return {
+    uid,
+    chapter: canonical.location.chapter,
+    verse: canonical.location.verse,
+    devanagari: canonical.text.content,
+    transliteration: canonical.transliteration.content,
+  };
 }

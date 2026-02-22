@@ -1,28 +1,33 @@
-import type { Metadata } from "next";
 import "./globals.css";
-import { geistSans, crimsonPro } from "./fonts";
-import { TopBar } from "@/components/TopBar";
 
-export const metadata: Metadata = {
-  title: "Vedic Library | Bhagavad-gītā",
-  description: "A digital library for Vedic wisdom.",
+export const metadata = {
+  title: "Vedic Library",
+  description: "A digital library of Vedic literature",
 };
 
 export default function RootLayout({
   children,
-}: Readonly<{
+}: {
   children: React.ReactNode;
-}>) {
+}) {
   return (
     <html lang="en">
-      <body className={`${geistSans.variable} ${crimsonPro.variable} flex flex-col min-h-screen bg-[var(--bg-primary)]`}>
-        {/* Top Navigation Bar */}
-        <TopBar />
+      <body className="bg-[#f6f1e7] text-gray-900 font-serif">
+        <header className="border-b border-gray-300 bg-[#ede4d1]">
+          <div className="max-w-[1100px] mx-auto px-6 py-4 flex justify-between items-center">
+            <div className="text-lg font-semibold">
+              Vedic Library
+            </div>
 
-        {/* Main Content Area */}
-        <div className="flex-1 w-full mx-auto max-w-[900px]">
-          {children}
-        </div>
+            <nav className="space-x-6 text-sm">
+              <a href="/bg" className="hover:underline">
+                Bhagavad-gītā
+              </a>
+            </nav>
+          </div>
+        </header>
+
+        <main>{children}</main>
       </body>
     </html>
   );
