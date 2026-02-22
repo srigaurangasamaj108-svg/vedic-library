@@ -33,23 +33,31 @@ export function VerseDisplay({
   const { mode } = useScriptureMode();
 
   return (
-    <div>
-      <div className="text-center mb-16">
+    <div className="max-w-3xl mx-auto px-6 md:px-8 py-16">
+
+      {/* Header */}
+      <div className="text-center space-y-4 mb-20">
         <VerseLabel chapter={chapter} />
-        <h1 className="text-3xl font-semibold mt-3">
+
+        <h1 className="text-2xl md:text-3xl font-semibold tracking-tight">
           {title}
         </h1>
-        <div className="mt-4 text-sm text-gray-500">
+
+        <div className="text-sm text-gray-500 tracking-wide">
           Verse {verse}
         </div>
       </div>
 
+      {/* Devanagari */}
       {(mode.script === "devanagari" || mode.script === "both") && (
-        <ScriptBlock content={devanagari} />
+        <div className="space-y-8">
+          <ScriptBlock content={devanagari} />
+        </div>
       )}
 
+      {/* Transliteration */}
       {(mode.script === "iast" || mode.script === "both") && (
-        <div className="mt-12">
+        <div className="mt-14">
           <ScriptBlock
             content={transliteration}
             variant="secondary"
@@ -57,19 +65,25 @@ export function VerseDisplay({
         </div>
       )}
 
+      {/* Translation */}
       {translation && mode.translation !== "none" && (
-        <TranslationBlock
-          content={translation.content}
-          author={translation.author}
-        />
+        <div className="mt-16">
+          <TranslationBlock
+            content={translation.content}
+            author={translation.author}
+          />
+        </div>
       )}
 
-      <VerseNavigation
-        chapter={chapter}
-        verse={verse}
-        hasPrevious={hasPrevious}
-        hasNext={hasNext}
-      />
+      {/* Navigation */}
+      <div className="mt-20">
+        <VerseNavigation
+          chapter={chapter}
+          verse={verse}
+          hasPrevious={hasPrevious}
+          hasNext={hasNext}
+        />
+      </div>
     </div>
   );
 }

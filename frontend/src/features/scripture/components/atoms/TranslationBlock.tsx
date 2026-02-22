@@ -8,15 +8,18 @@ export function TranslationBlock({
   author,
 }: TranslationBlockProps) {
   return (
-    <div className="mt-16">
+    <div className="space-y-6">
 
       {author && (
-        <div className="text-sm text-gray-500 uppercase tracking-wide mb-4">
-          Translation — {author}
+        <div className="text-xs uppercase tracking-[0.15em] text-gray-500">
+          Translation
+          <span className="normal-case tracking-normal text-gray-400 ml-2">
+            — {author}
+          </span>
         </div>
       )}
 
-      <div className="text-lg leading-relaxed whitespace-pre-line">
+      <div className="text-lg md:text-xl leading-relaxed text-gray-800 whitespace-pre-line">
         {content}
       </div>
 
