@@ -1,21 +1,17 @@
 "use client";
 
-import { ScriptBlock } from "../atoms/ScriptBlock";
-import { VerseLabel } from "../atoms/VerseLabel";
-import { VerseNavigation } from "../molecules/VerseNavigation";
-import { TranslationBlock } from "../atoms/TranslationBlock";
-import { useScriptureMode } from "@/features/scripture/mode/mode.context";
+import Link from "next/link";
+import { useReadingMode } from "@/context/ReadingModeContext";
 
 interface VerseDisplayProps {
   chapter: number;
   verse: number;
   title: string;
-  devanagari: string;
-  transliteration: string;
-  translation?: {
-    content: string;
-    author?: string;
-  };
+  devanagari?: string;
+  transliteration?: string;
+  translation?: string;
+  synonyms?: any[];
+  exposition?: string;
   hasPrevious: boolean;
   hasNext: boolean;
 }
@@ -27,63 +23,164 @@ export function VerseDisplay({
   devanagari,
   transliteration,
   translation,
+  synonyms,
+  exposition,
   hasPrevious,
   hasNext,
 }: VerseDisplayProps) {
-  const { mode } = useScriptureMode();
+
+  const { scriptMode, showTranslation, studyMode } =
+    useReadingMode();
+
+  /* ========================================================= */
+  /*                 VISUAL STUDY MODE DIFFERENCE              */
+  /* ========================================================= */
+
+  const studyBackground =
+    studyMode === "devotional"
+      ? "bg-white"
+      : studyMode === "scholarly"
+      ? "bg-gray-100"
+      : "bg-yellow-100";
+
+  const studyTypography =
+    studyMode === "devotional"
+      ? "font-serif text-[20px] leading-relaxed"
+      : studyMode === "scholarly"
+      ? "text-[15px] leading-snug"
+      : "text-[17px] leading-relaxed";
+
+  /* ========================================================= */
+  /*                   SAFE SYNONYM RENDER                     */
+  /* ========================================================= */
+
+  function renderSynonyms() {
+    if (!synonyms || !Array.isArray(synonyms)) return null;
+
+    return (
+      <div className="mb-10">
+        <h2 className="text-sm font-bold uppercase tracking-widest text-green-700 mb-3">
+          Synonyms
+        </h2>
+
+        <p className="leading-relaxed text-gray-800">
+          {synonyms.map((item: any, index: number) => {
+
+            const term =
+              item.term ??
+              item.word ??
+              item.sanskrit ??
+              item.original ??
+              "";
+
+            const meaning =
+              item.meaning ??
+              item.definition ??
+              item.english ??
+              item.translation ??
+              "";
+
+            return (
+              <span key={index}>
+                <span className="italic">{term}</span>
+                {" — "}
+                {meaning}
+                {index !== synonyms.length - 1 && "; "}
+              </span>
+            );
+          })}
+        </p>
+      </div>
+    );
+  }
+
+  /* ========================================================= */
+  /*                         RENDER                            */
+  /* ========================================================= */
 
   return (
-    <div className="max-w-3xl mx-auto px-6 md:px-8 py-16">
+    <div
+      className={`max-w-4xl mx-auto p-8 rounded ${studyBackground} ${studyTypography}`}
+    >
 
-      {/* Header */}
-      <div className="text-center space-y-4 mb-20">
-        <VerseLabel chapter={chapter} />
+      <div className="mb-10">
+        <p className="text-sm text-gray-500">
+          Chapter {chapter}
+        </p>
 
-        <h1 className="text-2xl md:text-3xl font-semibold tracking-tight">
+        <h1 className="text-4xl font-semibold mb-2">
           {title}
         </h1>
 
-        <div className="text-sm text-gray-500 tracking-wide">
+        <p className="text-lg text-gray-700">
           Verse {verse}
-        </div>
+        </p>
       </div>
 
-      {/* Devanagari */}
-      {(mode.script === "devanagari" || mode.script === "both") && (
-        <div className="space-y-8">
-          <ScriptBlock content={devanagari} />
+      {/* DEVANAGARI */}
+      {devanagari &&
+        (scriptMode === "devanagari" ||
+          scriptMode === "both") && (
+          <div className="mb-8 text-center">
+            <p className="text-3xl font-serif">
+              {devanagari}
+            </p>
+          </div>
+        )}
+
+      {/* IAST */}
+      {transliteration &&
+        (scriptMode === "iast" ||
+          scriptMode === "both") && (
+          <div className="mb-8 text-center">
+            <p className="italic text-gray-600 text-lg">
+              {transliteration}
+            </p>
+          </div>
+        )}
+
+      {renderSynonyms()}
+
+      {translation && showTranslation && (
+        <div className="mb-10">
+          <h2 className="text-sm font-bold uppercase tracking-widest text-green-700 mb-3">
+            Translation
+          </h2>
+          <p className="text-red-900 leading-relaxed">
+            {translation}
+          </p>
         </div>
       )}
 
-      {/* Transliteration */}
-      {(mode.script === "iast" || mode.script === "both") && (
-        <div className="mt-14">
-          <ScriptBlock
-            content={transliteration}
-            variant="secondary"
-          />
+      {exposition && (
+        <div className="mb-10">
+          <h2 className="text-sm font-bold uppercase tracking-widest text-green-700 mb-3">
+            Purport
+          </h2>
+          <p className="text-gray-800 leading-relaxed whitespace-pre-line">
+            {exposition}
+          </p>
         </div>
       )}
 
-      {/* Translation */}
-      {translation && mode.translation !== "none" && (
-        <div className="mt-16">
-          <TranslationBlock
-            content={translation.content}
-            author={translation.author}
-          />
-        </div>
-      )}
+      <div className="flex justify-between mt-12 text-sm">
+        {hasPrevious ? (
+          <Link href={`/bg/${chapter}/${verse - 1}`}>
+            ← Previous
+          </Link>
+        ) : (
+          <span />
+        )}
 
-      {/* Navigation */}
-      <div className="mt-20">
-        <VerseNavigation
-          chapter={chapter}
-          verse={verse}
-          hasPrevious={hasPrevious}
-          hasNext={hasNext}
-        />
+        {hasNext ? (
+          <Link href={`/bg/${chapter}/${verse + 1}`}>
+            Next →
+          </Link>
+        ) : (
+          <span />
+        )}
       </div>
+
     </div>
   );
 }

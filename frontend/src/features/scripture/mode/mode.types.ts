@@ -1,14 +1,17 @@
 export type ScriptMode = "devanagari" | "iast" | "both";
 
-export type TranslationMode = "primary" | "all" | "none";
+export type TranslationMode = "show" | "none";
 
-export type CommentaryMode = "none" | "primary" | "all";
+export type PurportMode = "hidden" | "collapsed" | "visible";
 
-export type DensityMode = "normal" | "scholarly";
+export type StudyProfile =
+  | "devotional"
+  | "scholarly"
+  | "comparative";
 
 export interface ScriptureMode {
+  studyProfile: StudyProfile;
   script: ScriptMode;
   translation: TranslationMode;
-  commentary: CommentaryMode;
-  density: DensityMode;
+  purport: PurportMode;
 }

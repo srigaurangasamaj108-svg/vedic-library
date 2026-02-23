@@ -1,54 +1,34 @@
 "use client";
 
-import { useScriptureMode } from "./mode.context";
+import { useReadingMode } from "@/context/ReadingModeContext";
 
 export function ScriptToggle() {
-  const { mode, setMode } = useScriptureMode();
-
-  function updateScript(script: "devanagari" | "iast" | "both") {
-    setMode({
-      ...mode,
-      script,
-    });
-  }
-
-  const base =
-    "px-3 py-1 text-sm border rounded transition-colors";
-
-  const active =
-    "bg-black text-white border-black";
-
-  const inactive =
-    "bg-white text-gray-600 border-gray-300 hover:bg-gray-100";
+  const { scriptMode, setScriptMode } = useReadingMode();
 
   return (
-    <div className="flex gap-2">
+    <div className="flex gap-2 text-sm">
+
       <button
-        onClick={() => updateScript("devanagari")}
-        className={`${base} ${
-          mode.script === "devanagari" ? active : inactive
-        }`}
+        onClick={() => setScriptMode("devanagari")}
+        className={scriptMode === "devanagari" ? "font-bold underline" : ""}
       >
         Devanagari
       </button>
 
       <button
-        onClick={() => updateScript("iast")}
-        className={`${base} ${
-          mode.script === "iast" ? active : inactive
-        }`}
+        onClick={() => setScriptMode("iast")}
+        className={scriptMode === "iast" ? "font-bold underline" : ""}
       >
         IAST
       </button>
 
       <button
-        onClick={() => updateScript("both")}
-        className={`${base} ${
-          mode.script === "both" ? active : inactive
-        }`}
+        onClick={() => setScriptMode("both")}
+        className={scriptMode === "both" ? "font-bold underline" : ""}
       >
         Both
       </button>
+
     </div>
   );
 }

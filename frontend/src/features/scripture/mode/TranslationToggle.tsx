@@ -1,51 +1,20 @@
 "use client";
 
-import { useScriptureMode } from "./mode.context";
+import { useReadingMode } from "@/context/ReadingModeContext";
 
 export function TranslationToggle() {
-  const { mode, setMode } = useScriptureMode();
-
-  function updateTranslation(
-    translation: "primary" | "none"
-  ) {
-    setMode({
-      ...mode,
-      translation,
-    });
-  }
-
-  const base =
-    "px-3 py-1 text-sm border rounded transition-colors";
-
-  const active =
-    "bg-black text-white border-black";
-
-  const inactive =
-    "bg-white text-gray-600 border-gray-300 hover:bg-gray-100";
+  const { showTranslation, setShowTranslation } = useReadingMode();
 
   return (
-    <div className="flex gap-2">
-      <button
-        onClick={() => updateTranslation("primary")}
-        className={`${base} ${
-          mode.translation === "primary"
-            ? active
-            : inactive
-        }`}
-      >
-        Translation
-      </button>
-
-      <button
-        onClick={() => updateTranslation("none")}
-        className={`${base} ${
-          mode.translation === "none"
-            ? active
-            : inactive
-        }`}
-      >
-        Hide
-      </button>
-    </div>
+    <button
+      onClick={() => setShowTranslation(!showTranslation)}
+      className={`text-sm px-2 py-1 rounded border transition-colors ${
+        showTranslation
+          ? "bg-gray-100 border-gray-300"
+          : "bg-white border-gray-200"
+      }`}
+    >
+      Translation {showTranslation ? "Hide" : "Show"}
+    </button>
   );
 }

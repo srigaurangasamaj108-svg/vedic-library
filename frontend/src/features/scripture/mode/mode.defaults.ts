@@ -1,8 +1,8 @@
 import { ScriptureMode } from "./mode.types";
 
 export const defaultMode: ScriptureMode = {
+  studyProfile: "devotional",
   script: "both",
-  translation: "primary",
-  commentary: "none",
-  density: "normal",
+  translation: "show",
+  purport: "collapsed",
 };

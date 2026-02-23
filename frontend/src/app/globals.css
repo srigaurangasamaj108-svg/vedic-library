@@ -2,61 +2,61 @@
 @tailwind components;
 @tailwind utilities;
 
+/* =========================================
+   ROOT THEME VARIABLES
+========================================= */
+
 :root {
-  /* Vedabase Authentic Palette */
-  --bg-primary: #fceecb;
-  /* Warm Parchment Beige */
-  --bg-secondary: #eee9d5;
-  /* Slightly darker for panels */
+  /* Vedabase Inspired Palette */
+  --bg-primary: #f6f1e6;       /* Sidebar parchment */
+  --bg-reading: #ffffff;      /* Reading canvas */
   --header-bg: #e6a75a;
-  /* Saffron / Light Ochre */
   --text-primary: #2b2218;
-  /* Deep Brown / Near Black */
   --text-secondary: #5c4d3c;
-  /* Dark Ochre Brown */
   --accent-red: #a63410;
-  /* Muted Red for Sanskrit */
   --border-color: #d6ccb5;
 
-  /* Fonts */
   --font-sans: var(--font-geist-sans), system-ui, sans-serif;
   --font-serif: var(--font-crimson-pro), Georgia, "Times New Roman", serif;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    /* Muted Dark Mode for Reading */
-    --bg-primary: #2b2724;
-    --bg-secondary: #383330;
-    --header-bg: #8c5e2a;
-    --text-primary: #e8e1d5;
-    --text-secondary: #b0a496;
-    --accent-red: #e07a5f;
-    --border-color: #4a423b;
-  }
-}
+/* =========================================
+   BASE RESET
+========================================= */
 
 * {
   box-sizing: border-box;
-  padding: 0;
   margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  height: 100%;
 }
 
 body {
   background-color: var(--bg-primary);
   color: var(--text-primary);
   font-family: var(--font-serif);
-  /* Base font is serif now per audit */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
+/* IMPORTANT:
+   DO NOT use overflow-hidden on body.
+   Panels control their own scrolling.
+*/
+
 a {
-  color: inherit;
   text-decoration: none;
+  color: inherit;
 }
 
-/* Typography Overrides */
+/* =========================================
+   TYPOGRAPHY
+========================================= */
+
 h1,
 h2,
 h3,
@@ -64,84 +64,55 @@ h4,
 h5,
 h6 {
   font-family: var(--font-serif);
-  /* Headers are Serif in Vedabase */
   font-weight: 700;
 }
 
-/* Verse Text Specifics */
+p {
+  line-height: 1.7;
+}
+
 .verse-text {
   font-family: var(--font-serif);
 }
 
-/* ... existing styles ... */
+/* =========================================
+   SANSKRIT RICH TEXT PROCESSOR STYLES
+========================================= */
 
-/* Phase 5: Golden Portal Utilities */
-@layer utilities {
-  .text-gold-gradient {
-    background: linear-gradient(135deg, #ffd700 0%, #d4af37 50%, #b8860b 100%);
-    -webkit-background-clip: text;
-    background-clip: text;
-    color: transparent;
-  }
-
-  .bg-gold-gradient {
-    background: linear-gradient(135deg, #f3e5ab 0%, #e6a75a 100%);
-  }
-
-  .shadow-glow {
-    box-shadow: 0 0 20px rgba(212, 175, 55, 0.3);
-  }
+.sanskrit-term {
+  color: var(--accent-red);
+  font-style: italic;
 }
 
-/* Animations */
-@keyframes float {
-  0% {
-    transform: translateY(0px);
-  }
+/* =========================================
+   RESIZABLE PANEL HANDLE STYLING
+========================================= */
 
-  50% {
-    transform: translateY(-10px);
-  }
-
-  100% {
-    transform: translateY(0px);
-  }
+[data-slot="resizable-handle"] {
+  background-color: var(--border-color);
+  transition: background-color 0.2s ease;
 }
 
-.animate-float {
-  animation: float 6s ease-in-out infinite;
+[data-slot="resizable-handle"]:hover {
+  background-color: #b9ab8f;
 }
 
-@keyframes fade-in-up {
-  0% {
-    opacity: 0;
-    transform: translateY(20px);
-  }
+/* =========================================
+   SCROLLBAR POLISH
+========================================= */
 
-  100% {
-    opacity: 1;
-    transform: translateY(0);
-  }
+[data-slot="scroll-area-thumb"] {
+  background-color: #c5bba6;
 }
 
-.animate-fade-in-up {
-  animation: fade-in-up 0.8s ease-out forwards;
+[data-slot="scroll-area-thumb"]:hover {
+  background-color: #b0a58f;
 }
 
-@keyframes pulse-glow {
+/* =========================================
+   TRANSITIONS
+========================================= */
 
-  0%,
-  100% {
-    opacity: 0.8;
-    filter: brightness(1);
-  }
-
-  50% {
-    opacity: 1;
-    filter: brightness(1.2);
-  }
-}
-
-.animate-pulse-glow {
-  animation: pulse-glow 3s ease-in-out infinite;
+.transition-smooth {
+  transition: all 0.25s ease;
 }

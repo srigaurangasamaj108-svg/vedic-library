@@ -1,12 +1,11 @@
 import "./globals.css";
 import type { Metadata } from "next";
-import { ScriptureModeProvider } from "@/features/scripture/mode/mode.context";
-import { ScriptToggle } from "@/features/scripture/mode/ScriptToggle";
-import { TranslationToggle } from "@/features/scripture/mode/TranslationToggle";
+import { LayoutShell } from "@/components/LayoutShell";
+import { ReadingModeProvider } from "@/context/ReadingModeContext";
 
 export const metadata: Metadata = {
   title: "Vedic Library",
-  description: "A canonical scripture archive",
+  description: "Bhagavad-gītā As It Is — Structured Study Edition",
 };
 
 export default function RootLayout({
@@ -16,32 +15,13 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className="bg-gray-50 text-gray-900">
+      <body>
 
-        <ScriptureModeProvider>
-
-          {/* Header */}
-          <header className="border-b bg-white">
-            <div className="max-w-[1100px] mx-auto px-6 py-4 flex justify-between items-center">
-
-              <div className="font-semibold tracking-wide">
-                Vedic Library
-              </div>
-
-              <div className="flex items-center gap-8">
-                <ScriptToggle />
-                <TranslationToggle />
-              </div>
-
-            </div>
-          </header>
-
-          {/* Main Content */}
-          <main>
+        <ReadingModeProvider>
+          <LayoutShell>
             {children}
-          </main>
-
-        </ScriptureModeProvider>
+          </LayoutShell>
+        </ReadingModeProvider>
 
       </body>
     </html>
