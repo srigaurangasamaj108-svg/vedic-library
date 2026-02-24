@@ -1,11 +1,10 @@
 import "./globals.css";
 import type { Metadata } from "next";
-import { LayoutShell } from "@/components/layout/LayoutShell";
-import { ReadingModeProvider } from "@/context/ReadingModeContext";
+import { GlobalHeader } from "@/components/layout/GlobalHeader";
 
 export const metadata: Metadata = {
   title: "Vedic Library",
-  description: "Bhagavad-gītā As It Is — Structured Study Edition",
+  description: "Structured Vedic Knowledge Platform",
 };
 
 export default function RootLayout({
@@ -15,14 +14,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body>
-
-        <ReadingModeProvider>
-          <LayoutShell>
-            {children}
-          </LayoutShell>
-        </ReadingModeProvider>
-
+      <body className="bg-[#e8e2d3]">
+        <GlobalHeader />
+        {children}
       </body>
     </html>
   );

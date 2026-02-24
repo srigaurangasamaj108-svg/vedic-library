@@ -19,7 +19,7 @@ export function LayoutShell({ children }: { children: React.ReactNode }) {
   const [showCorpus, setShowCorpus] = useState(true);
 
   return (
-    <div className="h-screen w-screen flex flex-col bg-[#e8e2d3]">
+    <div className="flex flex-col min-h-screen bg-[#e8e2d3]">
 
       {/* ================= HEADER ================= */}
       <header className="px-8 pt-8 pb-6 border-b border-black/10 bg-[#e6dfcf] shadow-sm">
