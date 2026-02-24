@@ -1,38 +1,120 @@
 "use client";
 
-import { useState } from "react";
+import { useState, useMemo } from "react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
+import { CORPUS_STRUCTURE, CorpusNode } from "@/lib/corpus.structure";
 import { CHAPTERS } from "@/lib/constants";
 import { ChevronRight, ChevronDown } from "lucide-react";
 
+/**
+ * CorpusTree
+ * ----------------------------------------
+ * Recursive canonical navigation.
+ * Reads exclusively from CORPUS_STRUCTURE.
+ */
+
 export function CorpusTree() {
   const pathname = usePathname();
-  const [open, setOpen] = useState(true);
 
   return (
-    <div className="text-sm leading-relaxed">
+    <div className="text-sm font-serif leading-relaxed text-[#3b3126]">
+      {CORPUS_STRUCTURE.map((node) => (
+        <CorpusNodeItem
+          key={node.id}
+          node={node}
+          pathname={pathname}
+          depth={0}
+        />
+      ))}
+    </div>
+  );
+}
 
-      {/* Root */}
+/* --------------------------------------- */
+/* Recursive Node Renderer */
+/* --------------------------------------- */
+
+function CorpusNodeItem({
+  node,
+  pathname,
+  depth,
+}: {
+  node: CorpusNode;
+  pathname: string | null;
+  depth: number;
+}) {
+  const hasChildren = node.children && node.children.length > 0;
+
+  const isActive =
+    node.route && pathname?.startsWith(node.route);
+
+  const isDescendantActive = useMemo(() => {
+    if (!node.children) return false;
+
+    return node.children.some((child) =>
+      child.route
+        ? pathname?.startsWith(child.route)
+        : false
+    );
+  }, [node.children, pathname]);
+
+  const [open, setOpen] = useState(
+    Boolean(isActive || isDescendantActive)
+  );
+
+  const paddingLeft = depth * 14;
+
+  return (
+    <div style={{ paddingLeft }}>
+
+      {/* Node Header */}
       <div
-        onClick={() => setOpen(!open)}
-        className="flex items-center gap-2 cursor-pointer font-semibold py-2 px-2 hover:bg-gray-100 rounded"
+        onClick={() => hasChildren && setOpen(!open)}
+        className={`flex items-center gap-2 py-2 px-2 rounded-md cursor-pointer transition-colors hover:bg-[#e4dbc7] ${
+          isActive ? "font-semibold text-[#2b2218]" : ""
+        }`}
       >
-        {open ? (
-          <ChevronDown className="w-4 h-4 text-gray-500" />
-        ) : (
-          <ChevronRight className="w-4 h-4 text-gray-500" />
+        {hasChildren && (
+          open ? (
+            <ChevronDown className="w-4 h-4 text-[#8c7a5a]" />
+          ) : (
+            <ChevronRight className="w-4 h-4 text-[#8c7a5a]" />
+          )
         )}
-        <span className="tracking-wide">Bhagavad-gītā</span>
+
+        {node.route ? (
+          <Link href={node.route} className="flex-1">
+            {node.label}
+          </Link>
+        ) : (
+          <span className="flex-1">{node.label}</span>
+        )}
       </div>
 
-      {open && (
-        <div className="ml-3 border-l border-gray-200 pl-3 space-y-1">
+      {/* Children */}
+      {hasChildren && open && (
+        <div>
+          {node.children!.map((child) => (
+            <CorpusNodeItem
+              key={child.id}
+              node={child}
+              pathname={pathname}
+              depth={depth + 1}
+            />
+          ))}
+        </div>
+      )}
+
+      {/* Chapter Injection (only for chaptered texts) */}
+      {node.chaptered && open && node.route && (
+        <div style={{ paddingLeft: 18 }}>
           {CHAPTERS.map((chapter) => (
             <ChapterNode
               key={chapter.id}
               chapter={chapter}
               pathname={pathname}
+              baseRoute={node.route}
             />
           ))}
         </div>
@@ -41,59 +123,70 @@ export function CorpusTree() {
   );
 }
 
+/* --------------------------------------- */
+/* Chapter + Verse Renderer */
+/* --------------------------------------- */
+
 function ChapterNode({
   chapter,
   pathname,
+  baseRoute,
 }: {
-  chapter: (typeof CHAPTERS)[0];
+  chapter: { id: number; verseCount: number };
   pathname: string | null;
+  baseRoute: string;
 }) {
-  const isActiveChapter = pathname?.startsWith(`/bg/${chapter.id}`);
-  const [expanded, setExpanded] = useState(isActiveChapter);
+  const chapterRoute = `${baseRoute}/${chapter.id}`;
+  const isActiveChapter =
+    pathname?.startsWith(chapterRoute);
+
+  const [expanded, setExpanded] = useState(
+    Boolean(isActiveChapter)
+  );
 
   return (
     <div>
 
-      {/* Chapter */}
+      {/* Chapter Header */}
       <div
         onClick={() => setExpanded(!expanded)}
-        className="flex items-center gap-2 cursor-pointer py-1 px-2 hover:bg-gray-100 rounded"
+        className="flex items-center gap-2 py-2 px-2 rounded-md cursor-pointer hover:bg-[#e4dbc7]"
       >
         {expanded ? (
-          <ChevronDown className="w-4 h-4 text-gray-400" />
+          <ChevronDown className="w-4 h-4 text-[#a08d6a]" />
         ) : (
-          <ChevronRight className="w-4 h-4 text-gray-400" />
+          <ChevronRight className="w-4 h-4 text-[#a08d6a]" />
         )}
-        <span className="font-medium text-gray-800">
+
+        <Link href={chapterRoute} className="flex-1">
           Chapter {chapter.id}
-        </span>
+        </Link>
       </div>
 
       {/* Verses */}
       {expanded && (
-        <div className="ml-5 space-y-0.5">
+        <div className="ml-6 space-y-1">
           {Array.from({ length: chapter.verseCount }).map((_, i) => {
-            const verseNumber = i + 1;
-            const href = `/bg/${chapter.id}/${verseNumber}`;
+            const verse = i + 1;
+            const href = `${baseRoute}/${chapter.id}/${verse}`;
             const active = pathname === href;
 
             return (
               <Link
-                key={verseNumber}
+                key={verse}
                 href={href}
-                className={`block px-2 py-0.5 rounded text-xs transition-all ${
+                className={`block px-2 py-1 rounded-md text-xs transition-colors ${
                   active
-                    ? "bg-amber-100 border-l-4 border-amber-600 text-gray-900 font-semibold"
-                    : "text-gray-600 hover:bg-gray-100"
+                    ? "bg-[#d8cbb2] font-semibold text-[#2b2218]"
+                    : "hover:bg-[#e4dbc7] text-[#6b5b45]"
                 }`}
               >
-                {chapter.id}.{verseNumber}
+                {chapter.id}.{verse}
               </Link>
             );
           })}
         </div>
       )}
-
     </div>
   );
 }

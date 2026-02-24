@@ -1,22 +1,25 @@
 "use client";
 
 import Link from "next/link";
+import { ScriptBlock } from "../atoms/ScriptBlock";
 import { useReadingMode } from "@/context/ReadingModeContext";
 
 interface VerseDisplayProps {
+  canon: string;
   chapter: number;
   verse: number;
   title: string;
-  devanagari?: string;
-  transliteration?: string;
-  translation?: string;
-  synonyms?: any[];
-  exposition?: string;
+  devanagari: string;
+  transliteration: string;
+  translation: string;
+  synonyms: any[];
+  exposition: string;
   hasPrevious: boolean;
   hasNext: boolean;
 }
 
 export function VerseDisplay({
+  canon,
   chapter,
   verse,
   title,
@@ -28,157 +31,99 @@ export function VerseDisplay({
   hasPrevious,
   hasNext,
 }: VerseDisplayProps) {
+  const { scriptMode, showTranslation } = useReadingMode();
 
-  const { scriptMode, showTranslation, studyMode } =
-    useReadingMode();
-
-  /* ========================================================= */
-  /*                 VISUAL STUDY MODE DIFFERENCE              */
-  /* ========================================================= */
-
-  const studyBackground =
-    studyMode === "devotional"
-      ? "bg-white"
-      : studyMode === "scholarly"
-      ? "bg-gray-100"
-      : "bg-yellow-100";
-
-  const studyTypography =
-    studyMode === "devotional"
-      ? "font-serif text-[20px] leading-relaxed"
-      : studyMode === "scholarly"
-      ? "text-[15px] leading-snug"
-      : "text-[17px] leading-relaxed";
-
-  /* ========================================================= */
-  /*                   SAFE SYNONYM RENDER                     */
-  /* ========================================================= */
-
-  function renderSynonyms() {
-    if (!synonyms || !Array.isArray(synonyms)) return null;
-
-    return (
-      <div className="mb-10">
-        <h2 className="text-sm font-bold uppercase tracking-widest text-green-700 mb-3">
-          Synonyms
-        </h2>
-
-        <p className="leading-relaxed text-gray-800">
-          {synonyms.map((item: any, index: number) => {
-
-            const term =
-              item.term ??
-              item.word ??
-              item.sanskrit ??
-              item.original ??
-              "";
-
-            const meaning =
-              item.meaning ??
-              item.definition ??
-              item.english ??
-              item.translation ??
-              "";
-
-            return (
-              <span key={index}>
-                <span className="italic">{term}</span>
-                {" — "}
-                {meaning}
-                {index !== synonyms.length - 1 && "; "}
-              </span>
-            );
-          })}
-        </p>
-      </div>
-    );
-  }
-
-  /* ========================================================= */
-  /*                         RENDER                            */
-  /* ========================================================= */
+  const currentLabel = `${chapter}.${verse}`;
 
   return (
-    <div
-      className={`max-w-4xl mx-auto p-8 rounded ${studyBackground} ${studyTypography}`}
-    >
+    <div className="max-w-3xl mx-auto px-6 pb-32">
 
-      <div className="mb-10">
-        <p className="text-sm text-gray-500">
-          Chapter {chapter}
-        </p>
-
-        <h1 className="text-4xl font-semibold mb-2">
-          {title}
+      {/* Verse Heading */}
+      <div className="text-center mb-10">
+        <h1 className="text-3xl font-serif font-bold">
+          Bg. {currentLabel}
         </h1>
-
-        <p className="text-lg text-gray-700">
-          Verse {verse}
+        <p className="text-sm text-[#6b5b45] mt-2">
+          {title}
         </p>
       </div>
 
-      {/* DEVANAGARI */}
-      {devanagari &&
-        (scriptMode === "devanagari" ||
-          scriptMode === "both") && (
-          <div className="mb-8 text-center">
-            <p className="text-3xl font-serif">
-              {devanagari}
-            </p>
-          </div>
+      {/* Sanskrit */}
+      <div className="text-center space-y-6 leading-relaxed mb-12">
+        {scriptMode !== "iast" && (
+          <ScriptBlock content={devanagari} />
         )}
-
-      {/* IAST */}
-      {transliteration &&
-        (scriptMode === "iast" ||
-          scriptMode === "both") && (
-          <div className="mb-8 text-center">
-            <p className="italic text-gray-600 text-lg">
-              {transliteration}
-            </p>
-          </div>
+        {scriptMode !== "devanagari" && (
+          <ScriptBlock content={transliteration} />
         )}
+      </div>
 
-      {renderSynonyms()}
+      {/* Synonyms */}
+      {synonyms.length > 0 && (
+        <div className="mb-12">
+          <h2 className="text-2xl font-serif font-semibold text-center mb-4">
+            Synonyms
+          </h2>
+          <div className="text-base leading-7">
+            {synonyms.map((item, i) => (
+              <span key={i}>
+                <span className="italic">{item.sanskrit}</span>
+                {" — "}
+                {item.meaning}
+                {"; "}
+              </span>
+            ))}
+          </div>
+        </div>
+      )}
 
-      {translation && showTranslation && (
-        <div className="mb-10">
-          <h2 className="text-sm font-bold uppercase tracking-widest text-green-700 mb-3">
+      {/* Translation */}
+      {showTranslation && translation && (
+        <div className="mb-12">
+          <h2 className="text-2xl font-serif font-semibold text-center mb-4">
             Translation
           </h2>
-          <p className="text-red-900 leading-relaxed">
+          <div className="text-lg leading-8">
             {translation}
-          </p>
+          </div>
         </div>
       )}
 
+      {/* Purport */}
       {exposition && (
-        <div className="mb-10">
-          <h2 className="text-sm font-bold uppercase tracking-widest text-green-700 mb-3">
+        <div className="mb-20">
+          <h2 className="text-2xl font-serif font-semibold text-center mb-4">
             Purport
           </h2>
-          <p className="text-gray-800 leading-relaxed whitespace-pre-line">
+          <div className="text-lg leading-9 font-serif">
             {exposition}
-          </p>
+          </div>
         </div>
       )}
 
-      <div className="flex justify-between mt-12 text-sm">
-        {hasPrevious ? (
-          <Link href={`/bg/${chapter}/${verse - 1}`}>
-            ← Previous
-          </Link>
-        ) : (
-          <span />
-        )}
+      {/* Fixed Navigation */}
+      <div className="fixed bottom-0 left-0 right-0 bg-[#e8e2d3] border-t border-black/10 py-4">
+        <div className="max-w-3xl mx-auto flex justify-between px-6 text-sm">
 
-        {hasNext ? (
-          <Link href={`/bg/${chapter}/${verse + 1}`}>
-            Next →
-          </Link>
-        ) : (
-          <span />
-        )}
+          {hasPrevious ? (
+            <Link
+              href={`/library/${canon}/${chapter}/${verse - 1}`}
+              className="hover:underline"
+            >
+              ← {chapter}.{verse - 1}
+            </Link>
+          ) : <div />}
+
+          {hasNext && (
+            <Link
+              href={`/library/${canon}/${chapter}/${verse + 1}`}
+              className="hover:underline"
+            >
+              {chapter}.{verse + 1} →
+            </Link>
+          )}
+
+        </div>
       </div>
 
     </div>

@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import { Button } from "@/components/ui/button";
 
 export function CorpusToggle({ onToggle }: { onToggle: (v: boolean) => void }) {
   const [visible, setVisible] = useState(true);
@@ -12,11 +13,12 @@ export function CorpusToggle({ onToggle }: { onToggle: (v: boolean) => void }) {
   }
 
   return (
-    <button
+    <Button
+      size="sm"
+      variant={visible ? "default" : "outline"}
       onClick={toggle}
-      className="text-sm px-2 py-1 border rounded bg-white"
     >
       {visible ? "Hide Corpus" : "Show Corpus"}
-    </button>
+    </Button>
   );
 }

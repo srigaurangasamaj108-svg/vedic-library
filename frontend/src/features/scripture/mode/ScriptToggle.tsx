@@ -1,33 +1,37 @@
 "use client";
 
 import { useReadingMode } from "@/context/ReadingModeContext";
+import { Button } from "@/components/ui/button";
 
 export function ScriptToggle() {
   const { scriptMode, setScriptMode } = useReadingMode();
 
   return (
-    <div className="flex gap-2 text-sm">
+    <div className="flex gap-2">
 
-      <button
+      <Button
+        size="sm"
+        variant={scriptMode === "devanagari" ? "default" : "outline"}
         onClick={() => setScriptMode("devanagari")}
-        className={scriptMode === "devanagari" ? "font-bold underline" : ""}
       >
         Devanagari
-      </button>
+      </Button>
 
-      <button
+      <Button
+        size="sm"
+        variant={scriptMode === "iast" ? "default" : "outline"}
         onClick={() => setScriptMode("iast")}
-        className={scriptMode === "iast" ? "font-bold underline" : ""}
       >
         IAST
-      </button>
+      </Button>
 
-      <button
+      <Button
+        size="sm"
+        variant={scriptMode === "both" ? "default" : "outline"}
         onClick={() => setScriptMode("both")}
-        className={scriptMode === "both" ? "font-bold underline" : ""}
       >
         Both
-      </button>
+      </Button>
 
     </div>
   );

@@ -1,6 +1,6 @@
 import "./globals.css";
 import type { Metadata } from "next";
-import { LayoutShell } from "@/components/LayoutShell";
+import { LayoutShell } from "@/components/layout/LayoutShell";
 import { ReadingModeProvider } from "@/context/ReadingModeContext";
 
 export const metadata: Metadata = {

@@ -1,33 +1,42 @@
-import Link from "next/link";
+import Link from "next/link"
+import { Button } from "@/components/ui/button"
 
 interface VerseNavigationProps {
-  chapter: number;
-  verse: number;
-  hasPrevious: boolean;
-  hasNext: boolean;
+  canon: string
+  chapter: number
+  verse: number
+  hasPrevious: boolean
+  hasNext: boolean
 }
 
 export function VerseNavigation({
+  canon,
   chapter,
   verse,
   hasPrevious,
   hasNext,
 }: VerseNavigationProps) {
   return (
-    <div className="flex justify-between text-sm mt-16">
+    <div className="flex justify-between items-center mt-16 w-full max-w-3xl mx-auto">
       {hasPrevious ? (
-        <Link href={`/bg/${chapter}/${verse - 1}`}>
-          ← Previous
-        </Link>
+        <Button asChild variant="outline">
+          <Link href={`/library/${canon}/${chapter}/${verse - 1}`}>
+            ← Previous
+          </Link>
+        </Button>
       ) : (
         <div />
       )}
 
-      {hasNext && (
-        <Link href={`/bg/${chapter}/${verse + 1}`}>
-          Next →
-        </Link>
+      {hasNext ? (
+        <Button asChild variant="outline">
+          <Link href={`/library/${canon}/${chapter}/${verse + 1}`}>
+            Next →
+          </Link>
+        </Button>
+      ) : (
+        <div />
       )}
     </div>
-  );
+  )
 }

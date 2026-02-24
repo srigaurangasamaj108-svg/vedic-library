@@ -1,20 +1,18 @@
 "use client";
 
 import { useReadingMode } from "@/context/ReadingModeContext";
+import { Button } from "@/components/ui/button";
 
 export function TranslationToggle() {
   const { showTranslation, setShowTranslation } = useReadingMode();
 
   return (
-    <button
+    <Button
+      size="sm"
+      variant={showTranslation ? "default" : "outline"}
       onClick={() => setShowTranslation(!showTranslation)}
-      className={`text-sm px-2 py-1 rounded border transition-colors ${
-        showTranslation
-          ? "bg-gray-100 border-gray-300"
-          : "bg-white border-gray-200"
-      }`}
     >
       Translation {showTranslation ? "Hide" : "Show"}
-    </button>
+    </Button>
   );
 }

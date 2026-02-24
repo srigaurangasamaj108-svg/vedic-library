@@ -1,45 +1,27 @@
 "use client";
 
 import { useReadingMode } from "@/context/ReadingModeContext";
+import { Button } from "@/components/ui/button";
 
 type StudyMode = "devotional" | "scholarly" | "comparative";
 
 export function StudyModeToggle() {
   const { studyMode, setStudyMode } = useReadingMode();
 
-console.log("Study mode:", studyMode);   // ← ADD IT HERE
-
-  const buttonClass = (value: StudyMode) =>
-    `px-2 py-1 text-sm border rounded transition-colors ${
-      studyMode === value
-        ? "bg-black text-white"
-        : "bg-white text-black border-gray-300"
-    }`;
+  const modes: StudyMode[] = ["devotional", "scholarly", "comparative"];
 
   return (
     <div className="flex gap-2">
-
-      <button
-        onClick={() => setStudyMode("devotional")}
-        className={buttonClass("devotional")}
-      >
-        Devotional
-      </button>
-
-      <button
-        onClick={() => setStudyMode("scholarly")}
-        className={buttonClass("scholarly")}
-      >
-        Scholarly
-      </button>
-
-      <button
-        onClick={() => setStudyMode("comparative")}
-        className={buttonClass("comparative")}
-      >
-        Comparative
-      </button>
-
+      {modes.map((mode) => (
+        <Button
+          key={mode}
+          size="sm"
+          variant={studyMode === mode ? "default" : "outline"}
+          onClick={() => setStudyMode(mode)}
+        >
+          {mode.charAt(0).toUpperCase() + mode.slice(1)}
+        </Button>
+      ))}
     </div>
   );
 }
