@@ -44,10 +44,12 @@ function CorpusNodeItem({
   pathname: string | null;
   depth: number;
 }) {
-  const hasChildren = node.children && node.children.length > 0;
+  const hasChildren = Boolean(node.children?.length);
+
+  const baseRoute = node.route; // Important: extracted for TS narrowing
 
   const isActive =
-    node.route && pathname?.startsWith(node.route);
+    baseRoute ? pathname?.startsWith(baseRoute) : false;
 
   const isDescendantActive = useMemo(() => {
     if (!node.children) return false;
@@ -83,8 +85,8 @@ function CorpusNodeItem({
           )
         )}
 
-        {node.route ? (
-          <Link href={node.route} className="flex-1">
+        {baseRoute ? (
+          <Link href={baseRoute} className="flex-1">
             {node.label}
           </Link>
         ) : (
@@ -107,14 +109,14 @@ function CorpusNodeItem({
       )}
 
       {/* Chapter Injection (only for chaptered texts) */}
-      {node.chaptered && open && node.route && (
+      {node.chaptered && open && baseRoute && (
         <div style={{ paddingLeft: 18 }}>
           {CHAPTERS.map((chapter) => (
             <ChapterNode
               key={chapter.id}
               chapter={chapter}
               pathname={pathname}
-              baseRoute={node.route}
+              baseRoute={baseRoute}
             />
           ))}
         </div>
@@ -137,6 +139,7 @@ function ChapterNode({
   baseRoute: string;
 }) {
   const chapterRoute = `${baseRoute}/${chapter.id}`;
+
   const isActiveChapter =
     pathname?.startsWith(chapterRoute);
 
