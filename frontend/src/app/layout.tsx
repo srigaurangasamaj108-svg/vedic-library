@@ -1,6 +1,5 @@
 import "./globals.css";
 import type { Metadata } from "next";
-import { GlobalHeader } from "@/components/layout/GlobalHeader";
 
 export const metadata: Metadata = {
   title: "Vedic Library",
@@ -14,8 +13,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className="bg-[#e8e2d3]">
-        <GlobalHeader />
+      <body className="bg-background">
         {children}
       </body>
     </html>

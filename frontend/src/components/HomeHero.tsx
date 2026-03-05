@@ -1,50 +1,43 @@
 export function HomeHero() {
-    return (
-        <section className="relative min-h-[80vh] flex flex-col items-center justify-center text-center overflow-hidden bg-[#2b2218] text-[#f9f5e3] py-20">
+  return (
+    <section className="relative h-[65vh] flex items-center bg-[#2b2218] text-[#f9f5e3] overflow-hidden">
 
-            {/* Background Ambience */}
-            <div className="absolute inset-0 pointer-events-none">
-                <div className="absolute top-[-20%] left-[20%] w-[500px] h-[500px] bg-[#e6a75a] rounded-full opacity-10 blur-[100px]"></div>
-                <div className="absolute bottom-[-10%] right-[10%] w-[400px] h-[400px] bg-[#a63410] rounded-full opacity-10 blur-[100px]"></div>
-            </div>
+      {/* Ambient Background Glow */}
+      <div className="absolute inset-0 pointer-events-none">
+        <div className="absolute top-[-15%] left-[25%] w-[420px] h-[420px] bg-[#e6a75a] opacity-10 blur-[120px] rounded-full" />
+        <div className="absolute bottom-[-10%] right-[15%] w-[380px] h-[380px] bg-[#a63410] opacity-10 blur-[120px] rounded-full" />
+      </div>
 
-            {/* Main Content */}
-            <div className="relative z-10 container max-w-4xl px-4">
+      <div className="relative z-10 max-w-screen-xl mx-auto px-10 w-full">
 
-                {/* Animated Badge */}
-                <div className="inline-block mb-6 opacity-0 animate-fade-in-up" style={{ animationDelay: '0.2s' }}>
-                    <span className="px-4 py-1.5 rounded-full border border-[#d4af37] text-[#d4af37] text-xs font-serif italic tracking-widest uppercase">
-                        The Timeless Wisdom
-                    </span>
-                </div>
+        {/* Badge */}
+        <div className="mb-6">
+          <span className="px-4 py-1.5 border border-[#d4af37] text-[#d4af37] text-xs font-serif tracking-widest uppercase">
+            A Structured Knowledge Platform
+          </span>
+        </div>
 
-                {/* Title */}
-                <h1 className="text-6xl md:text-8xl font-serif font-bold mb-8 tracking-tight leading-tight opacity-0 animate-fade-in-up" style={{ animationDelay: '0.4s' }}>
-                    The <span className="text-gold-gradient italic animate-pulse-glow">Eternal</span> <br />
-                    Song of God
-                </h1>
+        {/* Title */}
+        <h1 className="text-5xl md:text-6xl font-serif font-bold leading-tight mb-6">
+          The Vedic Library
+        </h1>
 
-                {/* Subtitle */}
-                <p className="text-xl md:text-2xl text-[#d6ccb5] max-w-2xl mx-auto mb-12 font-light leading-relaxed opacity-0 animate-fade-in-up" style={{ animationDelay: '0.6s' }}>
-                    Dive into the Bhagavad-gītā As It Is. <br />
-                    <span className="italic text-[#8c5e2a]">A journey from darkness to light.</span>
-                </p>
+        {/* Subtitle */}
+        <p className="text-lg md:text-xl text-[#d6ccb5] max-w-2xl mb-10 leading-relaxed">
+          A civilizational archive of Śruti, Smṛti, Itihāsa, Purāṇa,
+          Darśana, Vedāṅga, and Sampradāya literature —
+          organized with structural integrity.
+        </p>
 
-                {/* CTA Button */}
-                <div className="opacity-0 animate-fade-in-up" style={{ animationDelay: '0.8s' }}>
-                    <a href="#chapters" className="inline-block px-8 py-4 bg-gradient-to-r from-[#e6a75a] to-[#d4af37] text-[#2b2218] font-bold rounded-sm shadow-glow hover:scale-105 transition-transform duration-300">
-                        Begin Reading
-                    </a>
-                </div>
+        {/* CTA */}
+        <a
+          href="/library"
+          className="inline-block px-8 py-3 bg-[#d4af37] text-[#2b2218] font-semibold tracking-wide hover:opacity-90 transition"
+        >
+          Enter the Library
+        </a>
 
-                {/* Floating Graphic Element (Mockup of a Book or Symbol) */}
-                <div className="mt-16 animate-float opacity-0 animate-fade-in-up" style={{ animationDelay: '1s' }}>
-                    <div className="text-[10rem] leading-none opacity-20 select-none font-serif text-[#d4af37]">
-                        ॐ
-                    </div>
-                </div>
-
-            </div>
-        </section>
-    );
+      </div>
+    </section>
+  );
 }

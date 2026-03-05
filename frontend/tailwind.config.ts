@@ -1,13 +1,19 @@
-import type { Config } from "tailwindcss"
+kimport type { Config } from "tailwindcss"
 
 const config: Config = {
   content: [
-    "./src/app/**/*.{ts,tsx}",
-    "./src/components/**/*.{ts,tsx}",
-    "./src/features/**/*.{ts,tsx}",
+    "./src/**/*.{ts,tsx,js,jsx,mdx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        background: "#e8e2d3",
+        surface: "#f4efe3",
+        accent: "#2b2218",
+        muted: "#6b5b45",
+        gold: "#d4af37",
+      },
+    },
   },
   plugins: [],
 }
