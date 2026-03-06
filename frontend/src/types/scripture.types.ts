@@ -30,28 +30,17 @@ export interface ScriptVariant {
 }
 
 /**
- * Translation derivative
+ * Verse translation
  */
 export interface TranslationLayer {
-  id: string;            // e.g. prabhupada-en
-  language: string;      // en, hi
-  author?: string;
-  content: string;
-}
-
-/**
- * Commentary derivative
- */
-export interface CommentaryLayer {
-  id: string;            // prabhupada, sridhara
+  id: string;
   language: string;
   author?: string;
-  tradition?: string;
   content: string;
 }
 
 /**
- * Synonym derivative
+ * Word-for-word synonyms
  */
 export interface SynonymItem {
   sanskrit: string;
@@ -66,55 +55,75 @@ export interface SynonymLayer {
 }
 
 /**
- * Exposition / Purport / Bhasya derivative
+ * Commentary layer
+ * Primary commentary text (any language)
+ */
+export interface CommentaryLayer {
+  id: string;
+  language: string;
+  author?: string;
+  tradition?: string;
+  content: string;
+}
+
+/**
+ * Translation of a commentary
+ */
+export interface CommentaryTranslationLayer {
+  id: string;
+  language: string;
+  author?: string;
+  commentary_author?: string;
+  content: string;
+}
+
+/**
+ * Exposition / Purport
+ * Teaching-style explanation
  */
 export interface ExpositionLayer {
   id: string;
   language: string;
   author?: string;
-  type?: string; // purport, tika, bhasya, exposition
+  type?: string;
   content: string;
 }
 
 /**
- * Editorial Unit (composition blueprint)
+ * Editorial Unit
  */
 export interface EditorialUnit {
   uid: UID;
+
   author: {
     id: string;
     name: string;
     tradition?: string;
   };
+
   covers: {
     chapter: number;
     from_verse: number;
     to_verse: number;
   };
+
   scope: {
     has_synonyms?: boolean;
     has_translation?: boolean;
     has_exposition?: boolean;
+    has_commentary?: boolean;
   };
+
   content: {
     synonyms_ref?: string;
     translation_ref?: string;
     exposition_ref?: string;
+    commentary_ref?: string;
   };
 }
 
 /**
- * Derivative attachment model (legacy model – keep for now)
- */
-export interface DerivativeLayers {
-  translations?: TranslationLayer[];
-  commentaries?: CommentaryLayer[];
-  synonyms?: SynonymLayer[];
-  editorial?: unknown;
-}
-
-/**
- * Canonical immutable spine
+ * Canonical verse
  */
 export interface CanonicalUnit {
   identity: ScriptureIdentity;
@@ -127,24 +136,28 @@ export interface CanonicalUnit {
 }
 
 /**
- * Full scriptural unit (legacy – still used by old loader)
- */
-export interface ScripturalUnit {
-  canonical: CanonicalUnit;
-  derivatives?: DerivativeLayers;
-}
-
-/**
- * New Composition Model (future-proof)
+ * Full verse composition
  */
 export interface VerseComposition {
   canonical: CanonicalUnit;
+
   editorial?: {
     unit: EditorialUnit;
+
     layers: {
       synonyms?: SynonymLayer;
       translation?: TranslationLayer;
       exposition?: ExpositionLayer;
+
+      commentary?: CommentaryLayer[];
+      commentary_translations?: CommentaryTranslationLayer[];
     };
   };
+}
+
+/**
+ * Legacy wrapper
+ */
+export interface ScripturalUnit {
+  canonical: CanonicalUnit;
 }

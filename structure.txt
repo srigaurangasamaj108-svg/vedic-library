@@ -1,0 +1,789 @@
+.
+├── backend
+│   └── lib
+│       └── loadVerse.server.ts
+├── data
+│   ├── _raw
+│   │   ├── agama
+│   │   ├── darsana
+│   │   ├── itihasa
+│   │   │   ├── mahabharata
+│   │   │   │   ├── adi-parva
+│   │   │   │   ├── anushasana-parva
+│   │   │   │   ├── asramavasika-parva
+│   │   │   │   ├── asvamedhika-parva
+│   │   │   │   ├── bhisma-parva
+│   │   │   │   │   └── bhagavad-gita
+│   │   │   │   ├── drona-parva
+│   │   │   │   ├── karna-parva
+│   │   │   │   ├── mahaprasthanika-parva
+│   │   │   │   ├── mausala-parva
+│   │   │   │   ├── sabha-parva
+│   │   │   │   ├── salya-parva
+│   │   │   │   ├── santi-parva
+│   │   │   │   ├── stri-parva
+│   │   │   │   ├── svargarohana-parva
+│   │   │   │   ├── udyoga-parva
+│   │   │   │   ├── vana-parva
+│   │   │   │   └── virata-parva
+│   │   │   └── ramayana
+│   │   │       ├── aranyakanda
+│   │   │       ├── ayodhyakanda
+│   │   │       ├── balakanda
+│   │   │       ├── kiskindhakanda
+│   │   │       ├── sundarakanda
+│   │   │       └── yuddhakanda
+│   │   ├── purana
+│   │   ├── README.md
+│   │   ├── sampradaya
+│   │   ├── smrti
+│   │   ├── sruti
+│   │   ├── upaveda
+│   │   └── vedanga
+│   ├── agama
+│   ├── darsana
+│   │   ├── mimamsa
+│   │   ├── nyaya
+│   │   ├── sankhya
+│   │   ├── vaisesika
+│   │   ├── vedanta
+│   │   └── yoga
+│   ├── itihasa
+│   │   ├── mahabharata
+│   │   │   ├── adi-parva
+│   │   │   ├── anushasana-parva
+│   │   │   ├── asramavasika-parva
+│   │   │   ├── asvamedhika-parva
+│   │   │   ├── bhisma-parva
+│   │   │   │   └── bhagavad-gita
+│   │   │   │       ├── canonical
+│   │   │   │       ├── commentaries
+│   │   │   │       ├── derivatives
+│   │   │   │       ├── editions
+│   │   │   │       ├── index
+│   │   │   │       ├── metadata
+│   │   │   │       ├── README.md
+│   │   │   │       ├── translations
+│   │   │   │       └── word-by-word
+│   │   │   ├── drona-parva
+│   │   │   ├── karna-parva
+│   │   │   ├── mahaprasthanika-parva
+│   │   │   ├── mausala-parva
+│   │   │   ├── sabha-parva
+│   │   │   ├── salya-parva
+│   │   │   ├── santi-parva
+│   │   │   ├── stri-parva
+│   │   │   ├── svargarohana-parva
+│   │   │   ├── udyoga-parva
+│   │   │   ├── vana-parva
+│   │   │   └── virata-parva
+│   │   └── ramayana
+│   │       ├── aranyakanda
+│   │       ├── ayodhyakanda
+│   │       ├── balakanda
+│   │       ├── kiskindhakanda
+│   │       ├── sundarakanda
+│   │       └── yuddhakanda
+│   ├── purana
+│   │   ├── mahapurana
+│   │   └── upapurana
+│   ├── README.md
+│   ├── sampradaya
+│   │   └── gaudiya
+│   │       ├── bhajana-and-stotra
+│   │       ├── branches-and-apasampradayas
+│   │       ├── foundational-authorities
+│   │       ├── later-acharyas
+│   │       ├── practice-and-sadhana
+│   │       ├── six-gosvamis
+│   │       └── theology-and-siddhanta
+│   ├── smrti
+│   │   ├── artha-sastra
+│   │   ├── dharma-sastra
+│   │   ├── kama-sastra
+│   │   ├── niti-sastra
+│   │   └── supplementary
+│   ├── sruti
+│   │   ├── atharva-veda
+│   │   │   ├── aranyaka
+│   │   │   ├── brahmana
+│   │   │   ├── samhita
+│   │   │   └── upanisad
+│   │   ├── rig-veda
+│   │   │   ├── aranyaka
+│   │   │   ├── brahmana
+│   │   │   ├── samhita
+│   │   │   └── upanisad
+│   │   ├── sama-veda
+│   │   │   ├── aranyaka
+│   │   │   ├── brahmana
+│   │   │   ├── samhita
+│   │   │   └── upanisad
+│   │   └── yajur-veda
+│   │       ├── krsna
+│   │       │   ├── aranyaka
+│   │       │   ├── brahmana
+│   │       │   ├── samhita
+│   │       │   └── upanisad
+│   │       └── sukla
+│   │           ├── aranyaka
+│   │           ├── brahmana
+│   │           ├── samhita
+│   │           └── upanisad
+│   ├── upaveda
+│   │   ├── ayurveda
+│   │   ├── dhanurveda
+│   │   ├── gandharvaveda
+│   │   └── sthapatyaveda
+│   └── vedanga
+│       ├── chandas
+│       ├── jyotisa
+│       ├── kalpa
+│       ├── nirukta
+│       ├── siksa
+│       └── vyakarana
+├── docs_src
+│   ├── archive
+│   │   ├── _assets
+│   │   │   └── phase-0
+│   │   │       └── pics
+│   │   │           ├── 1.png
+│   │   │           ├── 2.png
+│   │   │           ├── 3.png
+│   │   │           └── 4.png
+│   │   ├── audit
+│   │   │   ├── antigravity
+│   │   │   │   ├── phase_0_frontend
+│   │   │   │   │   └── status.md
+│   │   │   │   ├── phase_1_frontend
+│   │   │   │   │   ├── implementation_plan.md
+│   │   │   │   │   └── status.md
+│   │   │   │   ├── phase_2_frontend
+│   │   │   │   │   ├── implementation_plan.md
+│   │   │   │   │   └── status.md
+│   │   │   │   ├── phase_3_detailed
+│   │   │   │   │   ├── implementation_plan.md
+│   │   │   │   │   └── status.md
+│   │   │   │   ├── phase_4_polish
+│   │   │   │   │   ├── implementation_plan.md
+│   │   │   │   │   └── status.md
+│   │   │   │   ├── phase_5_unique_home
+│   │   │   │   │   ├── implementation_plan.md
+│   │   │   │   │   └── status.md
+│   │   │   │   ├── phase_6_reading_mode
+│   │   │   │   │   ├── implementation_plan.md
+│   │   │   │   │   └── status.md
+│   │   │   │   ├── phase_7_classical_refinement
+│   │   │   │   │   ├── implementation_plan.md
+│   │   │   │   │   └── status.md
+│   │   │   │   └── review_pending
+│   │   │   └── ANTIGRAVITY_AUDIT_LOG.md
+│   │   ├── legacy_phase_history
+│   │   │   ├── _root-duplicates
+│   │   │   │   ├── PROJECT_CONSTITUTION_v2.md
+│   │   │   │   └── PROJECT_STATUS_Phase_6.md
+│   │   │   ├── architecture
+│   │   │   │   ├── DATA_SCHEMA_pre_refactor.md
+│   │   │   │   └── VERSE_REFERENCE_CONTRACT_pre_refinement.md
+│   │   │   ├── constitution
+│   │   │   │   └── superseded
+│   │   │   │       └── PROJECT_CONSTITUTION_v2.md
+│   │   │   ├── phase-0
+│   │   │   │   ├── INSTALLATION_GUIDE.md
+│   │   │   │   ├── PHASE_0_TASKLIST_ORIGINAL.md
+│   │   │   │   ├── PHASE_0_UI_PHASE_MAPPING_PLANNING_2.md
+│   │   │   │   ├── PHASE_0_UI_PHASE_MAPPING_PLANNING.md
+│   │   │   │   └── PHASE_0_UI_PHASE_MAPPING.md
+│   │   │   ├── phase-1
+│   │   │   │   ├── FRONTEND_IMPLEMENTATION_GUIDE_BOOTSTRAP.md
+│   │   │   │   ├── PHASE_1_GAP_ANALYSIS_PRE_COMPLETION.md
+│   │   │   │   ├── PHASE_1_TASKLIST_INITIAL.md
+│   │   │   │   ├── VERSE_NAVIGATION_PHASE1_IMPLEMENTATION.md
+│   │   │   │   └── VERSE_NOT_FOUND_PHASE1_IMPLEMENTATION.md
+│   │   │   ├── phase-2
+│   │   │   │   ├── COMMENTARY_TOGGLE_UI_BEHAVIOR.md
+│   │   │   │   ├── PHASE_2_COMPLETE.md
+│   │   │   │   ├── PHASE_2_STEP_1.md
+│   │   │   │   ├── PHASE_2_STEP_2.md
+│   │   │   │   ├── PHASE_2_STEP_3.md
+│   │   │   │   ├── PHASE_2_STEP_4.md
+│   │   │   │   ├── PHASE_2_TASKLIST.md
+│   │   │   │   └── PHASE2_FOLDER_STRUCTURE_SUPERSEDED.md
+│   │   │   ├── phase-3
+│   │   │   │   ├── PHASE_3_COMPLETE.md
+│   │   │   │   ├── PHASE_3_STEP_1.md
+│   │   │   │   ├── PHASE_3_STEP_2.md
+│   │   │   │   ├── PHASE_3_STEP_3.md
+│   │   │   │   ├── PHASE_3_STEP_4.md
+│   │   │   │   ├── PHASE_3_STEP_5.md
+│   │   │   │   ├── PHASE_3_STEP_6.md
+│   │   │   │   ├── PHASE_3_TASKLIST_2.md
+│   │   │   │   ├── PHASE_3_TASKLIST.md
+│   │   │   │   └── README_PHASE_3.md
+│   │   │   ├── phase-4
+│   │   │   │   ├── PHASE_4_COMPLETE.md
+│   │   │   │   ├── PHASE_4_EDUCATIONAL_1_CHAPTER_SUMMARY_UI_BEHAVIOR.md
+│   │   │   │   ├── PHASE_4_EDUCATIONAL_1_CHAPTER_SUMMARY.md
+│   │   │   │   ├── PHASE_4_EDUCATIONAL_CONCEPT_GLOSSARY_UI_BEHAVIOR.md
+│   │   │   │   ├── PHASE_4_EDUCATIONAL_GUIDED_READING_PATHS_UI_BEHAVIOR.md
+│   │   │   │   ├── PHASE_4_EDUCATIONAL_UI.md
+│   │   │   │   └── PHASE_4_TASKLIST.md
+│   │   │   ├── phase-4.5
+│   │   │   │   ├── PHASE_4_5_BACKEND_SEARCH_ENDPOINTS.md
+│   │   │   │   ├── PHASE_4_5_COMPLETE.md
+│   │   │   │   ├── PHASE_4_5_IMPLEMENTATION_STEP_1.md
+│   │   │   │   ├── PHASE_4_5_IMPLEMENTATION_STEP_2.md
+│   │   │   │   ├── PHASE_4_5_IMPLEMENTATION_STEP_3.md
+│   │   │   │   ├── PHASE_4_5_IMPLEMENTATION_STEP_4.md
+│   │   │   │   ├── PHASE_4_5_IMPLEMENTATION_STEP_5.md
+│   │   │   │   ├── PHASE_4_5_IMPLEMENTATION_STEP_6_Frontend_search.md
+│   │   │   │   ├── PHASE_4_5_IMPLEMENTATION_STEP_7_Styling__Accessibility.md
+│   │   │   │   ├── PHASE_4_5_IMPLEMENTATION_STEP_8_Backend_Frontend.md
+│   │   │   │   ├── PHASE_4_5_SEARCH_OPENING.md
+│   │   │   │   ├── PHASE_4_5_SEARCH_USAGE_GUIDE.md
+│   │   │   │   └── PHASE_4_SEARCH_SCOPE_UI_BEHAVIOR.md
+│   │   │   ├── phase-5
+│   │   │   │   ├── PHASE_5_UI_IMPLEMENTATION_TRACK_5.1.md
+│   │   │   │   ├── PHASE_5_UI_IMPLEMENTATION_TRACK_5.2.md
+│   │   │   │   ├── PHASE_5_UI_IMPLEMENTATION_TRACK_5.3.md
+│   │   │   │   ├── PHASE_5_UI_IMPLEMENTATION_TRACK_5.4.md
+│   │   │   │   ├── PHASE_5_UI_IMPLEMENTATION_TRACK_5.5.md
+│   │   │   │   ├── PHASE_5_UI_IMPLEMENTATION_TRACK_5.6.md
+│   │   │   │   └── PHASE_5_UI_IMPLEMENTATION_TRACK_5.7.md
+│   │   │   ├── phase-6
+│   │   │   │   ├── PHASE_6_IMPLEMENTATION_TASKLIST.md
+│   │   │   │   ├── PHASE_6_TASKLIST.md
+│   │   │   │   ├── PHASE_6_UI_PREVIEW.md
+│   │   │   │   └── PHASE_6_UI_WIREFRAMES.md
+│   │   │   └── PROJECT_CONSTITUTION_v1.md
+│   │   └── phase-3
+│   │       └── PHASE_3_COMMENTARY_AND_KNOWLEDGE_PLAN.md
+│   ├── shared_foundations
+│   │   ├── NAMING_CONVENTIONS.md
+│   │   ├── PHASES_OVERVIEW.md
+│   │   ├── PROJECT_CONSTITUTION.md
+│   │   ├── PROJECT_STATE_SNAPSHOT_2026.md
+│   │   ├── PROJECT_STATUS.md
+│   │   └── README_ABOUT_VEDIC_LIBRARY.md
+│   ├── track_A_canonical
+│   │   ├── ingestion
+│   │   │   ├── CANONICAL_HANDOFF_AND_VAULTING.md
+│   │   │   ├── CIP_LEAF_STANDARD.md
+│   │   │   ├── CIP_ROOT_ARCHITECTURE.md
+│   │   │   ├── PIPELINE_SCRIPT_CONTRACT.md
+│   │   │   ├── RAW_LAYER_SEMANTICS.md
+│   │   │   └── REGISTRY_AND_GOVERNANCE_INTEGRATION.md
+│   │   ├── phase_reports
+│   │   │   ├── phase_0_completed
+│   │   │   │   ├── PHASE_0_EXECUTED.md
+│   │   │   │   ├── PHASE_0_STATUS.md
+│   │   │   │   ├── PROJECT_STATUS.md
+│   │   │   │   └── README.md
+│   │   │   ├── phase_1_completed
+│   │   │   │   ├── _archive
+│   │   │   │   │   └── PROJECT_STATUS_AT_PHASE_1_ENTRY.md
+│   │   │   │   ├── guides
+│   │   │   │   ├── PHASE_1_STATUS.md
+│   │   │   │   ├── PHASE_1_SUCCESS_DEFINITION.md
+│   │   │   │   ├── PHASE_1_TASKLIST.md
+│   │   │   │   └── README.md
+│   │   │   └── phase_2_active
+│   │   │       ├── chat-manifests
+│   │   │       │   └── phase-2
+│   │   │       ├── chat-prompts
+│   │   │       │   └── phase-2
+│   │   │       ├── CORE_AUTHORITY_HANDOFF.md
+│   │   │       ├── PHASE_2_CANONICAL_EXPANSION_PLAN.md
+│   │   │       ├── PHASE_2_ENTRY_CHECKLIST.md
+│   │   │       ├── PHASE_2_FOLDER_STRUCTURE.md
+│   │   │       ├── PHASE_2_TASKLIST.md
+│   │   │       ├── README_v2.md
+│   │   │       ├── README.md
+│   │   │       └── STATUS.md
+│   │   ├── policies
+│   │   │   ├── CANONICAL_INGESTION_PROJECT_STANDARD.md
+│   │   │   ├── CANONICAL_INTAKE_AND_NORMALIZATION.md
+│   │   │   ├── CANONICAL_SPINE_DECLARATION.md
+│   │   │   ├── CANONICAL_UNIT_DEFINITION.md
+│   │   │   ├── DATA_SCHEMA.md
+│   │   │   ├── EDITORIAL_UNIT_DEFINITION.md
+│   │   │   ├── PIPELINE_REGISTRY.md
+│   │   │   ├── RAW_TO_CANONICAL_MAPPING_POLICY.md
+│   │   │   ├── SCHEMA_OPTIONALITY_RULES.md
+│   │   │   ├── SEMANTIC_DERIVATION_POLICY.md
+│   │   │   ├── STRUCTURAL_VARIANTS_POLICY.md
+│   │   │   ├── UID_REFINEMENT_RULES.md
+│   │   │   ├── UID_SYSTEM.md
+│   │   │   ├── VERSE_REFERENCE_CONTRACT.md
+│   │   │   └── WITNESS_AND_VARIANT_MODEL.md
+│   │   ├── roadmap_future
+│   │   │   └── TRACK_A_FUTURE_CANONICAL_ROADMAP.md
+│   │   ├── schemas
+│   │   │   ├── canonical-mantra.schema.md
+│   │   │   ├── canonical-ritual-unit.schema.md
+│   │   │   ├── canonical-sutra.schema.md
+│   │   │   ├── canonical-verse.schema.md
+│   │   │   ├── editorial-unit.schema.md
+│   │   │   ├── exposition.schema.md
+│   │   │   ├── gloss-verse.schema.md
+│   │   │   ├── synonyms.schema.md
+│   │   │   ├── translation.schema.md
+│   │   │   └── verse-index.schema.md
+│   │   ├── spines
+│   │   │   └── padma-purana.spine.md
+│   │   └── validators
+│   │       └── README.md
+│   ├── track_A_canonical_engine
+│   │   ├── BG_CHAPTER_2_EXECUTION_PLAN.md
+│   │   ├── BG_CHAPTER_2_VERSE_PRIORITY_LIST.md
+│   │   ├── BG_CHAPTER_ANALYSIS_FRAMEWORK.md
+│   │   ├── BG_COMMENTARY_COMPARISON_FRAMEWORK.md
+│   │   ├── BG_CONCEPT_REGISTRY.md
+│   │   ├── BG_CONCEPT_RELATIONSHIP_MAP.md
+│   │   ├── BG_CONCEPT_TAGGING_GUIDELINES.md
+│   │   ├── BG_CONCEPT_TAXONOMY.md
+│   │   ├── BG_DATA_ENTRY_CHECKLIST.md
+│   │   ├── BG_DATA_ENTRY_WORKFLOW.md
+│   │   ├── BG_DATASET_DIRECTORY_STRUCTURE.md
+│   │   ├── BG_DATASET_IMPLEMENTATION_PLAN.md
+│   │   ├── BG_KNOWLEDGE_GRAPH_BLUEPRINT.md
+│   │   ├── BG_MASTER_KNOWLEDGE_SCHEMA.md
+│   │   ├── BG_PHILOSOPHICAL_PROGRESSION_MAP.md
+│   │   ├── BG_PILOT_DATASET_PLAN.md
+│   │   ├── BG_RELATIONSHIP_SCHEMA.md
+│   │   ├── BG_VERSE_ANALYSIS_TEMPLATE.md
+│   │   ├── VEDIC_AI_ASSISTED_SCHOLARSHIP_SYSTEM.md
+│   │   ├── VEDIC_CIVILIZATION_KNOWLEDGE_SYSTEM.md
+│   │   ├── VEDIC_CONCEPT_UNIVERSAL_REGISTRY.md
+│   │   ├── VEDIC_CORPUS_REGISTRY_SCHEMA.md
+│   │   ├── VEDIC_DATA_ENTRY_MASTER_WORKFLOW.md
+│   │   ├── VEDIC_KNOWLEDGE_GRAPH_MASTER_SCHEMA.md
+│   │   └── VEDIC_TEXT_DIGITIZATION_STANDARDS.md
+│   ├── track_B_platform
+│   │   ├── architecture
+│   │   │   ├── B1_canonical_editorial_engine.md
+│   │   │   ├── B2_study_profile_system.md
+│   │   │   ├── B3_rich_text_processor.md
+│   │   │   ├── B4_2_collapsible_tree.md
+│   │   │   ├── B4_sidebar_architecture.md
+│   │   │   ├── B5_future_ui_component_research.md
+│   │   │   ├── CANONICAL_DATA_MODEL.md
+│   │   │   ├── CANONICAL_REGISTRY_EVOLUTION.md
+│   │   │   ├── CORPUS_TREE_ARCHITECTURE_STATUS.md
+│   │   │   ├── DEVELOPER_ONBOARDING_GUIDE.md
+│   │   │   ├── FORWARD_PLATFORM_ROADMAP_v1.md
+│   │   │   ├── frontend_architecture
+│   │   │   │   ├── BACKEND_STRUCTURE.md
+│   │   │   │   ├── FRONTEND_ENGINE_OVERVIEW.md
+│   │   │   │   ├── FRONTEND_SYSTEM_OVERVIEW.md
+│   │   │   │   └── TECH_STACK.md
+│   │   │   ├── FRONTEND_DATA_FLOW_DETAILED.md
+│   │   │   ├── FRONTEND_DATA_FLOW.md
+│   │   │   ├── FRONTEND_FILE_REGISTRY.md
+│   │   │   ├── HEADER_SYSTEM_SPEC.md
+│   │   │   ├── LIBRARY_LAYOUT_SPEC.md
+│   │   │   ├── PHASE_5_REFACTOR_PLAN.md
+│   │   │   ├── PLATFORM_ARCHITECTURE_v2.md
+│   │   │   ├── scripture_engine
+│   │   │   │   ├── DATA_LOADING_ABSTRACTION_STRATEGY.md
+│   │   │   │   └── LANGUAGE_AXIS_AND_UI_STATE.md
+│   │   │   ├── ui_system
+│   │   │   │   ├── legacy_ui_ux
+│   │   │   │   ├── snapshots
+│   │   │   │   │   ├── PHASE_1_UI_SNAPSHOT.md
+│   │   │   │   │   ├── PHASE_2_UI_SNAPSHOT.md
+│   │   │   │   │   ├── PHASE_3_UI_SNAPSHOT.md
+│   │   │   │   │   ├── PHASE_4_UI_SNAPSHOT.md
+│   │   │   │   │   └── PHASE_4.5_UI_SNAPSHOT.md
+│   │   │   │   ├── UI_EVOLUTION_OVERVIEW.md
+│   │   │   │   └── UI_UX_PLANNING.md
+│   │   │   ├── VEDIC_KNOWLEDGE_GRAPH_ARCHITECTURE.md
+│   │   │   ├── VEDIC_LIBRARY_ARCHITECTURE_DIAGRAM.md
+│   │   │   ├── VEDIC_LIBRARY_REPOSITORY_STRUCTURE.md
+│   │   │   ├── VEDIC_LIBRARY_SYSTEM_RUNTIME_FLOW.md
+│   │   │   ├── VEDIC_LIBRARY_UI_COMPONENT_REGISTRY.md
+│   │   │   └── VEDIC_PLATFORM_TECHNICAL_STACK_MASTER.md
+│   │   ├── archive
+│   │   │   ├── phase_1_legacy
+│   │   │   │   ├── FRONTEND_COMPONENTS_CONTRACT.md
+│   │   │   │   └── FRONTEND_STRUCTURE.md
+│   │   │   ├── PLATFORM_BOOTSTRAP_v1.md
+│   │   │   └── TRACK_B_NEW_CHAT_HANDOFF_v1.md
+│   │   ├── governance
+│   │   │   ├── ACTIVE_PHASE.md
+│   │   │   ├── COMPONENT_REGISTRY.md
+│   │   │   ├── DECISIONS_LOG.md
+│   │   │   ├── supporting_architecture
+│   │   │   │   ├── B1_architecture_overview.md
+│   │   │   │   ├── B2_rendering_pipeline.md
+│   │   │   │   ├── B3_ui_state_system.md
+│   │   │   │   └── B4_corpus_navigation_architecture.md
+│   │   │   └── UI_ARCHITECTURE.md
+│   │   ├── infrastructure
+│   │   │   ├── deployment
+│   │   │   │   ├── DEPLOYMENT_STRATEGY.md
+│   │   │   │   ├── INFRASTRUCTURE_RECORD_v1.md
+│   │   │   │   └── legacy_root_deployment
+│   │   │   ├── phases_backend
+│   │   │   │   └── phase_8_distributed_scraper
+│   │   │   │       └── implementation_plan.md
+│   │   │   └── supabase_plan
+│   │   ├── phases_frontend
+│   │   ├── roadmap
+│   │   │   ├── phases
+│   │   │   │   ├── B0_infrastructure
+│   │   │   │   │   ├── PHASE_COMPLETION_REPORT.md
+│   │   │   │   │   ├── PHASE_STATUS.md
+│   │   │   │   │   └── PHASE_TASKLIST.md
+│   │   │   │   ├── B1_canonical_reader
+│   │   │   │   │   ├── PHASE_COMPLETION_REPORT.md
+│   │   │   │   │   ├── PHASE_STATUS.md
+│   │   │   │   │   └── PHASE_TASKLIST.md
+│   │   │   │   ├── B2_ui_refinement_active
+│   │   │   │   │   ├── PHASE_STATUS.md
+│   │   │   │   │   └── PHASE_TASKLIST.md
+│   │   │   │   ├── B3_commentary_scholar
+│   │   │   │   │   └── PHASE_TASKLIST.md
+│   │   │   │   ├── B4_search
+│   │   │   │   │   └── PHASE_TASKLIST.md
+│   │   │   │   └── B5_auth_supabase
+│   │   │   │       └── PHASE_TASKLIST.md
+│   │   │   ├── roadmap_future
+│   │   │   │   ├── auth
+│   │   │   │   │   ├── AUTH_JS_INTEGRATION_BOUNDARIES.md
+│   │   │   │   │   ├── PHASE_3_AUTH_OR_SUPERBASE.md
+│   │   │   │   │   ├── PHASE_3_BACKEND_ENDPOINTS.md
+│   │   │   │   │   └── PHASE_3_OVERVIEW.md
+│   │   │   │   ├── commentary
+│   │   │   │   │   ├── PHASE_2_COMMENTARY_DATA_SCHEMA.md
+│   │   │   │   │   ├── PHASE_2_NOBACKEND_WHY.md
+│   │   │   │   │   └── PHASE_2_OVERVIEW.md
+│   │   │   │   ├── search
+│   │   │   │   │   ├── PHASE_4_5_OPENSEARCH_INDEX_MAPPINGS.md
+│   │   │   │   │   ├── PHASE_4_5_REFERENCE_ONLY_SEARCH_UX_FLOWS.md
+│   │   │   │   │   ├── PHASE_4_OPEN_SEARCH_VS_ELASTIC_SEARCH.md
+│   │   │   │   │   ├── PHASE_4_SEARCH_AND_DISCOVERY_OVERVIEW.md
+│   │   │   │   │   ├── PHASE_4_SEARCH_METADATA_MAPPING.md
+│   │   │   │   │   └── PHASE_4_SEARCH.md
+│   │   │   │   └── ui
+│   │   │   │       ├── PHASE_5_COMPLETE.md
+│   │   │   │       ├── PHASE_5_UI_IMPLEMENTATION_TASKS.md
+│   │   │   │       └── PHASE_6_LESSON_UI_RENDERING_RULES.md
+│   │   │   ├── TRACK_B_PHASE_OVERVIEW.md
+│   │   │   ├── TRACK_B_PLATFORM_ROADMAP.md
+│   │   │   ├── VEDIC_LIBRARY_DEVELOPMENT_PHASE_MAP.md
+│   │   │   ├── VEDIC_PLATFORM_NEXT_PHASE_STRATEGY.md
+│   │   │   └── VEDIC_PLATFORM_ROADMAP_MASTER.md
+│   │   └── vision
+│   │       ├── UI_UX_MASTER_PLAN.md
+│   │       ├── VEDIC_LIBRARY_DESIGN_SYSTEM.md
+│   │       └── VEDIC_LIBRARY_PRODUCT_VISION.md
+│   ├── track_C_civilization
+│   │   ├── community
+│   │   ├── education
+│   │   │   ├── learning_paths
+│   │   │   │   ├── PHASE_4_EDUCATIONAL_GUIDED_READING_PATHS_1.md
+│   │   │   │   └── PHASE_4_EDUCATIONAL_GUIDED_READING_PATHS_2.md
+│   │   │   ├── PHASE_4_EDUCATIONAL_1.1.md
+│   │   │   ├── PHASE_4_EDUCATIONAL_1.md
+│   │   │   ├── PHASE_4_EDUCATIONAL_CONCEPT_1.md
+│   │   │   ├── PHASE_4_EDUCATIONAL_CONCEPT_2.md
+│   │   │   ├── PHASE_4_EDUCATIONAL_GLOSSARY_1.md
+│   │   │   ├── PHASE_4_EDUCATIONAL_SCHEMA.md
+│   │   │   ├── PHASE_4_OVERVIEW_2.md
+│   │   │   ├── PHASE_4_OVERVIEW.md
+│   │   │   └── schemas
+│   │   │       ├── PHASE_6_COURSE_SCHEMA.md
+│   │   │       ├── PHASE_6_GUIDED_PATH_SCHEMA.md
+│   │   │       ├── PHASE_6_LESSON_SCHEMA.md
+│   │   │       └── PHASE_6_TEACHER_SCHEMA.md
+│   │   ├── guidance
+│   │   ├── institutional
+│   │   │   ├── AUTHENTICATION_AND_DONATION_ROADMAP.md
+│   │   │   ├── CANONICAL_IDENTITY_DECISION_FRAMEWORK.md
+│   │   │   ├── CANONICAL_IDENTITY_PRINCIPLES.md
+│   │   │   ├── CANONICAL_TEXT_POLICY.md
+│   │   │   ├── CANONICAL-INGESTION-GUIDE__Raw-to-Canon.md
+│   │   │   ├── CHAT_PROMPT_TEMPLATES.md
+│   │   │   ├── constitution
+│   │   │   ├── DOCUMENT_AUTHORITY_HIERARCHY.md
+│   │   │   ├── governance
+│   │   │   ├── iit-blog
+│   │   │   ├── indian-knowledge-library
+│   │   │   │   ├── architecture
+│   │   │   │   │   ├── ai-governance-safeguards.md
+│   │   │   │   │   ├── knowledge-layer-model.md
+│   │   │   │   │   ├── research-digital-humanities.md
+│   │   │   │   │   └── technical-architecture-overview.md
+│   │   │   │   ├── assets
+│   │   │   │   │   └── visual-prompts
+│   │   │   │   ├── conference
+│   │   │   │   │   ├── academic-abstract-2page.md
+│   │   │   │   │   ├── booklet-full
+│   │   │   │   │   ├── conference-visual-landscape.md
+│   │   │   │   │   └── indian-knowledge-library-booklet-12page.md
+│   │   │   │   ├── foundations
+│   │   │   │   │   ├── canonical-identity-framework.md
+│   │   │   │   │   ├── canonical-spine.md
+│   │   │   │   │   ├── canonical-text-discipline.md
+│   │   │   │   │   └── civilizational-problem.md
+│   │   │   │   ├── implementation
+│   │   │   │   │   ├── current-phase.md
+│   │   │   │   │   └── phase-roadmap.md
+│   │   │   │   ├── index.md
+│   │   │   │   ├── pillars
+│   │   │   │   │   ├── applied-guidance-mapping.md
+│   │   │   │   │   ├── canonical-digital-infrastructure.md
+│   │   │   │   │   ├── dharmic-economic-ecology.md
+│   │   │   │   │   ├── living-civilizational-model.md
+│   │   │   │   │   └── structured-education-framework.md
+│   │   │   │   ├── STRUCTURE.md
+│   │   │   │   └── vision
+│   │   │   │       ├── corpus-scope.md
+│   │   │   │       ├── institutional-collaboration.md
+│   │   │   │       ├── long-term-vision.md
+│   │   │   │       └── universal-access-model.md
+│   │   │   ├── PARALLEL_WORK_AND_CHAT_PROTOCOL_DRAFT.md
+│   │   │   ├── PARALLEL_WORK_AND_CHAT_PROTOCOL.md
+│   │   │   ├── PROJECT_CONSTITUTION_OLD.md
+│   │   │   ├── REFERENCE_BASED_AUTHORITY_PRINCIPLE.md
+│   │   │   └── STATUS_DOCUMENT_LIFECYCLE_RULE.md
+│   │   ├── knowledge_model
+│   │   │   └── KNOWLEDGE_LAYER_MODEL.md
+│   │   ├── phases
+│   │   │   ├── C0_conceptual
+│   │   │   │   └── PHASE_TASKLIST.md
+│   │   │   ├── C1_schema_design
+│   │   │   │   └── PHASE_TASKLIST.md
+│   │   │   ├── C2_education_ui
+│   │   │   │   └── PHASE_TASKLIST.md
+│   │   │   ├── C3_community_layer
+│   │   │   │   └── PHASE_TASKLIST.md
+│   │   │   └── C4_institutional_expansion
+│   │   │       └── PHASE_TASKLIST.md
+│   │   ├── pillars
+│   │   │   ├── PHASE_6_READY_FOR_IMPLEMENTATION.md
+│   │   │   └── PHASE_6_TEACHER_ONBOARDING_AND_MODERATION.md
+│   │   ├── TRACK_C_MASTER_SUMMARY.md
+│   │   └── TRACK_C_PHASE_OVERVIEW.md
+│   └── TRACK_SYSTEM_OVERVIEW.md
+├── frontend
+│   ├── canonical-spine
+│   ├── components.json
+│   ├── docs
+│   │   ├── 00_VISION.md
+│   │   ├── 01_FOUR_PILLARS.md
+│   │   ├── 02_LIBRARY_ARCHITECTURE.md
+│   │   ├── 03_CORPUS_METADATA_REGISTRY.md
+│   │   ├── 04_ROUTING_STRATEGY.md
+│   │   ├── 05_COMMENTARY_SYSTEM.md
+│   │   ├── 06_ANALYTICAL_RIGHT_PANEL.md
+│   │   ├── 07_EDUCATION_PILLAR.md
+│   │   ├── 08_GUIDANCE_PILLAR.md
+│   │   ├── 09_COMMUNITY_PILLAR.md
+│   │   ├── 10_DESIGN_SYSTEM.md
+│   │   ├── 11_COMPONENT_ARCHITECTURE.md
+│   │   ├── 12_DECISIONS_LOG.md
+│   │   ├── corpus-architecture.md
+│   │   ├── data-ingestion-plan.md
+│   │   └── design-system-blueprint.md
+│   ├── eslint.config.mjs
+│   ├── nano
+│   ├── next-env.d.ts
+│   ├── next.config.ts
+│   ├── package-lock.json
+│   ├── package.json
+│   ├── postcss.config.js
+│   ├── public
+│   │   ├── file.svg
+│   │   ├── globe.svg
+│   │   ├── Logo.svg
+│   │   ├── next.svg
+│   │   ├── pages
+│   │   │   ├── About.tsx
+│   │   │   ├── AdminApplications.tsx
+│   │   │   ├── AdminAuth.tsx
+│   │   │   ├── AdminBooks.tsx
+│   │   │   ├── AdminCareers.tsx
+│   │   │   ├── AdminCategories.tsx
+│   │   │   ├── AdminCourses.tsx
+│   │   │   ├── AdminManagement.tsx
+│   │   │   ├── AdminSettings.tsx
+│   │   │   ├── BookDetail.tsx
+│   │   │   ├── Books.tsx
+│   │   │   ├── Careers.tsx
+│   │   │   ├── Contact.tsx
+│   │   │   ├── CourseDetail.tsx
+│   │   │   ├── Courses.tsx
+│   │   │   ├── ikl
+│   │   │   ├── Index.tsx
+│   │   │   ├── IndianKnowledgeLibrary.tsx
+│   │   │   ├── Login.tsx
+│   │   │   ├── NotFound.tsx
+│   │   │   └── Signup.tsx
+│   │   ├── vercel.svg
+│   │   ├── VGSF_logo.jpeg
+│   │   └── window.svg
+│   ├── README.md
+│   ├── site
+│   ├── src
+│   │   ├── app
+│   │   │   ├── (public)
+│   │   │   │   ├── layout.tsx
+│   │   │   │   └── page.tsx
+│   │   │   ├── favicon.ico
+│   │   │   ├── fonts.ts
+│   │   │   ├── globals.css
+│   │   │   ├── layout.tsx
+│   │   │   ├── library
+│   │   │   │   ├── [canon]
+│   │   │   │   │   ├── [chapter]
+│   │   │   │   │   └── page.tsx
+│   │   │   │   ├── layout.tsx
+│   │   │   │   └── page.tsx
+│   │   │   ├── page.module.css
+│   │   │   └── research
+│   │   │       ├── ikl
+│   │   │       │   ├── canonical-spine
+│   │   │       │   ├── civilizational-problem
+│   │   │       │   ├── IKLAIGovernance.tsx
+│   │   │       │   ├── IKLAppliedGuidance.tsx
+│   │   │       │   ├── IKLCanonicalDigitalInfrastructure.tsx
+│   │   │       │   ├── IKLCanonicalIdentityFramework.tsx
+│   │   │       │   ├── IKLCanonicalTextDiscipline.tsx
+│   │   │       │   ├── IKLCorpusScope.tsx
+│   │   │       │   ├── IKLCurrentPhase.tsx
+│   │   │       │   ├── IKLInstitutionalCollaboration.tsx
+│   │   │       │   ├── IKLKnowledgeLayerModel.tsx
+│   │   │       │   ├── IKLLivingCivilizationalModel.tsx
+│   │   │       │   ├── IKLLongTermVision.tsx
+│   │   │       │   ├── IKLMapOfSastras.tsx
+│   │   │       │   ├── IKLPhaseRoadmap.tsx
+│   │   │       │   ├── IKLResearchDigitalHumanities.tsx
+│   │   │       │   ├── IKLStructuredEducation.tsx
+│   │   │       │   └── IKLTechnicalArchitecture.tsx
+│   │   │       └── page.tsx
+│   │   ├── components
+│   │   │   ├── Breadcrumbs.tsx
+│   │   │   ├── ChapterCard.tsx
+│   │   │   ├── ChapterGrid.tsx
+│   │   │   ├── CorpusToggle.tsx
+│   │   │   ├── CorpusTree.tsx
+│   │   │   ├── HomeHero.tsx
+│   │   │   ├── layout
+│   │   │   │   ├── Footer.tsx
+│   │   │   │   ├── GlobalHeader.tsx
+│   │   │   │   ├── Header.tsx
+│   │   │   │   ├── LayoutShell.tsx
+│   │   │   │   ├── Sidebar.tsx
+│   │   │   │   └── TopBar.tsx
+│   │   │   ├── ui
+│   │   │   │   ├── accordion.tsx
+│   │   │   │   ├── button.tsx
+│   │   │   │   ├── card.tsx
+│   │   │   │   ├── command.tsx
+│   │   │   │   ├── dialog.tsx
+│   │   │   │   ├── dropdown-menu.tsx
+│   │   │   │   ├── input.tsx
+│   │   │   │   ├── resizable.tsx
+│   │   │   │   ├── scroll-area.tsx
+│   │   │   │   ├── separator.tsx
+│   │   │   │   ├── tabs.tsx
+│   │   │   │   └── utils.ts
+│   │   │   └── ViewOptions.tsx
+│   │   ├── context
+│   │   │   └── ReadingModeContext.tsx
+│   │   ├── features
+│   │   │   └── scripture
+│   │   │       ├── components
+│   │   │       │   ├── atoms
+│   │   │       │   ├── molecules
+│   │   │       │   └── organisms
+│   │   │       ├── mode
+│   │   │       │   ├── mode.context.tsx
+│   │   │       │   ├── mode.defaults.ts
+│   │   │       │   ├── mode.types.ts
+│   │   │       │   ├── ScriptToggle.tsx
+│   │   │       │   ├── StudyModeToggle.tsx
+│   │   │       │   ├── StudyProfileToggle.tsx
+│   │   │       │   └── TranslationToggle.tsx
+│   │   │       ├── render
+│   │   │       │   └── textProcessor.tsx
+│   │   │       └── scripture.loader.ts
+│   │   ├── lib
+│   │   │   ├── chapterMap.ts
+│   │   │   ├── constants.ts
+│   │   │   ├── corpus.structure.ts
+│   │   │   └── utils.ts
+│   │   └── types
+│   │       └── scripture.types.ts
+│   ├── tailwind.config.ts
+│   └── tsconfig.json
+├── Icon\015
+├── README.md
+├── registry
+│   └── smrti
+│       └── kama
+│           └── kama-sutra
+│               ├── README.md
+│               └── UID_REGISTRY.json
+├── scrape_verse.py
+├── scripts
+│   ├── bhagavad-gita
+│   │   ├── stage-0-intake
+│   │   │   └── s0_scrape_vedabase_bg.py
+│   │   ├── stage-1-normalize
+│   │   │   └── s1_normalize_vedabase_bg.py
+│   │   ├── stage-1.5-synonyms
+│   │   │   └── s15_normalize_synonyms_vedabase_bg.py
+│   │   ├── stage-2-canonical
+│   │   │   └── s2_create_canonical_bg.py
+│   │   ├── stage-2.5-iast-realign
+│   │   │   └── s25_realign_iast_bg.py
+│   │   └── stage-3.1-translation
+│   │       └── s31_extract_translation_prabhupada.py
+│   ├── migration
+│   │   ├── m1_create_editorial_units.py
+│   │   ├── m2_migrate_translations.py
+│   │   ├── m3_migrate_synonyms.py
+│   │   ├── m4_migrate_exposition.py
+│   │   └── m5_create_verse_index.py
+│   ├── README.md
+│   ├── shared
+│   └── validators
+│       ├── validate_canonical_verse.py
+│       ├── validate_editorial_unit.py
+│       ├── validate_exposition.py
+│       ├── validate_synonyms.py
+│       ├── validate_translation.py
+│       └── validate_verse_index.py
+├── shared_components
+│   └── side-bar-panel-test
+│       ├── ATTRIBUTIONS.md
+│       ├── index.html
+│       ├── package.json
+│       ├── postcss.config.mjs
+│       ├── README.md
+│       ├── src
+│       │   ├── app
+│       │   │   ├── App.tsx
+│       │   │   ├── components
+│       │   │   │   ├── ChapterNode.tsx
+│       │   │   │   ├── figma
+│       │   │   │   ├── SidebarTree.tsx
+│       │   │   │   ├── ui
+│       │   │   │   ├── VerseDisplay.tsx
+│       │   │   │   └── VerseNode.tsx
+│       │   │   └── data
+│       │   │       └── gitaData.ts
+│       │   ├── main.tsx
+│       │   └── styles
+│       │       ├── fonts.css
+│       │       ├── index.css
+│       │       ├── tailwind.css
+│       │       └── theme.css
+│       └── vite.config.ts
+├── site
+└── structure.txt
+
+305 directories, 482 files

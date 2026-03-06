@@ -1,0 +1,49 @@
+{
+  "schema": "vedic-library.scripture.registry",
+  "version": "1.0.0",
+  "scriptures": {
+    "bg": {
+      "name": "Bhagavad-gita",
+      "corpus": "itihasa",
+      "text": "mahabharata",
+      "section": "bhisma-parva",
+      "subwork": "bhagavad-gita"
+    },
+
+    "rv": {
+      "name": "Rig Veda",
+      "corpus": "sruti",
+      "text": "rig-veda",
+      "section": "samhita"
+    },
+
+    "sv": {
+      "name": "Sama Veda",
+      "corpus": "sruti",
+      "text": "sama-veda",
+      "section": "samhita"
+    },
+
+    "yv": {
+      "name": "Yajur Veda",
+      "corpus": "sruti",
+      "text": "yajur-veda",
+      "section": "sukla",
+      "subwork": "samhita"
+    },
+
+    "ms": {
+      "name": "Manu Smriti",
+      "corpus": "smrti",
+      "text": "dharma-sastra",
+      "subwork": "manu-smriti"
+    },
+
+    "ys": {
+      "name": "Yoga Sutra",
+      "corpus": "darsana",
+      "text": "yoga",
+      "subwork": "yoga-sutra"
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "uid": "bg.1.1.sridhara.translation.hi",
+
+  "commentary_ref": "bg.1.1.sridhara.commentary.sa",
+
+  "translation": {
+    "language": "hi",
+    "translator": "Sample Translator",
+    "content": "श्रीधर स्वामी बताते हैं कि कुरुक्षेत्र को धर्मक्षेत्र इसलिए कहा जाता है क्योंकि यह धर्म के आचरण का पवित्र स्थान है।"
+  },
+
+  "schema": {
+    "name": "vedic-library.commentary.translation",
+    "version": "1.0.0"
+  }
+}

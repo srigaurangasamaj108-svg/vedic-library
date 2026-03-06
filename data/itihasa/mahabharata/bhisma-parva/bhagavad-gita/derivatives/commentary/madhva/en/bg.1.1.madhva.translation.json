@@ -1,0 +1,16 @@
+{
+  "uid": "bg.1.1.madhva.translation.en",
+
+  "commentary_ref": "bg.1.1.madhva.commentary.sa",
+
+  "translation": {
+    "language": "en",
+    "translator": "Sample Translator",
+    "content": "Madhvācārya interprets the term dharma-kṣetra as indicating the sacred nature of the battlefield where righteous duty is performed."
+  },
+
+  "schema": {
+    "name": "vedic-library.commentary.translation",
+    "version": "1.0.0"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "name": "vedic-library-v1.0",
+  "version": "1.0.0",
+  "description": "Vedic Library Canonical Engine",
+  "private": true,
+  "type": "commonjs",
+
+  "scripts": {
+    "vedic": "ts-node -r tsconfig-paths/register scripts/cli/vedic.ts",
+    "build:commentary-index": "ts-node -r tsconfig-paths/register scripts/cli/build-commentary-index.ts",
+    "frontend:dev": "npm --prefix frontend run dev",
+    "frontend:build": "npm --prefix frontend run build",
+    "frontend:start": "npm --prefix frontend run start"
+  },
+
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/srigaurangasamaj108-svg/vedic-library.git"
+  },
+
+  "license": "ISC",
+
+  "devDependencies": {
+    "ts-node": "^10.9.2",
+    "tsconfig-paths": "^4.2.0",
+    "typescript": "^5.4.5"
+  }
+}

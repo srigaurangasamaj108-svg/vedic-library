@@ -1,0 +1,26 @@
+{
+  "uid": "bg.1.1.madhva.commentary.sa",
+
+  "canonical_ref": "bg.1.1",
+
+  "author": {
+    "id": "madhva",
+    "name": "Śrī Madhvācārya",
+    "tradition": "Dvaita Vedānta"
+  },
+
+  "commentary": {
+    "language": "sa",
+    "content": "धर्मक्षेत्रे कुरुक्षेत्रे इत्यस्य विशेषार्थः धर्मयुद्धस्य पवित्रता।"
+  },
+
+  "metadata": {
+    "script": "devanagari",
+    "level": "verse"
+  },
+
+  "schema": {
+    "name": "vedic-library.commentary",
+    "version": "1.0.0"
+  }
+}

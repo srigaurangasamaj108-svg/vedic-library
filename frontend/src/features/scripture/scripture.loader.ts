@@ -9,40 +9,55 @@ import {
   SynonymLayer,
   ExpositionLayer,
   VerseComposition,
+  CommentaryLayer,
+  CommentaryTranslationLayer
 } from "@/types/scripture.types";
 
+import {
+  loadVerseIndex,
+  resolveCanonicalPath,
+  resolveEditorialPaths,
+  VerseIndex
+} from "./index.loader";
+
+import {
+  loadCommentaries,
+  loadCommentaryTranslations
+} from "./commentary.loader";
+
 /* -------------------------------------------------------------------------- */
-/*                               PATH RESOLUTION                              */
+/*                          SCRIPTURE ROOT RESOLUTION                         */
 /* -------------------------------------------------------------------------- */
 
-const PROJECT_ROOT = path.resolve(
-  process.cwd(),
-  process.cwd().endsWith("frontend") ? ".." : "."
-);
+function resolveScriptureRoot(index: VerseIndex) {
 
-const CANONICAL_ROOT = path.join(
-  PROJECT_ROOT,
-  "data/itihasa/mahabharata/bhisma-parva/bhagavad-gita"
-);
+  const { corpus, text, section, subwork } = index.work;
+
+  return path.join(
+    process.cwd(),
+    "..",
+    "data",
+    corpus,
+    text,
+    section ?? "",
+    subwork ?? ""
+  );
+}
 
 /* -------------------------------------------------------------------------- */
 /*                               CANONICAL LOAD                               */
 /* -------------------------------------------------------------------------- */
 
-async function loadCanonical(uid: string): Promise<CanonicalUnit> {
-  const [text, chapter, verse] = uid.split(".");
+async function loadCanonical(
+  index: VerseIndex,
+  scriptureRoot: string
+): Promise<CanonicalUnit> {
 
-  if (text !== "bg") {
-    throw new Error(`Unsupported UID: ${uid}`);
-  }
-
-  const canonicalPath = path.join(
-    CANONICAL_ROOT,
-    "canonical",
-    `bg.${chapter}.${verse}.json`
-  );
+  const canonicalPath =
+    resolveCanonicalPath(index, scriptureRoot);
 
   const file = await fs.readFile(canonicalPath, "utf-8");
+
   const raw = JSON.parse(file);
 
   return {
@@ -51,174 +66,143 @@ async function loadCanonical(uid: string): Promise<CanonicalUnit> {
       corpus: raw.work.corpus,
       text: raw.work.text,
       section: raw.work.section,
-      subwork: raw.work.subwork,
+      subwork: raw.work.subwork
     },
     location: raw.location,
     scripts: [
       {
         script: raw.text.script,
-        content: raw.text.content,
+        content: raw.text.content
       },
       {
         script: raw.transliteration.scheme,
-        content: raw.transliteration.content,
-      },
+        content: raw.transliteration.content
+      }
     ],
-    schema: raw.schema,
+    schema: raw.schema
   };
 }
 
 /* -------------------------------------------------------------------------- */
-/*                         RANGE-AWARE EDITORIAL LOADER                       */
+/*                             EDITORIAL UNIT LOAD                            */
 /* -------------------------------------------------------------------------- */
 
 async function loadEditorialUnit(
-  uid: string,
-  editor: string
+  index: VerseIndex,
+  scriptureRoot: string
 ): Promise<EditorialUnit | null> {
-  const [, chapterStr, verseStr] = uid.split(".");
 
-  const chapter = Number(chapterStr);
-  const verse = Number(verseStr);
+  const editorialPaths =
+    resolveEditorialPaths(index, scriptureRoot);
 
-  const dirPath = path.join(
-    CANONICAL_ROOT,
-    "derivatives/editorial-units",
-    editor
-  );
+  if (!editorialPaths?.length) return null;
 
-  try {
-    const files = await fs.readdir(dirPath);
+  for (const p of editorialPaths) {
 
-    for (const fileName of files) {
-      if (!fileName.endsWith(".editorial-unit.json")) continue;
+    try {
 
-      const filePath = path.join(dirPath, fileName);
-      const file = await fs.readFile(filePath, "utf-8");
-      const raw: EditorialUnit = JSON.parse(file);
+      const file = await fs.readFile(p, "utf-8");
 
-      if (
-        raw.covers.chapter === chapter &&
-        verse >= raw.covers.from_verse &&
-        verse <= raw.covers.to_verse
-      ) {
-        return raw;
-      }
+      return JSON.parse(file);
+
+    } catch {
+      continue;
     }
-
-    return null;
-  } catch {
-    return null;
   }
+
+  return null;
 }
 
 /* -------------------------------------------------------------------------- */
-/*                         RANGE-AWARE TRANSLATION LOADER                     */
-/* -------------------------------------------------------------------------- */
-
-async function loadTranslation(
-  uid: string,
-  editor: string
-): Promise<TranslationLayer | null> {
-  const editorial = await loadEditorialUnit(uid, editor);
-  if (!editorial) return null;
-
-  const { chapter, from_verse, to_verse } = editorial.covers;
-
-  const fileName =
-    from_verse === to_verse
-      ? `bg.${chapter}.${from_verse}.${editor}.translation.json`
-      : `bg.${chapter}.${from_verse}-${to_verse}.${editor}.translation.json`;
-
-  const filePath = path.join(
-    CANONICAL_ROOT,
-    "derivatives/translations/en",
-    editor,
-    fileName
-  );
-
-  try {
-    const file = await fs.readFile(filePath, "utf-8");
-    const raw = JSON.parse(file);
-
-    return {
-      id: `${editor}-en`,
-      language: raw.translation.language,
-      author: raw.translation.translator,
-      content: raw.translation.content,
-    };
-  } catch {
-    return null;
-  }
-}
-
-/* -------------------------------------------------------------------------- */
-/*                         RANGE-AWARE SYNONYMS LOADER                        */
+/*                          DERIVATIVE LAYER LOADERS                          */
 /* -------------------------------------------------------------------------- */
 
 async function loadSynonyms(
-  uid: string,
-  editor: string
+  index: VerseIndex,
+  editor: string,
+  scriptureRoot: string
 ): Promise<SynonymLayer | null> {
-  const editorial = await loadEditorialUnit(uid, editor);
-  if (!editorial) return null;
-
-  const { chapter, from_verse, to_verse } = editorial.covers;
-
-  const fileName =
-    from_verse === to_verse
-      ? `bg.${chapter}.${from_verse}.${editor}.synonyms.json`
-      : `bg.${chapter}.${from_verse}-${to_verse}.${editor}.synonyms.json`;
 
   const filePath = path.join(
-    CANONICAL_ROOT,
-    "derivatives/synonyms",
+    scriptureRoot,
+    "derivatives",
+    "synonyms",
     editor,
-    fileName
+    `${index.verse_uid}.${editor}.synonyms.json`
   );
 
   try {
+
     const file = await fs.readFile(filePath, "utf-8");
+
     const raw = JSON.parse(file);
 
     return {
       id: `${editor}-synonyms`,
       language: raw.synonyms.language,
       author: raw.synonyms.author,
-      items: raw.synonyms.items.items,
+      items: raw.synonyms.items.items
     };
+
   } catch {
     return null;
   }
 }
 
-/* -------------------------------------------------------------------------- */
-/*                         RANGE-AWARE EXPOSITION LOADER                      */
-/* -------------------------------------------------------------------------- */
-
-async function loadExposition(
-  uid: string,
-  editor: string
-): Promise<ExpositionLayer | null> {
-  const editorial = await loadEditorialUnit(uid, editor);
-  if (!editorial) return null;
-
-  const { chapter, from_verse, to_verse } = editorial.covers;
-
-  const fileName =
-    from_verse === to_verse
-      ? `bg.${chapter}.${from_verse}.${editor}.exposition.json`
-      : `bg.${chapter}.${from_verse}-${to_verse}.${editor}.exposition.json`;
+async function loadTranslation(
+  index: VerseIndex,
+  editor: string,
+  language: string,
+  scriptureRoot: string
+): Promise<TranslationLayer | null> {
 
   const filePath = path.join(
-    CANONICAL_ROOT,
-    "derivatives/exposition/en",
+    scriptureRoot,
+    "derivatives",
+    "translations",
+    language,
     editor,
-    fileName
+    `${index.verse_uid}.${editor}.translation.json`
   );
 
   try {
+
     const file = await fs.readFile(filePath, "utf-8");
+
+    const raw = JSON.parse(file);
+
+    return {
+      id: `${editor}-${language}`,
+      language: raw.translation.language,
+      author: raw.translation.translator,
+      content: raw.translation.content
+    };
+
+  } catch {
+    return null;
+  }
+}
+
+async function loadExposition(
+  index: VerseIndex,
+  editor: string,
+  language: string,
+  scriptureRoot: string
+): Promise<ExpositionLayer | null> {
+
+  const filePath = path.join(
+    scriptureRoot,
+    "derivatives",
+    "exposition",
+    language,
+    editor,
+    `${index.verse_uid}.${editor}.exposition.json`
+  );
+
+  try {
+
+    const file = await fs.readFile(filePath, "utf-8");
+
     const raw = JSON.parse(file);
 
     return {
@@ -226,8 +210,9 @@ async function loadExposition(
       language: raw.exposition.language,
       author: raw.exposition.author,
       type: raw.exposition.type,
-      content: raw.exposition.content,
+      content: raw.exposition.content
     };
+
   } catch {
     return null;
   }
@@ -240,7 +225,14 @@ async function loadExposition(
 export async function loadScripturalUnit(
   uid: string
 ): Promise<ScripturalUnit> {
-  const canonical = await loadCanonical(uid);
+
+  const index = await loadVerseIndex(uid);
+
+  const scriptureRoot = resolveScriptureRoot(index);
+
+  const canonical =
+    await loadCanonical(index, scriptureRoot);
+
   return { canonical };
 }
 
@@ -250,11 +242,19 @@ export async function loadScripturalUnit(
 
 export async function loadVerseComposition(
   uid: string,
-  editor: string = "prabhupada"
+  editor: string = "prabhupada",
+  language: string = "en"
 ): Promise<VerseComposition> {
-  const canonical = await loadCanonical(uid);
 
-  const editorialUnit = await loadEditorialUnit(uid, editor);
+  const index = await loadVerseIndex(uid);
+
+  const scriptureRoot = resolveScriptureRoot(index);
+
+  const canonical =
+    await loadCanonical(index, scriptureRoot);
+
+  const editorialUnit =
+    await loadEditorialUnit(index, scriptureRoot);
 
   if (!editorialUnit) {
     return { canonical };
@@ -264,28 +264,43 @@ export async function loadVerseComposition(
     synonyms?: SynonymLayer;
     translation?: TranslationLayer;
     exposition?: ExpositionLayer;
+    commentary?: CommentaryLayer[];
+    commentary_translations?: CommentaryTranslationLayer[];
   } = {};
 
-  if (editorialUnit.scope?.has_translation) {
-    const translation = await loadTranslation(uid, editor);
-    if (translation) layers.translation = translation;
-  }
+  const synonyms =
+    await loadSynonyms(index, editor, scriptureRoot);
 
-  if (editorialUnit.scope?.has_synonyms) {
-    const synonyms = await loadSynonyms(uid, editor);
-    if (synonyms) layers.synonyms = synonyms;
-  }
+  if (synonyms) layers.synonyms = synonyms;
 
-  if (editorialUnit.scope?.has_exposition) {
-    const exposition = await loadExposition(uid, editor);
-    if (exposition) layers.exposition = exposition;
-  }
+  const translation =
+    await loadTranslation(index, editor, language, scriptureRoot);
+
+  if (translation) layers.translation = translation;
+
+  const exposition =
+    await loadExposition(index, editor, language, scriptureRoot);
+
+  if (exposition) layers.exposition = exposition;
+
+  const commentaries =
+    await loadCommentaries(index, scriptureRoot);
+
+  if (commentaries.length)
+    layers.commentary = commentaries;
+
+  const commentaryTranslations =
+    await loadCommentaryTranslations(index, scriptureRoot);
+
+  if (commentaryTranslations.length)
+    layers.commentary_translations =
+      commentaryTranslations;
 
   return {
     canonical,
     editorial: {
       unit: editorialUnit,
-      layers,
-    },
+      layers
+    }
   };
 }
