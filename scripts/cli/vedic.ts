@@ -1,10 +1,4 @@
-#!/usr/bin/env ts-node
-
-import { loadVerseComposition } from "../../frontend/src/features/scripture/scripture.loader";
-
-/* -------------------------------------------------------------------------- */
-/*                              RENDER VERSE CLI                              */
-/* -------------------------------------------------------------------------- */
+import { loadVerseComposition } from "@/features/scripture/scripture.loader";
 
 async function renderVerse(uid: string) {
 
@@ -14,146 +8,131 @@ async function renderVerse(uid: string) {
   console.log(`UID: ${uid}`);
   console.log("==============================\n");
 
-  /* ---------------------------------------------------------------------- */
-  /*                               SANSKRIT                                 */
-  /* ---------------------------------------------------------------------- */
+  /*
+  ==============================
+  CANONICAL
+  ==============================
+  */
 
-  const sanskrit = verse.canonical.scripts.find(
-    (s) => s.script === "devanagari"
-  );
+  console.log("SANSKRIT:\n");
+  console.log(verse.canonical.text.sanskrit);
+  console.log("");
 
-  if (sanskrit) {
+  console.log("TRANSLITERATION:\n");
+  console.log(verse.canonical.text.transliteration);
+  console.log("");
 
-    console.log("SANSKRIT:\n");
-    console.log(sanskrit.content);
-    console.log("");
-  }
+  /*
+  ==============================
+  SYNONYMS
+  ==============================
+  */
 
-  /* ---------------------------------------------------------------------- */
-  /*                            TRANSLITERATION                             */
-  /* ---------------------------------------------------------------------- */
-
-  const transliteration = verse.canonical.scripts.find(
-    (s) => s.script === "iast"
-  );
-
-  if (transliteration) {
-
-    console.log("TRANSLITERATION:\n");
-    console.log(transliteration.content);
-    console.log("");
-  }
-
-  if (!verse.editorial) return;
-
-  const layers = verse.editorial.layers;
-
-  /* ---------------------------------------------------------------------- */
-  /*                                SYNONYMS                                */
-  /* ---------------------------------------------------------------------- */
-
-  if (layers.synonyms) {
+  if (verse.synonyms) {
 
     console.log("SYNONYMS:\n");
 
-    for (const item of layers.synonyms.items) {
-
+    verse.synonyms.items.forEach((item: any) => {
       console.log(`${item.sanskrit} — ${item.meaning}`);
-
-    }
+    });
 
     console.log("");
+
   }
 
-  /* ---------------------------------------------------------------------- */
-  /*                              TRANSLATION                               */
-  /* ---------------------------------------------------------------------- */
+  /*
+  ==============================
+  TRANSLATION
+  ==============================
+  */
 
-  if (layers.translation) {
+  if (verse.translation) {
 
     console.log("TRANSLATION:\n");
-
-    console.log(layers.translation.content);
-
+    console.log(verse.translation.content);
     console.log("");
+
   }
 
-  /* ---------------------------------------------------------------------- */
-  /*                               EXPOSITION                               */
-  /* ---------------------------------------------------------------------- */
+  /*
+  ==============================
+  EXPOSITION
+  ==============================
+  */
 
-  if (layers.exposition) {
+  if (verse.exposition) {
 
     console.log("EXPOSITION:\n");
-
-    console.log(layers.exposition.content);
-
+    console.log(verse.exposition.content);
     console.log("");
+
   }
 
-  /* ---------------------------------------------------------------------- */
-  /*                              COMMENTARIES                              */
-  /* ---------------------------------------------------------------------- */
+  /*
+  ==============================
+  COMMENTARIES
+  ==============================
+  */
 
-  if (layers.commentary && layers.commentary.length) {
+  if (verse.commentaries?.length) {
 
     console.log("COMMENTARIES:\n");
 
-    for (const c of layers.commentary) {
+    verse.commentaries.forEach((c: any) => {
 
-      console.log(`— ${c.author} (${c.language})\n`);
-
+      console.log(`— ${c.author} (${c.language})`);
       console.log(c.content);
-
       console.log("");
-    }
+
+    });
+
   }
 
-  /* ---------------------------------------------------------------------- */
-  /*                        COMMENTARY TRANSLATIONS                         */
-  /* ---------------------------------------------------------------------- */
+  /*
+  ==============================
+  COMMENTARY TRANSLATIONS
+  ==============================
+  */
 
-  if (layers.commentary_translations && layers.commentary_translations.length) {
+  if (verse.commentaryTranslations?.length) {
 
     console.log("COMMENTARY TRANSLATIONS:\n");
 
-    for (const c of layers.commentary_translations) {
+    verse.commentaryTranslations.forEach((c: any) => {
 
-      console.log(`— ${c.commentary_author} (${c.language})\n`);
-
+      console.log(`— ${c.commentary_author} → ${c.language}`);
       console.log(c.content);
-
       console.log("");
-    }
+
+    });
+
   }
+
 }
 
-/* -------------------------------------------------------------------------- */
-/*                              CLI ENTRYPOINT                                */
-/* -------------------------------------------------------------------------- */
+/*
+================================
+CLI
+================================
+*/
 
 async function main() {
 
-  const command = process.argv[2];
+  const args = process.argv.slice(2);
 
-  if (command === "verse") {
+  if (args[0] === "verse") {
 
-    const uid = process.argv[3];
+    const uid = args[1];
 
     if (!uid) {
-
-      console.error("Usage: vedic verse <uid>");
-      process.exit(1);
-
+      console.log("Usage: vedic verse <uid>");
+      return;
     }
 
     await renderVerse(uid);
 
-    return;
   }
 
-  console.log("Available commands:");
-  console.log("  vedic verse <uid>");
 }
 
 main();

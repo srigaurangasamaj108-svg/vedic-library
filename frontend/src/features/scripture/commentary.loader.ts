@@ -1,144 +1,165 @@
 import fs from "fs/promises";
 import path from "path";
 
-import { VerseIndex } from "./index.loader";
 import {
   CommentaryLayer,
   CommentaryTranslationLayer
 } from "@/types/scripture.types";
 
-/* -------------------------------------------------------------------------- */
-/*                      LOAD ORIGINAL SANSKRIT COMMENTARIES                   */
-/* -------------------------------------------------------------------------- */
+/*
+================================
+Extract Author
+================================
+*/
+
+function extractAuthor(uid: string): string {
+
+  const parts = uid.split(".");
+  return parts[parts.length - 1];
+
+}
+
+/*
+================================
+Load Sanskrit Commentaries
+================================
+*/
 
 export async function loadCommentaries(
-  index: VerseIndex,
+  index: any,
   scriptureRoot: string
 ): Promise<CommentaryLayer[]> {
 
   const layers: CommentaryLayer[] = [];
 
-  const commentaryRoot = path.join(
-    scriptureRoot,
-    "derivatives",
-    "commentary"
-  );
+  const refs =
+    index.derivatives?.commentary?.refs || [];
 
-  try {
+  for (const uid of refs) {
 
-    const acharyas = await fs.readdir(commentaryRoot);
+    const author = extractAuthor(uid);
 
-    for (const acharya of acharyas) {
+    const filePath = path.join(
+      scriptureRoot,
+      "derivatives",
+      "commentary",
+      author,
+      "sa",
+      `${uid}.commentary.json`
+    );
 
-      const acharyaPath = path.join(commentaryRoot, acharya);
+    try {
 
-      const languages = await fs.readdir(acharyaPath);
+      const file = await fs.readFile(filePath, "utf-8");
 
-      for (const lang of languages) {
+      const raw = JSON.parse(file);
 
-        /* we only treat Sanskrit as original commentary */
+      layers.push({
 
-        if (lang !== "sa") continue;
+        id: uid,
 
-        const filePath = path.join(
-          acharyaPath,
-          lang,
-          `${index.verse_uid}.${acharya}.commentary.json`
-        );
+        language: raw.commentary.language || "sa",
 
-        try {
+        author:
+          raw.commentary.author ||
+          raw.commentary.commentator ||
+          author,
 
-          const file = await fs.readFile(filePath, "utf-8");
-          const raw = JSON.parse(file);
+        tradition: raw.commentary.tradition,
 
-          layers.push({
-            id: `${acharya}-sa`,
-            language: raw.commentary.language,
-            author: raw.author.name,
-            tradition: raw.author.tradition,
-            content: raw.commentary.content
-          });
+        content: raw.commentary.content
 
-        } catch {
-          continue;
-        }
+      });
 
-      }
+    } catch {
+
+      continue;
 
     }
-
-  } catch {
-
-    return [];
 
   }
 
   return layers;
+
 }
 
-/* -------------------------------------------------------------------------- */
-/*                       LOAD COMMENTARY TRANSLATIONS                         */
-/* -------------------------------------------------------------------------- */
+/*
+================================
+Load Commentary Translations
+================================
+*/
 
 export async function loadCommentaryTranslations(
-  index: VerseIndex,
+  index: any,
   scriptureRoot: string
 ): Promise<CommentaryTranslationLayer[]> {
 
   const layers: CommentaryTranslationLayer[] = [];
 
-  const commentaryRoot = path.join(
-    scriptureRoot,
-    "derivatives",
-    "commentary"
-  );
+  const refs =
+    index.derivatives?.commentary?.refs || [];
 
-  try {
+  for (const uid of refs) {
 
-    const acharyas = await fs.readdir(commentaryRoot);
+    const author = extractAuthor(uid);
 
-    for (const acharya of acharyas) {
+    const root = path.join(
+      scriptureRoot,
+      "derivatives",
+      "commentary",
+      author
+    );
 
-      const acharyaPath = path.join(commentaryRoot, acharya);
+    try {
 
-      const languages = await fs.readdir(acharyaPath);
+      const langs = await fs.readdir(root);
 
-      for (const lang of languages) {
+      for (const lang of langs) {
 
         if (lang === "sa") continue;
 
         const filePath = path.join(
-          acharyaPath,
+          root,
           lang,
-          `${index.verse_uid}.${acharya}.translation.json`
+          `${uid}.translation.${lang}.json`
         );
 
         try {
 
           const file = await fs.readFile(filePath, "utf-8");
+
           const raw = JSON.parse(file);
 
           layers.push({
-            id: `${acharya}-${lang}`,
+
+            id: uid,
+
             language: raw.translation.language,
-            commentary_author: acharya,
+
+            commentary_author: author,
+
             author: raw.translation.translator,
+
             content: raw.translation.content
+
           });
 
         } catch {
+
           continue;
+
         }
 
       }
 
+    } catch {
+
+      continue;
+
     }
-
-  } catch {
-
-    return [];
 
   }
 
   return layers;
+
 }

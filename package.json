@@ -10,7 +10,8 @@
     "build:commentary-index": "ts-node -r tsconfig-paths/register scripts/cli/build-commentary-index.ts",
     "frontend:dev": "npm --prefix frontend run dev",
     "frontend:build": "npm --prefix frontend run build",
-    "frontend:start": "npm --prefix frontend run start"
+    "frontend:start": "npm --prefix frontend run start",
+    "migrate:derivatives": "ts-node -r tsconfig-paths/register scripts/migrations/migrate-derivative-language.ts"
   },
 
   "repository": {
