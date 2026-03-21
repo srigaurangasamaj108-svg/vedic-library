@@ -1,0 +1,34 @@
+{
+  "uid": "bg.5.1",
+  "work": {
+    "corpus": "itihasa",
+    "text": "mahabharata",
+    "section": "bhisma-parva",
+    "subwork": "bhagavad-gita"
+  },
+  "location": {
+    "chapter": 5,
+    "verse": 1
+  },
+  "text": {
+    "script": "devanagari",
+    "content": "अर्जुन उवाच\nसन्न्यासं कर्मणां कृष्ण पुनर्योगं च शंससि ।\nयच्छ्रेय एतयोरेकं तन्मे ब्रूहि सुनिश्चितम्\n॥ १ ॥"
+  },
+  "transliteration": {
+    "scheme": "iast",
+    "content": "arjuna uvāca\nsannyāsaṃ karmaṇāṃ kṛṣṇa punaryogaṃ ca śaṃsasi |\nyacchreya etayorekaṃ tanme brūhi suniścitam\n|| 1 ||"
+  },
+  "source": {
+    "pipeline": "bhagavad-gita",
+    "stage": "2.5",
+    "script": "s25_realign_iast_bg.py",
+    "script_version": "2.2.0",
+    "derived_from": [
+      "vedabase/raw-json/bg-05-01.json"
+    ]
+  },
+  "schema": {
+    "name": "vedic-library.canonical.verse",
+    "version": "1.0.0"
+  }
+}

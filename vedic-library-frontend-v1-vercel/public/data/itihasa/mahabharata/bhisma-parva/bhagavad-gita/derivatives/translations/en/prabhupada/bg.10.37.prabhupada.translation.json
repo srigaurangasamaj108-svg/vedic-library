@@ -1,0 +1,23 @@
+{
+  "uid": "bg.10.37.prabhupada.translation.en",
+  "editorial_unit_ref": {
+    "uid": "bg.10.37.prabhupada",
+    "schema": "vedic-library.editorial.unit",
+    "version": "1.0.0"
+  },
+  "translation": {
+    "language": "en",
+    "translator": "A. C. Bhaktivedanta Swami Prabhupāda",
+    "content": "Of the descendants of Vṛṣṇi I am Vāsudeva, and of the Pāṇḍavas I am Arjuna. Of the sages I am Vyāsa, and among great thinkers I am Uśanā."
+  },
+  "source": {
+    "derived_from": "vedabase.io",
+    "normalized_file": "vedabase-bg-10-37.normalized.json",
+    "pipeline_stage": "migration.m2",
+    "script": "m2_migrate_translations.py"
+  },
+  "schema": {
+    "name": "vedic-library.derivative.translation",
+    "version": "2.0.0"
+  }
+}

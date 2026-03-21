@@ -1,0 +1,34 @@
+{
+  "uid": "bg.13.4",
+  "work": {
+    "corpus": "itihasa",
+    "text": "mahabharata",
+    "section": "bhisma-parva",
+    "subwork": "bhagavad-gita"
+  },
+  "location": {
+    "chapter": 13,
+    "verse": 4
+  },
+  "text": {
+    "script": "devanagari",
+    "content": "तत्क्षेत्रं यच्च‍ यादृक्‍च यद्विकारि यतश्च यत् ।\nस च यो यत्प्रभावश्च तत्समासेन मे श‍ृणु\n॥ ४ ॥"
+  },
+  "transliteration": {
+    "scheme": "iast",
+    "content": "tatkṣetraṃ yacca‍ yādṛk‍ca yadvikāri yataśca yat |\nsa ca yo yatprabhāvaśca tatsamāsena me śa‍ṛṇu\n|| 4 ||"
+  },
+  "source": {
+    "pipeline": "bhagavad-gita",
+    "stage": "2.5",
+    "script": "s25_realign_iast_bg.py",
+    "script_version": "2.2.0",
+    "derived_from": [
+      "vedabase/raw-json/bg-13-04.json"
+    ]
+  },
+  "schema": {
+    "name": "vedic-library.canonical.verse",
+    "version": "1.0.0"
+  }
+}

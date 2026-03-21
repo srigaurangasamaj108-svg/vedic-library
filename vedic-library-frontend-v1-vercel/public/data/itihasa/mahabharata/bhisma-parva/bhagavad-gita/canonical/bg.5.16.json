@@ -1,0 +1,34 @@
+{
+  "uid": "bg.5.16",
+  "work": {
+    "corpus": "itihasa",
+    "text": "mahabharata",
+    "section": "bhisma-parva",
+    "subwork": "bhagavad-gita"
+  },
+  "location": {
+    "chapter": 5,
+    "verse": 16
+  },
+  "text": {
+    "script": "devanagari",
+    "content": "ज्ञानेन तु तदज्ञानं येषां नाशितमात्मन: ।\nतेषामादित्यवज्ज्ञानं प्रकाशयति तत्परम्\n॥ १६ ॥"
+  },
+  "transliteration": {
+    "scheme": "iast",
+    "content": "jñānena tu tadajñānaṃ yeṣāṃ nāśitamātmana: |\nteṣāmādityavajjñānaṃ prakāśayati tatparam\n|| 16 ||"
+  },
+  "source": {
+    "pipeline": "bhagavad-gita",
+    "stage": "2.5",
+    "script": "s25_realign_iast_bg.py",
+    "script_version": "2.2.0",
+    "derived_from": [
+      "vedabase/raw-json/bg-05-16.json"
+    ]
+  },
+  "schema": {
+    "name": "vedic-library.canonical.verse",
+    "version": "1.0.0"
+  }
+}

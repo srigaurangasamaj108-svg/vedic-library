@@ -1,0 +1,34 @@
+{
+  "uid": "bg.7.26",
+  "work": {
+    "corpus": "itihasa",
+    "text": "mahabharata",
+    "section": "bhisma-parva",
+    "subwork": "bhagavad-gita"
+  },
+  "location": {
+    "chapter": 7,
+    "verse": 26
+  },
+  "text": {
+    "script": "devanagari",
+    "content": "वेदाहं समतीतानि वर्तमानानि चार्जुन ।\nभविष्याणि च भूतानि मां तु वेद न कश्चन\n॥ २६ ॥"
+  },
+  "transliteration": {
+    "scheme": "iast",
+    "content": "vedāhaṃ samatītāni vartamānāni cārjuna |\nbhaviṣyāṇi ca bhūtāni māṃ tu veda na kaścana\n|| 26 ||"
+  },
+  "source": {
+    "pipeline": "bhagavad-gita",
+    "stage": "2.5",
+    "script": "s25_realign_iast_bg.py",
+    "script_version": "2.2.0",
+    "derived_from": [
+      "vedabase/raw-json/bg-07-26.json"
+    ]
+  },
+  "schema": {
+    "name": "vedic-library.canonical.verse",
+    "version": "1.0.0"
+  }
+}

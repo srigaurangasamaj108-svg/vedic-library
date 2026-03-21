@@ -1,0 +1,23 @@
+{
+  "uid": "bg.8.23.prabhupada.translation.en",
+  "editorial_unit_ref": {
+    "uid": "bg.8.23.prabhupada",
+    "schema": "vedic-library.editorial.unit",
+    "version": "1.0.0"
+  },
+  "translation": {
+    "language": "en",
+    "translator": "A. C. Bhaktivedanta Swami Prabhupāda",
+    "content": "O best of the Bhāratas, I shall now explain to you the different times at which, passing away from this world, the yogī does or does not come back."
+  },
+  "source": {
+    "derived_from": "vedabase.io",
+    "normalized_file": "vedabase-bg-08-23.normalized.json",
+    "pipeline_stage": "migration.m2",
+    "script": "m2_migrate_translations.py"
+  },
+  "schema": {
+    "name": "vedic-library.derivative.translation",
+    "version": "2.0.0"
+  }
+}

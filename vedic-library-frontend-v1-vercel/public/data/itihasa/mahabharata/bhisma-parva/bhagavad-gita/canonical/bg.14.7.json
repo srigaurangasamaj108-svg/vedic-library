@@ -1,0 +1,34 @@
+{
+  "uid": "bg.14.7",
+  "work": {
+    "corpus": "itihasa",
+    "text": "mahabharata",
+    "section": "bhisma-parva",
+    "subwork": "bhagavad-gita"
+  },
+  "location": {
+    "chapter": 14,
+    "verse": 7
+  },
+  "text": {
+    "script": "devanagari",
+    "content": "रजो रागात्मकं विद्धि तृष्णासङ्गसमुद्भ‍वम् ।\nतन्निबध्‍नाति कौन्तेय कर्मसङ्गेन देहिनम्\n॥ ७ ॥"
+  },
+  "transliteration": {
+    "scheme": "iast",
+    "content": "rajo rāgātmakaṃ viddhi tṛṣṇāsaṅgasamudbha‍vam |\ntannibadh‍nāti kaunteya karmasaṅgena dehinam\n|| 7 ||"
+  },
+  "source": {
+    "pipeline": "bhagavad-gita",
+    "stage": "2.5",
+    "script": "s25_realign_iast_bg.py",
+    "script_version": "2.2.0",
+    "derived_from": [
+      "vedabase/raw-json/bg-14-07.json"
+    ]
+  },
+  "schema": {
+    "name": "vedic-library.canonical.verse",
+    "version": "1.0.0"
+  }
+}

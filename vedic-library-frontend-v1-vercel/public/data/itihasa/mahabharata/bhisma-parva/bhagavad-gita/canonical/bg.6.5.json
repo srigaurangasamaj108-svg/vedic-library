@@ -1,0 +1,34 @@
+{
+  "uid": "bg.6.5",
+  "work": {
+    "corpus": "itihasa",
+    "text": "mahabharata",
+    "section": "bhisma-parva",
+    "subwork": "bhagavad-gita"
+  },
+  "location": {
+    "chapter": 6,
+    "verse": 5
+  },
+  "text": {
+    "script": "devanagari",
+    "content": "उद्धरेदात्मनात्मानं नात्मानमवसादयेत् ।\nआत्मैव ह्यात्मनो बन्धुरात्मैव रिपुरात्मन:\n॥ ५ ॥"
+  },
+  "transliteration": {
+    "scheme": "iast",
+    "content": "uddharedātmanātmānaṃ nātmānamavasādayet |\nātmaiva hyātmano bandhurātmaiva ripurātmana:\n|| 5 ||"
+  },
+  "source": {
+    "pipeline": "bhagavad-gita",
+    "stage": "2.5",
+    "script": "s25_realign_iast_bg.py",
+    "script_version": "2.2.0",
+    "derived_from": [
+      "vedabase/raw-json/bg-06-05.json"
+    ]
+  },
+  "schema": {
+    "name": "vedic-library.canonical.verse",
+    "version": "1.0.0"
+  }
+}

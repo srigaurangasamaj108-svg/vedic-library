@@ -1,0 +1,34 @@
+{
+  "uid": "bg.11.46",
+  "work": {
+    "corpus": "itihasa",
+    "text": "mahabharata",
+    "section": "bhisma-parva",
+    "subwork": "bhagavad-gita"
+  },
+  "location": {
+    "chapter": 11,
+    "verse": 46
+  },
+  "text": {
+    "script": "devanagari",
+    "content": "किरीटिनं गदिनं चक्रहस्त-\nमिच्छामि त्वां द्रष्टुमहं तथैव ।\nतेनैव रूपेण चतुर्भुजेन\nसहस्रबाहो भव विश्वमूर्ते\n॥ ४६ ॥"
+  },
+  "transliteration": {
+    "scheme": "iast",
+    "content": "kirīṭinaṃ gadinaṃ cakrahasta-\nmicchāmi tvāṃ draṣṭumahaṃ tathaiva |\ntenaiva rūpeṇa caturbhujena\nsahasrabāho bhava viśvamūrte\n|| 46 ||"
+  },
+  "source": {
+    "pipeline": "bhagavad-gita",
+    "stage": "2.5",
+    "script": "s25_realign_iast_bg.py",
+    "script_version": "2.2.0",
+    "derived_from": [
+      "vedabase/raw-json/bg-11-46.json"
+    ]
+  },
+  "schema": {
+    "name": "vedic-library.canonical.verse",
+    "version": "1.0.0"
+  }
+}

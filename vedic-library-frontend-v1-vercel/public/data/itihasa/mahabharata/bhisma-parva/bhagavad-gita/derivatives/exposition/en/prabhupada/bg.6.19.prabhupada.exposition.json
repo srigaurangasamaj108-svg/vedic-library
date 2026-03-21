@@ -1,0 +1,17 @@
+{
+  "schema": "vedic-library.exposition",
+  "schema_version": "1.0.0",
+  "uid": "bg.6.19.prabhupada.exposition",
+  "editorial_unit_ref": "bg.6.19.prabhupada",
+  "exposition": {
+    "type": "purport",
+    "language": "en",
+    "author": "A. C. Bhaktivedanta Swami Prabhupāda",
+    "content": "A truly Kṛṣṇa conscious person, always absorbed in transcendence, in constant undisturbed meditation on his worshipable Lord, is as steady as a lamp in a windless place."
+  },
+  "source": {
+    "edition": "Bhagavad-gītā As It Is",
+    "editor": "BBT",
+    "lineage": "Gaudiya Vaishnava"
+  }
+}

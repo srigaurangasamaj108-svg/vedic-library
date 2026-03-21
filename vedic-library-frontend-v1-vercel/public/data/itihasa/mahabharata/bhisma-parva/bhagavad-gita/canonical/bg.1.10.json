@@ -1,0 +1,34 @@
+{
+  "uid": "bg.1.10",
+  "work": {
+    "corpus": "itihasa",
+    "text": "mahabharata",
+    "section": "bhisma-parva",
+    "subwork": "bhagavad-gita"
+  },
+  "location": {
+    "chapter": 1,
+    "verse": 10
+  },
+  "text": {
+    "script": "devanagari",
+    "content": "अपर्याप्त‍ं तदस्माकं बलं भीष्माभिरक्षितम् ।\nपर्याप्त‍ं त्विदमेतेषां बलं भीमाभिरक्षितम्\n॥ १० ॥"
+  },
+  "transliteration": {
+    "scheme": "iast",
+    "content": "aparyāpta‍ṃ tadasmākaṃ balaṃ bhīṣmābhirakṣitam |\nparyāpta‍ṃ tvidameteṣāṃ balaṃ bhīmābhirakṣitam\n|| 10 ||"
+  },
+  "source": {
+    "pipeline": "bhagavad-gita",
+    "stage": "2.5",
+    "script": "s25_realign_iast_bg.py",
+    "script_version": "2.2.0",
+    "derived_from": [
+      "vedabase/raw-json/bg-01-10.json"
+    ]
+  },
+  "schema": {
+    "name": "vedic-library.canonical.verse",
+    "version": "1.0.0"
+  }
+}

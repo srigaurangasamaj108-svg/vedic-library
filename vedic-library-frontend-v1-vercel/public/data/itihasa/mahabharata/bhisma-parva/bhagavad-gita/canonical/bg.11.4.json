@@ -1,0 +1,34 @@
+{
+  "uid": "bg.11.4",
+  "work": {
+    "corpus": "itihasa",
+    "text": "mahabharata",
+    "section": "bhisma-parva",
+    "subwork": "bhagavad-gita"
+  },
+  "location": {
+    "chapter": 11,
+    "verse": 4
+  },
+  "text": {
+    "script": "devanagari",
+    "content": "मन्यसे यदि तच्छक्यं मया द्रष्टुमिति प्रभो ।\nयोगेश्वर ततो मे त्वं दर्शयात्मानमव्ययम्\n॥ ४ ॥"
+  },
+  "transliteration": {
+    "scheme": "iast",
+    "content": "manyase yadi tacchakyaṃ mayā draṣṭumiti prabho |\nyogeśvara tato me tvaṃ darśayātmānamavyayam\n|| 4 ||"
+  },
+  "source": {
+    "pipeline": "bhagavad-gita",
+    "stage": "2.5",
+    "script": "s25_realign_iast_bg.py",
+    "script_version": "2.2.0",
+    "derived_from": [
+      "vedabase/raw-json/bg-11-04.json"
+    ]
+  },
+  "schema": {
+    "name": "vedic-library.canonical.verse",
+    "version": "1.0.0"
+  }
+}

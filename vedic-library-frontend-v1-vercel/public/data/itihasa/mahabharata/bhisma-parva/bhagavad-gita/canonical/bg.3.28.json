@@ -1,0 +1,34 @@
+{
+  "uid": "bg.3.28",
+  "work": {
+    "corpus": "itihasa",
+    "text": "mahabharata",
+    "section": "bhisma-parva",
+    "subwork": "bhagavad-gita"
+  },
+  "location": {
+    "chapter": 3,
+    "verse": 28
+  },
+  "text": {
+    "script": "devanagari",
+    "content": "तत्त्ववित्तु महाबाहो गुणकर्मविभागयोः ।\nगुणा गुणेषु वर्तन्त इति मत्वा न सज्ज‍ते\n॥ २८ ॥"
+  },
+  "transliteration": {
+    "scheme": "iast",
+    "content": "tattvavittu mahābāho guṇakarmavibhāgayoḥ |\nguṇā guṇeṣu vartanta iti matvā na sajja‍te\n|| 28 ||"
+  },
+  "source": {
+    "pipeline": "bhagavad-gita",
+    "stage": "2.5",
+    "script": "s25_realign_iast_bg.py",
+    "script_version": "2.2.0",
+    "derived_from": [
+      "vedabase/raw-json/bg-03-28.json"
+    ]
+  },
+  "schema": {
+    "name": "vedic-library.canonical.verse",
+    "version": "1.0.0"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "schema": "vedic-library.exposition",
+  "schema_version": "1.0.0",
+  "uid": "bg.18.33.prabhupada.exposition",
+  "editorial_unit_ref": "bg.18.33.prabhupada",
+  "exposition": {
+    "type": "purport",
+    "language": "en",
+    "author": "A. C. Bhaktivedanta Swami Prabhupāda",
+    "content": "Yoga\n\nis a means to understand the Supreme Soul. One who is steadily fixed in the Supreme Soul with determination, concentrating one’s mind, life and sensory activities on the Supreme, engages in Kṛṣṇa consciousness. That sort of determination is in the mode of goodness. The word\n\navyabhicāriṇyā\n\nis very significant, for it indicates that persons who are engaged in Kṛṣṇa consciousness are never deviated by any other activity."
+  },
+  "source": {
+    "edition": "Bhagavad-gītā As It Is",
+    "editor": "BBT",
+    "lineage": "Gaudiya Vaishnava"
+  }
+}

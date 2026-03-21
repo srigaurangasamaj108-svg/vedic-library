@@ -1,0 +1,34 @@
+{
+  "uid": "bg.3.38",
+  "work": {
+    "corpus": "itihasa",
+    "text": "mahabharata",
+    "section": "bhisma-parva",
+    "subwork": "bhagavad-gita"
+  },
+  "location": {
+    "chapter": 3,
+    "verse": 38
+  },
+  "text": {
+    "script": "devanagari",
+    "content": "धूमेनाव्रियते वह्निर्यथादर्शो मलेन च ।\nयथोल्बेनावृतो गर्भस्तथा तेनेदमावृत्तम्\n॥ ३८ ॥"
+  },
+  "transliteration": {
+    "scheme": "iast",
+    "content": "dhūmenāvriyate vahniryathādarśo malena ca |\nyatholbenāvṛto garbhastathā tenedamāvṛttam\n|| 38 ||"
+  },
+  "source": {
+    "pipeline": "bhagavad-gita",
+    "stage": "2.5",
+    "script": "s25_realign_iast_bg.py",
+    "script_version": "2.2.0",
+    "derived_from": [
+      "vedabase/raw-json/bg-03-38.json"
+    ]
+  },
+  "schema": {
+    "name": "vedic-library.canonical.verse",
+    "version": "1.0.0"
+  }
+}

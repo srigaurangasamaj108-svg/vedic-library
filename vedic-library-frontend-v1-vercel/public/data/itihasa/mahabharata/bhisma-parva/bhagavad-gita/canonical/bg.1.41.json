@@ -1,0 +1,34 @@
+{
+  "uid": "bg.1.41",
+  "work": {
+    "corpus": "itihasa",
+    "text": "mahabharata",
+    "section": "bhisma-parva",
+    "subwork": "bhagavad-gita"
+  },
+  "location": {
+    "chapter": 1,
+    "verse": 41
+  },
+  "text": {
+    "script": "devanagari",
+    "content": "सङ्करो नरकायैव कुलघ्न‍ानां कुलस्य च ।\nपतन्ति पितरो ह्येषां लुप्तपिण्डोदकक्रियाः\n॥ ४१ ॥"
+  },
+  "transliteration": {
+    "scheme": "iast",
+    "content": "saṅkaro narakāyaiva kulaghna‍ānāṃ kulasya ca |\npatanti pitaro hyeṣāṃ luptapiṇḍodakakriyāḥ\n|| 41 ||"
+  },
+  "source": {
+    "pipeline": "bhagavad-gita",
+    "stage": "2.5",
+    "script": "s25_realign_iast_bg.py",
+    "script_version": "2.2.0",
+    "derived_from": [
+      "vedabase/raw-json/bg-01-41.json"
+    ]
+  },
+  "schema": {
+    "name": "vedic-library.canonical.verse",
+    "version": "1.0.0"
+  }
+}

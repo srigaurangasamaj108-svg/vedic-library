@@ -1,0 +1,34 @@
+{
+  "uid": "bg.3.8",
+  "work": {
+    "corpus": "itihasa",
+    "text": "mahabharata",
+    "section": "bhisma-parva",
+    "subwork": "bhagavad-gita"
+  },
+  "location": {
+    "chapter": 3,
+    "verse": 8
+  },
+  "text": {
+    "script": "devanagari",
+    "content": "नियतं कुरु कर्म त्वं कर्म ज्यायो ह्यकर्मणः ।\nशरीरयात्रापि च ते न प्रसिद्ध्येदकर्मणः\n॥ ८ ॥"
+  },
+  "transliteration": {
+    "scheme": "iast",
+    "content": "niyataṃ kuru karma tvaṃ karma jyāyo hyakarmaṇaḥ |\nśarīrayātrāpi ca te na prasiddhyedakarmaṇaḥ\n|| 8 ||"
+  },
+  "source": {
+    "pipeline": "bhagavad-gita",
+    "stage": "2.5",
+    "script": "s25_realign_iast_bg.py",
+    "script_version": "2.2.0",
+    "derived_from": [
+      "vedabase/raw-json/bg-03-08.json"
+    ]
+  },
+  "schema": {
+    "name": "vedic-library.canonical.verse",
+    "version": "1.0.0"
+  }
+}

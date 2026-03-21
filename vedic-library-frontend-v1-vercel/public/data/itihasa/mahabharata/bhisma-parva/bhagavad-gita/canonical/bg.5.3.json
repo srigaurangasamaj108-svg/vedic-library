@@ -1,0 +1,34 @@
+{
+  "uid": "bg.5.3",
+  "work": {
+    "corpus": "itihasa",
+    "text": "mahabharata",
+    "section": "bhisma-parva",
+    "subwork": "bhagavad-gita"
+  },
+  "location": {
+    "chapter": 5,
+    "verse": 3
+  },
+  "text": {
+    "script": "devanagari",
+    "content": "ज्ञेय: स नित्यसन्न्यासी यो न द्वेष्टि न काङ्‍क्षति ।\nनिर्द्वन्द्वो हि महाबाहो सुखं बन्धात्प्रमुच्यते\n॥ ३ ॥"
+  },
+  "transliteration": {
+    "scheme": "iast",
+    "content": "jñeya: sa nityasannyāsī yo na dveṣṭi na kāṅ‍kṣati |\nnirdvandvo hi mahābāho sukhaṃ bandhātpramucyate\n|| 3 ||"
+  },
+  "source": {
+    "pipeline": "bhagavad-gita",
+    "stage": "2.5",
+    "script": "s25_realign_iast_bg.py",
+    "script_version": "2.2.0",
+    "derived_from": [
+      "vedabase/raw-json/bg-05-03.json"
+    ]
+  },
+  "schema": {
+    "name": "vedic-library.canonical.verse",
+    "version": "1.0.0"
+  }
+}

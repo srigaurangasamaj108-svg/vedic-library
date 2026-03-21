@@ -1,0 +1,17 @@
+{
+  "schema": "vedic-library.exposition",
+  "schema_version": "1.0.0",
+  "uid": "bg.1.44.prabhupada.exposition",
+  "editorial_unit_ref": "bg.1.44.prabhupada",
+  "exposition": {
+    "type": "purport",
+    "language": "en",
+    "author": "A. C. Bhaktivedanta Swami Prabhupāda",
+    "content": "Driven by selfish motives, one may be inclined to such sinful acts as the killing of one’s own brother, father or mother. There are many such instances in the history of the world. But Arjuna, being a saintly devotee of the Lord, is always conscious of moral principles and therefore takes care to avoid such activities."
+  },
+  "source": {
+    "edition": "Bhagavad-gītā As It Is",
+    "editor": "BBT",
+    "lineage": "Gaudiya Vaishnava"
+  }
+}

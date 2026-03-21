@@ -1,0 +1,34 @@
+{
+  "uid": "bg.11.21",
+  "work": {
+    "corpus": "itihasa",
+    "text": "mahabharata",
+    "section": "bhisma-parva",
+    "subwork": "bhagavad-gita"
+  },
+  "location": {
+    "chapter": 11,
+    "verse": 21
+  },
+  "text": {
+    "script": "devanagari",
+    "content": "अमी हि त्वां सुरसङ्घा विशन्ति\nकेचिद्भ‍ीता: प्राञ्जलयो गृणन्ति ।\nस्वस्तीत्युक्त्वा महर्षिसिद्धसङ्घा:\nस्तुवन्ति त्वां स्तुतिभि: पुष्कलाभि:\n॥ २१ ॥"
+  },
+  "transliteration": {
+    "scheme": "iast",
+    "content": "amī hi tvāṃ surasaṅghā viśanti\nkecidbha‍ītā: prāñjalayo gṛṇanti |\nsvastītyuktvā maharṣisiddhasaṅghā:\nstuvanti tvāṃ stutibhi: puṣkalābhi:\n|| 21 ||"
+  },
+  "source": {
+    "pipeline": "bhagavad-gita",
+    "stage": "2.5",
+    "script": "s25_realign_iast_bg.py",
+    "script_version": "2.2.0",
+    "derived_from": [
+      "vedabase/raw-json/bg-11-21.json"
+    ]
+  },
+  "schema": {
+    "name": "vedic-library.canonical.verse",
+    "version": "1.0.0"
+  }
+}

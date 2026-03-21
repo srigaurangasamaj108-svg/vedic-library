@@ -1,0 +1,23 @@
+{
+  "uid": "bg.9.18.prabhupada.translation.en",
+  "editorial_unit_ref": {
+    "uid": "bg.9.18.prabhupada",
+    "schema": "vedic-library.editorial.unit",
+    "version": "1.0.0"
+  },
+  "translation": {
+    "language": "en",
+    "translator": "A. C. Bhaktivedanta Swami Prabhupāda",
+    "content": "I am the goal, the sustainer, the master, the witness, the abode, the refuge and the most dear friend. I am the creation and the annihilation, the basis of everything, the resting place and the eternal seed."
+  },
+  "source": {
+    "derived_from": "vedabase.io",
+    "normalized_file": "vedabase-bg-09-18.normalized.json",
+    "pipeline_stage": "migration.m2",
+    "script": "m2_migrate_translations.py"
+  },
+  "schema": {
+    "name": "vedic-library.derivative.translation",
+    "version": "2.0.0"
+  }
+}

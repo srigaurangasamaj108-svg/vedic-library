@@ -1,0 +1,26 @@
+{
+  "uid": "bg.1.1.sridhara.commentary.sa",
+
+  "canonical_ref": "bg.1.1",
+
+  "author": {
+    "id": "sridhara",
+    "name": "Śrīdhara Svāmī",
+    "tradition": "Vedantic"
+  },
+
+  "commentary": {
+    "language": "sa",
+    "content": "धर्मक्षेत्रे इति धर्मभूमौ कुरुक्षेत्रे..."
+  },
+
+  "metadata": {
+    "script": "devanagari",
+    "level": "verse"
+  },
+
+  "schema": {
+    "name": "vedic-library.commentary",
+    "version": "1.0.0"
+  }
+}

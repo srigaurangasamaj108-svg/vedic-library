@@ -1,0 +1,17 @@
+{
+  "schema": "vedic-library.exposition",
+  "schema_version": "1.0.0",
+  "uid": "bg.5.24.prabhupada.exposition",
+  "editorial_unit_ref": "bg.5.24.prabhupada",
+  "exposition": {
+    "type": "purport",
+    "language": "en",
+    "author": "A. C. Bhaktivedanta Swami Prabhupāda",
+    "content": "Unless one is able to relish happiness from within, how can one retire from the external engagements meant for deriving superficial happiness? A liberated person enjoys happiness by factual experience. He can, therefore, sit silently at any place and enjoy the activities of life from within. Such a liberated person no longer desires external material happiness. This state is called\n\nbrahma-bhūta,\n\nattaining which one is assured of going back to Godhead, back to home."
+  },
+  "source": {
+    "edition": "Bhagavad-gītā As It Is",
+    "editor": "BBT",
+    "lineage": "Gaudiya Vaishnava"
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "uid": "bg.3.30",
+  "work": {
+    "corpus": "itihasa",
+    "text": "mahabharata",
+    "section": "bhisma-parva",
+    "subwork": "bhagavad-gita"
+  },
+  "location": {
+    "chapter": 3,
+    "verse": 30
+  },
+  "text": {
+    "script": "devanagari",
+    "content": "मयि सर्वाणि कर्माणि सन्न्यस्याध्यात्मचेतसा ।\nनिराशीर्निर्ममो भूत्वा युध्यस्व विगतज्वरः\n॥ ३० ॥"
+  },
+  "transliteration": {
+    "scheme": "iast",
+    "content": "mayi sarvāṇi karmāṇi sannyasyādhyātmacetasā |\nnirāśīrnirmamo bhūtvā yudhyasva vigatajvaraḥ\n|| 30 ||"
+  },
+  "source": {
+    "pipeline": "bhagavad-gita",
+    "stage": "2.5",
+    "script": "s25_realign_iast_bg.py",
+    "script_version": "2.2.0",
+    "derived_from": [
+      "vedabase/raw-json/bg-03-30.json"
+    ]
+  },
+  "schema": {
+    "name": "vedic-library.canonical.verse",
+    "version": "1.0.0"
+  }
+}

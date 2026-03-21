@@ -1,0 +1,34 @@
+{
+  "uid": "bg.9.10",
+  "work": {
+    "corpus": "itihasa",
+    "text": "mahabharata",
+    "section": "bhisma-parva",
+    "subwork": "bhagavad-gita"
+  },
+  "location": {
+    "chapter": 9,
+    "verse": 10
+  },
+  "text": {
+    "script": "devanagari",
+    "content": "मयाध्यक्षेण प्रकृति: सूयते सचराचरम् ।\nहेतुनानेन कौन्तेय जगद्विपरिवर्तते\n॥ १० ॥"
+  },
+  "transliteration": {
+    "scheme": "iast",
+    "content": "mayādhyakṣeṇa prakṛti: sūyate sacarācaram |\nhetunānena kaunteya jagadviparivartate\n|| 10 ||"
+  },
+  "source": {
+    "pipeline": "bhagavad-gita",
+    "stage": "2.5",
+    "script": "s25_realign_iast_bg.py",
+    "script_version": "2.2.0",
+    "derived_from": [
+      "vedabase/raw-json/bg-09-10.json"
+    ]
+  },
+  "schema": {
+    "name": "vedic-library.canonical.verse",
+    "version": "1.0.0"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "uid": "bg.2.67.prabhupada.translation.en",
+  "editorial_unit_ref": {
+    "uid": "bg.2.67.prabhupada",
+    "schema": "vedic-library.editorial.unit",
+    "version": "1.0.0"
+  },
+  "translation": {
+    "language": "en",
+    "translator": "A. C. Bhaktivedanta Swami Prabhupāda",
+    "content": "As a strong wind sweeps away a boat on the water, even one of the roaming senses on which the mind focuses can carry away a man’s intelligence."
+  },
+  "source": {
+    "derived_from": "vedabase.io",
+    "normalized_file": "vedabase-bg-02-67.normalized.json",
+    "pipeline_stage": "migration.m2",
+    "script": "m2_migrate_translations.py"
+  },
+  "schema": {
+    "name": "vedic-library.derivative.translation",
+    "version": "2.0.0"
+  }
+}

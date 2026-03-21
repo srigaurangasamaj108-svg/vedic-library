@@ -1,0 +1,34 @@
+{
+  "uid": "bg.11.3",
+  "work": {
+    "corpus": "itihasa",
+    "text": "mahabharata",
+    "section": "bhisma-parva",
+    "subwork": "bhagavad-gita"
+  },
+  "location": {
+    "chapter": 11,
+    "verse": 3
+  },
+  "text": {
+    "script": "devanagari",
+    "content": "एवमेतद्यथात्थ त्वमात्मानं परमेश्वर ।\nद्रष्टुमिच्छामि ते रूपमैश्वरं पुरुषोत्तम\n॥ ३ ॥"
+  },
+  "transliteration": {
+    "scheme": "iast",
+    "content": "evametadyathāttha tvamātmānaṃ parameśvara |\ndraṣṭumicchāmi te rūpamaiśvaraṃ puruṣottama\n|| 3 ||"
+  },
+  "source": {
+    "pipeline": "bhagavad-gita",
+    "stage": "2.5",
+    "script": "s25_realign_iast_bg.py",
+    "script_version": "2.2.0",
+    "derived_from": [
+      "vedabase/raw-json/bg-11-03.json"
+    ]
+  },
+  "schema": {
+    "name": "vedic-library.canonical.verse",
+    "version": "1.0.0"
+  }
+}

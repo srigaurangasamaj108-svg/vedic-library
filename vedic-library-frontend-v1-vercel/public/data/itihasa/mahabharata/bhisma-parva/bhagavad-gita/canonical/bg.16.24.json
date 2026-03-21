@@ -1,0 +1,34 @@
+{
+  "uid": "bg.16.24",
+  "work": {
+    "corpus": "itihasa",
+    "text": "mahabharata",
+    "section": "bhisma-parva",
+    "subwork": "bhagavad-gita"
+  },
+  "location": {
+    "chapter": 16,
+    "verse": 24
+  },
+  "text": {
+    "script": "devanagari",
+    "content": "तस्माच्छास्त्रं प्रमाणं ते कार्याकार्यव्यवस्थितौ ।\nज्ञात्वा शास्त्रविधानोक्तं कर्म कर्तुमिहार्हसि\n॥ २४ ॥"
+  },
+  "transliteration": {
+    "scheme": "iast",
+    "content": "tasmācchāstraṃ pramāṇaṃ te kāryākāryavyavasthitau |\njñātvā śāstravidhānoktaṃ karma kartumihārhasi\n|| 24 ||"
+  },
+  "source": {
+    "pipeline": "bhagavad-gita",
+    "stage": "2.5",
+    "script": "s25_realign_iast_bg.py",
+    "script_version": "2.2.0",
+    "derived_from": [
+      "vedabase/raw-json/bg-16-24.json"
+    ]
+  },
+  "schema": {
+    "name": "vedic-library.canonical.verse",
+    "version": "1.0.0"
+  }
+}

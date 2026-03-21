@@ -1,0 +1,171 @@
+{
+  "agama": {},
+  "darsana": {
+    "mimamsa": [],
+    "nyaya": [],
+    "sankhya": [],
+    "vaisesika": [],
+    "vedanta": [],
+    "yoga": []
+  },
+  "itihasa": {
+    "mahabharata": {
+      "adi-parva": [],
+      "anushasana-parva": [],
+      "asramavasika-parva": [],
+      "asvamedhika-parva": [],
+      "bhisma-parva": {
+        "bhagavad-gita": {
+          "canonical": [],
+          "commentaries": {
+            "verse": {
+              "madhva": [],
+              "ramanuja": [],
+              "sridhara": []
+            }
+          },
+          "derivatives": {
+            "commentary": {
+              "baladeva": {
+                "sa": []
+              },
+              "madhva": {
+                "en": [],
+                "sa": []
+              },
+              "sridhara": {
+                "en": [],
+                "hi": [],
+                "sa": []
+              }
+            },
+            "editorial-units": {
+              "prabhupada": []
+            },
+            "exposition": {
+              "en": {
+                "prabhupada": []
+              }
+            },
+            "synonyms": {
+              "en": {
+                "prabhupada": []
+              }
+            },
+            "translations": {
+              "bn": [],
+              "en": {
+                "ai": [],
+                "other-translators": [],
+                "prabhupada": []
+              },
+              "hi": []
+            }
+          },
+          "editions": [],
+          "index": {
+            "commentary": [],
+            "verse": []
+          },
+          "metadata": [],
+          "translations": {
+            "en": [],
+            "hi": [],
+            "other-languages": []
+          },
+          "word-by-word": []
+        }
+      },
+      "drona-parva": [],
+      "karna-parva": [],
+      "mahaprasthanika-parva": [],
+      "mausala-parva": [],
+      "sabha-parva": [],
+      "salya-parva": [],
+      "santi-parva": [],
+      "stri-parva": [],
+      "svargarohana-parva": [],
+      "udyoga-parva": [],
+      "vana-parva": [],
+      "virata-parva": []
+    },
+    "ramayana": {
+      "aranyakanda": [],
+      "ayodhyakanda": [],
+      "balakanda": [],
+      "kiskindhakanda": [],
+      "sundarakanda": [],
+      "yuddhakanda": []
+    }
+  },
+  "purana": {
+    "mahapurana": [],
+    "upapurana": []
+  },
+  "sampradaya": {
+    "gaudiya": {
+      "bhajana-and-stotra": [],
+      "branches-and-apasampradayas": [],
+      "foundational-authorities": [],
+      "later-acharyas": [],
+      "practice-and-sadhana": [],
+      "six-gosvamis": [],
+      "theology-and-siddhanta": []
+    }
+  },
+  "smrti": {
+    "artha-sastra": [],
+    "dharma-sastra": [],
+    "kama-sastra": [],
+    "niti-sastra": [],
+    "supplementary": []
+  },
+  "sruti": {
+    "atharva-veda": {
+      "aranyaka": [],
+      "brahmana": [],
+      "samhita": [],
+      "upanisad": []
+    },
+    "rig-veda": {
+      "aranyaka": [],
+      "brahmana": [],
+      "samhita": [],
+      "upanisad": []
+    },
+    "sama-veda": {
+      "aranyaka": [],
+      "brahmana": [],
+      "samhita": [],
+      "upanisad": []
+    },
+    "yajur-veda": {
+      "krsna": {
+        "aranyaka": [],
+        "brahmana": [],
+        "samhita": [],
+        "upanisad": []
+      },
+      "sukla": {
+        "aranyaka": [],
+        "brahmana": [],
+        "samhita": [],
+        "upanisad": []
+      }
+    }
+  },
+  "upaveda": {
+    "ayurveda": [],
+    "dhanurveda": [],
+    "gandharvaveda": [],
+    "sthapatyaveda": []
+  },
+  "vedanga": {
+    "chandas": [],
+    "jyotisa": [],
+    "kalpa": [],
+    "nirukta": [],
+    "siksa": [],
+    "vyakarana": []
+  }
+}

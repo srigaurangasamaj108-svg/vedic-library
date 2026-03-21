@@ -1,0 +1,34 @@
+{
+  "uid": "bg.17.2",
+  "work": {
+    "corpus": "itihasa",
+    "text": "mahabharata",
+    "section": "bhisma-parva",
+    "subwork": "bhagavad-gita"
+  },
+  "location": {
+    "chapter": 17,
+    "verse": 2
+  },
+  "text": {
+    "script": "devanagari",
+    "content": "श्रीभगवानुवाच\nत्रिविधा भवति श्रद्धा देहिनां सा स्वभावजा ।\nसात्त्विकी राजसी चैव तामसी चेति तां श‍ृणु\n॥ २ ॥"
+  },
+  "transliteration": {
+    "scheme": "iast",
+    "content": "śrībhagavānuvāca\ntrividhā bhavati śraddhā dehināṃ sā svabhāvajā |\nsāttvikī rājasī caiva tāmasī ceti tāṃ śa‍ṛṇu\n|| 2 ||"
+  },
+  "source": {
+    "pipeline": "bhagavad-gita",
+    "stage": "2.5",
+    "script": "s25_realign_iast_bg.py",
+    "script_version": "2.2.0",
+    "derived_from": [
+      "vedabase/raw-json/bg-17-02.json"
+    ]
+  },
+  "schema": {
+    "name": "vedic-library.canonical.verse",
+    "version": "1.0.0"
+  }
+}

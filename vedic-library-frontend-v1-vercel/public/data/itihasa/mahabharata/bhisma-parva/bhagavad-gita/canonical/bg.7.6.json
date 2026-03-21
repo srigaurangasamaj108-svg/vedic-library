@@ -1,0 +1,34 @@
+{
+  "uid": "bg.7.6",
+  "work": {
+    "corpus": "itihasa",
+    "text": "mahabharata",
+    "section": "bhisma-parva",
+    "subwork": "bhagavad-gita"
+  },
+  "location": {
+    "chapter": 7,
+    "verse": 6
+  },
+  "text": {
+    "script": "devanagari",
+    "content": "एतद्योनीनि भूतानि सर्वाणीत्युपधारय ।\nअहं कृत्स्नस्य जगत: प्रभव: प्रलयस्तथा\n॥ ६ ॥"
+  },
+  "transliteration": {
+    "scheme": "iast",
+    "content": "etadyonīni bhūtāni sarvāṇītyupadhāraya |\nahaṃ kṛtsnasya jagata: prabhava: pralayastathā\n|| 6 ||"
+  },
+  "source": {
+    "pipeline": "bhagavad-gita",
+    "stage": "2.5",
+    "script": "s25_realign_iast_bg.py",
+    "script_version": "2.2.0",
+    "derived_from": [
+      "vedabase/raw-json/bg-07-06.json"
+    ]
+  },
+  "schema": {
+    "name": "vedic-library.canonical.verse",
+    "version": "1.0.0"
+  }
+}

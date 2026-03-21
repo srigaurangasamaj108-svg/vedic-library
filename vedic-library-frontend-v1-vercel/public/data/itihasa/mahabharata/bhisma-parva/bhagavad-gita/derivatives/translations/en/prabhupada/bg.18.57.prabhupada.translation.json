@@ -1,0 +1,23 @@
+{
+  "uid": "bg.18.57.prabhupada.translation.en",
+  "editorial_unit_ref": {
+    "uid": "bg.18.57.prabhupada",
+    "schema": "vedic-library.editorial.unit",
+    "version": "1.0.0"
+  },
+  "translation": {
+    "language": "en",
+    "translator": "A. C. Bhaktivedanta Swami Prabhupāda",
+    "content": "In all activities just depend upon Me and work always under My protection. In such devotional service, be fully conscious of Me."
+  },
+  "source": {
+    "derived_from": "vedabase.io",
+    "normalized_file": "vedabase-bg-18-57.normalized.json",
+    "pipeline_stage": "migration.m2",
+    "script": "m2_migrate_translations.py"
+  },
+  "schema": {
+    "name": "vedic-library.derivative.translation",
+    "version": "2.0.0"
+  }
+}

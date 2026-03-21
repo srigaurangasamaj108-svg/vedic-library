@@ -1,0 +1,17 @@
+{
+  "schema": "vedic-library.exposition",
+  "schema_version": "1.0.0",
+  "uid": "bg.11.6.prabhupada.exposition",
+  "editorial_unit_ref": "bg.11.6.prabhupada",
+  "exposition": {
+    "type": "purport",
+    "language": "en",
+    "author": "A. C. Bhaktivedanta Swami Prabhupāda",
+    "content": "Even though Arjuna was a personal friend of Kṛṣṇa and the most advanced of learned men, it was still not possible for him to know everything about Kṛṣṇa. Here it is stated that humans have neither heard nor known of all these forms and manifestations. Now Kṛṣṇa reveals these wonderful forms."
+  },
+  "source": {
+    "edition": "Bhagavad-gītā As It Is",
+    "editor": "BBT",
+    "lineage": "Gaudiya Vaishnava"
+  }
+}

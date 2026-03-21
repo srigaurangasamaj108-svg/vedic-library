@@ -1,0 +1,17 @@
+{
+  "schema": "vedic-library.exposition",
+  "schema_version": "1.0.0",
+  "uid": "bg.18.15.prabhupada.exposition",
+  "editorial_unit_ref": "bg.18.15.prabhupada",
+  "exposition": {
+    "type": "purport",
+    "language": "en",
+    "author": "A. C. Bhaktivedanta Swami Prabhupāda",
+    "content": "The words “right” and “wrong” are very significant in this verse. Right work is work done in terms of the prescribed directions in the scriptures, and wrong work is work done against the principles of the scriptural injunctions. But whatever is done requires these five factors for its complete performance."
+  },
+  "source": {
+    "edition": "Bhagavad-gītā As It Is",
+    "editor": "BBT",
+    "lineage": "Gaudiya Vaishnava"
+  }
+}

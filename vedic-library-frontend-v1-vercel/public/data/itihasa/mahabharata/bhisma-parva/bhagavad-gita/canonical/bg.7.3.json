@@ -1,0 +1,34 @@
+{
+  "uid": "bg.7.3",
+  "work": {
+    "corpus": "itihasa",
+    "text": "mahabharata",
+    "section": "bhisma-parva",
+    "subwork": "bhagavad-gita"
+  },
+  "location": {
+    "chapter": 7,
+    "verse": 3
+  },
+  "text": {
+    "script": "devanagari",
+    "content": "मनुष्याणां सहस्रेषु कश्चिद्यतति सिद्धये ।\nयततामपि सिद्धानां कश्चिन्मां वेत्ति तत्त्वत:\n॥ ३ ॥"
+  },
+  "transliteration": {
+    "scheme": "iast",
+    "content": "manuṣyāṇāṃ sahasreṣu kaścidyatati siddhaye |\nyatatāmapi siddhānāṃ kaścinmāṃ vetti tattvata:\n|| 3 ||"
+  },
+  "source": {
+    "pipeline": "bhagavad-gita",
+    "stage": "2.5",
+    "script": "s25_realign_iast_bg.py",
+    "script_version": "2.2.0",
+    "derived_from": [
+      "vedabase/raw-json/bg-07-03.json"
+    ]
+  },
+  "schema": {
+    "name": "vedic-library.canonical.verse",
+    "version": "1.0.0"
+  }
+}

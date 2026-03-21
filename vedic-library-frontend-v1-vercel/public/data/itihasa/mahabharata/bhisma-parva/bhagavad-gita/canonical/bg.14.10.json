@@ -1,0 +1,34 @@
+{
+  "uid": "bg.14.10",
+  "work": {
+    "corpus": "itihasa",
+    "text": "mahabharata",
+    "section": "bhisma-parva",
+    "subwork": "bhagavad-gita"
+  },
+  "location": {
+    "chapter": 14,
+    "verse": 10
+  },
+  "text": {
+    "script": "devanagari",
+    "content": "रजस्तमश्चाभिभूय सत्त्वं भवति भारत ।\nरज: सत्त्वं तमश्चैव तम: सत्त्वं रजस्तथा\n॥ १० ॥"
+  },
+  "transliteration": {
+    "scheme": "iast",
+    "content": "rajastamaścābhibhūya sattvaṃ bhavati bhārata |\nraja: sattvaṃ tamaścaiva tama: sattvaṃ rajastathā\n|| 10 ||"
+  },
+  "source": {
+    "pipeline": "bhagavad-gita",
+    "stage": "2.5",
+    "script": "s25_realign_iast_bg.py",
+    "script_version": "2.2.0",
+    "derived_from": [
+      "vedabase/raw-json/bg-14-10.json"
+    ]
+  },
+  "schema": {
+    "name": "vedic-library.canonical.verse",
+    "version": "1.0.0"
+  }
+}

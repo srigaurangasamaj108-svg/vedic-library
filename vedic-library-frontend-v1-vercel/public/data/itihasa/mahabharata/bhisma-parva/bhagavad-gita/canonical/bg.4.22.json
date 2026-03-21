@@ -1,0 +1,34 @@
+{
+  "uid": "bg.4.22",
+  "work": {
+    "corpus": "itihasa",
+    "text": "mahabharata",
+    "section": "bhisma-parva",
+    "subwork": "bhagavad-gita"
+  },
+  "location": {
+    "chapter": 4,
+    "verse": 22
+  },
+  "text": {
+    "script": "devanagari",
+    "content": "यदृच्छालाभसंतुष्टो द्वन्द्वातीतो विमत्सरः ।\nसमः सिद्धावसिद्धौ च कृत्वापि न निबध्यते\n॥ २२ ॥"
+  },
+  "transliteration": {
+    "scheme": "iast",
+    "content": "yadṛcchālābhasaṃtuṣṭo dvandvātīto vimatsaraḥ |\nsamaḥ siddhāvasiddhau ca kṛtvāpi na nibadhyate\n|| 22 ||"
+  },
+  "source": {
+    "pipeline": "bhagavad-gita",
+    "stage": "2.5",
+    "script": "s25_realign_iast_bg.py",
+    "script_version": "2.2.0",
+    "derived_from": [
+      "vedabase/raw-json/bg-04-22.json"
+    ]
+  },
+  "schema": {
+    "name": "vedic-library.canonical.verse",
+    "version": "1.0.0"
+  }
+}

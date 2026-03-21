@@ -1,0 +1,34 @@
+{
+  "uid": "bg.5.23",
+  "work": {
+    "corpus": "itihasa",
+    "text": "mahabharata",
+    "section": "bhisma-parva",
+    "subwork": "bhagavad-gita"
+  },
+  "location": {
+    "chapter": 5,
+    "verse": 23
+  },
+  "text": {
+    "script": "devanagari",
+    "content": "शक्न‍ोतीहैव य: सोढुं प्राक्शरीरविमोक्षणात् ।\nकामक्रोधोद्भ‍वं वेगं स युक्त: स सुखी नर:\n॥ २३ ॥"
+  },
+  "transliteration": {
+    "scheme": "iast",
+    "content": "śakna‍otīhaiva ya: soḍhuṃ prākśarīravimokṣaṇāt |\nkāmakrodhodbha‍vaṃ vegaṃ sa yukta: sa sukhī nara:\n|| 23 ||"
+  },
+  "source": {
+    "pipeline": "bhagavad-gita",
+    "stage": "2.5",
+    "script": "s25_realign_iast_bg.py",
+    "script_version": "2.2.0",
+    "derived_from": [
+      "vedabase/raw-json/bg-05-23.json"
+    ]
+  },
+  "schema": {
+    "name": "vedic-library.canonical.verse",
+    "version": "1.0.0"
+  }
+}

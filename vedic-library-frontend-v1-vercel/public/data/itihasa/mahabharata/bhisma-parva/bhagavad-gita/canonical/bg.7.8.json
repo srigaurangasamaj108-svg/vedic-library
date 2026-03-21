@@ -1,0 +1,34 @@
+{
+  "uid": "bg.7.8",
+  "work": {
+    "corpus": "itihasa",
+    "text": "mahabharata",
+    "section": "bhisma-parva",
+    "subwork": "bhagavad-gita"
+  },
+  "location": {
+    "chapter": 7,
+    "verse": 8
+  },
+  "text": {
+    "script": "devanagari",
+    "content": "रसोऽहमप्सु कौन्तेय प्रभास्मि शशिसूर्ययो: ।\nप्रणव: सर्ववेदेषु शब्द: खे पौरुषं नृषु\n॥ ८ ॥"
+  },
+  "transliteration": {
+    "scheme": "iast",
+    "content": "raso'hamapsu kaunteya prabhāsmi śaśisūryayo: |\npraṇava: sarvavedeṣu śabda: khe pauruṣaṃ nṛṣu\n|| 8 ||"
+  },
+  "source": {
+    "pipeline": "bhagavad-gita",
+    "stage": "2.5",
+    "script": "s25_realign_iast_bg.py",
+    "script_version": "2.2.0",
+    "derived_from": [
+      "vedabase/raw-json/bg-07-08.json"
+    ]
+  },
+  "schema": {
+    "name": "vedic-library.canonical.verse",
+    "version": "1.0.0"
+  }
+}

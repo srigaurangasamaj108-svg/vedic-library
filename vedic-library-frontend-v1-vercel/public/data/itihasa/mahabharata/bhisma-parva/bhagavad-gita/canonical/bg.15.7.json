@@ -1,0 +1,34 @@
+{
+  "uid": "bg.15.7",
+  "work": {
+    "corpus": "itihasa",
+    "text": "mahabharata",
+    "section": "bhisma-parva",
+    "subwork": "bhagavad-gita"
+  },
+  "location": {
+    "chapter": 15,
+    "verse": 7
+  },
+  "text": {
+    "script": "devanagari",
+    "content": "ममैवांशो जीवलोके जीवभूत: सनातन: ।\nमन:षष्ठानीन्द्रियाणि प्रकृतिस्थानि कर्षति\n॥ ७ ॥"
+  },
+  "transliteration": {
+    "scheme": "iast",
+    "content": "mamaivāṃśo jīvaloke jīvabhūta: sanātana: |\nmana:ṣaṣṭhānīndriyāṇi prakṛtisthāni karṣati\n|| 7 ||"
+  },
+  "source": {
+    "pipeline": "bhagavad-gita",
+    "stage": "2.5",
+    "script": "s25_realign_iast_bg.py",
+    "script_version": "2.2.0",
+    "derived_from": [
+      "vedabase/raw-json/bg-15-07.json"
+    ]
+  },
+  "schema": {
+    "name": "vedic-library.canonical.verse",
+    "version": "1.0.0"
+  }
+}

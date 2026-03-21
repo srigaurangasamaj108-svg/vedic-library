@@ -1,0 +1,17 @@
+{
+  "schema": "vedic-library.exposition",
+  "schema_version": "1.0.0",
+  "uid": "bg.8.26.prabhupada.exposition",
+  "editorial_unit_ref": "bg.8.26.prabhupada",
+  "exposition": {
+    "type": "purport",
+    "language": "en",
+    "author": "A. C. Bhaktivedanta Swami Prabhupāda",
+    "content": "The same description of departure and return is quoted by Ācārya Baladeva Vidyābhūṣaṇa from the\n\nChāndogya Upaniṣad\n\n(5.10.3–5). Those who are fruitive laborers and philosophical speculators from time immemorial are constantly going and coming. Actually they do not attain ultimate salvation, for they do not surrender to Kṛṣṇa."
+  },
+  "source": {
+    "edition": "Bhagavad-gītā As It Is",
+    "editor": "BBT",
+    "lineage": "Gaudiya Vaishnava"
+  }
+}

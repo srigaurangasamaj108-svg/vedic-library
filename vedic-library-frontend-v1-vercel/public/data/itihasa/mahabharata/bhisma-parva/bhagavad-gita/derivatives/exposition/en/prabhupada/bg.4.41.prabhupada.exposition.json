@@ -1,0 +1,17 @@
+{
+  "schema": "vedic-library.exposition",
+  "schema_version": "1.0.0",
+  "uid": "bg.4.41.prabhupada.exposition",
+  "editorial_unit_ref": "bg.4.41.prabhupada",
+  "exposition": {
+    "type": "purport",
+    "language": "en",
+    "author": "A. C. Bhaktivedanta Swami Prabhupāda",
+    "content": "One who follows the instruction of the\n\nBhagavad-gītā,\n\nas it is imparted by the Lord, the Personality of Godhead Himself, becomes free from all doubts by the grace of transcendental knowledge. He, as a part and parcel of the Lord, in full Kṛṣṇa consciousness, is already established in self-knowledge. As such, he is undoubtedly above bondage to action."
+  },
+  "source": {
+    "edition": "Bhagavad-gītā As It Is",
+    "editor": "BBT",
+    "lineage": "Gaudiya Vaishnava"
+  }
+}

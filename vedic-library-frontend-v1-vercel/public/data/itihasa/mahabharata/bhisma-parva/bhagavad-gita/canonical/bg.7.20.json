@@ -1,0 +1,34 @@
+{
+  "uid": "bg.7.20",
+  "work": {
+    "corpus": "itihasa",
+    "text": "mahabharata",
+    "section": "bhisma-parva",
+    "subwork": "bhagavad-gita"
+  },
+  "location": {
+    "chapter": 7,
+    "verse": 20
+  },
+  "text": {
+    "script": "devanagari",
+    "content": "कामैस्तैस्तैर्हृतज्ञाना: प्रपद्यन्तेऽन्यदेवता: ।\nतं तं नियममास्थाय प्रकृत्या नियता: स्वया\n॥ २० ॥"
+  },
+  "transliteration": {
+    "scheme": "iast",
+    "content": "kāmaistaistairhṛtajñānā: prapadyante'nyadevatā: |\ntaṃ taṃ niyamamāsthāya prakṛtyā niyatā: svayā\n|| 20 ||"
+  },
+  "source": {
+    "pipeline": "bhagavad-gita",
+    "stage": "2.5",
+    "script": "s25_realign_iast_bg.py",
+    "script_version": "2.2.0",
+    "derived_from": [
+      "vedabase/raw-json/bg-07-20.json"
+    ]
+  },
+  "schema": {
+    "name": "vedic-library.canonical.verse",
+    "version": "1.0.0"
+  }
+}

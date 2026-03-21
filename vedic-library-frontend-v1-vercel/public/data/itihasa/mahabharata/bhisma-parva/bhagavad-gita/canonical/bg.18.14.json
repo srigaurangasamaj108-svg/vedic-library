@@ -1,0 +1,34 @@
+{
+  "uid": "bg.18.14",
+  "work": {
+    "corpus": "itihasa",
+    "text": "mahabharata",
+    "section": "bhisma-parva",
+    "subwork": "bhagavad-gita"
+  },
+  "location": {
+    "chapter": 18,
+    "verse": 14
+  },
+  "text": {
+    "script": "devanagari",
+    "content": "अधिष्ठानं तथा कर्ता करणं च पृथग्विधम् ।\nविविधाश्च पृथक्‍चेष्टा दैवं चैवात्र पञ्चमम्\n॥ १४ ॥"
+  },
+  "transliteration": {
+    "scheme": "iast",
+    "content": "adhiṣṭhānaṃ tathā kartā karaṇaṃ ca pṛthagvidham |\nvividhāśca pṛthak‍ceṣṭā daivaṃ caivātra pañcamam\n|| 14 ||"
+  },
+  "source": {
+    "pipeline": "bhagavad-gita",
+    "stage": "2.5",
+    "script": "s25_realign_iast_bg.py",
+    "script_version": "2.2.0",
+    "derived_from": [
+      "vedabase/raw-json/bg-18-14.json"
+    ]
+  },
+  "schema": {
+    "name": "vedic-library.canonical.verse",
+    "version": "1.0.0"
+  }
+}

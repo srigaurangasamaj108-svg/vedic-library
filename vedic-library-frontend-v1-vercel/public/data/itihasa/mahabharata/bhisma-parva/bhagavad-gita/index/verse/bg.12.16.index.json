@@ -1,0 +1,44 @@
+{
+  "schema": "vedic-library.verse.index",
+  "schema_version": "1.0.0",
+  "verse_uid": "bg.12.16",
+  "work": {
+    "corpus": "itihasa",
+    "text": "mahabharata",
+    "section": "bhisma-parva",
+    "subwork": "bhagavad-gita"
+  },
+  "location": {
+    "chapter": 12,
+    "verse": 16
+  },
+  "canonical_ref": "bg.12.16",
+  "editorial_unit": {
+    "uid": "bg.12.16.prabhupada",
+    "covers": {
+      "chapter": 12,
+      "from_verse": 16,
+      "to_verse": 16
+    }
+  },
+  "derivatives": {
+    "synonyms": {
+      "available": true,
+      "refs": [
+        "bg.12.16.prabhupada.synonyms.en"
+      ]
+    },
+    "translations": {
+      "available": true,
+      "refs": [
+        "bg.12.16.prabhupada.translation.en"
+      ]
+    },
+    "exposition": {
+      "available": true,
+      "refs": [
+        "bg.12.16.prabhupada.exposition"
+      ]
+    }
+  }
+}

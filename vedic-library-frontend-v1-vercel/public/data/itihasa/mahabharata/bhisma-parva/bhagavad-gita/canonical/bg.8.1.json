@@ -1,0 +1,34 @@
+{
+  "uid": "bg.8.1",
+  "work": {
+    "corpus": "itihasa",
+    "text": "mahabharata",
+    "section": "bhisma-parva",
+    "subwork": "bhagavad-gita"
+  },
+  "location": {
+    "chapter": 8,
+    "verse": 1
+  },
+  "text": {
+    "script": "devanagari",
+    "content": "अर्जुन उवाच\nकिं तद्‌ब्रह्म किमध्यात्मं किं कर्म पुरुषोत्तम ।\nअधिभूतं च किं प्रोक्तमधिदैवं किमुच्यते\n॥ १ ॥"
+  },
+  "transliteration": {
+    "scheme": "iast",
+    "content": "arjuna uvāca\nkiṃ tad‌brahma kimadhyātmaṃ kiṃ karma puruṣottama |\nadhibhūtaṃ ca kiṃ proktamadhidaivaṃ kimucyate\n|| 1 ||"
+  },
+  "source": {
+    "pipeline": "bhagavad-gita",
+    "stage": "2.5",
+    "script": "s25_realign_iast_bg.py",
+    "script_version": "2.2.0",
+    "derived_from": [
+      "vedabase/raw-json/bg-08-01.json"
+    ]
+  },
+  "schema": {
+    "name": "vedic-library.canonical.verse",
+    "version": "1.0.0"
+  }
+}

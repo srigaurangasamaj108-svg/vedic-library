@@ -1,0 +1,34 @@
+{
+  "uid": "bg.9.14",
+  "work": {
+    "corpus": "itihasa",
+    "text": "mahabharata",
+    "section": "bhisma-parva",
+    "subwork": "bhagavad-gita"
+  },
+  "location": {
+    "chapter": 9,
+    "verse": 14
+  },
+  "text": {
+    "script": "devanagari",
+    "content": "सततं कीर्तयन्तो मां यतन्तश्च दृढव्रता: ।\nनमस्यन्तश्च मां भक्त्य‍ा नित्ययुक्ता उपासते\n॥ १४ ॥"
+  },
+  "transliteration": {
+    "scheme": "iast",
+    "content": "satataṃ kīrtayanto māṃ yatantaśca dṛḍhavratā: |\nnamasyantaśca māṃ bhaktya‍ā nityayuktā upāsate\n|| 14 ||"
+  },
+  "source": {
+    "pipeline": "bhagavad-gita",
+    "stage": "2.5",
+    "script": "s25_realign_iast_bg.py",
+    "script_version": "2.2.0",
+    "derived_from": [
+      "vedabase/raw-json/bg-09-14.json"
+    ]
+  },
+  "schema": {
+    "name": "vedic-library.canonical.verse",
+    "version": "1.0.0"
+  }
+}

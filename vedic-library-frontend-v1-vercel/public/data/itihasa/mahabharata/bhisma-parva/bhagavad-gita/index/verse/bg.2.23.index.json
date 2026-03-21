@@ -1,0 +1,44 @@
+{
+  "schema": "vedic-library.verse.index",
+  "schema_version": "1.0.0",
+  "verse_uid": "bg.2.23",
+  "work": {
+    "corpus": "itihasa",
+    "text": "mahabharata",
+    "section": "bhisma-parva",
+    "subwork": "bhagavad-gita"
+  },
+  "location": {
+    "chapter": 2,
+    "verse": 23
+  },
+  "canonical_ref": "bg.2.23",
+  "editorial_unit": {
+    "uid": "bg.2.23.prabhupada",
+    "covers": {
+      "chapter": 2,
+      "from_verse": 23,
+      "to_verse": 23
+    }
+  },
+  "derivatives": {
+    "synonyms": {
+      "available": true,
+      "refs": [
+        "bg.2.23.prabhupada.synonyms.en"
+      ]
+    },
+    "translations": {
+      "available": true,
+      "refs": [
+        "bg.2.23.prabhupada.translation.en"
+      ]
+    },
+    "exposition": {
+      "available": true,
+      "refs": [
+        "bg.2.23.prabhupada.exposition"
+      ]
+    }
+  }
+}

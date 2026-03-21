@@ -1,0 +1,34 @@
+{
+  "uid": "bg.16.22",
+  "work": {
+    "corpus": "itihasa",
+    "text": "mahabharata",
+    "section": "bhisma-parva",
+    "subwork": "bhagavad-gita"
+  },
+  "location": {
+    "chapter": 16,
+    "verse": 22
+  },
+  "text": {
+    "script": "devanagari",
+    "content": "एतैर्विमुक्त: कौन्तेय तमोद्वारैस्त्रिभिर्नर: ।\nआचरत्यात्मन: श्रेयस्ततो याति परां गतिम्\n॥ २२ ॥"
+  },
+  "transliteration": {
+    "scheme": "iast",
+    "content": "etairvimukta: kaunteya tamodvāraistribhirnara: |\nācaratyātmana: śreyastato yāti parāṃ gatim\n|| 22 ||"
+  },
+  "source": {
+    "pipeline": "bhagavad-gita",
+    "stage": "2.5",
+    "script": "s25_realign_iast_bg.py",
+    "script_version": "2.2.0",
+    "derived_from": [
+      "vedabase/raw-json/bg-16-22.json"
+    ]
+  },
+  "schema": {
+    "name": "vedic-library.canonical.verse",
+    "version": "1.0.0"
+  }
+}

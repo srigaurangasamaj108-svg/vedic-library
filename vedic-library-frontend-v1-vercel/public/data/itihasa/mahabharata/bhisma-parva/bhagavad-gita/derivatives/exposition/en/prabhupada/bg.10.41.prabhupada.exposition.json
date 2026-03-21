@@ -1,0 +1,17 @@
+{
+  "schema": "vedic-library.exposition",
+  "schema_version": "1.0.0",
+  "uid": "bg.10.41.prabhupada.exposition",
+  "editorial_unit_ref": "bg.10.41.prabhupada",
+  "exposition": {
+    "type": "purport",
+    "language": "en",
+    "author": "A. C. Bhaktivedanta Swami Prabhupāda",
+    "content": "Any glorious or beautiful existence should be understood to be but a fragmental manifestation of Kṛṣṇa’s opulence, whether it be in the spiritual or material world. Anything extraordinarily opulent should be considered to represent Kṛṣṇa’s opulence."
+  },
+  "source": {
+    "edition": "Bhagavad-gītā As It Is",
+    "editor": "BBT",
+    "lineage": "Gaudiya Vaishnava"
+  }
+}

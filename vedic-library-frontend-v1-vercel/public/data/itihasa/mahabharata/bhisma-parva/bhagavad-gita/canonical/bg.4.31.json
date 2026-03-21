@@ -1,0 +1,34 @@
+{
+  "uid": "bg.4.31",
+  "work": {
+    "corpus": "itihasa",
+    "text": "mahabharata",
+    "section": "bhisma-parva",
+    "subwork": "bhagavad-gita"
+  },
+  "location": {
+    "chapter": 4,
+    "verse": 31
+  },
+  "text": {
+    "script": "devanagari",
+    "content": "नायं लोकोऽस्त्ययज्ञस्य कुतोऽन्यः कुरुसत्तम\n॥ ३१ ॥"
+  },
+  "transliteration": {
+    "scheme": "iast",
+    "content": "nāyaṃ loko'styayajñasya kuto'nyaḥ kurusattama\n|| 31 ||"
+  },
+  "source": {
+    "pipeline": "bhagavad-gita",
+    "stage": "2.5",
+    "script": "s25_realign_iast_bg.py",
+    "script_version": "2.2.0",
+    "derived_from": [
+      "vedabase/raw-json/bg-04-31.json"
+    ]
+  },
+  "schema": {
+    "name": "vedic-library.canonical.verse",
+    "version": "1.0.0"
+  }
+}

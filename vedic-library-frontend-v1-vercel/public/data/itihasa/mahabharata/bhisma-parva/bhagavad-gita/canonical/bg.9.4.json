@@ -1,0 +1,34 @@
+{
+  "uid": "bg.9.4",
+  "work": {
+    "corpus": "itihasa",
+    "text": "mahabharata",
+    "section": "bhisma-parva",
+    "subwork": "bhagavad-gita"
+  },
+  "location": {
+    "chapter": 9,
+    "verse": 4
+  },
+  "text": {
+    "script": "devanagari",
+    "content": "मया ततमिदं सर्वं जगदव्यक्तमूर्तिना ।\nमत्स्थानि सर्वभूतानि न चाहं तेष्ववस्थित:\n॥ ४ ॥"
+  },
+  "transliteration": {
+    "scheme": "iast",
+    "content": "mayā tatamidaṃ sarvaṃ jagadavyaktamūrtinā |\nmatsthāni sarvabhūtāni na cāhaṃ teṣvavasthita:\n|| 4 ||"
+  },
+  "source": {
+    "pipeline": "bhagavad-gita",
+    "stage": "2.5",
+    "script": "s25_realign_iast_bg.py",
+    "script_version": "2.2.0",
+    "derived_from": [
+      "vedabase/raw-json/bg-09-04.json"
+    ]
+  },
+  "schema": {
+    "name": "vedic-library.canonical.verse",
+    "version": "1.0.0"
+  }
+}

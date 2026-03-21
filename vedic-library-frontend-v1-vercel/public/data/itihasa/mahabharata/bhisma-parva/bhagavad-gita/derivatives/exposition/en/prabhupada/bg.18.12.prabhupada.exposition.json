@@ -1,0 +1,17 @@
+{
+  "schema": "vedic-library.exposition",
+  "schema_version": "1.0.0",
+  "uid": "bg.18.12.prabhupada.exposition",
+  "editorial_unit_ref": "bg.18.12.prabhupada",
+  "exposition": {
+    "type": "purport",
+    "language": "en",
+    "author": "A. C. Bhaktivedanta Swami Prabhupāda",
+    "content": "A person in Kṛṣṇa consciousness acting in knowledge of his relationship with Kṛṣṇa is always liberated. Therefore he does not have to enjoy or suffer the results of his acts after death."
+  },
+  "source": {
+    "edition": "Bhagavad-gītā As It Is",
+    "editor": "BBT",
+    "lineage": "Gaudiya Vaishnava"
+  }
+}

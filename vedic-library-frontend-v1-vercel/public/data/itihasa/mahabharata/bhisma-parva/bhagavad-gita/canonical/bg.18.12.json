@@ -1,0 +1,34 @@
+{
+  "uid": "bg.18.12",
+  "work": {
+    "corpus": "itihasa",
+    "text": "mahabharata",
+    "section": "bhisma-parva",
+    "subwork": "bhagavad-gita"
+  },
+  "location": {
+    "chapter": 18,
+    "verse": 12
+  },
+  "text": {
+    "script": "devanagari",
+    "content": "अनिष्टमिष्टं मिश्रं च त्रिविधं कर्मण: फलम् ।\nभवत्यत्यागिनां प्रेत्य न तु सन्न्यासिनां क्‍वचित्\n॥ १२ ॥"
+  },
+  "transliteration": {
+    "scheme": "iast",
+    "content": "aniṣṭamiṣṭaṃ miśraṃ ca trividhaṃ karmaṇa: phalam |\nbhavatyatyāgināṃ pretya na tu sannyāsināṃ k‍vacit\n|| 12 ||"
+  },
+  "source": {
+    "pipeline": "bhagavad-gita",
+    "stage": "2.5",
+    "script": "s25_realign_iast_bg.py",
+    "script_version": "2.2.0",
+    "derived_from": [
+      "vedabase/raw-json/bg-18-12.json"
+    ]
+  },
+  "schema": {
+    "name": "vedic-library.canonical.verse",
+    "version": "1.0.0"
+  }
+}

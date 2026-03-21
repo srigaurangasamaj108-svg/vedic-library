@@ -1,0 +1,34 @@
+{
+  "uid": "bg.12.9",
+  "work": {
+    "corpus": "itihasa",
+    "text": "mahabharata",
+    "section": "bhisma-parva",
+    "subwork": "bhagavad-gita"
+  },
+  "location": {
+    "chapter": 12,
+    "verse": 9
+  },
+  "text": {
+    "script": "devanagari",
+    "content": "अथ चित्तं समाधातुं न शक्न‍ोषि मयि स्थिरम् ।\nअभ्यासयोगेन ततो मामिच्छाप्‍तुं धनञ्जय\n॥ ९ ॥"
+  },
+  "transliteration": {
+    "scheme": "iast",
+    "content": "atha cittaṃ samādhātuṃ na śakna‍oṣi mayi sthiram |\nabhyāsayogena tato māmicchāp‍tuṃ dhanañjaya\n|| 9 ||"
+  },
+  "source": {
+    "pipeline": "bhagavad-gita",
+    "stage": "2.5",
+    "script": "s25_realign_iast_bg.py",
+    "script_version": "2.2.0",
+    "derived_from": [
+      "vedabase/raw-json/bg-12-09.json"
+    ]
+  },
+  "schema": {
+    "name": "vedic-library.canonical.verse",
+    "version": "1.0.0"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "schema": "vedic-library.exposition",
+  "schema_version": "1.0.0",
+  "uid": "bg.2.67.prabhupada.exposition",
+  "editorial_unit_ref": "bg.2.67.prabhupada",
+  "exposition": {
+    "type": "purport",
+    "language": "en",
+    "author": "A. C. Bhaktivedanta Swami Prabhupāda",
+    "content": "Unless all of the senses are engaged in the service of the Lord, even one of them engaged in sense gratification can deviate the devotee from the path of transcendental advancement. As mentioned in the life of Mahārāja Ambarīṣa, all of the senses must be engaged in Kṛṣṇa consciousness, for that is the correct technique for controlling the mind."
+  },
+  "source": {
+    "edition": "Bhagavad-gītā As It Is",
+    "editor": "BBT",
+    "lineage": "Gaudiya Vaishnava"
+  }
+}

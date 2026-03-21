@@ -1,0 +1,34 @@
+{
+  "uid": "bg.9.20",
+  "work": {
+    "corpus": "itihasa",
+    "text": "mahabharata",
+    "section": "bhisma-parva",
+    "subwork": "bhagavad-gita"
+  },
+  "location": {
+    "chapter": 9,
+    "verse": 20
+  },
+  "text": {
+    "script": "devanagari",
+    "content": "त्रैविद्या मां सोमपा: पूतपापा\nयज्ञैरिष्ट्वा स्वर्गतिं प्रार्थयन्ते ।\nते पुण्यमासाद्य सुरेन्द्रलोक-\nमश्न‍‍न्ति दिव्यान्दिवि देवभोगान्\n॥ २० ॥"
+  },
+  "transliteration": {
+    "scheme": "iast",
+    "content": "traividyā māṃ somapā: pūtapāpā\nyajñairiṣṭvā svargatiṃ prārthayante |\nte puṇyamāsādya surendraloka-\nmaśna‍‍nti divyāndivi devabhogān\n|| 20 ||"
+  },
+  "source": {
+    "pipeline": "bhagavad-gita",
+    "stage": "2.5",
+    "script": "s25_realign_iast_bg.py",
+    "script_version": "2.2.0",
+    "derived_from": [
+      "vedabase/raw-json/bg-09-20.json"
+    ]
+  },
+  "schema": {
+    "name": "vedic-library.canonical.verse",
+    "version": "1.0.0"
+  }
+}

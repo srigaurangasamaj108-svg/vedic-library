@@ -1,0 +1,17 @@
+{
+  "schema": "vedic-library.exposition",
+  "schema_version": "1.0.0",
+  "uid": "bg.18.50.prabhupada.exposition",
+  "editorial_unit_ref": "bg.18.50.prabhupada",
+  "exposition": {
+    "type": "purport",
+    "language": "en",
+    "author": "A. C. Bhaktivedanta Swami Prabhupāda",
+    "content": "The Lord describes for Arjuna how one can achieve the highest perfectional stage simply by being engaged in his occupational duty, performing that duty for the Supreme Personality of Godhead. One attains the supreme stage of Brahman simply by renouncing the result of his work for the satisfaction of the Supreme Lord. That is the process of self-realization. The actual perfection of knowledge is in attaining pure Kṛṣṇa consciousness; that is described in the following verses."
+  },
+  "source": {
+    "edition": "Bhagavad-gītā As It Is",
+    "editor": "BBT",
+    "lineage": "Gaudiya Vaishnava"
+  }
+}
