@@ -1,0 +1,15 @@
+{
+  "schema": "vedic-library.synonyms",
+  "schema_version": "1.1.0",
+  "uid": "bg.1.2.prabhupada.synonyms.en.prabhupada",
+  "synonyms": {
+    "language": "en",
+    "author": "A. C. Bhaktivedanta Swami Prabhupāda",
+    "items": [
+      {
+        "word": "sanjaya",
+        "meaning": "Sañjaya"
+      }
+    ]
+  }
+}

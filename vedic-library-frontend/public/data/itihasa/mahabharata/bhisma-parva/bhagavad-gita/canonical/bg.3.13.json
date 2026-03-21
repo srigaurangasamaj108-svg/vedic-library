@@ -1,0 +1,34 @@
+{
+  "uid": "bg.3.13",
+  "work": {
+    "corpus": "itihasa",
+    "text": "mahabharata",
+    "section": "bhisma-parva",
+    "subwork": "bhagavad-gita"
+  },
+  "location": {
+    "chapter": 3,
+    "verse": 13
+  },
+  "text": {
+    "script": "devanagari",
+    "content": "यज्ञशिष्टाशिनः सन्तो मुच्यन्ते सर्वकिल्बिषै ।\nभुञ्जते ते त्वघं पापा ये पचन्त्यात्मकारणात्\n॥ १३ ॥"
+  },
+  "transliteration": {
+    "scheme": "iast",
+    "content": "yajñaśiṣṭāśinaḥ santo mucyante sarvakilbiṣai |\nbhuñjate te tvaghaṃ pāpā ye pacantyātmakāraṇāt\n|| 13 ||"
+  },
+  "source": {
+    "pipeline": "bhagavad-gita",
+    "stage": "2.5",
+    "script": "s25_realign_iast_bg.py",
+    "script_version": "2.2.0",
+    "derived_from": [
+      "vedabase/raw-json/bg-03-13.json"
+    ]
+  },
+  "schema": {
+    "name": "vedic-library.canonical.verse",
+    "version": "1.0.0"
+  }
+}

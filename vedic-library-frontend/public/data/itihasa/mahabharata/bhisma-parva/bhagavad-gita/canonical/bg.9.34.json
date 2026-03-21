@@ -1,0 +1,34 @@
+{
+  "uid": "bg.9.34",
+  "work": {
+    "corpus": "itihasa",
+    "text": "mahabharata",
+    "section": "bhisma-parva",
+    "subwork": "bhagavad-gita"
+  },
+  "location": {
+    "chapter": 9,
+    "verse": 34
+  },
+  "text": {
+    "script": "devanagari",
+    "content": "मन्मना भव मद्भ‍क्तो मद्याजी मां नमस्कुरु ।\nमामेवैष्यसि युक्त्वैवमात्मानं मत्परायण:\n॥ ३४ ॥"
+  },
+  "transliteration": {
+    "scheme": "iast",
+    "content": "manmanā bhava madbha‍kto madyājī māṃ namaskuru |\nmāmevaiṣyasi yuktvaivamātmānaṃ matparāyaṇa:\n|| 34 ||"
+  },
+  "source": {
+    "pipeline": "bhagavad-gita",
+    "stage": "2.5",
+    "script": "s25_realign_iast_bg.py",
+    "script_version": "2.2.0",
+    "derived_from": [
+      "vedabase/raw-json/bg-09-34.json"
+    ]
+  },
+  "schema": {
+    "name": "vedic-library.canonical.verse",
+    "version": "1.0.0"
+  }
+}

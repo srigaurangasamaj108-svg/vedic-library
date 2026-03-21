@@ -1,0 +1,34 @@
+{
+  "uid": "bg.2.61",
+  "work": {
+    "corpus": "itihasa",
+    "text": "mahabharata",
+    "section": "bhisma-parva",
+    "subwork": "bhagavad-gita"
+  },
+  "location": {
+    "chapter": 2,
+    "verse": 61
+  },
+  "text": {
+    "script": "devanagari",
+    "content": "तानि सर्वाणि संयम्य युक्त आसीत मत्परः ।\nवशे हि यस्येन्द्रियाणि तस्य प्रज्ञा प्रतिष्ठिता\n॥ ६१ ॥"
+  },
+  "transliteration": {
+    "scheme": "iast",
+    "content": "tāni sarvāṇi saṃyamya yukta āsīta matparaḥ |\nvaśe hi yasyendriyāṇi tasya prajñā pratiṣṭhitā\n|| 61 ||"
+  },
+  "source": {
+    "pipeline": "bhagavad-gita",
+    "stage": "2.5",
+    "script": "s25_realign_iast_bg.py",
+    "script_version": "2.2.0",
+    "derived_from": [
+      "vedabase/raw-json/bg-02-61.json"
+    ]
+  },
+  "schema": {
+    "name": "vedic-library.canonical.verse",
+    "version": "1.0.0"
+  }
+}

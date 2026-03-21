@@ -1,0 +1,23 @@
+{
+  "uid": "bg.18.2.prabhupada.translation.en",
+  "editorial_unit_ref": {
+    "uid": "bg.18.2.prabhupada",
+    "schema": "vedic-library.editorial.unit",
+    "version": "1.0.0"
+  },
+  "translation": {
+    "language": "en",
+    "translator": "A. C. Bhaktivedanta Swami Prabhupāda",
+    "content": "The Supreme Personality of Godhead said: The giving up of activities that are based on material desire is what great learned men call the renounced order of life [sannyāsa]. And giving up the results of all activities is what the wise call renunciation [tyāga]."
+  },
+  "source": {
+    "derived_from": "vedabase.io",
+    "normalized_file": "vedabase-bg-18-02.normalized.json",
+    "pipeline_stage": "migration.m2",
+    "script": "m2_migrate_translations.py"
+  },
+  "schema": {
+    "name": "vedic-library.derivative.translation",
+    "version": "2.0.0"
+  }
+}

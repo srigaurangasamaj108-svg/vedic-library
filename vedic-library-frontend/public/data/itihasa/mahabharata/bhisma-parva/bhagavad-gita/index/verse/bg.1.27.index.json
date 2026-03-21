@@ -1,0 +1,42 @@
+{
+  "schema": "vedic-library.verse.index",
+  "schema_version": "1.0.0",
+  "verse_uid": "bg.1.27",
+  "work": {
+    "corpus": "itihasa",
+    "text": "mahabharata",
+    "section": "bhisma-parva",
+    "subwork": "bhagavad-gita"
+  },
+  "location": {
+    "chapter": 1,
+    "verse": 27
+  },
+  "canonical_ref": "bg.1.27",
+  "editorial_unit": {
+    "uid": "bg.1.27.prabhupada",
+    "covers": {
+      "chapter": 1,
+      "from_verse": 27,
+      "to_verse": 27
+    }
+  },
+  "derivatives": {
+    "synonyms": {
+      "available": true,
+      "refs": [
+        "bg.1.27.prabhupada.synonyms.en"
+      ]
+    },
+    "translations": {
+      "available": true,
+      "refs": [
+        "bg.1.27.prabhupada.translation.en"
+      ]
+    },
+    "exposition": {
+      "available": false,
+      "refs": []
+    }
+  }
+}

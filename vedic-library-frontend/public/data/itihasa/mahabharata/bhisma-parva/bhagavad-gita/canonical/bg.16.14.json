@@ -1,0 +1,34 @@
+{
+  "uid": "bg.16.14",
+  "work": {
+    "corpus": "itihasa",
+    "text": "mahabharata",
+    "section": "bhisma-parva",
+    "subwork": "bhagavad-gita"
+  },
+  "location": {
+    "chapter": 16,
+    "verse": 14
+  },
+  "text": {
+    "script": "devanagari",
+    "content": "असौ मया हत: शत्रुर्हनिष्ये चापरानपि  ।\nईश्वरोऽहमहं भोगी सिद्धोऽहं बलवान्सुखी\n॥ १४ ॥"
+  },
+  "transliteration": {
+    "scheme": "iast",
+    "content": "asau mayā hata: śatrurhaniṣye cāparānapi  |\nīśvaro'hamahaṃ bhogī siddho'haṃ balavānsukhī\n|| 14 ||"
+  },
+  "source": {
+    "pipeline": "bhagavad-gita",
+    "stage": "2.5",
+    "script": "s25_realign_iast_bg.py",
+    "script_version": "2.2.0",
+    "derived_from": [
+      "vedabase/raw-json/bg-16-13-15.json"
+    ]
+  },
+  "schema": {
+    "name": "vedic-library.canonical.verse",
+    "version": "1.0.0"
+  }
+}

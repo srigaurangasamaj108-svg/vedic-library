@@ -1,0 +1,34 @@
+{
+  "uid": "bg.2.20",
+  "work": {
+    "corpus": "itihasa",
+    "text": "mahabharata",
+    "section": "bhisma-parva",
+    "subwork": "bhagavad-gita"
+  },
+  "location": {
+    "chapter": 2,
+    "verse": 20
+  },
+  "text": {
+    "script": "devanagari",
+    "content": "न जायते म्रियते वा कदाचि-\nन्नायं भूत्वा भविता वा न भूयः ।\nअजो नित्यः शाश्वतोऽयं पुराणो\nन हन्यते हन्यमाने शरीरे\n॥ २० ॥"
+  },
+  "transliteration": {
+    "scheme": "iast",
+    "content": "na jāyate mriyate vā kadāci-\nnnāyaṃ bhūtvā bhavitā vā na bhūyaḥ |\najo nityaḥ śāśvato'yaṃ purāṇo\nna hanyate hanyamāne śarīre\n|| 20 ||"
+  },
+  "source": {
+    "pipeline": "bhagavad-gita",
+    "stage": "2.5",
+    "script": "s25_realign_iast_bg.py",
+    "script_version": "2.2.0",
+    "derived_from": [
+      "vedabase/raw-json/bg-02-20.json"
+    ]
+  },
+  "schema": {
+    "name": "vedic-library.canonical.verse",
+    "version": "1.0.0"
+  }
+}

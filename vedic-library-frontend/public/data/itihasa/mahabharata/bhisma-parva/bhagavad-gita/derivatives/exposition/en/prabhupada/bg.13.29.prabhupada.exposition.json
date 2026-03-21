@@ -1,0 +1,17 @@
+{
+  "schema": "vedic-library.exposition",
+  "schema_version": "1.0.0",
+  "uid": "bg.13.29.prabhupada.exposition",
+  "editorial_unit_ref": "bg.13.29.prabhupada",
+  "exposition": {
+    "type": "purport",
+    "language": "en",
+    "author": "A. C. Bhaktivedanta Swami Prabhupāda",
+    "content": "The living entity, by accepting his material existence, has become situated differently than in his spiritual existence. But if one understands that the Supreme is situated in His Paramātmā manifestation everywhere, that is, if one can see the presence of the Supreme Personality of Godhead in every living thing, he does not degrade himself by a destructive mentality, and he therefore gradually advances to the spiritual world. The mind is generally addicted to sense gratifying processes; but when the mind turns to the Supersoul, one becomes advanced in spiritual understanding."
+  },
+  "source": {
+    "edition": "Bhagavad-gītā As It Is",
+    "editor": "BBT",
+    "lineage": "Gaudiya Vaishnava"
+  }
+}

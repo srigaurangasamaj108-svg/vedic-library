@@ -1,0 +1,34 @@
+{
+  "uid": "bg.3.2",
+  "work": {
+    "corpus": "itihasa",
+    "text": "mahabharata",
+    "section": "bhisma-parva",
+    "subwork": "bhagavad-gita"
+  },
+  "location": {
+    "chapter": 3,
+    "verse": 2
+  },
+  "text": {
+    "script": "devanagari",
+    "content": "व्यामिश्रेणेव वाक्येन बुद्धिं मोहयसीव मे ।\nतदेकं वद निश्चित्य येन श्रेयोऽहमाप्‍नुयाम्\n॥ २ ॥"
+  },
+  "transliteration": {
+    "scheme": "iast",
+    "content": "vyāmiśreṇeva vākyena buddhiṃ mohayasīva me |\ntadekaṃ vada niścitya yena śreyo'hamāp‍nuyām\n|| 2 ||"
+  },
+  "source": {
+    "pipeline": "bhagavad-gita",
+    "stage": "2.5",
+    "script": "s25_realign_iast_bg.py",
+    "script_version": "2.2.0",
+    "derived_from": [
+      "vedabase/raw-json/bg-03-02.json"
+    ]
+  },
+  "schema": {
+    "name": "vedic-library.canonical.verse",
+    "version": "1.0.0"
+  }
+}

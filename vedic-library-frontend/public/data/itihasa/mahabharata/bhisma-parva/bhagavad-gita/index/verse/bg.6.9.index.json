@@ -1,0 +1,42 @@
+{
+  "schema": "vedic-library.verse.index",
+  "schema_version": "1.0.0",
+  "verse_uid": "bg.6.9",
+  "work": {
+    "corpus": "itihasa",
+    "text": "mahabharata",
+    "section": "bhisma-parva",
+    "subwork": "bhagavad-gita"
+  },
+  "location": {
+    "chapter": 6,
+    "verse": 9
+  },
+  "canonical_ref": "bg.6.9",
+  "editorial_unit": {
+    "uid": "bg.6.9.prabhupada",
+    "covers": {
+      "chapter": 6,
+      "from_verse": 9,
+      "to_verse": 9
+    }
+  },
+  "derivatives": {
+    "synonyms": {
+      "available": true,
+      "refs": [
+        "bg.6.9.prabhupada.synonyms.en"
+      ]
+    },
+    "translations": {
+      "available": true,
+      "refs": [
+        "bg.6.9.prabhupada.translation.en"
+      ]
+    },
+    "exposition": {
+      "available": false,
+      "refs": []
+    }
+  }
+}

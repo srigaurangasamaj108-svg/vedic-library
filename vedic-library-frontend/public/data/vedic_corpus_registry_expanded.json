@@ -1,0 +1,5602 @@
+[
+  {
+    "id": "bg.7.9",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.7.9.json"
+  },
+  {
+    "id": "bg.18.14",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.18.14.json"
+  },
+  {
+    "id": "bg.6.31",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.6.31.json"
+  },
+  {
+    "id": "bg.2.72",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.2.72.json"
+  },
+  {
+    "id": "bg.17.27",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.17.27.json"
+  },
+  {
+    "id": "bg.5.21",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.5.21.json"
+  },
+  {
+    "id": "bg.10.23",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.10.23.json"
+  },
+  {
+    "id": "bg.18.43",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.18.43.json"
+  },
+  {
+    "id": "bg.2.25",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.2.25.json"
+  },
+  {
+    "id": "bg.13.33",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.13.33.json"
+  },
+  {
+    "id": "bg.1.35",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.1.35.json"
+  },
+  {
+    "id": "bg.18.55",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.18.55.json"
+  },
+  {
+    "id": "bg.10.35",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.10.35.json"
+  },
+  {
+    "id": "bg.2.33",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.2.33.json"
+  },
+  {
+    "id": "bg.16.8",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.16.8.json"
+  },
+  {
+    "id": "bg.11.18",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.11.18.json"
+  },
+  {
+    "id": "bg.13.25",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.13.25.json"
+  },
+  {
+    "id": "bg.1.23",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.1.23.json"
+  },
+  {
+    "id": "bg.14.21",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.14.21.json"
+  },
+  {
+    "id": "bg.2.64",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.2.64.json"
+  },
+  {
+    "id": "bg.6.27",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.6.27.json"
+  },
+  {
+    "id": "bg.9.14",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.9.14.json"
+  },
+  {
+    "id": "bg.10.19",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.10.19.json"
+  },
+  {
+    "id": "bg.3.32",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.3.32.json"
+  },
+  {
+    "id": "bg.11.34",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.11.34.json"
+  },
+  {
+    "id": "bg.5.8",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.5.8.json"
+  },
+  {
+    "id": "bg.4.36",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.4.36.json"
+  },
+  {
+    "id": "bg.18.9",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.18.9.json"
+  },
+  {
+    "id": "bg.2.48",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.2.48.json"
+  },
+  {
+    "id": "bg.8.15",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.8.15.json"
+  },
+  {
+    "id": "bg.7.26",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.7.26.json"
+  },
+  {
+    "id": "bg.15.20",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.15.20.json"
+  },
+  {
+    "id": "bg.4.20",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.4.20.json"
+  },
+  {
+    "id": "bg.14.9",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.14.9.json"
+  },
+  {
+    "id": "bg.18.38",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.18.38.json"
+  },
+  {
+    "id": "bg.7.30",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.7.30.json"
+  },
+  {
+    "id": "bg.3.24",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.3.24.json"
+  },
+  {
+    "id": "bg.1.19",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.1.19.json"
+  },
+  {
+    "id": "bg.9.8",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.9.8.json"
+  },
+  {
+    "id": "bg.11.22",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.11.22.json"
+  },
+  {
+    "id": "bg.11.55",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.11.55.json"
+  },
+  {
+    "id": "bg.15.16",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.15.16.json"
+  },
+  {
+    "id": "bg.7.10",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.7.10.json"
+  },
+  {
+    "id": "bg.18.18",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.18.18.json"
+  },
+  {
+    "id": "bg.7.5",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.7.5.json"
+  },
+  {
+    "id": "bg.8.23",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.8.23.json"
+  },
+  {
+    "id": "bg.1.39",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.1.39.json"
+  },
+  {
+    "id": "bg.13.7",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.13.7.json"
+  },
+  {
+    "id": "bg.3.2",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.3.2.json"
+  },
+  {
+    "id": "bg.12.12",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.12.12.json"
+  },
+  {
+    "id": "bg.2.29",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.2.29.json"
+  },
+  {
+    "id": "bg.13.29",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.13.29.json"
+  },
+  {
+    "id": "bg.11.14",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.11.14.json"
+  },
+  {
+    "id": "bg.16.4",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.16.4.json"
+  },
+  {
+    "id": "bg.3.12",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.3.12.json"
+  },
+  {
+    "id": "bg.10.39",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.10.39.json"
+  },
+  {
+    "id": "bg.18.59",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.18.59.json"
+  },
+  {
+    "id": "bg.6.1",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.6.1.json"
+  },
+  {
+    "id": "bg.4.41",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.4.41.json"
+  },
+  {
+    "id": "bg.12.3",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.12.3.json"
+  },
+  {
+    "id": "bg.11.43",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.11.43.json"
+  },
+  {
+    "id": "bg.9.18",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.9.18.json"
+  },
+  {
+    "id": "bg.16.10",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.16.10.json"
+  },
+  {
+    "id": "bg.4.16",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.4.16.json"
+  },
+  {
+    "id": "bg.2.6",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.2.6.json"
+  },
+  {
+    "id": "bg.2.68",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.2.68.json"
+  },
+  {
+    "id": "bg.5.4",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.5.4.json"
+  },
+  {
+    "id": "bg.11.38",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.11.38.json"
+  },
+  {
+    "id": "bg.15.1",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.15.1.json"
+  },
+  {
+    "id": "bg.2.13",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.2.13.json"
+  },
+  {
+    "id": "bg.18.75",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.18.75.json"
+  },
+  {
+    "id": "bg.10.15",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.10.15.json"
+  },
+  {
+    "id": "bg.9.34",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.9.34.json"
+  },
+  {
+    "id": "bg.5.17",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.5.17.json"
+  },
+  {
+    "id": "bg.1.3",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.1.3.json"
+  },
+  {
+    "id": "bg.17.11",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.17.11.json"
+  },
+  {
+    "id": "bg.8.19",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.8.19.json"
+  },
+  {
+    "id": "bg.2.44",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.2.44.json"
+  },
+  {
+    "id": "bg.18.5",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.18.5.json"
+  },
+  {
+    "id": "bg.11.6",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.11.6.json"
+  },
+  {
+    "id": "bg.10.42",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.10.42.json"
+  },
+  {
+    "id": "bg.18.22",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.18.22.json"
+  },
+  {
+    "id": "bg.1.42",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.1.42.json"
+  },
+  {
+    "id": "bg.9.22",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.9.22.json"
+  },
+  {
+    "id": "bg.6.11",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.6.11.json"
+  },
+  {
+    "id": "bg.2.52",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.2.52.json"
+  },
+  {
+    "id": "bg.14.17",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.14.17.json"
+  },
+  {
+    "id": "bg.18.34",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.18.34.json"
+  },
+  {
+    "id": "bg.14.5",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.14.5.json"
+  },
+  {
+    "id": "bg.9.4",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.9.4.json"
+  },
+  {
+    "id": "bg.1.15",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.1.15.json"
+  },
+  {
+    "id": "bg.3.28",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.3.28.json"
+  },
+  {
+    "id": "bg.13.13",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.13.13.json"
+  },
+  {
+    "id": "bg.6.46",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.6.46.json"
+  },
+  {
+    "id": "bg.10.2",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.10.2.json"
+  },
+  {
+    "id": "bg.18.63",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.18.63.json"
+  },
+  {
+    "id": "bg.6.47",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.6.47.json"
+  },
+  {
+    "id": "bg.10.3",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.10.3.json"
+  },
+  {
+    "id": "bg.18.62",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.18.62.json"
+  },
+  {
+    "id": "bg.9.5",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.9.5.json"
+  },
+  {
+    "id": "bg.3.29",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.3.29.json"
+  },
+  {
+    "id": "bg.1.14",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.1.14.json"
+  },
+  {
+    "id": "bg.13.12",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.13.12.json"
+  },
+  {
+    "id": "bg.6.10",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.6.10.json"
+  },
+  {
+    "id": "bg.2.53",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.2.53.json"
+  },
+  {
+    "id": "bg.14.16",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.14.16.json"
+  },
+  {
+    "id": "bg.18.35",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.18.35.json"
+  },
+  {
+    "id": "bg.14.4",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.14.4.json"
+  },
+  {
+    "id": "bg.4.1",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.4.1.json"
+  },
+  {
+    "id": "bg.1.43",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.1.43.json"
+  },
+  {
+    "id": "bg.9.23",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.9.23.json"
+  },
+  {
+    "id": "bg.8.18",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.8.18.json"
+  },
+  {
+    "id": "bg.2.45",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.2.45.json"
+  },
+  {
+    "id": "bg.18.4",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.18.4.json"
+  },
+  {
+    "id": "bg.11.7",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.11.7.json"
+  },
+  {
+    "id": "bg.18.23",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.18.23.json"
+  },
+  {
+    "id": "bg.5.16",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.5.16.json"
+  },
+  {
+    "id": "bg.1.2",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.1.2.json"
+  },
+  {
+    "id": "bg.8.1",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.8.1.json"
+  },
+  {
+    "id": "bg.17.10",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.17.10.json"
+  },
+  {
+    "id": "bg.2.12",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.2.12.json"
+  },
+  {
+    "id": "bg.18.74",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.18.74.json"
+  },
+  {
+    "id": "bg.10.14",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.10.14.json"
+  },
+  {
+    "id": "bg.5.5",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.5.5.json"
+  },
+  {
+    "id": "bg.11.39",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.11.39.json"
+  },
+  {
+    "id": "bg.16.11",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.16.11.json"
+  },
+  {
+    "id": "bg.4.17",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.4.17.json"
+  },
+  {
+    "id": "bg.2.7",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.2.7.json"
+  },
+  {
+    "id": "bg.2.69",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.2.69.json"
+  },
+  {
+    "id": "bg.12.2",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.12.2.json"
+  },
+  {
+    "id": "bg.11.42",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.11.42.json"
+  },
+  {
+    "id": "bg.9.19",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.9.19.json"
+  },
+  {
+    "id": "bg.10.38",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.10.38.json"
+  },
+  {
+    "id": "bg.18.58",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.18.58.json"
+  },
+  {
+    "id": "bg.4.40",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.4.40.json"
+  },
+  {
+    "id": "bg.11.15",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.11.15.json"
+  },
+  {
+    "id": "bg.13.28",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.13.28.json"
+  },
+  {
+    "id": "bg.16.5",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.16.5.json"
+  },
+  {
+    "id": "bg.3.13",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.3.13.json"
+  },
+  {
+    "id": "bg.3.3",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.3.3.json"
+  },
+  {
+    "id": "bg.12.13",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.12.13.json"
+  },
+  {
+    "id": "bg.2.28",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.2.28.json"
+  },
+  {
+    "id": "bg.1.38",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.1.38.json"
+  },
+  {
+    "id": "bg.13.6",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.13.6.json"
+  },
+  {
+    "id": "bg.18.19",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.18.19.json"
+  },
+  {
+    "id": "bg.7.4",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.7.4.json"
+  },
+  {
+    "id": "bg.8.22",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.8.22.json"
+  },
+  {
+    "id": "bg.11.54",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.11.54.json"
+  },
+  {
+    "id": "bg.15.17",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.15.17.json"
+  },
+  {
+    "id": "bg.17.1",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.17.1.json"
+  },
+  {
+    "id": "bg.7.11",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.7.11.json"
+  },
+  {
+    "id": "bg.1.18",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.1.18.json"
+  },
+  {
+    "id": "bg.3.25",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.3.25.json"
+  },
+  {
+    "id": "bg.9.9",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.9.9.json"
+  },
+  {
+    "id": "bg.11.23",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.11.23.json"
+  },
+  {
+    "id": "bg.4.21",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.4.21.json"
+  },
+  {
+    "id": "bg.14.8",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.14.8.json"
+  },
+  {
+    "id": "bg.18.39",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.18.39.json"
+  },
+  {
+    "id": "bg.7.27",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.7.27.json"
+  },
+  {
+    "id": "bg.4.37",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.4.37.json"
+  },
+  {
+    "id": "bg.18.8",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.18.8.json"
+  },
+  {
+    "id": "bg.2.49",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.2.49.json"
+  },
+  {
+    "id": "bg.8.14",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.8.14.json"
+  },
+  {
+    "id": "bg.3.33",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.3.33.json"
+  },
+  {
+    "id": "bg.11.35",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.11.35.json"
+  },
+  {
+    "id": "bg.5.9",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.5.9.json"
+  },
+  {
+    "id": "bg.10.18",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.10.18.json"
+  },
+  {
+    "id": "bg.18.78",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.18.78.json"
+  },
+  {
+    "id": "bg.9.15",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.9.15.json"
+  },
+  {
+    "id": "bg.14.20",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.14.20.json"
+  },
+  {
+    "id": "bg.2.65",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.2.65.json"
+  },
+  {
+    "id": "bg.6.26",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.6.26.json"
+  },
+  {
+    "id": "bg.16.9",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.16.9.json"
+  },
+  {
+    "id": "bg.13.24",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.13.24.json"
+  },
+  {
+    "id": "bg.11.19",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.11.19.json"
+  },
+  {
+    "id": "bg.1.22",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.1.22.json"
+  },
+  {
+    "id": "bg.18.54",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.18.54.json"
+  },
+  {
+    "id": "bg.10.34",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.10.34.json"
+  },
+  {
+    "id": "bg.2.32",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.2.32.json"
+  },
+  {
+    "id": "bg.13.32",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.13.32.json"
+  },
+  {
+    "id": "bg.1.34",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.1.34.json"
+  },
+  {
+    "id": "bg.10.22",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.10.22.json"
+  },
+  {
+    "id": "bg.18.42",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.18.42.json"
+  },
+  {
+    "id": "bg.2.24",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.2.24.json"
+  },
+  {
+    "id": "bg.17.26",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.17.26.json"
+  },
+  {
+    "id": "bg.5.20",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.5.20.json"
+  },
+  {
+    "id": "bg.7.8",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.7.8.json"
+  },
+  {
+    "id": "bg.18.15",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.18.15.json"
+  },
+  {
+    "id": "bg.6.30",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.6.30.json"
+  },
+  {
+    "id": "bg.15.10",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.15.10.json"
+  },
+  {
+    "id": "bg.11.53",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.11.53.json"
+  },
+  {
+    "id": "bg.7.16",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.7.16.json"
+  },
+  {
+    "id": "bg.17.6",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.17.6.json"
+  },
+  {
+    "id": "bg.7.3",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.7.3.json"
+  },
+  {
+    "id": "bg.8.25",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.8.25.json"
+  },
+  {
+    "id": "bg.13.1",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.13.1.json"
+  },
+  {
+    "id": "bg.18.49",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.18.49.json"
+  },
+  {
+    "id": "bg.12.14",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.12.14.json"
+  },
+  {
+    "id": "bg.10.29",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.10.29.json"
+  },
+  {
+    "id": "bg.3.4",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.3.4.json"
+  },
+  {
+    "id": "bg.16.2",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.16.2.json"
+  },
+  {
+    "id": "bg.11.12",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.11.12.json"
+  },
+  {
+    "id": "bg.1.29",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.1.29.json"
+  },
+  {
+    "id": "bg.3.14",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.3.14.json"
+  },
+  {
+    "id": "bg.6.7",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.6.7.json"
+  },
+  {
+    "id": "bg.2.39",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.2.39.json"
+  },
+  {
+    "id": "bg.11.45",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.11.45.json"
+  },
+  {
+    "id": "bg.12.5",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.12.5.json"
+  },
+  {
+    "id": "bg.3.43",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.3.43.json"
+  },
+  {
+    "id": "bg.16.16",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.16.16.json"
+  },
+  {
+    "id": "bg.4.10",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.4.10.json"
+  },
+  {
+    "id": "bg.3.38",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.3.38.json"
+  },
+  {
+    "id": "bg.5.2",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.5.2.json"
+  },
+  {
+    "id": "bg.2.15",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.2.15.json"
+  },
+  {
+    "id": "bg.15.7",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.15.7.json"
+  },
+  {
+    "id": "bg.18.73",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.18.73.json"
+  },
+  {
+    "id": "bg.10.13",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.10.13.json"
+  },
+  {
+    "id": "bg.5.11",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.5.11.json"
+  },
+  {
+    "id": "bg.9.32",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.9.32.json"
+  },
+  {
+    "id": "bg.8.6",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.8.6.json"
+  },
+  {
+    "id": "bg.17.17",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.17.17.json"
+  },
+  {
+    "id": "bg.1.5",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.1.5.json"
+  },
+  {
+    "id": "bg.18.3",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.18.3.json"
+  },
+  {
+    "id": "bg.2.42",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.2.42.json"
+  },
+  {
+    "id": "bg.18.24",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.18.24.json"
+  },
+  {
+    "id": "bg.1.44",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.1.44.json"
+  },
+  {
+    "id": "bg.9.24",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.9.24.json"
+  },
+  {
+    "id": "bg.4.6",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.4.6.json"
+  },
+  {
+    "id": "bg.2.54",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.2.54.json"
+  },
+  {
+    "id": "bg.6.17",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.6.17.json"
+  },
+  {
+    "id": "bg.18.32",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.18.32.json"
+  },
+  {
+    "id": "bg.14.3",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.14.3.json"
+  },
+  {
+    "id": "bg.14.11",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.14.11.json"
+  },
+  {
+    "id": "bg.9.2",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.9.2.json"
+  },
+  {
+    "id": "bg.1.13",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.1.13.json"
+  },
+  {
+    "id": "bg.13.15",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.13.15.json"
+  },
+  {
+    "id": "bg.11.28",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.11.28.json"
+  },
+  {
+    "id": "bg.6.40",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.6.40.json"
+  },
+  {
+    "id": "bg.10.4",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.10.4.json"
+  },
+  {
+    "id": "bg.18.65",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.18.65.json"
+  },
+  {
+    "id": "bg.18.12",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.18.12.json"
+  },
+  {
+    "id": "bg.6.37",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.6.37.json"
+  },
+  {
+    "id": "bg.17.21",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.17.21.json"
+  },
+  {
+    "id": "bg.5.27",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.5.27.json"
+  },
+  {
+    "id": "bg.3.8",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.3.8.json"
+  },
+  {
+    "id": "bg.10.25",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.10.25.json"
+  },
+  {
+    "id": "bg.12.18",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.12.18.json"
+  },
+  {
+    "id": "bg.18.45",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.18.45.json"
+  },
+  {
+    "id": "bg.2.23",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.2.23.json"
+  },
+  {
+    "id": "bg.13.35",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.13.35.json"
+  },
+  {
+    "id": "bg.1.33",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.1.33.json"
+  },
+  {
+    "id": "bg.18.53",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.18.53.json"
+  },
+  {
+    "id": "bg.10.33",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.10.33.json"
+  },
+  {
+    "id": "bg.2.35",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.2.35.json"
+  },
+  {
+    "id": "bg.13.23",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.13.23.json"
+  },
+  {
+    "id": "bg.3.18",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.3.18.json"
+  },
+  {
+    "id": "bg.1.25",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.1.25.json"
+  },
+  {
+    "id": "bg.14.27",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.14.27.json"
+  },
+  {
+    "id": "bg.6.21",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.6.21.json"
+  },
+  {
+    "id": "bg.2.62",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.2.62.json"
+  },
+  {
+    "id": "bg.12.9",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.12.9.json"
+  },
+  {
+    "id": "bg.11.49",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.11.49.json"
+  },
+  {
+    "id": "bg.9.12",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.9.12.json"
+  },
+  {
+    "id": "bg.2.19",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.2.19.json"
+  },
+  {
+    "id": "bg.3.34",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.3.34.json"
+  },
+  {
+    "id": "bg.11.32",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.11.32.json"
+  },
+  {
+    "id": "bg.8.13",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.8.13.json"
+  },
+  {
+    "id": "bg.4.30",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.4.30.json"
+  },
+  {
+    "id": "bg.18.28",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.18.28.json"
+  },
+  {
+    "id": "bg.7.20",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.7.20.json"
+  },
+  {
+    "id": "bg.1.9",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.1.9.json"
+  },
+  {
+    "id": "bg.4.26",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.4.26.json"
+  },
+  {
+    "id": "bg.2.58",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.2.58.json"
+  },
+  {
+    "id": "bg.16.20",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.16.20.json"
+  },
+  {
+    "id": "bg.9.28",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.9.28.json"
+  },
+  {
+    "id": "bg.10.8",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.10.8.json"
+  },
+  {
+    "id": "bg.18.69",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.18.69.json"
+  },
+  {
+    "id": "bg.3.22",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.3.22.json"
+  },
+  {
+    "id": "bg.11.24",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.11.24.json"
+  },
+  {
+    "id": "bg.13.19",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.13.19.json"
+  },
+  {
+    "id": "bg.3.23",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.3.23.json"
+  },
+  {
+    "id": "bg.13.18",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.13.18.json"
+  },
+  {
+    "id": "bg.11.25",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.11.25.json"
+  },
+  {
+    "id": "bg.10.9",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.10.9.json"
+  },
+  {
+    "id": "bg.18.68",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.18.68.json"
+  },
+  {
+    "id": "bg.9.29",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.9.29.json"
+  },
+  {
+    "id": "bg.4.27",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.4.27.json"
+  },
+  {
+    "id": "bg.2.59",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.2.59.json"
+  },
+  {
+    "id": "bg.16.21",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.16.21.json"
+  },
+  {
+    "id": "bg.7.21",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.7.21.json"
+  },
+  {
+    "id": "bg.1.8",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.1.8.json"
+  },
+  {
+    "id": "bg.8.12",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.8.12.json"
+  },
+  {
+    "id": "bg.4.31",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.4.31.json"
+  },
+  {
+    "id": "bg.18.29",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.18.29.json"
+  },
+  {
+    "id": "bg.3.35",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.3.35.json"
+  },
+  {
+    "id": "bg.11.33",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.11.33.json"
+  },
+  {
+    "id": "bg.2.18",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.2.18.json"
+  },
+  {
+    "id": "bg.12.8",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.12.8.json"
+  },
+  {
+    "id": "bg.11.48",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.11.48.json"
+  },
+  {
+    "id": "bg.9.13",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.9.13.json"
+  },
+  {
+    "id": "bg.14.26",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.14.26.json"
+  },
+  {
+    "id": "bg.6.20",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.6.20.json"
+  },
+  {
+    "id": "bg.2.63",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.2.63.json"
+  },
+  {
+    "id": "bg.13.22",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.13.22.json"
+  },
+  {
+    "id": "bg.1.24",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.1.24.json"
+  },
+  {
+    "id": "bg.3.19",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.3.19.json"
+  },
+  {
+    "id": "bg.18.52",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.18.52.json"
+  },
+  {
+    "id": "bg.10.32",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.10.32.json"
+  },
+  {
+    "id": "bg.2.34",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.2.34.json"
+  },
+  {
+    "id": "bg.13.34",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.13.34.json"
+  },
+  {
+    "id": "bg.1.32",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.1.32.json"
+  },
+  {
+    "id": "bg.3.9",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.3.9.json"
+  },
+  {
+    "id": "bg.12.19",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.12.19.json"
+  },
+  {
+    "id": "bg.10.24",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.10.24.json"
+  },
+  {
+    "id": "bg.18.44",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.18.44.json"
+  },
+  {
+    "id": "bg.2.22",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.2.22.json"
+  },
+  {
+    "id": "bg.17.20",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.17.20.json"
+  },
+  {
+    "id": "bg.5.26",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.5.26.json"
+  },
+  {
+    "id": "bg.18.13",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.18.13.json"
+  },
+  {
+    "id": "bg.8.28",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.8.28.json"
+  },
+  {
+    "id": "bg.6.36",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.6.36.json"
+  },
+  {
+    "id": "bg.6.41",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.6.41.json"
+  },
+  {
+    "id": "bg.10.5",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.10.5.json"
+  },
+  {
+    "id": "bg.18.64",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.18.64.json"
+  },
+  {
+    "id": "bg.9.3",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.9.3.json"
+  },
+  {
+    "id": "bg.1.12",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.1.12.json"
+  },
+  {
+    "id": "bg.11.29",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.11.29.json"
+  },
+  {
+    "id": "bg.13.14",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.13.14.json"
+  },
+  {
+    "id": "bg.2.55",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.2.55.json"
+  },
+  {
+    "id": "bg.6.16",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.6.16.json"
+  },
+  {
+    "id": "bg.18.33",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.18.33.json"
+  },
+  {
+    "id": "bg.14.2",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.14.2.json"
+  },
+  {
+    "id": "bg.14.10",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.14.10.json"
+  },
+  {
+    "id": "bg.1.45",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.1.45.json"
+  },
+  {
+    "id": "bg.9.25",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.9.25.json"
+  },
+  {
+    "id": "bg.4.7",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.4.7.json"
+  },
+  {
+    "id": "bg.11.1",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.11.1.json"
+  },
+  {
+    "id": "bg.18.2",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.18.2.json"
+  },
+  {
+    "id": "bg.2.43",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.2.43.json"
+  },
+  {
+    "id": "bg.18.25",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.18.25.json"
+  },
+  {
+    "id": "bg.5.10",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.5.10.json"
+  },
+  {
+    "id": "bg.9.33",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.9.33.json"
+  },
+  {
+    "id": "bg.8.7",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.8.7.json"
+  },
+  {
+    "id": "bg.17.16",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.17.16.json"
+  },
+  {
+    "id": "bg.1.4",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.1.4.json"
+  },
+  {
+    "id": "bg.2.14",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.2.14.json"
+  },
+  {
+    "id": "bg.15.6",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.15.6.json"
+  },
+  {
+    "id": "bg.18.72",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.18.72.json"
+  },
+  {
+    "id": "bg.10.12",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.10.12.json"
+  },
+  {
+    "id": "bg.3.39",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.3.39.json"
+  },
+  {
+    "id": "bg.5.3",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.5.3.json"
+  },
+  {
+    "id": "bg.16.17",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.16.17.json"
+  },
+  {
+    "id": "bg.2.1",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.2.1.json"
+  },
+  {
+    "id": "bg.4.11",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.4.11.json"
+  },
+  {
+    "id": "bg.11.44",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.11.44.json"
+  },
+  {
+    "id": "bg.12.4",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.12.4.json"
+  },
+  {
+    "id": "bg.3.42",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.3.42.json"
+  },
+  {
+    "id": "bg.6.6",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.6.6.json"
+  },
+  {
+    "id": "bg.2.38",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.2.38.json"
+  },
+  {
+    "id": "bg.16.3",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.16.3.json"
+  },
+  {
+    "id": "bg.11.13",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.11.13.json"
+  },
+  {
+    "id": "bg.3.15",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.3.15.json"
+  },
+  {
+    "id": "bg.1.28",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.1.28.json"
+  },
+  {
+    "id": "bg.18.48",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.18.48.json"
+  },
+  {
+    "id": "bg.10.28",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.10.28.json"
+  },
+  {
+    "id": "bg.12.15",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.12.15.json"
+  },
+  {
+    "id": "bg.3.5",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.3.5.json"
+  },
+  {
+    "id": "bg.7.2",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.7.2.json"
+  },
+  {
+    "id": "bg.8.24",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.8.24.json"
+  },
+  {
+    "id": "bg.15.11",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.15.11.json"
+  },
+  {
+    "id": "bg.11.52",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.11.52.json"
+  },
+  {
+    "id": "bg.7.17",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.7.17.json"
+  },
+  {
+    "id": "bg.17.7",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.17.7.json"
+  },
+  {
+    "id": "bg.18.67",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.18.67.json"
+  },
+  {
+    "id": "bg.10.6",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.10.6.json"
+  },
+  {
+    "id": "bg.6.42",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.6.42.json"
+  },
+  {
+    "id": "bg.13.17",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.13.17.json"
+  },
+  {
+    "id": "bg.1.11",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.1.11.json"
+  },
+  {
+    "id": "bg.14.13",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.14.13.json"
+  },
+  {
+    "id": "bg.18.30",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.18.30.json"
+  },
+  {
+    "id": "bg.14.1",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.14.1.json"
+  },
+  {
+    "id": "bg.6.15",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.6.15.json"
+  },
+  {
+    "id": "bg.4.28",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.4.28.json"
+  },
+  {
+    "id": "bg.2.56",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.2.56.json"
+  },
+  {
+    "id": "bg.4.4",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.4.4.json"
+  },
+  {
+    "id": "bg.1.46",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.1.46.json"
+  },
+  {
+    "id": "bg.9.26",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.9.26.json"
+  },
+  {
+    "id": "bg.18.26",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.18.26.json"
+  },
+  {
+    "id": "bg.18.1",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.18.1.json"
+  },
+  {
+    "id": "bg.2.40",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.2.40.json"
+  },
+  {
+    "id": "bg.11.2",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.11.2.json"
+  },
+  {
+    "id": "bg.1.7",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.1.7.json"
+  },
+  {
+    "id": "bg.8.4",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.8.4.json"
+  },
+  {
+    "id": "bg.17.15",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.17.15.json"
+  },
+  {
+    "id": "bg.9.30",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.9.30.json"
+  },
+  {
+    "id": "bg.5.13",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.5.13.json"
+  },
+  {
+    "id": "bg.18.71",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.18.71.json"
+  },
+  {
+    "id": "bg.10.11",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.10.11.json"
+  },
+  {
+    "id": "bg.15.5",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.15.5.json"
+  },
+  {
+    "id": "bg.2.17",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.2.17.json"
+  },
+  {
+    "id": "bg.4.12",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.4.12.json"
+  },
+  {
+    "id": "bg.2.2",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.2.2.json"
+  },
+  {
+    "id": "bg.16.14",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.16.14.json"
+  },
+  {
+    "id": "bg.3.41",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.3.41.json"
+  },
+  {
+    "id": "bg.12.7",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.12.7.json"
+  },
+  {
+    "id": "bg.11.47",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.11.47.json"
+  },
+  {
+    "id": "bg.6.5",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.6.5.json"
+  },
+  {
+    "id": "bg.3.16",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.3.16.json"
+  },
+  {
+    "id": "bg.11.10",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.11.10.json"
+  },
+  {
+    "id": "bg.3.6",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.3.6.json"
+  },
+  {
+    "id": "bg.12.16",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.12.16.json"
+  },
+  {
+    "id": "bg.13.3",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.13.3.json"
+  },
+  {
+    "id": "bg.8.27",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.8.27.json"
+  },
+  {
+    "id": "bg.6.39",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.6.39.json"
+  },
+  {
+    "id": "bg.7.1",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.7.1.json"
+  },
+  {
+    "id": "bg.17.4",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.17.4.json"
+  },
+  {
+    "id": "bg.7.14",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.7.14.json"
+  },
+  {
+    "id": "bg.5.29",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.5.29.json"
+  },
+  {
+    "id": "bg.11.51",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.11.51.json"
+  },
+  {
+    "id": "bg.15.12",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.15.12.json"
+  },
+  {
+    "id": "bg.11.26",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.11.26.json"
+  },
+  {
+    "id": "bg.3.20",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.3.20.json"
+  },
+  {
+    "id": "bg.4.8",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.4.8.json"
+  },
+  {
+    "id": "bg.16.22",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.16.22.json"
+  },
+  {
+    "id": "bg.4.24",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.4.24.json"
+  },
+  {
+    "id": "bg.6.19",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.6.19.json"
+  },
+  {
+    "id": "bg.17.19",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.17.19.json"
+  },
+  {
+    "id": "bg.8.8",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.8.8.json"
+  },
+  {
+    "id": "bg.7.22",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.7.22.json"
+  },
+  {
+    "id": "bg.4.32",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.4.32.json"
+  },
+  {
+    "id": "bg.8.11",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.8.11.json"
+  },
+  {
+    "id": "bg.11.30",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.11.30.json"
+  },
+  {
+    "id": "bg.3.36",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.3.36.json"
+  },
+  {
+    "id": "bg.12.20",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.12.20.json"
+  },
+  {
+    "id": "bg.15.9",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.15.9.json"
+  },
+  {
+    "id": "bg.9.10",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.9.10.json"
+  },
+  {
+    "id": "bg.2.60",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.2.60.json"
+  },
+  {
+    "id": "bg.6.23",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.6.23.json"
+  },
+  {
+    "id": "bg.16.18",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.16.18.json"
+  },
+  {
+    "id": "bg.14.25",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.14.25.json"
+  },
+  {
+    "id": "bg.1.27",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.1.27.json"
+  },
+  {
+    "id": "bg.13.21",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.13.21.json"
+  },
+  {
+    "id": "bg.2.37",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.2.37.json"
+  },
+  {
+    "id": "bg.6.9",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.6.9.json"
+  },
+  {
+    "id": "bg.18.51",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.18.51.json"
+  },
+  {
+    "id": "bg.10.31",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.10.31.json"
+  },
+  {
+    "id": "bg.1.31",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.1.31.json"
+  },
+  {
+    "id": "bg.2.21",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.2.21.json"
+  },
+  {
+    "id": "bg.10.27",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.10.27.json"
+  },
+  {
+    "id": "bg.18.47",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.18.47.json"
+  },
+  {
+    "id": "bg.5.25",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.5.25.json"
+  },
+  {
+    "id": "bg.7.18",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.7.18.json"
+  },
+  {
+    "id": "bg.17.8",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.17.8.json"
+  },
+  {
+    "id": "bg.17.23",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.17.23.json"
+  },
+  {
+    "id": "bg.6.35",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.6.35.json"
+  },
+  {
+    "id": "bg.18.10",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.18.10.json"
+  },
+  {
+    "id": "bg.6.34",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.6.34.json"
+  },
+  {
+    "id": "bg.18.11",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.18.11.json"
+  },
+  {
+    "id": "bg.7.19",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.7.19.json"
+  },
+  {
+    "id": "bg.5.24",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.5.24.json"
+  },
+  {
+    "id": "bg.17.9",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.17.9.json"
+  },
+  {
+    "id": "bg.17.22",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.17.22.json"
+  },
+  {
+    "id": "bg.2.20",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.2.20.json"
+  },
+  {
+    "id": "bg.10.26",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.10.26.json"
+  },
+  {
+    "id": "bg.18.46",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.18.46.json"
+  },
+  {
+    "id": "bg.1.30",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.1.30.json"
+  },
+  {
+    "id": "bg.2.36",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.2.36.json"
+  },
+  {
+    "id": "bg.6.8",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.6.8.json"
+  },
+  {
+    "id": "bg.18.50",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.18.50.json"
+  },
+  {
+    "id": "bg.10.30",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.10.30.json"
+  },
+  {
+    "id": "bg.1.26",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.1.26.json"
+  },
+  {
+    "id": "bg.13.20",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.13.20.json"
+  },
+  {
+    "id": "bg.2.61",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.2.61.json"
+  },
+  {
+    "id": "bg.6.22",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.6.22.json"
+  },
+  {
+    "id": "bg.14.24",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.14.24.json"
+  },
+  {
+    "id": "bg.16.19",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.16.19.json"
+  },
+  {
+    "id": "bg.9.11",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.9.11.json"
+  },
+  {
+    "id": "bg.15.8",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.15.8.json"
+  },
+  {
+    "id": "bg.11.31",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.11.31.json"
+  },
+  {
+    "id": "bg.3.37",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.3.37.json"
+  },
+  {
+    "id": "bg.4.33",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.4.33.json"
+  },
+  {
+    "id": "bg.8.10",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.8.10.json"
+  },
+  {
+    "id": "bg.17.18",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.17.18.json"
+  },
+  {
+    "id": "bg.8.9",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.8.9.json"
+  },
+  {
+    "id": "bg.7.23",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.7.23.json"
+  },
+  {
+    "id": "bg.16.23",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.16.23.json"
+  },
+  {
+    "id": "bg.6.18",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.6.18.json"
+  },
+  {
+    "id": "bg.4.25",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.4.25.json"
+  },
+  {
+    "id": "bg.4.9",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.4.9.json"
+  },
+  {
+    "id": "bg.11.27",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.11.27.json"
+  },
+  {
+    "id": "bg.3.21",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.3.21.json"
+  },
+  {
+    "id": "bg.17.5",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.17.5.json"
+  },
+  {
+    "id": "bg.5.28",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.5.28.json"
+  },
+  {
+    "id": "bg.7.15",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.7.15.json"
+  },
+  {
+    "id": "bg.11.50",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.11.50.json"
+  },
+  {
+    "id": "bg.15.13",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.15.13.json"
+  },
+  {
+    "id": "bg.8.26",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.8.26.json"
+  },
+  {
+    "id": "bg.6.38",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.6.38.json"
+  },
+  {
+    "id": "bg.13.2",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.13.2.json"
+  },
+  {
+    "id": "bg.3.7",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.3.7.json"
+  },
+  {
+    "id": "bg.12.17",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.12.17.json"
+  },
+  {
+    "id": "bg.3.17",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.3.17.json"
+  },
+  {
+    "id": "bg.11.11",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.11.11.json"
+  },
+  {
+    "id": "bg.16.1",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.16.1.json"
+  },
+  {
+    "id": "bg.6.4",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.6.4.json"
+  },
+  {
+    "id": "bg.3.40",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.3.40.json"
+  },
+  {
+    "id": "bg.12.6",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.12.6.json"
+  },
+  {
+    "id": "bg.11.46",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.11.46.json"
+  },
+  {
+    "id": "bg.4.13",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.4.13.json"
+  },
+  {
+    "id": "bg.2.3",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.2.3.json"
+  },
+  {
+    "id": "bg.16.15",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.16.15.json"
+  },
+  {
+    "id": "bg.5.1",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.5.1.json"
+  },
+  {
+    "id": "bg.18.70",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.18.70.json"
+  },
+  {
+    "id": "bg.10.10",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.10.10.json"
+  },
+  {
+    "id": "bg.15.4",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.15.4.json"
+  },
+  {
+    "id": "bg.2.16",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.2.16.json"
+  },
+  {
+    "id": "bg.1.6",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.1.6.json"
+  },
+  {
+    "id": "bg.8.5",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.8.5.json"
+  },
+  {
+    "id": "bg.17.14",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.17.14.json"
+  },
+  {
+    "id": "bg.9.31",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.9.31.json"
+  },
+  {
+    "id": "bg.5.12",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.5.12.json"
+  },
+  {
+    "id": "bg.18.27",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.18.27.json"
+  },
+  {
+    "id": "bg.2.41",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.2.41.json"
+  },
+  {
+    "id": "bg.11.3",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.11.3.json"
+  },
+  {
+    "id": "bg.4.5",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.4.5.json"
+  },
+  {
+    "id": "bg.9.27",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.9.27.json"
+  },
+  {
+    "id": "bg.14.12",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.14.12.json"
+  },
+  {
+    "id": "bg.18.31",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.18.31.json"
+  },
+  {
+    "id": "bg.4.29",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.4.29.json"
+  },
+  {
+    "id": "bg.6.14",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.6.14.json"
+  },
+  {
+    "id": "bg.2.57",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.2.57.json"
+  },
+  {
+    "id": "bg.13.16",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.13.16.json"
+  },
+  {
+    "id": "bg.9.1",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.9.1.json"
+  },
+  {
+    "id": "bg.1.10",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.1.10.json"
+  },
+  {
+    "id": "bg.18.66",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.18.66.json"
+  },
+  {
+    "id": "bg.10.7",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.10.7.json"
+  },
+  {
+    "id": "bg.6.43",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.6.43.json"
+  },
+  {
+    "id": "bg.11.20",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.11.20.json"
+  },
+  {
+    "id": "bg.3.26",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.3.26.json"
+  },
+  {
+    "id": "bg.16.24",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.16.24.json"
+  },
+  {
+    "id": "bg.14.19",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.14.19.json"
+  },
+  {
+    "id": "bg.4.22",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.4.22.json"
+  },
+  {
+    "id": "bg.5.19",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.5.19.json"
+  },
+  {
+    "id": "bg.7.24",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.7.24.json"
+  },
+  {
+    "id": "bg.8.17",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.8.17.json"
+  },
+  {
+    "id": "bg.11.8",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.11.8.json"
+  },
+  {
+    "id": "bg.4.34",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.4.34.json"
+  },
+  {
+    "id": "bg.11.36",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.11.36.json"
+  },
+  {
+    "id": "bg.3.30",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.3.30.json"
+  },
+  {
+    "id": "bg.9.16",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.9.16.json"
+  },
+  {
+    "id": "bg.4.18",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.4.18.json"
+  },
+  {
+    "id": "bg.6.25",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.6.25.json"
+  },
+  {
+    "id": "bg.2.66",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.2.66.json"
+  },
+  {
+    "id": "bg.2.8",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.2.8.json"
+  },
+  {
+    "id": "bg.14.23",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.14.23.json"
+  },
+  {
+    "id": "bg.1.21",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.1.21.json"
+  },
+  {
+    "id": "bg.13.27",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.13.27.json"
+  },
+  {
+    "id": "bg.2.31",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.2.31.json"
+  },
+  {
+    "id": "bg.18.57",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.18.57.json"
+  },
+  {
+    "id": "bg.10.37",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.10.37.json"
+  },
+  {
+    "id": "bg.13.9",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.13.9.json"
+  },
+  {
+    "id": "bg.1.37",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.1.37.json"
+  },
+  {
+    "id": "bg.13.31",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.13.31.json"
+  },
+  {
+    "id": "bg.2.27",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.2.27.json"
+  },
+  {
+    "id": "bg.10.21",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.10.21.json"
+  },
+  {
+    "id": "bg.18.41",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.18.41.json"
+  },
+  {
+    "id": "bg.5.23",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.5.23.json"
+  },
+  {
+    "id": "bg.17.25",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.17.25.json"
+  },
+  {
+    "id": "bg.15.18",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.15.18.json"
+  },
+  {
+    "id": "bg.2.70",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.2.70.json"
+  },
+  {
+    "id": "bg.6.33",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.6.33.json"
+  },
+  {
+    "id": "bg.18.16",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.18.16.json"
+  },
+  {
+    "id": "bg.18.61",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.18.61.json"
+  },
+  {
+    "id": "bg.6.44",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.6.44.json"
+  },
+  {
+    "id": "bg.13.11",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.13.11.json"
+  },
+  {
+    "id": "bg.9.6",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.9.6.json"
+  },
+  {
+    "id": "bg.1.17",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.1.17.json"
+  },
+  {
+    "id": "bg.18.36",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.18.36.json"
+  },
+  {
+    "id": "bg.14.7",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.14.7.json"
+  },
+  {
+    "id": "bg.14.15",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.14.15.json"
+  },
+  {
+    "id": "bg.2.50",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.2.50.json"
+  },
+  {
+    "id": "bg.6.13",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.6.13.json"
+  },
+  {
+    "id": "bg.1.40",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.1.40.json"
+  },
+  {
+    "id": "bg.9.20",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.9.20.json"
+  },
+  {
+    "id": "bg.4.2",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.4.2.json"
+  },
+  {
+    "id": "bg.10.40",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.10.40.json"
+  },
+  {
+    "id": "bg.18.20",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.18.20.json"
+  },
+  {
+    "id": "bg.4.38",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.4.38.json"
+  },
+  {
+    "id": "bg.11.4",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.11.4.json"
+  },
+  {
+    "id": "bg.2.46",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.2.46.json"
+  },
+  {
+    "id": "bg.18.7",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.18.7.json"
+  },
+  {
+    "id": "bg.8.2",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.8.2.json"
+  },
+  {
+    "id": "bg.17.13",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.17.13.json"
+  },
+  {
+    "id": "bg.1.1",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.1.1.json"
+  },
+  {
+    "id": "bg.7.28",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.7.28.json"
+  },
+  {
+    "id": "bg.5.15",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.5.15.json"
+  },
+  {
+    "id": "bg.18.77",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.18.77.json"
+  },
+  {
+    "id": "bg.10.17",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.10.17.json"
+  },
+  {
+    "id": "bg.2.11",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.2.11.json"
+  },
+  {
+    "id": "bg.15.3",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.15.3.json"
+  },
+  {
+    "id": "bg.5.6",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.5.6.json"
+  },
+  {
+    "id": "bg.2.4",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.2.4.json"
+  },
+  {
+    "id": "bg.6.29",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.6.29.json"
+  },
+  {
+    "id": "bg.4.14",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.4.14.json"
+  },
+  {
+    "id": "bg.16.12",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.16.12.json"
+  },
+  {
+    "id": "bg.11.41",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.11.41.json"
+  },
+  {
+    "id": "bg.12.1",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.12.1.json"
+  },
+  {
+    "id": "bg.6.3",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.6.3.json"
+  },
+  {
+    "id": "bg.3.10",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.3.10.json"
+  },
+  {
+    "id": "bg.16.6",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.16.6.json"
+  },
+  {
+    "id": "bg.11.16",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.11.16.json"
+  },
+  {
+    "id": "bg.12.10",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.12.10.json"
+  },
+  {
+    "id": "bg.13.5",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.13.5.json"
+  },
+  {
+    "id": "bg.8.21",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.8.21.json"
+  },
+  {
+    "id": "bg.7.7",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.7.7.json"
+  },
+  {
+    "id": "bg.7.12",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.7.12.json"
+  },
+  {
+    "id": "bg.17.2",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.17.2.json"
+  },
+  {
+    "id": "bg.15.14",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.15.14.json"
+  },
+  {
+    "id": "bg.7.13",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.7.13.json"
+  },
+  {
+    "id": "bg.17.3",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.17.3.json"
+  },
+  {
+    "id": "bg.17.28",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.17.28.json"
+  },
+  {
+    "id": "bg.15.15",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.15.15.json"
+  },
+  {
+    "id": "bg.8.20",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.8.20.json"
+  },
+  {
+    "id": "bg.7.6",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.7.6.json"
+  },
+  {
+    "id": "bg.13.4",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.13.4.json"
+  },
+  {
+    "id": "bg.12.11",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.12.11.json"
+  },
+  {
+    "id": "bg.3.1",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.3.1.json"
+  },
+  {
+    "id": "bg.3.11",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.3.11.json"
+  },
+  {
+    "id": "bg.16.7",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.16.7.json"
+  },
+  {
+    "id": "bg.11.17",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.11.17.json"
+  },
+  {
+    "id": "bg.4.42",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.4.42.json"
+  },
+  {
+    "id": "bg.6.2",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.6.2.json"
+  },
+  {
+    "id": "bg.11.40",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.11.40.json"
+  },
+  {
+    "id": "bg.2.5",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.2.5.json"
+  },
+  {
+    "id": "bg.4.15",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.4.15.json"
+  },
+  {
+    "id": "bg.6.28",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.6.28.json"
+  },
+  {
+    "id": "bg.16.13",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.16.13.json"
+  },
+  {
+    "id": "bg.5.7",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.5.7.json"
+  },
+  {
+    "id": "bg.18.76",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.18.76.json"
+  },
+  {
+    "id": "bg.10.16",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.10.16.json"
+  },
+  {
+    "id": "bg.2.10",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.2.10.json"
+  },
+  {
+    "id": "bg.15.2",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.15.2.json"
+  },
+  {
+    "id": "bg.8.3",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.8.3.json"
+  },
+  {
+    "id": "bg.17.12",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.17.12.json"
+  },
+  {
+    "id": "bg.5.14",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.5.14.json"
+  },
+  {
+    "id": "bg.7.29",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.7.29.json"
+  },
+  {
+    "id": "bg.10.41",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.10.41.json"
+  },
+  {
+    "id": "bg.18.21",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.18.21.json"
+  },
+  {
+    "id": "bg.4.39",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.4.39.json"
+  },
+  {
+    "id": "bg.11.5",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.11.5.json"
+  },
+  {
+    "id": "bg.2.47",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.2.47.json"
+  },
+  {
+    "id": "bg.18.6",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.18.6.json"
+  },
+  {
+    "id": "bg.1.41",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.1.41.json"
+  },
+  {
+    "id": "bg.9.21",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.9.21.json"
+  },
+  {
+    "id": "bg.4.3",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.4.3.json"
+  },
+  {
+    "id": "bg.18.37",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.18.37.json"
+  },
+  {
+    "id": "bg.14.6",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.14.6.json"
+  },
+  {
+    "id": "bg.14.14",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.14.14.json"
+  },
+  {
+    "id": "bg.2.51",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.2.51.json"
+  },
+  {
+    "id": "bg.6.12",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.6.12.json"
+  },
+  {
+    "id": "bg.13.10",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.13.10.json"
+  },
+  {
+    "id": "bg.9.7",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.9.7.json"
+  },
+  {
+    "id": "bg.1.16",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.1.16.json"
+  },
+  {
+    "id": "bg.18.60",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.18.60.json"
+  },
+  {
+    "id": "bg.10.1",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.10.1.json"
+  },
+  {
+    "id": "bg.6.45",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.6.45.json"
+  },
+  {
+    "id": "bg.2.71",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.2.71.json"
+  },
+  {
+    "id": "bg.6.32",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.6.32.json"
+  },
+  {
+    "id": "bg.18.17",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.18.17.json"
+  },
+  {
+    "id": "bg.5.22",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.5.22.json"
+  },
+  {
+    "id": "bg.15.19",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.15.19.json"
+  },
+  {
+    "id": "bg.17.24",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.17.24.json"
+  },
+  {
+    "id": "bg.2.26",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.2.26.json"
+  },
+  {
+    "id": "bg.10.20",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.10.20.json"
+  },
+  {
+    "id": "bg.18.40",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.18.40.json"
+  },
+  {
+    "id": "bg.13.8",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.13.8.json"
+  },
+  {
+    "id": "bg.1.36",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.1.36.json"
+  },
+  {
+    "id": "bg.13.30",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.13.30.json"
+  },
+  {
+    "id": "bg.2.30",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.2.30.json"
+  },
+  {
+    "id": "bg.18.56",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.18.56.json"
+  },
+  {
+    "id": "bg.10.36",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.10.36.json"
+  },
+  {
+    "id": "bg.1.20",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.1.20.json"
+  },
+  {
+    "id": "bg.13.26",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.13.26.json"
+  },
+  {
+    "id": "bg.6.24",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.6.24.json"
+  },
+  {
+    "id": "bg.4.19",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.4.19.json"
+  },
+  {
+    "id": "bg.2.67",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.2.67.json"
+  },
+  {
+    "id": "bg.2.9",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.2.9.json"
+  },
+  {
+    "id": "bg.14.22",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.14.22.json"
+  },
+  {
+    "id": "bg.9.17",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.9.17.json"
+  },
+  {
+    "id": "bg.11.37",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.11.37.json"
+  },
+  {
+    "id": "bg.3.31",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.3.31.json"
+  },
+  {
+    "id": "bg.8.16",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.8.16.json"
+  },
+  {
+    "id": "bg.11.9",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.11.9.json"
+  },
+  {
+    "id": "bg.4.35",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.4.35.json"
+  },
+  {
+    "id": "bg.7.25",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.7.25.json"
+  },
+  {
+    "id": "bg.5.18",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.5.18.json"
+  },
+  {
+    "id": "bg.14.18",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.14.18.json"
+  },
+  {
+    "id": "bg.4.23",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.4.23.json"
+  },
+  {
+    "id": "bg.11.21",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.11.21.json"
+  },
+  {
+    "id": "bg.3.27",
+    "corpus": "itihasa",
+    "text_group": "mahabharata",
+    "section": "bhisma-parva",
+    "work": "bhagavad-gita",
+    "path": "itihasa/mahabharata/bhisma-parva/bhagavad-gita/canonical/bg.3.27.json"
+  }
+]

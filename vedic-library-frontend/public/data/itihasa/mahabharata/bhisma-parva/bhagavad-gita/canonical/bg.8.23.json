@@ -1,0 +1,34 @@
+{
+  "uid": "bg.8.23",
+  "work": {
+    "corpus": "itihasa",
+    "text": "mahabharata",
+    "section": "bhisma-parva",
+    "subwork": "bhagavad-gita"
+  },
+  "location": {
+    "chapter": 8,
+    "verse": 23
+  },
+  "text": {
+    "script": "devanagari",
+    "content": "यत्र काले त्वनावृत्तिमावृत्तिं चैव योगिन: ।\nप्रयाता यान्ति तं कालं वक्ष्यामि भरतर्षभ\n॥ २३ ॥"
+  },
+  "transliteration": {
+    "scheme": "iast",
+    "content": "yatra kāle tvanāvṛttimāvṛttiṃ caiva yogina: |\nprayātā yānti taṃ kālaṃ vakṣyāmi bharatarṣabha\n|| 23 ||"
+  },
+  "source": {
+    "pipeline": "bhagavad-gita",
+    "stage": "2.5",
+    "script": "s25_realign_iast_bg.py",
+    "script_version": "2.2.0",
+    "derived_from": [
+      "vedabase/raw-json/bg-08-23.json"
+    ]
+  },
+  "schema": {
+    "name": "vedic-library.canonical.verse",
+    "version": "1.0.0"
+  }
+}

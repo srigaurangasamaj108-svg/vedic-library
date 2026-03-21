@@ -1,0 +1,34 @@
+{
+  "uid": "bg.4.9",
+  "work": {
+    "corpus": "itihasa",
+    "text": "mahabharata",
+    "section": "bhisma-parva",
+    "subwork": "bhagavad-gita"
+  },
+  "location": {
+    "chapter": 4,
+    "verse": 9
+  },
+  "text": {
+    "script": "devanagari",
+    "content": "जन्म कर्म च मे दिव्यमेवं यो वेत्ति तत्त्वतः ।\nत्यक्त्वा देहं पुनर्जन्म नैति मामेति सोऽर्जुन\n॥ ९ ॥"
+  },
+  "transliteration": {
+    "scheme": "iast",
+    "content": "janma karma ca me divyamevaṃ yo vetti tattvataḥ |\ntyaktvā dehaṃ punarjanma naiti māmeti so'rjuna\n|| 9 ||"
+  },
+  "source": {
+    "pipeline": "bhagavad-gita",
+    "stage": "2.5",
+    "script": "s25_realign_iast_bg.py",
+    "script_version": "2.2.0",
+    "derived_from": [
+      "vedabase/raw-json/bg-04-09.json"
+    ]
+  },
+  "schema": {
+    "name": "vedic-library.canonical.verse",
+    "version": "1.0.0"
+  }
+}

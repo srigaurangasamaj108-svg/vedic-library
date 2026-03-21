@@ -1,0 +1,23 @@
+{
+  "uid": "bg.18.19.prabhupada.translation.en",
+  "editorial_unit_ref": {
+    "uid": "bg.18.19.prabhupada",
+    "schema": "vedic-library.editorial.unit",
+    "version": "1.0.0"
+  },
+  "translation": {
+    "language": "en",
+    "translator": "A. C. Bhaktivedanta Swami Prabhupāda",
+    "content": "According to the three different modes of material nature, there are three kinds of knowledge, action and performer of action. Now hear of them from Me."
+  },
+  "source": {
+    "derived_from": "vedabase.io",
+    "normalized_file": "vedabase-bg-18-19.normalized.json",
+    "pipeline_stage": "migration.m2",
+    "script": "m2_migrate_translations.py"
+  },
+  "schema": {
+    "name": "vedic-library.derivative.translation",
+    "version": "2.0.0"
+  }
+}

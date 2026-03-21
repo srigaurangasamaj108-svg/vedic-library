@@ -1,0 +1,17 @@
+{
+  "schema": "vedic-library.exposition",
+  "schema_version": "1.0.0",
+  "uid": "bg.11.34.prabhupada.exposition",
+  "editorial_unit_ref": "bg.11.34.prabhupada",
+  "exposition": {
+    "type": "purport",
+    "language": "en",
+    "author": "A. C. Bhaktivedanta Swami Prabhupāda",
+    "content": "Every plan is made by the Supreme Personality of Godhead, but He is so kind and merciful to His devotees that He wants to give the credit to His devotees who carry out His plan according to His desire. Life should therefore move in such a way that everyone acts in Kṛṣṇa consciousness and understands the Supreme Personality of Godhead through the medium of a spiritual master. The plans of the Supreme Personality of Godhead are understood by His mercy, and the plans of the devotees are as good as His plans. One should follow such plans and be victorious in the struggle for existence."
+  },
+  "source": {
+    "edition": "Bhagavad-gītā As It Is",
+    "editor": "BBT",
+    "lineage": "Gaudiya Vaishnava"
+  }
+}

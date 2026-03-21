@@ -1,0 +1,34 @@
+{
+  "uid": "bg.8.5",
+  "work": {
+    "corpus": "itihasa",
+    "text": "mahabharata",
+    "section": "bhisma-parva",
+    "subwork": "bhagavad-gita"
+  },
+  "location": {
+    "chapter": 8,
+    "verse": 5
+  },
+  "text": {
+    "script": "devanagari",
+    "content": "अन्तकाले च मामेव स्मरन्मुक्त्वा कलेवरम् ।\nय: प्रयाति स मद्भ‍ावं याति नास्त्यत्र संशय:\n॥ ५ ॥"
+  },
+  "transliteration": {
+    "scheme": "iast",
+    "content": "antakāle ca māmeva smaranmuktvā kalevaram |\nya: prayāti sa madbha‍āvaṃ yāti nāstyatra saṃśaya:\n|| 5 ||"
+  },
+  "source": {
+    "pipeline": "bhagavad-gita",
+    "stage": "2.5",
+    "script": "s25_realign_iast_bg.py",
+    "script_version": "2.2.0",
+    "derived_from": [
+      "vedabase/raw-json/bg-08-05.json"
+    ]
+  },
+  "schema": {
+    "name": "vedic-library.canonical.verse",
+    "version": "1.0.0"
+  }
+}

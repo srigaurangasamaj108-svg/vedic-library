@@ -1,0 +1,34 @@
+{
+  "uid": "bg.3.37",
+  "work": {
+    "corpus": "itihasa",
+    "text": "mahabharata",
+    "section": "bhisma-parva",
+    "subwork": "bhagavad-gita"
+  },
+  "location": {
+    "chapter": 3,
+    "verse": 37
+  },
+  "text": {
+    "script": "devanagari",
+    "content": "श्री भगवानुवाच\nकाम एष क्रोध एष रजोगुणसमुद्भ‍वः ।\nमहाशनो महापाप्मा विद्ध्येनमिह वैरिणम्\n॥ ३७ ॥"
+  },
+  "transliteration": {
+    "scheme": "iast",
+    "content": "śrī bhagavānuvāca\nkāma eṣa krodha eṣa rajoguṇasamudbha‍vaḥ |\nmahāśano mahāpāpmā viddhyenamiha vairiṇam\n|| 37 ||"
+  },
+  "source": {
+    "pipeline": "bhagavad-gita",
+    "stage": "2.5",
+    "script": "s25_realign_iast_bg.py",
+    "script_version": "2.2.0",
+    "derived_from": [
+      "vedabase/raw-json/bg-03-37.json"
+    ]
+  },
+  "schema": {
+    "name": "vedic-library.canonical.verse",
+    "version": "1.0.0"
+  }
+}

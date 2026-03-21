@@ -1,0 +1,34 @@
+{
+  "uid": "bg.1.20",
+  "work": {
+    "corpus": "itihasa",
+    "text": "mahabharata",
+    "section": "bhisma-parva",
+    "subwork": "bhagavad-gita"
+  },
+  "location": {
+    "chapter": 1,
+    "verse": 20
+  },
+  "text": {
+    "script": "devanagari",
+    "content": "अथ व्यवस्थितान्दृष्ट्वा धार्तराष्ट्रान्कपिध्वजः ।\nप्रवृत्ते शस्त्रसम्पाते धनुरुद्यम्य पाण्डवः ।\nहृषीकेशं तदा वाक्यमिदमाह महीपते\n॥ २० ॥"
+  },
+  "transliteration": {
+    "scheme": "iast",
+    "content": "atha vyavasthitāndṛṣṭvā dhārtarāṣṭrānkapidhvajaḥ |\npravṛtte śastrasampāte dhanurudyamya pāṇḍavaḥ |\nhṛṣīkeśaṃ tadā vākyamidamāha mahīpate\n|| 20 ||"
+  },
+  "source": {
+    "pipeline": "bhagavad-gita",
+    "stage": "2.5",
+    "script": "s25_realign_iast_bg.py",
+    "script_version": "2.2.0",
+    "derived_from": [
+      "vedabase/raw-json/bg-01-20.json"
+    ]
+  },
+  "schema": {
+    "name": "vedic-library.canonical.verse",
+    "version": "1.0.0"
+  }
+}

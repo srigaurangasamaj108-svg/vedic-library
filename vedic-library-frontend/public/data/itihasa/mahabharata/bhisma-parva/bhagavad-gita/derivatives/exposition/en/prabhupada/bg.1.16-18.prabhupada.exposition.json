@@ -1,0 +1,17 @@
+{
+  "schema": "vedic-library.exposition",
+  "schema_version": "1.0.0",
+  "uid": "bg.1.16-18.prabhupada.exposition",
+  "editorial_unit_ref": "bg.1.16-18.prabhupada",
+  "exposition": {
+    "type": "purport",
+    "language": "en",
+    "author": "A. C. Bhaktivedanta Swami Prabhupāda",
+    "content": "Sañjaya informed King Dhṛtarāṣṭra very tactfully that his unwise policy of deceiving the sons of Pāṇḍu and endeavoring to enthrone his own sons on the seat of the kingdom was not very laudable. The signs already clearly indicated that the whole Kuru dynasty would be killed in that great battle. Beginning with the grandsire, Bhīṣma, down to the grandsons like Abhimanyu and others – including kings from many states of the world – all were present there, and all were doomed. The whole catastrophe was due to King Dhṛtarāṣṭra, because he encouraged the policy followed by his sons."
+  },
+  "source": {
+    "edition": "Bhagavad-gītā As It Is",
+    "editor": "BBT",
+    "lineage": "Gaudiya Vaishnava"
+  }
+}

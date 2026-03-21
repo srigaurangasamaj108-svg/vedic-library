@@ -1,0 +1,26 @@
+{
+  "uid": "bg.1.1.baladeva.commentary.sa",
+
+  "canonical_ref": "bg.1.1",
+
+  "author": {
+    "id": "baladeva",
+    "name": "Baladeva Vidyābhūṣaṇa",
+    "tradition": "Gaudiya Vedānta"
+  },
+
+  "commentary": {
+    "language": "sa",
+    "content": "धर्मक्षेत्रे इति श्रीकृष्णस्य लीला-भूमिः इति विशिष्टार्थः।"
+  },
+
+  "metadata": {
+    "script": "devanagari",
+    "level": "verse"
+  },
+
+  "schema": {
+    "name": "vedic-library.commentary",
+    "version": "1.0.0"
+  }
+}

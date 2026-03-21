@@ -1,0 +1,34 @@
+{
+  "uid": "bg.10.27",
+  "work": {
+    "corpus": "itihasa",
+    "text": "mahabharata",
+    "section": "bhisma-parva",
+    "subwork": "bhagavad-gita"
+  },
+  "location": {
+    "chapter": 10,
+    "verse": 27
+  },
+  "text": {
+    "script": "devanagari",
+    "content": "उच्‍चैःश्रवसमश्वानां विद्धि माममृतोद्भ‍वम् ।\nऐरावतं गजेन्द्राणां नराणां च नराधिपम्\n॥ २७ ॥"
+  },
+  "transliteration": {
+    "scheme": "iast",
+    "content": "uc‍caiḥśravasamaśvānāṃ viddhi māmamṛtodbha‍vam |\nairāvataṃ gajendrāṇāṃ narāṇāṃ ca narādhipam\n|| 27 ||"
+  },
+  "source": {
+    "pipeline": "bhagavad-gita",
+    "stage": "2.5",
+    "script": "s25_realign_iast_bg.py",
+    "script_version": "2.2.0",
+    "derived_from": [
+      "vedabase/raw-json/bg-10-27.json"
+    ]
+  },
+  "schema": {
+    "name": "vedic-library.canonical.verse",
+    "version": "1.0.0"
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "uid": "bg.5.24",
+  "work": {
+    "corpus": "itihasa",
+    "text": "mahabharata",
+    "section": "bhisma-parva",
+    "subwork": "bhagavad-gita"
+  },
+  "location": {
+    "chapter": 5,
+    "verse": 24
+  },
+  "text": {
+    "script": "devanagari",
+    "content": "योऽन्त:सुखोऽन्तरारामस्तथान्तर्ज्योतिरेव य: ।\nस योगी ब्रह्मनिर्वाणं ब्रह्मभूतोऽधिगच्छति\n॥ २४ ॥"
+  },
+  "transliteration": {
+    "scheme": "iast",
+    "content": "yo'nta:sukho'ntarārāmastathāntarjyotireva ya: |\nsa yogī brahmanirvāṇaṃ brahmabhūto'dhigacchati\n|| 24 ||"
+  },
+  "source": {
+    "pipeline": "bhagavad-gita",
+    "stage": "2.5",
+    "script": "s25_realign_iast_bg.py",
+    "script_version": "2.2.0",
+    "derived_from": [
+      "vedabase/raw-json/bg-05-24.json"
+    ]
+  },
+  "schema": {
+    "name": "vedic-library.canonical.verse",
+    "version": "1.0.0"
+  }
+}

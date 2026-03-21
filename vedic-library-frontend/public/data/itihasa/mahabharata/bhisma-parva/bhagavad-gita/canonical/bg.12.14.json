@@ -1,0 +1,34 @@
+{
+  "uid": "bg.12.14",
+  "work": {
+    "corpus": "itihasa",
+    "text": "mahabharata",
+    "section": "bhisma-parva",
+    "subwork": "bhagavad-gita"
+  },
+  "location": {
+    "chapter": 12,
+    "verse": 14
+  },
+  "text": {
+    "script": "devanagari",
+    "content": "सन्तुष्ट: सततं योगी यतात्मा दृढनिश्चय: ।\nमय्यर्पितमनोबुद्धिर्यो मद्भ‍क्त: स मे प्रिय:\n॥ १४ ॥"
+  },
+  "transliteration": {
+    "scheme": "iast",
+    "content": "santuṣṭa: satataṃ yogī yatātmā dṛḍhaniścaya: |\nmayyarpitamanobuddhiryo madbha‍kta: sa me priya:\n|| 14 ||"
+  },
+  "source": {
+    "pipeline": "bhagavad-gita",
+    "stage": "2.5",
+    "script": "s25_realign_iast_bg.py",
+    "script_version": "2.2.0",
+    "derived_from": [
+      "vedabase/raw-json/bg-12-13-14.json"
+    ]
+  },
+  "schema": {
+    "name": "vedic-library.canonical.verse",
+    "version": "1.0.0"
+  }
+}

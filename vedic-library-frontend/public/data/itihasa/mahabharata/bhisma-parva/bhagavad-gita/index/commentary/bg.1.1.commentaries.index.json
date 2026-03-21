@@ -1,0 +1,28 @@
+{
+  "schema": "vedic-library.commentary.index",
+  "schema_version": "1.0.0",
+  "verse_uid": "bg.1.1",
+  "commentaries": [
+    {
+      "author": "baladeva",
+      "languages": [
+        "sa"
+      ]
+    },
+    {
+      "author": "madhva",
+      "languages": [
+        "en",
+        "sa"
+      ]
+    },
+    {
+      "author": "sridhara",
+      "languages": [
+        "en",
+        "hi",
+        "sa"
+      ]
+    }
+  ]
+}

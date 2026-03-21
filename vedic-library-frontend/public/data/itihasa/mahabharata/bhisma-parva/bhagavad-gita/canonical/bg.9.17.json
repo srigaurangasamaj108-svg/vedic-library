@@ -1,0 +1,34 @@
+{
+  "uid": "bg.9.17",
+  "work": {
+    "corpus": "itihasa",
+    "text": "mahabharata",
+    "section": "bhisma-parva",
+    "subwork": "bhagavad-gita"
+  },
+  "location": {
+    "chapter": 9,
+    "verse": 17
+  },
+  "text": {
+    "script": "devanagari",
+    "content": "पिताहमस्य जगतो माता धाता पितामह: ।\nवेद्यं पवित्रम् ॐकार ऋक् साम यजुरेव च\n॥ १७ ॥"
+  },
+  "transliteration": {
+    "scheme": "iast",
+    "content": "pitāhamasya jagato mātā dhātā pitāmaha: |\nvedyaṃ pavitram oṃkāra ṛk sāma yajureva ca\n|| 17 ||"
+  },
+  "source": {
+    "pipeline": "bhagavad-gita",
+    "stage": "2.5",
+    "script": "s25_realign_iast_bg.py",
+    "script_version": "2.2.0",
+    "derived_from": [
+      "vedabase/raw-json/bg-09-17.json"
+    ]
+  },
+  "schema": {
+    "name": "vedic-library.canonical.verse",
+    "version": "1.0.0"
+  }
+}

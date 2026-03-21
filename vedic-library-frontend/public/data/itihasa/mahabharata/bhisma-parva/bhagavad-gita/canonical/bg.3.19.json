@@ -1,0 +1,34 @@
+{
+  "uid": "bg.3.19",
+  "work": {
+    "corpus": "itihasa",
+    "text": "mahabharata",
+    "section": "bhisma-parva",
+    "subwork": "bhagavad-gita"
+  },
+  "location": {
+    "chapter": 3,
+    "verse": 19
+  },
+  "text": {
+    "script": "devanagari",
+    "content": "तस्मादसक्तः सततं कार्यं कर्म समाचर ।\nअसक्तो ह्याचरन्कर्म परमाप्‍नोति पूरूषः\n॥ १९ ॥"
+  },
+  "transliteration": {
+    "scheme": "iast",
+    "content": "tasmādasaktaḥ satataṃ kāryaṃ karma samācara |\nasakto hyācarankarma paramāp‍noti pūrūṣaḥ\n|| 19 ||"
+  },
+  "source": {
+    "pipeline": "bhagavad-gita",
+    "stage": "2.5",
+    "script": "s25_realign_iast_bg.py",
+    "script_version": "2.2.0",
+    "derived_from": [
+      "vedabase/raw-json/bg-03-19.json"
+    ]
+  },
+  "schema": {
+    "name": "vedic-library.canonical.verse",
+    "version": "1.0.0"
+  }
+}

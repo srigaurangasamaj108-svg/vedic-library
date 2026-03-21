@@ -1,0 +1,44 @@
+{
+  "schema": "vedic-library.verse.index",
+  "schema_version": "1.0.0",
+  "verse_uid": "bg.14.19",
+  "work": {
+    "corpus": "itihasa",
+    "text": "mahabharata",
+    "section": "bhisma-parva",
+    "subwork": "bhagavad-gita"
+  },
+  "location": {
+    "chapter": 14,
+    "verse": 19
+  },
+  "canonical_ref": "bg.14.19",
+  "editorial_unit": {
+    "uid": "bg.14.19.prabhupada",
+    "covers": {
+      "chapter": 14,
+      "from_verse": 19,
+      "to_verse": 19
+    }
+  },
+  "derivatives": {
+    "synonyms": {
+      "available": true,
+      "refs": [
+        "bg.14.19.prabhupada.synonyms.en"
+      ]
+    },
+    "translations": {
+      "available": true,
+      "refs": [
+        "bg.14.19.prabhupada.translation.en"
+      ]
+    },
+    "exposition": {
+      "available": true,
+      "refs": [
+        "bg.14.19.prabhupada.exposition"
+      ]
+    }
+  }
+}

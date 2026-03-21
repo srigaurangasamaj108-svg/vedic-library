@@ -1,0 +1,17 @@
+{
+  "schema": "vedic-library.exposition",
+  "schema_version": "1.0.0",
+  "uid": "bg.14.14.prabhupada.exposition",
+  "editorial_unit_ref": "bg.14.14.prabhupada",
+  "exposition": {
+    "type": "purport",
+    "language": "en",
+    "author": "A. C. Bhaktivedanta Swami Prabhupāda",
+    "content": "One in goodness attains higher planetary systems, like Brahmaloka or Janaloka, and there enjoys godly happiness. The word\n\namalān\n\nis significant; it means “free from the modes of passion and ignorance.” There are impurities in the material world, but the mode of goodness is the purest form of existence in the material world. There are different kinds of planets for different kinds of living entities. Those who die in the mode of goodness are elevated to the planets where great sages and great devotees live."
+  },
+  "source": {
+    "edition": "Bhagavad-gītā As It Is",
+    "editor": "BBT",
+    "lineage": "Gaudiya Vaishnava"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "uid": "bg.2.40.prabhupada.translation.en",
+  "editorial_unit_ref": {
+    "uid": "bg.2.40.prabhupada",
+    "schema": "vedic-library.editorial.unit",
+    "version": "1.0.0"
+  },
+  "translation": {
+    "language": "en",
+    "translator": "A. C. Bhaktivedanta Swami Prabhupāda",
+    "content": "In this endeavor there is no loss or diminution, and a little advancement on this path can protect one from the most dangerous type of fear."
+  },
+  "source": {
+    "derived_from": "vedabase.io",
+    "normalized_file": "vedabase-bg-02-40.normalized.json",
+    "pipeline_stage": "migration.m2",
+    "script": "m2_migrate_translations.py"
+  },
+  "schema": {
+    "name": "vedic-library.derivative.translation",
+    "version": "2.0.0"
+  }
+}

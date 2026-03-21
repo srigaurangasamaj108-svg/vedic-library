@@ -1,0 +1,34 @@
+{
+  "uid": "bg.17.25",
+  "work": {
+    "corpus": "itihasa",
+    "text": "mahabharata",
+    "section": "bhisma-parva",
+    "subwork": "bhagavad-gita"
+  },
+  "location": {
+    "chapter": 17,
+    "verse": 25
+  },
+  "text": {
+    "script": "devanagari",
+    "content": "तदित्यनभिसन्धाय फलं यज्ञतप:क्रिया: ।\nदानक्रियाश्च विविधा: क्रियन्ते मोक्षकाङ्‌‍क्षिभि:\n॥ २५ ॥"
+  },
+  "transliteration": {
+    "scheme": "iast",
+    "content": "tadityanabhisandhāya phalaṃ yajñatapa:kriyā: |\ndānakriyāśca vividhā: kriyante mokṣakāṅ‌‍kṣibhi:\n|| 25 ||"
+  },
+  "source": {
+    "pipeline": "bhagavad-gita",
+    "stage": "2.5",
+    "script": "s25_realign_iast_bg.py",
+    "script_version": "2.2.0",
+    "derived_from": [
+      "vedabase/raw-json/bg-17-25.json"
+    ]
+  },
+  "schema": {
+    "name": "vedic-library.canonical.verse",
+    "version": "1.0.0"
+  }
+}

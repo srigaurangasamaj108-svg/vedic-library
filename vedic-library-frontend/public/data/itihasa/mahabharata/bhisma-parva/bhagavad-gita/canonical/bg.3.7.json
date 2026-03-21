@@ -1,0 +1,34 @@
+{
+  "uid": "bg.3.7",
+  "work": {
+    "corpus": "itihasa",
+    "text": "mahabharata",
+    "section": "bhisma-parva",
+    "subwork": "bhagavad-gita"
+  },
+  "location": {
+    "chapter": 3,
+    "verse": 7
+  },
+  "text": {
+    "script": "devanagari",
+    "content": "यस्त्विन्द्रियाणि मनसा नियम्यारभतेऽर्जुन ।\nकर्मेन्द्रियैः कर्मयोगमसक्तः स विशिष्यते\n॥ ७ ॥"
+  },
+  "transliteration": {
+    "scheme": "iast",
+    "content": "yastvindriyāṇi manasā niyamyārabhate'rjuna |\nkarmendriyaiḥ karmayogamasaktaḥ sa viśiṣyate\n|| 7 ||"
+  },
+  "source": {
+    "pipeline": "bhagavad-gita",
+    "stage": "2.5",
+    "script": "s25_realign_iast_bg.py",
+    "script_version": "2.2.0",
+    "derived_from": [
+      "vedabase/raw-json/bg-03-07.json"
+    ]
+  },
+  "schema": {
+    "name": "vedic-library.canonical.verse",
+    "version": "1.0.0"
+  }
+}

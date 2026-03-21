@@ -1,0 +1,34 @@
+{
+  "uid": "bg.14.1",
+  "work": {
+    "corpus": "itihasa",
+    "text": "mahabharata",
+    "section": "bhisma-parva",
+    "subwork": "bhagavad-gita"
+  },
+  "location": {
+    "chapter": 14,
+    "verse": 1
+  },
+  "text": {
+    "script": "devanagari",
+    "content": "श्रीभगवानुवाच\nपरं भूय: प्रवक्ष्यामि ज्ञानानां ज्ञानमुत्तमम् । ‍‍ ॥\nयज्ज्ञात्वा मुनय: सर्वे परां सिद्धिमितो गता:\n॥ १ ॥"
+  },
+  "transliteration": {
+    "scheme": "iast",
+    "content": "śrībhagavānuvāca\nparaṃ bhūya: pravakṣyāmi jñānānāṃ jñānamuttamam | ‍‍ ||\nyajjñātvā munaya: sarve parāṃ siddhimito gatā:\n|| 1 ||"
+  },
+  "source": {
+    "pipeline": "bhagavad-gita",
+    "stage": "2.5",
+    "script": "s25_realign_iast_bg.py",
+    "script_version": "2.2.0",
+    "derived_from": [
+      "vedabase/raw-json/bg-14-01.json"
+    ]
+  },
+  "schema": {
+    "name": "vedic-library.canonical.verse",
+    "version": "1.0.0"
+  }
+}

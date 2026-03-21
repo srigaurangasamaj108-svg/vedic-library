@@ -1,0 +1,23 @@
+{
+  "uid": "bg.1.23.prabhupada.translation.en",
+  "editorial_unit_ref": {
+    "uid": "bg.1.23.prabhupada",
+    "schema": "vedic-library.editorial.unit",
+    "version": "1.0.0"
+  },
+  "translation": {
+    "language": "en",
+    "translator": "A. C. Bhaktivedanta Swami Prabhupāda",
+    "content": "Let me see those who have come here to fight, wishing to please the evil-minded son of Dhṛtarāṣṭra."
+  },
+  "source": {
+    "derived_from": "vedabase.io",
+    "normalized_file": "vedabase-bg-01-23.normalized.json",
+    "pipeline_stage": "migration.m2",
+    "script": "m2_migrate_translations.py"
+  },
+  "schema": {
+    "name": "vedic-library.derivative.translation",
+    "version": "2.0.0"
+  }
+}

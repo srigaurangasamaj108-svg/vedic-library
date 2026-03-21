@@ -1,0 +1,17 @@
+{
+  "schema": "vedic-library.exposition",
+  "schema_version": "1.0.0",
+  "uid": "bg.4.30.prabhupada.exposition",
+  "editorial_unit_ref": "bg.4.30.prabhupada",
+  "exposition": {
+    "type": "purport",
+    "language": "en",
+    "author": "A. C. Bhaktivedanta Swami Prabhupāda",
+    "content": "From the foregoing explanation of different types of sacrifice (namely sacrifice of one’s possessions, study of the\n\nVedas\n\nor philosophical doctrines, and performance of the\n\nyoga\n\nsystem), it is found that the common aim of all is to control the senses. Sense gratification is the root cause of material existence; therefore, unless and until one is situated on a platform apart from sense gratification, there is no chance of being elevated to the eternal platform of full knowledge, full bliss and full life. This platform is in the eternal atmosphere, or Brahman atmosphere. All the above-mentioned sacrifices help one to become cleansed of the sinful reactions of material existence. By this advancement in life, not only does one become happy and opulent in this life, but also, at the end, he enters into the eternal kingdom of God, either merging into the impersonal Brahman or associating with the Supreme Personality of Godhead, Kṛṣṇa."
+  },
+  "source": {
+    "edition": "Bhagavad-gītā As It Is",
+    "editor": "BBT",
+    "lineage": "Gaudiya Vaishnava"
+  }
+}

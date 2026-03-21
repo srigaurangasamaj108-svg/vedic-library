@@ -1,0 +1,34 @@
+{
+  "uid": "bg.12.17",
+  "work": {
+    "corpus": "itihasa",
+    "text": "mahabharata",
+    "section": "bhisma-parva",
+    "subwork": "bhagavad-gita"
+  },
+  "location": {
+    "chapter": 12,
+    "verse": 17
+  },
+  "text": {
+    "script": "devanagari",
+    "content": "यो न हृष्यति न द्वेष्टि न शोचति न काङ्‍क्षति ।\nश‍ुभाश‍ुभपरित्यागी भक्तिमान्य: स मे प्रिय:\n॥ १७ ॥"
+  },
+  "transliteration": {
+    "scheme": "iast",
+    "content": "yo na hṛṣyati na dveṣṭi na śocati na kāṅ‍kṣati |\nśa‍ubhāśa‍ubhaparityāgī bhaktimānya: sa me priya:\n|| 17 ||"
+  },
+  "source": {
+    "pipeline": "bhagavad-gita",
+    "stage": "2.5",
+    "script": "s25_realign_iast_bg.py",
+    "script_version": "2.2.0",
+    "derived_from": [
+      "vedabase/raw-json/bg-12-17.json"
+    ]
+  },
+  "schema": {
+    "name": "vedic-library.canonical.verse",
+    "version": "1.0.0"
+  }
+}

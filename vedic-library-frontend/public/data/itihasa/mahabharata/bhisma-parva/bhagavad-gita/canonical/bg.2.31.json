@@ -1,0 +1,34 @@
+{
+  "uid": "bg.2.31",
+  "work": {
+    "corpus": "itihasa",
+    "text": "mahabharata",
+    "section": "bhisma-parva",
+    "subwork": "bhagavad-gita"
+  },
+  "location": {
+    "chapter": 2,
+    "verse": 31
+  },
+  "text": {
+    "script": "devanagari",
+    "content": "स्वधर्ममपि चावेक्ष्य न विकम्पितुमर्हसि ।\nधर्म्याद्धि युद्धाच्छ्रेयोऽन्यत्क्षत्रियस्य न विद्यते\n॥ ३१ ॥"
+  },
+  "transliteration": {
+    "scheme": "iast",
+    "content": "svadharmamapi cāvekṣya na vikampitumarhasi |\ndharmyāddhi yuddhācchreyo'nyatkṣatriyasya na vidyate\n|| 31 ||"
+  },
+  "source": {
+    "pipeline": "bhagavad-gita",
+    "stage": "2.5",
+    "script": "s25_realign_iast_bg.py",
+    "script_version": "2.2.0",
+    "derived_from": [
+      "vedabase/raw-json/bg-02-31.json"
+    ]
+  },
+  "schema": {
+    "name": "vedic-library.canonical.verse",
+    "version": "1.0.0"
+  }
+}

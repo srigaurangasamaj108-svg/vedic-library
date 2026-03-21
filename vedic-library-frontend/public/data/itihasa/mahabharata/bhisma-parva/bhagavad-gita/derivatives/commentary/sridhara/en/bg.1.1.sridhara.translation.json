@@ -1,0 +1,16 @@
+{
+  "uid": "bg.1.1.sridhara.translation.en",
+
+  "commentary_ref": "bg.1.1.sridhara.commentary.sa",
+
+  "translation": {
+    "language": "en",
+    "translator": "Sample Translator",
+    "content": "Śrīdhara Svāmī explains that Kurukṣetra is called dharma-kṣetra because it is a sacred field where righteous actions are performed."
+  },
+
+  "schema": {
+    "name": "vedic-library.commentary.translation",
+    "version": "1.0.0"
+  }
+}
